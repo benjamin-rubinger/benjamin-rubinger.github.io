@@ -1,9 +1,19 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <script src="script/jquery-3.6.1.min.js"></script>
     <title>benjamin rubinger</title>
 </head>
 <body>
-<h3>benjamin rubinger</h3>
-<p>github page</p>
+    <h3>benjamin rubinger</h3>
+    <p class="only-paragraph">github page</p>
+    <script>
+        function initialize() {
+            $body.find("p.only-paragraph").text("modified by jquery");
+        }
+
+        const $body = $('body');
+        $(() => initialize());
+    </script>
 </body>
 </html>
