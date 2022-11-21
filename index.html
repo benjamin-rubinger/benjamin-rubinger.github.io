@@ -48,11 +48,9 @@
     <div>
         <div class="datetime-format"></div>
     </div>
-    <script type="module">
-        import { Temporal, Intl, toTemporalInstant } from './node_modules/@js-temporal/polyfill';
-        console.log("temporal now instant " + Temporal.Now.instant());
-    </script>
+    <script src="node-modules/@js-temporal/polyfill/dist/index.umd.js" />
     <script>
+        console.log("temporal now instant " + Temporal.Now.instant());
         function formatDateTime() {
             console.log("format date time");
         }
