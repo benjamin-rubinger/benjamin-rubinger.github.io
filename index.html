@@ -30,19 +30,40 @@
             color: lightgray;
             font-family: source_code_pro,monospace;
         }
+        capitalize {
+            text-transform: capitalize;
+        }
+        apostrophe {
+            display: none;
+        }
     </style>
     <title>benjamin rubinger</title>
 </head>
 <body>
     <h3>benjamin rubinger</h3>
     <p class="only-paragraph">github page</p>
+    <div>
+        <label for="datetime">choose a datetime</label><input id="datetime" class="datetime" type="datetime-local" />
+    </div>
+    <div>
+        <div class="datetime-format"></div>
+    </div>
+    <script type="module">
+        import { Temporal, Intl, toTemporalInstant } from './node_modules/@js-temporal/polyfill';
+        console.log("temporal now instant " + Temporal.Now.instant());
+    </script>
     <script>
+        function formatDateTime() {
+            console.log("format date time");
+        }
+
         function initialize() {
-            $body.find("p.only-paragraph").text("modified by jquery");
+            // $body.find("p.only-paragraph").text("modified by jquery");
         }
 
         const $body = $('body');
         $(() => initialize());
+        $body.on('input change', 'input.datetime', formatDateTime);
     </script>
 </body>
 </html>
