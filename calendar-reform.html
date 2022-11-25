@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link href="css/calendar-reform.css" rel="stylesheet" />
+    <link href="css/sundial.css" rel="stylesheet" />
+    <script src="script/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+            for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+            MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+        // Enabling the debug mode flag is useful during implementation,
+        // but it's recommended you remove it for production
+        mixpanel.init('a39d495d28bc9de73d6c5c3f9b591502', {debug: true});
+        mixpanel.track('visit', {
+            'source': 'calendar reform',
+        });
+    </script>
+    <title>choose your own calendar reform - benjamin rubinger</title>
+</head>
+<body class="dark">
+<div class="configuration">
+    <button class="dark">dark</button>
+    <button class="light">light</button>
+    <button class="capitalize">Capitalize</button>
+    <button class="apostrophes">apostrophe&apos;s</button>
+    <button class="bigger">bigger</button>
+    <button class="smaller">smaller</button>
+</div>
+<main>
+<article>
+    <h1><span class="capitalizable">c</span>hoose <span class="capitalizable">y</span>our <span class="capitalizable">o</span>wn <span class="capitalizable">c</span>alendar <span class="capitalizable">r</span>eform</h1>
+    <section id="introduction">
+    <h2><span class="capitalizable">i</span>ntroduction</h2>
+
+<section id="topic">
+    <h3><span class="capitalizable">t</span>opic</h3>
+    <p><span class="capitalizable">i</span> have a special interest in <a href="https://en.wikipedia.org/wiki/Futurist"><span class="capitalizable">f</span>uturism</a>, the idea that we can and will improve everything.</p>
+
+    <p><span class="capitalizable">t</span>oday<span class="apostrophe"></span>s topic is <a href="https://en.wikipedia.org/wiki/Calendar_reform"><span class="capitalizable">c</span>alendar <span class="capitalizable">r</span>eform</a>! <span class="capitalizable">w</span>e use a calendar to organize and communicate dates and times. <span class="capitalizable">i</span> am talking about things like</p>
+
+    <ul>
+        <li><time datetime="2022-10-21T11:14:05+0900">10/21/22 11:14:05 AM JST</time></li>
+        <li>next <span class="capitalizable">s</span>aturday at 8</li>
+    </ul>
+
+<p><span class="capitalizable">i</span> claim that
+<ol>
+    <li><span class="capitalizable">t</span>he current popular calendar is inefficient</li>
+    <li><span class="capitalizable">w</span>e can design better calendars</li>
+    <li><span class="capitalizable">w</span>e can adopt better calendars</li>
+    <li><span class="capitalizable">u</span>sing better calendars will improve our society</li>
+</ol>
+</p>
+
+    <p><span class="capitalizable">e</span>ven if you reject all calendar reforms, you will likely learn something by reading this. <span class="capitalizable">i</span> value your thoughtful feedback.</p>
+    <h4>how to give feedback</h4>
+    <p>i would love to hear from you. please use the <a href="https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions">github discussions</a> to give feedback :)</p>
+    </section>
+    <section id="what-is-a-calendar">
+        <h3><span class="capitalizable">w</span>hat is a calendar</h3>
+        <span class="capitalizable">a</span> <a href="https://en.wikipedia.org/wiki/Calendar">calendar</a> is a system to organize time, mainly in the unit of days. <span class="capitalizable">c</span>ommonly calendars group time into years, months, weeks and days. <span class="capitalizable">a</span> date describes a unique day within a particular calendar. <span class="capitalizable">c</span>alendars define a coordinate system and a date is a coordinate in that system. <span class="capitalizable">f</span>or example, 10/21/22 is the day i started writing about this topic according to our conventional calendar. <span class="capitalizable">a</span>ny change to a calendar that changes the meaning of the dates is a new calendar. <span class="capitalizable">m</span>y inclusive view of calendar reform includes the time of day as well as the date.
+    </section>
+        <section id="why-calendars">
+            <h3>why we need calendars</h3>
+            <p>humans need a calendar for many reasons, but two of the most important reasons are</p>
+            <ul>
+                <li>humans are <a href="https://en.wikipedia.org/wiki/Diurnality">diurnal</a> animals that have regular periods of activity and rest (days)</li>
+                <li>we need to track the seasons to be able to grow food to survive (years)</li>
+            </ul>
+            <p>in general calendars help with many human challenges.</p>
+            <ul>
+                <li>reliably measure and communicate how long something takes</li>
+                <li>set a timer to wake up at a particular time</li>
+                <li>use a date to talk about events in the past or the future</li>
+                <li>coordinate to meet at a specific time</li>
+            </ul>
+            <p>overall we use calendars to analyze, predict, plan and organize our activities by time. calendars are fundamental to modern daily life.</p>
+            <p>many different calendars are capable of meeting our needs. when you learn about multiple calendars, you can compare them. you can decide which calendar is</p>
+            <ul>
+                <li>easier to use</li>
+                <li>more accurate</li>
+                <li>easier to learn</li>
+            </ul>
+        </section>
+        <section id="the-motions-of-the-earth">
+            <h3>the motions of the earth</h3>
+            <p>humans generally live on a mostly spherical planet called earth which rotates and revolves relative to the sun. these motions of the earth are the reason why humans need a calendar.</p>
+
+            <p>rotation is similar to turning your head when you are standing near a light, the earths rotation causes sunlight to periodically hit every part of earths surface. half of the time a location on earths surface has sunlight (daytime) and half of the time a location gets less sunlight because the earth blocks the sun (nighttime). humans care about sunlight because we have a <a href="https://en.wikipedia.org/wiki/Circadian_rhythm">circadian rhythm</a>, a cycle of activity and rest that matches the cycle of visible sunlight.</p>
+
+            <p>the earth revolves around the sun, also called its <a href="https://en.wikipedia.org/wiki/Earth%27s_orbit">orbit</a>, the earth goes around the sun in pretty much a circle, even though the orbit is technically an ellipse.</p>
+
+            <p>the rotation of the earth is not perpendicular to the sun, it is tilted, the earths axis of rotation is ~23.4 degrees off of vertical. the combination of the earths orbit and the tilt of its axis of rotation changes the amount of sunlight that hits parts of the earth at different parts of the orbit, and this causes the seasons. seasons are changes to the weather, including higher and lower temperatures, and more and less rain. humans care about seasons. one reason to care about the seasons is that most of the food that we eat can only grow during specific seasons. if we do not correctly track the seasons then we can fail to grow food and starve. our current calendars work fine, so we will not starve because of our current calendars.</p>
+        </section>
+        <section id="what-calendar-do-we-use">
+            <h3>what calendar do we currently use</h3>
+            <p>the calendar in most common use today is a religious christian calendar called the <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">gregorian calendar</a>, introduced in 1582 ad october by the catholic pope gregory xiii. there are lots of other calendars besides the gregorian calendar, many of them in popular use. other calendars i will describe include the egyptian calendar, the chinese calendar, the islamic calendar, the hebrew calendar, the roman calendar, the julian calendar, the french revolutionary calendar, julian days, unix time, and star treks stardates.</p>
+        </section>
+        <section id="why-calendar-reform">
+            <h3>why we should do calendar reform</h3>
+            <p>there are no critical problems with the gregorian calendar, it is adequate. you can wake up every day, focus on other problems and use the gregorian calendar as-is.</p>
+
+            <p>even so, there are a lot of opportunities to improve on the gregorian calendar, to make a calendar that is easier to learn and easier to use. lets consider how things could be better. humanity has adopted calendar reforms many times before, and you are the beneficiary of previous calendar reforms. the sooner we adopt a better calendar, the more benefits we will accrue.</p>
+
+            <p>in the end i believe that the future will have a better calendar than the one we use today. i am curious what it will be. i have some suggestions and whether you agree with them or not, i welcome all improvements.</p>
+        </section>
+    </section>
+    <section id="parts-of-the-calendar">
+        <h2><span class="capitalizable">p</span>arts of the calendar and why we need them</h2>
+        <section id="years-and-why">
+            <h3>years and why we need them</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Year">year</a> is the time it takes for earth to cycle through all of the seasons and for the sun to return to the same place in the sky. we care about years because accurate years track the seasons, and seasons affect all of our outdoor activities, for example farming, which we need to survive.</p>
+        </section>
+        <section id="epoch">
+            <h3>epoch</h3>
+            <p>when we count anything, including years, we need to start from somewhere. the starting year of a calendar, which should be year 0, is called the <a href="https://en.wikipedia.org/wiki/Epoch">epoch</a>. in the gregorian calendar the epoch is 1 bc, 2022 years ago at the time of writing. we could choose a different epoch, a different year 0, for example we could choose the year 1970 ad instead. then the current year would be 52 because 2022 is 52 years after 1970.</p>
+        </section>
+        <section id="new-year-day">
+            <h3>new year day</h3>
+            <p>we must choose when one year ends and the next year begins. in the gregorian calendar the new year day is january 1. in the roman calendar, for example, the new year day was march 1.</p>
+        </section>
+        <section id="months-and-why">
+            <h3>months and why we need them</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Month">month</a> is a group of days that matches the length of the orbit of the moon around the earth, often measured from new moon to new moon. the <a href="https://en.wikipedia.org/wiki/Lunar_phase">phases of the moon</a> are</p>
+            <ul>
+                <li>new (the entire moon is dark)</li>
+                <li>waxing crescent</li>
+                <li>first quarter (the moon is half bright, half dark)</li>
+                <li>waxing gibbous</li>
+                <li>full (the entire moon is bright)</li>
+                <li>waning gibbous</li>
+                <li>last quarter (the moon is half dark, half bright)</li>
+                <li>waning crescent</li>
+                <li>new (the cycle repeats)</li>
+            </ul>
+            <p>the gregorian calendar has 12 months named (in english)</p>
+            <ul>
+                <li>january</li>
+                <li>february</li>
+                <li>march</li>
+                <li>april</li>
+                <li>may</li>
+                <li>june</li>
+                <li>july</li>
+                <li>august</li>
+                <li>september</li>
+                <li>october</li>
+                <li>november</li>
+                <li>december</li>
+            </ul>
+            <p>the months of the gregorian calendar do not accurately match the orbit of the moon. other calendars do accurately track the motion of the moon, such as the chinese calendar.</p>
+
+            <h4>why do we need months</h4>
+            <p>it is easy to see of the phase of the moon, you can look up at the sky at the appropriate times and there it is. it doesnt take any special equipment or calculation, you just need to be able to count to 30 (that is about how many days the moons orbit takes). many calendars use a group of 12 accurate lunar months to make a lunar year. the lunar year is close to the solar year, but is several days short, so these calendars can not stay synchronized with the seasons, but they are easy to operate. in my opinion months are not critical to our calendar.</p>
+        </section>
+        <section id="days-and-why">
+            <h3>days and why we need them</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Day">day</a> is the time it takes from one noon to the next, with sunset, midnight and sunrise in between. days are essential to human health and human activity because humans are diurnal animals, we have periods of activity and rest that match the amount of sunlight, which is what we track with the calendar unit of a day.
+            </p>
+        </section>
+        <section id="new-day-time">
+            <h3>new day time</h3>
+            <p>we need to choose the time of day when one day ends and the next day begins. in the gregorian calendar we change days at midnight. reasonable alternatives for the new day time are sunrise, midday and sunset.</p>
+        </section>
+        <section id="sundials">
+            <h3>sundials (not a part of a calendar)</h3>
+            <div class="sundial-space">
+                <div class="stars"></div>
+                <div class="sun star stellar-body"></div>
+                <div class="atmosphere stellar-body"></div>
+                <div class="earth-night stellar-body"></div>
+                <div class="earth-day stellar-body"></div>
+                <div class="shadow"></div>
+                <div class="indicator"></div>
+                <div class="sunrise">sunrise</div>
+                <div class="morning">morning</div>
+                <div class="midday">midday</div>
+                <div class="evening">evening</div>
+                <div class="sunset">sunset</div>
+                <div class="midnight">midnight</div>
+            </div>
+            <p>tracking time during a day was originally done using <a href="https://en.wikipedia.org/wiki/Sundial">sundials</a>. a sundial is a simple object that has a fixed indicator, such as a pole. a sundial can be as simple as a stick in the ground. the indicator casts a shadow that moves across the face of the sundial as the sun crosses the sky during the day. the indicators shadow sweeps across a half circle, a semicircle, in the direction that we call clockwise. the shadow appears at sunrise and is the longest, the shadow is the shortest at midday, then the shadow gets long again in the afternoon. the shadow disappears at sunset, when the earth blocks the light between the sun and the sundial again.</p>
+            <p><a href="https://www.youtube.com/watch?v=KK73S9I-6I8">time lapse video of sundial shadow moving</a></p>
+        </section>
+        <section id="hours-minutes-seconds">
+            <h3>hours, minutes and seconds, and why we need them</h3>
+            <p>hours, minutes and seconds are units we use to talk about time with smaller sizes than a day. a day has many hours, an hour has many minutes, and a minute has many seconds.</p>
+
+            <p>the gregorian calendar uses 24 hours in a day with two sets of 12 hours before and after noon, 60 minutes per hour and 60 seconds per minute. times with precision higher than a second use decimal parts of a second. some other calendars divide days into a different numbers of hours, minutes and seconds.</p>
+
+            <p>units smaller than a day are useful if you want to meet with someone, it helps to coordinate a precise time to meet so you can both arrive at about the same time, instead of one of you arriving and waiting for up to a day for the other person. we can use smaller units of time to talk about shorter events like running a footrace without using the comparatively large unit of a day.</p>
+            </p>
+        </section>
+        <section id="weeks-and-why">
+            <h3>weeks and why we need them</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Week">week</a> is a group of days used to organize work schedules. the gregorian calendar has a 7 day week because it is a christian calendar, the book of genesis describes that god created the world in six days and rested on the seventh. other calendars have different length weeks, such as 10 days. in my opinion weeks are not essential for a calendar.</p>
+        </section>
+        <section id="daylight-savings-time-and-why">
+            <h3>daylight savings time and why we need it</h3>
+            <p>ancient civilizations organized their activities around sunlight without the use of clocks, but once we developed clocks and created a rigid schedule, we found that there is a problem. if you start work at the same time each day by the clock, some parts of the year the start time is before the sun rises, too early. some parts of the year the start time is long after the sun rises, too late. one solution is to shift the calendar by one hour forward at one part of the year, then shift the calendar one hour back at another part of the year, so that the fixed working hours are better aligned with the sunlight hours. we call this biannual time shifting <a href="https://en.wikipedia.org/wiki/Daylight_saving_time">daylight savings time</a> and various regions have been practicing it since 1908 ad. most of the world does not need and does not observe daylight savings time.</p>
+        </section>
+        <section id="timezones-and-why">
+            <h3>timezones and why we need them</h3>
+            <p>sundials measure local time. when the sun is highest above that sundial, that is when that sundial indicates noon. if you have a second sundial located to the east or to the west, the time there is different from the time here. when your sundial indicates noon, the time on the opposite side of the earth is midnight. the time on the opposite side of the earth is 12 hours different from the time where you are. if we want to set everyones clocks so that the clocks chime noon when the sun is highest in the sky, then everyone would have a different time and we dont want that. we want as many people as possible to have the same time of day, so they can coordinate using synchronized clocks, and we want to minimize the difference between what the clock says and where the sun appears in the sky. our solution is <a href="https://en.wikipedia.org/wiki/Time_zone">time zones</a>. we created ~24 time zones, each zone is a stripe that goes from the north pole to the south pole. generally each time zone shifts the time by one hour so nobody will have a clock that is more than half an hour different from solar time. one hour time zones are large enough that probably all the people you want to meet are in the same time zone with you so you have synchronized clocks.</p>
+        </section>
+        <section id="international-date-line-and-why">
+            <h3>international date line and why we need it</h3>
+            <p>time zones have a side effect, which is the <a href="https://en.wikipedia.org/wiki/International_Date_Line">date line</a>. midnight is the new day time, when the current day becomes the next day. if it is noon where you are, on the opposite side of the earth it is midnight, which means that the hour of the day is not the only thing that changes between time zones, the date also changes in one timezone every hour. it is difficult enough to figure out what hour it is in another timezone, but you also sometimes have to deal with a different date. the date line is an unavoidable consequence of timezones.</p>
+        </section>
+    </section>
+    <section id="background">
+        <h2>background</h2>
+        <p>i attempt to explain the basis for everything i will propose later</p>
+        <section id="years-exactly">
+            <h3>what is a year exactly</h3>
+            <p>a year in the gregorian calendar is a solar year, also called a <a href="https://en.wikipedia.org/wiki/Tropical_year">tropical year</a>, equals ~365.2422 days, the earth goes through all the seasons and the sun reaches the same point in the sky again. the solar year is different from the <a href="https://en.wikipedia.org/wiki/Sidereal_year">sidereal year</a>, which is the time it takes for the earth to go around the sun once, equals one revolution, equals ~365.2564 days. the orbital period of the earth is not a constant, and many factors can cause it to change over time, such as asteroid impacts, sun activity and the gravity of other planets.</p>
+        </section>
+        <section id="seasons">
+            <h3>seasons</h3>
+            <section id="what-are-seasons">
+                <h4>what are seasons</h4>
+                <p>the earth is very close to a sphere and the earth spins on its axis about one rotation per day. the part of the earth that spins the fastest in the middle between the poles is called <a href="https://en.wikipedia.org/wiki/Equator">the equator</a>. everything above the equator is the half sphere called the northern hemisphere (hemisphere meaning half sphere), and everything below the equator is the southern hemisphere. there is no reason why we picked a particular direction as north, it just matters that we all agree which way we are calling north. the earths axis of rotation is ~23.4 degrees off of vertical relative to the sun, so as the earth revolves around the sun during a year, different parts of the earth get more and less sunlight causing the seasons. summer receives more sunlight and is hotter and winter receives less sunlight and is colder. the seasons are equal and opposite between the northern hemisphere and the southern hemisphere, so in the southern hemisphere it is cold when the northern hemisphere is hot, and the southern hemisphere is hot when the northern hemisphere is cold.</p>
+            </section>
+            <section id="four-seasons">
+                <h4>four seasons</h4>
+                <p>we commonly describe four seasons, winter, spring, summer and fall. fall is also called autumn. seasons are especially important for farming, because plants generally cant grow in the winter due to freezing temperatures, snow cover and short sunlight hours. often seeds are planted in the spring, then the plants grow during the spring, summer and fall, then the crops are harvested in the fall. an accurate calendar that tracks the seasons is a critical tool for farmers to grow food and feed all of us. each region has different weather conditions, such as the expected day of the last frost of the winter. if a farmer plants their seeds before the last frost, then there could be another frost and the plants could be frozen and die. if the farmer plants the seeds long after the last frost, the plants may not have enough time to grow to maturity before harvest time. tracking the seasons is important for many other activities besides farming, such as any activity that occurs outside.</p>
+
+                <h4><i>seasons are the main reason we have calendars and care about years.</i></h4>
+            </section>
+            <section id="global-seasons">
+                <h4>four seasons do not apply globally</h4>
+                <p>the concept of four seasons doesnt apply globally. in the egpytian calendar there are three seasons, relating to the regular changes in the nile river, the inundataion or flood season, the emergence or winter season and the low water or summer season. locations that are close to the equator receive similar amounts of sunlight year round, and do not experience four seasons. for example, you can grow and harvest cocoa year round in equatorial regions. in tropical regions the amount of sunlight is relatively consistent, but the weather patterns shift seasonally into a rainy season and a dry season, two seasons per year. in japan there is something of a combination, with the four conventional seasons and two rainy seasons for arguably six seasons per year.</p>
+            </section>
+            <section id="seasonality">
+                <h4>seasonality</h4>
+                <p>the farther away from the equator, the more extreme the seasons, meaning that there is more variation in the length of sunlight hours. in the <a href="https://en.wikipedia.org/wiki/Arctic_Circle">arctic circle</a> or the <a href="https://en.wikipedia.org/wiki/Antarctic_Circle">antarctic circle</a> near the axis of rotation for the earth called the poles, there are periods of continuous daytime and continuous nighttime. at the poles, there are six months of continuous daytime and six months of continuous nighttime, meaning one sunrise and one sunset per year.</p>
+            </section>
+            <section id="equinox-solstice-tropics">
+                <h4>equinox, solstice, tropics</h4>
+                <p>there is always a point on the surface of the earth that is closest to the sun, that point moves north and south over a year, back and forth. the moment when that point crosses the equator is called an <a href="https://en.wikipedia.org/wiki/Equinox">equinox</a>. a day on the equator during an equinox has 12 hours of daylight and 12 hours of night. there are two equinoxes per year, one when the sun crosses the equator going from the south to the north, and the other when the sun crosses the equator going from north to south. after each equinox, the sun continues in that direction until it reaches its most extreme point of the year in the north or the south, that is called a solstice and will be the longest or shortest day of the year in each hemisphere. so over a year there will be four events</p>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/December_solstice">southern solstice</a> (longest day of the year in the south, shortest day of the year in the north)</li>
+                    <li>equinox going north</li>
+                    <li><a href="https://en.wikipedia.org/wiki/June_solstice">northern solstice</a> (longest day of the year in the north, shortest day of the year in the south)</li>
+                    <li>equinox going south</li>
+                    <li>...</li>
+                </ul>
+                <p>the line that the sun reaches farthest north is called the <a href="https://en.wikipedia.org/wiki/Tropic_of_Cancer">tropic of cancer</a> and the line that the sun reaches farthest south is called the <a href="https://en.wikipedia.org/wiki/Tropic_of_Capricorn">tropic of capricorn</a>, both named after constellations of stars.</p>
+            </section>
+            <section id="seasonal-lag">
+                <h4>seasonal lag</h4>
+                <p>the longest day in a hemisphere means the most sunlight hours. the most sunlight hours would make that day the hottest day of the year, but the longest day of the year is not the hottest day of the year because of the thermal mass of the earth. this topic is called <a href="https://en.wikipedia.org/wiki/Seasonal_lag">seasonal lag</a>. the air, water and rock of the earth all absorb and hold onto the heat from the sun, so the surface temperature keeps rising each day after the longest day until the sunlight hours are shorter than the rate that the earth radiates the heat and the temperature starts decreasing. seasonal lag can be up to two months between the longest day and the highest temperatures or the shortest day and lowest temperatures.</p>
+            </section>
+        </section>
+        <section id="where-daylight-savings-time-is-useful">
+            <h3>where daylight savings time is useful</h3>
+            <p>calendars help people coordinate their activities based on the amount of sunlight. depending on the location, sunrise and sunset times can shift a little or a lot during a year. near the equator, sunlight hours dont change very much. at the north or the south pole, the sun rises and sets only once a year, so sunlight hours flip between 0 for half of the year and all of the time for half of the year. daylight savings time has no benefit near the equator or near the poles. daylight savings time has benefits in two bands of latitudes where the daylight hours shift enough to affect a fixed schedule but not too much. that is why daylight savings time is only adopted by parts of north america, europe, south america and australia.</p>
+        </section>
+        <section id="months-exactly">
+            <h3>what is a month exactly</h3>
+            <p>a month is a group of days created to match the orbital period of the moon around the earth, equals ~29.53 days. in order to stay synchronized with the day, months need to have a whole number of days, so calendars with accurate months will often sort of alternate between 29 and 30 days per month.</p>
+        </section>
+        <section id="days-exactly">
+            <h3>what is a day exactly</h3>
+            <p>a day the time it takes for the earth to complete slightly more than one rotation relative to the sun, also called a solar day when you want to distinguish different definitions of a day. a solar day is most easily measured from noon to noon and works out to 86400 seconds (60 seconds per minute * 60 minutes per hour * 24 hours = 86 400). why is a day slightly more than one rotation of earth? because the earth revolves 1 / ~365.2422 of the way around the sun during that day so the earth needs to rotate a little more than once for the same point to line up with the sun again. the time for exactly one rotation of earth is called a <a href="https://en.wikipedia.org/wiki/Sidereal_time#Sidereal_day">siderial day</a> and is about four minutes shorter than a solar day. the <a href="https://en.wikipedia.org/wiki/Earth%27s_rotation">earths rotation</a> is not a constant. the speed of earths rotation changes for several reasons including the moon, and is overall slowing down over time very slightly.</p>
+        </section>
+        <section id="seconds-exactly">
+            <h3>what is a second exactly</h3>
+            <p>the <a href="https://en.wikipedia.org/wiki/Second">second</a> is a unit in the metric system, it is reproducible using <a href="https://en.wikipedia.org/wiki/Caesium_standard">cesium clocks</a>. count 9 billion (9 192 631 770) hyperfine transitions of cesium 133 and that will take exactly one second as defined by the metric system. this definition was adopted in 1967 to replace definitions based on the movement of the earth relative to the sun. the problem with basing the metric system on the motion of the earth is that the earths rotation and revolution change, causing a shifting foundation for the metric system when the metric system prefers a solid foundation. the atomic clocks keep consistent time and when the motions of the earth shift enough one way or another out of sync from the atomic clocks we add a leap second to civil time to synchronize the atomic time with earths position. seconds are originally derived from days, where we arbitrarily split up the day into hours, minutes and seconds. now the metric system has anchored the duration of a second, and defines days from seconds.</p>
+        </section>
+        <section id="weeks-exactly">
+            <h3>what is a week exactly</h3>
+            <p>the gregorian calendar has seven day weeks with about four weeks per month. the english <a href="https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week">names of the days of the week</a> in the gregorian calendar are</p>
+
+            <p>name of the day of the week, origin of the name</p>
+            <ol>
+                <li>mon day, <a href="https://en.wikipedia.org/wiki/Moon">moon</a></li>
+                <li>tues day, norse god <a href="https://en.wikipedia.org/wiki/T%C3%BDr">tiw/tyr</a>, roman god <a href="https://en.wikipedia.org/wiki/Mars_(mythology)">mars</a></li>
+                <li>wednes day, norse god <a href="https://en.wikipedia.org/wiki/Odin">woden/odin</a>, roman god <a href="https://en.wikipedia.org/wiki/Mercury_(mythology)">mercury</a></li>
+                <li>thurs day, norse god <a href="https://en.wikipedia.org/wiki/Thor">thor</a>, roman god <a href="https://en.wikipedia.org/wiki/Jupiter_(mythology)">jupiter</a></li>
+                <li>fri day, norse god <a href="https://en.wikipedia.org/wiki/Frigg">frigg</a>, roman god <a href="https://en.wikipedia.org/wiki/Venus_(mythology)">venus</a></li>
+                <li>satur day, roman god <a href="https://en.wikipedia.org/wiki/Saturn_(mythology)">saturn</a></li>
+                <li>sun day, <a href="https://en.wikipedia.org/wiki/Sun">sun</a></li>
+
+            </ol>
+            <p>the work week starts on monday, the convention used to be that the new week day is sunday.</p>
+        </section>
+        <section id="lunar-calendars">
+            <h3>lunar calendars</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Lunar_calendar">lunar calendar</a> is a calendar system follows the moon with months that average ~29.53 days and usually uses 12 cycles of the moon for a ~354.36 day lunar year. the lunar year is close to a solar year, but it is ~10.88 days shorter. lunar calendars do not align with the solar year, so the lunar years shift through the seasons on a ~33 year cycle before looping back. the most popular lunar calendar is the <a href="https://en.wikipedia.org/wiki/Islamic_calendar">islamic calendar</a>.</p>
+        </section>
+        <section id="solar-calendars">
+            <h3>solar calendars</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Solar_calendar">solar calendar</a> is a calendar system that matches the apparent motion of the sun in the sky, one cycle equals one year equals ~365.2422 days. the common calendar that we use, the gregorian calendar, is a solar calendar. the months in a solar calendar dont line up with the moon but the days and seasons line up with motion of the sun relative to the earth. solar calendars need leap days in order to match the fractional number of days in a year.</p>
+        </section>
+        <section id="lunisolar-calendars">
+            <h3>lunisolar calendars</h3>
+            <p>a <a href="https://en.wikipedia.org/wiki/Lunisolar_calendar">lunisolar calendar</a> matches the movements of both the moon and the sun and reconciles their periods of motion. it keeps days aligned with the sun, months aligned with the moon, and seasons aligned with the year. the chinese calendar, the babylonian calendar and the hebrew calendar are examples of lunisolar calendars.</p>
+        </section>
+        <section id="leap-days">
+            <h3>leap days</h3>
+            <p>years take ~365.2422 days and calendars are usually organized by whole days. rounding down, a year is 365 days long. the process of a leap day adds an additional day called a leap day into a year, the 366th day of that year. the process is commonly called <a href="https://en.wikipedia.org/wiki/Leap_year">leap year</a> but what leap year means is a year with a leap day in it. a year without a leap day in it is called a <a href="https://en.wikipedia.org/wiki/Common_year">common year</a>. each year without a leap day shifts the position of the earth around the sun by about a quarter day in that calendar until we use a leap day to realign the calendar with the sun. leap days are added at the frequency that matches the fractional days in the solar year, or slightly less than once every four years. if you dont have any leap years at all, such as in the egpytian calendar, every year your calendar will shift about a quarter day, and the seasons of the calendar will slowly shift until they dont match the seasons caused by the sun. eventually the seasons will be reversed according to the calendar, and they will keep shifting until they come back to where you started making a ~1507 year cycle. if we want a solar calendar with whole days that follows the movements of the sun relative to the earth, we need to have leap days, and we need to have the right number of leap days, ~0.2422 per year.</p>
+        </section>
+        <section id="intercalation">
+            <h3>intercalation</h3>
+            <p>the process of adding an extra unit of time outside of the normal schedule of a calendar to keep the calendar synchronized is called <a href="https://en.wikipedia.org/wiki/Intercalation_(timekeeping)">intercalation</a>. for example, the egyptian calendar is 12 months of 30 days giving a 360 day year, but the calendar has years with 365 days to match the solar year. the egyptian calendar adds 5 days that are not part of any month and those additional days are an example of intercalation.</p>
+        </section>
+        <section id="leap-months-and-the-metonic-cycle">
+            <h3>leap months and the metonic cycle</h3>
+            <p>lunisolar calendars stay in sync with both the sun and the moon. you cant add a leap day to a lunisolar calendar because then the months would be out of sync with the moon. the lunar year is ~10.88 days shorter than the solar year, so after 3 lunar years the lunisolar calendar is ~32.64 days behind the earths orbit. instead of adding a leap day, lunisolar calendars add an entire <a href="https://en.wikipedia.org/wiki/Intercalation_(timekeeping)#Lunisolar_calendars">leap month</a>, a 13th lunar month to the year. the frequency of leap months should be every ~2.71 lunar years (~29.53 / ~10.88 = ~2.71). an ancient greek named meton from athens observed that a 19 year cycle with a leap month added in years 3, 6, 8, 11, 14, 17 and 19 is close to the right ratio (19 / 7 = ~2.71). this cycle is called the <a href="https://en.wikipedia.org/wiki/Metonic_cycle">metonic cycle</a>, and was applied in many lunisolar calendars including the babylonian, hebrew, greek, early roman, celtic and others. the metonic cycle is so cool it was used to create runic staffs that work as lunisolar calendars to track the seasons.</p>
+        </section>
+        <section id="sexagesimal-time">
+            <h3>conventional time, sexagesimal time</h3>
+            <p>time of day is conventionally grouped into 24 hours, usually 12 hours before noon (ante meridiem, am) and 12 hours after noon (post meridiem, pm). an hour is split into 60 minutes, and a minute is split into 60 seconds. the metric system groups numbers by 10s, also called base 10, also called decimal, such as 1, 10, 100, 1000. grouping numbers by 12 is called duodecimal, and grouping numbers by 60 is called sexagesimal. so we currently use sexagesimal time.</p>
+
+            <p>the use of the sundial and duodecimal gave us 12 daylight hours, and then doubling the daylight hours for nighttime gave us two 12 hour periods for a total of 24 hours a day. the use of sexagesimal time for minutes and seconds was introduced by <a href="https://en.wikipedia.org/wiki/Al-Biruni">al biruni</a>, an iranian scholar around the year 1000 ad.</p>
+        </section>
+        <section id="decimal-time">
+            <h3>decimal time</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Decimal_time">decimal time</a> is the idea that instead of breaking up a day into groups of 12 or 60, we should break the day up by groups of 10 and then the time of day can be described by one decimal number. the simplest example is that midday should be 0.5 of a day instead of 12 pm. one way to break up the day with powers of 10 is to have 10 decimal hours, each decimal hour with 100 decimal minutes, and each decimal minute with 100 decimal seconds. if we compare sexagesimal time with decimal time, there are 86400 seconds in a sexagesimal day and 100 000 decimal seconds in a decimal day. the length of a decimal second is not the same as a sexagesimal second, but they are similar</p>
+            <ul>
+                <li>1 decimal second = ~0.8 sexagesimal seconds</li>
+                <li>1 sexagesiaml second = ~1.16 decimal seconds</li>
+                <li>decimal seconds are 13.6% faster than sexagesimal seconds</li>
+            </ul>
+                <p>if we write out a sexagesimal time the conventional way it looks like this</p>
+
+<pre>
+10/21/2022 11:14:05 AM
+           hour 11 out of 12 hours in the morning
+              minute 14 out of 60 minutes per hour
+                 second 5 out of 60 seconds per minute
+                    before noon indicator
+</pre>
+
+            <p>in decimal time this could be written as</p>
+
+<pre>
+2022 291.46811
+         hour 4 out of a 10 decimal hours per day
+          minute 68 out of 100 decimal minutes per hour
+            second 11 out of 100 decimal seconds per minute
+</pre>
+            <p>the decimal time is shorter and has a simpler structure than sexagesimal time, but it might look confusing to you because you might have never seen decimal time before. of course if you are familiar with sexagesimal time and unfamiliar with decimal time, sexagesimal time will be easy for you to understand and decimal time will be confusing for you. but that is not a fair comparison. a fair comparison is how easy or hard each system is to use if you have equal experience with each.</p>
+
+            <p>if you dont like dealing with tiny fractions of a number, you can shift the decimal point over and write times in terms of seconds instead of days. an entire decimal day is 100 000 seconds, so the time of day i wrote above could equally be written as 46 811 seconds, no decimal point needed. no matter how you structure it, if you want to describe a time precisely then it requires several digits. if you want to describe the time less precisely you can use fewer digits, for example if you wanted to round the number of seconds to 47k.</p>
+
+            <p>decimal time requires fewer digits in total than sexagesimal time because all the parts of the time are powers of 10. one central claim of the metric system is that using units that are all powers of 10 is easier to work with than units mixing different number bases such as 12 and 60.</p>
+        </section>
+        <section id="epochs-and-eras">
+            <h3>more about epoch and eras</h3>
+            <p>if we count years in a calendar, we have to choose a year to start counting from, a year zero. in the gregorian calendar, this is claimed to be the year of the birth of jesus in 1 bc. other calendars choose an epoch based on the year of the creation of the world, the year of the birth of a leader or the year of the formation of a country or government.</p>
+
+            <p>there are some calendars that use <a href="https://en.wikipedia.org/wiki/Regnal_year">eras</a>. in an era system, each consecutive ruler is defined as their own era with their own year one or year zero, and the current year is the offset from the current era. to understand a date many years in the past requires knowledge of the eras between now and the given date, you have to know how long each era was to calculate the number of years between now and the given date. eras have an advantage of usually having a small year number, eras have a disadvantage of making year numbers in different eras incomparable without detailed era knowledge.</p>
+        </section>
+        <section id="the-timezone-map">
+            <h3>more about timezones and the timezone map</h3>
+            <p>timezones help us set our clocks close to the solar time while allowing large groups of people to synchronize their clocks to make coordination easier. you dont want a timezone line to go through a large human settlement, because it is inconvenient for people in one part of town to be in a different timezone than another part of town. if you cross the timezone line many times during your day then your time will shift by one hour back and forth. any simple way of drawing the timezone lines will draw the line through the middle of a large human settlement. large human settlements avoid this problem by making deviations in the time zone line so that the entire settlement is in one time zone. this is convenient for the people in that settlement, but when every large human settlement near a time zone line does this, it causes the definition of the timezone lines to become very complex. instead of a simple rule like we have for every other part of our calendar, the <a href="https://en.wikipedia.org/wiki/Time_zone#/media/File:World_Time_Zones_Map.png">timezone map</a> is a complex political map. not only is the timezone map complex, the timezone map changes frequently. the simple idea of 24 stripes is laughable in the face of the real timezone map where timezone lines follow rivers. one notable case is the country of china which has only one time zone even though its territory extends across 5 time zone stripes. software has to use the timezone map to try to figure out what day and time it is at a given location.</p>
+        </section>
+        <section id="gmt-and-utc">
+            <h3>greenwich mean time, gmt, coordinated universal time, utc</h3>
+            <p>greenwich is a town in the southeast of london, england. greenwich has an observatory that was established in 1675 ad to use astronomy to solve the problem of <a href="https://en.wikipedia.org/wiki/History_of_longitude">determining longitude</a> when travelling at sea, commonly phrased as the question where are we now? anyone who has travelled without gps knows this feeling. britain was a naval power and had a special interest in being able to reliably navigate the oceans. several european countries including britain offered prizes for a solution to the longitude problem at that time. two solutions were found, and one of them was to use an accurate clock and some observations of the stars to determine the longitude. the greenwich observatory was then used to keep accurate time by precisely measuring midday. starting in 1833 the observatory communicated the time by dropping a large time ball down a high pole every day so that nearby ships could synchronize their clocks (called chronometers) to it.</p>
+
+            <p>towns in england kept their own time of day before the introduction of railways. when railways needed to keep tighter timetables in 1848, the railways standardized on the greenwich time, which then became the standard time across england and nearby territories.</p>
+
+            <p>the greenwich observatory could observe precise local time, but real world irregularities of the motion of the earth would cause the solar time to disagree with the accurate mechanical clocks by up to 16 minutes faster or slower at different parts of the year. instead of reporting the irregular solar time, the astronomers used the solar time to keep their clocks accurate and reported the average time, they call it the mean time. that is how we got gmt, <a href="https://en.wikipedia.org/wiki/Greenwich_Mean_Time">greenwich mean time</a>.</p>
+
+            <p>in 1851 ships started determining their longitude in reference to the greenwich observatory, and in 1884 there was international standardization of the greenwich observatory as the reference longitude, also called the prime meridian, the definition of 0 degrees longitude. the same conference established that the universal day would have the new day time be midnight at greenwich mean time. in 1924 greenwich started transmitting the time via radio by the british broadcasting corporation. astronomers used midday to calibrate their clocks and had been using midday as the new day time. that was also convenient for looking at the stars at night, because all the observations overnight would be in the same calendar day. in 1928 universal time was established using gmt as the time and using midnight as the new day time. in 1955 the atomic clock was invented and atomic clocks keep amazingly consistent time. by 1960 several institutions operated their own atomic clocks and broadcast timing signals, so these institutions worked together to synchronize and coordinate their timing signals into <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">coordinated universal time</a>. we abbreviate coordinated universal time as utc because of the french.</p>
+        </section>
+        <section id="leap-seconds">
+            <h3>leap seconds</h3>
+            <p>the atomic clocks keep regular time, and the motions of the earth are not constant. since 1972, when the time observed by the motion of the earth differs from the time kept by the atomic clocks by too much, meaning the difference is going to exceed 0.9 seconds, a committee has a meeting and decides to add a <a href="https://en.wikipedia.org/wiki/Leap_second">leap second</a> to utc. there have been 27 leap seconds so far, and the schedule to add them is irregular, which makes dealing with them difficult.</p>
+        </section>
+        <section id="formatting-dates-and-times">
+            <h3>formatting dates and times</h3>
+            <p>?</p>
+        </section>
+        <section id="24-hour-time">
+            <h3>24 hour time, military time</h3>
+            <p>communicating datetimes is a matter of life and death in the military and several other professions such as aviation, and the common way of talking about time is error-prone. the military developed what we call <a href="https://en.wikipedia.org/wiki/24-hour_clock#Military_time">military time</a> in the united states, it uses 24 hour time instead of 12 hour time with am and pm. military time also requires all leading zeros and skips the colon separator. to be explicit, military time is not in decimal, it is still in sexagesimal, it just skips the colon separator. military time assigned letters to the timezones, the most common one is utc which was assigned the letter z. when communicating letters over a military radio there are special words for each letter, like alpha for a and bravo for b. the word for z is zulu, so utc is called zulu time in military time. examples of military time</p>
+            <p>5:43 am</p>
+            <p>0543z, zero five four three hours zulu</p>
+            <br />
+            <p>5:43 pm</p>
+            <p>1743z, seventeen forty-three hours zulu, or one seven four three hours zulu</p>
+            <br />
+            <p>12 pm, noon</p>
+            <p>1200z, twelve hundred hours zulu</p>
+            <br />
+            <p>12 am, midnight</p>
+            <p>0000z (optionally 2400z if the context is an end time), zero hundred hours zulu</p>
+        </section>
+        <section id="iso-8601">
+            <h3>iso 8601</h3>
+            <p>many regions have <a href="https://xkcd.com/1179/">different conventions</a> for how they write dates and times, so it is difficult to communicate dates and times across regions. <a href="https://en.wikipedia.org/wiki/ISO_8601">iso 8601</a> is an international standard developed to help communicate gregorian dates and times. the first version of iso 8601 was published in 1988. people usually prefer to read dates using their regional format, so iso 8601 formatted dates are usually used by the software, and then the date is reformatted to display to the customer. iso 8601 takes the reasonable approach that datetimes should be written in the order of units from biggest to smallest, just like we write numbers. the order is year, month, day, hour, minute, second. the timezone goes last, even though it can shift the datetime by up to a day? date parts are separated by dashes, and time parts are separated by colons. the hours use 24 hour time. the timezone is the hour and minute offset from utc. the standard allows you to describe less precise datetimes by skipping all the parts you dont have, so 2022 is a valid iso 8610 datetime, where the month, day, hour, minute and second are all assumed to be their minimum value such as zero. example of a full iso 8601 formatted datetime</p>
+
+<pre>
+2022-10-21T11:14:05.331664+09:00
+year 2022
+     month 10, october
+        day of month 21
+          T means the time separator
+           hour 11 out of the range 0 - 23
+              minute 14
+                 second 05
+                   fraction of a second 0.331664
+                          timezone +09:00, add 9 hours to utc, also called japan standard time
+</pre></p>
+        </section>
+    </section>
+    <section id="history-of-calendars">
+        <h2>history of calendars leading up to the gregorian calendar and my proposals</h2>
+        <section id="before-calendars">
+            <h3>how did people track time before calendars or clocks</h3>
+            <p>you can do very well tracking time with a couple sticks of wood or a runic staff.</p>
+
+            <p>use one stick to keep a tally. a tally is a very simple way of writing numbers by making vertical marks like |||| meaning the number 4. start counting days in your tally from when you see a new moon. after 29 or 30 days the moon should be new again, you can look up at the sky to check, and reset your tally. that is one lunar cycle. keep a second tally to count the lunar cycles. after 12 lunar cycles a lunar year has passed and you can reset the lunar cycle count. every three lunar years add an extra lunar month to your lunar year and you are effectively implementing a lunisolar calendar with a stick.</p>
+
+            <p>put the other stick in the ground pointing up and use it as a sundial. you can make marks on the ground where sunrise, sunset, and noon shadows were the previous day and can use it to track daytime.</p>
+        </section>
+        <section id="early-calendars">
+            <h3>early calendars</h3>
+            <p>one of the earliest known calendars is the sumerian calendar, which is a lunar calendar. the persians developed a solar calendar. the babylonians developed a lunisolar calendar.</p>
+        </section>
+        <section id="egyptian-calendar">
+            <h3>egyptian calendar</h3>
+            <p>the egyptians developed a 365 day solar calendar around 2450 bc. the egyptian calendar is exactly 365 days, using 12 months with 30 days each for 360 days and then the extra 5 days (intercalation). each month in the egpytian calendar has three weeks of ten days per week. the egyptian calendar uses a year, month, day format for dates. it lacked a leap year, so it slowly cycled through the seasons by shifting ~0.2422 days per year. the egpytians tried to add leap years to their calendar with the <a href="https://en.wikipedia.org/wiki/Decree_of_Canopus">decree of canopus</a> in 238 bc but the reform was rejected. augustus ceasar was able to add a leap day in 25 bc, creating the alexandrian calendar / coptic calendar.</p>
+        </section>
+        <section id="roman-calendar">
+            <h3>roman calendar</h3>
+            <p>in greek and roman history there were several calendars. the original roman calendar is a lunar calendar with ten months. the new year day is in march. the original roman months are</p>
+            <p>english name, latin name, description</p>
+            <ol>
+                <li>march, martius, god of mars</li>
+                <li>april, aprilis, aperio, to open</li>
+                <li>may, maius, more</li>
+                <li>june, iunius, young</li>
+                <li>(explained later), quintilis, quin, latin prefix for the number five, eg quintuplets is five babies</li>
+                <li>(explained later), sextilis, sext, latin prefix for the number six, eg sextuplets are six babies</li>
+                <li>september, september, sept, latin prefix for the number seven, eg a septuagenarian is a person whose age is in their seventies</li>
+                <li>october, october, oct, latin prefix for the number eight, eg an octopus has eight legs</li>
+                <li>november, november, nona, latin prefix for the number nine, eg a nonagenarian is a person whose age is in their nineties</li>
+                <li>december, december, deca, latin prefix for the number ten, eg decimal numbers each digit can be any of ten numbers 0 - 9</li>
+            </ol>
+
+            <p>the months of january and february were supposedly added to the roman calendar by the second roman king numa in ~672 bc, expanding the roman calendar from 10 months to 12 months and making all the months with number names wrong by two!!</p>
+            <ol>
+                <li>january, ianuarius, the god janus or the god juno</li>
+                <li>february, februarius, februum, latin for ritual of purification</li>
+                <li>march ...</li>
+            </ol>
+        </section>
+        <section id="julian-calendar">
+            <h3>julian calendar</h3>
+            <p>in 46 bc the roman emperor julius caesar returned to rome from visiting egpyt where among other things he learned about the egpytian calendar. julius instituted roman calendar reforms in 45 bc creating what is now called the julian calendar. the julian calendar combined the roman calendar with the egpytian calendar with additional improvements. the julian calendar is a solar calendar and has leap years. the julian calendar leap year is every four years, implying a year length of 365.25, which is off from ~365.2422.</p>
+
+            <p>the roman senate later renamed the month quintilis in honor of julius, and it became the month of julius -> july. they renamed sextilis after a later roman emperor augustus -> august. the roman senate renamed other months after other people but those names didnt stick.</p>
+        </section>
+
+    </section>
+    <div class="interactive">
+        <label for="date">choose a datetime</label>
+        <input id="date" class="date" type="date" />
+        <input id="time" class="time" type="time" step="1" />
+        <label for="timezone">timezone offset from utc</label>
+        <select id="timezone" class="timezone">
+            <option>-12:00</option>
+            <option>-11:00</option>
+            <option>-10:00</option>
+            <option>-09:30</option>
+            <option>-09:00</option>
+            <option>-08:00</option>
+            <option>-07:00</option>
+            <option>-06:00</option>
+            <option>-05:00</option>
+            <option>-04:00</option>
+            <option>-03:30</option>
+            <option>-03:00</option>
+            <option>-02:00</option>
+            <option>-01:00</option>
+            <option>+00:00</option>
+            <option>+01:00</option>
+            <option>+02:00</option>
+            <option>+03:00</option>
+            <option>+03:30</option>
+            <option>+04:00</option>
+            <option>+04:30</option>
+            <option>+05:00</option>
+            <option>+05:30</option>
+            <option>+05:45</option>
+            <option>+06:00</option>
+            <option>+06:30</option>
+            <option>+07:00</option>
+            <option>+08:00</option>
+            <option>+08:45</option>
+            <option>+09:00</option>
+            <option>+09:30</option>
+            <option>+10:00</option>
+            <option>+10:30</option>
+            <option>+11:00</option>
+            <option>+12:00</option>
+            <option>+12:45</option>
+            <option>+13:00</option>
+            <option>+14:00</option>
+        </select>
+        <button class="now">now</button>
+    </div>
+    <div class="datetime-formats">
+        <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
+        <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
+    </div>
+</article>
+<nav class="article">
+    <ul>
+        <li><a href="#introduction">introduction</a></li>
+        <ul>
+            <li><a href="#what-is-a-calendar">what is a calendar</a></li>
+        </ul>
+    </ul>
+</nav>
+</main>
+<script src="script/calendar-reform.js"></script>
+</body>
+</html>
