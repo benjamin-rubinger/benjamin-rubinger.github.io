@@ -27,6 +27,9 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+ul, ol {
+    margin-left: 1em;
+}
 main {
     /*display: grid;*/
     /*grid-template-columns: 1fr 20em;*/
@@ -52,7 +55,7 @@ main > nav {
 }
 nav ul {
     margin: 0;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 1em;
 }
 nav.article a {
     color: inherit;
@@ -102,4 +105,7 @@ button.bigger {
 }
 button.smaller {
     font-size: 10px;
+}
+div.calendar-data {
+    margin: 4em 0;
 }
