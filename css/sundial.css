@@ -5,12 +5,13 @@
     height: 400px;
     position: relative;
     border: 1px solid gray;
+    overflow: hidden;
 }
 .stellar-body {
     border-radius: 50%;
     position: absolute;
 }
-.star {
+.stars .star.sun {
     background-color: white;
 }
 .stars .star {
@@ -19,16 +20,12 @@
 .sun {
     width: 20px;
     height: 20px;
-    left: 190px;
+    left: 10px;
     top: 190px;
-    animation-name: geocentric;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 @keyframes geocentric {
-    from { transform: rotate(0deg) translateX(180px) rotate(0deg); }
-    to { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
 }
 .atmosphere {
     width: 250px;
@@ -44,21 +41,27 @@
     left: 100px;
     top: 100px;
 }
+.stars {
+    animation-name: geocentric;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 100%;
+    position: absolute;
+    transform-origin: center;
+    width: 100%;
+}
 .earth-day {
     background-color: lightgreen;
     width: 200px;
     height: 200px;
     left: 100px;
     top: 100px;
-    clip-path: content-box inset(200px 100px 200px 200px);
-    animation-name: earth-rotation;
+    clip-path: content-box inset(200px 200px 200px 100px);
+    animation-name: geocentric;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-@keyframes earth-rotation {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
 }
 .indicator {
     position: absolute;
@@ -82,12 +85,12 @@
     animation-timing-function: linear;
 }
 @keyframes shadow-sweep {
-    from { transform: rotate(0deg) scaleX(2); opacity: 0; }
-    49.5% { opacity: 0; }
-    50% { transform: rotate(180deg) scaleX(2); opacity: 1; }
-    75% { transform: rotate(270deg) scaleX(0.25); opacity: 1; }
-    99.5% { opacity: 1; }
-    to { transform: rotate(360deg) scaleX(2); opacity: 0; }
+    from { transform: rotate(180deg) scaleX(2); opacity: 0; }
+    0.5% { opacity: 1; }
+    25% { transform: rotate(270deg) scaleX(0.25); opacity: 1; }
+    49.5% { opacity: 1; }
+    50% { transform: rotate(360deg) scaleX(2); opacity: 0; }
+    to { transform: rotate(180deg) scaleX(2); opacity: 0; }
 }
 .sunrise {
     position: absolute;

@@ -105,7 +105,7 @@ function stars(n) {
 }
 
 function toggleSundial() {
-    const $sundialAnimations = $('.sundial-space .sun, .sundial-space .earth-day, .sundial-space .shadow');
+    const $sundialAnimations = $('.sundial-space .stars, .sundial-space .sun, .sundial-space .earth-day, .sundial-space .shadow');
     if ($sundialAnimations.css('animation-play-state') === 'running') {
         $sundialAnimations.css('animation-play-state', 'paused');
     } else {
@@ -305,7 +305,7 @@ function fetchLocal(calendarName) {
 function initialize() {
     setNow();
     stars(80);
-    toggleSundial();
+    // toggleSundial();
     generateNavigation();
     registerObservers();
     // fetchCalendarData('gregorian');
