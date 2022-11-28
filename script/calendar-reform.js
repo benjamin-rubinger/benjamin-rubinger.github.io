@@ -89,30 +89,6 @@ function setNow() {
     formatDateTime();
 }
 
-function stars(n) {
-    const $starSpace = $('.sundial-space .stars');
-    for (let i = 0; i < n; i++) {
-        const $star = $('<div>').addClass('stellar-body star star' + i);
-        const diameter = Math.floor((Math.random() * 4) + 1);
-        $star.css('width', diameter + 'px');
-        $star.css('height', diameter + 'px');
-        const left = Math.floor((Math.random() * (400 - (diameter * 2))) + diameter);
-        const top = Math.floor((Math.random() * (400 - (diameter * 2))) + diameter);
-        $star.css('left', left + 'px');
-        $star.css('top', top + 'px');
-        $starSpace.append($star);
-    }
-}
-
-function toggleSundial() {
-    const $sundialAnimations = $('.sundial-space .stars, .sundial-space .sun, .sundial-space .earth-day, .sundial-space .shadow');
-    if ($sundialAnimations.css('animation-play-state') === 'running') {
-        $sundialAnimations.css('animation-play-state', 'paused');
-    } else {
-        $sundialAnimations.css('animation-play-state', 'running');
-    }
-}
-
 function setDark() {
     $('body').addClass('dark').removeClass('light');
 }
@@ -304,21 +280,18 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     setNow();
-    stars(80);
-    // toggleSundial();
     generateNavigation();
     registerObservers();
     // fetchCalendarData('gregorian');
-    let gregorianData = fetchLocal('gregorian');
-    $('section#gregorian-calendar').append(renderCalendarData(gregorianData));
-    let egyptianData = fetchLocal('egyptian');
-    $('section#egyptian-calendar').append(renderCalendarData(egyptianData));
+    // let gregorianData = fetchLocal('gregorian');
+    // $('section#gregorian-calendar').append(renderCalendarData(gregorianData));
+    // let egyptianData = fetchLocal('egyptian');
+    // $('section#egyptian-calendar').append(renderCalendarData(egyptianData));
 }
 
 const $body = $('body');
 $(() => initialize());
 $body.on('input change', 'input.date, input.time, select.timezone', formatDateTime);
-$body.on('click', '.sundial-space', toggleSundial);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
 $body.on('click', 'button.light', setLight);
