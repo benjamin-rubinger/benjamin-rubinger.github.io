@@ -359,7 +359,7 @@ html {
 .major-circle {
     border-bottom: 1px solid white;
     margin-bottom: -1px;
-    transform: translateZ(0);
+    /*transform: translateZ(0);*/
 }
 
 .arctic-circle {
