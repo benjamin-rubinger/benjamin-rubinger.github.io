@@ -88,7 +88,7 @@ html {
     height: 200px;
     left: 100px;
     top: 100px;
-    clip-path: content-box inset(200px 200px 200px 100px);
+    clip-path: inset(0px 100px 0px 0px);
     animation-name: rotation;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -617,7 +617,7 @@ html {
 }
 
 .moon-dark.left {
-    clip-path: content-box inset(200px 200px 200px 100px);
+    clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-dark-left;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -631,7 +631,7 @@ html {
 }
 
 .moon-light.left {
-    clip-path: content-box inset(200px 200px 200px 100px);
+    clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-light-left;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -646,7 +646,7 @@ html {
 }
 
 .moon-dark.right {
-    clip-path: content-box inset(200px 100px 200px 200px);
+    clip-path: inset(0px 100px 0px 0px);
     animation-name: phases-dark-right;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -660,7 +660,7 @@ html {
 }
 
 .moon-light.right {
-    clip-path: content-box inset(200px 100px 200px 200px);
+    clip-path: inset(0px 100px 0px 0px);
     animation-name: phases-light-right;
     animation-duration: 20s;
     animation-iteration-count: infinite;
