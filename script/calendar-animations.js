@@ -33,6 +33,7 @@ function toggleAnimation($animationContainer) {
 
 function initializeAnimations() {
     stars(120, '.animation-container');
+    // toggleAnimation($('.animation-container'));
 }
 
 const $animationsBody = $('body');

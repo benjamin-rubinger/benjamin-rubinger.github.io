@@ -63,7 +63,7 @@ html {
     height: 250px;
     left: 75px;
     top: 75px;
-    background-image: radial-gradient(blue 0%, transparent 100%);
+    background-image: radial-gradient(#4444ff, #4444ff, #4444ff, transparent, transparent);
 }
 .earth-night {
     background-color: darkgreen;
@@ -72,16 +72,6 @@ html {
     left: 100px;
     top: 100px;
 }
-/*.stars {*/
-/*    animation-name: rotation;*/
-/*    animation-duration: 20s;*/
-/*    animation-iteration-count: infinite;*/
-/*    animation-timing-function: linear;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    transform-origin: center;*/
-/*    width: 100%;*/
-/*}*/
 .earth-day {
     background-color: lightgreen;
     width: 200px;
@@ -124,32 +114,26 @@ html {
     to { transform: rotate(180deg) scaleX(2); opacity: 0; }
 }
 .sunrise {
-    position: absolute;
     left: 10px;
     top: 190px;
 }
 .morning {
-    position: absolute;
     left: 25px;
     top: 75px;
 }
 .midday {
-    position: absolute;
     left: 200px;
     top: 10px;
 }
 .evening {
-    position: absolute;
     right: 10px;
     top: 75px;
 }
 .sunset {
-    position: absolute;
     right: 10px;
     top: 190px;
 }
 .midnight {
-    position: absolute;
     left: 200px;
     bottom: 10px;
 }
@@ -359,7 +343,7 @@ html {
 .major-circle {
     border-bottom: 1px solid white;
     margin-bottom: -1px;
-    /*transform: translateZ(0);*/
+    transform: translateZ(0);
 }
 
 .arctic-circle {
@@ -780,4 +764,384 @@ html {
     93.25% { opacity: 1; }
     93.75% { opacity: 0; }
     to { opacity: 0; }
+}
+
+.earth-rotation .stars, .earth-rotation .earth-day {
+    animation-name: none;
+}
+
+/* background grid based on https://projects.verou.me/css3patterns/#blueprint-grid */
+.earth-rotation .position-container {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    overflow: hidden;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+/*.earth-rotation .position-indicator {*/
+/*    background-color: white;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    position: absolute;*/
+/*    top: 85px;*/
+/*    left: -15px;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+.earth-revolution .stars {
+    animation-name: none;
+}
+
+.earth-revolution .sun {
+    width: 20px;
+    height: 20px;
+    left: 190px;
+    top: 190px;
+    background-color: white;
+}
+.earth-revolution .earth-orbit {
+    position: absolute;
+    outline: 2px dashed gray;
+    left: 60px;
+    top: 60px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+.earth-revolution .earth-orbit-container {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 280px;
+    height: 280px;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-revolution .earth-container {
+    width: 80px;
+    height: 80px;
+    left: -40px;
+    top: 100px;
+    animation-name: anti-tilt-rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-revolution .atmosphere {
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: -10px;
+    background-image: radial-gradient(#4444ff, #4444ff, #4444ff, transparent, transparent);
+    position: absolute;
+}
+.earth-revolution .earth-night {
+    width: 100%;
+    height: 100%;
+    background-color: darkgreen;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.earth-revolution .earth-day {
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: none;
+    clip-path: inset(0px 0px 0px 40px);
+}
+
+.timezone-container {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+
+.timezone-container .timezone {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.timezone.prime {
+    top: 99px;
+    border-bottom: 4px solid white;
+}
+.timezone.one {
+    transform: rotate(7.5deg);
+}
+.timezone.two {
+    transform: rotate(22.5deg);
+}
+.timezone.three {
+    transform: rotate(37.5deg);
+}
+.timezone.four {
+    transform: rotate(52.5deg);
+}
+.timezone.five {
+    transform: rotate(67.5deg);
+}
+.timezone.six {
+    transform: rotate(82.5deg);
+}
+.timezone.seven {
+    transform: rotate(97.5deg);
+}
+.timezone.eight {
+    transform: rotate(112.5deg);
+}
+.timezone.nine {
+    transform: rotate(127.5deg);
+}
+.timezone.ten {
+    transform: rotate(142.5deg);
+}
+.timezone.eleven {
+    transform: rotate(157.5deg);
+}
+.timezone.twelve {
+    transform: rotate(172.5deg);
+}
+
+.time-labels {
+    animation-name: twentyfour-stop-rotation;
+    animation-duration: 40s;
+    animation-delay: -0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+.time-labels .label {
+    position: absolute;
+    animation-name: twentyfour-anti-rotation;
+    animation-duration: 40s;
+    animation-delay: -0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.timezones .earth-day, .timezones .stars {
+    /*animation-name: none;*/
+    animation-duration: 40s;
+}
+
+.time-labels .label.zero {
+    left: 214px;
+    top: 87px;
+}
+.time-labels .label.one {
+    left: 210px;
+    top: 55px;
+}
+.time-labels .label.two {
+    left: 200px;
+    top: 25px;
+}
+.time-labels .label.three {
+    left: 178px;
+    top: 0;
+}
+.time-labels .label.four {
+    left: 153px;
+    top: -18px;
+}
+.time-labels .label.five {
+    left: 125px;
+    top: -28px;
+}
+.time-labels .label.six {
+    left: 95px;
+    top: -30px;
+}
+.time-labels .label.seven {
+    left: 65px;
+    top: -28px;
+}
+.time-labels .label.eight {
+    left: 37px;
+    top: -18px;
+}
+.time-labels .label.nine {
+    left: 12px;
+    top: 0;
+}
+.time-labels .label.ten {
+    left: -18px;
+    top: 25px;
+}
+.time-labels .label.eleven {
+    left: -28px;
+    top: 55px;
+}
+.time-labels .label.twelve {
+    left: -30px;
+    top: 87px;
+}
+.time-labels .label.thirteen {
+    left: -28px;
+    top: 119px;
+}
+.time-labels .label.fourteen {
+    left: -18px;
+    top: 147px;
+}
+.time-labels .label.fifteen {
+    left: 0;
+    top: 172px;
+}
+.time-labels .label.sixteen {
+    left: 27px;
+    top: 190px;
+}
+.time-labels .label.seventeen {
+    left: 56px;
+    top: 200px;
+}
+.time-labels .label.eighteen {
+    left: 87px;
+    top: 204px;
+}
+.time-labels .label.nineteen {
+    left: 119px;
+    top: 200px;
+}
+.time-labels .label.twenty {
+    left: 149px;
+    top: 191px;
+}
+.time-labels .label.twentyone {
+    left: 173px;
+    top: 173px;
+}
+.time-labels .label.twentytwo {
+    left: 195px;
+    top: 146px;
+}
+.time-labels .label.twentythree {
+    left: 210px;
+    top: 119px;
+}
+
+@keyframes twentyfour-stop-rotation {
+    from { transform: rotate(0deg) }
+    4.16% { transform: rotate(0deg) }
+    4.17% { transform: rotate(15deg) }
+    8.32% { transform: rotate(15deg) }
+    8.33% { transform: rotate(30deg) }
+    12.49% { transform: rotate(30deg) }
+    12.5% { transform: rotate(45deg) }
+    16.66% { transform: rotate(45deg) }
+    16.67% { transform: rotate(60deg) }
+    20.82% { transform: rotate(60deg) }
+    20.83% { transform: rotate(75deg) }
+    24.99% { transform: rotate(75deg) }
+    25% { transform: rotate(90deg) }
+    29.16% { transform: rotate(90deg) }
+    29.17% { transform: rotate(105deg) }
+    33.32% { transform: rotate(105deg) }
+    33.33% { transform: rotate(120deg) }
+    37.49% { transform: rotate(120deg) }
+    37.5% { transform: rotate(135deg) }
+    41.66% { transform: rotate(135deg) }
+    41.67% { transform: rotate(150deg) }
+    45.82% { transform: rotate(150deg) }
+    45.83% { transform: rotate(165deg) }
+    49.99% { transform: rotate(165deg) }
+    50% { transform: rotate(180deg) }
+    54.16% { transform: rotate(180deg) }
+    54.17% { transform: rotate(195deg) }
+    58.32% { transform: rotate(195deg) }
+    58.33% { transform: rotate(210deg) }
+    62.49% { transform: rotate(210deg) }
+    62.5% { transform: rotate(225deg) }
+    66.66% { transform: rotate(225deg) }
+    66.67% { transform: rotate(240deg) }
+    70.82% { transform: rotate(240deg) }
+    70.83% { transform: rotate(255deg) }
+    74.99% { transform: rotate(255deg) }
+    75% { transform: rotate(270deg) }
+    79.16% { transform: rotate(270deg) }
+    79.17% { transform: rotate(285deg) }
+    83.32% { transform: rotate(285deg) }
+    83.33% { transform: rotate(300deg) }
+    87.49% { transform: rotate(300deg) }
+    87.5% { transform: rotate(315deg) }
+    91.66% { transform: rotate(315deg) }
+    91.67% { transform: rotate(330deg) }
+    95.82% { transform: rotate(330deg) }
+    95.83% { transform: rotate(345deg) }
+    99.99% { transform: rotate(345deg) }
+    to { transform: rotate(360deg) }
+}
+
+@keyframes twentyfour-anti-rotation {
+    from { transform: rotate(0deg) }
+    4.16% { transform: rotate(0deg) }
+    4.17% { transform: rotate(-15deg) }
+    8.32% { transform: rotate(-15deg) }
+    8.33% { transform: rotate(-30deg) }
+    12.49% { transform: rotate(-30deg) }
+    12.5% { transform: rotate(-45deg) }
+    16.66% { transform: rotate(-45deg) }
+    16.67% { transform: rotate(-60deg) }
+    20.82% { transform: rotate(-60deg) }
+    20.83% { transform: rotate(-75deg) }
+    24.99% { transform: rotate(-75deg) }
+    25% { transform: rotate(-90deg) }
+    29.16% { transform: rotate(-90deg) }
+    29.17% { transform: rotate(-105deg) }
+    33.32% { transform: rotate(-105deg) }
+    33.33% { transform: rotate(-120deg) }
+    37.49% { transform: rotate(-120deg) }
+    37.5% { transform: rotate(-135deg) }
+    41.66% { transform: rotate(-135deg) }
+    41.67% { transform: rotate(-150deg) }
+    45.82% { transform: rotate(-150deg) }
+    45.83% { transform: rotate(-165deg) }
+    49.99% { transform: rotate(-165deg) }
+    50% { transform: rotate(-180deg) }
+    54.16% { transform: rotate(-180deg) }
+    54.17% { transform: rotate(-195deg) }
+    58.32% { transform: rotate(-195deg) }
+    58.33% { transform: rotate(-210deg) }
+    62.49% { transform: rotate(-210deg) }
+    62.5% { transform: rotate(-225deg) }
+    66.66% { transform: rotate(-225deg) }
+    66.67% { transform: rotate(-240deg) }
+    70.82% { transform: rotate(-240deg) }
+    70.83% { transform: rotate(-255deg) }
+    74.99% { transform: rotate(-255deg) }
+    75% { transform: rotate(-270deg) }
+    79.16% { transform: rotate(-270deg) }
+    79.17% { transform: rotate(-285deg) }
+    83.32% { transform: rotate(-285deg) }
+    83.33% { transform: rotate(-300deg) }
+    87.49% { transform: rotate(-300deg) }
+    87.5% { transform: rotate(-315deg) }
+    91.66% { transform: rotate(-315deg) }
+    91.67% { transform: rotate(-330deg) }
+    95.82% { transform: rotate(-330deg) }
+    95.83% { transform: rotate(-345deg) }
+    99.99% { transform: rotate(-345deg) }
+    to { transform: rotate(-360deg) }
 }
