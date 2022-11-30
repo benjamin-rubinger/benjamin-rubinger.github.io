@@ -807,7 +807,7 @@ html {
 }
 .earth-revolution .earth-orbit {
     position: absolute;
-    outline: 2px dashed gray;
+    border: 2px dashed gray;
     left: 60px;
     top: 60px;
     width: 280px;
@@ -1145,3 +1145,9 @@ html {
     99.99% { transform: rotate(-345deg) }
     to { transform: rotate(-360deg) }
 }
+
+.where-are-we .stars {
+    animation-name: none;
+}
+
+
