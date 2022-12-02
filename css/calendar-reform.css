@@ -30,6 +30,9 @@ body {
 ul, ol {
     margin-left: 1em;
 }
+td {
+    padding-right: 2em;
+}
 main {
     height: 100%;
     margin-left: 1em;
@@ -100,4 +103,9 @@ button.smaller {
 }
 div.calendar-data {
     margin: 4em 0;
+}
+.dark .vis-item {
+    color: inherit;
+    background-color: darkblue;
+    border-color: darkgray;
 }

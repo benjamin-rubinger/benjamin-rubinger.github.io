@@ -40,20 +40,29 @@ function generateNavigation() {
 }
 
 function formatDateTime() {
-    console.log("format date time");
+    // console.log("format date time");
     const dateString = $('input.date').val();
-    console.log(dateString);
+    // console.log(dateString);
     const timeString = $('input.time').val();
-    console.log(timeString);
+    // console.log(timeString);
     const offsetString = $('select.timezone').val();
-    console.log(offsetString);
+    // console.log(offsetString);
     const dateTimeString = dateString + 'T' + timeString + offsetString;
     let d = new Date(dateTimeString);
-    console.log(d);
+    // console.log(d);
     const localeString = d.toString();
     $('.datetime-formats .default').text(localeString);
     const isoString = d.toISOString(); // this isnt good enough because it converts to utc
     $('.datetime-formats .iso8601').text(isoString);
+}
+
+function generateDateFormats(d) {
+    $('table.formats .format-example').each(function(i) {
+        let $e = $(this);
+        let df = $e.attr('data-format');
+        // console.log(df);
+        $e.text(renderDateFormat(df, d));
+    });
 }
 
 function setNow() {
@@ -84,9 +93,10 @@ function setNow() {
         offsetPrefix = '+';
     }
     const offset = offsetPrefix + offsetHoursPrefix + Math.abs(offsetHours).toString() + ':' + offsetMinutesPrefix + Math.abs(offsetRemainder).toString();
-    console.log(offset);
+    // console.log(offset);
     $('select.timezone').val(offset);
     formatDateTime();
+    generateDateFormats(now);
 }
 
 function setDark() {
@@ -278,10 +288,103 @@ function fetchLocal(calendarName) {
     return calendarData;
 }
 
+function getFourDigitYear(d) {
+    return d.getFullYear();
+}
+
+function getTwoDigitYear(d) {
+    let yearString = d.getFullYear().toString();
+    return yearString.slice(yearString.length - 2, yearString.length);
+}
+
+function getFullMonthName(d) {
+    return d.toLocaleString('default', { month: 'long' });
+}
+
+function getShortMonthName(d) {
+    return d.toLocaleString('default', { month: 'short' }).toUpperCase();
+}
+
+function getMonthNumber(d) {
+    return (d.getMonth() + 1).toString();
+}
+
+function getDayNumber(d) {
+    return d.getDate().toString();
+}
+
+function renderDateFormat(df, d) {
+    let result = '';
+    let year = '';
+    let month = '';
+    let day = '';
+    if (df.indexOf('yyyy') >= 0) {
+        year = getFourDigitYear(d);
+    } else {
+        year = getTwoDigitYear(d);
+    }
+    if (df.indexOf('mmmm') >= 0) {
+        month = getFullMonthName(d);
+    } else if (df.indexOf('mmm') >= 0) {
+        month = getShortMonthName(d);
+    } else {
+        month = getMonthNumber(d);
+    }
+    if (df.indexOf('mm') >= 0) {
+        if (month.length < 2) {
+            month = '0' + month;
+        }
+    }
+    day = getDayNumber(d);
+    if (df.indexOf('dd') >= 0) {
+        if (day.length < 2) {
+            day = '0' + day;
+        }
+    }
+    for (let char of df) {
+        if (char === 'y') {
+            result += year;
+            year = '';
+        }else if (char === 'm') {
+            result += month;
+            month = '';
+        } else if (char === 'd') {
+            result += day;
+            day = '';
+        } else {
+            result += char;
+        }
+    }
+    return result;
+}
+
+function timeline() {
+    const timelineContainer = $('.timeline')[0];
+    const items = [
+        { content: 'gregorian epoch', start: '0000-01-01', type: 'point' },
+        { content: 'gregorian calendar introduced', start: '1582-10-15', type: 'point' },
+        { content: 'greenwich observatory established', start: '1675-06-22', type: 'point' },
+        { content: 'french revolutionary calendar', start: '1793-01-01', end: '1805-01-01' },
+        { content: 'greenwich observatory daily signals began', start: '1833', type: 'point' },
+        { content: 'greenwich observatory starts broadcasting hourly time signals', start: '1924-02-05', type: 'point' },
+        { content: 'started writing choose your own calendar reform', start: '2022-10-21', type: 'point' },
+    ];
+    let index = 0;
+    for (const item of items) {
+        item.id = `timeline-item${index}`;
+        // console.log(item);
+        index += 1;
+    }
+    const ds = new vis.DataSet(items);
+    const options = {};
+    const timeline = new vis.Timeline(timelineContainer, ds, options);
+}
+
 function initialize() {
     setNow();
     generateNavigation();
     registerObservers();
+    timeline();
     // fetchCalendarData('gregorian');
     // let gregorianData = fetchLocal('gregorian');
     // $('section#gregorian-calendar').append(renderCalendarData(gregorianData));

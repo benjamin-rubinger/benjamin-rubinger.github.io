@@ -8,6 +8,7 @@
     <link href="css/calendar-reform.css" rel="stylesheet" />
     <link href="css/calendar-animations.css" rel="stylesheet" />
     <script src="script/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="script/vis-timeline-graph2d.min.js"></script>
     <script type="text/javascript">
         (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
             for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
@@ -94,6 +95,7 @@
                 </div>
             </div>
             <p>rotation is similar to turning your head when you are standing near a light, the earths rotation causes sunlight to periodically hit every part of earths surface. half of the time a location on earths surface has sunlight (daytime) and half of the time a location gets less sunlight because the earth blocks the sun (nighttime). humans care about sunlight because we have a <a href="https://en.wikipedia.org/wiki/Circadian_rhythm">circadian rhythm</a>, a cycle of activity and rest that matches the cycle of visible sunlight.</p>
+            <p><a href="https://twitter.com/buitengebieden/status/1597915084504039424">stabilized time lapse</a> view of earths rotation from the northern hemisphere</p>
 
             <div class="earth-revolution animation-container">
                 <div class="stars"></div>
@@ -128,7 +130,7 @@
         <h2><span class="capitalizable">p</span>arts of the calendar and why we need them</h2>
         <section id="years-and-why">
             <h3>years and why we need them</h3>
-            <p>a <a href="https://en.wikipedia.org/wiki/Year">year</a> is the time it takes for earth to cycle through all of the seasons and for the sun to return to the same place in the sky. we care about years because accurate years track the seasons, and seasons affect all of our outdoor activities, for example farming, which we need to survive.</p>
+            <p>a <a href="https://en.wikipedia.org/wiki/Year">year</a> is the time it takes for earth to cycle through all the seasons and for the sun to return to the same place in the sky. we care about years because accurate years track the seasons, and seasons affect all of our outdoor activities, for example farming, which we need to survive.</p>
         </section>
         <section id="epoch">
             <h3>epoch</h3>
@@ -318,7 +320,7 @@
             <h3>seasons</h3>
             <section id="what-are-seasons">
                 <h4>what are seasons</h4>
-                <div class="great-circles animation-container">
+                <div class="major-circles animation-container">
                     <div class="ecliptic"></div>
                     <div class="stars">
                         <div class="sun star stellar-body"></div>
@@ -412,7 +414,7 @@
         </section>
         <section id="where-daylight-saving-time-is-useful">
             <h3>where daylight saving time is useful</h3>
-            <p>calendars help people coordinate their activities based on the amount of sunlight. depending on the location, sunrise and sunset times can shift a little or a lot during a year. near the equator, sunlight hours dont change very much. at the north or the south pole, the sun rises and sets only once a year, so sunlight hours flip between 0 for half of the year and all of the time for half of the year. daylight saving time has no benefit near the equator or near the poles. daylight saving time has benefits in two bands of latitudes where the daylight hours shift enough to affect a fixed schedule but not too much. that is why daylight saving time is only adopted by parts of north america, europe, south america and australia.</p>
+            <p>calendars help people coordinate their activities based on the amount of sunlight. depending on the location, sunrise and sunset times can shift a little or a lot during a year. near the equator, sunlight hours dont change very much. at the north or the south pole, the sun rises and sets only once a year, so sunlight hours flip between 0 for half of the year and all the time for half of the year. daylight saving time has no benefit near the equator or near the poles. daylight saving time has benefits in two bands of latitudes where the daylight hours shift enough to affect a fixed schedule but not too much. that is why daylight saving time is only adopted by parts of north america, europe, south america and australia.</p>
         </section>
         <section id="months-exactly">
             <h3>what is a month exactly</h3>
@@ -517,6 +519,21 @@
         </section>
         <section id="gmt-and-utc">
             <h3>greenwich mean time, gmt, coordinated universal time, utc</h3>
+            <div class="where-are-we animation-container">
+                <div class="view-container">
+                    <div class="sky"></div>
+                    <div class="stars animated"></div>
+                    <div class="ocean">
+                        <div class="wave wave0"></div>
+                        <div class="wave wave1"></div>
+                        <div class="wave wave2"></div>
+                        <div class="wave wave3"></div>
+                        <div class="wave wave4"></div>
+                    </div>
+                    <div class="label where-are-we">where are we now?</div>
+                </div>
+                <div class="railing"></div>
+            </div>
             <p>greenwich is a town in the southeast of london, england. greenwich has an observatory that was established in 1675 ad to use astronomy to solve the problem of <a href="https://en.wikipedia.org/wiki/History_of_longitude">determining longitude</a> when travelling at sea, commonly phrased as the question where are we now? anyone who has travelled without gps knows this feeling. britain was a naval power and had a special interest in being able to reliably navigate the oceans. several european countries including britain offered prizes for a solution to the longitude problem at that time. two solutions were found, and one of them was to use an accurate clock and some observations of the stars to determine the longitude. the greenwich observatory was then used to keep accurate time by precisely measuring midday. starting in 1833 the observatory communicated the time by dropping a large time ball down a high pole every day so that nearby ships could synchronize their clocks (called chronometers) to it.</p>
 
             <p>towns in england kept their own time of day before the introduction of railways. when railways needed to keep tighter timetables in 1848, the railways standardized on the greenwich time, which then became the standard time across england and nearby territories.</p>
@@ -531,7 +548,38 @@
         </section>
         <section id="formatting-dates-and-times">
             <h3>formatting dates and times</h3>
-            <p>?</p>
+            <p>a calendar defines the structure of dates. there are many ways to write or <a href="https://en.wikipedia.org/wiki/Calendar_date#Date_format">format dates</a>. many formats are ambiguous, meaning it is possible for readers to be unsure whether a number in a date format is a month or a day, or even a year. unfortunately, all the following date formats and more are in common use.</p>
+            <ul>
+                <li>yy = two digit year number</li>
+                <li>yyyy = four digit year number</li>
+                <li>m = month number</li>
+                <li>mm = two digit month number</li>
+                <li>mmm = three letter month name abbreviation</li>
+                <li>mmmm = full month name</li>
+                <li>d = day of month number</li>
+                <li>dd = two digit day of month number</li>
+            </ul>
+            <table class="formats">
+                <tr><th>format</th><th>example</th></tr>
+                <tr><td>d/m/yyyy</td><td class="format-example" data-format="m/d/yyyy"></td></tr>
+                <tr><td>dd.mm.yy</td><td class="format-example" data-format="dd.mm.yy"></td></tr>
+                <tr><td>d-m-yyyy</td><td class="format-example" data-format="d-m-yyyy"></td></tr>
+                <tr><td>ddmmmyyyy</td><td class="format-example" data-format="ddmmmyyyy"></td></tr>
+                <tr><td>dd mmmm yyyy</td><td class="format-example" data-format="dd mmmm yyyy"></td></tr>
+                <tr><td>yyyy-mm-dd</td><td class="format-example" data-format="yyyy-mm-dd"></td></tr>
+                <tr><td>yyyy mmmm d</td><td class="format-example" data-format="yyyy mmmm d"></td></tr>
+                <tr><td>yyyymmmdd</td><td class="format-example" data-format="yyyymmmdd"></td></tr>
+                <tr><td>yyyy.m.d</td><td class="format-example" data-format="yyyy.m.d"></td></tr>
+                <tr><td>yyyy/mm/dd</td><td class="format-example" data-format="yyyy/mm/dd"></td></tr>
+                <tr><td>yy/mm/dd</td><td class="format-example" data-format="yy/mm/dd"></td></tr>
+                <tr><td>yyyymmdd</td><td class="format-example" data-format="yyyymmdd"></td></tr>
+                <tr><td>mmmm d, yyyy</td><td class="format-example" data-format="mmmm d, yyyy"></td></tr>
+                <tr><td>mmm d, yyyy</td><td class="format-example" data-format="mmm d, yyyy"></td></tr>
+                <tr><td>mmm-dd-yyyy</td><td class="format-example" data-format="mmm-dd-yyyy"></td></tr>
+                <tr><td>m/d/yyyy</td><td class="format-example" data-format="m/d/yyyy"></td></tr>
+                <tr><td>m.d.yy</td><td class="format-example" data-format="m.d.yy"></td></tr>
+                <tr><td>mm/dd/yy</td><td class="format-example" data-format="mm/dd/yy"></td></tr>
+            </table>
         </section>
         <section id="24-hour-time">
             <h3>24 hour time, military time</h3>
@@ -568,6 +616,7 @@ year 2022
     </section>
     <section id="history-of-calendars">
         <h2>history of calendars leading up to the gregorian calendar and my proposals</h2>
+        <div class="timeline"></div>
         <section id="before-calendars">
             <h3>how did people track time before calendars or clocks</h3>
             <p>you can do very well tracking time with a couple sticks of wood or a runic staff.</p>
@@ -754,11 +803,11 @@ star date
             <h3>better choices for the epoch</h3>
             <section id="the-beginning-of-time">
                 <h4>the beginning of time</h4>
-                <p>the beginning of time during the <a href="https://en.wikipedia.org/wiki/Big_Bang">big bang</a> is the universal epoch, if we could more exactly measure when it was. the current estimate is 13.787 billion years ago with an estimated error range of 20 million years. we need higher precision with an error under a year or so to be able to use this event as an epoch without having to change it later. it is inconvenient to deal with such large year numbers all the time, for example if the current year would be 13 787 002 022 instead of 2022. every choice of epoch will eventually face the problem of very large year numbers. if the gregorian calendar persisted for 13.787 billion more years, the year number at that time in the far future would be that same large number as if we adopted the big bang as the epoch now, and it wouldnt take any more digits XD.</p>
+                <p>the beginning of time during the <a href="https://en.wikipedia.org/wiki/Big_Bang">big bang</a> is the universal epoch, if we could more exactly measure when it was. the current estimate is 13.787 billion years ago with an estimated error range of 20 million years. we need higher precision with an error under a year or so to be able to use this event as an epoch without having to change it later. it is inconvenient to deal with such large year numbers all the time, for example if the current year would be 13 787 002 022 instead of 2022. every choice of epoch will eventually face the problem of very large year numbers. if the gregorian calendar persisted for 13.787 billion more years, the year number at that time in the far future would be that same large number as if we adopted the big bang as the epoch now.</p>
             </section>
             <section id="formation-of-the-earth">
                 <h4>formation of the earth</h4>
-                <p>the <a href="https://en.wikipedia.org/wiki/Earth#Formation">formation of the earth</a> is a great epoch choice for an earth calendar based on earth years, because earth years only make sense as a concept once the earth exists. the current estimate of the formation of the earth is 4.54 billion years ago, with an error range of 40 million years. that value isnt precise enough to base an epoch on, and the value is too large to write all the time. another problem is that the formation of the earth is a continuous process that doesnt have a bright line that allows us to identify a moment, or in this case a year, where the entity comes into existence.</p>
+                <p>the <a href="https://en.wikipedia.org/wiki/Earth#Formation">formation of the earth</a> is a great epoch choice for an earth calendar based on earth years, because earth years only make sense as a concept once the earth exists. the current estimate of the formation of the earth is 4.54 billion years ago, with an error range of 40 million years. that value isnt precise enough to base an epoch on, and the value is too large to write all the time. another problem is that the formation of the earth is a continuous process that doesnt have a bright line that allows us to identify a moment, or in this case a year, when the earth comes into existence.</p>
             </section>
             <section id="major-prehistoric-events">
                 <h4>major prehistoric events</h4>
@@ -826,16 +875,16 @@ star date
             <h3>duodecimal and sexagesimal time</h3>
             <p>when we break a day into hours, the number of hours should be a power of 10, such as 10 or 100, not 24. the 24 hours in a day came from the egyptians. when we break an hour into minutes, it should be 10, 100, or 1000, not 60. the metric system is convenient and promotes decimal units, powers of ten. we should use decimal time.</p>
         </section>
-        <section id="date-ordering">
-            <h3>date ordering</h3>
+        <section id="date-format-ordering">
+            <h3>date format ordering</h3>
             <p>month/day/year, day/month/year, year/month/day and other date formats are in common use. the correct way to write dates is how you write any other number, from the most significant part to the least significant part. every other ordering is worse. datetime order should be year month day hour minute second subsecond.
         </section>
-        <section id="date-delimiters">
-            <h3>date delimiters</h3>
+        <section id="date-format-delimiters">
+            <h3>date format delimiters</h3>
             <p>writing a datetime as a single decimal number is the best option. if we want to keep years, months and days in our calendar, those cannot fit into a single number, so we could write them separately as we do now. the common way of writing dates uses slashes as delimiters, mm/dd/yy or dd/mm/yy. iso 8601 prefers dashes, yyyy-mm-dd. when it comes to delimiters, i recommend against any special symbols and prefer to use space as the delimiter, yyyy mm dd.</p>
         </section>
-        <section id="time-delimiters">
-            <h3>time delimiters</h3>
+        <section id="time-format-delimiters">
+            <h3>time format delimiters</h3>
             <p>in sexagesimal time (60 minutes per hour and 60 seconds per minute), the use of colons in time parts is the current standard, hh:mm:ss.sss. when it comes to delimiters, i recommend against any special symbols and prefer to use space as the delimiter, hh mm ss.sss.</p>
         </section>
         <section id="noon">
@@ -846,9 +895,9 @@ star date
             <h3>12 hour time with am and pm</h3>
             <p>if someone schedules to meet with you at 8, is that 8 am or 8 pm? it is often possible to infer whether the time is am or pm from context and experience, but misunderstandings do occur. <a href="https://en.wikipedia.org/wiki/12-hour_clock">12 hour time</a> requires additional information with the am or pm suffix. the time of the day before midday is written with a suffix am, am stands for ante meridiem meaning before midday. the time of day after midday is written with a suffix pm, pm stands for post meridiem.</p>
 
-            <p>am and pm are not only needlessly complicated, am and pm are confusing when applied to midday and midnight. midday is neither before midday nor after midday, so neither am nor pm is accurate when applied to midday. some people propose to write midday as 12 m instead, but this is not common practice. midnight is the new day time and straddles the end of one day and the beginning of the next. you could equally describe midnight as after the previous midday, pm, or before the next midday, am. the convention in 12 hour time is to call midnight 12 am and midday 12 pm.</p>
+            <p>am and pm are not only needlessly complicated, am and pm are confusing when applied to midday and midnight. midday is neither before itself nor after itself, so neither am nor pm is accurate when applied to midday. some people propose to write midday as 12 m instead, but this is not common practice. midnight is the new day time and straddles the end of one day and the beginning of the next. you could equally describe midnight as after the previous midday, pm, or before the next midday, am. the convention in 12 hour time is to call midnight 12 am and midday 12 pm.</p>
 
-            <p>this is additionally confusing because 12 is the largest hour in 12 hour time. 12 being the largest number suggests that it is the latest time, so 12 am is intuitively what comes after 11 am. according to convention, however, after 11 am comes 12 pm. this would be easier to understand in 12 hour time if we instead numbered hours from 0 to 11. 0 am numerically refers to the beginning of the morning, followed by 1 am. 0 pm numerically refers to the beginning of the afternoon, followed by 1 pm. 11 am is the end of the morning and is followed by midday, which marks the beginning of the afternoon, 0 pm. 11 pm is the last hour of the day, followed by 0 am to start the next day.</p>
+            <p>this is additionally confusing because 12 is the largest hour number in 12 hour time. 12 being the largest number suggests that it is the latest time, so 12 am is intuitively what comes after 11 am. according to convention, however, after 11 am comes 12 pm. this would be easier to understand in 12 hour time if we instead numbered hours from 0 to 11. 0 am numerically refers to the beginning of the morning, followed by 1 am. 0 pm numerically refers to the beginning of the afternoon, followed by 1 pm. 11 am is the end of the morning and is followed by midday, which marks the beginning of the afternoon, 0 pm. 11 pm is the last hour of the day, followed by 0 am to start the next day.</p>
 
             <p>i claim that 12 hour time is needlessly complex and <a href="https://en.wikipedia.org/wiki/24-hour_clock">24 hour time</a>, also called military time, is strictly better. in the case of metric time, that will be 10 hour time, not 5 hour time with am and pm. in 24 hour time, the hours go from 00 to 23. 2400 can optionally be used to emphasize midnight as the end of a day, it is equivalent to 0000 of the next day.</p>
         </section>
@@ -858,7 +907,7 @@ star date
         </section>
         <section id="end-daylight-saving-time">
             <h3>end daylight saving time</h3>
-            <p>daylight saving time is a bad solution to a real problem. people living close to the poles and people living close to the equator have no benefit from daylight saving time. changing the calendar keep a fixed schedule is much more confusing than keeping the calendar fixed and changing work schedules to match daylight hours. working based on shifting sunrise and sunset was what people did before mechanical clocks and rigid schedules. daylight saving time was likely a good solution when life was regionally focused and communication was expensive, but now people move and interact worldwide and communication is cheap. most of the world does not currently observe daylight saving time. only parts of the united states, canada, europe, south america, australia, new zealand, and a few others observe daylight saving time. keeping the operation of the calendar simple and consistent is better than keeping rigid schedule hours under shifting daylight hours for a specific band of latitudes. end daylight saving time.</p>
+            <p>daylight saving time is a bad solution to a real problem. people living close to the poles and people living close to the equator have no benefit from daylight saving time. changing the calendar to accommodate a rigid schedule is much more confusing than keeping the calendar consistent and changing work schedules to match daylight hours. working based on shifting sunrise and sunset was what people did before mechanical clocks and rigid schedules. daylight saving time was likely a good solution when life was regionally focused and communication was expensive, but now people move and interact worldwide and communication is cheap. most of the world does not currently observe daylight saving time. only parts of the united states, canada, europe, south america, australia, new zealand, and a few others observe daylight saving time. keep the calendar simple. end daylight saving time.</p>
         </section>
         <section id="12-hour-circular-clocks">
             <h3>12 hour circular clocks</h3>
