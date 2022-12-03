@@ -31,30 +31,40 @@ function toggleAnimation($animationContainer) {
 //     $('body').addClass('light').removeClass('dark');
 // }
 
-// function timeline() {
-//     const timelineContainer = $('.timeline')[0];
-//
-//     // create a dataset (allows two way data-binding)
-//     const items = new vis.DataSet([
-//         { id: 1, content: 'started writing choose your own calendar reform', start: '2022-10-21', type: 'point' },
-//         { id: 2, content: 'gregorian calendar introduced', start: '1582-10-15', type: 'point' },
-//         { id: 3, content: 'gregorian epoch', start: '0000-01-01', type: 'point' },
-//         { id: 4, content: 'greenwich observatory established', start: '1675-06-22', type: 'point' },
-//         { id: 5, content: 'greenwich observatory daily signals began', start: '1833', type: 'point' },
-//         { id: 5, content: 'greenwich observatory starts broadcasting hourly time signals', start: '1924-02-05', type: 'point' },
-//     ]);
-//
-//     // configuration for the timeline
-//     const options = {};
-//
-//     // create a timeline
-//     const timeline = new vis.Timeline(timelineContainer, items, options);
-// }
+
+function twinkle() {
+    const $starsContainer = $('.where-are-we .stars');
+    const $stars = $starsContainer.find('.star').not('.twinkle');
+    const starIndex = Math.floor(Math.random() * $stars.length);
+    const $star = $($stars[starIndex]);
+    $star.addClass('twinkle');
+    window.setTimeout(function () {
+        $star.removeClass('twinkle');
+    }, 500);
+}
+
+function scheduleTwinkle() {
+    window.setInterval(twinkle, 300);
+}
+
+// todo support click to toggle the animation
+function scheduleProgress() {
+    const $progress = $('progress.circular');
+    window.setInterval(function () {
+        const currentValue = +$progress.attr('value');
+        let nextValue = currentValue + 1;
+        if (nextValue > 100) {
+            nextValue = 0;
+        }
+        $progress.attr('value', nextValue);
+    }, 300);
+}
 
 function initializeAnimations() {
     stars(120, '.animation-container');
+    scheduleTwinkle();
+    scheduleProgress();
     // toggleAnimation($('.animation-container'));
-    // timeline();
 }
 
 const $animationsBody = $('body');

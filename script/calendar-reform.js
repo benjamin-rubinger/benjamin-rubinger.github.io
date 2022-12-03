@@ -358,6 +358,7 @@ function renderDateFormat(df, d) {
     return result;
 }
 
+/* using https://github.com/visjs/vis-timeline */
 function timeline() {
     const timelineContainer = $('.timeline')[0];
     const items = [

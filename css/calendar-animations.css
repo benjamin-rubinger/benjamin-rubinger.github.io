@@ -1185,7 +1185,6 @@ html {
     to { opacity: 0 }
 }
 
-
 .where-are-we .sky {
     background: linear-gradient(black, #000050);
     width: 100%;
@@ -1206,9 +1205,10 @@ html {
     width: 100%;
     left: 0;
     position: absolute;
+
+    /* from https://css-tricks.com/how-to-create-wavy-shapes-patterns-in-css/ */
     --size: 30px;
     --R: calc(var(--size)*1.28);
-
     -webkit-mask:
             radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%)
             calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
@@ -1219,7 +1219,7 @@ html {
             calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
             radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%)
             50% var(--size)/calc(4*var(--size)) 100% repeat-x;
-    background: linear-gradient(white,navy);
+    background: linear-gradient(black,navy);
     height: 60px;
     animation-name: wave-motion0;
     animation-duration: 5s;
@@ -1287,4 +1287,99 @@ html {
     to { transform: translateY(0px) }
 }
 
+.clock {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    outline: 3px solid black;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
 
+.twelve-hour-clock .clock {
+    rotate: 180deg;
+}
+
+.clock.right {
+    left: 250px;
+    top: 150px;
+}
+
+.twenty-four-hour-clocks .clock.right, .naive-clocks-no-timezones .clock.right {
+    rotate: 90deg;
+}
+
+.clock.bottom {
+    top: 250px;
+}
+
+.twenty-four-hour-clocks .clock.bottom, .naive-clocks-no-timezones .clock.bottom {
+    rotate: 180deg;
+}
+
+.clock.left {
+    left: 50px;
+    top: 150px;
+}
+
+.twenty-four-hour-clocks .clock.left, .naive-clocks-no-timezones .clock.left {
+    rotate: 270deg;
+}
+
+.clock-indicator {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: red;
+    rotate: 45deg;
+    left: 45px;
+    top: 95px;
+}
+
+.hand-hours {
+    width: 4px;
+    height: 48px;
+    position: absolute;
+    background-color: black;
+    left: 48px;
+    top: 2px;
+    border-radius: 2px;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-delay: -15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+}
+
+.twenty-four-hour-clocks .clock.right .hand-hours {
+    animation-delay: -10s;
+}
+
+.twenty-four-hour-clocks .clock.bottom .hand-hours {
+    animation-delay: -5s;
+}
+
+.twenty-four-hour-clocks .clock.left .hand-hours {
+    animation-delay: 0s;
+}
+
+.hand-hours.twelve {
+    animation-duration: 10s;
+    animation-delay: -10s;
+}
+
+.twinkle {
+    animation-name: twinkle;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes twinkle {
+    from { background-color: gray }
+    75% { background-color: white }
+    to { background-color: gray }
+}
