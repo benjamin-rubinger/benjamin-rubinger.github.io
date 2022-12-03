@@ -1287,6 +1287,10 @@ html {
     to { transform: translateY(0px) }
 }
 
+.naive-clocks-no-timezones {
+    display: none;
+}
+
 .clock {
     width: 100px;
     height: 100px;
