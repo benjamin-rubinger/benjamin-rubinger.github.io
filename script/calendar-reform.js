@@ -149,10 +149,12 @@ function smaller() {
 function navigationCollapse() {
     $('button.navigation-collapse').removeClass('navigation-collapse').addClass('navigation-expand').html('&lt;');
     $('nav.article').hide();
+    $('main > article').addClass('no-navigation');
 }
 
 function navigationExpand() {
     $('button.navigation-expand').removeClass('navigation-expand').addClass('navigation-collapse').html('&gt;');
+    $('main > article').removeClass('no-navigation');
     $('nav.article').show();
 }
 

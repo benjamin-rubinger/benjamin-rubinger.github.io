@@ -43,6 +43,9 @@ main > article {
     overflow-y: scroll;
     float: left;
 }
+main > article.no-navigation {
+    width: 100%;
+}
 main > nav {
     width: 30%;
     height: 100%;
