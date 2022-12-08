@@ -59,10 +59,10 @@ html {
     to { transform: rotate(360deg) }
 }
 .atmosphere {
-    width: 250px;
-    height: 250px;
-    left: 75px;
-    top: 75px;
+    width: 240px;
+    height: 240px;
+    left: 80px;
+    top: 80px;
     background-image: radial-gradient(#4444ff, #4444ff, #4444ff, transparent, transparent);
 }
 .earth-night {
@@ -337,13 +337,14 @@ html {
     to { transform: rotate(0deg) }
 }
 .axial-tilt .atmosphere, .major-circles .atmosphere {
-    left: -25px;
-    top: -25px;
+    left: -20px;
+    top: -20px;
 }
 .major-circle {
     border-bottom: 1px solid white;
     margin-bottom: -1px;
-    /*transform: translateZ(0);*/
+    position: absolute;
+    width: 100%;
 }
 
 .arctic-circle {
@@ -352,21 +353,20 @@ html {
 }
 
 .tropic-of-cancer {
-    /* 23.43631 degrees  0.40904077401807226 radians  sin(radians) = 0.3977294186144243  (1 - _) * 100 = 60.227  60 - 8 = 52  */
-    height: 52px;
+    /* 23.43631 degrees  0.40904077401807226 radians  sin(radians) = 0.3977294186144243  (1 - _) * 100 = 60.227  60  */
+    height: 60px;
 }
 
 .equator {
-    /* 100 - 60 = 40 */
-    height: 40px;
+    height: 100px;
 }
 
 .tropic-of-capricorn {
-    height: 39px;
+    height: 140px;
 }
 
 .antarctic-circle {
-    height: 52px;
+    height: 191px;
 }
 
 .axial-tilt .labels, .major-circles .labels {

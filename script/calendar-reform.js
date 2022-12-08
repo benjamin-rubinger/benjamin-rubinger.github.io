@@ -146,6 +146,16 @@ function smaller() {
     bumpSize(-4);
 }
 
+function navigationCollapse() {
+    $('button.navigation-collapse').removeClass('navigation-collapse').addClass('navigation-expand').html('&lt;');
+    $('nav.article').hide();
+}
+
+function navigationExpand() {
+    $('button.navigation-expand').removeClass('navigation-expand').addClass('navigation-collapse').html('&gt;');
+    $('nav.article').show();
+}
+
 // based on https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/
 function registerObservers() {
     const observer = new IntersectionObserver(entries => {
@@ -405,3 +415,5 @@ $body.on('click', 'button.capitalize', capitalize);
 $body.on('click', 'button.decapitalize', decapitalize);
 $body.on('click', 'button.apostrophes', apostrophes);
 $body.on('click', 'button.deapostrophe', deapostrophe);
+$body.on('click', 'button.navigation-collapse', navigationCollapse);
+$body.on('click', 'button.navigation-expand', navigationExpand);

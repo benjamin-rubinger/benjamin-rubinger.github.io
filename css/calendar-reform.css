@@ -38,13 +38,13 @@ main {
     margin-left: 1em;
 }
 main > article {
-    width: 75%;
+    width: 70%;
     height: 100%;
     overflow-y: scroll;
     float: left;
 }
 main > nav {
-    width: 25%;
+    width: 30%;
     height: 100%;
     overflow-y: scroll;
 }
@@ -91,6 +91,7 @@ nav.article a {
 button, input, select {
     background-color: inherit;
     color: inherit;
+    border-radius: 4px;
 }
 .capitalize {
     text-transform: capitalize;
@@ -100,6 +101,11 @@ button.bigger {
 }
 button.smaller {
     font-size: 10px;
+}
+.navigation-collapse, .navigation-expand {
+    position: fixed;
+    top: 4px;
+    right: 10px;
 }
 div.calendar-data {
     margin: 4em 0;
