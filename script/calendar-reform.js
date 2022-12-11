@@ -563,7 +563,7 @@ function timeline() {
         min: '-013000-01-01',
         minHeight: '400px',
         start: '1880-01-01',
-        zoomMax: 600000000000000,
+        zoomMax: 490000000000000,
     };
     const timeline = new vis.Timeline(timelineContainer, ds, options);
 }

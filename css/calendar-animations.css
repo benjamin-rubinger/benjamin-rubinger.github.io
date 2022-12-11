@@ -1295,7 +1295,7 @@ html {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    outline: 3px solid black;
+    border: 3px solid black;
     background-color: white;
     position: absolute;
     left: 150px;
