@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
@@ -204,7 +204,7 @@
         </section>
         <section id="new-day-time">
             <h3>new day time</h3>
-            <p>we need to choose the time of day when one day ends and the next day begins. in the gregorian calendar we change days at midnight. astronomers change days at midday and the hebrew calendar changes days at sunset. another good option for new day time is sunrise.</p>
+            <p>we need to choose the time of day when one day ends and the next day begins. in the gregorian calendar we change days at midnight. the egyptian calendar changes days at sunrise, astronomers change days at midday and the hebrew calendar changes days at sunset.</p>
         </section>
         <section id="sundials">
             <h3>sundials (not a part of a calendar)</h3>
@@ -681,7 +681,7 @@ year
         </section>
         <section id="gregorian-calendar">
             <h3>gregorian calendar</h3>
-            <p>in 1582 ad october the catholic pope gregory xiii introduced calendar reform to the julian calendar because there were too many leap days in the julian calendar and the equinox going north in the julian calendar was out of alignment with the sun. the <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">gregorian calendar</a> is the same as the julian calendar with a few fixes. the gregorian calendar removed the 10 accumulated days because of the extra leap days in the julian calendar, to realign the calendar with the sun. the main change in the gregorian calendar is to change the formula for leap days. in the julian calendar, leap day is every year divisible by four implying 0.25, in the gregorian calendar it is years divisible by four, except years ending with a hundred, except years ending with a hundred that are also divisible by four. this works out to 0.2425, which is much closer to ~0.2422.</p>
+            <p>in 1582 ad october the catholic pope gregory xiii introduced calendar reform to the julian calendar because there were too many leap days in the julian calendar and the equinox going north in the julian calendar was out of alignment with the sun. the <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">gregorian calendar</a> is the same as the julian calendar with a few fixes. the gregorian calendar removed the 10 accumulated days because of the extra leap days in the julian calendar, to realign the calendar with the sun. the date jumped from 1582 10 04 to 1582 10 15. the main change in the gregorian calendar is to change the formula for leap days. in the julian calendar, leap day is every year divisible by four implying 0.25, in the gregorian calendar it is years divisible by four, except years ending with a hundred, except years ending with a hundred that are also divisible by four. this works out to 0.2425, which is much closer to ~0.2422.</p>
         </section>
         <section id="french-republican-calendar">
             <h3>french republican calendar</h3>
@@ -710,7 +710,15 @@ year
             <p>i think seasonal month names are lovely, except that the seasons are different on different parts of the earth, and we would like to make a calendar that works worldwide.</p>
 
             <h4>decimal time</h4>
-            <p>the french republican calendar implemented decimal time. decimal time takes one day as a unit and breaks the day into parts based on powers of ten. instead of 24 hours in a day, in decimal time there are 10 decimal hours in a day. instead of 60 minutes per hour in sexagesimal time, in decimal time there are 100 decimal minutes. same for decimal seconds. what is the problem with sexagesimal time? you have to separate the time into three parts and count them separately, hours, minutes and seconds. using decimal time, you can use a single number with a decimal point. 1 is one day. midday is halfway through the day, so in decimal time that is 0.5 days, or 5 decimal hours, or 500 decimal minutes, or 50000 decimal seconds.</p>
+            <p>the french republican calendar implemented decimal time. decimal time takes one day as a unit and breaks the day into parts based on powers of ten. instead of 24 hours in a day, in decimal time there are 10 decimal hours in a day. instead of 60 minutes per hour in sexagesimal time, in decimal time there are 100 decimal minutes per decimal hour. there are 100 decimal seconds per decimal minute. what is the problem with sexagesimal time? you have to separate the time into three parts and count them separately, hours, minutes and seconds. using decimal time, you can use a single number with a decimal point. 1 is one day. midday is halfway through the day, so in decimal time that is 0.5 days, or 5 decimal hours, or 500 decimal minutes, or 50000 decimal seconds.</p>
+            <p>example</p>
+<pre>
+gregorian calendar
+10/21/2022 11:14:05 am jst
+
+french republican calendar
+231 vendémiaire iii 9 (decade iii jour du nonidi)
+</pre>
         </section>
         <section id="unix-time">
             <h3>unix time</h3>
@@ -737,6 +745,8 @@ derivation
 ===============
   1 666 318 445 unix time
 </pre>
+            <h4>exercise</h4>
+            <p>what time will it be 1000 seconds from now in the gregorian calendar? what time will it be 1000 seconds from now in unix time?</p>
         </section>
     </section>
     <section id="other interesting calendars">
@@ -779,6 +789,8 @@ Tishrei 26, 5783
         <section id="perennial-calendars">
             <h3>perennial calendars</h3>
             <p>a calendar is a <a href="https://en.wikipedia.org/wiki/Perennial_calendar">perennial calendar</a> if the day numbers of the months and the weekdays are the same every year. the gregorian calendar is not perennial, that is why people print new calendars every year with january 1 falling on a different day of the week. there are several proposals for perennial variations of the gregorian calendar. one option is to convert the 365th and 366th days of the year into intercalary days, leaving 364 days a year which is divisible by 7. another approach is to shorten the year to 364 days and group leap days into leap weeks.</p>
+            <h4>exercise</h4>
+            <p>what day of the week will it be on this date next year?</p>
         </section>
         <section id="julian-dates">
             <h3>julian dates</h3>
@@ -791,6 +803,8 @@ gregorian datetime
 julian date
 2459873.59311
 </pre>
+            <h4>exercise</h4>
+            <p>what is the date 100 days before today or after today in the gregorian calendar and in julian dates?</p>
         </section>
         <section id="star-trek-stardates">
             <h3>star trek stardates</h3>
@@ -1118,6 +1132,12 @@ star date
         <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
         <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
     </div>
+    <section id="references">
+        <h3>references</h3>
+        <ul>
+            <li><a href="https://www.fourmilab.ch/documents/calendar">https://www.fourmilab.ch/documents/calendar</a></li>
+        </ul>
+    </section>
 </article>
 <nav class="article">
 </nav>

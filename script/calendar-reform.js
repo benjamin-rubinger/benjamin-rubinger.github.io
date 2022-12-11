@@ -97,6 +97,20 @@ function setNow() {
     $('select.timezone').val(offset);
     formatDateTime();
     generateDateFormats(now);
+    // gregorianToJulianDay(new Date('-004713-11-24'));
+    // console.log(`jdn 0\n\n`);
+    // gregorianToJulianDay(new Date('-004713-11-25'));
+    // console.log(`jdn 1\n\n`);
+    // gregorianToJulianDay(new Date('-004712-11-24'));
+    // console.log(`jdn 365\n\n`);
+    // gregorianToJulianDay(new Date('0001-01-01'));
+    // console.log(`jdn 1721425.5 1721424 \n\n`);
+    // gregorianToJulianDay(new Date('1582-10-15'));
+    // console.log(`gregorian calendar jd 2299160\n\n`);
+    // gregorianToJulianDay(new Date('1970-01-01'));
+    // console.log(`unix epoch jd 2440587\n\n`);
+    // gregorianToJulianDay(now);
+    // console.log(`today jd 2459923\n\n`);
 }
 
 function setDark() {
@@ -242,6 +256,117 @@ function calculateLeapDays() {
     console.log(`better leap day ratio ${betterRatio}`); // 0.24222
 }
 
+function daysPerMonth(monthNumber, isLeapYear) {
+    if ((monthNumber == 1) || (monthNumber == 3) || (monthNumber == 5) || (monthNumber == 7) || (monthNumber == 8) || (monthNumber == 10) || (monthNumber == 12)) {
+        return 31;
+    } else if ((monthNumber == 2) && isLeapYear) {
+        return 29;
+    } else if (monthNumber == 2) {
+        return 28;
+    }
+    return 30;
+}
+
+function unixEpoch() {
+    return 2440587.5;
+}
+
+// several references, not all used in this code
+// https://keisan.casio.com/exec/system/1227779487
+// https://squarewidget.com/julian-day/
+// https://quasar.as.utexas.edu/BillInfo/JulianDatesG.html
+// https://sciencing.com/calculate-day-born-5512884.html
+// https://core2.gsfc.nasa.gov/time/julian.html
+// https://github.com/stevebest/julian/blob/master/test/test.js
+//
+function gregorianToJulianDay(d) {
+    const julianEpochYear = -4713;
+    const julianEpochMonth = 11;
+    const julianEpochDay = 24;
+
+    const unixTime = d.getTime();
+    const trivial = unixTime / 86400000 + unixEpoch();
+
+    const givenYear = getFourDigitYear(d) * 1;
+    const givenMonth = getMonthNumber(d) * 1;
+    const dayOfMonth = (getDayOfMonthNumber(d) * 1) - 1;
+    console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
+
+    // from https://en.wikipedia.org/wiki/Julian_day
+    // JDN = (1461 * (Y + 4800 + (M - 14)/12))/4 + (367 * (M - 2 - 12 * ((M - 14)/12)))/12 - (3 * ((Y + 4900 + (M - 14)/12)/100))/4 + D - 32075
+    const offsetMonth = (givenMonth - 14) / 12;
+    const part0 = Math.floor(1461 * (givenYear + 4800 + offsetMonth)/4);
+    const part1 = Math.floor((367 * (givenMonth - 2 - 12 * offsetMonth)) / 12);
+    const part2 = Math.floor((3 * ((givenYear + 4900 + offsetMonth)/100)) / 4);
+    const wikipedia = part0 + part1 - part2 + dayOfMonth - 32075;
+    // console.log(`part0 ${part0}  part1 ${part1}  part2 ${part2}`);
+
+    let years = givenYear - julianEpochYear;
+    // unnecessary conversion from anno domini to makes sensomini
+    // if (givenYear > -1) {
+    //     years += 1;
+    // }
+    let leapYearCount = 0;
+    for (let year = julianEpochYear; year < givenYear; year++) {
+        // unnecessary conversion between julian calendar and gregorian calendar, jdn stays in gregorian proleptic
+        // if ((year <= 1582) && julianLeapDay(year)) {
+        //     console.log(`julian leap year ${year}`);
+        //     leapYearCount += 1;
+        // } else if (gregorianLeapDay(year)) {
+        //     leapYearCount += 1;
+        // }
+        if (gregorianLeapDay(year)) {
+            leapYearCount += 1;
+        }
+    }
+    // console.log(`leap years ${leapYearCount}`);
+    const commonYearDays = 365 * years;
+    const yearDays = commonYearDays + leapYearCount;
+    const isLeapYear = gregorianLeapDay(givenYear);
+    // unnecessary conversion between julian calendar and gregorian calendar, jdn stays in gregorian proleptic
+    // if (givenYear > 1582) {
+    //     yearDays -= 10; // switch from julian to gregorian calendar
+    //     isLeapYear = gregorianLeapDay(givenYear);
+    // } else {
+    //     isLeapYear = julianLeapDay(givenYear);
+    // }
+    // console.log(`year days ${yearDays}`);
+    console.log(`julian years ${years}  leap years ${leapYearCount}  year days ${yearDays}`);
+    console.log(`is given year a leap year ${isLeapYear}`);
+    let monthDays = 0;
+    let dayDays = dayOfMonth;
+    if (givenYear > julianEpochYear) {
+        for (let m = 1; m < givenMonth; m++) {
+            monthDays += daysPerMonth(m, isLeapYear);
+        }
+        monthDays -= 328; // julian period doesnt start at the beginning of the year, so i subtract out the 37 days from the year before
+    } else if (givenYear === julianEpochYear) {
+        if (givenMonth === julianEpochMonth) {
+            dayDays -= julianEpochDay;
+        } else if (givenMonth > julianEpochMonth) {
+            monthDays += 6;
+        }
+    }
+
+    console.log(`year days ${yearDays}  month days ${monthDays}  day days ${dayDays}`);
+
+    let d2 = new Date(d);
+    d2.setMinutes(d2.getMinutes() + d2.getTimezoneOffset()); // add back the timezone?
+    const hourSeconds = getHours(d2) * 3600;
+    const minuteSeconds = getMinutes(d2) * 60;
+    const secondSeconds = getSeconds(d2);
+    const milliseconds = getMilliseconds(d2) / 1000;
+    const fractionalDays = ((hourSeconds + minuteSeconds + secondSeconds + milliseconds) / 86400) - 0.5;
+    console.log(`hours ${getHours(d2)}  minutes ${getMinutes(d2)}  seconds ${getSeconds(d2)}  milliseconds ${getMilliseconds(d2)}  fractionalDays ${fractionalDays}`);
+
+    const result = yearDays + monthDays + dayDays + fractionalDays;
+
+    console.log(`trivial ${trivial}`);
+    console.log(`wikipedia ${wikipedia}`);
+    console.log(`manual ${result}`);
+    return result;
+}
+
 function spaceToDash(s) {
     return s.replaceAll(' ', '-');
 }
@@ -321,8 +446,28 @@ function getMonthNumber(d) {
     return (d.getMonth() + 1).toString();
 }
 
-function getDayNumber(d) {
+function getDayOfMonthNumber(d) {
     return d.getDate().toString();
+}
+
+// integer hours 0 - 23
+function getHours(d) {
+    return d.getHours();
+}
+
+// integer minutes 0 - 59
+function getMinutes(d) {
+    return d.getMinutes();
+}
+
+// integer seconds 0 - 59
+function getSeconds(d) {
+    return d.getSeconds();
+}
+
+// integer milliseconds 0 - 999
+function getMilliseconds(d) {
+    return d.getMilliseconds();
 }
 
 function renderDateFormat(df, d) {
@@ -347,7 +492,7 @@ function renderDateFormat(df, d) {
             month = '0' + month;
         }
     }
-    day = getDayNumber(d);
+    day = getDayOfMonthNumber(d);
     if (df.indexOf('dd') >= 0) {
         if (day.length < 2) {
             day = '0' + day;
@@ -374,13 +519,35 @@ function renderDateFormat(df, d) {
 function timeline() {
     const timelineContainer = $('.timeline')[0];
     const items = [
-        { content: 'gregorian epoch', start: '0000-01-01', type: 'point' },
+        { content: 'neolithic revolution', start: '-011700-01-01', type: 'point' },
+        { content: 'human era epoch', start: '-010000-01-01', type: 'point' },
+        { content: 'julian day epoch', start: '-004713-01-01', type: 'point' },
+        { content: 'hebrew calendar epoch', start: '-003761-01-01', type: 'point' },
+        { content: 'beginning of recorded history', start: '-003500-01-01', type: 'point' },
+        { content: 'ancient egyptian calendar introduced', start: '-002450-01-01', type: 'point' },
+        { content: 'chinese calendar introduced', start: '-000771-01-01', type: 'point' },
+        { content: 'numa roman calendar reform', start: '-000672-01-01', type: 'point' },
+        { content: 'julian calendar introduced', start: '-000045-01-01', type: 'point' },
+        { content: 'gregorian calendar epoch', start: '-000000-01-01', type: 'point' },
+        { content: 'sexagesimal minutes and seconds', start: '1000-01-01', type: 'point' },
+        { content: 'copernicus proposes that the earth orbits the sun', start: '1543-01-01', type: 'point' },
         { content: 'gregorian calendar introduced', start: '1582-10-15', type: 'point' },
         { content: 'greenwich observatory established', start: '1675-06-22', type: 'point' },
-        { content: 'french revolutionary calendar', start: '1793-01-01', end: '1805-01-01' },
-        { content: 'greenwich observatory daily signals began', start: '1833', type: 'point' },
+        { content: 'french revolutionary calendar', start: '1793-11-24', end: '1806-01-01', type: 'point' },
+        { content: 'greenwich observatory daily signals began', start: '1833-01-01', type: 'point' },
+        { content: 'greenwich mean time', start: '1847-01-01', type: 'point' },
+        { content: 'international meridian conference', start: '1884-10-01', type: 'point' },
         { content: 'greenwich observatory starts broadcasting hourly time signals', start: '1924-02-05', type: 'point' },
+        { content: 'universal time established', start: '1928-01-01', type: 'point' },
+        { content: 'atomic clocks', start: '1955-01-01', type: 'point' },
+        { content: 'coordinated universal time established', start: '1956-01-01', type: 'point' },
+        { content: 'unix time epoch', start: '1970-01-01', type: 'point' },
+        { content: 'unix time introduced', start: '1971-11-01', type: 'point' },
+        { content: 'leap seconds introduced', start: '1972-01-01', type: 'point' },
+        { content: 'year 2000 problem', start: '2000-01-01', type: 'point' },
         { content: 'started writing choose your own calendar reform', start: '2022-10-21', type: 'point' },
+        { content: 'year 2038 problem', start: '2038-01-01', type: 'point' },
+        { content: 'earliest startrek stardate', start: '2256-05-11', type: 'point' },
     ];
     let index = 0;
     for (const item of items) {
@@ -389,7 +556,15 @@ function timeline() {
         index += 1;
     }
     const ds = new vis.DataSet(items);
-    const options = {};
+    const options = {
+        end: '2040-01-01',
+        max: '4000-01-01',
+        maxHeight: '400px',
+        min: '-013000-01-01',
+        minHeight: '400px',
+        start: '1880-01-01',
+        zoomMax: 600000000000000,
+    };
     const timeline = new vis.Timeline(timelineContainer, ds, options);
 }
 
