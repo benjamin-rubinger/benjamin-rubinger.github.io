@@ -97,7 +97,7 @@ button, input, select {
     border-radius: 4px;
 }
 .capitalize {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 button.bigger {
     font-size: 28px;
@@ -108,7 +108,13 @@ button.smaller {
 .navigation-collapse, .navigation-expand {
     position: fixed;
     top: 4px;
-    right: 10px;
+    right: 16px;
+}
+.dark .navigation-collapse, .dark .navigation-expand {
+    background-color: darkblue;
+}
+.light .navigation-collapse, .light .navigation-expand {
+    background-color: lightblue;
 }
 div.calendar-data {
     margin: 4em 0;
