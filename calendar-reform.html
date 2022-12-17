@@ -678,7 +678,7 @@ year
             <h3>french republican calendar</h3>
             <p>the <a href="https://en.wikipedia.org/wiki/French_Republican_calendar">french republican calendar</a> was introduced by the french during the french revolution along with a lot of the metric system. the calendar was used in france and french controlled regions between 1793 and 1805 until napolean became the french emperor and switched french territories back to the gregorian calendar. the french revolutionary calendar is based on the egpytian calendar, with 12 months of 30 days each and then 5 extra days to make 365 days a year. each month is arranged in 3 weeks of 10 days (3 * 10 = 30), and the days of the week are numbered, as in first, second, ... tenth.</p>
             <p>the new year day in the french republican calendar is defined as the day of the equinox going south. this calendar has leap days similar to the gregorian calendar, except the leap day is inserted before the new year day in the french republican calendar instead of the last day of february for the gregorian calendar (because march was the new year day in the roman calendar). there is dispute about exactly how leap days were handled in the french republican calendar, but the french republican calendar has leap days and it tries to match the solar year, so disputes about historical french calendar policy are not a problem here.</p>
-            <p>the months of the french republican calendar are named to describe seasonal qualities. the month names are new french words, so we could use the french names for a new calendar or translate them to english, but there is no definitive translation. the french name suffixes are thoughtfully grouped into four quarters of the year. the french republican year and the month names start from autumn and are</p>
+            <p>the months of the french republican calendar are named to describe seasonal qualities. the month names are new french words, so we could use the french names for a new calendar or translate them to english, but there is no definitive translation. the french name suffixes are thoughtfully grouped into four quarters. the french republican year and the month names start from autumn and are</p>
             <table>
                 <tr><th></th><th>my english translation&nbsp;&nbsp;</th><th>another english translation&nbsp;&nbsp;</th><th>original french name</th></tr>
                 <tr><td>1</td><td>vintagy</td><td>vintagearious</td><td>vendémiaire</td></tr>
@@ -703,7 +703,12 @@ gregorian calendar
 10/21/2022 11:14:05 am jst
 
 french republican calendar
-231 vendémiaire iii 9 (decade iii jour du nonidi)
+231 vendémiaire iii 9.48175 (decade iii jour du nonidi)
+year
+    month
+                week number in roman numerals
+                    day of week
+                      decimal time of day
 </pre>
         </section>
         <section id="unix-time">
@@ -732,21 +737,21 @@ derivation
   1 666 318 445 unix time
 </pre>
             <h4>exercise</h4>
-            <p>what time will it be 1000 seconds from now in the gregorian calendar? what time will it be 1000 seconds from now in unix time?</p>
+            <p>what time will it be 1000 seconds from now in the sexagesimal time (the common clock that we use)? what time will it be 1000 seconds from now in unix time?</p>
         </section>
     </section>
     <section id="other interesting calendars">
         <h2>what are some other interesting calendars</h2>
         <section id="chinese-calendar">
             <h3>chinese calendar</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Chinese_calendar">chinese calendar</a> is a lunisolar calendar. earlier chinese solar calendars were developed between 771 to 476 bc. several lunisolar calendars were developed by 102 ad. the chinese calendar mainly follows the moon, months all start with the new moon. weeks are 9 or 10 days long depending on the length of the month, meaning weeks accommodate the month and months have three weeks for 29 or 30 days. the lunar year is ~10.88 days shorter than the solar year, and the chinese calendar adds a leap month about every 3 years to match the calendar year back up with the solar year and the seasons. years are 353-355 days long without the leap month and 383-385 days long with the leap month. the new year day is the first day of spring, which is a few new moons after the southern solstice. the new day time is midnight.</p>
+            <p>the <a href="https://en.wikipedia.org/wiki/Chinese_calendar">chinese calendar</a> is a lunisolar calendar. earlier chinese solar calendars were developed from 771 to 476 bc. several lunisolar calendars were developed by 102 ad. the chinese calendar mainly follows the moon, months all start with the new moon. weeks are 9 or 10 days long depending on the length of the month, meaning weeks accommodate the month and months have three weeks for 29 or 30 days. the lunar year is ~10.88 days shorter than the solar year, and the chinese calendar adds a leap month about every 3 years to match the calendar year back up with the solar year and the seasons. years are 353-355 days long without the leap month and 383-385 days long with the leap month. the new year day is the first day of spring, which is a few new moons after the southern solstice. the new day time is midnight.</p>
         </section>
         <section id="hebrew-calendar">
             <h3>hebrew calendar</h3>
             <p>the <a href="https://en.wikipedia.org/wiki/Hebrew_calendar">hebrew calendar</a> is a lunisolar calendar, is a religious calendar for judaism, and is the official calendar of the state of israel. the hebrew calendar was originally based on the babylonian lunisolar calendar that was in use during its development. earlier versions of the hebrew calendar used natural observations to determine whether to add a leap month, specifically whether the barley crop was ripe yet. the new day time is sunset. the hebrew calendar changed its epoch several times. some previous values of the epoch are</p>
             <ul>
                 <li>exodus from egpyt</li>
-                <li>when there was a monarchy they used an era system</li>
+                <li>when there was a monarchy they used regnal eras</li>
                 <li>the selucid epoch of 311 bc</li>
                 <li>the destruction of the second temple in jerusalem in 70 ad</li>
             </ul>
@@ -780,13 +785,13 @@ Tishrei 26, 5783
         </section>
         <section id="julian-dates">
             <h3>julian dates</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch. the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1853. calculating the amount of time between two julian dates is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday.</p>
+            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the julius that the julian day calendar is named after is a different julius than the julian calendar is named after, making the name confusing. a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch. the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1583. calculating the amount of time between two julian dates is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86400 to convert between seconds and days.</p>
             <p>example</p>
 <pre>
 gregorian datetime
 10/21/2022 11:14:05 am jst
 
-julian date
+julian day number
 2459873.59311
 </pre>
             <h4>exercise</h4>
