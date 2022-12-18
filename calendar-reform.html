@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8">
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
@@ -593,7 +595,7 @@
         </section>
         <section id="ordinal-dates">
             <h3>ordinal dates</h3>
-            <p>an ordinal date consists of the year number and the day of year number. the day of year is 1 for january 1, 2 for january 2, ... 365 for december 31 (or 366 in leap years). ordinal dates avoid specifying months and weeks. similar to julian dates, ordinal dates are convenient for dealing with spans of time like in shipping dates or food expiration dates. example of an ordinal date</p>
+            <p>an ordinal date consists of the year number and the day of year number. the day of year is 1 for january 1, 2 for january 2, ... 365 for december 31 (or 366 in leap years). ordinal dates avoid specifying months and weeks. similar to julian days, ordinal dates are convenient for dealing with spans of time like in shipping dates or food expiration dates. example of an ordinal date</p>
 <pre>
 gregorian date
 2022-10-21
@@ -787,9 +789,9 @@ Tishrei 26, 5783
             <h4>exercise</h4>
             <p>what day of the week will it be on this date next year?</p>
         </section>
-        <section id="julian-dates">
-            <h3>julian dates</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the julius that the julian day calendar is named after is a different julius than the julian calendar is named after, making the name confusing. a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch. the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1583. calculating the amount of time between two julian dates is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86400 to convert between seconds and days.</p>
+        <section id="julian-days">
+            <h3>julian days</h3>
+            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the julius that the julian day calendar is named after is a different julius than the julian calendar is named after, making the name confusing. a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch. the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1583. calculating the amount of time between two julian days is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86400 to convert between seconds and days.</p>
             <p>example</p>
 <pre>
 gregorian datetime
@@ -803,7 +805,7 @@ julian day number
         </section>
         <section id="star-trek-stardates">
             <h3>star trek stardates</h3>
-            <p>this is a group of similar non-functional calendars used in the science fiction series star trek. an example date is stardate 41153.7. <a href="https://en.wikipedia.org/wiki/Stardate">stardates</a> are similar to julian dates, except they only count days. the date format is a single number with a decimal, the decimal representing the day and the larger digits representing larger timespans including years. more recent star dates are ordinal dates. i describe these fictional calendars for these reasons</p>
+            <p>this is a group of similar non-functional calendars used in the science fiction series star trek. an example date is stardate 41153.7. <a href="https://en.wikipedia.org/wiki/Stardate">stardates</a> are similar to julian days, except startdates seem to exclude time of day. the date format is a single number with a decimal, the decimal representing the day and the larger digits representing larger timespans including years. more recent stardates are ordinal dates. i mention these fictional calendars for these reasons</p>
             <ul>
                 <li>track years and days but not months or weeks</li>
                 <li>uses a single number to represent a date</li>
