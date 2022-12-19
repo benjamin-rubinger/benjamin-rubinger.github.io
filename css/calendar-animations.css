@@ -20,6 +20,10 @@ html {
     font-family: source_code_pro,monospace;
     font-size: 20px;
 }
+figure {
+    margin: 1em 0;
+    padding: 0;
+}
 .dark {
     background-color: black;
     color: lightgray;
@@ -139,14 +143,8 @@ html {
 }
 
 .four-sundials {
-    background-color: black;
-    color: lightgray;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    border: 1px solid gray;
-    overflow: hidden;
 }
+
 .stars {
     animation-name: rotation;
     animation-duration: 20s;
@@ -1430,4 +1428,73 @@ html {
     background-color: #444444a0;
     border-radius: 50%;
     outline: 4px solid #333333a0;
+}
+
+.eye-world .time-scale {
+    width: 4000px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    animation-name: time-scale;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes time-scale {
+    from { left: 400px; }
+    to { left: -3600px; }
+}
+
+.time-scale .hour {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+}
+
+.hour.zero {
+    left: 1600px;
+}
+
+.hour.one {
+    left: 2000px;
+}
+
+.hour.two {
+    left: 2400px;
+}
+
+.hour.three {
+    left: 2800px;
+}
+
+.hour.four {
+    left: 3200px;
+}
+
+.hour.five {
+    left: 3600px;
+}
+
+.hour.six {
+    left: 0;
+}
+
+.hour.seven {
+    left: 400px;
+}
+
+.hour.eight {
+    left: 800px;
+}
+
+.hour.nine {
+    left: 1200px;
+}
+
+.time-scale .hour.day {
+    width: 4px;
+    background-color: red;
 }
