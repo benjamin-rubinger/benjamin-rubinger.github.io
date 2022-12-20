@@ -419,13 +419,19 @@ figure {
     to { opacity: 0; }
 }
 
-.arctic-circle-label {
+.major-circles .labels div {
     left: 210px;
+}
+
+.north-pole-label {
+    top: 55px;
+}
+
+.arctic-circle-label {
     top: 85px;
 }
 
 .cancer-circle-label {
-    left: 210px;
     top: 135px;
 }
 
@@ -435,7 +441,6 @@ figure {
 }
 
 .equator-circle-label {
-    left: 210px;
     top: 185px;
 }
 
@@ -559,7 +564,6 @@ figure {
 }
 
 .capricorn-circle-label {
-    left: 210px;
     top: 215px;
 }
 
@@ -569,13 +573,16 @@ figure {
 }
 
 .antarctic-circle-label {
-    left: 210px;
     top: 290px;
 }
 
 .antarctic-label {
     left: 50%;
     top: 300px;
+}
+
+.south-pole-label {
+    top: 345px;
 }
 
 .moon-light {
