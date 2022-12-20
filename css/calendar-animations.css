@@ -20,6 +20,10 @@ html {
     font-family: source_code_pro,monospace;
     font-size: 20px;
 }
+figure {
+    margin: 1em 0;
+    padding: 0;
+}
 .dark {
     background-color: black;
     color: lightgray;
@@ -139,14 +143,8 @@ html {
 }
 
 .four-sundials {
-    background-color: black;
-    color: lightgray;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    border: 1px solid gray;
-    overflow: hidden;
 }
+
 .stars {
     animation-name: rotation;
     animation-duration: 20s;
@@ -273,7 +271,7 @@ html {
     width: 100%;
     height: 50%;
 }
-.axial-tilt .stars, .major-circles .stars {
+.axial-tilt .stars, .major-circles .stars, .eye-world .stars {
     animation-name: none;
 }
 /*.axial-tilt .sun {*/
@@ -1044,105 +1042,105 @@ html {
 
 @keyframes twentyfour-stop-rotation {
     from { transform: rotate(0deg) }
-    4.16% { transform: rotate(0deg) }
+    4.169% { transform: rotate(0deg) }
     4.17% { transform: rotate(15deg) }
-    8.32% { transform: rotate(15deg) }
+    8.329% { transform: rotate(15deg) }
     8.33% { transform: rotate(30deg) }
-    12.49% { transform: rotate(30deg) }
+    12.499% { transform: rotate(30deg) }
     12.5% { transform: rotate(45deg) }
-    16.66% { transform: rotate(45deg) }
+    16.669% { transform: rotate(45deg) }
     16.67% { transform: rotate(60deg) }
-    20.82% { transform: rotate(60deg) }
+    20.829% { transform: rotate(60deg) }
     20.83% { transform: rotate(75deg) }
-    24.99% { transform: rotate(75deg) }
+    24.999% { transform: rotate(75deg) }
     25% { transform: rotate(90deg) }
-    29.16% { transform: rotate(90deg) }
+    29.169% { transform: rotate(90deg) }
     29.17% { transform: rotate(105deg) }
-    33.32% { transform: rotate(105deg) }
+    33.329% { transform: rotate(105deg) }
     33.33% { transform: rotate(120deg) }
-    37.49% { transform: rotate(120deg) }
+    37.499% { transform: rotate(120deg) }
     37.5% { transform: rotate(135deg) }
-    41.66% { transform: rotate(135deg) }
+    41.669% { transform: rotate(135deg) }
     41.67% { transform: rotate(150deg) }
-    45.82% { transform: rotate(150deg) }
+    45.829% { transform: rotate(150deg) }
     45.83% { transform: rotate(165deg) }
-    49.99% { transform: rotate(165deg) }
+    49.999% { transform: rotate(165deg) }
     50% { transform: rotate(180deg) }
-    54.16% { transform: rotate(180deg) }
+    54.169% { transform: rotate(180deg) }
     54.17% { transform: rotate(195deg) }
-    58.32% { transform: rotate(195deg) }
+    58.329% { transform: rotate(195deg) }
     58.33% { transform: rotate(210deg) }
-    62.49% { transform: rotate(210deg) }
+    62.499% { transform: rotate(210deg) }
     62.5% { transform: rotate(225deg) }
-    66.66% { transform: rotate(225deg) }
+    66.669% { transform: rotate(225deg) }
     66.67% { transform: rotate(240deg) }
-    70.82% { transform: rotate(240deg) }
+    70.829% { transform: rotate(240deg) }
     70.83% { transform: rotate(255deg) }
-    74.99% { transform: rotate(255deg) }
+    74.999% { transform: rotate(255deg) }
     75% { transform: rotate(270deg) }
-    79.16% { transform: rotate(270deg) }
+    79.169% { transform: rotate(270deg) }
     79.17% { transform: rotate(285deg) }
-    83.32% { transform: rotate(285deg) }
+    83.329% { transform: rotate(285deg) }
     83.33% { transform: rotate(300deg) }
-    87.49% { transform: rotate(300deg) }
+    87.499% { transform: rotate(300deg) }
     87.5% { transform: rotate(315deg) }
-    91.66% { transform: rotate(315deg) }
+    91.669% { transform: rotate(315deg) }
     91.67% { transform: rotate(330deg) }
-    95.82% { transform: rotate(330deg) }
+    95.829% { transform: rotate(330deg) }
     95.83% { transform: rotate(345deg) }
-    99.99% { transform: rotate(345deg) }
+    99.999% { transform: rotate(345deg) }
     to { transform: rotate(360deg) }
 }
 
 @keyframes twentyfour-anti-rotation {
     from { transform: rotate(0deg) }
-    4.16% { transform: rotate(0deg) }
+    4.169% { transform: rotate(0deg) }
     4.17% { transform: rotate(-15deg) }
-    8.32% { transform: rotate(-15deg) }
+    8.329% { transform: rotate(-15deg) }
     8.33% { transform: rotate(-30deg) }
-    12.49% { transform: rotate(-30deg) }
+    12.499% { transform: rotate(-30deg) }
     12.5% { transform: rotate(-45deg) }
-    16.66% { transform: rotate(-45deg) }
+    16.669% { transform: rotate(-45deg) }
     16.67% { transform: rotate(-60deg) }
-    20.82% { transform: rotate(-60deg) }
+    20.829% { transform: rotate(-60deg) }
     20.83% { transform: rotate(-75deg) }
-    24.99% { transform: rotate(-75deg) }
+    24.999% { transform: rotate(-75deg) }
     25% { transform: rotate(-90deg) }
-    29.16% { transform: rotate(-90deg) }
+    29.169% { transform: rotate(-90deg) }
     29.17% { transform: rotate(-105deg) }
-    33.32% { transform: rotate(-105deg) }
+    33.329% { transform: rotate(-105deg) }
     33.33% { transform: rotate(-120deg) }
-    37.49% { transform: rotate(-120deg) }
+    37.499% { transform: rotate(-120deg) }
     37.5% { transform: rotate(-135deg) }
-    41.66% { transform: rotate(-135deg) }
+    41.669% { transform: rotate(-135deg) }
     41.67% { transform: rotate(-150deg) }
-    45.82% { transform: rotate(-150deg) }
+    45.829% { transform: rotate(-150deg) }
     45.83% { transform: rotate(-165deg) }
-    49.99% { transform: rotate(-165deg) }
+    49.999% { transform: rotate(-165deg) }
     50% { transform: rotate(-180deg) }
-    54.16% { transform: rotate(-180deg) }
+    54.169% { transform: rotate(-180deg) }
     54.17% { transform: rotate(-195deg) }
-    58.32% { transform: rotate(-195deg) }
+    58.329% { transform: rotate(-195deg) }
     58.33% { transform: rotate(-210deg) }
-    62.49% { transform: rotate(-210deg) }
+    62.499% { transform: rotate(-210deg) }
     62.5% { transform: rotate(-225deg) }
-    66.66% { transform: rotate(-225deg) }
+    66.669% { transform: rotate(-225deg) }
     66.67% { transform: rotate(-240deg) }
-    70.82% { transform: rotate(-240deg) }
+    70.829% { transform: rotate(-240deg) }
     70.83% { transform: rotate(-255deg) }
-    74.99% { transform: rotate(-255deg) }
+    74.999% { transform: rotate(-255deg) }
     75% { transform: rotate(-270deg) }
-    79.16% { transform: rotate(-270deg) }
+    79.169% { transform: rotate(-270deg) }
     79.17% { transform: rotate(-285deg) }
-    83.32% { transform: rotate(-285deg) }
+    83.329% { transform: rotate(-285deg) }
     83.33% { transform: rotate(-300deg) }
-    87.49% { transform: rotate(-300deg) }
+    87.499% { transform: rotate(-300deg) }
     87.5% { transform: rotate(-315deg) }
-    91.66% { transform: rotate(-315deg) }
+    91.669% { transform: rotate(-315deg) }
     91.67% { transform: rotate(-330deg) }
-    95.82% { transform: rotate(-330deg) }
+    95.829% { transform: rotate(-330deg) }
     95.83% { transform: rotate(-345deg) }
-    99.99% { transform: rotate(-345deg) }
+    99.999% { transform: rotate(-345deg) }
     to { transform: rotate(-360deg) }
 }
 
@@ -1386,4 +1384,117 @@ html {
     from { background-color: gray }
     75% { background-color: white }
     to { background-color: gray }
+}
+
+.eye-ball {
+    /*background-color: white;*/
+    background: radial-gradient(circle at 100px 100px, white, #aaa);
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+
+.iris {
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+    left: 150px;
+    top: 150px;
+}
+
+.eye-world .atmosphere {
+    width: 140px;
+    height: 140px;
+    left: 130px;
+    top: 130px;
+}
+
+.pupil {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    left: 175px;
+    top: 175px;
+    overflow: hidden;
+}
+
+.lid {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 25px;
+    top: 100px;
+    background-color: #444444a0;
+    border-radius: 50%;
+    outline: 4px solid #333333a0;
+}
+
+.eye-world .time-scale {
+    width: 4000px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    animation-name: time-scale;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes time-scale {
+    from { left: 400px; }
+    to { left: -3600px; }
+}
+
+.time-scale .hour {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+}
+
+.hour.zero {
+    left: 1600px;
+}
+
+.hour.one {
+    left: 2000px;
+}
+
+.hour.two {
+    left: 2400px;
+}
+
+.hour.three {
+    left: 2800px;
+}
+
+.hour.four {
+    left: 3200px;
+}
+
+.hour.five {
+    left: 3600px;
+}
+
+.hour.six {
+    left: 0;
+}
+
+.hour.seven {
+    left: 400px;
+}
+
+.hour.eight {
+    left: 800px;
+}
+
+.hour.nine {
+    left: 1200px;
+}
+
+.time-scale .hour.day {
+    width: 4px;
+    background-color: red;
 }

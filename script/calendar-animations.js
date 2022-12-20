@@ -32,8 +32,8 @@ function toggleAnimation($animationContainer) {
 // }
 
 
-function twinkle() {
-    const $starsContainer = $('.where-are-we .stars');
+function twinkle(containerSelector) {
+    const $starsContainer = $(`${containerSelector} .stars`);
     const $stars = $starsContainer.find('.star').not('.twinkle');
     const starIndex = Math.floor(Math.random() * $stars.length);
     const $star = $($stars[starIndex]);
@@ -43,8 +43,10 @@ function twinkle() {
     }, 500);
 }
 
-function scheduleTwinkle() {
-    window.setInterval(twinkle, 300);
+function scheduleTwinkle(containerSelector) {
+    window.setInterval(function () {
+        twinkle(containerSelector);
+    }, 300);
 }
 
 // todo support click to toggle the animation
@@ -62,7 +64,8 @@ function scheduleProgress() {
 
 function initializeAnimations() {
     stars(120, '.animation-container');
-    scheduleTwinkle();
+    scheduleTwinkle('.where-are-we');
+    scheduleTwinkle('.eye-world');
     scheduleProgress();
     // toggleAnimation($('.animation-container'));
 }
