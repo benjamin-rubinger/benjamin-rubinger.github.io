@@ -606,7 +606,7 @@ figure {
 }
 
 .moon-dark.left {
-    clip-path: inset(0px 0px 0px 100px);
+    clip-path: inset(0px 100px 0px 0px);
     animation-name: phases-dark-left;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -616,11 +616,11 @@ figure {
 @keyframes phases-dark-left {
     from { transform: scaleX(0); }
     75% { transform: scaleX(0); }
-    to {  transform: scaleX(1);  }
+    to {  transform: scaleX(1); }
 }
 
 .moon-light.left {
-    clip-path: inset(0px 0px 0px 100px);
+    clip-path: inset(0px 100px 0px 0px);
     animation-name: phases-light-left;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -635,7 +635,7 @@ figure {
 }
 
 .moon-dark.right {
-    clip-path: inset(0px 100px 0px 0px);
+    clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-dark-right;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -649,7 +649,7 @@ figure {
 }
 
 .moon-light.right {
-    clip-path: inset(0px 100px 0px 0px);
+    clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-light-right;
     animation-duration: 20s;
     animation-iteration-count: infinite;
