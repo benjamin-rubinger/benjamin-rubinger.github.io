@@ -538,8 +538,46 @@
         <section id="epochs-and-eras">
             <h3>more about epoch and eras</h3>
             <p>if we count years in a calendar, we have to choose a year to start counting from, a year zero. in the gregorian calendar, this is claimed to be the year of the birth of jesus in 1 bc. other calendars choose an epoch based on the year of the creation of the world, the year of the birth of a leader or the year of the formation of a country or government.</p>
-
             <p>there are some calendars that use <a href="https://en.wikipedia.org/wiki/Regnal_year">regnal eras</a>. in an era system, each consecutive ruler is defined as their own era with their own year one or year zero, and the current year is the offset from the current era. to understand a date many years in the past requires knowledge of the eras between now and the given date, you have to know how long each era was to calculate the number of years between now and the given date. eras have an advantage of usually having a small year number, eras have a disadvantage of making year numbers in different eras incomparable without detailed era knowledge.</p>
+            <h3>other choices for the epoch</h3>
+            <section id="the-beginning-of-time">
+                <h4>💥 the beginning of time</h4>
+                <p>the beginning of time with the <a href="https://en.wikipedia.org/wiki/Big_Bang">big bang</a> is the universal epoch. the current estimate of when the big bang occurred is 13.787 billion years ago with an estimated error range of 20 million years. we need higher precision with an error under a year or so to be able to use this event as an epoch without having to change it later. it is inconvenient to deal with such large year numbers all the time, for example if the current year would be 13 787 002 022 instead of 2022. every choice of epoch will eventually face the problem of very large year numbers. if the gregorian calendar persisted for 13.787 billion more years, the year number at that time in the far future would be that same large number as if we adopted the big bang as the epoch now.</p>
+            </section>
+            <section id="formation-of-the-earth">
+                <h4>🌍 formation of the earth</h4>
+                <p>the <a href="https://en.wikipedia.org/wiki/Earth#Formation">formation of the earth</a> is a great epoch choice for an earth calendar based on earth years, because earth years only make sense as a concept once the earth exists. the current estimate of the formation of the earth is 4.54 billion years ago, with an error range of 40 million years. that value isnt precise enough to base an epoch on, and the value is too large to write all the time. another problem is that the formation of the earth is a continuous process that doesnt have a bright line that allows us to identify a moment, or in this case a year, when the earth comes into existence.</p>
+            </section>
+            <section id="major-prehistoric-events">
+                <h4>major prehistoric events</h4>
+                <ul>
+                    <li>🦠 <a href="https://en.wikipedia.org/wiki/Abiogenesis">abiogenesis</a>, formation of life on earth, ~4 billion years ago</li>
+                    <li>🪱 <a href="https://en.wikipedia.org/wiki/Multicellular_organism#Occurrence">first multicellular life</a>, ~3.5 billion years ago</li>
+                    <li>🪲 <a href="https://en.wikipedia.org/wiki/History_of_life#Colonization_of_land">first terrestrial life</a>, ~1 billion years ago</li>
+                    <li>🚶 <a href="https://en.wikipedia.org/wiki/Early_modern_human">first modern humans</a>, ~315 000 years ago</li>
+                    <li>🧑‍🌾 <a href="https://en.wikipedia.org/wiki/Neolithic_Revolution">neolithic revolution</a>, ~11 700 years ago</li>
+                </ul>
+                <p>there are many momentous occasions that we could use as an epoch, but they occurred very long in the past and we dont have precise dates for them to base our calendar epoch on.</p>
+                <p>we could make use of approximate dates and arbitrarily choose a date within the range as our epoch. this approach has been proposed several times with the holocene era, referring to the neolithic revolution, the period when humans started switching from a hunter-gatherer lifestyle to farming. this transition is arguably the beginning of human civilization and marks the single occasion when calendars became important. the neolithic revolution is recent enough that we have physical evidence and can estimate when it occurred. the current estimate is 11 700 years ago. the estimate is approximate, and improved evidence or analysis can and has changed the estimated date of the neolithic revolution.</p>
+                <p>the <a href="https://en.wikipedia.org/wiki/Holocene_calendar">holocene calendar</a> proposes to subtract 10 000 years from our current epoch, effectively adding a leading 1 to our current year, so 2022 becomes 12022. this epoch may not be exactly the beginning of the neolithic revolution, but the idea is that practically all events of human civilization will fall after that date.</p>
+                <p>some of the problems with this proposal is that the year is not precise, the exact year number is still based on the gregorian epoch, the year number is one digit longer, and future analysis might make this epoch more inaccurate.</p>
+            </section>
+            <section id="julian-day-epoch">
+                <h4>julian day epoch</h4>
+                <p>4713 bc is the epoch for the julian day calendar. the particular year was derived based on cycles of the gregorian calendar and roman tax collection, so the derivation is not very meaningful today. it is an arbitrary yet specific date that is before written history and has been in use as an epoch for hundreds of years, primarily by astronomers.</p>
+            </section>
+            <section id="oldest-recorded-date">
+                <h4>oldest recorded date</h4>
+                <p>there are some written accounts that describe a solar eclipse or another detail that we can back calculate to a specific datetime. we could choose the earliest of those recorded historical events and make that the epoch. according to that approach however, if archeology discovers a document with an earlier verifiable date, we would need to change the epoch again. we want a stable epoch. it is good to celebrate a human event, but the choice of any particular human event seems to be random and overly specific.</p>
+            </section>
+            <section id="unix-epoch">
+                <h4>unix epoch</h4>
+                <p>unix time uses an epoch of 1970-01-01. a lot of people living today were born after 1970, so many of the events that we talk about would be after the epoch. it is easier to talk about dates after the epoch. if we chose an epoch after 1970, more and more dates that we commonly discuss would be before the epoch and that is more difficult for people to deal with than keeping dates in common conversation after the epoch. the anno domini epoch was established long after the life of jesus, so people could use the new epoch to talk about dates in the recent past without crossing the epoch.</p>
+            </section>
+            <section id="now">
+                <h4>now</h4>
+                <p>we could declare that the epoch is when we choose to adopt the new calendar. that is a selfish choice, but if the choice of epoch is arbitrary then it also cant be wrong, which is better than choosing an event that is supposed to be important but becomes unimportant. recontextualizing history to before and after the adoption of a calendar really elevates the importance of the calendar above where the importance of a calendar should be, but we have to elevate something as the epoch. as we see with the anno domini system, elevating any particular person or event can eventually become a problem for a calendar when that person or event loses relevance.</p>
+            </section>
         </section>
         <section id="the-timezone-map">
             <h3>more about timezones and the timezone map</h3>
@@ -856,54 +894,270 @@ star date
 </pre>
         </section>
     </section>
+    <section id="calendar-designs">
+        <h2>calendar designs</h2>
+        <p>now that you know how calendars work and have seen several existing calendars, you are ready to design your own calendar! i will present my proposal first, then you can try any existing calendars and even create your own calendar!</p>
+        <section id="my-proposed-calendar">
+            <h3>my proposed calendar</h3>
+            <p>i propose a solar calendar with ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of a calendar, track the seasons, track the position of the sun in the sky and to locate points in time. the epoch is the holocene era, 10000 years before the gregorian epoch, an arbitrary year during the agricultural revolution. the new year day is the equinox going south, the new day time is midnight. no timezones, everyone would use utc. no daylight savings time.</p>
+            <p>example</p>
+            <pre>
+gregorian datetime
+10/21/2022 11:14:05 am jst
+
+proposed calendar
+12022 28.59311
+</pre>
+        </section>
+        <section id="design-your-own">
+            <h3>design your own calendar</h3>
+            <div class="calendar-design">
+                <label for="existing-calendar">existing calendar</label>
+                <select id="existing-calendar" class="existing-calendar">
+                    <option>none</option>
+                    <option>chinese</option>
+                    <option>egyptian</option>
+                    <option>french republican</option>
+                    <option>gregorian</option>
+                    <option>hebrew</option>
+                    <option>islamic</option>
+                    <option>julian</option>
+                    <option>julian day</option>
+                    <option>my proposal</option>
+                    <option>unix time</option>
+                </select>
+                <label for="calendar-type">type</label>
+                <select id="calendar-type" class="calendar-type">
+                    <option>lunar</option>
+                    <option>lunisolar</option>
+                    <option>solar</option>
+                </select>
+                <!-- maybe the epoch should be an integer? offset from what? -->
+                <label for="select-epoch">epoch</label>
+                <select id="select-epoch" class="select-epoch">
+                    <option>big bang</option>
+                    <option>creation of the world (anno mundi)</option>
+                    <option>formation of the earth</option>
+                    <option>first life (abiogenesis)</option>
+                    <option>first land animals</option>
+                    <option>first modern humans</option>
+                    <option>holcene era</option>
+                    <option>julian day epoch</option>
+                    <option>selucid epoch</option>
+                    <option>exodus from egpyt</option>
+                    <option>destruction of the second temple</option>
+                    <option>birth of jesus</option>
+                    <option>1970</option>
+                    <option>now</option>
+                    <option>regnal eras</option>
+                    <option>other</option>
+                </select>
+                <label for="select-new-year-day">new year day</label>
+                <select id="select-new-year-day" class="select-new-year-day">
+                    <option>none</option>
+                    <option>northern solstice</option>
+                    <option>equinox going south</option>
+                    <option>southern solstice</option>
+                    <option>equinox going north</option>
+                    <option>chinese</option>
+                    <option>gregorian</option>
+                    <option>roman</option>
+                    <option>other</option>
+                </select>
+                <label for="select-month-names">month names</label>
+                <select id="select-month-names" class="select-month-names">
+                    <option>none</option>
+                    <option>chinese</option>
+                    <option>egyptian</option>
+                    <option>french republican</option>
+                    <option>gregorian</option>
+                    <option>hebrew</option>
+                    <option>islamic</option>
+                    <option>julian</option>
+                    <option>other</option>
+                </select>
+                <label for="week-length">week length in days</label>
+                <select id="week-length" class="week-length">
+                    <option>none</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+                <label for="select-weekday-names">weekday names</label>
+                <select id="select-weekday-names" class="select-weekday-names">
+                    <option>none</option>
+                    <option>numbered</option>
+                    <option>chinese</option>
+                    <option>egyptian</option>
+                    <option>gregorian</option>
+                    <option>hebrew</option>
+                    <option>islamic</option>
+                    <option>julian</option>
+                    <option>other</option>
+                </select>
+                <label for="select-leap">leap period</label>
+                <select id="select-leap" class="select-leap">
+                    <option>none</option>
+                    <option>leap day</option>
+                    <option>leap month</option>
+                </select>
+                <label for="select-intercalary-days">intercalary days</label>
+                <select id="select-intercalary-days" class="select-intercalary-days">
+                    <option>none</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <label for="select-new-day-time">new day time</label>
+                <select id="select-new-day-time" class="select-new-day-time">
+                    <option>none</option>
+                    <option>midnight</option>
+                    <option>sunrise</option>
+                    <option>midday</option>
+                    <option>sunset</option>
+                    <option>other</option>
+                </select>
+                <label for="select-time">time</label>
+                <select id="select-time" class="select-time">
+                    <option>none</option>
+                    <option>12 hour sexagesimal</option>
+                    <option>24 hour sexagesimal</option>
+                    <option>chinese</option>
+                    <option>decimal</option>
+                    <option>other</option>
+                </select>
+                <label for="select-timezones">timezones</label>
+                <input id="select-timezones" class="select-timezones" type="checkbox">
+                <label for="select-daylight-saving-time">daylight saving time</label>
+                <input id="select-daylight-saving-time" class="select-daylight-saving-time" type="checkbox">
+                <label for="select-date-format">date format</label>
+                <select id="select-date-format" class="select-date-format">
+                    <option>dmy</option>
+                    <option>dym</option>
+                    <option>mdy</option>
+                    <option>myd</option>
+                    <option>ydm</option>
+                    <option>ymd</option>
+                </select>
+                <label for="select-date-separator">date seperator</label>
+                <select id="select-date-separator" class="select-date-separator">
+                    <option>none</option>
+                    <option>: (colon)</option>
+                    <option>, (comma)</option>
+                    <option>- (dash)</option>
+                    <option>. (dot)</option>
+                    <option>/ (slash)</option>
+                    <option>&nbsp;  (space)</option>
+                    <option>other</option>
+                </select>
+                <label for="select-time-separator">time seperator</label>
+                <select id="select-time-separator" class="select-time-separator">
+                    <option>none</option>
+                    <option>: (colon)</option>
+                    <option>, (comma)</option>
+                    <option>- (dash)</option>
+                    <option>. (dot)</option>
+                    <option>/ (slash)</option>
+                    <option>&nbsp;  (space)</option>
+                    <option>other</option>
+                </select>
+            </div>
+        </section>
+        <div class="interactive">
+            <p>enter a datetime in the gregorian calendar</p>
+            <label for="date">datetime</label>
+            <input id="date" class="date" type="date" />
+            <input id="time" class="time" type="time" step="1" />
+            <label for="timezone">timezone offset from utc</label>
+            <select id="timezone" class="timezone">
+                <option>-12:00</option>
+                <option>-11:00</option>
+                <option>-10:00</option>
+                <option>-09:30</option>
+                <option>-09:00</option>
+                <option>-08:00</option>
+                <option>-07:00</option>
+                <option>-06:00</option>
+                <option>-05:00</option>
+                <option>-04:00</option>
+                <option>-03:30</option>
+                <option>-03:00</option>
+                <option>-02:00</option>
+                <option>-01:00</option>
+                <option>+00:00</option>
+                <option>+01:00</option>
+                <option>+02:00</option>
+                <option>+03:00</option>
+                <option>+03:30</option>
+                <option>+04:00</option>
+                <option>+04:30</option>
+                <option>+05:00</option>
+                <option>+05:30</option>
+                <option>+05:45</option>
+                <option>+06:00</option>
+                <option>+06:30</option>
+                <option>+07:00</option>
+                <option>+08:00</option>
+                <option>+08:45</option>
+                <option>+09:00</option>
+                <option>+09:30</option>
+                <option>+10:00</option>
+                <option>+10:30</option>
+                <option>+11:00</option>
+                <option>+12:00</option>
+                <option>+12:45</option>
+                <option>+13:00</option>
+                <option>+14:00</option>
+            </select>
+            <button class="now">now</button>
+        </div>
+        <div class="convert">
+            <p>choose another calendar to see the gregorian datetime converted into that calendar</p>
+            <select id="convert-calendar" class="convert-calendar">
+                <option>chinese</option>
+                <option>egyptian</option>
+                <option>french republican</option>
+                <option>hebrew</option>
+                <option>islamic</option>
+                <option>julian</option>
+                <option>julian day</option>
+                <option>my proposal</option>
+                <option>unix time</option>
+                <option>your custom calendar</option>
+            </select>
+        </div>
+        <div class="datetime-formats">
+            <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
+            <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
+            <div><span>converted datetime</span><span class="converted-datetime"></span></div>
+            <p>share this calendar!</p>
+            <a href="">blah calendar</a><button>copy link</button>
+        </div>
+    </section>
     <section id="gregorian-calendar-improvements">
         <h2>problems with the gregorian calendar and suggestions for improvement</h2>
-        <section id="bad epoch">
+        <section id="bad-epoch">
             <h3>gregorian epoch is a bad choice and is inaccurate</h3>
             <p>the current choice of epoch is supposed to match the year of <a href="https://en.wikipedia.org/wiki/Historical_Jesus#Other_possibly_historical_elements">birth of jesus christ</a>, but jesus was almost certainly not born in 1 bc. jesus was more likely born between 7 and 2 bc, so the current epoch is wrong even if we choose to set the epoch to the birth of jesus. we should not choose our epoch based on a religious event.
             </p>
-            <h3>better choices for the epoch</h3>
-            <section id="the-beginning-of-time">
-                <h4>💥 the beginning of time</h4>
-                <p>the beginning of time during the <a href="https://en.wikipedia.org/wiki/Big_Bang">big bang</a> is the universal epoch, if we could more exactly measure when it was. the current estimate is 13.787 billion years ago with an estimated error range of 20 million years. we need higher precision with an error under a year or so to be able to use this event as an epoch without having to change it later. it is inconvenient to deal with such large year numbers all the time, for example if the current year would be 13 787 002 022 instead of 2022. every choice of epoch will eventually face the problem of very large year numbers. if the gregorian calendar persisted for 13.787 billion more years, the year number at that time in the far future would be that same large number as if we adopted the big bang as the epoch now.</p>
-            </section>
-            <section id="formation-of-the-earth">
-                <h4>🌍 formation of the earth</h4>
-                <p>the <a href="https://en.wikipedia.org/wiki/Earth#Formation">formation of the earth</a> is a great epoch choice for an earth calendar based on earth years, because earth years only make sense as a concept once the earth exists. the current estimate of the formation of the earth is 4.54 billion years ago, with an error range of 40 million years. that value isnt precise enough to base an epoch on, and the value is too large to write all the time. another problem is that the formation of the earth is a continuous process that doesnt have a bright line that allows us to identify a moment, or in this case a year, when the earth comes into existence.</p>
-            </section>
-            <section id="major-prehistoric-events">
-                <h4>major prehistoric events</h4>
-                <ul>
-                    <li>🦠 <a href="https://en.wikipedia.org/wiki/Abiogenesis">abiogenesis</a>, formation of life on earth, ~4 billion years ago</li>
-                    <li>🪱 <a href="https://en.wikipedia.org/wiki/Multicellular_organism#Occurrence">first multicellular life</a>, ~3.5 billion years ago</li>
-                    <li>🪲 <a href="https://en.wikipedia.org/wiki/History_of_life#Colonization_of_land">first terrestrial life</a>, ~1 billion years ago</li>
-                    <li>🚶 <a href="https://en.wikipedia.org/wiki/Early_modern_human">first modern humans</a>, ~315 000 years ago</li>
-                    <li>🧑‍🌾 <a href="https://en.wikipedia.org/wiki/Neolithic_Revolution">neolithic revolution</a>, ~11 700 years ago</li>
-                </ul>
-                <p>there are many momentous occasions that we could use as an epoch, but they occurred very long in the past and we dont have precise dates for them to base our calendar epoch on.</p>
-
-                <p>we could make use of approximate dates and arbitrarily choose a date within the range as our epoch. this approach has been proposed several times with the holocene era, referring to the neolithic revolution, the approximate year when humans started switching from a hunter-gatherer lifestyle to farming. this transition is arguably the beginning of human civilization and marks the single occasion when calendars became important. the neolithic revolution is recent enough that we have physical evidence and can estimate when it occurred. the current estimate is 11 700 years ago. the estimate is approximate, and improved evidence or analysis can and has changed the estimated date of the neolithic revolution.</p>
-
-                <p>the <a href="https://en.wikipedia.org/wiki/Holocene_calendar">holocene calendar</a> proposes to subtract 10 000 years from our current epoch, effectively adding a leading 1 to our current year, so 2022 becomes 12022. this epoch may not be exactly the beginning of the neolithic revolution, but the idea is that practically all recorded history will fall after that date.</p>
-
-                <p>some of the problems with this proposal is that the year is not precise, the exact year number is still based on the gregorian epoch, the year number is one digit longer, and future analysis might make this epoch more inaccurate.</p>
-            </section>
-            <section id="julian-day-epoch">
-                <h4>julian day epoch</h4>
-                <p>4713 bc is the epoch for the julian day calendar. the particular year was derived based on cycles of the gregorian calendar and roman tax collection, so the derivation is not very meaningful today. it is an arbitrary yet specific date that is before written history and has been in use as an epoch for hundreds of years, primarily by astronomers.</p>
-            </section>
-            <section id="oldest-recorded-date">
-                <h4>oldest recorded date</h4>
-                <p>there are some written accounts that describe a solar eclipse or another detail that we can back calculate to a specific datetime. we could choose the earliest of those recorded historical events and make that the epoch. according to that approach however, if archeology discovers a document with an earlier verifiable date, we would need to change the epoch again. we want a stable epoch. it is good to celebrate a human event, but the choice of any particular human event seems to be random and overly specific.</p>
-            </section>
-            <section id="unix-epoch">
-                <h4>unix epoch</h4>
-                <p>unix time uses an epoch of 1970-01-01. a lot of people living today were born after 1970, so many of the events that we talk about would be after the epoch. it is easier to talk about dates after the epoch. if we chose an epoch after 1970, more and more dates that we commonly discuss would be before the epoch and that is more difficult for people to deal with than keeping dates in common conversation after the epoch. the anno domini epoch was established long after the life of jesus, so people could use the new epoch to talk about dates in the recent past without crossing the epoch.</p>
-            </section>
-            <section id="now">
-                <h4>now</h4>
-                <p>we could declare that the epoch is when we choose to adopt the new calendar. that is a solipsistic choice, but if the choice of epoch is arbitrary then it also cant be wrong, which is better than choosing an event that is supposed to be important but becomes unimportant. recontextualizing history to before and after the adoption of a calendar really elevates the importance of the calendar above where the importance of a calendar should be, but we have to elevate something as the epoch. as we see with the anno domini system, elevating any particular person or event can eventually become a problem for a calendar when that person or event loses relevance.</p>
-            </section>
         </section>
         <section id="missing-0-ad">
             <h3>missing year zero in anno domini</h3>
@@ -1096,62 +1350,7 @@ star date
             <h3>use a single number for datetimes</h3>
             <p>julian days use a single number with the unit of a day. unix time uses a single number with the unit of a second or a millisecond. another option is to use a single number with the unit of a year. a metric year could be initially defined to match a tropical earth year. the year could be split into 10 months that have nothing to do with the moon, so maybe we could call them something different. for example, halfway through the current year would be 2022.5.</p>
         </section>
-        <section id="proposal">
-            <h3>proposal</h3>
-            <p>use ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of a calendar, to locate points in time, track the seasons and the position of the sun in the sky.</p>
-        </section>
     </section>
-    <div class="interactive">
-        <label for="date">choose a datetime</label>
-        <input id="date" class="date" type="date" />
-        <input id="time" class="time" type="time" step="1" />
-        <label for="timezone">timezone offset from utc</label>
-        <select id="timezone" class="timezone">
-            <option>-12:00</option>
-            <option>-11:00</option>
-            <option>-10:00</option>
-            <option>-09:30</option>
-            <option>-09:00</option>
-            <option>-08:00</option>
-            <option>-07:00</option>
-            <option>-06:00</option>
-            <option>-05:00</option>
-            <option>-04:00</option>
-            <option>-03:30</option>
-            <option>-03:00</option>
-            <option>-02:00</option>
-            <option>-01:00</option>
-            <option>+00:00</option>
-            <option>+01:00</option>
-            <option>+02:00</option>
-            <option>+03:00</option>
-            <option>+03:30</option>
-            <option>+04:00</option>
-            <option>+04:30</option>
-            <option>+05:00</option>
-            <option>+05:30</option>
-            <option>+05:45</option>
-            <option>+06:00</option>
-            <option>+06:30</option>
-            <option>+07:00</option>
-            <option>+08:00</option>
-            <option>+08:45</option>
-            <option>+09:00</option>
-            <option>+09:30</option>
-            <option>+10:00</option>
-            <option>+10:30</option>
-            <option>+11:00</option>
-            <option>+12:00</option>
-            <option>+12:45</option>
-            <option>+13:00</option>
-            <option>+14:00</option>
-        </select>
-        <button class="now">now</button>
-    </div>
-    <div class="datetime-formats">
-        <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
-        <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
-    </div>
     <section id="references">
         <h3>references</h3>
         <ul>
