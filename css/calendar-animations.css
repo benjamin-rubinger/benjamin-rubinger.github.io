@@ -793,16 +793,30 @@ figure {
     background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
-.earth-revolution .stars {
+.earth-revolution .stars, .earth-revolution-side .stars {
     animation-name: none;
 }
-
-.earth-revolution .sun {
+.earth-revolution .sun, .earth-revolution-side .sun {
     width: 20px;
     height: 20px;
     left: 190px;
     top: 190px;
     background-color: white;
+}
+.earth-revolution-side .sun.front {
+    opacity: 0;
+    animation-name: sun-front;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sun-front {
+    from { opacity: 0 }
+    38.999% { opacity: 0 }
+    39% { opacity: 100% }
+    59.999% { opacity: 100% }
+    60% { opacity: 0 }
+    to { opacity: 0 }
 }
 .earth-revolution .earth-orbit {
     position: absolute;
@@ -813,6 +827,14 @@ figure {
     height: 280px;
     border-radius: 50%;
 }
+.earth-revolution-side .earth-orbit-side {
+    position: absolute;
+    border-top: 2px dashed gray;
+    left: 60px;
+    top: 200px;
+    width: 280px;
+    height: 0;
+}
 .earth-revolution .earth-orbit-container {
     position: absolute;
     left: 60px;
@@ -820,7 +842,7 @@ figure {
     width: 280px;
     height: 280px;
     animation-name: rotation;
-    animation-duration: 40s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -830,13 +852,23 @@ figure {
     left: -40px;
     top: 100px;
 }
-.earth-revolution .pole-container {
-    animation-name: anti-rotation;
-    animation-duration: 40s;
+.earth-revolution-side .earth-container {
+    width: 80px;
+    height: 80px;
+    left: 20px;
+    top: 160px;
+    animation-name: orbit-side;
+    animation-duration: 20s;
+    animation-delay: -15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.earth-revolution .atmosphere {
+@keyframes orbit-side {
+    from { left: 20px }
+    50% { left: 300px }
+    to { left: 20px }
+}
+.earth-revolution .atmosphere, .earth-revolution-side .atmosphere {
     width: 100px;
     height: 100px;
     left: -10px;
@@ -844,12 +876,10 @@ figure {
     background-image: radial-gradient(#4444ff, #4444ff, #4444ff, transparent, transparent);
     position: absolute;
 }
-.earth-revolution .earth-night {
+.earth-revolution .earth-night, .earth-revolution-side .earth-night {
     width: 100%;
     height: 100%;
     background-color: darkgreen;
-    border-radius: 50%;
-    position: absolute;
     left: 0;
     top: 0;
 }
@@ -857,31 +887,192 @@ figure {
     width: 100%;
     height: 100%;
     background-color: lightgreen;
-    border-radius: 50%;
-    position: absolute;
     left: 0;
     top: 0;
     animation-name: none;
     clip-path: inset(0px 0px 0px 40px);
 }
-.earth-revolution .pole-rotation {
-    width: 10px;
-    height: 10px;
-    left: 35px;
-    top: 20px;
-    animation-name: rotation;
-    animation-duration: 0.109516s;
+.earth-revolution-side .earth-day {
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    left: 0;
+    top: 0;
+}
+.earth-night.left {
+    clip-path: inset(0px 40px 0px 0px);
+    animation-name: phases-dark-left;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-night.right {
+    clip-path: inset(0px 0px 0px 40px);
+    animation-name: phases-dark-right;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-day.left {
+    clip-path: inset(0px 40px 0px 0px);
+    animation-name: phases-light-left;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-day.right {
+    clip-path: inset(0px 0px 0px 40px);
+    animation-name: phases-light-right;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.earth-revolution .pole-container {
+    animation-name: anti-rotation;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .earth-revolution .pole {
-    width: 100%;
-    height: 100%;
+    width: 10px;
+    height: 10px;
     background-color: black;
+    left: 35px;
+    top: 15px;
 }
-.earth-revolution .pole.white {
-    background-color: white;
-    clip-path: inset(0 5px 0 0);
+.earth-revolution-side .pole-side {
+    width: 4px;
+    height: 110px;
+    background-color: gray;
+    position: absolute;
+    left: 38px;
+    top: -15px;
+    border-radius: 2px;
+    transform: rotate(23.4deg);
+}
+.earth-revolution-side .equator {
+    width: 100%;
+    height: 0;
+    border: 1px solid gray;
+    transform: rotate(23.4deg);
+    position: absolute;
+    left: 0;
+    top: 39px;
+}
+
+.earth-revolution-side .equator-label {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.earth-revolution-side .northern-hemisphere-label {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.earth-revolution-side .southern-hemisphere-label {
+    position: absolute;
+    left: 100px;
+    top: 280px;
+}
+
+.earth-revolution .label {
+    left: 2px;
+    top: 2px;
+    opacity: 0;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.earth-revolution .label.equinox-going-south {
+    animation-name: revolution-0;
+}
+.earth-revolution .label.fall {
+    animation-name: revolution-1;
+}
+.earth-revolution .label.southern-solstice {
+    animation-name: revolution-2;
+}
+.earth-revolution .label.winter {
+    animation-name: revolution-3;
+}
+.earth-revolution .label.equinox-going-north {
+    animation-name: revolution-4;
+}
+.earth-revolution .label.spring {
+    animation-name: revolution-5;
+}
+.earth-revolution .label.northern-solstice {
+    animation-name: revolution-6;
+}
+.earth-revolution .label.summer {
+    animation-name: revolution-7;
+}
+@keyframes revolution-0 {
+    from { opacity: 100% }
+    6.249% { opacity: 100% }
+    6.25% { opacity: 0 }
+    93.749% { opacity: 0 }
+    93.75% { opacity: 100% }
+    to { opacity: 100% }
+}
+@keyframes revolution-1 {
+    from { opacity: 0 }
+    6.249% { opacity: 0 }
+    6.25% { opacity: 100% }
+    18.749% { opacity: 100% }
+    18.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-2 {
+    from { opacity: 0 }
+    18.749% { opacity: 0 }
+    18.75% { opacity: 100% }
+    31.249% { opacity: 100% }
+    31.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-3 {
+    from { opacity: 0 }
+    31.249% { opacity: 0 }
+    31.25% { opacity: 100% }
+    43.749% { opacity: 100% }
+    43.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-4 {
+    from { opacity: 0 }
+    43.749% { opacity: 0 }
+    43.75% { opacity: 100% }
+    56.249% { opacity: 100% }
+    56.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-5 {
+    from { opacity: 0 }
+    56.249% { opacity: 0 }
+    56.25% { opacity: 100% }
+    68.749% { opacity: 100% }
+    68.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-6 {
+    from { opacity: 0 }
+    68.749% { opacity: 0 }
+    68.75% { opacity: 100% }
+    81.249% { opacity: 100% }
+    81.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-7 {
+    from { opacity: 0 }
+    81.249% { opacity: 0 }
+    81.25% { opacity: 100% }
+    93.749% { opacity: 100% }
+    93.75% { opacity: 0 }
+    to { opacity: 0 }
 }
 
 .timezone-container {
