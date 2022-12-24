@@ -1,0 +1,286 @@
+.timezones .stars, .timezones .earth-day {
+    animation-name: rotation;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.timezones .timezone-container {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+.timezones .timezone-container .timezone {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.timezones .timezone.prime {
+    top: 99px;
+    border-bottom: 4px solid white;
+}
+.timezones .timezone.one {
+    transform: rotate(7.5deg);
+}
+.timezones .timezone.two {
+    transform: rotate(22.5deg);
+}
+.timezones .timezone.three {
+    transform: rotate(37.5deg);
+}
+.timezones .timezone.four {
+    transform: rotate(52.5deg);
+}
+.timezones .timezone.five {
+    transform: rotate(67.5deg);
+}
+.timezones .timezone.six {
+    transform: rotate(82.5deg);
+}
+.timezones .timezone.seven {
+    transform: rotate(97.5deg);
+}
+.timezones .timezone.eight {
+    transform: rotate(112.5deg);
+}
+.timezones .timezone.nine {
+    transform: rotate(127.5deg);
+}
+.timezones .timezone.ten {
+    transform: rotate(142.5deg);
+}
+.timezones .timezone.eleven {
+    transform: rotate(157.5deg);
+}
+.timezones .timezone.twelve {
+    transform: rotate(172.5deg);
+}
+
+.timezones .time-labels {
+    animation-name: twentyfour-stop-rotation;
+    animation-duration: 40s;
+    animation-delay: -0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+}
+.timezones .time-labels .label {
+    position: absolute;
+    animation-name: twentyfour-anti-rotation;
+    animation-duration: 40s;
+    animation-delay: -0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.timezones .timezones .earth-day, .timezones .stars {
+    animation-duration: 40s;
+}
+
+.timezones .time-labels .label.zero {
+    left: 214px;
+    top: 87px;
+}
+.timezones .time-labels .label.one {
+    left: 210px;
+    top: 55px;
+}
+.timezones .time-labels .label.two {
+    left: 200px;
+    top: 25px;
+}
+.timezones .time-labels .label.three {
+    left: 178px;
+    top: 0;
+}
+.timezones .time-labels .label.four {
+    left: 153px;
+    top: -18px;
+}
+.timezones .time-labels .label.five {
+    left: 125px;
+    top: -28px;
+}
+.timezones .time-labels .label.six {
+    left: 95px;
+    top: -30px;
+}
+.timezones .time-labels .label.seven {
+    left: 65px;
+    top: -28px;
+}
+.timezones .time-labels .label.eight {
+    left: 37px;
+    top: -18px;
+}
+.timezones .time-labels .label.nine {
+    left: 12px;
+    top: 0;
+}
+.timezones .time-labels .label.ten {
+    left: -18px;
+    top: 25px;
+}
+.timezones .time-labels .label.eleven {
+    left: -28px;
+    top: 55px;
+}
+.timezones .time-labels .label.twelve {
+    left: -30px;
+    top: 87px;
+}
+.timezones .time-labels .label.thirteen {
+    left: -28px;
+    top: 119px;
+}
+.timezones .time-labels .label.fourteen {
+    left: -18px;
+    top: 147px;
+}
+.timezones .time-labels .label.fifteen {
+    left: 0;
+    top: 172px;
+}
+.timezones .time-labels .label.sixteen {
+    left: 27px;
+    top: 190px;
+}
+.timezones .time-labels .label.seventeen {
+    left: 56px;
+    top: 200px;
+}
+.timezones .time-labels .label.eighteen {
+    left: 87px;
+    top: 204px;
+}
+.timezones .time-labels .label.nineteen {
+    left: 119px;
+    top: 200px;
+}
+.timezones .time-labels .label.twenty {
+    left: 149px;
+    top: 191px;
+}
+.timezones .time-labels .label.twentyone {
+    left: 173px;
+    top: 173px;
+}
+.timezones .time-labels .label.twentytwo {
+    left: 195px;
+    top: 146px;
+}
+.timezones .time-labels .label.twentythree {
+    left: 210px;
+    top: 119px;
+}
+
+@keyframes twentyfour-stop-rotation {
+    from { transform: rotate(0deg) }
+    4.169% { transform: rotate(0deg) }
+    4.17% { transform: rotate(15deg) }
+    8.329% { transform: rotate(15deg) }
+    8.33% { transform: rotate(30deg) }
+    12.499% { transform: rotate(30deg) }
+    12.5% { transform: rotate(45deg) }
+    16.669% { transform: rotate(45deg) }
+    16.67% { transform: rotate(60deg) }
+    20.829% { transform: rotate(60deg) }
+    20.83% { transform: rotate(75deg) }
+    24.999% { transform: rotate(75deg) }
+    25% { transform: rotate(90deg) }
+    29.169% { transform: rotate(90deg) }
+    29.17% { transform: rotate(105deg) }
+    33.329% { transform: rotate(105deg) }
+    33.33% { transform: rotate(120deg) }
+    37.499% { transform: rotate(120deg) }
+    37.5% { transform: rotate(135deg) }
+    41.669% { transform: rotate(135deg) }
+    41.67% { transform: rotate(150deg) }
+    45.829% { transform: rotate(150deg) }
+    45.83% { transform: rotate(165deg) }
+    49.999% { transform: rotate(165deg) }
+    50% { transform: rotate(180deg) }
+    54.169% { transform: rotate(180deg) }
+    54.17% { transform: rotate(195deg) }
+    58.329% { transform: rotate(195deg) }
+    58.33% { transform: rotate(210deg) }
+    62.499% { transform: rotate(210deg) }
+    62.5% { transform: rotate(225deg) }
+    66.669% { transform: rotate(225deg) }
+    66.67% { transform: rotate(240deg) }
+    70.829% { transform: rotate(240deg) }
+    70.83% { transform: rotate(255deg) }
+    74.999% { transform: rotate(255deg) }
+    75% { transform: rotate(270deg) }
+    79.169% { transform: rotate(270deg) }
+    79.17% { transform: rotate(285deg) }
+    83.329% { transform: rotate(285deg) }
+    83.33% { transform: rotate(300deg) }
+    87.499% { transform: rotate(300deg) }
+    87.5% { transform: rotate(315deg) }
+    91.669% { transform: rotate(315deg) }
+    91.67% { transform: rotate(330deg) }
+    95.829% { transform: rotate(330deg) }
+    95.83% { transform: rotate(345deg) }
+    99.999% { transform: rotate(345deg) }
+    to { transform: rotate(360deg) }
+}
+
+@keyframes twentyfour-anti-rotation {
+    from { transform: rotate(0deg) }
+    4.169% { transform: rotate(0deg) }
+    4.17% { transform: rotate(-15deg) }
+    8.329% { transform: rotate(-15deg) }
+    8.33% { transform: rotate(-30deg) }
+    12.499% { transform: rotate(-30deg) }
+    12.5% { transform: rotate(-45deg) }
+    16.669% { transform: rotate(-45deg) }
+    16.67% { transform: rotate(-60deg) }
+    20.829% { transform: rotate(-60deg) }
+    20.83% { transform: rotate(-75deg) }
+    24.999% { transform: rotate(-75deg) }
+    25% { transform: rotate(-90deg) }
+    29.169% { transform: rotate(-90deg) }
+    29.17% { transform: rotate(-105deg) }
+    33.329% { transform: rotate(-105deg) }
+    33.33% { transform: rotate(-120deg) }
+    37.499% { transform: rotate(-120deg) }
+    37.5% { transform: rotate(-135deg) }
+    41.669% { transform: rotate(-135deg) }
+    41.67% { transform: rotate(-150deg) }
+    45.829% { transform: rotate(-150deg) }
+    45.83% { transform: rotate(-165deg) }
+    49.999% { transform: rotate(-165deg) }
+    50% { transform: rotate(-180deg) }
+    54.169% { transform: rotate(-180deg) }
+    54.17% { transform: rotate(-195deg) }
+    58.329% { transform: rotate(-195deg) }
+    58.33% { transform: rotate(-210deg) }
+    62.499% { transform: rotate(-210deg) }
+    62.5% { transform: rotate(-225deg) }
+    66.669% { transform: rotate(-225deg) }
+    66.67% { transform: rotate(-240deg) }
+    70.829% { transform: rotate(-240deg) }
+    70.83% { transform: rotate(-255deg) }
+    74.999% { transform: rotate(-255deg) }
+    75% { transform: rotate(-270deg) }
+    79.169% { transform: rotate(-270deg) }
+    79.17% { transform: rotate(-285deg) }
+    83.329% { transform: rotate(-285deg) }
+    83.33% { transform: rotate(-300deg) }
+    87.499% { transform: rotate(-300deg) }
+    87.5% { transform: rotate(-315deg) }
+    91.669% { transform: rotate(-315deg) }
+    91.67% { transform: rotate(-330deg) }
+    95.829% { transform: rotate(-330deg) }
+    95.83% { transform: rotate(-345deg) }
+    99.999% { transform: rotate(-345deg) }
+    to { transform: rotate(-360deg) }
+}

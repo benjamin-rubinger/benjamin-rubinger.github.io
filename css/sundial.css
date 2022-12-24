@@ -1,123 +1,36 @@
-.sundial-space {
-    background-color: black;
-    color: lightgray;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    border: 1px solid gray;
-    overflow: hidden;
-}
-.stellar-body {
-    border-radius: 50%;
-    position: absolute;
-}
-.stars .star.sun {
-    background-color: white;
-}
-.stars .star {
-    background-color: gray;
-}
-.sun {
-    width: 20px;
-    height: 20px;
-    left: 10px;
-    top: 190px;
-}
-@keyframes geocentric {
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
-}
-.atmosphere {
-    width: 250px;
-    height: 250px;
-    left: 75px;
-    top: 75px;
-    background-image: radial-gradient(blue 0%, transparent 100%);
-}
-.earth-night {
-    background-color: darkgreen;
-    width: 200px;
-    height: 200px;
-    left: 100px;
-    top: 100px;
-}
-.stars {
-    animation-name: geocentric;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    height: 100%;
-    position: absolute;
-    transform-origin: center;
-    width: 100%;
-}
-.earth-day {
-    background-color: lightgreen;
-    width: 200px;
-    height: 200px;
-    left: 100px;
-    top: 100px;
-    clip-path: content-box inset(200px 200px 200px 100px);
-    animation-name: geocentric;
+.sundial-space .stars, .sundial-space .earth-day {
+    animation-name: rotation;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.indicator {
-    position: absolute;
-    width: 6px;
-    height: 40px;
-    background-color: lightgray;
-    left: 197px;
-    top: 60px;
-}
-.shadow {
-    position: absolute;
-    width: 40px;
-    height: 6px;
-    background-color: black;
-    left: 160px;
-    top: 97px;
-    transform-origin: right center;
-    animation-name: shadow-sweep;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-@keyframes shadow-sweep {
-    from { transform: rotate(180deg) scaleX(2); opacity: 0; }
-    0.5% { opacity: 1; }
-    25% { transform: rotate(270deg) scaleX(0.25); opacity: 1; }
-    49.5% { opacity: 1; }
-    50% { transform: rotate(360deg) scaleX(2); opacity: 0; }
-    to { transform: rotate(180deg) scaleX(2); opacity: 0; }
-}
-.sunrise {
+
+.sundial-space .sunrise {
     position: absolute;
     left: 10px;
     top: 190px;
 }
-.morning {
+.sundial-space .morning {
     position: absolute;
     left: 25px;
     top: 75px;
 }
-.midday {
+.sundial-space .midday {
     position: absolute;
     left: 200px;
     top: 10px;
 }
-.evening {
+.sundial-space .evening {
     position: absolute;
     right: 10px;
     top: 75px;
 }
-.sunset {
+.sundial-space .sunset {
     position: absolute;
     right: 10px;
     top: 190px;
 }
-.midnight {
+.sundial-space .midnight {
     position: absolute;
     left: 200px;
     bottom: 10px;

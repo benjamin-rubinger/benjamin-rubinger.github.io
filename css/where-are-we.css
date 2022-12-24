@@ -1,0 +1,132 @@
+.where-are-we .stars {
+    animation-name: none;
+    left: 0;
+    top: 0;
+}
+.where-are-we .view-container {
+    position: absolute;
+    width: 566px;
+    height: 566px;
+    left: -83px;
+    top: -83px;
+    animation-name: ship-motion;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+.label.where-are-we {
+    left: 190px;
+    top: 250px;
+    animation-name: where-are-we;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+.where-are-we .sky {
+    background: linear-gradient(black, #000050);
+    width: 100%;
+    height: 50%;
+    outline: 1px solid white;
+}
+.where-are-we .railing {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg,#221100,#442200,#221100);
+    position:absolute;
+    top: 380px;
+}
+.where-are-we .ocean {
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    background: linear-gradient(#0a1a20, #0a204a);
+    position: absolute;
+    outline: 1px solid black;
+}
+
+.where-are-we .ocean .wave {
+    width: 100%;
+    left: 0;
+    position: absolute;
+
+    /* from https://css-tricks.com/how-to-create-wavy-shapes-patterns-in-css/ */
+    --size: 30px;
+    --R: calc(var(--size)*1.28);
+    -webkit-mask:
+            radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%)
+            calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+            radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%)
+            50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+    mask:
+            radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%)
+            calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+            radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%)
+            50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+    background: linear-gradient(black,navy);
+    height: 60px;
+    animation-name: wave-motion0;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    opacity: 50%;
+}
+
+.where-are-we .ocean .wave0 {
+    top: 10px;
+    --size: 14px;
+    background: linear-gradient(#0a1a40,#0a1a20);
+}
+
+.where-are-we .ocean .wave1 {
+    top: 35px;
+    --size: 17px;
+    animation-delay: -1s;
+    animation-name: wave-motion1;
+    background: linear-gradient(#0a2060,#0a1a20);
+    left: -50px;
+}
+
+.where-are-we .ocean .wave2 {
+    top: 60px;
+    --size: 20px;
+    animation-delay: -3s;
+    left: 10px;
+    background: linear-gradient(#0a2a80,#0a1a20);
+}
+
+.where-are-we .ocean .wave3 {
+    top: 90px;
+    --size: 23px;
+    animation-delay: 0s;
+    animation-name: wave-motion1;
+    left: -55px;
+    background: linear-gradient(#0a2aa0,#0a1a20);
+}
+
+.where-are-we .ocean .wave4 {
+    top: 120px;
+    --size: 26px;
+    animation-delay: -1s;
+    left: 15px;
+    background: linear-gradient(#0a2ac0,#0a1a20);
+}
+
+@keyframes wave-motion0 {
+    from { transform: translateY(0px) rotate(0) }
+    50% { transform: translateY(15px) rotate(2deg) }
+    to { transform: translateY(0px) }
+}
+@keyframes wave-motion1 {
+    from { transform: translateY(0px) rotate(0) }
+    50% { transform: translateY(15px) rotate(-2deg) }
+    to { transform: translateY(0px) }
+}
+@keyframes ship-motion {
+    from { transform: translateY(0px) rotate(0) }
+    50% { transform: translateY(15px) rotate(2deg) }
+    to { transform: translateY(0px) rotate(0) }
+}
+@keyframes where-are-we {
+    from { opacity: 0 }
+    28% { opacity: 0 }
+    30% { opacity: 1 }
+    60% { opacity: 0 }
+    to { opacity: 0 }
+}

@@ -1,0 +1,38 @@
+.twelve-hour-clock .stars, .twelve-hour-clock .earth-day {
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.twelve-hour-clock .clock {
+    rotate: 180deg;
+}
+.twelve-hour-clock .hand-hours.twelve {
+    animation-duration: 10s;
+    animation-delay: -10s;
+}
+.twelve-hour-clock .sunrise {
+    left: 10px;
+    top: 190px;
+}
+.twelve-hour-clock .morning {
+    left: 25px;
+    top: 75px;
+}
+.twelve-hour-clock .midday {
+    left: 200px;
+    top: 10px;
+}
+.twelve-hour-clock .evening {
+    right: 10px;
+    top: 75px;
+}
+.twelve-hour-clock .sunset {
+    right: 10px;
+    top: 190px;
+}
+.twelve-hour-clock .midnight {
+    left: 200px;
+    bottom: 10px;
+}
+

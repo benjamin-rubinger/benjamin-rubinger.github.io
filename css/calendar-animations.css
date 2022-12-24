@@ -146,9 +146,6 @@ figure {
     bottom: 10px;
 }
 
-.four-sundials {
-}
-
 .stars {
     animation-name: rotation;
     animation-duration: 20s;
@@ -348,17 +345,14 @@ figure {
     position: absolute;
     width: 100%;
 }
-
 .arctic-circle {
     /* 66°33′49.3″ 66.563694 degrees  1.1617556225899943 radians  sin(radians) = 0.9175027850207164  (1 - 0.9175027) * 100 = 8.24973  */
     height: 8px;
 }
-
 .tropic-of-cancer {
     /* 23.43631 degrees  0.40904077401807226 radians  sin(radians) = 0.3977294186144243  (1 - _) * 100 = 60.227  60  */
     height: 60px;
 }
-
 .equator {
     height: 100px;
 }
@@ -616,13 +610,6 @@ figure {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
-@keyframes phases-dark-left {
-    from { transform: scaleX(0); }
-    75% { transform: scaleX(0); }
-    to {  transform: scaleX(1); }
-}
-
 .moon-light.left {
     clip-path: inset(0px 100px 0px 0px);
     animation-name: phases-light-left;
@@ -630,14 +617,6 @@ figure {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
-@keyframes phases-light-left {
-    from { transform: scaleX(0); }
-    25% { transform: scaleX(0); }
-    50% { transform: scaleX(1); }
-    to { transform: scaleX(1); }
-}
-
 .moon-dark.right {
     clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-dark-right;
@@ -645,13 +624,6 @@ figure {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
-@keyframes phases-dark-right {
-    from { transform: scaleX(1); }
-    25% { transform: scaleX(0); }
-    to {  transform: scaleX(0);  }
-}
-
 .moon-light.right {
     clip-path: inset(0px 0px 0px 100px);
     animation-name: phases-light-right;
@@ -659,7 +631,22 @@ figure {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
+@keyframes phases-dark-left {
+    from { transform: scaleX(0); }
+    75% { transform: scaleX(0); }
+    to {  transform: scaleX(1); }
+}
+@keyframes phases-light-left {
+    from { transform: scaleX(0); }
+    25% { transform: scaleX(0); }
+    50% { transform: scaleX(1); }
+    to { transform: scaleX(1); }
+}
+@keyframes phases-dark-right {
+    from { transform: scaleX(1); }
+    25% { transform: scaleX(0); }
+    to {  transform: scaleX(0);  }
+}
 @keyframes phases-light-right {
     from { transform: scaleX(1); }
     50% { transform: scaleX(1); }
