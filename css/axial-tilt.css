@@ -10,6 +10,7 @@
     left: 100px;
     top: 100px;
     animation-name: tilt-animation;
+    animation-delay: -10s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -27,31 +28,16 @@
     left: 0;
     top: 0;
     animation-name: anti-tilt-animation;
+    animation-delay: -10s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-
-@keyframes tilt-animation {
-    from { transform: rotate(0deg) }
-    25% { transform: rotate(-23.4deg) }
-    50% { transform: rotate(0deg) }
-    75% { transform: rotate(23.4deg) }
-    to { transform: rotate(0deg) }
-}
-@keyframes anti-tilt-animation {
-    from { transform: rotate(0deg) }
-    25% { transform: rotate(23.4deg) }
-    50% { transform: rotate(0deg) }
-    75% { transform: rotate(-23.4deg) }
-    to { transform: rotate(0deg) }
 }
 
 .axial-tilt .atmosphere {
     left: -20px;
     top: -20px;
 }
-
 .axial-tilt .major-circle {
     border-bottom: 1px solid white;
     margin-bottom: -1px;
@@ -75,7 +61,6 @@
 .axial-tilt .antarctic-circle {
     height: 191px;
 }
-
 .axial-tilt .labels {
     position: relative;
     width: 100%;
@@ -83,35 +68,82 @@
 }
 .axial-tilt .labels div {
     position: absolute;
+    animation-duration: 20s;
+    animation-delay: -10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-
 .axial-tilt .arctic-label {
     left: 50%;
     top: 75px;
 }
 .axial-tilt .arctic-label.day {
     animation-name: arctic-0;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+
 }
 .axial-tilt .antarctic-label.night {
     animation-name: arctic-0;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 .axial-tilt .arctic-label.night {
     animation-name: arctic-1;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 .axial-tilt .antarctic-label.day {
     animation-name: arctic-1;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+}
+.axial-tilt .northern-hemisphere-label {
+    left: 290px;
+    top: 130px;
+}
+.axial-tilt .equator-label {
+    left: 100px;
+    top: 20px;
+}
+.axial-tilt .equator-label.equinox-going-north {
+    animation-name: equinox-going-north;
+}
+.axial-tilt .equator-label.northern-solstice {
+    animation-name: northern-solstice;
+}
+.axial-tilt .equator-label.equinox-going-south {
+    animation-name: equinox-going-south;
+}
+.axial-tilt .equator-label.southern-solstice {
+    animation-name: southern-solstice;
+}
+.axial-tilt .northern-hemisphere-label.spring, .axial-tilt .southern-hemisphere-label.fall {
+    animation-name: season-0;
+}
+.axial-tilt .northern-hemisphere-label.summer, .axial-tilt .southern-hemisphere-label.winter {
+    animation-name: season-1;
+}
+.axial-tilt .northern-hemisphere-label.fall, .axial-tilt .southern-hemisphere-label.spring {
+    animation-name: season-2;
+}
+.axial-tilt .northern-hemisphere-label.winter, .axial-tilt .southern-hemisphere-label.summer {
+    animation-name: season-3;
+}
+.axial-tilt .southern-hemisphere-label {
+    left: 290px;
+    top: 245px;
+}
+.axial-tilt .antarctic-label {
+    left: 50%;
+    top: 300px;
+}
+
+@keyframes tilt-animation {
+    from { transform: rotate(0deg) }
+    25% { transform: rotate(-23.4deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(23.4deg) }
+    to { transform: rotate(0deg) }
+}
+@keyframes anti-tilt-animation {
+    from { transform: rotate(0deg) }
+    25% { transform: rotate(23.4deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(-23.4deg) }
+    to { transform: rotate(0deg) }
 }
 @keyframes arctic-0 {
     from { opacity: 1; }
@@ -128,21 +160,6 @@
     to { opacity: 0; }
 }
 
-.axial-tilt .northern-hemisphere-label {
-    left: 290px;
-    top: 130px;
-}
-
-.axial-tilt .equator-label {
-    left: 100px;
-    top: 20px;
-}
-.axial-tilt .equator-label.equinox-going-north {
-    animation-name: equinox-going-north;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 @keyframes equinox-going-north {
     from { opacity: 1; }
     12% { opacity: 1; }
@@ -150,12 +167,6 @@
     87% { opacity: 0; }
     87.5% { opacity: 1; }
     to { opacity: 1; }
-}
-.axial-tilt .equator-label.northern-solstice {
-    animation-name: northern-solstice;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 @keyframes northern-solstice {
     from { opacity: 0; }
@@ -165,12 +176,6 @@
     37.5% { opacity: 0; }
     to { opacity: 0; }
 }
-.axial-tilt .equator-label.equinox-going-south {
-    animation-name: equinox-going-south;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 @keyframes equinox-going-south {
     from { opacity: 0; }
     37% { opacity: 0; }
@@ -178,12 +183,6 @@
     62% { opacity: 1; }
     62.5% { opacity: 0; }
     to { opacity: 0; }
-}
-.axial-tilt .equator-label.southern-solstice {
-    animation-name: southern-solstice;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 @keyframes southern-solstice {
     from { opacity: 0; }
@@ -194,25 +193,12 @@
     to { opacity: 0; }
 }
 
-.axial-tilt .northern-hemisphere-label.spring, .axial-tilt .southern-hemisphere-label.fall {
-    animation-name: season-0;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 @keyframes season-0 {
     from { opacity: 1; }
     24.5% { opacity: 1; }
     25% { opacity: 0; }
     99.5% { opacity: 0; }
     to { opacity: 1; }
-}
-
-.axial-tilt .northern-hemisphere-label.summer, .axial-tilt .southern-hemisphere-label.winter {
-    animation-name: season-1;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 @keyframes season-1 {
     from { opacity: 0; }
@@ -222,13 +208,6 @@
     50% { opacity: 0; }
     to { opacity: 0; }
 }
-
-.axial-tilt .northern-hemisphere-label.fall, .axial-tilt .southern-hemisphere-label.spring {
-    animation-name: season-2;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 @keyframes season-2 {
     from { opacity: 0; }
     49.5% { opacity: 0; }
@@ -237,27 +216,10 @@
     75% { opacity: 0; }
     to { opacity: 0; }
 }
-
-.axial-tilt .northern-hemisphere-label.winter, .axial-tilt .southern-hemisphere-label.summer {
-    animation-name: season-3;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 @keyframes season-3 {
     from { opacity: 0; }
     74.5% { opacity: 0; }
     75% { opacity: 1; }
     99.5% { opacity: 1; }
     to { opacity: 0; }
-}
-
-.axial-tilt .southern-hemisphere-label {
-    left: 290px;
-    top: 245px;
-}
-
-.axial-tilt .antarctic-label {
-    left: 50%;
-    top: 300px;
 }
