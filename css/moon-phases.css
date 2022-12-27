@@ -1,18 +1,29 @@
-.moon-phases .moon-dark {
-    background-color: #444444;
+.moon-phases .moon-dark, .moon-phases .moon-light, .moon-phases .spherical {
     width: 200px;
     height: 200px;
     left: 100px;
     top: 100px;
+}
+.moon-phases .moon-dark {
+    background-color: #444444;
 }
 .moon-phases .moon-light {
     background-color: lightgray;
-    width: 200px;
-    height: 200px;
-    left: 100px;
-    top: 100px;
 }
-.moon-phases .left, .moon-phases .right {
+.moon-phases .spherical {
+    animation-name: spherical;
+}
+@keyframes spherical {
+    from { background-image: radial-gradient(at 100% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    25% { background-image: radial-gradient(at 100% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    37.5% { background-image: radial-gradient(at 75% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    50% { background-image: radial-gradient(at 50% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    62.5% { background-image: radial-gradient(at 25% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    75% { background-image: radial-gradient(at 0% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    99.9% { background-image: radial-gradient(at 0% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+    to { background-image: radial-gradient(at 100% 50%, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 20%)); }
+}
+.moon-phases .left, .moon-phases .right, .moon-phases .spherical {
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;

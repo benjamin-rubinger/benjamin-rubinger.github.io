@@ -6,6 +6,7 @@
 }
 .earth-revolution.pole .pole-container {
     animation-name: anti-rotation;
+    animation-delay: -5s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -14,12 +15,13 @@
     width: 10px;
     height: 10px;
     background-color: black;
-    left: 35px;
-    top: 15px;
+    left: 50px;
+    top: 35px;
 }
 .earth-revolution.pole .label {
     left: 8px;
     top: 2px;
+    animation-delay: 0s;
 }
 .earth-revolution.pole .label.equinox-going-south {
     animation-name: revolution-0;

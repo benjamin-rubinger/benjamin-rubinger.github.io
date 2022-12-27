@@ -19,6 +19,7 @@
     width: 280px;
     height: 280px;
     animation-name: rotation;
+    animation-delay: -5s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
