@@ -24,8 +24,8 @@ function generateNavigationForSection($section) {
     if ($childSections.length > 0) {
         const $childContainer = $('<ul>');
         $childSections.each(function(i) {
-            let childNavigation = generateNavigationForSection($(this));
-            $childContainer.append(childNavigation);
+            let $childNavigation = generateNavigationForSection($(this));
+            $childContainer.append($childNavigation);
         });
         $navigationSection.append($childContainer);
     }
@@ -39,47 +39,115 @@ function generateNavigation() {
     $navigationContainer.empty().append($navigation);
 }
 
-function formatDateTime() {
-    // console.log("format date time");
-    const dateString = $('input.date').val();
-    // console.log(dateString);
-    const timeString = $('input.time').val();
-    // console.log(timeString);
-    const offsetString = $('select.timezone').val();
-    // console.log(offsetString);
+function generateDatetimeInputs(index) {
+    const $inputDate = $('<input>').attr('id', `input-date${index}`).addClass('input-date').attr('type', 'date');
+    const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
+    const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
+    const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
+    for (const offset of options) {
+        const $option = $('<option>').text(offset);
+        $selectTimezone.append($option);
+    }
+    const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').text('now');
+    const $datetimeContainer = $('<div>').attr('id', `datetime-container${index}`).addClass('datetime-container');
+    $datetimeContainer.append([$inputDate, $inputTime, $selectTimezone, $now]);
+    return $datetimeContainer;
+}
+
+function insertDateTimeInputs() {
+    $('body .datetime-container').each(function (index) {
+        $(this).replaceWith(generateDatetimeInputs(index));
+    });
+}
+
+function isoToDate(dateString, timeString, offsetString) {
+    // console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}`);
     const dateTimeString = dateString + 'T' + timeString + offsetString;
-    let d = new Date(dateTimeString);
-    // console.log(d);
+    const d = new Date(dateTimeString);
+    // console.log(`iso to date  date ${d}`);
+    return d;
+}
+
+function parseOffsetDirection(offsetString) {
+    if (offsetString[0] === '+') {
+        return 'add';
+    }
+    return 'subtract';
+}
+
+function parseOffsetVerb(offsetString) {
+    if (offsetString[0] === '+') {
+        return 'to';
+    }
+    return 'from';
+}
+
+function parseOffsetHours(offsetString) {
+    return +offsetString.slice(1, 3);
+}
+
+function parseOffsetMinutes(offsetString) {
+    return +offsetString.slice(4, 6);
+}
+
+function formatIso8601(dateString, timeString, offsetString) {
+    const d = isoToDate(dateString, timeString, offsetString);
+    const $iso8601 = $('.iso-8601');
+    $iso8601.find('.year').text(getFourDigitYear(d));
+    $iso8601.find('.month').text(getTwoDigitMonth(d));
+    $iso8601.find('.day-of-month').text(getTwoDigitDayOfMonth(d));
+    $iso8601.find('.hour').text(getTwoDigitHours(d));
+    $iso8601.find('.minute').text(getTwoDigitMinutes(d));
+    $iso8601.find('.second').text(getTwoDigitSeconds(d));
+    $iso8601.find('.millisecond').text(getThreeDigitMilliseconds(d));
+    $iso8601.find('.timezone').text(offsetString);
+    $iso8601.find('.month-name').text(getFullMonthName(d));
+    $iso8601.find('.offset-direction').text(parseOffsetDirection(offsetString));
+    $iso8601.find('.offset-verb').text(parseOffsetVerb(offsetString));
+    $iso8601.find('.offset-hours').text(parseOffsetHours(offsetString));
+    $iso8601.find('.offset-minutes').text(parseOffsetMinutes(offsetString));
+}
+
+function formatDatetime(dateString, timeString, offsetString) {
+    // console.log("format date time");
+    const d = isoToDate(dateString, timeString, offsetString);
+    console.log(d);
     const localeString = d.toString();
     $('.datetime-formats .default').text(localeString);
     const isoString = d.toISOString(); // this isnt good enough because it converts to utc
     $('.datetime-formats .iso8601').text(isoString);
+    generateDateFormats(d);
+    formatIso8601(dateString, timeString, offsetString);
 }
 
-function generateDateFormats(d) {
-    $('table.formats .format-example').each(function(i) {
-        let $e = $(this);
-        let df = $e.attr('data-format');
-        // console.log(df);
-        $e.text(renderDateFormat(df, d));
-    });
+function setDatetime(dateString, timeString, offsetString) {
+    $('.input-date').val(dateString);
+    $('.input-time').val(timeString);
+    $('select.timezone').val(offsetString);
+    formatDatetime(dateString, timeString, offsetString);
 }
 
-function setNow() {
-    let now = new Date();
-    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
-    const isoString = now.toISOString().slice(0, -1);
-    // console.log(isoString);
-    const tIndex = isoString.indexOf('T');
-    const dateString = isoString.slice(0, tIndex);
-    // console.log(dateString);
-    const timeString = isoString.slice(tIndex + 1, isoString.length);
-    // console.log(timeString);
-    $('input.date').val(dateString);
-    $('input.time').val(timeString);
-    // console.log(now.getTimezoneOffset());
-    const offsetRemainder = now.getTimezoneOffset() % 60;
-    const offsetHours = (now.getTimezoneOffset() - offsetRemainder) / 60;
+function updateDatetime($datetimeContainer) {
+    console.log('update datetime');
+    const dateString = $datetimeContainer.find('.input-date').val();
+    console.log(dateString);
+    const timeString = $datetimeContainer.find('.input-time').val();
+    console.log(timeString);
+    const offsetString = $datetimeContainer.find('select.timezone').val();
+    if ((dateString.length >= 10) && (timeString.length >= 12)) {
+        setDatetime(dateString, timeString, offsetString);
+    }
+}
+
+function updateDatetimeEvent(e) {
+    const $target = $(e.target);
+    const $datetimeContainer = $target.closest('.datetime-container');
+    updateDatetime($datetimeContainer);
+}
+
+function getOffsetString(d) {
+    const offsetRemainder = d.getTimezoneOffset() % 60;
+    const offsetHours = (d.getTimezoneOffset() - offsetRemainder) / 60;
     let offsetHoursPrefix = '';
     if (Math.abs(offsetHours) < 10) {
         offsetHoursPrefix = '0';
@@ -92,11 +160,24 @@ function setNow() {
     if (offsetHours < 0) {
         offsetPrefix = '+';
     }
-    const offset = offsetPrefix + offsetHoursPrefix + Math.abs(offsetHours).toString() + ':' + offsetMinutesPrefix + Math.abs(offsetRemainder).toString();
-    // console.log(offset);
-    $('select.timezone').val(offset);
-    formatDateTime();
-    generateDateFormats(now);
+    const offsetString = offsetPrefix + offsetHoursPrefix + Math.abs(offsetHours).toString() + ':' + offsetMinutesPrefix + Math.abs(offsetRemainder).toString();
+    return offsetString;
+}
+
+function setNow() {
+    let now = new Date();
+    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+    const isoString = now.toISOString().slice(0, -1);
+    // console.log(isoString);
+    const tIndex = isoString.indexOf('T');
+    const dateString = isoString.slice(0, tIndex);
+    // console.log(dateString);
+    const timeString = isoString.slice(tIndex + 1, isoString.length);
+    // console.log(timeString);
+    // console.log(now.getTimezoneOffset());
+    const offsetString = getOffsetString(now);
+    // console.log(offsetString);
+    setDatetime(dateString, timeString, offsetString);
     // gregorianToJulianDay(new Date('-004713-11-24'));
     // console.log(`jdn 0\n\n`);
     // gregorianToJulianDay(new Date('-004713-11-25'));
@@ -111,6 +192,15 @@ function setNow() {
     // console.log(`unix epoch jd 2440587\n\n`);
     // gregorianToJulianDay(now);
     // console.log(`today jd 2459923\n\n`);
+}
+
+function generateDateFormats(d) {
+    $('table.formats .format-example').each(function(i) {
+        let $e = $(this);
+        let df = $e.attr('data-format');
+        // console.log(df);
+        $e.text(renderDateFormat(df, d));
+    });
 }
 
 function setDark() {
@@ -425,8 +515,27 @@ function fetchLocal(calendarName) {
     return calendarData;
 }
 
-function getFourDigitYear(d) {
+function getYearNumber(d) {
     return d.getFullYear();
+}
+
+function getFourDigitYear(d) {
+    const yearNumber = getYearNumber(d);
+    const isNegative = yearNumber < 0;
+    let fourDigitYear = Math.abs(yearNumber).toString();
+    if (fourDigitYear.length < 4) {
+        fourDigitYear = '0' + fourDigitYear;
+    }
+    if (fourDigitYear.length < 4) {
+        fourDigitYear = '0' + fourDigitYear;
+    }
+    if (fourDigitYear.length < 4) {
+        fourDigitYear = '0' + fourDigitYear;
+    }
+    if (isNegative) {
+        fourDigitYear = '-' + fourDigitYear;
+    }
+    return fourDigitYear;
 }
 
 function getTwoDigitYear(d) {
@@ -446,8 +555,24 @@ function getMonthNumber(d) {
     return (d.getMonth() + 1).toString();
 }
 
+function getTwoDigitMonth(d) {
+    let twoDigitMonth = getMonthNumber(d).toString();
+    if (twoDigitMonth.length < 2) {
+        twoDigitMonth = '0' + twoDigitMonth;
+    }
+    return twoDigitMonth;
+}
+
 function getDayOfMonthNumber(d) {
     return d.getDate().toString();
+}
+
+function getTwoDigitDayOfMonth(d) {
+    let twoDigitDay = getDayOfMonthNumber(d).toString();
+    if (twoDigitDay.length < 2) {
+        twoDigitDay = '0' + twoDigitDay;
+    }
+    return twoDigitDay;
 }
 
 // integer hours 0 - 23
@@ -455,9 +580,25 @@ function getHours(d) {
     return d.getHours();
 }
 
+function getTwoDigitHours(d) {
+    let twoDigitHours = getHours(d).toString();
+    if (twoDigitHours.length < 2) {
+        twoDigitHours = '0' + twoDigitHours;
+    }
+    return twoDigitHours;
+}
+
 // integer minutes 0 - 59
 function getMinutes(d) {
     return d.getMinutes();
+}
+
+function getTwoDigitMinutes(d) {
+    let twoDigitMinutes = getMinutes(d).toString();
+    if (twoDigitMinutes.length < 2) {
+        twoDigitMinutes = '0' + twoDigitMinutes;
+    }
+    return twoDigitMinutes;
 }
 
 // integer seconds 0 - 59
@@ -465,9 +606,28 @@ function getSeconds(d) {
     return d.getSeconds();
 }
 
+function getTwoDigitSeconds(d) {
+    let twoDigitSeconds = getSeconds(d).toString();
+    if (twoDigitSeconds.length < 2) {
+        twoDigitSeconds = '0' + twoDigitSeconds;
+    }
+    return twoDigitSeconds;
+}
+
 // integer milliseconds 0 - 999
 function getMilliseconds(d) {
     return d.getMilliseconds();
+}
+
+function getThreeDigitMilliseconds(d) {
+    let threeDigitMilliseconds = getMilliseconds(d).toString();
+    if (threeDigitMilliseconds.length < 3) {
+        threeDigitMilliseconds = '0' + threeDigitMilliseconds;
+    }
+    if (threeDigitMilliseconds.length < 3) {
+        threeDigitMilliseconds = '0' + threeDigitMilliseconds;
+    }
+    return threeDigitMilliseconds;
 }
 
 function renderDateFormat(df, d) {
@@ -485,19 +645,9 @@ function renderDateFormat(df, d) {
     } else if (df.indexOf('mmm') >= 0) {
         month = getShortMonthName(d);
     } else {
-        month = getMonthNumber(d);
+        month = getTwoDigitMonth(d);
     }
-    if (df.indexOf('mm') >= 0) {
-        if (month.length < 2) {
-            month = '0' + month;
-        }
-    }
-    day = getDayOfMonthNumber(d);
-    if (df.indexOf('dd') >= 0) {
-        if (day.length < 2) {
-            day = '0' + day;
-        }
-    }
+    day = getTwoDigitDayOfMonth(d);
     for (let char of df) {
         if (char === 'y') {
             result += year;
@@ -524,28 +674,30 @@ function timeline() {
         { content: 'julian day epoch', start: '-004713-01-01', type: 'point' },
         { content: 'hebrew calendar epoch', start: '-003761-01-01', type: 'point' },
         { content: 'beginning of recorded history', start: '-003500-01-01', type: 'point' },
-        { content: 'ancient egyptian calendar introduced', start: '-002450-01-01', type: 'point' },
+        { content: 'egyptian calendar introduced', start: '-002450-01-01', type: 'point' },
         { content: 'chinese calendar introduced', start: '-000771-01-01', type: 'point' },
         { content: 'numa roman calendar reform', start: '-000672-01-01', type: 'point' },
+        { content: 'decree of canopus', start: '-000238-03-07', type: 'point' },
         { content: 'julian calendar introduced', start: '-000045-01-01', type: 'point' },
+        { content: 'alexandrian calendar introduced', start: '-000025-01-01', type: 'point' },
         { content: 'gregorian calendar epoch', start: '-000000-01-01', type: 'point' },
         { content: 'sexagesimal minutes and seconds', start: '1000-01-01', type: 'point' },
-        { content: 'copernicus proposes that the earth orbits the sun', start: '1543-01-01', type: 'point' },
+        { content: 'copernicus says the earth orbits the sun', start: '1543-01-01', type: 'point' },
         { content: 'gregorian calendar introduced', start: '1582-10-15', type: 'point' },
         { content: 'greenwich observatory established', start: '1675-06-22', type: 'point' },
-        { content: 'french revolutionary calendar', start: '1793-11-24', end: '1806-01-01', type: 'point' },
-        { content: 'greenwich observatory daily signals began', start: '1833-01-01', type: 'point' },
+        { content: 'french republican calendar', start: '1793-11-24', end: '1806-01-01', type: 'point' },
+        { content: 'greenwich time ball', start: '1833-01-01', type: 'point' },
         { content: 'greenwich mean time', start: '1847-01-01', type: 'point' },
         { content: 'international meridian conference', start: '1884-10-01', type: 'point' },
-        { content: 'greenwich observatory starts broadcasting hourly time signals', start: '1924-02-05', type: 'point' },
+        { content: 'greenwich hourly signals', start: '1924-02-05', type: 'point' },
         { content: 'universal time established', start: '1928-01-01', type: 'point' },
         { content: 'atomic clocks', start: '1955-01-01', type: 'point' },
-        { content: 'coordinated universal time established', start: '1956-01-01', type: 'point' },
+        { content: 'utc established', start: '1956-01-01', type: 'point' },
         { content: 'unix time epoch', start: '1970-01-01', type: 'point' },
         { content: 'unix time introduced', start: '1971-11-01', type: 'point' },
         { content: 'leap seconds introduced', start: '1972-01-01', type: 'point' },
         { content: 'year 2000 problem', start: '2000-01-01', type: 'point' },
-        { content: 'started writing choose your own calendar reform', start: '2022-10-21', type: 'point' },
+        { content: 'choose your own calendar reform', start: '2022-10-21', type: 'point' },
         { content: 'year 2038 problem', start: '2038-01-01', type: 'point' },
         { content: 'earliest startrek stardate', start: '2256-05-11', type: 'point' },
     ];
@@ -569,6 +721,7 @@ function timeline() {
 }
 
 function initialize() {
+    insertDateTimeInputs();
     setNow();
     generateNavigation();
     registerObservers();
@@ -582,7 +735,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change', 'input.date, input.time, select.timezone', formatDateTime);
+$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
 $body.on('click', 'button.light', setLight);
