@@ -3,8 +3,21 @@
     top: 190px;
     background-color: white;
 }
-.earth-revolution-side .sun.front {
-    opacity: 0;
+.earth-revolution-side .calendar-reform {
+    position: absolute;
+    left: 108px;
+    top: 185px;
+    text-shadow: black 0 0 3px;
+}
+.earth-revolution-side .back {
+    animation-name: sun-back;
+    animation-delay: -10s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.earth-revolution-side .front {
     animation-name: sun-front;
     animation-delay: -10s;
     animation-duration: 20s;
@@ -197,12 +210,20 @@
     99.5% { opacity: 1; }
     to { opacity: 0; }
 }
+@keyframes sun-back {
+    from { opacity: 100% }
+    28.999% { opacity: 100% }
+    29% { opacity: 0 }
+    69.999% { opacity: 0 }
+    70% { opacity: 100% }
+    to { opacity: 100% }
+}
 @keyframes sun-front {
     from { opacity: 0 }
-    38.999% { opacity: 0 }
-    39% { opacity: 100% }
-    59.999% { opacity: 100% }
-    60% { opacity: 0 }
+    28.999% { opacity: 0 }
+    29% { opacity: 100% }
+    69.999% { opacity: 100% }
+    70% { opacity: 0 }
     to { opacity: 0 }
 }
 @keyframes equinox-going-north {
