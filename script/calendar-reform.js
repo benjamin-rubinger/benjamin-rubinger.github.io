@@ -90,6 +90,26 @@ function parseOffsetMinutes(offsetString) {
     return +offsetString.slice(4, 6);
 }
 
+function formatUnixTime(d) {
+    const $unixTime = $('p.unix-time');
+    const unixTimeMilliseconds = d.getTime();
+    const unixTimeSeconds = Math.floor(unixTimeMilliseconds / 1000).toString();
+    $unixTime.text(unixTimeSeconds);
+}
+
+function formatJulianDays(d) {
+    const $julianDays = $('p.julian-days');
+    const unixTimeMilliseconds = d.getTime();
+    const jdn = (unixTimeMilliseconds / 86400000 + unixEpoch()).toFixed(8); // convert from unix time to julian day number with millisecond precision
+    $julianDays.text(jdn.toString());
+}
+
+function formatJulianCalendar(d) {
+    const $julianCalendar = $('p.julian-calendar-date');
+    const julianDate = gregorianToJulian(d);
+    $julianCalendar.text(julianDate.toString());
+}
+
 function formatIso8601(dateString, timeString, offsetString) {
     const d = isoToDate(dateString, timeString, offsetString);
     const $iso8601 = $('.iso-8601');
@@ -110,14 +130,17 @@ function formatIso8601(dateString, timeString, offsetString) {
 
 function formatDatetime(dateString, timeString, offsetString) {
     // console.log("format date time");
+    formatIso8601(dateString, timeString, offsetString);
     const d = isoToDate(dateString, timeString, offsetString);
-    console.log(d);
+    // console.log(d);
     const localeString = d.toString();
     $('.datetime-formats .default').text(localeString);
     const isoString = d.toISOString(); // this isnt good enough because it converts to utc
     $('.datetime-formats .iso8601').text(isoString);
     generateDateFormats(d);
-    formatIso8601(dateString, timeString, offsetString);
+    formatUnixTime(d);
+    formatJulianCalendar(d);
+    formatJulianDays(d);
 }
 
 function setDatetime(dateString, timeString, offsetString) {
@@ -377,7 +400,7 @@ function gregorianToJulianDay(d) {
     const unixTime = d.getTime();
     const trivial = unixTime / 86400000 + unixEpoch();
 
-    const givenYear = getFourDigitYear(d) * 1;
+    const givenYear = getYearNumber(d) * 1;
     const givenMonth = getMonthNumber(d) * 1;
     const dayOfMonth = (getDayOfMonthNumber(d) * 1) - 1;
     console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
@@ -456,6 +479,74 @@ function gregorianToJulianDay(d) {
     console.log(`manual ${result}`);
     return result;
 }
+
+function gregorianToJulian(d) {
+    const julianCalendarEpochYear = 0;
+    const julianCalendarEpochMonth = 1;
+    const julianCalendarEpochDay = 1;
+
+    const givenYear = getYearNumber(d) * 1;
+    const givenMonth = getMonthNumber(d) * 1;
+    const dayOfMonth = (getDayOfMonthNumber(d) * 1) - 1;
+    console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
+
+    let years = givenYear - julianCalendarEpochYear;
+    let leapYearCount = 0;
+    for (let year = julianCalendarEpochYear; year < givenYear; year++) {
+        if (gregorianLeapDay(year)) {
+            leapYearCount += 1;
+        }
+    }
+    // console.log(`leap years ${leapYearCount}`);
+    const commonYearDays = 365 * years;
+    const yearDays = commonYearDays + leapYearCount;
+    const isLeapYear = gregorianLeapDay(givenYear);
+    console.log(`julian years ${years}  leap years ${leapYearCount}  year days ${yearDays}`);
+    console.log(`is given year a leap year ${isLeapYear}`);
+    let monthDays = 0;
+    for (let m = 1; m < givenMonth; m++) {
+        monthDays += daysPerMonth(m, isLeapYear);
+    }
+    let dayDays = dayOfMonth;
+    const totalDays = yearDays + monthDays + dayDays;
+    console.log(`year days ${yearDays}  month days ${monthDays}  day days ${dayDays}  total days ${totalDays}`);
+    let julianCalendarYear = 0;
+    let julianCalendarMonth = 1;
+    let julianCalendarDay = 1;
+    let day = totalDays;
+    while (day > 0) {
+        console.log(`day ${day}  julianCalendarYear ${julianCalendarYear}  julianCalendarMonth ${julianCalendarMonth}  julianCalendarDay ${julianCalendarDay}`);
+        let daysInYear = 365;
+        let isCurrentLeap = julianLeapDay(julianCalendarYear);
+        if (isCurrentLeap) {
+            daysInYear += 1;
+        }
+        if (day >= daysInYear) {
+            day -= daysInYear;
+            julianCalendarYear += 1;
+        } else {
+            let currentMonthDays = daysPerMonth(julianCalendarMonth);
+            if (day >= currentMonthDays) {
+                day -= currentMonthDays;
+                julianCalendarMonth += 1;
+                if (julianCalendarMonth > 12) {
+                    julianCalendarMonth = 1;
+                }
+            } else {
+                julianCalendarDay += day;
+                day = 0;
+            }
+        }
+    }
+    const yearString = yearNumberToSignedSix(julianCalendarYear);
+    const resultString = `${yearString}-${julianCalendarMonth}-${julianCalendarDay}`;
+    console.log(`result string ${yearString}-${julianCalendarMonth}-${julianCalendarDay}`);
+
+    const result = new Date(resultString);
+    console.log(`result ${result}`);
+    return result;
+}
+
 
 function spaceToDash(s) {
     return s.replaceAll(' ', '-');
@@ -536,6 +627,20 @@ function getFourDigitYear(d) {
         fourDigitYear = '-' + fourDigitYear;
     }
     return fourDigitYear;
+}
+
+function yearNumberToSignedSix(y) {
+    const isNegative = y < 0;
+    let yearString = Math.abs(y).toString();
+    while (yearString.length < 6) {
+        yearString = '0' + yearString;
+    }
+    if (isNegative) {
+        yearString = '-' + yearString;
+    } else {
+        yearString = '+' + yearString;
+    }
+    return yearString;
 }
 
 function getTwoDigitYear(d) {
@@ -696,6 +801,7 @@ function timeline() {
         { content: 'unix time epoch', start: '1970-01-01', type: 'point' },
         { content: 'unix time introduced', start: '1971-11-01', type: 'point' },
         { content: 'leap seconds introduced', start: '1972-01-01', type: 'point' },
+        { content: 'iso 8601', start: '1988-01-01', type: 'point' },
         { content: 'year 2000 problem', start: '2000-01-01', type: 'point' },
         { content: 'choose your own calendar reform', start: '2022-10-21', type: 'point' },
         { content: 'year 2038 problem', start: '2038-01-01', type: 'point' },
