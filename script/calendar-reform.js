@@ -136,6 +136,12 @@ function formatOrdinalDate(d) {
     $ordinalDate.text(ordinalDateString);
 }
 
+function formatProposal(d) {
+    const $myProposedCalendar = $('p.my-proposed-calendar');
+    const proposalString = getProposalString(d);
+    $myProposedCalendar.text(proposalString);
+}
+
 function formatDatetime(dateString, timeString, offsetString) {
     // console.log("format date time");
     formatIso8601(dateString, timeString, offsetString);
@@ -151,6 +157,7 @@ function formatDatetime(dateString, timeString, offsetString) {
     formatJulianCalendar(d);
     formatJulianDays(d);
     formatOrdinalDate(d);
+    formatProposal(d);
 }
 
 function setDatetime(dateString, timeString, offsetString) {
@@ -385,6 +392,18 @@ function unixEpoch() {
     return 2440587.5;
 }
 
+function getFractionalDay(d) {
+    let d2 = new Date(d);
+    d2.setMinutes(d2.getMinutes() + d2.getTimezoneOffset()); // add back the timezone?
+    const hourSeconds = getHours(d2) * 3600;
+    const minuteSeconds = getMinutes(d2) * 60;
+    const secondSeconds = getSeconds(d2);
+    const milliseconds = getMilliseconds(d2) / 1000;
+    const fractionalDay = ((hourSeconds + minuteSeconds + secondSeconds + milliseconds) / 86400);
+    console.log(`hours ${getHours(d2)}  minutes ${getMinutes(d2)}  seconds ${getSeconds(d2)}  milliseconds ${getMilliseconds(d2)}  fractionalDays ${fractionalDay}`);
+    return fractionalDay;
+}
+
 // several references, not all used in this code
 // https://keisan.casio.com/exec/system/1227779487
 // https://squarewidget.com/julian-day/
@@ -463,16 +482,7 @@ function gregorianToJulianDay(d) {
     }
 
     console.log(`year days ${yearDays}  month days ${monthDays}  day days ${dayDays}`);
-
-    let d2 = new Date(d);
-    d2.setMinutes(d2.getMinutes() + d2.getTimezoneOffset()); // add back the timezone?
-    const hourSeconds = getHours(d2) * 3600;
-    const minuteSeconds = getMinutes(d2) * 60;
-    const secondSeconds = getSeconds(d2);
-    const milliseconds = getMilliseconds(d2) / 1000;
-    const fractionalDays = ((hourSeconds + minuteSeconds + secondSeconds + milliseconds) / 86400) - 0.5;
-    console.log(`hours ${getHours(d2)}  minutes ${getMinutes(d2)}  seconds ${getSeconds(d2)}  milliseconds ${getMilliseconds(d2)}  fractionalDays ${fractionalDays}`);
-
+    const fractionalDays = getFractionalDay(d) - 0.5; // jdn new day time is half a day different from gregorian new day time
     const result = yearDays + monthDays + dayDays + fractionalDays;
 
     console.log(`trivial ${trivial}`);
@@ -493,9 +503,8 @@ function gregorianToOrdinalNumber(d) {
     for (let m = 1; m < givenMonth; m++) {
         monthDays += daysPerMonth(m, isLeapYear);
     }
-    let dayDays = dayOfMonth;
-    const ordinal = monthDays + dayDays;
-    console.log(`month days ${monthDays}  day days ${dayDays}  ordinal days ${ordinal}`);
+    const ordinal = monthDays + dayOfMonth;
+    console.log(`month days ${monthDays}  day days ${dayOfMonth}  ordinal days ${ordinal}`);
     return ordinal;
 }
 
@@ -557,6 +566,22 @@ function gregorianToJulian(d) {
 
     const result = new Date(resultString);
     console.log(`result ${result}`);
+    return result;
+}
+
+function getProposalString(d) {
+    const year = getYearNumber(d) * 1 + 10000;
+    const gregorianOrdinal = gregorianToOrdinalNumber(d);
+    const newYearOffset = 266;
+    const hasLeapDay = gregorianLeapDay(year);
+    let modulo = 365;
+    if (hasLeapDay) {
+        modulo += 1;
+    }
+    let ordinal = (gregorianOrdinal - newYearOffset + modulo) % modulo;
+    const fraction = getFractionalDay(d);
+    const ordinalTime = (ordinal + fraction).toFixed(8);
+    const result = `${year} ${ordinalTime}`;
     return result;
 }
 
