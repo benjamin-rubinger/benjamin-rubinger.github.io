@@ -869,6 +869,9 @@ year
             <p>in 46 bc the roman emperor julius caesar returned to rome from visiting egpyt where among other things he learned about the egpytian calendar. julius instituted roman calendar reforms in 45 bc creating what is now called the julian calendar. the julian calendar combined the roman calendar with the egpytian calendar with additional improvements. the julian calendar is a solar calendar and has leap years. the julian calendar leap year is every four years, implying a year length of 365.25, which is off from ~365.2422.</p>
 
             <p>the roman senate later renamed the month quintilis in honor of julius, and it became the month of julius -> july. they renamed sextilis after a later roman emperor augustus -> august. the roman senate renamed other months after other people but those names didnt stick.</p>
+            <div class="datetime-container"></div>
+            <p>julian calendar date</p>
+            <p class="julian-calendar-date"></p>
         </section>
         <section id="gregorian-calendar">
             <h3>🇻🇦 gregorian calendar</h3>
@@ -915,15 +918,9 @@ year
             <h3>unix time</h3>
             <p>there is a calendar used by a lot of software called <a href="https://en.wikipedia.org/wiki/Unix_time">unix time</a>. unix time is a fairly simple calendar, it counts the number of seconds elapsed since the unix epoch. the unix epoch is the beginning of the year 1970 in the gregorian calendar, the moment of new years between 1969 and 1970. days are 86 400 seconds long in unix time. the time zone is utc. the advantage of unix time is that a datetime is a single, whole number. if you want a unix time with subsecond precision, you can use a decimal point or multiply it by 1000 and then instead of seconds the unix time represents milliseconds. one problem with unix time is that many programmers use 32 bits to store the number, and in the <a href="https://en.wikipedia.org/wiki/Year_2038_problem">year 2038</a> the number of seconds in unix time will overflow 32 bits.</p>
             <div class="datetime-container"></div>
-            <p>example</p>
-            <p class="unix-time-example"></p>
-<pre>
-gregorian calendar
-10/21/2022 11:14:05 am jst
-
-unix time
-1666318445
-
+            <p>unix time</p>
+            <p class="unix-time"></p>
+<pre class="unix-time">
 derivation
 2022-10-21 - 1970-01-01 = 19 286 days
 86 400 (seconds / day) * 19 286 days = 1 666 310 400 seconds
@@ -979,6 +976,10 @@ Tishrei 26, 5783
 <!--            <h3>buddhist calendar</h3>-->
 <!--            <p>...</p>-->
 <!--        </section>-->
+<!--        <section id="mayan-calendar">-->
+<!--            <h3>mayan calendar</h3>-->
+<!--            <p>...</p>-->
+<!--        </section>-->
         <section id="perennial-calendars">
             <h3>perennial calendars</h3>
             <p>a calendar is a <a href="https://en.wikipedia.org/wiki/Perennial_calendar">perennial calendar</a> if the day numbers of the months and the weekdays are the same every year. the gregorian calendar is not perennial, that is why people print new calendars every year with january 1 falling on a different day of the week. there are several proposals for perennial variations of the gregorian calendar. one option is to convert the 365th and 366th days of the year into intercalary days, leaving 364 days a year which is divisible by 7. another approach is to shorten the year to 364 days and group leap days into leap weeks.</p>
@@ -989,14 +990,9 @@ Tishrei 26, 5783
             <h3>✨ julian days</h3>
             <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the julius that the julian day calendar is named after is a different julius than the julian calendar is named after, making the name confusing. a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch.</p>
             <p>the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1583. calculating the amount of time between two julian days is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86 400 to convert between seconds and days.</p>
-            <p>example</p>
-<pre>
-gregorian datetime
-10/21/2022 11:14:05 am jst
-
-julian day number
-2459873.59311
-</pre>
+            <div class="datetime-container"></div>
+            <p>julian day number</p>
+            <p class="julian-days"></p>
             <h4>exercise</h4>
             <p>what is the date 100 days before today or after today in the gregorian calendar and in julian dates?</p>
         </section>
