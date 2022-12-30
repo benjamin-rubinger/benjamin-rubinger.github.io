@@ -680,15 +680,15 @@
                 <p>some of the problems with this proposal is that the year is not precise, the exact year number is still based on the gregorian epoch, the year number is one digit longer, and future analysis might make this epoch more inaccurate.</p>
             </section>
             <section id="julian-day-epoch">
-                <h4>julian day epoch</h4>
+                <h4>✨ julian day epoch</h4>
                 <p>4713 bc is the epoch for the julian day calendar. the particular year was derived based on cycles of the gregorian calendar and roman tax collection, so the derivation is not very meaningful today. it is an arbitrary yet specific date that is before written history and has been in use as an epoch for hundreds of years, primarily by astronomers.</p>
             </section>
             <section id="oldest-recorded-date">
-                <h4>oldest recorded date</h4>
+                <h4>📚 oldest recorded date</h4>
                 <p>there are some written accounts that describe a solar eclipse or another detail that we can back calculate to a specific datetime. we could choose the earliest of those recorded historical events and make that the epoch. according to that approach however, if archeology discovers a document with an earlier verifiable date, we would need to change the epoch again. we want a stable epoch. it is good to celebrate a human event, but the choice of any particular human event seems to be random and overly specific.</p>
             </section>
             <section id="unix-epoch">
-                <h4>unix epoch</h4>
+                <h4>>| unix epoch</h4>
                 <p>unix time uses an epoch of 1970-01-01. a lot of people living today were born after 1970, so many of the events that we talk about would be after the epoch. it is easier to talk about dates after the epoch. if we chose an epoch after 1970, more and more dates that we commonly discuss would be before the epoch and that is more difficult for people to deal with than keeping dates in common conversation after the epoch. the anno domini epoch was established long after the life of jesus, so people could use the new epoch to talk about dates in the recent past without crossing the epoch.</p>
             </section>
             <section id="now">
@@ -987,7 +987,7 @@ Tishrei 26, 5783
             <p>what day of the week will it be on this date next year?</p>
         </section>
         <section id="julian-days">
-            <h3>julian days</h3>
+            <h3>✨ julian days</h3>
             <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the julius that the julian day calendar is named after is a different julius than the julian calendar is named after, making the name confusing. a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch.</p>
             <p>the julian day calendar excludes years, months and weeks, expressing dates in a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time as a fraction of the day since 1583. calculating the amount of time between two julian days is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86 400 to convert between seconds and days.</p>
             <div class="datetime-container"></div>
