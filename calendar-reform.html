@@ -914,7 +914,9 @@ year
         <section id="unix-time">
             <h3>unix time</h3>
             <p>there is a calendar used by a lot of software called <a href="https://en.wikipedia.org/wiki/Unix_time">unix time</a>. unix time is a fairly simple calendar, it counts the number of seconds elapsed since the unix epoch. the unix epoch is the beginning of the year 1970 in the gregorian calendar, the moment of new years between 1969 and 1970. days are 86 400 seconds long in unix time. the time zone is utc. the advantage of unix time is that a datetime is a single, whole number. if you want a unix time with subsecond precision, you can use a decimal point or multiply it by 1000 and then instead of seconds the unix time represents milliseconds. one problem with unix time is that many programmers use 32 bits to store the number, and in the <a href="https://en.wikipedia.org/wiki/Year_2038_problem">year 2038</a> the number of seconds in unix time will overflow 32 bits.</p>
+            <div class="datetime-container"></div>
             <p>example</p>
+            <p class="unix-time-example"></p>
 <pre>
 gregorian calendar
 10/21/2022 11:14:05 am jst

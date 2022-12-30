@@ -108,6 +108,13 @@ function formatIso8601(dateString, timeString, offsetString) {
     $iso8601.find('.offset-minutes').text(parseOffsetMinutes(offsetString));
 }
 
+function formatJulianDay(d) {
+    const $julianDayExample = $('p.julian-day-example');
+    const unixTime = d.getTime();
+    const julianDay = unixTime / 86400000 + unixEpoch();
+    const julianDayString = julianDay.toString();
+}
+
 function formatDatetime(dateString, timeString, offsetString) {
     // console.log("format date time");
     const d = isoToDate(dateString, timeString, offsetString);
@@ -118,6 +125,7 @@ function formatDatetime(dateString, timeString, offsetString) {
     $('.datetime-formats .iso8601').text(isoString);
     generateDateFormats(d);
     formatIso8601(dateString, timeString, offsetString);
+    formatJulianDay(d);
 }
 
 function setDatetime(dateString, timeString, offsetString) {
