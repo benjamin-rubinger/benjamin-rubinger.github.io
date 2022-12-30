@@ -128,6 +128,14 @@ function formatIso8601(dateString, timeString, offsetString) {
     $iso8601.find('.offset-minutes').text(parseOffsetMinutes(offsetString));
 }
 
+function formatOrdinalDate(d) {
+    const $ordinalDate = $('p.ordinal-date');
+    const yearNumber = getYearNumber(d);
+    const ordinalDay = gregorianToOrdinalNumber(d);
+    const ordinalDateString = `${yearNumber.toString()} ${ordinalDay.toString()}`;
+    $ordinalDate.text(ordinalDateString);
+}
+
 function formatDatetime(dateString, timeString, offsetString) {
     // console.log("format date time");
     formatIso8601(dateString, timeString, offsetString);
@@ -142,6 +150,7 @@ function formatDatetime(dateString, timeString, offsetString) {
     formatUnixTime(d);
     formatJulianCalendar(d);
     formatJulianDays(d);
+    formatOrdinalDate(d);
 }
 
 function setDatetime(dateString, timeString, offsetString) {
@@ -333,17 +342,6 @@ function betterLeapDay(year) {
     return false;
 }
 
-function anotherLeapDay(year) {
-    if ((year % 4) === 0) {
-        if ((year % 40) === 0) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-    return false;
-}
-
 function calculateLeapDays() {
     let julianLeapDayCount = 0;
     let gregorianLeapDayCount = 0;
@@ -371,12 +369,14 @@ function calculateLeapDays() {
 }
 
 function daysPerMonth(monthNumber, isLeapYear) {
-    if ((monthNumber == 1) || (monthNumber == 3) || (monthNumber == 5) || (monthNumber == 7) || (monthNumber == 8) || (monthNumber == 10) || (monthNumber == 12)) {
+    if ((monthNumber === 1) || (monthNumber === 3) || (monthNumber === 5) || (monthNumber === 7) || (monthNumber === 8) || (monthNumber === 10) || (monthNumber === 12)) {
         return 31;
-    } else if ((monthNumber == 2) && isLeapYear) {
-        return 29;
-    } else if (monthNumber == 2) {
-        return 28;
+    } else if (monthNumber === 2) {
+        if (isLeapYear) {
+            return 29;
+        } else {
+            return 28;
+        }
     }
     return 30;
 }
@@ -481,15 +481,34 @@ function gregorianToJulianDay(d) {
     return result;
 }
 
+function gregorianToOrdinalNumber(d) {
+    console.log('gregorian to ordinal');
+    const givenYear = getYearNumber(d) * 1;
+    const givenMonth = getMonthNumber(d) * 1;
+    const dayOfMonth = getDayOfMonthNumber(d) * 1;
+    console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
+    const isLeapYear = gregorianLeapDay(givenYear);
+    console.log(`is given year a leap year ${isLeapYear}`);
+    let monthDays = 0;
+    for (let m = 1; m < givenMonth; m++) {
+        monthDays += daysPerMonth(m, isLeapYear);
+    }
+    let dayDays = dayOfMonth;
+    const ordinal = monthDays + dayDays;
+    console.log(`month days ${monthDays}  day days ${dayDays}  ordinal days ${ordinal}`);
+    return ordinal;
+}
+
 function gregorianToJulian(d) {
     const julianCalendarEpochYear = 0;
     const julianCalendarEpochMonth = 1;
     const julianCalendarEpochDay = 1;
 
     const givenYear = getYearNumber(d) * 1;
-    const givenMonth = getMonthNumber(d) * 1;
-    const dayOfMonth = (getDayOfMonthNumber(d) * 1) - 1;
-    console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
+    // const givenMonth = getMonthNumber(d) * 1;
+    // const dayOfMonth = getDayOfMonthNumber(d) * 1;
+    // console.log(`year ${givenYear}  month ${givenMonth}  given day ${getDayOfMonthNumber(d)}  day in month ${dayOfMonth}`);
+    console.log(`year ${givenYear}`);
 
     let years = givenYear - julianCalendarEpochYear;
     let leapYearCount = 0;
@@ -501,16 +520,9 @@ function gregorianToJulian(d) {
     // console.log(`leap years ${leapYearCount}`);
     const commonYearDays = 365 * years;
     const yearDays = commonYearDays + leapYearCount;
-    const isLeapYear = gregorianLeapDay(givenYear);
-    console.log(`julian years ${years}  leap years ${leapYearCount}  year days ${yearDays}`);
-    console.log(`is given year a leap year ${isLeapYear}`);
-    let monthDays = 0;
-    for (let m = 1; m < givenMonth; m++) {
-        monthDays += daysPerMonth(m, isLeapYear);
-    }
-    let dayDays = dayOfMonth;
-    const totalDays = yearDays + monthDays + dayDays;
-    console.log(`year days ${yearDays}  month days ${monthDays}  day days ${dayDays}  total days ${totalDays}`);
+    const ordinalDays = gregorianToOrdinalNumber(d);
+    const totalDays = yearDays + ordinalDays + 1;
+    console.log(`year days ${yearDays}  ordinal days ${ordinalDays}  total days ${totalDays}`);
     let julianCalendarYear = 0;
     let julianCalendarMonth = 1;
     let julianCalendarDay = 1;
