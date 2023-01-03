@@ -570,15 +570,19 @@ function gregorianToJulian(d) {
 }
 
 function getProposalString(d) {
-    const year = getYearNumber(d) * 1 + 10000;
+    let year = getYearNumber(d) * 1 + 10000;
     const gregorianOrdinal = gregorianToOrdinalNumber(d);
     const newYearOffset = 266;
+    let ordinalOffset = gregorianOrdinal - newYearOffset;
+    if (ordinalOffset >= 0) {
+        year += 1;
+    }
     const hasLeapDay = gregorianLeapDay(year);
     let modulo = 365;
     if (hasLeapDay) {
         modulo += 1;
     }
-    let ordinal = (gregorianOrdinal - newYearOffset + modulo) % modulo;
+    let ordinal = (ordinalOffset + modulo) % modulo;
     const fraction = getFractionalDay(d);
     const ordinalTime = (ordinal + fraction).toFixed(8);
     const result = `${year} ${ordinalTime}`;
