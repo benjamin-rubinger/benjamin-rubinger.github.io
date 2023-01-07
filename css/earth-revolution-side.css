@@ -1,7 +1,6 @@
 .earth-revolution-side .sun {
     left: 190px;
     top: 190px;
-    background-color: white;
 }
 .earth-revolution-side .calendar-reform {
     position: absolute;
@@ -16,7 +15,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-
 .earth-revolution-side .front {
     animation-name: sun-front;
     animation-delay: -10s;
@@ -37,17 +35,17 @@
     height: 80px;
     left: 20px;
     top: 160px;
-    animation-name: orbit-side;
+    animation-name: orbit-side, orbit-scale;
     animation-duration: 20s;
     animation-delay: -5s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out, linear;
 }
 .earth-revolution-side .atmosphere {
-    width: 100px;
-    height: 100px;
-    left: -10px;
-    top: -10px;
+    width: 120%;
+    height: 120%;
+    left: -10%;
+    top: -10%;
     background-image: radial-gradient(#4444ff, #4444ff, #4444ff, transparent, transparent);
     position: absolute;
 }
@@ -68,10 +66,10 @@
     background-color: lightgreen;
 }
 .earth-revolution-side .left {
-    clip-path: inset(0px 40px 0px 0px);
+    clip-path: inset(0 50% 0 0);
 }
 .earth-revolution-side .right {
-    clip-path: inset(0px 0px 0px 40px);
+    clip-path: inset(0 0 0 50%);
 }
 .earth-revolution-side .earth-night.left {
     animation-name: phases-dark-left;
@@ -86,23 +84,23 @@
     animation-name: phases-light-right;
 }
 .earth-revolution-side .pole-side {
-    width: 4px;
-    height: 110px;
+    width: 4%;
+    height: 118%;
     background-color: gray;
     position: absolute;
-    left: 38px;
-    top: -15px;
+    left: 48%;
+    top: -9%;
     border-radius: 2px;
     transform: rotate(23.4deg);
 }
 .earth-revolution-side .equator {
     width: 100%;
-    height: 0;
-    border: 1px solid gray;
+    height: 2%;
+    background-color: gray;
     transform: rotate(23.4deg);
     position: absolute;
     left: 0;
-    top: 39px;
+    top: 49%;
 }
 
 .earth-revolution-side .equator-label {
@@ -164,9 +162,16 @@
     animation-name: season-3;
 }
 @keyframes orbit-side {
-    from { left: 20px }
-    50% { left: 300px }
-    to { left: 20px }
+    from { left: 20px; }
+    50% { left: 300px; }
+    to { left: 20px; }
+}
+@keyframes orbit-scale {
+    from { top: 160px; width: 80px; height: 80px; }
+    25% { width: 40px; height: 40px; top: 180px; }
+    50% { top: 160px; width: 80px; height: 80px; }
+    75% { width: 160px; height: 160px; top: 120px; }
+    to { top: 160px; width: 80px; height: 80px; }
 }
 @keyframes season-0 {
     from { opacity: 1; }
