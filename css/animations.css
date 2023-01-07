@@ -54,9 +54,7 @@ figure {
     transform-origin: center;
     width: 566px;
 }
-.stars .star.sun {
-    background-color: white;
-}
+
 .stars .star {
     background-color: gray;
 }
@@ -65,6 +63,7 @@ figure {
     height: 20px;
     left: 93px;
     top: 273px;
+    background-image: radial-gradient(white, white, transparent);
 }
 .twinkle {
     animation-name: twinkle;
@@ -198,4 +197,3 @@ figure {
     animation-timing-function: linear;
     transform-origin: bottom;
 }
-
