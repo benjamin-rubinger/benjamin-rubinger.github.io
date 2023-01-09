@@ -90,11 +90,16 @@ function parseOffsetMinutes(offsetString) {
     return +offsetString.slice(4, 6);
 }
 
-function formatUnixTime(d) {
-    const $unixTime = $('p.unix-time');
+function getUnixTimeString(d) {
     const unixTimeMilliseconds = d.getTime();
     const unixTimeSeconds = Math.floor(unixTimeMilliseconds / 1000).toString();
-    $unixTime.text(unixTimeSeconds);
+    return unixTimeSeconds;
+}
+
+function formatUnixTime(d) {
+    const $unixTime = $('p.unix-time');
+    const unixTimeString = getUnixTimeString(d);
+    $unixTime.text(unixTimeString);
 }
 
 function gregorianToJulianDayNumber(d) {
@@ -723,10 +728,8 @@ function gregorianToAny(d, calendarData) {
         remaining -= result['ordinal'];
     }
 
-    // console.log(`remaining ${remaining}`);
-
     if (remaining >= 1) {
-        console.log('oh no the remaining is longer than a day');
+        console.log(`oh no the remaining is longer than a day ${remaining}`);
     }
 
     const hoursPerDay = +calendarData['hours per day'];
@@ -778,6 +781,12 @@ function convertCalendar() {
     } else if (calendarName === 'julianDay') {
         const jdn = gregorianToJulianDayNumber(d);
         console.log(`jdn ${jdn}`);
+    } else if (calendarName === 'proposal') {
+        const proposal = getProposalString(d);
+        console.log(`proposal ${proposal}`);
+    } else if (calendarName === 'unixTime') {
+        const unixTime = getUnixTimeString(d);
+        console.log(`unix time ${unixTime}`);
     }
 }
 
@@ -861,7 +870,7 @@ function newDayStringToDecimal(nds) {
 }
 
 function getYearNumber(d) {
-    return d.getFullYear();
+    return d.getFullYear() * 1;
 }
 
 function getFourDigitYear(d) {
@@ -1187,7 +1196,7 @@ function egyptianJson() {
 }
 
 function frenchRepublicanJson() {
-    return '{"based on":"egyptian","by":"","community":"france","date format":"y mmmm w e.hiissuuu","hours per day":10,"intercalary days":5,"introduced":"1793-10","epoch":"1792-09-22","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":"100","month length":"30","months":"Vendémiaire,Brumaire,Frimaire,Nivôse,Pluviôse,Ventôse,Germinal,Floréal,Prairial,Messidor,Thermidor,Fructidor","name":"french republican","new day time":"midnight","new year day":265,"seconds per minute":"100","notes":"","type":"solar","week length":10}';
+    return '{"based on":"egyptian","by":"","community":"france","date format":"y mmmm w e.hiissuuu","hours per day":10,"intercalary days":5,"introduced":"1793-10","epoch":"1792-09-22","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":100,"month length":"30","months":"Vendémiaire,Brumaire,Frimaire,Nivôse,Pluviôse,Ventôse,Germinal,Floréal,Prairial,Messidor,Thermidor,Fructidor","name":"french republican","new day time":"midnight","new year day":265,"seconds per minute":100,"notes":"","type":"solar","week length":10}';
 }
 
 function julianJson() {
@@ -1195,19 +1204,23 @@ function julianJson() {
 }
 
 function julianDayJson() {
-    return '{"based on":"","by":"joseph scalinger","community":"astronomers","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004714-11-24T12:00:00Z","leap day ratio":0,"leap month ratio":0,"minutes per hour":"100","month length":"","months":"","name":"julian day","new day time":"midday","new year day":1,"notes":"","type":"other","week length":""}';
+    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004714-11-24T12:00:00Z","leap day ratio":0,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":1,"notes":"","seconds per minute":100,"type":"other","week length":""}';
 }
 
 function gregorianJson() {
-    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"000000","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":"60","type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
+    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"000000","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":60,"type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
 }
 
 function romanJson() {
-    return '{"based on":"","by":"numa pompilius","community":"roman empire","hours per day":24,"intercalary days":0,"introduced":"-000700-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"roman","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"lunar","week length":9}';
+    return '{"based on":"","by":"numa pompilius","community":"roman empire","hours per day":24,"intercalary days":0,"introduced":"-000700-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"roman","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"lunar","week length":9}';
 }
 
 function proposalJson() {
-    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":"100","month length":"","months":"","name":"proposal","new day time":"midnight","new year day":265,"notes":"","seconds per minute":"100","type":"solar","week length":""}';
+    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":265,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
+}
+
+function unixTimeJson() {
+    return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.u","hours per day":1,"intercalary days":0,"introduced":"+001583","epoch":"-004714-11-24T12:00:00Z","leap day ratio":0,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"","notes":"","seconds per minute":86400,"type":"other","week length":""}';
 }
 
 function fetchLocal(calendarName) {
@@ -1226,6 +1239,8 @@ function fetchLocal(calendarName) {
         calendarJson = proposalJson();
     } else if (calendarName === 'roman') {
         calendarJson = romanJson();
+    } else if (calendarName === 'unixTime') {
+        calendarJson = unixTimeJson();
     }
     // console.log(calendarJson);
     const calendarData = JSON.parse(calendarJson);
@@ -1245,7 +1260,10 @@ function initialize() {
     // let egyptianData = fetchLocal('egyptian');
     // $('section#egyptian-calendar').append(renderCalendarData(egyptianData));
     // setCalendar('your custom calendar');
-    setCalendar('french republican');
+//    setCalendar('french republican');
+    setCalendar('julian day');
+    convertCalendar();
+    setCalendar('unix time');
     convertCalendar();
     setCalendar('proposal');
     convertCalendar();
