@@ -758,6 +758,7 @@
                 <li>mmmm = full month name</li>
                 <li>d = day of month number</li>
                 <li>dd = two digit day of month number</li>
+                <li>ddd = day of year number</li>
             </ul>
             <table class="formats">
                 <tr><th>format</th><th>example</th></tr>
@@ -1033,7 +1034,7 @@ proposed calendar
             <div class="calendar-design">
                 <label for="existing-calendar">existing calendar</label>
                 <select id="existing-calendar" class="existing-calendar">
-                    <option>none</option>
+                    <option selected>none</option>
                     <option>chinese</option>
                     <option>egyptian</option>
                     <option>french republican</option>
@@ -1049,7 +1050,8 @@ proposed calendar
                 <select id="calendar-type" class="calendar-type">
                     <option>lunar</option>
                     <option>lunisolar</option>
-                    <option>solar</option>
+                    <option>other</option>
+                    <option selected>solar</option>
                 </select>
                 <!-- maybe the epoch should be an integer? offset from what? -->
                 <label for="select-epoch">epoch</label>
@@ -1256,11 +1258,12 @@ proposed calendar
                 <option>chinese</option>
                 <option>egyptian</option>
                 <option>french republican</option>
+                <option selected>gregorian</option>
                 <option>hebrew</option>
                 <option>islamic</option>
                 <option>julian</option>
                 <option>julian day</option>
-                <option>my proposal</option>
+                <option>proposal</option>
                 <option>unix time</option>
                 <option>your custom calendar</option>
             </select>
