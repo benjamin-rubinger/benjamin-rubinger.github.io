@@ -40,10 +40,10 @@ function generateNavigation() {
 }
 
 function generateDatetimeInputs(index) {
-    const $inputDate = $('<input onchange="updateDatetimeEvent(this)">').attr('id', `input-date${index}`).addClass('input-date').attr('type', 'date');
-    const $inputTime = $('<input onchange="updateDatetimeEvent(this)">').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
+    const $inputDate = $('<input>').attr('id', `input-date${index}`).addClass('input-date').attr('type', 'date');
+    const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
     const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
-    const $selectTimezone = $('<select onchange="updateDatetimeEvent(this)">').attr('id', `select-timezone${index}`).addClass('timezone');
+    const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
     for (const offset of options) {
         const $option = $('<option>').text(offset);
         $selectTimezone.append($option);
@@ -58,6 +58,8 @@ function insertDateTimeInputs() {
     $('body .datetime-container').each(function (index) {
         $(this).replaceWith(generateDatetimeInputs(index));
     });
+    const $dateTimeInputs = $('.input-date, .input-time, select.timezone');
+    $dateTimeInputs.on('input change', updateDatetimeEvent); // try to especially add event listeners for ios safari after appending the elements to the dom
 }
 
 function isoToDate(dateString, timeString, offsetString) {
@@ -1271,7 +1273,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+// $body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
