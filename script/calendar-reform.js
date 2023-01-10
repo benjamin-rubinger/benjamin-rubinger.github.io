@@ -69,6 +69,18 @@ function insertDateTimeInputs() {
     // $dateTimeInputs.on('input change', updateDatetimeEvent); // try to especially add event listeners for ios safari after appending the elements to the dom
 }
 
+function addEventListenersForDateTimeInputs() {
+    for (let index = 0; index < 12; index++) {
+        console.log(`adding event listeners for ${index}`);
+        document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`input-time${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`input-time${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`select-timezone${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`select-timezone${index}`).addEventListener('change', updateDatetimeEvent);
+    }
+}
+
 function isoToDate(dateString, timeString, offsetString) {
     // console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}`);
     const dateTimeString = dateString + 'T' + timeString + offsetString;
@@ -1259,6 +1271,7 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     // insertDateTimeInputs();
+    addEventListenersForDateTimeInputs();
     setNow();
     generateNavigation();
     registerObservers();
@@ -1280,7 +1293,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+// $body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
