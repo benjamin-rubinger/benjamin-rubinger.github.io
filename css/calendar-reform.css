@@ -26,7 +26,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    cursor: pointer;
 }
 ul, ol {
     margin-left: 1em;
@@ -96,6 +95,7 @@ button, input, select {
     background-color: inherit;
     color: inherit;
     border-radius: 4px;
+    cursor: pointer;
 }
 .capitalize {
     text-transform: uppercase;
