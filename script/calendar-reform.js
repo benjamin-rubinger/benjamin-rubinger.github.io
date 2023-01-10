@@ -74,10 +74,13 @@ function addEventListenersForDateTimeInputs() {
         console.log(`adding event listeners for ${index}`);
         document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
         document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`input-date${index}`).addEventListener('blur', updateDatetimeEvent);
         document.getElementById(`input-time${index}`).addEventListener('input', updateDatetimeEvent);
         document.getElementById(`input-time${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`input-time${index}`).addEventListener('blur', updateDatetimeEvent);
         document.getElementById(`select-timezone${index}`).addEventListener('input', updateDatetimeEvent);
         document.getElementById(`select-timezone${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`select-timezone${index}`).addEventListener('blur', updateDatetimeEvent);
     }
 }
 
