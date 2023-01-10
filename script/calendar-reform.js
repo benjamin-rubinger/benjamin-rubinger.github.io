@@ -70,7 +70,7 @@ function insertDateTimeInputs() {
 }
 
 function addEventListenersForDateTimeInputs() {
-    for (let index = 0; index < 12; index++) {
+    for (let index = 8; index < 9; index++) {
         console.log(`adding event listeners for ${index}`);
         document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
         document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
