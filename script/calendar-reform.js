@@ -57,9 +57,16 @@ function generateDatetimeInputs(index) {
 function insertDateTimeInputs() {
     $('body .datetime-container').each(function (index) {
         $(this).replaceWith(generateDatetimeInputs(index));
+        console.log(`adding event listeners for ${index}`);
+        document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`input-time${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`input-time${index}`).addEventListener('change', updateDatetimeEvent);
+        document.getElementById(`select-timezone${index}`).addEventListener('input', updateDatetimeEvent);
+        document.getElementById(`select-timezone${index}`).addEventListener('change', updateDatetimeEvent);
     });
-    const $dateTimeInputs = $('.input-date, .input-time, select.timezone');
-    $dateTimeInputs.on('input change', updateDatetimeEvent); // try to especially add event listeners for ios safari after appending the elements to the dom
+    // const $dateTimeInputs = $('.input-date, .input-time, select.timezone');
+    // $dateTimeInputs.on('input change', updateDatetimeEvent); // try to especially add event listeners for ios safari after appending the elements to the dom
 }
 
 function isoToDate(dateString, timeString, offsetString) {
