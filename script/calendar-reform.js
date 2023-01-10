@@ -1271,8 +1271,8 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change blur', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
-$body.on('input change blur', '.convert-calendar', convertCalendar);
+$body.on('input change blur keyup', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+$body.on('input change blur keyup', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
 $body.on('click', 'button.light', setLight);
