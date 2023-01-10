@@ -1258,7 +1258,7 @@ function fetchLocal(calendarName) {
 }
 
 function initialize() {
-    insertDateTimeInputs();
+    // insertDateTimeInputs();
     setNow();
     generateNavigation();
     registerObservers();
