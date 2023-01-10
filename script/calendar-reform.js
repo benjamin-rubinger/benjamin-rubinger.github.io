@@ -1280,7 +1280,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-// $body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
