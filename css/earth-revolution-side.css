@@ -10,17 +10,17 @@
 }
 .earth-revolution-side .back {
     animation-name: sun-back;
-    animation-delay: -10s;
+    animation-delay: -5s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
 }
 .earth-revolution-side .front {
     animation-name: sun-front;
-    animation-delay: -10s;
+    animation-delay: -5s;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
 }
 .earth-revolution-side .earth-orbit-side {
     position: absolute;
@@ -203,18 +203,18 @@
 }
 @keyframes sun-back {
     from { opacity: 100% }
-    28.999% { opacity: 100% }
-    29% { opacity: 0 }
-    69.999% { opacity: 0 }
-    70% { opacity: 100% }
+    9.999% { opacity: 100% }
+    10% { opacity: 0 }
+    49.999% { opacity: 0 }
+    50% { opacity: 100% }
     to { opacity: 100% }
 }
 @keyframes sun-front {
     from { opacity: 0 }
-    28.999% { opacity: 0 }
-    29% { opacity: 100% }
-    69.999% { opacity: 100% }
-    70% { opacity: 0 }
+    9.999% { opacity: 0 }
+    10% { opacity: 100% }
+    49.999% { opacity: 100% }
+    50% { opacity: 0 }
     to { opacity: 0 }
 }
 @keyframes equinox-going-north {
