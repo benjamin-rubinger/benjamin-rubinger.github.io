@@ -185,6 +185,7 @@ function formatDatetime(dateString, timeString, offsetString) {
     formatJulianDays(d);
     formatOrdinalDate(d);
     formatProposal(d);
+    convertCalendar();
 }
 
 function setDatetime(dateString, timeString, offsetString) {
@@ -814,6 +815,8 @@ function convertCalendar() {
         const unixTime = getUnixTimeString(d);
         console.log(`unix time ${unixTime}`);
     }
+    const $convertedDatetime = $('.converted-datetime');
+    $convertedDatetime.text(datetimeString);
 }
 
 function setCalendar(calendarName) {
@@ -1119,7 +1122,7 @@ function formatDate(calendarData, datetimeData) {
         second = zeroPad(second, 2);
     }
     if (df.indexOf('uuu') >= 0) {
-        subsecond = zeroPad(subsecond, 3);
+        subsecond = truncate(zeroPad(subsecond, 3), 3);
     }
     for (let char of df) {
         if (char === 'y') {
@@ -1248,7 +1251,7 @@ function proposalJson() {
 }
 
 function unixTimeJson() {
-    return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.u","hours per day":1,"intercalary days":0,"introduced":"+001971","epoch":"+001970-01-01T00:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"1","notes":"","seconds per minute":86400,"type":"other","week length":""}';
+    return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.uuu","hours per day":1,"intercalary days":0,"introduced":"+001971","epoch":"+001970-01-01T00:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"1","notes":"","seconds per minute":86400,"type":"other","week length":""}';
 }
 
 function fetchLocal(calendarName) {
@@ -1298,6 +1301,7 @@ function initialize() {
     convertCalendar();
     setCalendar('proposal');
     convertCalendar();
+    setNow();
 }
 
 const $body = $('body');
