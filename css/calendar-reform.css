@@ -110,6 +110,7 @@ button.smaller {
     position: fixed;
     top: 4px;
     right: 16px;
+    font-size: 150%;
 }
 .dark .navigation-collapse, .dark .navigation-expand {
     background-color: darkblue;

@@ -57,34 +57,7 @@ function generateDatetimeInputs(index) {
 function insertDateTimeInputs() {
     $('body .datetime-container').each(function (index) {
         $(this).replaceWith(generateDatetimeInputs(index));
-        console.log(`adding event listeners for ${index}`);
-        document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('change', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('change', updateDatetimeEvent);
     });
-    // const $dateTimeInputs = $('.input-date, .input-time, select.timezone');
-    // $dateTimeInputs.on('input change', updateDatetimeEvent); // try to especially add event listeners for ios safari after appending the elements to the dom
-}
-
-function addEventListenersForDateTimeInputs() {
-    for (let index = 8; index < 9; index++) {
-        console.log(`adding event listeners for ${index}`);
-        document.getElementById(`input-date${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`input-date${index}`).addEventListener('change', updateDatetimeEvent);
-        document.getElementById(`input-date${index}`).addEventListener('blur', updateDatetimeEvent);
-        document.getElementById(`input-date${index}`).addEventListener('keyup', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('change', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('blur', updateDatetimeEvent);
-        document.getElementById(`input-time${index}`).addEventListener('keyup', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('input', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('change', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('blur', updateDatetimeEvent);
-        document.getElementById(`select-timezone${index}`).addEventListener('keyup', updateDatetimeEvent);
-    }
 }
 
 function isoToDate(dateString, timeString, offsetString) {
@@ -186,6 +159,15 @@ function getDatetime() {
     const offsetString = $datetimeContainer.find('select.timezone').val();
     return isoToDate(dateString, timeString, offsetString);
 }
+
+// function setDatetime(isoString) {
+//     const $datetimeContainer = $('.datetime-container').first();
+//     const dateString = isoString.substring(0, isoString.indexOf('T'));
+//     $datetimeContainer.find('.input-date').val(dateString);
+//     const timeString = isoString.substring(isoString.indexOf('T'), isoString.length);
+//     $datetimeContainer.find('.input-time').val(timeString);
+//     console.log(`isoString ${isoString}  dateString ${dateString}  timeString ${timeString}`);
+// }
 
 function formatDatetime(dateString, timeString, offsetString) {
     // console.log("format date time");
@@ -626,7 +608,7 @@ function gregorianToAny(d, calendarData) {
     console.log(`gregorian to ${calendarData['name']}`);
     console.log(calendarData);
     // given gregorian date
-    const givenYear = getYearNumber(d) * 1;
+    const givenYear = getYearNumber(d);
     // const givenMonth = getMonthNumber(d) * 1;
     // const dayOfMonth = (getDayOfMonthNumber(d) * 1) - 1;
     const ordinalDays = gregorianToOrdinalNumber(d);
@@ -638,6 +620,7 @@ function gregorianToAny(d, calendarData) {
         calendarEpochString = gregorianEpoch();
     }
     let calendarEpoch = new Date(calendarEpochString);
+    calendarEpoch.setMinutes(calendarEpoch.getMinutes() - calendarEpoch.getTimezoneOffset());
     // console.log(`epoch ${calendarEpochString}  calendarEpoch ${calendarEpoch}`);
     const epochYear = getYearNumber(calendarEpoch);
     // console.log(`epoch year ${epochYear}`);
@@ -671,19 +654,19 @@ function gregorianToAny(d, calendarData) {
     // total days
     const commonYearDays = 365 * years;
     const yearDays = commonYearDays + leapYearCount;
-    const totalDays = yearDays - newYearDay + ordinalDays + 1;
+    const totalDays = yearDays - newYearDay + ordinalDays - 1;
     // console.log(`year days ${yearDays}  total days ${totalDays}`);
 
     const fractionalDay = getFractionalDay(d);
     const newDayFraction = newDayStringToDecimal(calendarData['new day time']);
     // console.log(`fractional day ${fractionalDay}  new day fraction ${newDayFraction}`);
     const total = totalDays + fractionalDay - newDayFraction;
-    console.log(`total time in days ${total}`);
+    // console.log(`total time in days ${total}`);
 
     let result = {
         'day': '',
         'hour': '',
-        'millisecond': '',
+        'millisecond': '0',
         'minute': '',
         'month': '',
         'name': calendarData['name'],
@@ -716,13 +699,14 @@ function gregorianToAny(d, calendarData) {
         const yearFloat = remaining / yearLength;
         const ordinalFloat = remaining % yearLength;
         const yearCount = Math.floor(yearFloat);
-        remaining -= yearCount * yearLength;
+        remaining -= Math.floor(yearCount * yearLength);
         result['year'] = yearCount;
 
         const ordinalCount = Math.floor(ordinalFloat);
         result['ordinal'] = ordinalCount;
     }
 
+    const hoursPerDay = +calendarData['hours per day'];
     // months and day of month
     if ((calendarData['months'].length > 0) && (monthLength > 0)) {
         if ((calendarType === 'solar') && (calendarData['month length'] === 'varies')) {
@@ -750,37 +734,52 @@ function gregorianToAny(d, calendarData) {
             remaining -= dayOfMonthCount;
             result['day'] = dayOfMonthCount;
         }
-    } else {
+    } else if (yearLength > 0) {
         result['day'] = result['ordinal'];
         remaining -= result['ordinal'];
+    } else if (hoursPerDay > 1) {
+        const days = Math.floor(total);
+        remaining -= days;
+        result['day'] = days;
+    } else if (hoursPerDay === 1) {
+        remaining *= 86400;
+        const secondsCount = Math.floor(remaining);
+        result['second'] = secondsCount;
+        remaining -= secondsCount;
     }
 
-    if (remaining >= 1) {
-        console.log(`oh no the remaining is longer than a day ${remaining}`);
-    }
+    // if (remaining >= 1) {
+    //     console.log(`oh no the remaining is longer than a day ${remaining}`);
+    // }
 
-    const hoursPerDay = +calendarData['hours per day'];
+
     if (hoursPerDay > 0) {
-        const hoursFloat = remaining * hoursPerDay;
-        const hoursCount = Math.floor(hoursFloat);
-        result['hour'] = hoursCount;
-        remaining -= hoursCount / hoursPerDay;
+        if (hoursPerDay !== 1) {
+            const hoursFloat = remaining * hoursPerDay;
+            const hoursCount = Math.floor(hoursFloat);
+            result['hour'] = hoursCount;
+            remaining -= hoursCount / hoursPerDay;
+        }
 
         const minutesPerHour = +calendarData['minutes per hour'];
         if (minutesPerHour > 0) {
             const minutesPerDay = minutesPerHour * hoursPerDay;
-            const minutesFloat = remaining * minutesPerDay;
-            const minutesCount = Math.floor(minutesFloat);
-            result['minute'] = minutesCount;
-            remaining -= minutesCount / minutesPerDay;
+            if (minutesPerHour !== 1) {
+                const minutesFloat = remaining * minutesPerDay;
+                const minutesCount = Math.floor(minutesFloat);
+                result['minute'] = minutesCount;
+                remaining -= minutesCount / minutesPerDay;
+            }
 
             const secondsPerMinute = +calendarData['seconds per minute'];
             if (secondsPerMinute > 0) {
                 const secondsPerDay = secondsPerMinute * minutesPerDay;
-                const secondsFloat = remaining * secondsPerDay;
-                const secondsCount = Math.floor(secondsFloat);
-                result['second'] = secondsCount;
-                remaining -= secondsCount / secondsPerDay;
+                if (minutesPerHour !== 1) {
+                    const secondsFloat = remaining * secondsPerDay;
+                    const secondsCount = Math.floor(secondsFloat);
+                    result['second'] = secondsCount;
+                    remaining -= secondsCount / secondsPerDay;
+                }
 
                 const millisecondsPerDay = secondsPerDay * 1000;
                 const millisecondsFloat = remaining * millisecondsPerDay;
@@ -1154,6 +1153,8 @@ function formatDate(calendarData, datetimeData) {
             result += char;
         }
     }
+    result = result.replace(/\.0+$/, '.0'); // remove trailing zeros
+    result = result.replace(/(\.[1-9]+)(0+)$/, '$1'); // remove trailing zeros
     return result;
 }
 
@@ -1231,7 +1232,7 @@ function julianJson() {
 }
 
 function julianDayJson() {
-    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004714-11-24T12:00:00Z","leap day ratio":0,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":1,"notes":"","seconds per minute":100,"type":"other","week length":""}';
+    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004713-11-24T12:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":328,"notes":"","seconds per minute":100,"type":"other","week length":""}';
 }
 
 function gregorianJson() {
@@ -1243,11 +1244,11 @@ function romanJson() {
 }
 
 function proposalJson() {
-    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":265,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
+    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":266,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
 }
 
 function unixTimeJson() {
-    return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.u","hours per day":1,"intercalary days":0,"introduced":"+001583","epoch":"-004714-11-24T12:00:00Z","leap day ratio":0,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"","notes":"","seconds per minute":86400,"type":"other","week length":""}';
+    return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.u","hours per day":1,"intercalary days":0,"introduced":"+001971","epoch":"+001970-01-01T00:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"1","notes":"","seconds per minute":86400,"type":"other","week length":""}';
 }
 
 function fetchLocal(calendarName) {
@@ -1276,8 +1277,7 @@ function fetchLocal(calendarName) {
 }
 
 function initialize() {
-    // insertDateTimeInputs();
-    addEventListenersForDateTimeInputs();
+    insertDateTimeInputs();
     setNow();
     generateNavigation();
     registerObservers();
@@ -1289,8 +1289,11 @@ function initialize() {
     // $('section#egyptian-calendar').append(renderCalendarData(egyptianData));
     // setCalendar('your custom calendar');
 //    setCalendar('french republican');
+    setDatetime('2000-01-01', '12:00:00.000', '+00:00');
     setCalendar('julian day');
+    console.log('2451545');
     convertCalendar();
+    // setDatetime('1970-01-01', '00:00:00.000', '+00:00');
     setCalendar('unix time');
     convertCalendar();
     setCalendar('proposal');
@@ -1299,7 +1302,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-// $body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
