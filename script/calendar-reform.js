@@ -862,7 +862,11 @@ function gregorianToAny(d, calendarData) {
 function convertCalendar() {
     const $convertCalendar = $('.convert-calendar');
     const calendarName = spaceToCamel($convertCalendar.val());
+    console.log(`convert calendar ${calendarName}`);
     const calendarData = fetchLocal(calendarName);
+    if (Object.keys(calendarData).length === 0) {
+        return;
+    }
     const d = getDatetime();
     const datetimeData = gregorianToAny(d, calendarData);
     console.log(datetimeData);
@@ -1309,7 +1313,7 @@ function unixTimeJson() {
 }
 
 function fetchLocal(calendarName) {
-    let calendarJson;
+    let calendarJson = '{}';
     if (calendarName === 'egyptian') {
         calendarJson = egyptianJson();
     } else if (calendarName === 'frenchRepublican') {
