@@ -1016,9 +1016,10 @@ star date
         <p>now that you know how calendars work and have seen several existing calendars, you are ready to design your own calendar! i will present my proposal first, then you can compare existing calendars and even create your own calendar!</p>
         <section id="my-proposed-calendar">
             <h3>my proposed calendar</h3>
-            <p>i propose a solar calendar with ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of a calendar, track the seasons, track the position of the sun in the sky and to locate points in time. the epoch is the holocene era, 10000 years before the gregorian epoch, an arbitrary year during the agricultural revolution. the new year day is the equinox going south, the new day time is midnight. no daylight saving time. no timezones, everyone would use utc.</p>
-            <p>my proposed calendar 1</p>
+            <p>i propose a solar calendar with ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of an earth calendar for humans, track the seasons, track the position of the sun in the sky and to locate points in time. the epoch is the holocene era, 10000 years before the gregorian epoch, an arbitrary year during the agricultural revolution. the new year day is the equinox going south, the new day time is midnight. no daylight saving time. no timezones, everywhere is utc.</p>
+            <p>my proposed calendar</p>
             <p class="my-proposed-calendar"></p>
+            <div class="datetime-container"></div>
         </section>
         <section id="design-your-own">
             <h3>design your own calendar</h3>
@@ -1127,7 +1128,7 @@ star date
                 </select>
                 <label for="select-intercalary-days">intercalary days</label>
                 <select id="select-intercalary-days" class="select-intercalary-days">
-                    <option>none</option>
+                    <option>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -1194,7 +1195,17 @@ star date
                 </select>
             </div>
         </section>
-        <div class="datetime-container"></div>
+        <br /><br />
+        <div class="datetime-formats">
+            <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
+            <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
+            <div>
+                <p>converted datetime</p>
+                <p class="converted-datetime"></p>
+            </div>
+            <p>share this calendar!</p>
+            <a href="">blah calendar</a><button>copy link</button>
+        </div>
         <div class="convert">
             <p>choose another calendar to see the gregorian datetime converted into that calendar</p>
             <select id="convert-calendar" class="convert-calendar">
@@ -1211,16 +1222,7 @@ star date
                 <option>your custom calendar</option>
             </select>
         </div>
-        <div class="datetime-formats">
-            <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
-            <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
-            <div>
-                <p>converted datetime</p>
-                <p class="converted-datetime"></p>
-            </div>
-            <p>share this calendar!</p>
-            <a href="">blah calendar</a><button>copy link</button>
-        </div>
+        <div class="datetime-container"></div>
     </section>
     <section id="future-calendars">
         <h2>calendars we might want in the further future</h2>

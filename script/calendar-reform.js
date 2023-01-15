@@ -41,6 +41,10 @@ function generateNavigation() {
 
 function generateDatetimeInputs(index) {
     const $inputDate = $('<input>').attr('id', `input-date${index}`).addClass('input-date').attr('type', 'date');
+    const $bcContainer = $('<span>').attr('id', `bc-container${index}`).addClass('bc-container');
+    const $bcLabel = $('<label>').addClass('label-bc').attr('for', `input-bc${index}`).text('bc');
+    const $inputBc = $('<input>').attr('id', `input-bc${index}`).addClass('input-bc').attr('type', 'checkbox');
+    $bcContainer.append([$bcLabel, $inputBc]);
     const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
     const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
     const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
@@ -50,7 +54,7 @@ function generateDatetimeInputs(index) {
     }
     const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').text('now');
     const $datetimeContainer = $('<div>').attr('id', `datetime-container${index}`).addClass('datetime-container');
-    $datetimeContainer.append([$inputDate, $inputTime, $selectTimezone, $now]);
+    $datetimeContainer.append([$inputDate, $bcContainer, $inputTime, $selectTimezone, $now]);
     return $datetimeContainer;
 }
 
@@ -61,10 +65,10 @@ function insertDateTimeInputs() {
 }
 
 function isoToDate(dateString, timeString, offsetString) {
-    // console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}`);
+    console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}`);
     const dateTimeString = dateString + 'T' + timeString + offsetString;
     const d = new Date(dateTimeString);
-    // console.log(`iso to date  date ${d}`);
+    console.log(`iso to date  date ${d}`);
     return d;
 }
 
@@ -123,7 +127,12 @@ function formatJulianCalendar(d) {
 function formatIso8601(dateString, timeString, offsetString) {
     const d = isoToDate(dateString, timeString, offsetString);
     const $iso8601 = $('.iso-8601');
-    $iso8601.find('.year').text(getFourDigitYear(d));
+    const yearNumber = getYearNumber(d);
+    if ((yearNumber >= 0) && (yearNumber < 10000)) {
+        $iso8601.find('.year').text(getFourDigitYear(d));
+    } else {
+        $iso8601.find('.year').text(yearNumberToSignedSix(yearNumber));
+    }
     $iso8601.find('.month').text(getTwoDigitMonth(d));
     $iso8601.find('.day-of-month').text(getTwoDigitDayOfMonth(d));
     $iso8601.find('.hour').text(getTwoDigitHours(d));
@@ -155,6 +164,8 @@ function formatProposal(d) {
 function getDatetime() {
     const $datetimeContainer = $('.datetime-container').first();
     const dateString = $datetimeContainer.find('.input-date').val();
+    const isBc = $datetimeContainer.find('.input-bc').prop('checked');
+    console.log(`is bc ${isBc}`);
     const timeString = $datetimeContainer.find('.input-time').val();
     const offsetString = $datetimeContainer.find('select.timezone').val();
     return isoToDate(dateString, timeString, offsetString);
@@ -169,17 +180,30 @@ function getDatetime() {
 //     console.log(`isoString ${isoString}  dateString ${dateString}  timeString ${timeString}`);
 // }
 
-function formatDatetime(dateString, timeString, offsetString) {
+function addBc(dateString, isBc) {
+    if (!isBc) {
+        return dateString;
+    }
+    let result = dateString;
+    let firstDashIndex = result.indexOf('-');
+    let zeroes = 6 - firstDashIndex;
+    result = '-' + zeroPad('', zeroes) + result;
+    return result;
+}
+
+function formatDatetime(dateString, isBc, timeString, offsetString) {
     // console.log("format date time");
-    formatIso8601(dateString, timeString, offsetString);
-    const d = isoToDate(dateString, timeString, offsetString);
+    const dateStringWithBc = addBc(dateString, isBc);
+    console.log(`date string with bc ${dateStringWithBc}`);
+    // formatIso8601(dateStringWithBc, timeString, offsetString);
+    const d = isoToDate(dateStringWithBc, timeString, offsetString);
     // console.log(d);
     const localeString = d.toString();
     $('.datetime-formats .default').text(localeString);
     const isoString = d.toISOString(); // this isnt good enough because it converts to utc
     $('.datetime-formats .iso8601').text(isoString);
     generateDateFormats(d);
-    formatIso8601(dateString, timeString, offsetString);
+    formatIso8601(dateStringWithBc, timeString, offsetString);
     formatUnixTime(d);
     formatJulianCalendar(d);
     formatJulianDays(d);
@@ -188,22 +212,25 @@ function formatDatetime(dateString, timeString, offsetString) {
     convertCalendar();
 }
 
-function setDatetime(dateString, timeString, offsetString) {
+function setDatetime(dateString, isBc, timeString, offsetString) {
     $('.input-date').val(dateString);
+    $('.input-bc').prop('checked', isBc);
     $('.input-time').val(timeString);
     $('select.timezone').val(offsetString);
-    formatDatetime(dateString, timeString, offsetString);
+    formatDatetime(dateString, isBc, timeString, offsetString);
 }
 
 function updateDatetime($datetimeContainer) {
     // console.log('update datetime');
     const dateString = $datetimeContainer.find('.input-date').val();
     // console.log(dateString);
+    const isBc = $datetimeContainer.find('.input-bc').prop('checked');
+    // console.log(`update datetime  is bc ${isBc}`);
     const timeString = $datetimeContainer.find('.input-time').val();
     // console.log(timeString);
     const offsetString = $datetimeContainer.find('select.timezone').val();
     if ((dateString.length >= 10) && (timeString.length >= 12)) {
-        setDatetime(dateString, timeString, offsetString);
+        setDatetime(dateString, isBc, timeString, offsetString);
     }
 }
 
@@ -245,7 +272,7 @@ function setNow() {
     // console.log(now.getTimezoneOffset());
     const offsetString = getOffsetString(now);
     // console.log(offsetString);
-    setDatetime(dateString, timeString, offsetString);
+    setDatetime(dateString, false, timeString, offsetString);
     // gregorianToJulianDay(new Date('-004713-11-24'));
     // console.log(`jdn 0\n\n`);
     // gregorianToJulianDay(new Date('-004713-11-25'));
@@ -407,6 +434,7 @@ function calculateLeapDays() {
     console.log(`better leap day ratio ${betterRatio}`); // 0.24222
 }
 
+// roman, julian, gregorian silly months
 function daysPerMonth(monthNumber, isLeapYear) {
     if ((monthNumber === 1) || (monthNumber === 3) || (monthNumber === 5) || (monthNumber === 7) || (monthNumber === 8) || (monthNumber === 10) || (monthNumber === 12)) {
         return 31;
@@ -641,11 +669,20 @@ function gregorianToAny(d, calendarData) {
     // elapsed years and leap days
     let years = givenYear - epochYear;
     let leapYearCount = 0;
-    for (let year = epochYear; year < givenYear; year++) {
-        if (leapDay(year)) {
-            leapYearCount += 1;
+    if (years >= 0) {
+        for (let year = epochYear; year < givenYear; year++) {
+            if (leapDay(year)) {
+                leapYearCount += 1;
+            }
+        }
+    } else {
+        for (let year = givenYear; year > epochYear; year--) {
+            if (leapDay(year)) {
+                leapYearCount += 1;
+            }
         }
     }
+    const isLeapYear = leapDay(years);
     // console.log(`leap year days ${leapYearCount}`);
 
     // new year day offset
@@ -696,14 +733,19 @@ function gregorianToAny(d, calendarData) {
     }
 
     // years and ordinal days
+    const weekLength = +calendarData['week length'];
     if (yearLength > 0) {
         const yearFloat = remaining / yearLength;
-        const ordinalFloat = remaining % yearLength;
+        // const ordinalFloat = remaining % yearLength;
         const yearCount = Math.floor(yearFloat);
         remaining -= Math.floor(yearCount * yearLength);
         result['year'] = yearCount;
 
-        const ordinalCount = Math.floor(ordinalFloat);
+        const weekOfYearFloat = remaining / weekLength;
+        const weekOfYearCount = Math.floor(weekOfYearFloat);
+        result['weekOfYear'] = weekOfYearCount;
+
+        const ordinalCount = Math.floor(remaining);
         result['ordinal'] = ordinalCount;
     }
 
@@ -711,7 +753,31 @@ function gregorianToAny(d, calendarData) {
     // months and day of month
     if ((calendarData['months'].length > 0) && (monthLength > 0)) {
         if ((calendarType === 'solar') && (calendarData['month length'] === 'varies')) {
-            console.log('oh no');
+            let monthCount = 1;
+            let dayOfMonthCount = 1;
+            for (let monthIndex = 1; monthIndex < 13; monthIndex++) {
+                const daysInMonth = daysPerMonth(monthIndex, isLeapYear);
+                console.log(`gtoa  month ${monthIndex}  daysInMonth ${daysInMonth}`);
+                if (daysInMonth < remaining) {
+                    remaining -= daysInMonth;
+                    monthCount += 1;
+                } else {
+                    result['month'] = monthCount;
+                    dayOfMonthCount = Math.floor(remaining);
+                    remaining -= dayOfMonthCount;
+                    result['day'] = dayOfMonthCount;
+                    if (weekLength > 0) {
+                        const weekFloat = dayOfMonthCount / weekLength;
+                        const weekCount = Math.floor(weekFloat);
+                        result['weekOfMonth'] = weekCount;
+
+                        const weekdayFloat = dayOfMonthCount % weekLength;
+                        const weekdayCount = Math.floor(weekdayFloat);
+                        result['weekday'] = weekdayCount;
+                    }
+                    break;
+                }
+            }
         } else {
             const monthFloat = remaining / monthLength;
             const dayOfMonthFloat = remaining % monthLength;
@@ -720,7 +786,7 @@ function gregorianToAny(d, calendarData) {
             result['month'] = monthCount;
 
             // weeks and weekdays
-            const weekLength = +calendarData['week length'];
+
             if (weekLength > 0) {
                 const weekFloat = remaining / weekLength;
                 const weekCount = Math.floor(weekFloat);
@@ -905,16 +971,7 @@ function getYearNumber(d) {
 function getFourDigitYear(d) {
     const yearNumber = getYearNumber(d);
     const isNegative = yearNumber < 0;
-    let fourDigitYear = Math.abs(yearNumber).toString();
-    if (fourDigitYear.length < 4) {
-        fourDigitYear = '0' + fourDigitYear;
-    }
-    if (fourDigitYear.length < 4) {
-        fourDigitYear = '0' + fourDigitYear;
-    }
-    if (fourDigitYear.length < 4) {
-        fourDigitYear = '0' + fourDigitYear;
-    }
+    let fourDigitYear = zeroPad(Math.abs(yearNumber).toString(), 4);
     if (isNegative) {
         fourDigitYear = '-' + fourDigitYear;
     }
@@ -923,10 +980,7 @@ function getFourDigitYear(d) {
 
 function yearNumberToSignedSix(y) {
     const isNegative = y < 0;
-    let yearString = Math.abs(y).toString();
-    while (yearString.length < 6) {
-        yearString = '0' + yearString;
-    }
+    let yearString = zeroPad(Math.abs(y).toString(), 6);
     if (isNegative) {
         yearString = '-' + yearString;
     } else {
@@ -1231,7 +1285,7 @@ function frenchRepublicanJson() {
 }
 
 function julianJson() {
-    return '{"based on":"roman,egyptian","by":"julius caesar","community":"roman empire","hours per day":24,"intercalary days":0,"introduced":"-000045-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"julian","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"solar","week length":7}';
+    return '{"based on":"roman,egyptian","by":"julius caesar","community":"roman empire","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"-000045-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"julian","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"solar","week length":7}';
 }
 
 function julianDayJson() {
@@ -1239,11 +1293,11 @@ function julianDayJson() {
 }
 
 function gregorianJson() {
-    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"000000","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":60,"type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
+    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"000000","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":60,"type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
 }
 
 function romanJson() {
-    return '{"based on":"","by":"numa pompilius","community":"roman empire","hours per day":24,"intercalary days":0,"introduced":"-000700-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"roman","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"lunar","week length":9}';
+    return '{"based on":"","by":"numa pompilius","community":"roman empire","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"-000700-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"roman","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"lunar","week length":9}';
 }
 
 function proposalJson() {
@@ -1292,21 +1346,23 @@ function initialize() {
     // $('section#egyptian-calendar').append(renderCalendarData(egyptianData));
     // setCalendar('your custom calendar');
 //    setCalendar('french republican');
-    setDatetime('2000-01-01', '12:00:00.000', '+00:00');
-    setCalendar('julian day');
-    console.log('2451545');
+//     setDatetime('2000-01-01', false, '12:00:00.000', '+00:00');
+//     setCalendar('julian day');
+//     console.log('2451545');
+//     convertCalendar();
+    // setDatetime('1970-01-01', false, '00:00:00.000', '+00:00');
+    // setCalendar('unix time');
+    // convertCalendar();
+    // setCalendar('proposal');
+    // convertCalendar();
+    setCalendar('julian');
     convertCalendar();
-    // setDatetime('1970-01-01', '00:00:00.000', '+00:00');
-    setCalendar('unix time');
-    convertCalendar();
-    setCalendar('proposal');
-    convertCalendar();
-    setNow();
+    // setNow();
 }
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change', '.input-date, .input-time, select.timezone', updateDatetimeEvent);
+$body.on('input change', '.input-date, .input-bc, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
