@@ -408,6 +408,18 @@ function betterLeapDay(year) {
     return false;
 }
 
+function noLeapMonth() {
+    return false;
+}
+
+function metonicLeapMonth(year) {
+    const mod19 = year % 19;
+    if ((mod19 === 0) || (mod19 === 3) || (mod19 === 6) || (mod19 === 8) || (mod19 === 11) || (mod19 === 14) || (mod19 === 17)) {
+        return true;
+    }
+    return false;
+}
+
 function calculateLeapDays() {
     let julianLeapDayCount = 0;
     let gregorianLeapDayCount = 0;
@@ -666,19 +678,26 @@ function gregorianToAny(d, calendarData) {
         leapDay = betterLeapDay;
     }
 
+    // leap month function
+    const leapMonthRatio = +calendarData['leap month ratio'];
+    let leapMonth = noLeapMonth;
+    if (leapMonthRatio === 2.71) {
+        leapMonth = metonicLeapMonth;
+    }
+
     // elapsed years and leap days
     let years = givenYear - epochYear;
-    let leapYearCount = 0;
+    let leapDayCount = 0;
     if (years >= 0) {
         for (let year = epochYear; year < givenYear; year++) {
             if (leapDay(year)) {
-                leapYearCount += 1;
+                leapDayCount += 1;
             }
         }
     } else {
         for (let year = givenYear; year > epochYear; year--) {
             if (leapDay(year)) {
-                leapYearCount += 1;
+                leapDayCount += 1;
             }
         }
     }
@@ -691,7 +710,7 @@ function gregorianToAny(d, calendarData) {
 
     // total days
     const commonYearDays = 365 * years;
-    const yearDays = commonYearDays + leapYearCount;
+    const yearDays = commonYearDays + leapDayCount;
     const totalDays = yearDays - newYearDay + ordinalDays - 1;
     // console.log(`year days ${yearDays}  total days ${totalDays}`);
 
@@ -717,7 +736,7 @@ function gregorianToAny(d, calendarData) {
     const calendarType = calendarData['type'];
     let yearLength = 0;
     let monthLength = 29.53;
-    const leapMonthRatio = calendarData['leap month ratio'];
+//    const leapMonthRatio = calendarData['leap month ratio'];
     let remaining = total;
     if (calendarType === 'lunar') {
         yearLength = 354.36;
