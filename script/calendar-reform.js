@@ -66,9 +66,9 @@ function insertDateTimeInputs() {
 
 function isoToDate(dateString, timeString, offsetString) {
     const dateTimeString = `${dateString}T${timeString}${offsetString}`;
-    console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}  datetimeString ${dateTimeString}`);
+//    console.log(`iso to date  dateString ${dateString}  timeString ${timeString}  offsetString ${offsetString}  datetimeString ${dateTimeString}`);
     const d = new Date(dateTimeString);
-    console.log(`iso to date  date ${d}`);
+//    console.log(`iso to date  date ${d}`);
     return d;
 }
 
@@ -625,7 +625,7 @@ function gregorianToJulian(d) {
             day -= daysInYear;
             julianCalendarYear += 1;
         } else {
-            console.log(`gregorian to julian  julian calendar year ${julianCalendarYear}  remaining ${day}`);
+//            console.log(`gregorian to julian  julian calendar year ${julianCalendarYear}  remaining ${day}`);
             let currentMonthDays = daysPerMonth(julianCalendarMonth);
             if (day >= currentMonthDays) {
                 day -= currentMonthDays;
@@ -668,6 +668,7 @@ function gregorianToAny(d, calendarData) {
     // console.log(`epoch ${calendarEpochString}  calendarEpoch ${calendarEpoch}`);
     const epochYear = getYearNumber(calendarEpoch);
     // console.log(`epoch year ${epochYear}`);
+    const epochOrdinal = gregorianToOrdinalNumber(calendarEpoch);
 
     // leap day function
     const leapDayRatio = +calendarData['leap day ratio'];
@@ -714,8 +715,8 @@ function gregorianToAny(d, calendarData) {
     // total days
     const commonYearDays = 365 * years;
     const yearDays = commonYearDays + leapDayCount;
-    const totalDays = yearDays - newYearDay + givenOrdinal - 1;
-    console.log(`gregorian to any  year days ${yearDays}  total days ${totalDays}`);
+    const totalDays = yearDays - newYearDay - epochOrdinal + givenOrdinal - 1;
+    console.log(`gregorian to any  gregorian year days ${yearDays}  gragorian total days ${totalDays}`);
 
     const fractionalDay = getFractionalDay(d);
     const newDayFraction = newDayStringToDecimal(calendarData['new day time']);
@@ -762,6 +763,8 @@ function gregorianToAny(d, calendarData) {
         let calendarYearDays = yearLengthDays;
         if (leapDay(calendarYear)) {
             calendarYearDays += 1;
+        } else if (leapMonth(calendarYear)) {
+            calendarYearDays += Math.floor(monthLength);
         }
         while (remaining > calendarYearDays) {
             yearCount += 1;
@@ -774,6 +777,8 @@ function gregorianToAny(d, calendarData) {
             calendarYearDays = yearLengthDays;
             if (leapDay(calendarYear)) {
                 calendarYearDays += 1;
+            } else if (leapMonth(calendarYear)) {
+                calendarYearDays += Math.floor(monthLength);
             }
         }
         console.log(`gregorian to any  yearCount ${yearCount}  remaining ${remaining}`);
@@ -800,7 +805,7 @@ function gregorianToAny(d, calendarData) {
             let dayOfMonthCount = 1;
             for (let monthIndex = 1; monthIndex < 13; monthIndex++) {
                 const daysInMonth = daysPerMonth(monthIndex, isLeapYear);
-                console.log(`gtoa  month ${monthIndex}  daysInMonth ${daysInMonth}`);
+//                console.log(`gtoa  month ${monthIndex}  daysInMonth ${daysInMonth}`);
                 if (daysInMonth < remaining) {
                     remaining -= daysInMonth;
                     monthCount += 1;
@@ -1332,7 +1337,7 @@ function frenchRepublicanJson() {
 }
 
 function julianJson() {
-    return '{"based on":"roman,egyptian","by":"julius caesar","community":"roman empire","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"-000045-01-01T00:00:00Z","epoch":"0000-01-03","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"julian","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"solar","week length":7}';
+    return '{"based on":"roman,egyptian","by":"julius caesar","community":"roman empire","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"-000045-01-01T00:00:00Z","epoch":"-000001-12-29","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":"60","month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"julian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"solar","week length":7}';
 }
 
 function julianDayJson() {
@@ -1382,7 +1387,7 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     insertDateTimeInputs();
-    setNow();
+//    setNow();
     generateNavigation();
     registerObservers();
     timeline();
@@ -1403,10 +1408,10 @@ function initialize() {
     // setCalendar('proposal');
     // convertCalendar();
     // setDatetime('1582-10-15', false, '00:00:00.000', '+00:00');
-    setDatetime('0001-01-03', false, '00:00:00.000', '+00:00');
+    setDatetime('0301-01-01', false, '00:00:00.000', '+00:00');
     setCalendar('julian');
     convertCalendar();
-    setNow();
+//    setNow();
 }
 
 const $body = $('body');
