@@ -1414,12 +1414,11 @@ function initialize() {
 //    setNow();
 }
 // todo
-// maybe add early roman calendar lunar without january and february
 // use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch
-// set data dash properties on the inputs that receive what the user typed so we can accept the year zero and auto toggle bc for negative and positive dates?
 // debug gregorian to any julian 1, 101, 201, 301, 401
+// set data dash properties on the inputs that receive what the user typed so we can accept the year zero and auto toggle bc for negative and positive dates?
 // create test cases for various calendars and dates
-// move other interesting calendars to the appendix. after them, have the problems with gregorian.
+// maybe add early roman calendar lunar without january and february
 // scroll to with the table of contents, as you read the table of contents moves with you
 
 
