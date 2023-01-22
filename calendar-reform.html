@@ -92,19 +92,19 @@
             </ol>
             <h4>order of business</h4>
             <ol start="0">
-                <li>introduction (you are here)</li>
-                <li>the parts of a calendar</li>
-                <li>the details</li>
-                <li>history of calendars</li>
-                <li>design your own calendar</li>
+                <li><span class="capitalizable">i</span>ntroduction (you are here)</li>
+                <li><span class="capitalizable">t</span>he parts of a calendar</li>
+                <li><span class="capitalizable">t</span>he details</li>
+                <li><span class="capitalizable">h</span>istory of calendars</li>
+                <li><span class="capitalizable">d</span>esign your own calendar</li>
                 <li>...and more</li>
             </ol>
             <p><span class="capitalizable">e</span>ven if you reject all calendar reforms, you will likely learn something by reading this. <span class="capitalizable">i</span> value your thoughtful feedback 💬 <span class="capitalizable">p</span>lease use the <a href="https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions">github discussions</a>. <span class="capitalizable">i</span> am especially interested in</p>
             <ul>
                 <li>😮 <span class="capitalizable">w</span>hich parts you find interesting, enlightening or surprising</li>
                 <li>😕 <span class="capitalizable">w</span>hich parts you find boring or confusing</li>
+                <li>➕ <span class="capitalizable">t</span>hings <span class="capitalizable">i</span> should add</li>
                 <li>❌ <span class="capitalizable">e</span>rrors and corrections</li>
-                <li>➕ <span class="capitalizable">p</span>arts i should say more about</li>
             </ul>
         </section>
         <section id="what-is-a-calendar">
@@ -878,6 +878,17 @@ year
             <p>in 1582 ad october the catholic pope gregory xiii introduced calendar reform to the julian calendar because there were too many leap days in the julian calendar and the equinox going north in the julian calendar was out of alignment with the sun. the <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">gregorian calendar</a> is the same as the julian calendar with a few fixes. the gregorian calendar removed the 10 accumulated days because of the extra leap days in the julian calendar, to realign the calendar with the sun. the date jumped from 1582 10 04 to 1582 10 15. the main change in the gregorian calendar is to change the formula for leap days. in the julian calendar, leap day is every year divisible by four implying 0.25, in the gregorian calendar it is years divisible by four, except years ending with a hundred, except years ending with a hundred that are also divisible by four. this works out to 0.2425, which is much closer to ~0.2422.</p>
             <div class="datetime-container"></div>
         </section>
+        <section id="julian-days">
+            <h3>✨ julian days</h3>
+            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the name of this calendar is confusing because the julius that the julian day calendar is named after is different from the julius that the julian calendar is named after. this calendar was introduced by astronomers in 1583 ad, one year after the gregorian calendar reform.</p>
+            <p>a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch.</p>
+            <p>the julian day calendar excludes years, months and weeks, it expresses dates as a single number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar uses decimal time. calculating the amount of time between two julian days is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is relatively simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86 400 to convert between seconds and days.</p>
+            <p>interactive julian day number</p>
+            <p class="julian-days"></p>
+            <div class="datetime-container"></div>
+            <h4>exercise</h4>
+            <p>what is the date 100 days before today or after today in the gregorian calendar and in julian dates?</p>
+        </section>
         <section id="french-republican-calendar">
             <h3>🇫🇷 french republican calendar</h3>
             <p>the <a href="https://en.wikipedia.org/wiki/French_Republican_calendar">french republican calendar</a> was introduced by the french during the french revolution along with a lot of the metric system. the calendar was used in france and french controlled regions between 1793 and 1805 until napolean became the french emperor and switched french territories back to the gregorian calendar. the french revolutionary calendar is based on the egpytian calendar, with 12 months of 30 days each and then 5 extra days to make 365 days a year. each month is arranged in 3 weeks of 10 days (3 * 10 = 30), and the days of the week are numbered, as in first, second, ... tenth.</p>
@@ -938,83 +949,6 @@ derivation
 </pre>
             <h4>exercise</h4>
             <p>what time will it be 1000 seconds from now in the sexagesimal time (the common clock that we use)? what time will it be 1000 seconds from now in unix time?</p>
-        </section>
-    </section>
-    <section id="other interesting calendars">
-        <h2>what are some other interesting calendars</h2>
-        <section id="chinese-calendar">
-            <h3>🇨🇳 chinese calendar</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Chinese_calendar">chinese calendar</a> is a lunisolar calendar. earlier chinese solar calendars were developed from 771 to 476 bc. several lunisolar calendars were developed by 102 ad. the chinese calendar mainly follows the moon, months all start with the new moon. weeks are 9 or 10 days long depending on the length of the month, meaning weeks accommodate the month and months have three weeks for 29 or 30 days. the lunar year is ~10.88 days shorter than the solar year, and the chinese calendar adds a leap month every ~2.71 years to match the calendar year back up with the solar year and the seasons. years are 353-355 days long without the leap month and 383-385 days long with the leap month. the new year day is the first day of spring, which is a few new moons after the southern solstice. the new day time is midnight.</p>
-        </section>
-        <section id="hebrew-calendar">
-            <h3>🇮🇱 hebrew calendar</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Hebrew_calendar">hebrew calendar</a> is a lunisolar calendar, is a religious calendar for judaism, and is the official calendar of the state of israel. the hebrew calendar was originally based on the babylonian lunisolar calendar that was in use during its development. earlier versions of the hebrew calendar used natural observations to determine whether to add a leap month, specifically whether the barley crop was ripe yet. the new day time is sunset. the hebrew calendar changed its epoch several times.</p>
-            <p>hebrew calendar epochs</p>
-            <ul>
-                <li><a href="https://www.chabad.org/library/article_cdo/aid/1663/jewish/The-Exodus.htm">1314 bc</a> exodus from egpyt</li>
-                <li>regnal eras</li>
-                <li>311 bc the selucid epoch</li>
-                <li>70 ad the destruction of the second temple in jerusalem</li>
-                <li>3761 bc the creation of the world (anno mundi, am) according to the torah</li>
-            </ul>
-            <p>example</p>
-<pre>
-gregorian calendar
-10/21/2022
-
-hebrew calendar
-Tishrei 26, 5783
-</pre>
-        </section>
-<!--        <section id="islamic-calendar">-->
-<!--            <h3>islamic calendar</h3>-->
-<!--            <p>...</p>-->
-<!--        </section>-->
-<!--        <section id="hindu-calendar">-->
-<!--            <h3>hindu calendar</h3>-->
-<!--            <p>...</p>-->
-<!--        </section>-->
-<!--        <section id="buddhist-calendar">-->
-<!--            <h3>buddhist calendar</h3>-->
-<!--            <p>...</p>-->
-<!--        </section>-->
-<!--        <section id="mayan-calendar">-->
-<!--            <h3>mayan calendar</h3>-->
-<!--            <p>...</p>-->
-<!--        </section>-->
-        <section id="perennial-calendars">
-            <h3>perennial calendars</h3>
-            <p>a calendar is a <a href="https://en.wikipedia.org/wiki/Perennial_calendar">perennial calendar</a> if the day numbers of the months and the weekdays are the same every year. the gregorian calendar is not perennial, that is why people print new calendars every year with january 1 falling on a different day of the week. there are several proposals for perennial variations of the gregorian calendar. one option is to convert the 365th and 366th days of the year into intercalary days, leaving 364 days a year which is divisible by 7. another approach is to shorten the year to 364 days and group leap days into leap weeks.</p>
-            <h4>exercise</h4>
-            <p>what day of the week will it be on this date next year?</p>
-        </section>
-        <section id="julian-days">
-            <h3>✨ julian days</h3>
-            <p>the <a href="https://en.wikipedia.org/wiki/Julian_day">julian day</a> calendar is used by astronomers and software developers to make datetimes easier to work with and calculate. unfortunately the name of this calendar is confusing because the julius that the julian day calendar is named after is different from the julius that the julian calendar is named after.</p>
-            <p>a date in this calendar is called a julian day number, jdn. the epoch for the julian day calendar is 4713 bc and was introduced in 1583 ad, the year after the gregorian calendar was introduced. this choice of epoch has a benefit that the epoch is before recorded history, so there are no recorded events before the epoch.</p>
-            <p>the julian day calendar excludes years, months and weeks, it expresses dates as the number of days since the epoch. times are expressed as a decimal fraction of the day. yes! the julian day calendar has used decimal time since 1583. calculating the amount of time between two julian days is a single subtraction. the timezone is utc. the new day time is midday, because astronomy was originally calibrated by sundials, and sundials measure midday. it is simple to convert between unix time and julian days, add the difference between the epochs and multiply by 86 400 to convert between seconds and days.</p>
-            <p>interactive julian day number</p>
-            <p class="julian-days"></p>
-            <div class="datetime-container"></div>
-            <h4>exercise</h4>
-            <p>what is the date 100 days before today or after today in the gregorian calendar and in julian dates?</p>
-        </section>
-        <section id="star-trek-stardates">
-            <h3>🖖 star trek stardates</h3>
-            <p>this is a group of similar non-functional calendars used in the science fiction series star trek. an example date is stardate 41153.7. <a href="https://en.wikipedia.org/wiki/Stardate">stardates</a> are similar to julian days, except startdates seem to exclude time of day. the date format is a single number with a decimal, the decimal representing the day and the larger digits representing larger timespans including years. some stardates use ordinal dates. i mention this fictional calendar because it</p>
-            <ul>
-                <li>track years and days but not months or weeks</li>
-                <li>uses a single number to represent a date</li>
-                <li>claims that the future will use a better calendar</li>
-            </ul>
-            <p>example</p>
-<pre>
-gregorian date
-2256 may 11
-
-star date
-1207.3
-</pre>
         </section>
     </section>
     <section id="calendar-designs">
@@ -1201,19 +1135,19 @@ star date
                 </select>
             </div>
         </section>
+        <p>share this calendar!</p>
+        <p><a href="">blah calendar</a> <button>copy link</button></p>
         <br /><br />
         <div class="datetime-formats">
-            <div><span>browser default format</span>&nbsp;<span class="default"></span></div>
-            <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>
+<!--            <div><span>browser default format</span>&nbsp;<span class="default"></span></div>-->
+<!--            <div><span>iso 8601</span>&nbsp;<span class="iso8601"></span></div>-->
             <div>
-                <p>converted datetime</p>
+                <p>interactive datetime</p>
                 <p class="converted-datetime"></p>
             </div>
-            <p>share this calendar!</p>
-            <a href="">blah calendar</a><button>copy link</button>
         </div>
         <div class="convert">
-            <p>choose another calendar to see the gregorian datetime converted into that calendar</p>
+            <label for="convert-calendar">choose a calendar</label>
             <select id="convert-calendar" class="convert-calendar">
                 <option>chinese</option>
                 <option>egyptian</option>
@@ -1234,13 +1168,84 @@ star date
         <h2>calendars we might want in the further future</h2>
         <section id="beyond-earth">
             <h3>beyond earth</h3>
-            <p>earth years are only relevant for people living around the surface of the earth or earth orbit. people who live underground, people who live on other stellar bodies and people who travel through deep space will want to track time differently. martian days are close to earth days in length, but ~1.0275 times longer (~39 minutes and 36 seconds longer than an earth day), so martians might want a martian calendar with martian days and martian years ~1.88 times longer than earth years.</p>
+            <p>earth years are only relevant for people living around the surface of the earth or earth orbit. people who live on other stellar bodies and people who travel through deep space will want to track time differently. martian days are close to earth days in length, but ~1.0275 times longer (~39 minutes and 36 seconds longer than an earth day), so martians might want a martian calendar with martian days and martian years ~1.88 times longer than earth years.</p>
             <p>people in deep space could eliminate years from their calendar and count days, like with julian day numbers. longer periods of time could be decimal groups of days, such as periods of a hundred days similar to a quarter of a year and a thousand days similar to three years.</p>
         </section>
         <section id="beyond-human">
             <h3>beyond human</h3>
             <p>eventually science will solve the problem of sleep. our descendants will no longer need to rest for a third of the day every day, and days will lose their hold on their schedules. they can live their lives with other frequencies of activity. if they also improve their minds to better handle large numbers, a calendar similar to unix time might be good. at that point they should stop using the arbitrary unit of seconds and instead use <a href="https://en.wikipedia.org/wiki/Planck_units#Planck_time">planck time</a>, the shortest known unit of time.</p>
         </section>
+    </section>
+    <section id="conclusion">
+        <h2>conclusion</h2>
+        <p>we covered a lot about calendars! the parts of a calendar, the details, the history of calendars, design your own and calendars of the future. i hope it was interesting and useful for you. even after writing this much, it is only an introduction to the subject. after this conclusion there is still an appendix of more interesting calendars and supporting arguments for the problems with the gregorian calendar.</p>
+        <p>thank you for reading! i would like to hear from you in the <a href="https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions">github discussions</a>.</p>
+    </section>
+    <section id="more-interesting-calendars">
+        <h2>more interesting calendars</h2>
+        <section id="chinese-calendar">
+            <h3>🇨🇳 chinese calendar</h3>
+            <p>the <a href="https://en.wikipedia.org/wiki/Chinese_calendar">chinese calendar</a> is a lunisolar calendar. earlier chinese solar calendars were developed from 771 to 476 bc. several lunisolar calendars were developed by 102 ad. the chinese calendar mainly follows the moon, months all start with the new moon. weeks are 9 or 10 days long depending on the length of the month, meaning weeks accommodate the month and months have three weeks for 29 or 30 days. the lunar year is ~10.88 days shorter than the solar year, and the chinese calendar adds a leap month every ~2.71 years to match the calendar year back up with the solar year and the seasons. years are 353-355 days long without the leap month and 383-385 days long with the leap month. the new year day is the first day of spring, which is a few new moons after the southern solstice. the new day time is midnight.</p>
+        </section>
+        <section id="hebrew-calendar">
+            <h3>🇮🇱 hebrew calendar</h3>
+            <p>the <a href="https://en.wikipedia.org/wiki/Hebrew_calendar">hebrew calendar</a> is a lunisolar calendar, is a religious calendar for judaism, and is the official calendar of the state of israel. the hebrew calendar was originally based on the babylonian lunisolar calendar that was in use during its development. earlier versions of the hebrew calendar used natural observations to determine whether to add a leap month, specifically whether the barley crop was ripe yet. the new day time is sunset. the hebrew calendar changed its epoch several times.</p>
+            <p>hebrew calendar epochs</p>
+            <ul>
+                <li><a href="https://www.chabad.org/library/article_cdo/aid/1663/jewish/The-Exodus.htm">1314 bc</a> exodus from egpyt</li>
+                <li>regnal eras</li>
+                <li>311 bc the selucid epoch</li>
+                <li>70 ad the destruction of the second temple in jerusalem</li>
+                <li>3761 bc the creation of the world (anno mundi, am) according to the torah</li>
+            </ul>
+            <p>example</p>
+<pre>
+gregorian calendar
+10/21/2022
+
+hebrew calendar
+Tishrei 26, 5783
+</pre>
+        </section>
+        <section id="perennial-calendars">
+            <h3>perennial calendars</h3>
+            <p>a calendar is a <a href="https://en.wikipedia.org/wiki/Perennial_calendar">perennial calendar</a> if the day numbers of the months and the weekdays are the same every year. the gregorian calendar is not perennial, that is why people print new calendars every year with january 1 falling on a different day of the week. there are several proposals for perennial variations of the gregorian calendar. one option is to convert the 365th and 366th days of the year into intercalary days, leaving 364 days a year which is divisible by 7. another approach is to shorten the year to 364 days and group leap days into leap weeks.</p>
+            <h4>exercise</h4>
+            <p>what day of the week will it be on this date next year?</p>
+        </section>
+        <section id="star-trek-stardates">
+            <h3>🖖 star trek stardates</h3>
+            <p>this is a group of similar non-functional calendars used in the science fiction series star trek. an example date is stardate 41153.7. <a href="https://en.wikipedia.org/wiki/Stardate">stardates</a> are similar to julian days, except startdates seem to exclude time of day. the date format is a single number with a decimal, the decimal representing the day and the larger digits representing larger timespans including years. some stardates use ordinal dates. i mention this fictional calendar because it</p>
+            <ul>
+                <li>track years and days but not months or weeks</li>
+                <li>uses a single number to represent a date</li>
+                <li>claims that the future will use a better calendar</li>
+            </ul>
+            <p>example</p>
+<pre>
+gregorian date
+2256 may 11
+
+star date
+1207.3
+</pre>
+        </section>
+<!--        <section id="islamic-calendar">-->
+<!--            <h3>islamic calendar</h3>-->
+<!--            <p>...</p>-->
+<!--        </section>-->
+<!--        <section id="hindu-calendar">-->
+<!--            <h3>hindu calendar</h3>-->
+<!--            <p>...</p>-->
+<!--        </section>-->
+<!--        <section id="buddhist-calendar">-->
+<!--            <h3>buddhist calendar</h3>-->
+<!--            <p>...</p>-->
+<!--        </section>-->
+<!--        <section id="mayan-calendar">-->
+<!--            <h3>mayan calendar</h3>-->
+<!--            <p>...</p>-->
+<!--        </section>-->
     </section>
     <section id="gregorian-calendar-improvements">
         <h2>problems with the gregorian calendar and suggestions for improvement</h2>
@@ -1309,7 +1314,7 @@ star date
         </section>
         <section id="timezone-first">
             <h3>iso 8601 should put the timezone first</h3>
-            <p>the timezone can shift the time forward or backward by several hours, which can shift every larger part of the datetime including the year. the purpose of ordering the units in the datetime from largest to smallest is to match lexicographic ordering with chronological ordering. times are only commensurate and ordered within the same time zone, so the timezone should be the most major component, not the least major. if you dislike sorting separating by timezone, you should dislike even more that the sort order is wrong because of timezones. if you want the lexicographic order to be chronological, i think we have to limit the datetime format to use only one timezone, such as utc. i also advocate eliminating timezones entirely.</p>
+            <p>the timezone can shift the time forward or backward by several hours, which can shift every larger part of the datetime including the year. the purpose of ordering the units in the datetime from largest to smallest is to match lexicographic ordering with chronological ordering. datetimes are only correctly ordered within the same time zone, so the timezone should be the most major component, not the least major. if you dislike sorting separating by timezone, you should dislike even more that the sort order is wrong because of timezones. if you want the lexicographic order to be chronological, i think we have to limit the datetime format to use only one timezone, such as utc. i also advocate eliminating timezones entirely.</p>
         </section>
         <section id="end-daylight-saving-time">
             <h3>end daylight saving time</h3>
@@ -1317,7 +1322,7 @@ star date
         </section>
         <section id="12-hour-circular-clocks">
             <h3>12 hour circular clocks</h3>
-            <p><!-- https://en.wikipedia.org/wiki/Greenwich_Mean_Time#/media/File:Greenwich_clock.jpg-->time is fundamentally linear. when we make a diagram to show when events happen, we show the events on a straight line called a timeline, not on a circle. when we want to show progression, we use a progress bar. <progress value="0" max="100" class="circular"></progress> so why are clocks circular? clocks are circular because we care about sunlight. we are not using clocks to track time, we are using clocks to track the location of the sun. clocks are mechanized versions of the sundial. on a sundial the shadow sweeps across a semicircle in a particular direction, the direction we call clockwise.</p>
+            <p><!-- https://en.wikipedia.org/wiki/Greenwich_Mean_Time#/media/File:Greenwich_clock.jpg-->time is fundamentally linear. when we make a diagram to show when events happen, we show the events on a straight line called a timeline, not on a circle. when we want to show progression, we use a progress bar. <progress value="0" max="100" class="circular"></progress> so why are clocks circular? clocks are circular because we care about sunlight. we are not using clocks to track linear time, we are using clocks to track the location of the sun. clocks are mechanized versions of the sundial. on a sundial the shadow sweeps across a semicircle in a particular direction, the direction we call clockwise.</p>
             <figure class="twelve-hour-clock">
                 <div class="animation-container">
                     <div class="stars animated">
@@ -1392,7 +1397,7 @@ star date
                 </div>
                 <figcaption>24 hour clocks with timezones</figcaption>
             </figure>
-            <p>timezones are a compromise that allow regions to synchronize their clocks while allowing everyone globally to have their hour hands point up at approximately midday. the costs of timezones today are significant. if you travel or communicate across timezones, the local time changes, and you have to calculate what the time difference will be. people often forget to make this calculation or get the calculation wrong.</p>
+            <p>timezones are a compromise that allow regions to synchronize their clocks while allowing everyone globally to have their clocks point up at approximately midday. the costs of timezones today are significant. if you travel or communicate across timezones, the local time changes, and you have to calculate what the local time will be. people often forget to make this calculation or get the calculation wrong.</p>
             <p>timezones massively complicate international events. if a company offers a worldwide promotion starting on a date in the local time of the customers, the promotion becomes active in one timezone per hour over the course of a day which is complex to manage. if instead the company offers the worldwide promotion starting on a date in the local time of the company headquarters, then the customers need to calculate when the promotion starts for them, which might be during any time of the day or night.</p>
             <p>timezones were beneficial when people lived and operated within one timezone. it is now more common to communicate and travel worldwide, so the benefits of timezones are reduced and the costs are increased. we should eliminate timezones.</p>
             <p>if we eliminate timezones, then everyones clocks will be synchronized. travelling and communicating worldwide will be simplified - if i fly from here to there over four hours, the time there when i arrive there will be four hours later, as you would like. if i schedule to call you tomorrow at 10, that is the same time for you and me, no matter where you are relative to me.</p>
