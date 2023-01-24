@@ -1360,6 +1360,32 @@ function unixTimeJson() {
     return '{"based on":"","by":"unix engineers","community":"unix","date format":"s.uuu","hours per day":1,"intercalary days":0,"introduced":"+001971","epoch":"+001970-01-01T00:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":1,"month length":"","months":"","name":"unix time","new day time":"midnight","new year day":"1","notes":"","seconds per minute":86400,"type":"other","week length":""}';
 }
 
+function conversionTestData() {
+    return [
+        ['julian', '-000001-12-29', '-000000-01-01'],
+        ['julian', '-000000-01-03', '-000000-01-01'],
+        ['julian', '0100-01-02', '0100-01-01'],
+        ['julian', '0200-01-01', '0200-01-01'],
+        ['julian', '0300-01-02', '0300-01-01'],
+    ];
+}
+
+function verify() {
+    const testData = conversionTestData();
+    let inD;
+    let calendarData;
+    let conversion;
+    let outD;
+    for (const datum of testData) {
+        calendarData = fetchLocal(datum[0]);
+        inD = new Date(datum[1]);
+        conversion = gregorianToAny(inD, calendarData);
+        console.log(`verify ${datum} ${inD}`);
+        console.log(conversion);
+        console.log('');
+    }
+}
+
 function fetchLocal(calendarName) {
     let calendarJson = '{}';
     if (calendarName === 'egyptian') {
@@ -1387,7 +1413,7 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     insertDateTimeInputs();
-//    setNow();
+    setNow();
     generateNavigation();
     registerObservers();
     timeline();
@@ -1408,9 +1434,10 @@ function initialize() {
     // setCalendar('proposal');
     // convertCalendar();
     // setDatetime('1582-10-15', false, '00:00:00.000', '+00:00');
-    setDatetime('0301-01-01', false, '00:00:00.000', '+00:00');
-    setCalendar('julian');
-    convertCalendar();
+    verify();
+//    setDatetime('0301-01-01', false, '00:00:00.000', '+00:00');
+//    setCalendar('julian');
+//    convertCalendar();
 //    setNow();
 }
 // todo
