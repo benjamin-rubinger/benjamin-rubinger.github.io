@@ -40,11 +40,12 @@ function generateNavigation() {
 }
 
 function generateDatetimeInputs(index) {
-    const $inputDate = $('<input>').attr('id', `input-date${index}`).addClass('input-date').attr('type', 'date');
-    const $bcContainer = $('<span>').attr('id', `bc-container${index}`).addClass('bc-container');
-    const $bcLabel = $('<label>').addClass('label-bc').attr('for', `input-bc${index}`).text('bc');
-    const $inputBc = $('<input>').attr('id', `input-bc${index}`).addClass('input-bc').attr('type', 'checkbox');
-    $bcContainer.append([$bcLabel, $inputBc]);
+    const $labelYear = $('<label>').attr('id', `label-year${index}`).addClass(`label-year`).attr('for', `input-year${index}`).text('year');
+    const $inputYear = $('<input>').attr('id', `input-year${index}`).addClass('input-year').attr('type', 'number').attr('min', -11700).attr('max', 9999).attr('step', 1);
+    const $labelMonth = $('<label>').attr('id', `label-month${index}`).addClass(`label-month`).attr('for', `input-month${index}`).text('month');
+    const $inputMonth = $('<input>').attr('id', `input-month${index}`).addClass('input-month').attr('type', 'number').attr('min', 1).attr('max', 12).attr('step', 1);
+    const $labelDay = $('<label>').attr('id', `label-day${index}`).addClass(`label-day`).attr('for', `input-day${index}`).text('day');
+    const $inputDay = $('<input>').attr('id', `input-day${index}`).addClass('input-day').attr('type', 'number').attr('min', 1).attr('max', 31).attr('step', 1);
     const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
     const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
     const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
@@ -54,7 +55,7 @@ function generateDatetimeInputs(index) {
     }
     const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').text('now');
     const $datetimeContainer = $('<div>').attr('id', `datetime-container${index}`).addClass('datetime-container');
-    $datetimeContainer.append([$inputDate, $bcContainer, $inputTime, $selectTimezone, $now]);
+    $datetimeContainer.append([$labelYear, $inputYear, $labelMonth, $inputMonth, $labelDay, $inputDay, $inputTime, $selectTimezone, $now]);
     return $datetimeContainer;
 }
 
@@ -121,7 +122,9 @@ function formatJulianDays(d) {
 function formatJulianCalendar(d) {
     const $julianCalendar = $('p.julian-calendar-date');
     const julianDate = gregorianToJulian(d);
-    $julianCalendar.text(julianDate.toString());
+    const julianIso = julianDate.toISOString();
+    let julianString = julianIso.replace('T', ' ').substring(0, julianIso.length - 1);
+    $julianCalendar.text(julianString);
 }
 
 function formatIso8601(dateString, timeString, offsetString) {
@@ -163,49 +166,33 @@ function formatProposal(d) {
 
 function getDatetime() {
     const $datetimeContainer = $('.datetime-container').first();
-    const dateString = $datetimeContainer.find('.input-date').val();
-    const isBc = $datetimeContainer.find('.input-bc').prop('checked');
-    // console.log(`is bc ${isBc}`);
-    const dateStringWithBc = addBc(dateString, isBc);
-    console.log(`get date time  dateString ${dateString}  isBc ${isBc}  dateStringWithBc ${dateStringWithBc}`)
+    const year = $datetimeContainer.find('.input-year').val();
+    const month = $datetimeContainer.find('.input-month').val();
+    const day = $datetimeContainer.find('.input-day').val();
+    const dateString = getDateString(year, month, day);
+    console.log(`get date time  dateString ${dateString}`)
     const timeString = $datetimeContainer.find('.input-time').val();
     const offsetString = $datetimeContainer.find('select.timezone').val();
-    return isoToDate(dateStringWithBc, timeString, offsetString);
+    return isoToDate(dateString, timeString, offsetString);
 }
 
-// function setDatetime(isoString) {
-//     const $datetimeContainer = $('.datetime-container').first();
-//     const dateString = isoString.substring(0, isoString.indexOf('T'));
-//     $datetimeContainer.find('.input-date').val(dateString);
-//     const timeString = isoString.substring(isoString.indexOf('T'), isoString.length);
-//     $datetimeContainer.find('.input-time').val(timeString);
-//     console.log(`isoString ${isoString}  dateString ${dateString}  timeString ${timeString}`);
-// }
-
-function addBc(dateString, isBc) {
-    if (!isBc) {
-        return dateString;
-    }
-    let result = dateString;
-    let firstDashIndex = Math.max(result.indexOf('-'), 0);
-    let zeroes = 6 - firstDashIndex;
-    result = '-' + zeroPad('', zeroes) + result;
-    return result;
+function getDateString(year, month, day) {
+    return `${yearNumberToSignedSix(year)}-${zeroPad(month, 2)}-${zeroPad(day, 2)}`;
 }
 
-function formatDatetime(dateString, isBc, timeString, offsetString) {
+function formatDatetime(year, month, day, timeString, offsetString) {
     // console.log("format date time");
-    const dateStringWithBc = addBc(dateString, isBc);
-    console.log(`date string with bc ${dateStringWithBc}`);
+    const dateString = getDateString(year, month, day);
+    console.log(`date string ${dateString}`);
     // formatIso8601(dateStringWithBc, timeString, offsetString);
-    const d = isoToDate(dateStringWithBc, timeString, offsetString);
+    const d = isoToDate(dateString, timeString, offsetString);
     // console.log(d);
     const localeString = d.toString();
     $('.datetime-formats .default').text(localeString);
     const isoString = d.toISOString(); // this isnt good enough because it converts to utc
     $('.datetime-formats .iso8601').text(isoString);
     generateDateFormats(d);
-    formatIso8601(dateStringWithBc, timeString, offsetString);
+    formatIso8601(dateString, timeString, offsetString);
     formatUnixTime(d);
     formatJulianCalendar(d);
     formatJulianDays(d);
@@ -214,25 +201,47 @@ function formatDatetime(dateString, isBc, timeString, offsetString) {
     convertCalendar();
 }
 
-function setDatetime(dateString, isBc, timeString, offsetString) {
-    $('.input-date').val(dateString);
-    $('.input-bc').prop('checked', isBc);
+function setDatetime(year, month, day, timeString, offsetString) {
+    $('.input-year').val(year);
+    $('.input-month').val(month);
+    $('.input-day').val(day);
     $('.input-time').val(timeString);
     $('select.timezone').val(offsetString);
-    formatDatetime(dateString, isBc, timeString, offsetString);
+    formatDatetime(year, month, day, timeString, offsetString);
 }
 
 function updateDatetime($datetimeContainer) {
     // console.log('update datetime');
-    const dateString = $datetimeContainer.find('.input-date').val();
-    // console.log(dateString);
-    const isBc = $datetimeContainer.find('.input-bc').prop('checked');
-    // console.log(`update datetime  is bc ${isBc}`);
+    let year = $datetimeContainer.find('.input-year').val();
+    if (year === '') {
+        return;
+    }
+    year = year * 1;
+    if (year < -11700) {
+        year = -11700;
+    } else if (year > 9999) {
+        year = 9999;
+    }
+    let month = $datetimeContainer.find('.input-month').val() * 1;
+    if (month < 1) {
+        month = 1;
+    } else if (month > 12) {
+        month = 12;
+    }
+    let day = $datetimeContainer.find('.input-day').val() * 1;
+    const isLeapYear = gregorianLeapDay(year);
+    let maximumDay = daysPerMonth(month, isLeapYear);
+    if (day < 1) {
+        day = 1;
+    } else if (day > maximumDay) {
+        day = maximumDay;
+    }
+    // console.log(`update datetime ${year} ${month} ${day}`);
     const timeString = $datetimeContainer.find('.input-time').val();
     // console.log(timeString);
     const offsetString = $datetimeContainer.find('select.timezone').val();
-    if ((dateString.length >= 10) && (timeString.length >= 12)) {
-        setDatetime(dateString, isBc, timeString, offsetString);
+    if (timeString.length >= 12) {
+        setDatetime(year, month, day, timeString, offsetString);
     }
 }
 
@@ -268,13 +277,20 @@ function setNow() {
     // console.log(isoString);
     const tIndex = isoString.indexOf('T');
     const dateString = isoString.slice(0, tIndex);
-    // console.log(dateString);
+    console.log(dateString);
+    const year = dateString.slice(0, dateString.length - 6) * 1;
+    console.log(`year ${year}`);
+    const month = dateString.slice(dateString.length - 5, dateString.length - 3) * 1;
+    console.log(`month ${month}`);
+    const day = dateString.slice(dateString.length - 2, dateString.length) * 1;
+    console.log(`day ${day}`);
+//    const month =
     const timeString = isoString.slice(tIndex + 1, isoString.length);
     // console.log(timeString);
     // console.log(now.getTimezoneOffset());
     const offsetString = getOffsetString(now);
     // console.log(offsetString);
-    setDatetime(dateString, false, timeString, offsetString);
+    setDatetime(year, month, day, timeString, offsetString);
     // gregorianToJulianDay(new Date('-004713-11-24'));
     // console.log(`jdn 0\n\n`);
     // gregorianToJulianDay(new Date('-004713-11-25'));
@@ -587,6 +603,12 @@ function gregorianToOrdinalNumber(d) {
 }
 
 function gregorianToJulian(d) {
+    let d2 = new Date(d);
+    d2.setMinutes(d2.getMinutes() - d2.getTimezoneOffset());
+    const isoString = d2.toISOString().slice(0, -1);
+    const tIndex = isoString.indexOf('T');
+    const timeString = isoString.slice(tIndex, isoString.length);
+
     const julianCalendarEpochYear = 0;
     // const julianCalendarEpochMonth = 1;
     // const julianCalendarEpochDay = 1;
@@ -640,7 +662,7 @@ function gregorianToJulian(d) {
         }
     }
     const yearString = yearNumberToSignedSix(julianCalendarYear);
-    const resultString = `${yearString}-${julianCalendarMonth}-${julianCalendarDay}`;
+    const resultString = `${yearString}-${zeroPad(julianCalendarMonth, 2)}-${zeroPad(julianCalendarDay, 2)}${timeString}`;
     // console.log(`result string ${yearString}-${julianCalendarMonth}-${julianCalendarDay}`);
 
     const result = new Date(resultString);
@@ -1042,12 +1064,11 @@ function yearNumberToSignedSix(y) {
 }
 
 function getTwoDigitYear(d) {
-    let yearString = d.getFullYear().toString();
-    return yearString.slice(yearString.length - 2, yearString.length);
+    return truncate(zeroPad(d.getFullYear().toString(), 2), 2);
 }
 
 function zeroPad(s, places) {
-    let result = s;
+    let result = s + '';
     while (result.length < places) {
         result = '0' + result;
     }
@@ -1075,11 +1096,7 @@ function getMonthNumber(d) {
 }
 
 function getTwoDigitMonth(d) {
-    let twoDigitMonth = getMonthNumber(d).toString();
-    if (twoDigitMonth.length < 2) {
-        twoDigitMonth = '0' + twoDigitMonth;
-    }
-    return twoDigitMonth;
+    return zeroPad(getMonthNumber(d).toString(), 2);
 }
 
 function getDayOfMonthNumber(d) {
@@ -1087,11 +1104,7 @@ function getDayOfMonthNumber(d) {
 }
 
 function getTwoDigitDayOfMonth(d) {
-    let twoDigitDay = getDayOfMonthNumber(d).toString();
-    if (twoDigitDay.length < 2) {
-        twoDigitDay = '0' + twoDigitDay;
-    }
-    return twoDigitDay;
+    return zeroPad(getDayOfMonthNumber(d).toString(), 2);
 }
 
 // integer hours 0 - 23
@@ -1100,11 +1113,7 @@ function getHours(d) {
 }
 
 function getTwoDigitHours(d) {
-    let twoDigitHours = getHours(d).toString();
-    if (twoDigitHours.length < 2) {
-        twoDigitHours = '0' + twoDigitHours;
-    }
-    return twoDigitHours;
+    return zeroPad(getHours(d).toString(), 2);
 }
 
 // integer minutes 0 - 59
@@ -1113,11 +1122,7 @@ function getMinutes(d) {
 }
 
 function getTwoDigitMinutes(d) {
-    let twoDigitMinutes = getMinutes(d).toString();
-    if (twoDigitMinutes.length < 2) {
-        twoDigitMinutes = '0' + twoDigitMinutes;
-    }
-    return twoDigitMinutes;
+    return zeroPad(getMinutes(d).toString(), 2);
 }
 
 // integer seconds 0 - 59
@@ -1126,11 +1131,7 @@ function getSeconds(d) {
 }
 
 function getTwoDigitSeconds(d) {
-    let twoDigitSeconds = getSeconds(d).toString();
-    if (twoDigitSeconds.length < 2) {
-        twoDigitSeconds = '0' + twoDigitSeconds;
-    }
-    return twoDigitSeconds;
+    return zeroPad(getSeconds(d).toString(), 2);
 }
 
 // integer milliseconds 0 - 999
@@ -1139,14 +1140,7 @@ function getMilliseconds(d) {
 }
 
 function getThreeDigitMilliseconds(d) {
-    let threeDigitMilliseconds = getMilliseconds(d).toString();
-    if (threeDigitMilliseconds.length < 3) {
-        threeDigitMilliseconds = '0' + threeDigitMilliseconds;
-    }
-    if (threeDigitMilliseconds.length < 3) {
-        threeDigitMilliseconds = '0' + threeDigitMilliseconds;
-    }
-    return threeDigitMilliseconds;
+    return zeroPad(getMilliseconds(d).toString(), 3);
 }
 
 function renderDateFormat(df, d) {
@@ -1367,6 +1361,8 @@ function conversionTestData() {
         ['julian', '0100-01-02', '0100-01-01'],
         ['julian', '0200-01-01', '0200-01-01'],
         ['julian', '0300-01-02', '0300-01-01'],
+        ['julianDay', '2000-01-01T12:00:00', '2451545.00000000'],
+        ['julianDay', '-004713-11-24T12:00:00', '0.00000000'],
     ];
 }
 
@@ -1382,6 +1378,7 @@ function verify() {
         conversion = gregorianToAny(inD, calendarData);
         console.log(`verify ${datum} ${inD}`);
         console.log(conversion);
+        console.log(`expected ${datum[2]}`);
         console.log('');
     }
 }
@@ -1441,9 +1438,12 @@ function initialize() {
 //    setNow();
 }
 // todo
+// abandon input type date and use three input number inputs for year month day, change the number of days based on the month, remove the bc checkbox
+// use the json to fill the form inputs in the choose your own
+// hook up the choose your own to the gregorian to any function and change the rendered date
+// change the calendar name input if you start from an existing calendar and change it
 // use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch
 // debug gregorian to any julian 1, 101, 201, 301, 401
-// set data dash properties on the inputs that receive what the user typed so we can accept the year zero and auto toggle bc for negative and positive dates?
 // create test cases for various calendars and dates
 // maybe add early roman calendar lunar without january and february
 // scroll to with the table of contents, as you read the table of contents moves with you
@@ -1451,7 +1451,7 @@ function initialize() {
 
 const $body = $('body');
 $(() => initialize());
-$body.on('input change', '.input-date, .input-bc, .input-time, select.timezone', updateDatetimeEvent);
+$body.on('input change', '.input-year, .input-month, .input-day, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);

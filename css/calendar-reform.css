@@ -126,3 +126,9 @@ div.calendar-data {
     background-color: darkblue;
     border-color: darkgray;
 }
+.input-year {
+    width: 6em;
+}
+.input-month, .input-day {
+    width: 3em;
+}
