@@ -41,6 +41,12 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+.earth-revolution-side .major-circle-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
 .earth-revolution-side .atmosphere {
     width: 120%;
     height: 120%;
@@ -101,6 +107,21 @@
     position: absolute;
     left: 0;
     top: 49%;
+}
+
+.earth-revolution-side .sun-major-circle {
+    width: 125%;
+    height: 1px;
+    background-color: white;
+    transform: rotate(23.4deg);
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    animation-name: sun-major-circle;
+    animation-delay: -5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .earth-revolution-side .equator-label {
@@ -248,4 +269,10 @@
     87% { opacity: 1; }
     87.5% { opacity: 0; }
     to { opacity: 0; }
+}
+
+@keyframes sun-major-circle {
+    from { top: 28% }
+    50% { top: 72% }
+    to { top: 28% }
 }

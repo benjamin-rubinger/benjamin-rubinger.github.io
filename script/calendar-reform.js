@@ -1272,6 +1272,7 @@ function timeline() {
         { content: 'hebrew anno mundi epoch', start: '-003761-01-01', type: 'point' },
         { content: 'beginning of recorded history', start: '-003500-01-01', type: 'point' },
         { content: 'egyptian calendar introduced', start: '-002450-01-01', type: 'point' },
+        { content: 'sumerian calendar introduced', start: '-002046-01-01', type: 'point' },
         { content: 'hebrew exodus epoch', start: '-001313-01-01', type: 'point' },
         { content: 'chinese calendar introduced', start: '-000771-01-01', type: 'point' },
         { content: 'numa roman calendar reform', start: '-000672-01-01', type: 'point' },
@@ -1321,6 +1322,11 @@ function timeline() {
     const timeline = new vis.Timeline(timelineContainer, ds, options);
 }
 
+// from https://webspace.science.uu.nl/~gent0113/babylon/babycal_converter.htm
+function babylonianJson() {
+    return '{"based on":"sumerian","by":"","community":"babylon","date format":"","hours per day":24,"intercalary days":5,"introduced":"-0000500","epoch":"regnal","leap day ratio":0,"leap month ratio":2.71,"minutes per hour":"","month length":29.53,"months":"Nīsannu,Ayyāru,Sīmannu,Duʾūzu,Ābu,Ulūlū,Tašrītu,Araḫsamna,Kisilīmu,Ṭebētu,Šabāṭu,Addāru","name":"babylonian","new day time":"sunset","new year day":254,"notes":"existed and operated irregularly from -800 to -500","type":"lunisolar","week length":""}';
+}
+
 // 1 Ꜣḫt,2 Ꜣḫt,3 Ꜣḫt,4 Ꜣḫt,1 Prt,2 Prt,3 Prt,4 Prt,1 Šmw,2 Šmw,3 Šmw,4 Šmw
 function egyptianJson() {
     return '{"based on":"mesopotamian","by":"","community":"egypt","date format":"y mmmm d hh ii ss.uuu","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunrise","new year day":254,"notes":"exactly 365 days a year, shifts through the seasons on the sothic cycle","type":"solar","week length":10}';
@@ -1339,15 +1345,23 @@ function julianDayJson() {
 }
 
 function gregorianJson() {
-    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"000000","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":60,"type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
+    return '{"based on":"julian","by":"pope gregory xiii","community":"catholic church","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"1582-10-15T00:00:00Z","epoch":"-000001-12-30","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"gregorian","new day time":"midnight","new year day":1,"notes":"two sets of 12 hours with am and pm, timezones, daylight savings time","seconds per minute":60,"type":"solar","week length":7,"weekdays":"monday,tuesday,wednesday,thursday,friday,saturday,sunday"}';
+}
+
+function hebrewJson() {
+    return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunrise","new year day":254,"notes":"exactly 365 days a year, shifts through the seasons on the sothic cycle","type":"solar","week length":10}';
+}
+
+function proposalJson() {
+    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":266,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
 }
 
 function romanJson() {
     return '{"based on":"","by":"numa pompilius","community":"roman empire","date format":"yyyy-mm-dd hh:ii:ss.uuu","hours per day":24,"intercalary days":0,"introduced":"-000700-01-01T00:00:00Z","epoch":"regnal","leap day ratio":0.25,"leap month ratio":0,"minutes per hour":60,"month length":"varies","months":"january,february,march,april,may,june,july,august,september,october,november,december","name":"roman","new day time":"midday","new year day":1,"notes":"two sets of 12 hours with am and pm","type":"lunar","week length":9}';
 }
 
-function proposalJson() {
-    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":266,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
+function sumerianJson() {
+    return '{"based on":"","by":"shulgi of ur","community":"sumeria","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunrise","new year day":254,"notes":"exactly 365 days a year, shifts through the seasons on the sothic cycle","type":"solar","week length":10}';
 }
 
 function unixTimeJson() {
@@ -1385,7 +1399,9 @@ function verify() {
 
 function fetchLocal(calendarName) {
     let calendarJson = '{}';
-    if (calendarName === 'egyptian') {
+    if (calendarName === 'babylonian') {
+        calendarJson = babylonianJson();
+    } else if (calendarName === 'egyptian') {
         calendarJson = egyptianJson();
     } else if (calendarName === 'frenchRepublican') {
         calendarJson = frenchRepublicanJson();
@@ -1395,10 +1411,14 @@ function fetchLocal(calendarName) {
         calendarJson = julianDayJson();
     } else if (calendarName === 'gregorian') {
         calendarJson = gregorianJson();
+    } else if (calendarName === 'hebrew') {
+        calendarJson = hebrewJson();
     } else if (calendarName === 'proposal') {
         calendarJson = proposalJson();
     } else if (calendarName === 'roman') {
         calendarJson = romanJson();
+    } else if (calendarName === 'sumerian') {
+        calendarJson = sumerianJson();
     } else if (calendarName === 'unixTime') {
         calendarJson = unixTimeJson();
     }
@@ -1410,6 +1430,8 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     insertDateTimeInputs();
+    capitalize();
+    apostrophes();
     setNow();
     generateNavigation();
     registerObservers();
@@ -1447,6 +1469,13 @@ function initialize() {
 // create test cases for various calendars and dates
 // maybe add early roman calendar lunar without january and february
 // scroll to with the table of contents, as you read the table of contents moves with you
+
+// babylonian and other early calendars in timeline
+// add white line to orbit side to show the closest point to the sun shifting back and forth
+// add instructions that clicking or touching an animation will pause and play
+// add instruction that diagrams are not to scale
+// finish capitalization and apostrophes
+
 
 
 const $body = $('body');
