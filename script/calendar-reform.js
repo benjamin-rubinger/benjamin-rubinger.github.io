@@ -1474,7 +1474,8 @@ function initialize() {
 // add white line to orbit side to show the closest point to the sun shifting back and forth
 // add instructions that clicking or touching an animation will pause and play
 // add instruction that diagrams are not to scale
-// finish capitalization and apostrophes
+// finish capitalization and apostrophes  q(\w)q  <span class="capitalizable">$1</span>
+// make the decimal time interactive
 
 
 
