@@ -23,13 +23,23 @@ function toggleAnimation($animationContainer) {
     }
 }
 
-// function setDark() {
-//     $('body').addClass('dark').removeClass('light');
-// }
-//
-// function setLight() {
-//     $('body').addClass('light').removeClass('dark');
-// }
+function toggleAllAnimations() {
+    $('body .animation-container').each(function (i) {
+        toggleAnimation($(this));
+    });
+}
+
+function setPause() {
+    $('button.pause-all').hide();
+    $('button.play-all').show();
+    toggleAllAnimations();
+}
+
+function setPlay() {
+    $('button.play-all').hide();
+    $('button.pause-all').show();
+    toggleAllAnimations();
+}
 
 
 function twinkle(containerSelector) {
@@ -76,3 +86,5 @@ $animationsBody.on('click', '.animation-container', function (e) {
     const $ac = $(e.currentTarget);
     toggleAnimation($ac);
 });
+$animationsBody.on('click', 'button.pause-all', setPause);
+$animationsBody.on('click', 'button.play-all', setPlay);

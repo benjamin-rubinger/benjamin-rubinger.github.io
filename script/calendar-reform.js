@@ -271,20 +271,20 @@ function getOffsetString(d) {
 }
 
 function setNow() {
+//    console.log('set now');
     let now = new Date();
     now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
     const isoString = now.toISOString().slice(0, -1);
     // console.log(isoString);
     const tIndex = isoString.indexOf('T');
     const dateString = isoString.slice(0, tIndex);
-    console.log(dateString);
+//    console.log(dateString);
     const year = dateString.slice(0, dateString.length - 6) * 1;
-    console.log(`year ${year}`);
+//    console.log(`year ${year}`);
     const month = dateString.slice(dateString.length - 5, dateString.length - 3) * 1;
-    console.log(`month ${month}`);
+//    console.log(`month ${month}`);
     const day = dateString.slice(dateString.length - 2, dateString.length) * 1;
-    console.log(`day ${day}`);
-//    const month =
+//    console.log(`day ${day}`);
     const timeString = isoString.slice(tIndex + 1, isoString.length);
     // console.log(timeString);
     // console.log(now.getTimezoneOffset());
@@ -318,10 +318,14 @@ function generateDateFormats(d) {
 
 function setDark() {
     $('body').addClass('dark').removeClass('light');
+    $('button.dark').hide();
+    $('button.light').show();
 }
 
 function setLight() {
     $('body').addClass('light').removeClass('dark');
+    $('button.light').hide();
+    $('button.dark').show();
 }
 
 function capitalize() {
@@ -1370,13 +1374,14 @@ function unixTimeJson() {
 
 function conversionTestData() {
     return [
-        ['julian', '-000001-12-29', '-000000-01-01'],
-        ['julian', '-000000-01-03', '-000000-01-01'],
-        ['julian', '0100-01-02', '0100-01-01'],
-        ['julian', '0200-01-01', '0200-01-01'],
-        ['julian', '0300-01-02', '0300-01-01'],
-        ['julianDay', '2000-01-01T12:00:00', '2451545.00000000'],
-        ['julianDay', '-004713-11-24T12:00:00', '0.00000000'],
+//        ['julian', '-000001-12-29', '-000000-01-01'],
+        ['julian', '+001582-10-05', '+001582-10-15'],
+//        ['julian', '-000000-01-03', '-000000-01-01'],
+//        ['julian', '0100-01-02', '0100-01-01'],
+//        ['julian', '0200-01-01', '0200-01-01'],
+//        ['julian', '0300-01-02', '0300-01-01'],
+//        ['julianDay', '2000-01-01T12:00:00', '2451545.00000000'],
+//        ['julianDay', '-004713-11-24T12:00:00', '0.00000000'],
     ];
 }
 
@@ -1460,21 +1465,14 @@ function initialize() {
 //    setNow();
 }
 // todo
-// abandon input type date and use three input number inputs for year month day, change the number of days based on the month, remove the bc checkbox
 // use the json to fill the form inputs in the choose your own
 // hook up the choose your own to the gregorian to any function and change the rendered date
 // change the calendar name input if you start from an existing calendar and change it
 // use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch
 // debug gregorian to any julian 1, 101, 201, 301, 401
-// create test cases for various calendars and dates
 // maybe add early roman calendar lunar without january and february
 // scroll to with the table of contents, as you read the table of contents moves with you
-
 // babylonian and other early calendars in timeline
-// add white line to orbit side to show the closest point to the sun shifting back and forth
-// add instructions that clicking or touching an animation will pause and play
-// add instruction that diagrams are not to scale
-// finish capitalization and apostrophes  q(\w)q  <span class="capitalizable">$1</span>
 // make the decimal time interactive
 
 
