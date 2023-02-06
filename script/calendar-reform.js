@@ -490,9 +490,11 @@ function gregorianEpoch() {
     return '+000000';
 }
 
-function getFractionalDay(d) {
+function getFractionalDay(d, addTimeZone) {
     let d2 = new Date(d);
-    d2.setMinutes(d2.getMinutes() + d2.getTimezoneOffset()); // add back the timezone?
+    if (addTimeZone) {
+        d2.setMinutes(d2.getMinutes() + d2.getTimezoneOffset()); // add back the timezone?
+    }
     const hourSeconds = getHours(d2) * 3600;
     const minuteSeconds = getMinutes(d2) * 60;
     const secondSeconds = getSeconds(d2);
@@ -580,7 +582,7 @@ function gregorianToJulianDay(d) {
     }
 
     console.log(`year days ${yearDays}  month days ${monthDays}  day days ${dayDays}`);
-    const fractionalDays = getFractionalDay(d) - 0.5; // jdn new day time is half a day different from gregorian new day time
+    const fractionalDays = getFractionalDay(d, true) - 0.5; // jdn new day time is half a day different from gregorian new day time
     const result = yearDays + monthDays + dayDays + fractionalDays;
 
     console.log(`trivial ${trivial}`);
@@ -725,7 +727,7 @@ function gregorianToAny(d, calendarData) {
             }
         }
     } else {
-        for (let year = givenYear; year > epochYear; year--) {
+        for (let year = givenYear; year < epochYear; year++) {
             if (gregorianLeapDay(year)) {
                 leapDayCount += 1;
             }
@@ -744,7 +746,7 @@ function gregorianToAny(d, calendarData) {
     const totalDays = yearDays - newYearDay - epochOrdinal + givenOrdinal - 1;
     console.log(`gregorian to any  gregorian year days ${yearDays}  gragorian total days ${totalDays}`);
 
-    const fractionalDay = getFractionalDay(d);
+    const fractionalDay = getFractionalDay(d, false);
     const newDayFraction = newDayStringToDecimal(calendarData['new day time']);
     // console.log(`fractional day ${fractionalDay}  new day fraction ${newDayFraction}`);
     const total = totalDays + fractionalDay - newDayFraction;
@@ -820,7 +822,7 @@ function gregorianToAny(d, calendarData) {
         result['weekOfYear'] = weekOfYearCount;
 
         const ordinalCount = Math.floor(remaining);
-        result['ordinal'] = ordinalCount;
+        result['ordinal'] = ordinalCount + 1;
     }
 
     const hoursPerDay = +calendarData['hours per day'];
@@ -839,7 +841,7 @@ function gregorianToAny(d, calendarData) {
                     result['month'] = monthCount;
                     dayOfMonthCount = Math.floor(remaining);
                     remaining -= dayOfMonthCount;
-                    result['day'] = dayOfMonthCount;
+                    result['day'] = dayOfMonthCount + 1;
                     if (weekLength > 0) {
                         const weekFloat = dayOfMonthCount / weekLength;
                         const weekCount = Math.floor(weekFloat);
@@ -873,7 +875,7 @@ function gregorianToAny(d, calendarData) {
 
             const dayOfMonthCount = Math.floor(dayOfMonthFloat);
             remaining -= dayOfMonthCount;
-            result['day'] = dayOfMonthCount;
+            result['day'] = dayOfMonthCount + 1;
         }
     } else if (yearLengthDays > 0) {
         result['day'] = result['ordinal'];
@@ -982,7 +984,7 @@ function getProposalString(d) {
         modulo += 1;
     }
     let ordinal = (ordinalOffset + modulo) % modulo;
-    const fraction = getFractionalDay(d);
+    const fraction = getFractionalDay(d, true);
     const ordinalTime = (ordinal + fraction).toFixed(8);
     const result = `${year} ${ordinalTime}`;
     return result;
@@ -1345,7 +1347,7 @@ function julianJson() {
 }
 
 function julianDayJson() {
-    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004713-11-24T12:00:00Z","leap day ratio":0.2425,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":328,"notes":"","seconds per minute":100,"type":"other","week length":""}';
+    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004713-11-24T12:00:00Z","leap day ratio":"","leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":-1,"notes":"","seconds per minute":100,"type":"other","week length":""}';
 }
 
 function gregorianJson() {
@@ -1374,14 +1376,11 @@ function unixTimeJson() {
 
 function conversionTestData() {
     return [
-//        ['julian', '-000001-12-29', '-000000-01-01'],
-        ['julian', '+001582-10-05', '+001582-10-15'],
-//        ['julian', '-000000-01-03', '-000000-01-01'],
-//        ['julian', '0100-01-02', '0100-01-01'],
-//        ['julian', '0200-01-01', '0200-01-01'],
-//        ['julian', '0300-01-02', '0300-01-01'],
-//        ['julianDay', '2000-01-01T12:00:00', '2451545.00000000'],
-//        ['julianDay', '-004713-11-24T12:00:00', '0.00000000'],
+        // ['julian', '-000001-12-29', '{"year":0,"month":1,"day":1}'],
+        // ['julian', '1582-10-15', '{"year":1582,"month":10,"day":5}'],
+        // ['julian', '2023-02-05', '{"year":2023,"month":1,"day":23}'],
+        ['julianDay', '-004713-11-24T12:00:00Z', '0.00000000'],
+        ['julianDay', '2000-01-01T12:00:00Z', '2451545.00000000'],
     ];
 }
 
@@ -1392,13 +1391,27 @@ function verify() {
     let conversion;
     let outD;
     for (const datum of testData) {
-        calendarData = fetchLocal(datum[0]);
+        const calendarName = datum[0];
+        calendarData = fetchLocal(calendarName);
         inD = new Date(datum[1]);
         conversion = gregorianToAny(inD, calendarData);
         console.log(`verify ${datum} ${inD}`);
         console.log(conversion);
         console.log(`expected ${datum[2]}`);
-        console.log('');
+        // console.log('');
+        if (calendarName === 'julian') {
+            const julianDate = gregorianToJulian(inD);
+            console.log(`verify julian ${julianDate}`);
+        } else if (calendarName === 'julianDay') {
+            const jdn = gregorianToJulianDayNumber(inD);
+            console.log(`verify jdn ${jdn}`);
+        } else if (calendarName === 'proposal') {
+            const proposal = getProposalString(inD);
+            console.log(`verify proposal ${proposal}`);
+        } else if (calendarName === 'unixTime') {
+            const unixTime = getUnixTimeString(inD);
+            console.log(`verify unix time ${unixTime}`);
+        }
     }
 }
 
@@ -1465,15 +1478,19 @@ function initialize() {
 //    setNow();
 }
 // todo
-// use the json to fill the form inputs in the choose your own
+// implement olgas feedback about seasonality
+// gregorian to any unixtime
+// gregorian to any french republican
+// gregorian to any jewish
 // hook up the choose your own to the gregorian to any function and change the rendered date
+// add tests for negative dates
+// use the json to fill the form inputs in the choose your own
 // change the calendar name input if you start from an existing calendar and change it
-// use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch
-// debug gregorian to any julian 1, 101, 201, 301, 401
-// maybe add early roman calendar lunar without january and february
 // scroll to with the table of contents, as you read the table of contents moves with you
-// babylonian and other early calendars in timeline
 // make the decimal time interactive
+// use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch
+// maybe add early roman calendar lunar without january and february
+// babylonian and other early calendars in timeline
 
 
 
