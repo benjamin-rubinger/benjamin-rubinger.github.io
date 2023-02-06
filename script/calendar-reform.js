@@ -46,7 +46,9 @@ function generateDatetimeInputs(index) {
     const $inputMonth = $('<input>').attr('id', `input-month${index}`).addClass('input-month').attr('type', 'number').attr('min', 1).attr('max', 12).attr('step', 1);
     const $labelDay = $('<label>').attr('id', `label-day${index}`).addClass(`label-day`).attr('for', `input-day${index}`).text('day');
     const $inputDay = $('<input>').attr('id', `input-day${index}`).addClass('input-day').attr('type', 'number').attr('min', 1).attr('max', 31).attr('step', 1);
+    const $labelTime = $('<label>').attr('id', `label-time${index}`).addClass(`label-time`).attr('for', `input-time${index}`).text('time');
     const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
+    const $labelTimezone = $('<label>').attr('id', `label-timezone${index}`).addClass(`label-timezone`).attr('for', `select-timezone${index}`).text('timezone');
     const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
     const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
     for (const offset of options) {
@@ -55,7 +57,7 @@ function generateDatetimeInputs(index) {
     }
     const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').text('now');
     const $datetimeContainer = $('<div>').attr('id', `datetime-container${index}`).addClass('datetime-container');
-    $datetimeContainer.append([$labelYear, $inputYear, $labelMonth, $inputMonth, $labelDay, $inputDay, $inputTime, $selectTimezone, $now]);
+    $datetimeContainer.append([$labelYear, $inputYear, $labelMonth, $inputMonth, $labelDay, $inputDay, $labelTime, $inputTime, $labelTimezone, $selectTimezone, $now]);
     return $datetimeContainer;
 }
 
@@ -1379,8 +1381,10 @@ function conversionTestData() {
         // ['julian', '-000001-12-29', '{"year":0,"month":1,"day":1}'],
         // ['julian', '1582-10-15', '{"year":1582,"month":10,"day":5}'],
         // ['julian', '2023-02-05', '{"year":2023,"month":1,"day":23}'],
-        ['julianDay', '-004713-11-24T12:00:00Z', '0.00000000'],
-        ['julianDay', '2000-01-01T12:00:00Z', '2451545.00000000'],
+        // ['julianDay', '-004713-11-24T12:00:00Z', '0.00000000'],
+        // ['julianDay', '2000-01-01T12:00:00Z', '2451545.00000000'],
+        ['frenchRepublican', '1792-09-22', '{"year":1,"month":1,"day":1}'],
+        // ['frenchRepublican', '2023-02-06', '{"year":231,"month":5,"weekOfYear":14,"dayOfWeek":7,"dayOfMonth":17}'],
     ];
 }
 
@@ -1478,14 +1482,13 @@ function initialize() {
 //    setNow();
 }
 // todo
-// implement olgas feedback about seasonality
-// gregorian to any unixtime
-// gregorian to any french republican
-// gregorian to any jewish
 // hook up the choose your own to the gregorian to any function and change the rendered date
-// add tests for negative dates
 // use the json to fill the form inputs in the choose your own
 // change the calendar name input if you start from an existing calendar and change it
+// gregorian to any french republican
+// gregorian to any unixtime
+// gregorian to any jewish
+// add tests for negative dates
 // scroll to with the table of contents, as you read the table of contents moves with you
 // make the decimal time interactive
 // use the native javascript date get time internal representation in seconds to get the total seconds in gregorian between the given date and the given calendar epoch

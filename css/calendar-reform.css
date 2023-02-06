@@ -132,6 +132,9 @@ div.calendar-data {
 .input-month, .input-day {
     width: 3em;
 }
+input, select {
+    margin-right: 1em;
+}
 button.dark, button.play-all {
     display: none;
 }
