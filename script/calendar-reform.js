@@ -1330,6 +1330,31 @@ function timeline() {
     const timeline = new vis.Timeline(timelineContainer, ds, options);
 }
 
+function fillDesignYourOwn() {
+    const calendarName = spaceToCamel($('.existing-calendar').val());
+    console.log(`fill design your own ${calendarName}`);
+    $('.chosen-calendar-name').text(calendarName);
+    const calendarData = fetchLocal(calendarName);
+//    console.log(`${calendarData['type']}`);
+    $('select.calendar-type').val(calendarData['type']);
+    // epoch calendarData['epoch']
+    // new year day calendarData['new year day']
+    // month names calendarData['']
+    // week length calendarData['']
+    // weekday names calendarData['']
+    // leap period calendarData['']
+    // intercalery days calendarData['']
+    // new day time
+    $('.select-new-day-time').val(calendarData['new day time']);
+    console.log(`${calendarData['new day time']}`);
+    // time calendarData['']
+    // timezones calendarData['']
+    // daylight saving time calendarData['']
+    // date format calendarData['']
+    // date seperator calendarData['']
+    // time seperator calendarData['']
+}
+
 // from https://webspace.science.uu.nl/~gent0113/babylon/babycal_converter.htm
 function babylonianJson() {
     return '{"based on":"sumerian","by":"","community":"babylon","date format":"","hours per day":24,"intercalary days":5,"introduced":"-0000500","epoch":"regnal","leap day ratio":0,"leap month ratio":2.71,"minutes per hour":"","month length":29.53,"months":"Nīsannu,Ayyāru,Sīmannu,Duʾūzu,Ābu,Ulūlū,Tašrītu,Araḫsamna,Kisilīmu,Ṭebētu,Šabāṭu,Addāru","name":"babylonian","new day time":"sunset","new year day":254,"notes":"existed and operated irregularly from -800 to -500","type":"lunisolar","week length":""}';
@@ -1357,7 +1382,7 @@ function gregorianJson() {
 }
 
 function hebrewJson() {
-    return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunrise","new year day":254,"notes":"exactly 365 days a year, shifts through the seasons on the sothic cycle","type":"solar","week length":10}';
+    return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunset","new year day":254,"notes":"","type":"solar","week length":10}';
 }
 
 function proposalJson() {
@@ -1482,11 +1507,11 @@ function initialize() {
 //    setNow();
 }
 // todo
-// hook up the choose your own to the gregorian to any function and change the rendered date
 // use the json to fill the form inputs in the choose your own
 // change the calendar name input if you start from an existing calendar and change it
 // gregorian to any french republican
 // gregorian to any unixtime
+// gregorian to proposal debug negative fractional day
 // gregorian to any jewish
 // add tests for negative dates
 // scroll to with the table of contents, as you read the table of contents moves with you
@@ -1501,6 +1526,7 @@ const $body = $('body');
 $(() => initialize());
 $body.on('input change', '.input-year, .input-month, .input-day, .input-time, select.timezone', updateDatetimeEvent);
 $body.on('input change', '.convert-calendar', convertCalendar);
+$body.on('input change', '.existing-calendar', fillDesignYourOwn);
 $body.on('click', 'button.now', setNow);
 $body.on('click', 'button.dark', setDark);
 $body.on('click', 'button.light', setLight);
