@@ -2,6 +2,10 @@ function dashToSpace(s) {
     return s.replaceAll('-', ' ');
 }
 
+function capitalizeFirst(s) {
+    return `<span class="capitalizable">${s[0]}</span>${s.substring(1)}`;
+}
+
 function navigationEntry($section) {
     // console.log('navigation entry');
     // console.log($section);
@@ -11,7 +15,7 @@ function navigationEntry($section) {
     }
     const id = $section.attr('id');
     const navigationId = `navigation-${id}`;
-    const text = dashToSpace(id);
+    const text = capitalizeFirst(dashToSpace(id));
     return $(`<li><a class="${navigationId}" href="#${id}">${text}</a></li>`);
 }
 
@@ -40,22 +44,22 @@ function generateNavigation() {
 }
 
 function generateDatetimeInputs(index) {
-    const $labelYear = $('<label>').attr('id', `label-year${index}`).addClass(`label-year`).attr('for', `input-year${index}`).text('year');
+    const $labelYear = $('<label>').attr('id', `label-year${index}`).addClass(`label-year`).attr('for', `input-year${index}`).html('<span class="capitalizable">y</span>ear');
     const $inputYear = $('<input>').attr('id', `input-year${index}`).addClass('input-year').attr('type', 'number').attr('min', -11700).attr('max', 9999).attr('step', 1);
-    const $labelMonth = $('<label>').attr('id', `label-month${index}`).addClass(`label-month`).attr('for', `input-month${index}`).text('month');
+    const $labelMonth = $('<label>').attr('id', `label-month${index}`).addClass(`label-month`).attr('for', `input-month${index}`).html('<span class="capitalizable">m</span>onth');
     const $inputMonth = $('<input>').attr('id', `input-month${index}`).addClass('input-month').attr('type', 'number').attr('min', 1).attr('max', 12).attr('step', 1);
-    const $labelDay = $('<label>').attr('id', `label-day${index}`).addClass(`label-day`).attr('for', `input-day${index}`).text('day');
+    const $labelDay = $('<label>').attr('id', `label-day${index}`).addClass(`label-day`).attr('for', `input-day${index}`).html('<span class="capitalizable">d</span>ay');
     const $inputDay = $('<input>').attr('id', `input-day${index}`).addClass('input-day').attr('type', 'number').attr('min', 1).attr('max', 31).attr('step', 1);
-    const $labelTime = $('<label>').attr('id', `label-time${index}`).addClass(`label-time`).attr('for', `input-time${index}`).text('time');
+    const $labelTime = $('<label>').attr('id', `label-time${index}`).addClass(`label-time`).attr('for', `input-time${index}`).html('<span class="capitalizable">t</span>ime');
     const $inputTime = $('<input>').attr('id', `input-time${index}`).addClass('input-time').attr('type', 'time'); //.attr('step', '1');
-    const $labelTimezone = $('<label>').attr('id', `label-timezone${index}`).addClass(`label-timezone`).attr('for', `select-timezone${index}`).text('timezone');
+    const $labelTimezone = $('<label>').attr('id', `label-timezone${index}`).addClass(`label-timezone`).attr('for', `select-timezone${index}`).html('<span class="capitalizable">t</span>imezone');
     const options = ['-12:00', '-11:00', '-10:00', '-09:30', '-09:00', '-08:00', '-07:00', '-06:00', '-05:00', '-04:00', '-03:30', '-03:00', '-02:00', '-01:00', '+00:00', '+01:00', '+02:00', '+03:00', '+03:30', '+04:00', '+04:30', '+05:00', '+05:30', '+05:45', '+06:00', '+07:00', '+08:00', '+08:45', '+09:00', '+09:30', '+10:00', '+10:30', '+11:00', '+12:00', '+12:45', '+13:00', '+14:00'];
     const $selectTimezone = $('<select>').attr('id', `select-timezone${index}`).addClass('timezone');
     for (const offset of options) {
         const $option = $('<option>').text(offset);
         $selectTimezone.append($option);
     }
-    const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').text('now');
+    const $now = $('<button>').attr('id', `button-now${index}`).addClass('now').html('<span class="capitalizable">n</span>ow');
     const $datetimeContainer = $('<div>').attr('id', `datetime-container${index}`).addClass('datetime-container');
     $datetimeContainer.append([$labelYear, $inputYear, $labelMonth, $inputMonth, $labelDay, $inputDay, $labelTime, $inputTime, $labelTimezone, $selectTimezone, $now]);
     return $datetimeContainer;
@@ -1331,28 +1335,111 @@ function timeline() {
 }
 
 function fillDesignYourOwn() {
-    const calendarName = spaceToCamel($('.existing-calendar').val());
+    const calendarNameSpace = $('.existing-calendar').val();
+    const calendarName = spaceToCamel(calendarNameSpace);
     console.log(`fill design your own ${calendarName}`);
-    $('.chosen-calendar-name').text(calendarName);
+    $('.chosen-calendar-name').text(calendarNameSpace);
     const calendarData = fetchLocal(calendarName);
 //    console.log(`${calendarData['type']}`);
     $('select.calendar-type').val(calendarData['type']);
-    // epoch calendarData['epoch']
-    // new year day calendarData['new year day']
-    // month names calendarData['']
-    // week length calendarData['']
+    // epoch
+    $('.select-epoch').val(calendarData['epoch']).change();
+    // new year day
+    $('.select-new-year-day').val(calendarData['new year day']).change();
+    // month names
+    if ((calendarName === 'julianDay') || (calendarName === 'proposal') || (calendarName === 'unixTime')) {
+        $('.select-month-names').val('none').change();
+    } else {
+        $('.select-month-names').val(calendarNameSpace).change();
+    }
+    // week length
+    $('.week-length').val(calendarData['week length']).change();
     // weekday names calendarData['']
     // leap period calendarData['']
-    // intercalery days calendarData['']
+    if ((calendarName === 'frenchRepublican') || (calendarName === 'julian') || (calendarName === 'gregorian')) {
+        $('.select-leap').val('day').change();
+    } else if ((calendarName === 'chinese') || (calendarName === 'hebrew')) {
+        $('.select-leap').val('month').change();
+    } else {
+        $('.select-leap').val('').change();
+    }
+    // intercalery days
+    $('.select-intercalary-days').val(calendarData['intercalary days']).change();
     // new day time
-    $('.select-new-day-time').val(calendarData['new day time']);
+    $('.select-new-day-time').val(calendarData['new day time']).change();
     console.log(`${calendarData['new day time']}`);
-    // time calendarData['']
-    // timezones calendarData['']
-    // daylight saving time calendarData['']
-    // date format calendarData['']
+    // time
+    const hoursPerDay = calendarData['hours per day'];
+    if (hoursPerDay === 24) {
+        $('.select-time').val('12 hour sexagesimal').change();
+    } else if (hoursPerDay === 10) {
+        $('.select-time').val('decimal').change();
+    }
+    // timezones
+    if (calendarName === 'gregorian') {
+        $('.has-timezones').prop('checked', true);
+    } else {
+        $('.has-timezones').prop('checked', false);
+    }
+    // daylight saving time
+    if (calendarName === 'gregorian') {
+        $('.has-daylight-saving-time').prop('checked', true);
+    } else {
+        $('.has-daylight-saving-time').prop('checked', false);
+    }
+    // date format
+    $('.select-date-format').val(getShortDateFormat(calendarData['date format'])).change();
     // date seperator calendarData['']
     // time seperator calendarData['']
+}
+
+function getShortDateFormat(df) {
+    let remaining = df;
+    remaining = remaining.replaceAll(' ', '');
+    const yIndex = remaining.indexOf('y');
+    if (yIndex < 0) {
+        return '';
+    }
+    const mIndex = remaining.indexOf('m');
+    if (mIndex < 0) {
+        return '';
+    }
+    let dIndex = remaining.indexOf('d');
+    if (dIndex < 0) {
+        dIndex = remaining.indexOf('e');
+    }
+    if (dIndex < 0) {
+        return '';
+    }
+    if (yIndex < mIndex) {
+        if (yIndex < dIndex) {
+            if (mIndex < dIndex) {
+                return 'ymd';
+            } else {
+                return 'ydm';
+            }
+        } else {
+            return 'dym';
+        }
+    } else {
+        if (mIndex < dIndex) {
+            if (yIndex < dIndex) {
+                return 'myd';
+            } else {
+                return 'mdy';
+            }
+        } else {
+            return 'dmy';
+        }
+    }
+}
+
+function setEpochs() {
+    const $selectEpoch = $('.select-epoch');
+    const d = new Date();
+//    const currentYear = getYearNumber(d);
+//    $selectEpoch.find('option.holocene').attr('value', (-1 * (currentYear + 10000)) + "");
+    $selectEpoch.find('option.now').attr('value', d.toISOString().substring(0, 4));
 }
 
 // from https://webspace.science.uu.nl/~gent0113/babylon/babycal_converter.htm
@@ -1374,7 +1461,7 @@ function julianJson() {
 }
 
 function julianDayJson() {
-    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004713-11-24T12:00:00Z","leap day ratio":"","leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":-1,"notes":"","seconds per minute":100,"type":"other","week length":""}';
+    return '{"based on":"","by":"joseph scalinger","community":"astronomers","date format":"d.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"+001583","epoch":"-004713-11-24T12:00:00Z","leap day ratio":"","leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"julian day","new day time":"midday","new year day":"","notes":"","seconds per minute":100,"type":"other","week length":""}';
 }
 
 function gregorianJson() {
@@ -1382,11 +1469,11 @@ function gregorianJson() {
 }
 
 function hebrewJson() {
-    return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"regnal","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunset","new year day":254,"notes":"","type":"solar","week length":10}';
+    return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"-003762","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunset","new year day":254,"notes":"","type":"solar","week length":10}';
 }
 
 function proposalJson() {
-    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":266,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
+    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":265,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
 }
 
 function romanJson() {
@@ -1477,11 +1564,12 @@ function fetchLocal(calendarName) {
 
 function initialize() {
     insertDateTimeInputs();
-    capitalize();
-    apostrophes();
     setNow();
+    setEpochs();
     generateNavigation();
     registerObservers();
+    capitalize();
+    apostrophes();
     timeline();
     // fetchCalendarData('gregorian');
     // let gregorianData = fetchLocal('gregorian');

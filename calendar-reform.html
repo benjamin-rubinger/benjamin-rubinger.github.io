@@ -985,34 +985,36 @@ year
                 <!-- maybe the epoch should be an integer? offset from what? -->
                 <label for="select-epoch"><span class="capitalizable">e</span>poch</label>
                 <select id="select-epoch" class="select-epoch">
-                    <option>big bang</option>
-                    <option>creation of the world (anno mundi)</option>
-                    <option>formation of the earth</option>
-                    <option>first life (abiogenesis)</option>
-                    <option>first land animals</option>
-                    <option>first modern humans</option>
-                    <option>holcene era</option>
-                    <option>julian day epoch</option>
-                    <option>selucid epoch</option>
-                    <option>exodus from egpyt</option>
-                    <option>destruction of the second temple</option>
-                    <option>birth of jesus</option>
-                    <option>1970</option>
-                    <option>now</option>
-                    <option>regnal eras</option>
-                    <option>other</option>
+                    <option value="-13787000000">big bang</option>
+                    <option value="-003762">creation of the world (anno mundi)</option>
+                    <option value="-4540000000">formation of the earth</option>
+                    <option value="-4000000000">first life (abiogenesis)</option>
+                    <option value="-1000000000">first land animals</option>
+                    <option value="-315000">first modern humans</option>
+                    <option value="-010001-09-22">holocene era</option>
+                    <option value="-004713-11-24T12:00:00Z">julian day</option>
+                    <option value="-001315">exodus from egpyt</option>
+                    <option value="-000312">selucid epoch</option>
+                    <option value="-000001-12-30">birth of jesus</option>
+                    <option value="70">destruction of the second temple</option>
+                    <option value="1792-09-22">french republican</option>
+                    <option value="+001970-01-01T00:00:00Z">1970</option>
+                    <option class="now" value="">now</option>
+                    <option value="regnal">regnal eras</option>
+                    <option value="">other</option>
                 </select>
                 <label for="select-new-year-day"><span class="capitalizable">n</span>ew year day</label>
                 <select id="select-new-year-day" class="select-new-year-day">
-                    <option>none</option>
-                    <option>northern solstice</option>
-                    <option>equinox going south</option>
-                    <option>southern solstice</option>
-                    <option>equinox going north</option>
-                    <option>chinese</option>
-                    <option>gregorian</option>
-                    <option>roman</option>
-                    <option>other</option>
+                    <option value="">none</option>
+                    <option value="1">gregorian</option>
+                    <option value="32">chinese</option>
+                    <option value="79">equinox going north</option>
+                    <option value="90">roman</option>
+                    <option value="172">northern solstice</option>
+                    <option value="254">egyptian</option>
+                    <option value="265">equinox going south</option>
+                    <option value="355">southern solstice</option>
+<!--                    <option>other</option>-->
                 </select>
                 <label for="select-month-names"><span class="capitalizable">m</span>onth names</label>
                 <select id="select-month-names" class="select-month-names">
@@ -1024,11 +1026,12 @@ year
                     <option>hebrew</option>
 <!--                    <option>islamic</option>-->
                     <option>julian</option>
+                    <option>numbers</option>
                     <option>other</option>
                 </select>
                 <label for="week-length"><span class="capitalizable">w</span>eek length in days</label>
                 <select id="week-length" class="week-length">
-                    <option>none</option>
+                    <option value="">none</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
@@ -1044,24 +1047,24 @@ year
                     <option>14</option>
                     <option>15</option>
                 </select>
-                <label for="select-weekday-names"><span class="capitalizable">w</span>eekday names</label>
-                <select id="select-weekday-names" class="select-weekday-names">
-                    <option>none</option>
-                    <option>numbered</option>
+<!--                <label for="select-weekday-names"><span class="capitalizable">w</span>eekday names</label>-->
+<!--                <select id="select-weekday-names" class="select-weekday-names">-->
+<!--                    <option>none</option>-->
 <!--                    <option>chinese</option>-->
-                    <option>egyptian</option>
-                    <option>gregorian</option>
-                    <option>hebrew</option>
+<!--                    <option>egyptian</option>-->
+<!--                    <option>gregorian</option>-->
+<!--                    <option>hebrew</option>-->
 <!--                    <option>islamic</option>-->
-                    <option>julian</option>
-                    <option>other</option>
-                </select>
+<!--                    <option>julian</option>-->
+<!--                    <option>numbers</option>-->
+<!--                    <option>other</option>-->
+<!--                </select>-->
                 <label for="select-leap"><span class="capitalizable">l</span>eap period</label>
                 <select id="select-leap" class="select-leap">
-                    <option>none</option>
-                    <option>leap day</option>
-                    <option>leap week</option>
-                    <option>leap month</option>
+                    <option value="">none</option>
+                    <option>day</option>
+                    <option>week</option>
+                    <option>month</option>
                 </select>
                 <label for="select-intercalary-days"><span class="capitalizable">i</span>ntercalary days</label>
                 <select id="select-intercalary-days" class="select-intercalary-days">
@@ -1079,7 +1082,7 @@ year
                 </select>
                 <label for="select-new-day-time"><span class="capitalizable">n</span>ew day time</label>
                 <select id="select-new-day-time" class="select-new-day-time">
-                    <option>none</option>
+                    <option value="">none</option>
                     <option>midnight</option>
                     <option>sunrise</option>
                     <option>midday</option>
@@ -1088,19 +1091,20 @@ year
                 </select>
                 <label for="select-time"><span class="capitalizable">t</span>ime</label>
                 <select id="select-time" class="select-time">
-                    <option>none</option>
+                    <option value="">none</option>
                     <option>12 hour sexagesimal</option>
                     <option>24 hour sexagesimal</option>
                     <option>chinese</option>
                     <option>decimal</option>
                     <option>other</option>
                 </select>
-                <label for="select-timezones"><span class="capitalizable">t</span>imezones</label>
-                <input id="select-timezones" class="select-timezones" type="checkbox">
-                <label for="select-daylight-saving-time"><span class="capitalizable">d</span>aylight saving time</label>
-                <input id="select-daylight-saving-time" class="select-daylight-saving-time" type="checkbox">
+                <label for="has-timezones"><span class="capitalizable">t</span>imezones</label>
+                <input id="has-timezones" class="has-timezones" type="checkbox">
+                <label for="has-daylight-saving-time"><span class="capitalizable">d</span>aylight saving time</label>
+                <input id="has-daylight-saving-time" class="has-daylight-saving-time" type="checkbox">
                 <label for="select-date-format"><span class="capitalizable">d</span>ate format</label>
                 <select id="select-date-format" class="select-date-format">
+                    <option value="">none</option>
                     <option>dmy</option>
                     <option>dym</option>
                     <option>mdy</option>
@@ -1110,7 +1114,7 @@ year
                 </select>
                 <label for="select-date-separator"><span class="capitalizable">d</span>ate seperator</label>
                 <select id="select-date-separator" class="select-date-separator">
-                    <option>none</option>
+                    <option value="">none</option>
                     <option>: (colon)</option>
                     <option>, (comma)</option>
                     <option>- (dash)</option>
@@ -1121,7 +1125,7 @@ year
                 </select>
                 <label for="select-time-separator"><span class="capitalizable">t</span>ime seperator</label>
                 <select id="select-time-separator" class="select-time-separator">
-                    <option>none</option>
+                    <option value="">none</option>
                     <option>: (colon)</option>
                     <option>, (comma)</option>
                     <option>- (dash)</option>
