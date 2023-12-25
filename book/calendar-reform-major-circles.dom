@@ -1,0 +1,31 @@
+figure.major-circles
+  div.animation-container
+    div.ecliptic
+    div.stars
+      div.sun.star.stellar-body
+    div.earth-container.stellar-body
+      div.atmosphere.stellar-body
+      div.earth-night.stellar-body
+        div.earth-day.stellar-body
+        div.arctic-circle.major-circle
+        div.tropic-of-cancer.major-circle
+        div.equator.major-circle
+        div.tropic-of-capricorn.major-circle
+        div.antarctic-circle.major-circle
+    div.labels
+      div.north-pole-label
+        text north pole
+      div.arctic-circle-label
+        text arctic circle
+      div.cancer-circle-label
+        text tropic of cancer
+      div.equator-circle-label
+        text equator
+      div.capricorn-circle-label
+        text tropic of capricorn
+      div.antarctic-circle-label
+        text antarctic circle
+      div.south-pole-label
+        text south pole
+  figcaption
+    text five major circles. not to scale

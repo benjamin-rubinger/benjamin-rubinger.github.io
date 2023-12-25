@@ -1,0 +1,17 @@
+figure.four-sundials
+  div.animation-container
+    div.stars.animated
+      div.sun.star.stellar-body
+    div.atmosphere.stellar-body
+    div.earth-night.stellar-body
+    div.earth-day.stellar-body.animated
+    div.shadow.up.animated
+    div.indicator.up
+    div.shadow.right.animated
+    div.indicator.right
+    div.shadow.down.animated
+    div.indicator.down
+    div.shadow.left.animated
+    div.indicator.left
+  figcaption
+    text four sundials around the world. midday on one side of the earth is midnight on the other side. the time of day is different at every longitude. not to scale

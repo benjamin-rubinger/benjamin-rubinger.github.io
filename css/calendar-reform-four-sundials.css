@@ -1,0 +1,113 @@
+.four-sundials .stars, .four-sundials .earth-day {
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.four-sundials .indicator {
+    position: absolute;
+    background-color: lightgray;
+}
+.four-sundials .indicator.left {
+    width: 40px;
+    height: 6px;
+    top: 197px;
+    left: 60px;
+}
+.four-sundials .shadow {
+    position: absolute;
+    background-color: black;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.four-sundials .indicator.up {
+    height: 40px;
+    left: 197px;
+    top: 60px;
+    width: 6px;
+}
+.four-sundials .shadow.up {
+    animation-name: shadow-up;
+    height: 6px;
+    left: 160px;
+    top: 97px;
+    transform-origin: right center;
+    width: 40px;
+}
+.four-sundials .indicator.right {
+    height: 6px;
+    left: 300px;
+    top: 197px;
+    width: 40px;
+}
+.four-sundials .shadow.right {
+    animation-name: shadow-right;
+    height: 40px;
+    left: 300px;
+    top: 200px;
+    transform-origin: top center;
+    width: 6px;
+}
+.four-sundials .indicator.down {
+    width: 6px;
+    height: 40px;
+    left: 197px;
+    top: 300px;
+}
+.four-sundials .shadow.down {
+    animation-name: shadow-down;
+    height: 6px;
+    left: 160px;
+    top: 300px;
+    transform-origin: right center;
+    width: 40px;
+}
+.four-sundials .indicator.left {
+    width: 40px;
+    height: 6px;
+    top: 197px;
+    left: 60px;
+}
+.four-sundials .shadow.left {
+    animation-name: shadow-left;
+    height: 40px;
+    left: 97px;
+    top: 160px;
+    transform-origin: bottom center;
+    width: 6px;
+}
+@keyframes shadow-up {
+    from { transform: rotate(180deg) scaleX(2); opacity: 0; }
+    0.5% { opacity: 1; }
+    25% { transform: rotate(270deg) scaleX(0.25); }
+    49.5% { opacity: 1; }
+    50% { transform: rotate(360deg) scaleX(2); opacity: 0; }
+    to { transform: rotate(180deg) scaleX(2); opacity: 0; }
+}
+@keyframes shadow-left {
+    from { transform: rotate(90deg) scaleY(0.25); opacity: 1; }
+    24.5% { opacity: 1 }
+    25% { transform: rotate(180deg) scaleY(2); opacity: 0; }
+    74.5% { opacity: 0; }
+    75% { transform: rotate(0deg) scaleY(2); opacity: 1; }
+    to { transform: rotate(90deg) scaleY(0.25); opacity: 1; }
+}
+@keyframes shadow-right {
+    from { transform: rotate(0deg) scaleY(2); opacity: 0; }
+    24.5% { opacity: 0 }
+    25% { transform: rotate(0deg) scaleY(2); opacity: 1; }
+    50% { transform: rotate(90deg) scaleY(0.25); }
+    74.5% { opacity: 1; }
+    75% { transform: rotate(180deg) scaleY(2); opacity: 0; }
+    to { transform: rotate(180deg) scaleY(2); opacity: 0; }
+}
+@keyframes shadow-down {
+    from { transform: rotate(0deg) scaleX(2); opacity: 0; }
+    49.5% { opacity: 0; }
+    50% { transform: rotate(0deg) scaleX(2); opacity: 1; }
+    75% { transform: rotate(90deg) scaleX(0.25); }
+    99.9% { opacity: 1 }
+    to { transform: rotate(180deg) scaleX(2); opacity: 0; }
+}

@@ -1,0 +1,17 @@
+figure.where-are-we
+  div.animation-container
+    div.view-container.animated
+      div.sky
+      div.stars
+      div.ocean
+        div.wave.wave0.animated
+        div.wave.wave1.animated
+        div.wave.wave2.animated
+        div.wave.wave3.animated
+        div.wave.wave4.animated
+      div.label where-are-we.animated
+        text where are we now?
+    div.railing
+  figcaption
+    text where are we now? navigating the ocean
+  

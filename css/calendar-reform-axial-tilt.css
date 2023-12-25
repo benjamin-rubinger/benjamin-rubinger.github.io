@@ -1,0 +1,225 @@
+.axial-tilt .ecliptic {
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 50%;
+}
+.axial-tilt .earth-container {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    animation-name: tilt-animation;
+    animation-delay: -10s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.axial-tilt .earth-night {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.axial-tilt .earth-day {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    animation-name: anti-tilt-animation;
+    animation-delay: -10s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.axial-tilt .atmosphere {
+    left: -20px;
+    top: -20px;
+}
+.axial-tilt .major-circle {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+    position: absolute;
+    width: 100%;
+}
+.axial-tilt .arctic-circle {
+    /* 66°33′49.3″ 66.563694 degrees  1.1617556225899943 radians  sin(radians) = 0.9175027850207164  (1 - 0.9175027) * 100 = 8.24973  */
+    height: 8px;
+}
+.axial-tilt .tropic-of-cancer {
+    /* 23.43631 degrees  0.40904077401807226 radians  sin(radians) = 0.3977294186144243  (1 - _) * 100 = 60.227  60  */
+    height: 60px;
+}
+.axial-tilt .equator {
+    height: 100px;
+}
+.axial-tilt .tropic-of-capricorn {
+    height: 140px;
+}
+.axial-tilt .antarctic-circle {
+    height: 191px;
+}
+.axial-tilt .labels {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.axial-tilt .labels div {
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: -10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.axial-tilt .arctic-label {
+    left: 50%;
+    top: 75px;
+}
+.axial-tilt .arctic-label.day {
+    animation-name: arctic-0;
+
+}
+.axial-tilt .antarctic-label.night {
+    animation-name: arctic-0;
+}
+.axial-tilt .arctic-label.night {
+    animation-name: arctic-1;
+}
+.axial-tilt .antarctic-label.day {
+    animation-name: arctic-1;
+}
+.axial-tilt .northern-hemisphere-label {
+    left: 290px;
+    top: 130px;
+}
+.axial-tilt .equator-label {
+    left: 100px;
+    top: 20px;
+}
+.axial-tilt .equator-label.equinox-going-north {
+    animation-name: equinox-going-north;
+}
+.axial-tilt .equator-label.northern-solstice {
+    animation-name: northern-solstice;
+}
+.axial-tilt .equator-label.equinox-going-south {
+    animation-name: equinox-going-south;
+}
+.axial-tilt .equator-label.southern-solstice {
+    animation-name: southern-solstice;
+}
+.axial-tilt .northern-hemisphere-label.spring, .axial-tilt .southern-hemisphere-label.fall {
+    animation-name: season-0;
+}
+.axial-tilt .northern-hemisphere-label.summer, .axial-tilt .southern-hemisphere-label.winter {
+    animation-name: season-1;
+}
+.axial-tilt .northern-hemisphere-label.fall, .axial-tilt .southern-hemisphere-label.spring {
+    animation-name: season-2;
+}
+.axial-tilt .northern-hemisphere-label.winter, .axial-tilt .southern-hemisphere-label.summer {
+    animation-name: season-3;
+}
+.axial-tilt .southern-hemisphere-label {
+    left: 290px;
+    top: 245px;
+}
+.axial-tilt .antarctic-label {
+    left: 50%;
+    top: 300px;
+}
+
+@keyframes tilt-animation {
+    from { transform: rotate(0deg) }
+    25% { transform: rotate(-23.4deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(23.4deg) }
+    to { transform: rotate(0deg) }
+}
+@keyframes anti-tilt-animation {
+    from { transform: rotate(0deg) }
+    25% { transform: rotate(23.4deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(-23.4deg) }
+    to { transform: rotate(0deg) }
+}
+@keyframes arctic-0 {
+    from { opacity: 1; }
+    49.5% { opacity: 1; }
+    50% { opacity: 0; }
+    99.5% { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes arctic-1 {
+    from { opacity: 0; }
+    49.5% { opacity: 0; }
+    50% { opacity: 1; }
+    99.5% { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes equinox-going-north {
+    from { opacity: 1; }
+    12% { opacity: 1; }
+    12.5% { opacity: 0; }
+    87% { opacity: 0; }
+    87.5% { opacity: 1; }
+    to { opacity: 1; }
+}
+@keyframes northern-solstice {
+    from { opacity: 0; }
+    12% { opacity: 0; }
+    12.5% { opacity: 1; }
+    37% { opacity: 1; }
+    37.5% { opacity: 0; }
+    to { opacity: 0; }
+}
+@keyframes equinox-going-south {
+    from { opacity: 0; }
+    37% { opacity: 0; }
+    37.5% { opacity: 1; }
+    62% { opacity: 1; }
+    62.5% { opacity: 0; }
+    to { opacity: 0; }
+}
+@keyframes southern-solstice {
+    from { opacity: 0; }
+    62% { opacity: 0; }
+    62.5% { opacity: 1; }
+    87% { opacity: 1; }
+    87.5% { opacity: 0; }
+    to { opacity: 0; }
+}
+
+@keyframes season-0 {
+    from { opacity: 1; }
+    24.5% { opacity: 1; }
+    25% { opacity: 0; }
+    99.5% { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes season-1 {
+    from { opacity: 0; }
+    24.5% { opacity: 0; }
+    25% { opacity: 1; }
+    49.5% { opacity: 1; }
+    50% { opacity: 0; }
+    to { opacity: 0; }
+}
+@keyframes season-2 {
+    from { opacity: 0; }
+    49.5% { opacity: 0; }
+    50% { opacity: 1; }
+    74.5% { opacity: 1; }
+    75% { opacity: 0; }
+    to { opacity: 0; }
+}
+@keyframes season-3 {
+    from { opacity: 0; }
+    74.5% { opacity: 0; }
+    75% { opacity: 1; }
+    99.5% { opacity: 1; }
+    to { opacity: 0; }
+}

@@ -1,0 +1,71 @@
+figure.timezones
+  div.animation-container
+    div.stars.animated
+    div.atmosphere.stellar-body
+    div.earth-night.stellar-body
+    div.earth-day.stellar-body.animated
+    div.timezone-container.stellar-body.animated
+      div.timezone.prime
+      div.timezone.one
+      div.timezone.two
+      div.timezone.three
+      div.timezone.four
+      div.timezone.five
+      div.timezone.six
+      div.timezone.seven
+      div.timezone.eight
+      div.timezone.nine
+      div.timezone.ten
+      div.timezone.eleven
+      div.timezone.twelve
+    div.time-labels.animated
+      div.label.zero.animated
+        text 0
+      div.label.one.animated
+        text 1
+      div.label.two.animated
+        text 2
+      div.label.three.animated
+        text 3
+      div.label.four.animated
+        text 4
+      div.label.five.animated
+        text 5
+      div.label.six.animated
+        text 6
+      div.label.seven.animated
+        text 7
+      div.label.eight.animated
+        text 8
+      div.label.nine.animated
+        text 9
+      div.label.ten.animated
+        text 10
+      div.label.eleven.animated
+        text 11
+      div.label.twelve.animated
+        text 12
+      div.label.thirteen.animated
+        text 13
+      div.label.fourteen.animated
+        text 14
+      div.label.fifteen.animated
+        text 15
+      div.label.sixteen.animated
+        text 16
+      div.label.seventeen.animated
+        text 17
+      div.label.eighteen.animated
+        text 18
+      div.label.nineteen.animated
+        text 19
+      div.label.twenty.animated
+        text 20
+      div.label.twentyone.animated
+        text 21
+      div.label.twentytwo.animated
+        text 22
+      div.label.twentythree.animated
+        text 23
+  figcaption
+    text timezones

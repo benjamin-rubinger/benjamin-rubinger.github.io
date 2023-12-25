@@ -1,0 +1,113 @@
+.earth-revolution.pole .pole-container {
+    width: 80px;
+    height: 80px;
+    left: -40px;
+    top: 100px;
+}
+.earth-revolution.pole .pole-container {
+    animation-name: anti-rotation;
+    animation-delay: -5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.earth-revolution.pole .pole {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    left: 50px;
+    top: 35px;
+}
+.earth-revolution.pole .label {
+    left: 8px;
+    top: 2px;
+    animation-delay: 0s;
+}
+.earth-revolution.pole .label.equinox-going-south {
+    animation-name: revolution-0;
+}
+.earth-revolution.pole .label.fall {
+    animation-name: revolution-1;
+}
+.earth-revolution.pole .label.southern-solstice {
+    animation-name: revolution-2;
+}
+.earth-revolution.pole .label.winter {
+    animation-name: revolution-3;
+}
+.earth-revolution.pole .label.equinox-going-north {
+    animation-name: revolution-4;
+}
+.earth-revolution.pole .label.spring {
+    animation-name: revolution-5;
+}
+.earth-revolution.pole .label.northern-solstice {
+    animation-name: revolution-6;
+}
+.earth-revolution.pole .label.summer {
+    animation-name: revolution-7;
+}
+@keyframes revolution-0 {
+    from { opacity: 100% }
+    6.249% { opacity: 100% }
+    6.25% { opacity: 0 }
+    93.749% { opacity: 0 }
+    93.75% { opacity: 100% }
+    to { opacity: 100% }
+}
+@keyframes revolution-1 {
+    from { opacity: 0 }
+    6.249% { opacity: 0 }
+    6.25% { opacity: 100% }
+    18.749% { opacity: 100% }
+    18.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-2 {
+    from { opacity: 0 }
+    18.749% { opacity: 0 }
+    18.75% { opacity: 100% }
+    31.249% { opacity: 100% }
+    31.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-3 {
+    from { opacity: 0 }
+    31.249% { opacity: 0 }
+    31.25% { opacity: 100% }
+    43.749% { opacity: 100% }
+    43.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-4 {
+    from { opacity: 0 }
+    43.749% { opacity: 0 }
+    43.75% { opacity: 100% }
+    56.249% { opacity: 100% }
+    56.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-5 {
+    from { opacity: 0 }
+    56.249% { opacity: 0 }
+    56.25% { opacity: 100% }
+    68.749% { opacity: 100% }
+    68.75% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-6 {
+    from { opacity: 0 }
+    68.749% { opacity: 0 }
+    68.75% { opacity: 100% }
+    81.249% { opacity: 100% }
+    81.25% { opacity: 0 }
+    to { opacity: 0 }
+}
+@keyframes revolution-7 {
+    from { opacity: 0 }
+    81.249% { opacity: 0 }
+    81.25% { opacity: 100% }
+    93.749% { opacity: 100% }
+    93.75% { opacity: 0 }
+    to { opacity: 0 }
+}

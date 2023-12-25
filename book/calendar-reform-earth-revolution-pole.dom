@@ -1,0 +1,30 @@
+figure.earth-revolution.pole
+  div.animation-container
+    div.stars
+    div.sun.stellar-body
+    div.earth-orbit
+    div.earth-orbit-container.animated
+      div.earth-container.stellar-body.animated
+        div.atmosphere
+        div.earth-night.stellar-body
+        div.earth-day.stellar-body
+      div.pole-container.stellar-body.animated
+        div.pole.stellar-body
+    div.label.spring.animated
+      text spring
+    div.label.summer.animated
+      text summer
+    div.label.fall.animated
+      text fall
+    div.label.winter.animated
+      text winter
+    div.label.equinox-going-north.animated
+      text equinox going north
+    div.label.northern-solstice.animated
+      text northern solstice
+    div.label.equinox-going-south.animated
+      text equinox going south
+    div.label.southern-solstice.animated
+      text southern solstice
+  figcaption
+    text earth revolution from above showing the north pole and axial tilt. not to scale

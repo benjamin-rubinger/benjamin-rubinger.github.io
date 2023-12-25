@@ -1,0 +1,20 @@
+figure.earth-revolution-side.calendar-reform
+  div.animation-container
+    div.stars
+    div.title.back.animated
+      text humans on earth
+    div.earth-container.stellar-body.animated
+      div.atmosphere
+      div.pole-side
+      div.earth-night.stellar-body
+      div.earth-day.left.stellar-body.animated
+      div.earth-day.right.stellar-body.animated
+      div.earth-night.left.stellar-body.animated
+      div.earth-night.right.stellar-body.animated
+      div.equator
+    div.title.front.animated
+      text humans on earth
+    div.labels
+      div.northern-hemisphere-label.pre-title
+        text the best calendar for
+  figcaption

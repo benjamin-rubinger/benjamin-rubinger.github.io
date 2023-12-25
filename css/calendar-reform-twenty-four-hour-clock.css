@@ -1,0 +1,31 @@
+.twenty-four-hour-clock .stars, .twenty-four-hour-clock .earth-day {
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.twenty-four-hour-clock .sunrise {
+    left: 10px;
+    top: 190px;
+}
+.twenty-four-hour-clock .morning {
+    left: 25px;
+    top: 75px;
+}
+.twenty-four-hour-clock .midday {
+    left: 200px;
+    top: 10px;
+}
+.twenty-four-hour-clock .evening {
+    right: 10px;
+    top: 75px;
+}
+.twenty-four-hour-clock .sunset {
+    right: 10px;
+    top: 190px;
+}
+.twenty-four-hour-clock .midnight {
+    left: 200px;
+    bottom: 10px;
+}

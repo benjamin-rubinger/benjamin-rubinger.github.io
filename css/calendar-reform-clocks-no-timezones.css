@@ -1,0 +1,18 @@
+.clocks-no-timezones .stars, .clocks-no-timezones .earth-day {
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.clocks-no-timezones .clock.right {
+    left: 250px;
+    top: 150px;
+}
+.clocks-no-timezones .clock.bottom {
+    top: 250px;
+}
+.clocks-no-timezones .clock.left {
+    left: 50px;
+    top: 150px;
+}

@@ -1,0 +1,24 @@
+figure.twenty-four-hour-clock
+  div.animation-container
+    div.stars.animated
+      div.sun.star.stellar-body
+    div.atmosphere.stellar-body
+    div.earth-night.stellar-body
+    div.earth-day.stellar-body.animated
+    div.clock.stellar-body
+      div.clock-indicator
+      div.hand-hours animated
+    div.sunrise.label
+      text sunrise
+    div.morning.label
+      text morning
+    div.midday.label
+      text midday
+    div.evening.label
+      text evening
+    div.sunset.label
+      text sunset
+    div.midnight.label
+      text midnight
+  figcaption
+    text 24 hour clock vs the rotation of the earth. not to scale

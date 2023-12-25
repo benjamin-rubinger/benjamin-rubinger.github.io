@@ -1,0 +1,37 @@
+.sundial-space .stars, .sundial-space .earth-day {
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.sundial-space .sunrise {
+    position: absolute;
+    left: 10px;
+    top: 190px;
+}
+.sundial-space .morning {
+    position: absolute;
+    left: 25px;
+    top: 75px;
+}
+.sundial-space .midday {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+.sundial-space .evening {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+}
+.sundial-space .sunset {
+    position: absolute;
+    right: 10px;
+    top: 190px;
+}
+.sundial-space .midnight {
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+}

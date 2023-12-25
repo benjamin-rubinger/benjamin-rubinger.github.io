@@ -1,0 +1,21 @@
+figure.twenty-four-hour-clocks
+  div.animation-container
+    div.stars.animated
+      div.sun.star.stellar-body
+    div.atmosphere.stellar-body
+    div.earth-night.stellar-body
+    div.earth-day.stellar-body.animated
+    div.clock.top.stellar-body
+      div.clock-indicator
+      div.hand-hours.animated
+    div.clock.right.stellar-body
+      div.clock-indicator
+      div.hand-hours.animated
+    div.clock.bottom.stellar-body
+      div.clock-indicator
+      div.hand-hours.animated
+    div.clock.left.stellar-body
+      div.clock-indicator
+      div.hand-hours.animated
+  figcaption
+    text 24 hour clocks with timezones. not to scale

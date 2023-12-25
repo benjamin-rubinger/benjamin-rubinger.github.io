@@ -1,0 +1,49 @@
+figure.axial-tilt
+  div.animation-container
+    div.ecliptic
+    div.stars.animated
+      div.sun.star.stellar-body
+    div.earth-container.stellar-body.animated
+      div.atmosphere.stellar-body
+      div.earth-night.stellar-body
+        div.earth-day.stellar-body.animated
+        div.arctic-circle.major-circle
+        div.tropic-of-cancer.major-circle
+        div.equator.major-circle
+        div.tropic-of-capricorn.major-circle
+        div.antarctic-circle.major-circle
+    div.labels
+      div.arctic-label.day.animated
+        text continuous day
+      div.arctic-label.night.animated
+        text continuous night
+      div.northern-hemisphere-label.spring.animated
+        text spring
+      div.northern-hemisphere-label.summer.animated
+        text summer
+      div.northern-hemisphere-label.fall.animated
+        text fall
+      div.northern-hemisphere-label.winter.animated
+        text winter
+      div.equator-label.equinox-going-north.animated
+        text equinox going north
+      div.equator-label.northern-solstice.animated
+        text northern solstice
+      div.equator-label.equinox-going-south.animated
+        text equinox going south
+      div.equator-label.southern-solstice.animated
+        text southern solstice
+      div.southern-hemisphere-label.spring.animated
+        text spring
+      div.southern-hemisphere-label.summer.animated
+        text summer
+      div.southern-hemisphere-label.fall.animated
+        text fall
+      div.southern-hemisphere-label.winter.animated
+        text winter
+      div.antarctic-label.day.animated
+        text continuous day
+      div.antarctic-label.night.animated
+        text continuous night
+  figcaption
+    text axial tilt causing the seasons. note, the earth doesnt wiggle, it stays tilted one way and orbits the sun. not to scale

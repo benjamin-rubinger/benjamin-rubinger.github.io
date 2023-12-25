@@ -1,0 +1,27 @@
+figure.moon-phases
+  div.animation-container
+    div.stars
+    div.moon-dark.stellar-body
+    div.moon-light.right.stellar-body.animated
+    div.moon-dark.right.stellar-body.animated
+    div.moon-light.left.stellar-body.animated
+    div.moon-dark.left.stellar-body.animated
+    div.spherical.stellar-body.animated
+    div.label.new.animated
+      text new
+    div.label.waxing-crescent.animated
+      text waxing crescent
+    div.label.first-quarter.animated
+      text first quarter
+    div.label.waxing-gibbous.animated
+      text waxing gibbous
+    div.label.full.animated
+      text full
+    div.label.waning-gibbous.animated
+      text waning gibbous
+    div.label.last-quarter.animated
+      text last quarter
+    div.label.waning-crescent.animated
+      text waning crescent
+  figcaption
+    text moon phases

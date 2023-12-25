@@ -1,0 +1,12 @@
+figure.earth-revolution
+  div.animation-container
+    div.stars
+    div.sun.stellar-body
+    div.earth-orbit
+    div.earth-orbit-container.animated
+      div.earth-container.stellar-body.animated
+        div.atmosphere
+        div.earth-night.stellar-body
+        div.earth-day.stellar-body
+  figcaption
+    text earth revolution around the sun. not to scale

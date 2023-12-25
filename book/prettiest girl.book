@@ -1,0 +1,147 @@
+page title: prettiest girl - benjamin rubinger
+title: the prettiest girl in the world
+by: benjamin rubinger
+estimated reading time: 10 minutes
+capitalize: queen
+capitalize: snow
+capitalize: white
+
+all caps: usa
+
+apostrophize: woman's
+
+chapter: do you think i am pretty?
+women have asked me this question. i find most women pretty, so i usually answer yes. as far as i can tell, yes is not the answer women want to hear. the answer they want is
+
+you are the prettiest girl in the world!
+
+it's the same question the evil queen asks in snow white. mirror mirror on the wall, whos the fairest of them all?
+
+the correct answer is no, she is not the prettiest girl in the world. but i wonder. who is the prettiest girl in the world? how often does the title of prettiest change from girl to girl? how likely am i to meet the prettiest girl in the world? the questions keep coming. i eventually started my research and now you can see what i found.
+
+bold: this article describes the dynamics of the prettiest girl in the world.
+
+chapter: my conclusions
+we cant all be the best simultaneously. if every woman took turns as the prettiest girl in the world, they could each hold the title for 0.64 seconds. if beauty is normally distributed, there are about 5.3 young women per 10 years that are the prettiest in the world for 1.9 years each. sometimes there is a woman that is the prettiest for many years, and other times a girl is the prettiest only for a moment. maybe you have seen a picture of the prettiest girl in the world, but the chance that you will ever meet the current prettiest girl in the world is one in 120 thousand.
+
+chapter: prettiest girl flowchart
+
+image: image/prettiest-girl/prettiest.png
+
+chapter: beauty
+https://en.wikipedia.org/wiki/Beauty
+beauty has subjective and objective parts. on the one hand, beauty is in the eye of the beholder. you and i can individually disagree about how pretty a girl is. on the other hand, people do overall agree how pretty a girl is and we can observe other effects that confirm that some form of beauty is objective.
+
+people commonly rate beauty on a 1 - 10 scale. 1 is ugly, 5 is average and 10 is pretty. fives are common and tens are rare. assuming this model is correct, i modeled beauty as a normal distribution with a mean of 5 and a standard deviation of 1.
+
+https://en.wikipedia.org/wiki/Normal_distribution
+
+this describes 68% of women as between 4 - 6, 95% of women between 3 - 7, 99.7% between 2 - 8, 99.99% between 1 - 9. the normal distribution extends in both directions, so negative numbers or values greater than 10 are possible but rare. my assumption of the normal distribution is the main cause of what i think are some of my counterintuitive results.
+
+chapter: populations
+https://en.wikipedia.org/wiki/Demographics_of_the_world
+i collected some basic worldwide demographic information, meaning numbers like the total number of humans on earth and how many people are women. this is how i started.
+
+7.9 billion people total
+49.5 percent women
+3.93 billion women
+
+chapter: age and beauty
+
+age and beauty are related. when a woman asks if she is the prettiest girl in the world, the beauty she is asking about is her sexual market value based on physical appearance. this version of beauty is related to fertility, not an abstract aesthetic. we need population information about fertile women that excludes babies and menopausal women. we need to choose an age range when women are at their prettiest and find out how many women are in that age range.
+
+the demographic data had a category for ages 15 - 24. a website describing the ages of female models said, and i quote
+
+the majority of models start working before age 16 and their career is over by their mid-20s.
+https://www.answerparadise.net/how/how-long-is-the-average-model-career/
+
+that sounds a lot like 15 - 24. lets use that age range to model pretty women. i used convenient demographic data. if you object to the age range, it turned out that the age range was not that important for my conclusions.
+
+1.22 billion people aged 15 - 24
+604 million women aged 15 - 24
+
+chapter: a simple beauty model
+in my model, i assume each woman has their individual beauty peak somewhere in the age range of 15 - 24. at birth their beauty starts at zero, their beauty increases until their peak. after their peak their beauty fades. menopause is around age 50 and female life expectancy in the usa is 80. i decided to assume beauty goes to zero at age 70. i assumed that beauty changes linearly, so in my model a womans lifetime beauty looks like a triangle.
+
+image: image/prettiest-girl/lifetime.png
+
+this image shows the lifetime beauty of a hypothetical woman. the gray region is her ages 15 - 24.
+
+now i generated millions of hypothetical women. here is an example with three women showing the ten years of their ages 15 - 24.
+
+image: image/prettiest-girl/three%20two.png
+
+there is one woman who starts as the prettiest and continues rising to her peak. after the first woman starts declining, a second woman becomes the prettiest for the rest of the time, reaching her peak near the end. the third woman is never the prettiest and reaches her peak after the first woman and before the second woman.
+
+the next example shows a thousand women. in this case, one woman is prettier than everyone else and is the prettiest girl the whole ten years.
+
+image: image/prettiest-girl/thousand%20one.png
+
+the last example also shows a thousand women, with four different women becoming the prettiest girl over the ten years.
+
+image: image/prettiest-girl/thousand%20four.png
+
+chapter: results
+
+all simulations updated each womans beauty every day for 3652 days, 10 years. each row is the average of 100 runs. thats why there can be 5.38 prettiest women on average, even though in reality there can only be whole numbers of prettiest women.
+
+grid3:
+simulated population of women
+prettiest average count
+prettiest average years
+100000
+5.38
+1.85
+200000
+5.49
+1.82
+300000
+4.95
+2.02
+400000
+5.31
+1.88
+500000
+5.41
+1.84
+600000
+5.38
+1.85
+700000
+5.37
+1.86
+
+subsection:
+it appears that the use of the normal distribution implies that the population size doesnt matter, the number of prettiest girls per decade stays the same. as the population size grows, the extremity of how pretty the prettiest girl is does increase.
+
+average least pretty girl who is ever the prettiest girl in the world? 9.8
+
+chapter: meeting the prettiest girl in the world
+
+what are the chances that a girl that you meet is the prettiest girl in the world at that time?
+
+grid2:
+how many people will you ever meet in your life?
+assume 80000
+percentage of people that are women?
+49.5%
+women you will meet in your life of all ages?
+39600
+female life expectancy in the usa?
+80
+assuming even age distribution, chance the women you meet will be aged 15 to 24?
+1 in 8 
+women aged 15 to 24 you will meet?
+4950
+chance any woman aged 15 - 24 is the prettiest girl in the world at that time?
+1 in 604 million
+chance that a girl you meet is the prettiest girl in the world at that time?
+1 in 120 thousand
+
+subsection:
+
+typical prettiest girl you will meet in your life? 9.2 at one point in her life but probably not now.
+typical prettiest girl you will meet when she is 15 - 24? 8.6
+
+
+thanks for reading! i would love to hear your constructive feedback :)

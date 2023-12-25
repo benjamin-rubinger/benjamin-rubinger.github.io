@@ -1,0 +1,44 @@
+figure.earth-revolution-side
+  div.animation-container
+    div.stars
+    div.earth-orbit-side
+    div.sun.back.stellar-body.animated
+    div.earth-container.stellar-body.animated
+      div.atmosphere
+      div.pole-side
+      div.earth-night.stellar-body
+      div.earth-day.left.stellar-body.animated
+      div.earth-day.right.stellar-body.animated
+      div.earth-night.left.stellar-body.animated
+      div.earth-night.right.stellar-body.animated
+      div.equator
+      div.major-circle-container.stellar-body.animated
+        div.sun-major-circle.animated
+    div.sun.front.stellar-body.animated
+    div.labels
+      div.northern-hemisphere-label.spring.animated
+        text spring
+      div.northern-hemisphere-label.summer.animated
+        text summer
+      div.northern-hemisphere-label.fall.animated
+        text fall
+      div.northern-hemisphere-label.winter.animated
+        text winter
+      div.equator-label.equinox-going-north.animated
+        text equinox going north
+      div.equator-label.northern-solstice.animated
+        text northern solstice
+      div.equator-label.equinox-going-south.animated
+        text equinox going south
+      div.equator-label.southern-solstice.animated
+        text southern solstice
+      div.southern-hemisphere-label.spring.animated
+        text spring
+      div.southern-hemisphere-label.summer.animated
+        text summer
+      div.southern-hemisphere-label.fall.animated
+        text fall
+      div.southern-hemisphere-label.winter.animated
+        text winter
+  figcaption
+    text earth revolution from the side showing the poles and axial tilt. not to scale
