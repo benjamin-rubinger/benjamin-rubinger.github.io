@@ -1138,12 +1138,6 @@ function formatDate(calendarData, datetimeData) {
 
 /* using https://github.com/visjs/vis-timeline */
 function timeline() {
-    if (!vis) {
-        window.setTimeout(function () {
-            timeline();
-        }, 500);
-        return;
-    }
     const timelineContainer = $('.timeline')[0];
     const items = [
         { content: 'neolithic revolution', start: '-011700-01-01', type: 'point' },
@@ -1469,7 +1463,8 @@ function initializeCalendarReform() {
     registerObservers();
     capitalize();
     apostrophes();
-    timeline();
+    $('script[src="js/vis-timeline-graph2d.min.js"]').on('load', timeline);
+//    timeline();
     // fetchCalendarData('gregorian');
     // let gregorianData = fetchLocal('gregorian');
     // $('section#gregorian-calendar').append(renderCalendarData(gregorianData));
