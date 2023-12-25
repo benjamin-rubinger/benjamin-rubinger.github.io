@@ -738,6 +738,7 @@ function renderBook(lines) {
 //    }
     $book.append($lines);
     generateNavigation();
+    registerObservers();
     capitalize();
     apostrophes();
 }

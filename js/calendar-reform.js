@@ -1459,8 +1459,6 @@ function initializeCalendarReform() {
     insertDateTimeInputs();
     setNow();
     setEpochs();
-    generateNavigation();
-    registerObservers();
     capitalize();
     apostrophes();
     $('script[src="js/vis-timeline-graph2d.min.js"]').on('load', timeline);
