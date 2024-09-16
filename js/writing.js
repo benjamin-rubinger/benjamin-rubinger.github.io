@@ -3,6 +3,11 @@ function capitalizeAll(s) {
 }
 
 function capitalizeFirst(s) {
+//    console.log('capitalize first');
+//    console.log(s);
+    if (!s) {
+        return s;
+    }
     let pre = '';
     let first;
     let rest;
@@ -276,6 +281,7 @@ function navigationEntry($section) {
     }
     const id = $section.attr('id');
     const value = $section.attr('data-value');
+//    console.log(value);
     const navigationId = `navigation-${id}`;
     const text = capitalizeFirst(value);
     // todo apply the other capitalize functions, or refactor the capitalize functions so it is one call
@@ -300,7 +306,7 @@ function generateNavigationForSection($section) {
 }
 
 function generateNavigation() {
-    const $navigationContainer = $('nav.article');
+    const $navigationContainer = $('nav.article .navigation-container');
     const $article = $('div#book');
     const $navigation = generateNavigationForSection($article).unwrap();
     $navigationContainer.empty().append($navigation).show();
@@ -361,7 +367,7 @@ function smaller() {
 }
 
 function changeBook() {
-    $('nav.article').hide();
+    $('nav.article .navigation-container').hide();
     $('div#book').hide();
     $('button.navigation-collapse, button.navigation-expand').hide();
     $('div#books').show();
@@ -627,8 +633,8 @@ function renderBook(lines) {
             const apostropheIndex = value.indexOf('\'');
             const word = value.replace('\'', '');
             apostropheMap[word] = apostropheIndex;
-            console.log('apostrophize');
-            console.log(apostropheMap);
+//            console.log('apostrophize');
+//            console.log(apostropheMap);
             continue;
         }
 
@@ -745,6 +751,9 @@ function renderBook(lines) {
 
 function loadBook(name) {
     console.log(`load book  name ${name}`);
+    if (!name) {
+        return;
+    }
     $('div#books').hide();
     $('div#book').show();
     fetchBook(name, renderBook);
@@ -758,7 +767,6 @@ function loadBookEvent(event) {
 }
 
 function listBooks(books) {
-    console.log(`list books ${books}`);
     const $books = $('ul.books');
     $books.empty();
     for (const book of books) {

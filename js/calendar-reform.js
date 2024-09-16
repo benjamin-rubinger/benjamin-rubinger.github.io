@@ -1462,7 +1462,6 @@ function initializeCalendarReform() {
     capitalize();
     apostrophes();
     $('script[src="js/vis-timeline-graph2d.min.js"]').on('load', timeline);
-//    timeline();
     // fetchCalendarData('gregorian');
     // let gregorianData = fetchLocal('gregorian');
     // $('section#gregorian-calendar').append(renderCalendarData(gregorianData));

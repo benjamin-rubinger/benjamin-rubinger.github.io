@@ -16,9 +16,14 @@ css: css/calendar-reform-twenty-four-hour-clocks.css
 css: css/calendar-reform-clocks-no-timezones.css
 css: css/calendar-reform-timezones.css
 css: css/calendar-reform-where-are-we.css
+
+capitalize: al
+capitalize: athens
 capitalize: april
 capitalize: august
+capitalize: biruni
 capitalize: catholic
+capitalize: celtic
 capitalize: chinese
 capitalize: christian
 capitalize: christ
@@ -27,7 +32,9 @@ capitalize: earth
 capitalize: earths
 capitalize: egypt
 capitalize: egyptian
+capitalize: france
 capitalize: french
+capitalize: greek
 capitalize: gregorian
 capitalize: gregory
 capitalize: hebrew
@@ -40,27 +47,36 @@ capitalize: july
 capitalize: june
 capitalize: february
 capitalize: march
-capitalize: may
+capitalize: meton
+capitalize: metonic
+capitalize: monday
+capitalize: napolean
 capitalize: november
 capitalize: october
 capitalize: ptolemy
 capitalize: roman
+capitalize: rome
 capitalize: september
 capitalize: unix
 capitalize: tiw
+capitalize: tuesday
 capitalize: mars
+capitalize: wednesday
 capitalize: woden
 capitalize: odin
 capitalize: marcury
 capitalize: thor
+capitalize: thames
+capitalize: thursday
 capitalize: jupiter
+capitalize: friday
 capitalize: frigg
 capitalize: venus
+capitalize: saturday
 capitalize: saturn
+capitalize: sunday
 capitalize: norse
 capitalize: roman
-capitalize: al
-capitalize: biruni
 capitalize: iranian
 capitalize: greenwich
 capitalize: london
@@ -97,6 +113,7 @@ all caps: xiii
 
 apostrophize: earth's
 apostrophize: moon's
+apostrophize: indicator's
 
 page title: the best human earth calendar - benjamin rubinger
 title: the best human earth calendar
@@ -551,7 +568,7 @@ subsection: establishment of the observatory at greenwich
 https://en.wikipedia.org/wiki/History_of_longitude
 greenwich is a town in the southeast of london, england. greenwich has an observatory that was established in 1675 ad to use astronomy to solve the problem of determining longitude when travelling at sea, commonly phrased as the question &quot;where are we now?&quot; anyone who has travelled without gps knows this feeling. britain was a naval power and wanted to reliably navigate the oceans. several european countries at that time, including britain, offered prizes for a solution to the longitude problem. two solutions were found, and one of them was to use an accurate clock and some observations of the stars to determine the longitude.
 subsection: timekeeping
-the greenwich observatory was then used to keep accurate time by precisely measuring midday to help sailors set their clocks. starting in 1833 the observatory communicated the time by dropping 🔴 a large time ball down a high pole precisely at noon every day so that nearby ships could synchronize their clocks to it. this practice is the origin of the ball drop tradition on new years eve.
+the greenwich observatory was then used to keep accurate time by precisely measuring midday to help sailors set their clocks. starting in 1833 the observatory communicated the time by dropping 🔴 a large time ball down a high pole precisely at noon every day so that nearby ships in the river thames could synchronize their clocks to it. this practice is the origin of the ball drop tradition on new years eve.
 subsection: standardization
 before the introduction of railways, towns in england kept their own time of day. each town kept a different time. when railways were developed they travelled through all the different towns, and they needed a consistent time. in 1848 the railways standardized their clocks on the greenwich observatory time, which then became the standard time across england and nearby territories.
 subsection: greenwich mean time
@@ -602,7 +619,7 @@ subsection:
 
 interactive table of date formats
 <table class="formats">
-    <tr><th>format</th><th>example</th></tr>
+    <tr><th>format&nbsp;</th><th>example</th></tr>
     <tr><td>d/m/yyyy</td><td class="format-example" data-format="m/d/yyyy"></td></tr>
     <tr><td>dd.mm.yy</td><td class="format-example" data-format="dd.mm.yy"></td></tr>
     <tr><td>d-m-yyyy</td><td class="format-example" data-format="d-m-yyyy"></td></tr>
@@ -772,7 +789,7 @@ class: julian-days
 class: datetime-container
 
 subsection: exercise
-what is the date 100 days before today or after today in the gregorian calendar and in julian days?
+what is the date 1000 days before today or after today in the gregorian calendar and in julian days?
 
 section: 🇫🇷 french republican calendar
 https://en.wikipedia.org/wiki/French_Republican_calendar
@@ -1247,7 +1264,9 @@ thank you to my spouse, eric berglund and olga sazonova for their helpful feedba
 
 section: references
 https://www.fourmilab.ch/documents/calendar
+https://www.youtube.com/shorts/T0f6u39jlRA
+https://www.scientificamerican.com/article/experts-time-division-days-hours-minutes/
 
 js: js/vis-timeline-graph2d.min.js
-js: js/calendar-reform.js?8
+js: js/calendar-reform.js
 js: js/calendar-animations.js
