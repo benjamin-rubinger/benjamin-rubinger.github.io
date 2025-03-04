@@ -150,9 +150,10 @@ section: the best human earth calendar
 this is my calendar proposal.
 epoch - holocene era, 10,000 years before the gregorian epoch, an arbitrary year at the beginning of human civilization. add 10000 to the gregorian year, so 2022 gregorian is 12022 holocene.
 new year day - equinox going south, september 23rd gregorian.
+leap year - same as gregorian
 group days into years - ordinal days, the day of the year goes from 0 to 364, or 365 on a leap year. no months. you can add your own groupings like we already do with weeks or quarters.
 new day time - midnight, same as gregorian.
-divide a day into time - decimal time. time of day is a number between 0 and 1, midnight is 0.0, six am is 0.25, twelve pm is 0.5, etc.
+divide a day into time - decimal time. time of day is a number between 0 and 1, midnight is 0.0, six am is 0.25, twelve pm is 0.5, etc. with unlimited precision.
 
 additionally, eliminate daylight savings time and timezones. everyone would use universal coordinated time (utc).
 
@@ -474,7 +475,7 @@ section: leap days
 https://en.wikipedia.org/wiki/Leap_year
 https://en.wikipedia.org/wiki/Common_year
 years take ~365.2422 days and calendars are usually organized by whole days. rounding down, a year is 365 days long. the process of a leap day adds an additional day called a leap day into a year, the 366th day of that year. the process is commonly called leap year but what leap year means is a year with a leap day in it. a year without a leap day in it is called a common year.
-each year without a leap day shifts the position of the earth around the sun by about a quarter day in the calendar until we use a leap day to realign the calendar with the sun. leap days are added at the frequency that matches the fractional days in the solar year, or slightly less than once every four years. if you dont have any leap years at all, such as in the egyptian calendar, every year your calendar will shift about a quarter day, and the seasons of the calendar will slowly shift until they dont match the seasons caused by the sun. the seasons will keep shifting until eventually they will come back to where you started making a ~1507 year cycle. if we want a solar calendar with whole days that follows the movements of the sun relative to the earth, we need to have leap days, and we need to have the right number of leap days, ~0.2422 per year.
+each year without a leap day shifts the position of the earth around the sun by about a quarter day in the calendar until we use a leap day to realign the calendar with the sun. leap days are added at the frequency that matches the fractional days in the solar year, or slightly less than once every four years. if you dont have any leap years at all, such as in the egyptian calendar, every year your calendar will shift about a quarter day, and the seasons of the calendar will slowly shift until they dont match the seasons caused by the sun. the seasons will keep shifting until eventually they will come back to where you started making a ~1507 year cycle. if we want a solar calendar with whole days that follows the movements of the sun relative to the earth, we need to have leap days, and we need to have the right number of leap days, ~0.2422 per year. any fixed formula for leap days will eventually not match the motions of the earth around the sun, because the earths motion is very regular, but is disturbed by the moon, asteroids, other planets and things like that. in order to keep a calendar aligned with the occasional changes in the earths motions, we have a leap second system to add leap seconds as needed.
 
 section: intercalation
 https://en.wikipedia.org/wiki/Intercalation_(timekeeping)
@@ -510,8 +511,12 @@ in decimal time this could be written as
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minute 68 out of 100 decimal minutes per hour
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;second 11 out of 100 decimal seconds per minute
 the decimal time is shorter and has a simpler structure than sexagesimal time, but it might look confusing to you because you might have never seen decimal time before. of course if you are familiar with sexagesimal time and unfamiliar with decimal time, sexagesimal time will be easy for you to understand and decimal time will be confusing for you. but that is not a fair comparison. a fair comparison is how easy or hard each system is to use if you have equal experience with them.
-if you dont like dealing with tiny fractions of a number, you can shift the decimal point over and write times in terms of seconds instead of days. an entire decimal day is 100 000 seconds, so the time of day i wrote above could equally be written as 46 811 seconds, no decimal point needed. no matter how you structure it, if you want to describe a time precisely then it requires several digits. if you want to describe the time less precisely you can use fewer digits, for example you could round it to 47k decimal seconds or 4.7 decimal hours.
-decimal time requires fewer digits in total than sexagesimal time because all the parts of the time are powers of 10. one central claim of the metric system is that using units that are all powers of 10 is easier to work with than units mixing different number bases such as 12 and 60.
+if you dont like dealing with tiny fractions of a number, you can shift the decimal point over and write times in terms of seconds instead of days. an entire decimal day is 100 000 seconds, so the time of day i wrote above could equally be written as 468 110 microdays, no decimal point needed. no matter how you structure it, if you want to describe a time precisely then it requires several digits. if you want to describe the time less precisely you can use fewer digits, for example you could round it to 47k decimal seconds or 4.7 decimal hours.
+decimal time requires fewer digits in total than sexagesimal time because all the parts of the time are powers of 10. one central claim of the metric system is that using units that are all powers of 10 is easier to work with than units mixing different number bases such as 12 and 60. with sexigesimal time we still resort to decimal time for subseconds. decimal time takes what we already do for subseconds and applies it to the whole day, with variable precision.
+
+it is hard to read long strings of numbers, which is why we use commas within large positive numbers like 1,234,567. for clock displays, we could split up the numbers in the long fraction of the day to make them easier to read, 2022 291.4 68 11 222 333. the data for the date should not have any spaces or separators within the numbers.
+
+we currently have several words for parts of a day, such as hours, minutes, seconds, milliseconds, microseconds and more. we can adapt these words for metric time by using the words deciday for tenths of a day instead of hours, centiday for a hundreth of a day, milliday for a thousanth of a day, microday, and scientific notation for tiny fractions.
 
 section: more about epoch and eras
 if we count years in a calendar, we have to choose a year to start counting from, a year zero. in the gregorian calendar, this is claimed to be the year of the birth of jesus in 1 bc. other calendars choose an epoch based on the year of the creation of the world, the year of the birth of a leader or the year of the formation of a country or government.
@@ -583,7 +588,7 @@ in 1955 ⚛️🕰️ the atomic clock was invented. atomic clocks keep amazingl
 
 section: leap seconds
 https://en.wikipedia.org/wiki/Leap_second
-atomic clocks keep regular time, and the motions of the earth are not constant. since 1972, when the time observed by the motion of the earth differs from the time kept by the atomic clocks by too much, meaning the difference is going to exceed 0.9 seconds, a committee has a meeting and decides to add a leap second to utc. there have been 27 leap seconds at the time i wrote this, and the schedule to add them is irregular, which makes dealing with them difficult.
+atomic clocks keep regular time, and the motions of the earth are not constant. since 1972, when the time observed by the motion of the earth differs from the time kept by the atomic clocks by too much, meaning the difference is going to exceed 0.9 seconds, a committee has a meeting and decides to add a leap second to utc. there have been 27 leap seconds at the time i wrote this, and the schedule to add them is irregular, which makes dealing with them difficult. leap seconds can account for the slight difference between any fixed leap year formula and the naturally varying motions of the earth.
 
 section: ordinal dates
 an ordinal date consists of the year number and the day of year number. ordinal dates avoid specifying months and weeks. the day of year is 1 for january 1, 2 for january 2, ... 32 for february 1, ... 365 for december 31 (or 366 in leap years). similar to julian days, ordinal dates are convenient for dealing with spans of time like in shipping dates or food expiration dates.
@@ -854,7 +859,7 @@ subsection:
 i think seasonal month names are lovely, except that the seasons are different on different parts of the earth, and we would like to make a calendar that works worldwide.
 
 subsection: decimal time
-the french republican calendar implemented decimal time. decimal time takes one day as a unit and breaks the day into parts based on powers of ten. instead of 24 hours in a day, in decimal time there are 10 decimal hours in a day. instead of 60 minutes per hour in sexagesimal time, in decimal time there are 100 decimal minutes per decimal hour. there are 100 decimal seconds per decimal minute. what is the problem with sexagesimal time? you have to separate the time into three parts and count them separately, hours, minutes and seconds. using decimal time, you can use a single number with a decimal point. 1 is one day. midday is halfway through the day, so in decimal time that is 0.5 days, or 5 decimal hours, or 500 decimal minutes, or 50000 decimal seconds.
+the french republican calendar implemented decimal time. decimal time takes one day as a unit and breaks the day into parts based on powers of ten. instead of 24 hours in a day, in decimal time there are 10 decimal hours in a day. instead of 60 minutes per hour in sexagesimal time, in decimal time there are 100 decimal minutes per decimal hour. there are 100 decimal seconds per decimal minute. the decimal can extend as much or as little as needed. what is the problem with sexagesimal time? you have to separate the time into three parts and count them separately, hours, minutes and seconds with decimal subseconds. using decimal time, you can use a single number with a decimal point. 1 is one day. midday is halfway through the day, so in decimal time that is 0.5 days, or 5 decimal hours, or 500 decimal minutes, or 50000 decimal seconds.
 example
 
 gregorian calendar
@@ -1270,3 +1275,5 @@ https://www.scientificamerican.com/article/experts-time-division-days-hours-minu
 js: js/vis-timeline-graph2d.min.js
 js: js/calendar-reform.js
 js: js/calendar-animations.js
+
+comment: holocene ordinal decimal the hod calendar for human readable timestamps. write and submit an rfc. consider to propose a reformulation of metric time around the unit of a metric earth day, metric calendar

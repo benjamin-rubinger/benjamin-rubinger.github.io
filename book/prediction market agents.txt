@@ -1,0 +1,1032 @@
+page title: prediction market agents - benjamin rubinger
+title: prediction market agents
+by: benjamin rubinger
+estimated reading time: 20 minutes
+
+capitalize: google
+capitalize: robin
+capitalize: hanson
+
+apostrophize: company's
+apostrophize: today's
+
+chapter: what are prediction markets
+https://en.wikipedia.org/wiki/Prediction_market
+robin hanson introducing prediction markets https://www.youtube.com/watch?v=4yZKGbq1YmA
+marginal revolution introducing prediction markets https://www.youtube.com/watch?v=jYLgRo8upO0
+rational animations about prediction markets https://www.youtube.com/watch?v=xA27x7GRMZQ
+manifold markets https://manifold.markets/
+metaculus https://www.metaculus.com/questions/?status=open&has_group=false&topic=top-50&type=forecast&order_by=-activity
+polymarket https://polymarket.com/
+predictit https://www.predictit.org/
+base rate times https://www.baseratetimes.com/
+augur https://www.augur.net/
+good judgement project https://www.gjopen.com/
+insight https://insightprediction.com/
+prediction markets are resilient https://x.com/NathanpmYoung/status/1832694333599785319
+
+prediction markets are a proven method to make predictions and decisions that can reliably perform as well or better than any other known decision method such as experts, seniority, voting, dictatorship, debate, surveys, etc.
+
+a prediction market is like a stock in the stock market. anyone can buy and sell shares in it anonymously. the market's value changes based only on the activity of buyers and sellers. prediction markets are unlike stock markets in that a stock market has one stock for one company, while prediction markets have as many markets are you want, one market for each important question. an individual prediction market represents a prediction about a specific, answerable question. for an open prediction market, the question must currently not have an answer, but we must be able to answer the question soon. before we get the answer to the question, we close the market from trading. once we have the answer to the question, we resolve the market and pay the shareholders who made correct predictions. we can use prediction markets to predict many things per company, and make decisions based on the predictions. the predictions will be as good or better than using any other method, so the decisions based on them will be among the best practically achievable decisions given the information available at the time.
+
+for example, imagine we operate a retail store and we want to know, will it rain tomorrow around our store? if it will rain tomorrow, our store should display more umbrellas. if it will not rain, we should display more sunglasses. we open a prediction market. in our rain tomorrow prediction market, anyone can buy yes and no shares. why would traders want to buy shares in our market? because we pay an ante when we open the market that becomes part of the payout when the market resolves. the ante gives traders an incentive to participate, we are paying for information. the traders can trade until its time to act. at that time, we close the market and prepare the store for the next day based on the market's prediction. the next day, it either rains or it doesnt and we learn the answer to the question, did it rain today around our store? we resolve the market and pay the winners. this is different from a stock, because the prediction market closes and resolves instead of staying open.
+
+prediction markets are different from voting. the winner is not the majority. there is an objective answer to the question and the winners are the participants that made correct predictions. voting is about social decisions, such as do we elect person a or person b? prediction markets can predict elections, but prediction markets can do something more valuable. we can make markets such as, if we elect person a, what will this metric be? if we elect person b, what will the metric be? then we can elect the person with the better predicted metric. the market on the person who wasnt elected is invalidated and the participants money is returned, and the market of the person who was elected later resolves and pays the participants that predicted correctly. experience with prediction markets shows that participants that buy or sell in the market for any reason other than accuracy will tend to lose money to people who are only seeking accuracy.
+
+prediction markets let you make better decisions than other decision methods because they allow anyone to participate and the markets pay participants for making accurate predictions. the incentive of a prediction market is to be accurate, unlike other methods. a prediction market allows people to put their money where their mouth is and incentivize people who know better. if they are right then they will be paid for contributing to an accurate prediction that can then be applied to make a useful decision.
+
+chapter: why dont companies use prediction markets?
+
+applying prediction markets to company decisions would allow companies to make a lot lot lot more money. if companies want to make more money, why dont they use prediction markets? because companies have a fixed organizational and social structure that centralizes managers. the concept of a company is a hierarchy of managers over workers (org chart). managers make the decisions for the company. prediction markets are a tool that contradicts managers. managers have the authority to use or not use prediction markets. conventional companies will never use prediction markets. in order to apply prediction markets to business, we have to create a different organizational structure, companies without the conventional role of managers.
+
+chapter: what are prediction market agents
+
+prediction market agents is an organizational technology, a business in a box. it's a tool to help us work together, better. prediction market agents are companies that use prediction markets to make decisions. my goal with prediction market agents is to create an organizational process with better aligned incentives, creating organizations that more effectively pursue opportunities and accomplish their mission. the prediction market agent project will make it easy to form and operate these structurally and socially different organizations. these organizations will avoid some of the typical inefficiencies of conventional companies from their inception. this is the only practical way to apply prediction markets to business, improve our economy, governance, society, way of life and allow a vibrant, hopeful future for humanity.
+
+chapter: conventional companies
+there are already various kinds of companies today, such as small businesses, multinational corporations and non-profits. i will call these conventional companies.
+
+conventional companies today are better than earlier forms of organizations, yet there remain massive inefficiencies in conventional companies. in particular, companies often make avoidable bad decisions. they hire or fire the wrong people, invest in useless projects, squander their positive public reputation, ignore market threats and opportunities, and more. what is incredible is that most of the time, there are people that know the company's mistakes and opportunities in advance, but have no way to act on their accurate predictions. why dont managers listen to their knowledgable colleagues and customers? why dont conventional companies fix their inefficiencies and earn more profit? there are poorly aligned incentives in conventional companies that prevent them from eliminating these inefficiencies, even under competitive pressure from the market. managers can gain individual benefits at the company's expense until the company dies, then move to another company and do the same thing. conventional companies have poorly aligned incentives, so they often squander opportunities, fail their mission, and end up acquired or bankrupt. this is the organizational life cycle.
+https://en.wikipedia.org/wiki/Organizational_life_cycle
+
+chapter: guerilla capitalism
+
+conventional institutions lose institutional capacity over time and need to be revitalized or replaced. incumbents resist change or replacement, they use their resources for regulatory capture and to erect barriers to entry. when incumbents are too strong, you get monopolies, oligoplies, corruption, social decay, black markets, lock in and a hopeless future. the symptoms of social decay are capital misallocation, falling labor force participation, falling birth rate. people want to create value, but when they are prevented from creating value in every way, they can only lash out or lay down to die. to break out of cycles of social decay, you need top down reform. top down reform is supposed to happen as needed, but does not happen when corruption reaches a critical level. top down reform of a corrupt organization requires bottom up support that overwhelms the control of the incumbents. bottom up support comes when someone develops a better way of doing things, people discover it, people experience it, and they want more of it. i am attempting to develop a better way of doing things that anyone can try, a guerilla capitalism.
+
+chapter: the productivity overhang
+
+information technology and automation were supposed to revolutionize work. in the twentieth century, the future imagined beyond the year 2000 was that gdp per capita would increase, there would be abundant products and services. the productivity per worker would increase faster than demand so that work hours per worker would decrease while maintaining a high employement rate. workers show up at their paperless office or telework for their best 10 hours or whatever per week and have ample family, social and leisure time. this is not the experience in 2024. yet the predictions werent wrong, they were incomplete. certain products and services became abundent, but certain other commodities became so much more costly that people are effectively both rich and poor in an unhealthy combination. information and entertainment are abundent, too cheap to meter. clothing is given away and some people treat clothes as disposable. the most advanced devices, such as smart phones, are typically affordable and effectively available to all. the super amazing technological future we imagined for everyone is here, now. even low income people today have better entertainment and stuff than all the kings of history. while some areas have advanced, other products and services have remained stagnant and some have regressed. these commodities increased in cost and outweighed the cost savings in entertainment and technology. the regressive areas include housing, education, health care, food, infrastructure and business. administration and compliance for these industries have ballooned, prices have increased beyond inflation, changes in quality is mixed, and wages for the workers that produce them have declined, inflation adjusted. the government and incumbents are imposing massive bureaucratic costs that increase prices and squeeze wages while strangling supply. our life of abundence is stolen day by day by corruption and waste, while the workers get a smaller and smaller share. to maintain their standard of living, people work more today than they did in the past. if technology improves productivity per worker, then we can produce more with less work. technology has improved. where are the productivity gains? stolen and wasted. if everyone is working so hard, where are the products and services? there arent any, the work is performative, its a sham. many people see the situation and come to a reasonable conclusion, if working isnt beneficial, why should i work? the exchange between workers and the market has become imbalanced in favor of employers, leaving too few benefits for work, so people stop working. labor force participation has declined. the employment rate peaked at 64% in 2000 and now its about 60%. people need to work to survive. but this employement rate is about the same as it was in 1980. the workplace has changed a lot since 1980. people are living and working longer, and many more women work. if the employment rate is the same or only slightly lower, but a lot of older people and women are now in the workforce, who stopped working? prime age men. prime age men had an employment rate of 97.5% in 1954, and 89.5% in 2024.
+
+section: housing
+housing supply is artificially limited by complex local regulation, zoning, nimbys and environmental concerns. the value of homes as investments keeps empty nesters in big houses and drives real estate investors to hoard, contribuing to housing price bubbles. see build baby build by bryan caplan. stop strangling housing supply with zoning and crazy rules, stop incentivising home buyers and the market will build a massive amount of housing. when the chaos of the housing overhang resolves, housing will be better and cheaper than it ever was. people will be able to afford the kind of housing they want without a long commute.
+
+section: education
+the stated goal of education is to teach young people the essential knowledge and skills they will need for success in life. reading, writing, math, history, literature, civics, home economics, science, art, athletics. then, college prepares people to work in advanced industry. trade school teaches practical knowledge and applicable skills, while university teaches some practical skills but mainly teaches you to teach yourself, learn to learn. i have participated in it all, from pre-kindergarden to graduate school. hahahhahahaha! what a load of horse shit! see the case against education by bryan caplan.
+
+the education system doesnt achieve any of its stated goals, except perhaps basic literacy and numeracy for some. i learned a lot of useful stuff for my career at university, but i studied computer science. an engineering or hard science degree is very different from a liberal arts, social science, business, nursing, communications or grievance studies degree.
+
+teachers do not teach, at most they indoctrinate and at least they babysit. school is child prison. and university is a multi year sleepaway camp for young adults.
+
+section: health care
+overall, medical spending does not increase life span. specific medical interventions are wonderful, amazing, super effective. some medicine is important and cost effective, and medical advances are also great great great. some vaccines, like polio, are safe, effective and cheap. some surgeries save lives and fix problems. but some interventions are ineffective and costly, and some are unsafe as well. if you add it all up, health care is not strongly beneficial. and health care spending continues to increase. there is a shortage of doctors, artificially created. lots of people want to become doctors but medical schools limit the number of students and also limit the entry of more medical schools. rules and regulations around medical practice and medical devices are severe, limiting production and stifling innovation. the regulations and incentives around medical insurance are insane, so medical coding is a majority of the work of a doctors office. medical insurance is through your employer, why? no one is incentivized to promote the well being of the patient, and they dont. if you dont pay for the service, you arent the customer, you are the product.
+
+section: food
+the technology of food production has improved over time, but regulation of the farming sector keeps things simultaneously cheap and expensive, and very unhealthy. corn subsidies use petroleum to grow corn to turn into ethanol, 27%. factory farming tortures millions of animals for industrial process convenience, necessitating artificial hormones and medications to keep the animals growing in unhealthy conditions. fertilizer and pesticide use are externalities.
+
+
+
+
+chapter: immature technology
+
+this is a different way of doing business. whenever you look at a new paradigm from the point of view of the conventional paradigm, the new paradigm is plainly worse. between horses and cars, you can feed a horse some grass for free, but for cars you have to pay for gasoline. in this view, horses are better than cars. cars did replace horses for practical transport, because the car paradigm is overall better than the horse paradigm, even though you have to pay for gas.
+
+the prediction market agent system looks very complicated, because i am explicitly modeling the activities of an entire economy. compared to the economy that you implicitly face every day, this system is very simple. you dont use a single system to model our conventional economy, so this system looks complicated compared to nothing.
+
+this is alpha software. it doesnt look right, it doesnt work right, you will be unfamiliar with it. overall it sucks. every new technology starts off worse than the mature alternatives. the question is not, does this system suck right now? it does. we know that this version of the system is worse than the alternative. the question should be, would prediction market agents, if it is more developed and properly applied, would it be a better organizational system than conventional companies, or not?
+
+like the rest of my projects, none of these ideas are new and people have tried similar things before. this project can succeed where others failed due to execution and timing, aka luck.
+
+for example, the crypto people are developing something called daos, decentralized autonomous organizations.
+https://ethereum.org/dao
+
+
+chapter: prediction market agents system
+the prediction market agent system implements my proposed process for running an organization with prediction markets. here are some diagrams!
+
+image: image/prediction%20market%20agents/basic.svg
+
+image: image/prediction%20market%20agents/process.svg
+
+image: image/prediction%20market%20agents/credit.svg
+
+anyone can create agents. an agent can be either an individual or an organization. every agent is a company the same way that you are a person and can create a sole proprietorship. agents purchase items and services for consumption and offer items and services for sale. agents that create value earn points, a hypothetical currency. points can be earned in three ways.
+
+make accurate predictions in prediction markets
+fixed payment for work
+credit for work, profit sharing
+
+agents complete tasks, tasks complete projects, projects develop products, products create items, and sales of items transfer points that are distributed according to the credit. agents can specialize or operate in several different roles, including prediction (trade in prediction markets), planning (define tasks), work (complete tasks) and evaluation (review the work).
+
+section: how do prediction market agents use prediction markets?
+there are five standard prediction market topics. every project needs to predict
+0 how valuable is it?
+1 how much will it cost?
+2 how long will it take?
+
+for tasks
+3 how valuable is it to the project?
+4 how long will it take?
+
+project benefit, cost, timeline. accurate predictions make easy decisions. the agent can pursue projects with the rank order highest predicted long term return on investment ratio. these predictions can change in real time, making the prioritization of projects responsive to changing conditions. some projects have time limitations, such as preparing to sell sweaters before the winter, so the timeline prediction is necessary to decide timing.
+
+all five of these topics provide critical predictions that support algorithmic decisions using all of the available information. crucially, all five of these questions have objective answers that can be resolved in a reasonable amount of time. if we propose or start working on a project today, we dont know how much money it will potentially earn, how much it will cost to complete, or how long it will take. on the day that we complete the project, we will know how long it took and how much it cost to that point. some time after we deliver a project, we will see the revenue.
+
+how do we measure how valuable a task is to a project? you can do a project replication without that task, or create a fork of the product without the result of that task, and measure how much that task omission changes the value of the product.
+
+apart from the standard five topics, agents can create prediction markets on any topic to make policy decisions. should an agent be granted or revoked a privilege, should we increase or decrease prices on a product, etc. these prediction markets need individual designs to resolve them accurately. a/b tests, replicating work, independent evaluators or experiments are needed to resolve the markets.
+
+for hiring
+over the course of a year, how much credit will this person earn in this role?
+what will be the average work quality index for this persons work? work quality index is latency * work quality
+
+chapter: why not build a prediction market platform? why does prediction market agents do all that other stuff?
+
+the essential difference between conventional companies and prediction market agents is prediction markets. why not develop a prediction market platform that anyone and any company can use to create their own prediction markets as needed? why does prediction market agents need to do anything else, like project management or sales, when there are already many tools available to perform these functions? what do those functions have to do with prediction markets?
+
+the technology of prediction markets is well known, proven effective and available to businesses, but remains unused. there are several prediction market platforms, and it is not difficult to build your own prediction market platform if you choose.
+
+knowing all this, the question is, why dont conventional businesses adopt and use prediction markets? dont they want to make money?
+
+robin hanson claims that we dont need generic prediction market platforms that could be applied to any business, what we need for conventional businesses to adopt prediction markets is specialized prediction market tools that provide prediction market applications, ready to use and supported turnkey solutions for existing businesses. when engineers developed the technology of the steam engine, it was an interesting idea but it may have been hard for others to apply that idea to their business. no one knew how to manufacture, operate or maintain steam engines. only when new steam engine companies developed specialized steam engine based products or services for pumping water out of mines, then the steam engine industry begin to develop. robin advocates for creating similarly specialized prediction market applications to allow companies to buy a prediction market product with a specific application and a defined benefit, such as hiring prediction markets.
+
+companies could buy a hiring prediction market tool where interviewers could predict, at the time of an interview, what the future employee review scores for candidates would be after one year of employment. the candidates with the highest predicted employee review scores would be hired. one year later they would complete their annual review and the prediction market could resolve. interviewers with higher employee prediction accuracy would earn money, giving interviewers an incentive to calibrate and help the company hire better employees. win win win!
+
+hiring today is very expensive and error prone for businesses, and conventional businesses already spend a lot of money on products and services for hiring. are there no companies that can figure out how to use existing prediction market platforms to make their own hiring prediction markets and get better employees today? i think there are smart, talented, ambitious people at many companies that are already informed and capable of prediction market hiring.
+
+i disagree with robin hanson that the missing link for conventional companies to adopt prediction markets is turnkey solutions. i think the reason that conventional companies have not adopted prediction markets is not any difficulty or confusion about prediction markets themselves. i think the managers of conventional companies understand the potential applications and benefits of prediction markets well enough. the reason conventional companies persistently and universally refuse prediction markets is that the managers do not want to adopt prediction markets. prediction markets can help the company, but prediction markets harm the interests of managers. the interests of the company and the manager as an individual do not align. this is the principal agent problem. if a manager wants to hire their friend but the hiring prediction market predicts that their friend is not the best choice, they cant hire their friend. if a manager wants to increase the headcount of their team but the prediction market predicts that a larger team would not create a corresponding increase in revenue, then they cant increase the size of their team. if a manager wants to start a project that makes them look good but the prediction market predicts that this project would have a negative return on investment, then they cant do their project. part of a manager's job is to make decisions. prediction markets make predictions, which potentially, or even usually, disagree with the manager's decision. managers are unilaterally able to decide whether to adopt prediction markets. which manager would choose to adopt a tool that will disagree with their decisions? no manager. none. prediction markets are persistently, universally rejected by managers of conventional companies.
+
+conclusion. it is difficult to convince a manager to adopt prediction markets when their salary depends on not adopting prediction markets.
+
+the only way for companies to adopt prediction markets is to form different kinds of companies without conventional managers. how can you operate a company without managers? you need new roles in the organization and tools fulfill all the roles that managers perform. the prediction market agents system has so many features beyond prediction markets because these features allow agents to coordinate to operate a business where the conventional role of managers is replaced by specialized roles like planners and evaluators, while decisions are made using prediction markets.
+
+the prediction market agent system also handles things like tasks and sales to integrate the business operations with the prediction markets, assisting with creating, participating in and resolving prediction markets.
+
+chapter: the principal agent problem
+https://en.wikipedia.org/wiki/principal-agent_problem
+
+the principal agent problem is a special term to describe a universal human problem. no person is an island, people depend on other people to meet their needs. other people do the work that i dont have the resources or ability to do myself. i need to drive places but i dont have the equipment or the know how to maintain or repair my car. on the surface this is a perfect situation, i can specialize my work to what i do best and society needs most, everyone else can do the same, and we can all help each other. but a car mechanic has power over their customers. the mechanic has special knowledge that the customer does not have, and the mechanic can use their knowledge to defraud the customer for the mechanic's benefit. the mechanic can claim that a car needs an expensive service that the car does not require. the customer may not know whether the mechanic's claims are true or not, and taking the car to another mechanic for a second opinion also costs time and money. the cause of this problem is that mechanics are commonly paid per service and can earn more money by performing more services, even when those services are fraudulent. if you paid your mechanic a retainer instead, a continuous fee for keeping the car working, then the mechanic would have an incentive aligned with the customer to minimize services while keeping the car working. this is a fundamental difference between pay for work and pay for result. pay for work increases the principal agent problem, and pay for result reduces the principal agent problem.
+
+managers in conventional companies are the first example listed in the wikipedia article about the principal agent problem for good reason. managers limit communication between every party in a conventional company, create maximum information asymmetry, the role of managers creates a terrible principal agent problem. managers can deceive everyone, their own team members, other teams and upper management. manager performance is difficult to measure objectively, allowing corruption of feedback and collusion. manager roles have power and authority over other people, attracting power hungry sociopaths, politicians, cheats and liars. managers are paid in proportion to the number of employees in their team, giving managers a perverse incentive to increase headcount and power grab. we need to do a reorg! parasitic managers can make an endless stream of false claims, increase narrow metrics in the short term while sacrificing the future potential of the comapny to achieve its overall mission, claim victory, then run to another position or another company and sound the horn of their own triumphs, while the previous company loses potential growth, which is difficult to measure.
+
+managers are political, so they are anti meritocratic and pro bureaucratic. bureaucracy is self serving, the bureaucracy is growing to meet the growing needs of the bureaucracy.
+
+capable people should be successful in theory, but capable people are often unsuccessful in practice. this is partially because of the saying, its not what you know, its who you know. this expression describes that political connections are more important than results. if we reduce the principal agent problem in companies, then the saying will revert to the common sense nonpolitical version, its not who you know, its what you know.
+
+choosing reliable, honest, capable, mission driven managers is a successful strategy. but now the incentive for nefarious agents is to find a way to deceive you to appear reliable, honest, capable and mission driven when they are not, like politicians. until now, we have not found a way to eliminate the principal agent problem of managers in conventional companies.
+
+chapter: replacing conventional managers
+a conventional manager concentrates many roles into one person. in my experience, a manager is responsible for the following garbage bin of responsibilities that individually might not be difficult, but it is rare to find one person that does all or most of these well simultaneously.
+
+underline: responsibilities of conventional managers
+hiring workers, including job listings, interviews, negotiations, onboarding
+administration
+scheduling of projects, meetings, work hours, vacations
+budgeting and resource allocation
+define work process
+define tasks
+assign tasks, reassign tasks, cancel tasks
+coordinate tasks with other teams
+check progress
+report progress
+evaluate work
+allocate credit
+evaluate workers
+compensation negotiation
+assign or conduct worker training
+worker coaching
+make or oversee team decisions
+monitor, adjudicate and enforce policy
+performance improvement and firing workers
+receive and implement directives from upper management
+communicate between the organization and their team
+receive, coordinate and resolve problems about their team
+receive, coordinate and resolve problems from workers
+advocate on behalf of the company to the workers
+advocate on behalf of the workers to the company
+shift blame from themselves to others
+
+managers are often highly paid, self important, micro managing or checked out. the relationship between the worker and their manager is the largest factor in worker satisfaction, meaning it is likely that if i love my job then i love my boss, or if i hate my job then i hate my boss. a process such as scrum can shift some of the responsibilities from the software team manager to the team, such as task definition, task assignment and scheduling. but most companies and teams that say they do scrum dont really do it and degenerate back towards manager command and control.
+
+managers do not want to use prediction markets, so if we want to use prediction markets then we need to replace managers with new roles that have aligned incentives. all of this work that managers are supposed to do needs to be reallocated to new roles in the organization. instead of managers planning tasks, specialized planners or workers plan their own work, like scrum proposes to do. instead of managers evaluating tasks, specialized evaluators or workers evaluate each others tasks, like we do with code review in software development. instead of your manager deciding credit, everyone involved evaluates credit and the algorithm resolves it. instead of the manager making decisions, everyone can trade in prediction markets that make decisions.
+
+grid2:
+conventional manager responsibilty
+prediction market agent replacement
+hiring workers, including job listings, interviews, negotiations, onboarding
+publicly available tasks, bonds, vouching, bidding, evaluators, permissions
+administration
+administration is another task, evaluators
+scheduling projects
+dynamic workforce can grow to the profitable work, prediction markets decide schedules
+scheduling work hours, vacations
+dynamic workforce, pricing
+scheduling meetings
+workers can negotiate meetings among themselves
+budgeting, resource allocation
+prediction markets
+define work process
+planners, prediction markets
+define tasks
+planners
+assign tasks, reassign tasks, cancel tasks
+evaluators, prediction markets
+coordinate tasks with other teams
+workers can coordinate among themselves, issue a bounty
+check progress
+the prediction market agent system allows realtime tracking by workers
+report progress
+the prediction market agent system provides realtime reporting of tracked data
+evaluate work
+evaluators, prediction markets
+allocate credit
+credit system
+evaluate workers
+credit system!
+compensation negotiation
+credit system, market forces
+assign or conduct worker training
+career agents, training services, planners
+worker coaching
+career agents
+make or oversee team decisions
+anyone can start a prediction market, and get credit for useful decisions. specialized worker advocates could earn credit.
+monitor, adjudicate and enforce policy
+evaluators, bounties
+performance improvement and firing workers
+market forces
+receive and implement directives from upper management
+workers complete tasks to implement projects based on policy changes, policy changes come from prediction markets
+communicate between the organization and their team
+typical communication channels, chatrooms, email, wiki, social media, gossip. rumors quashed or validated by prediction markets, put up or shut up
+receive, coordinate and resolve problems about their team
+conventional error handling systems such as customer support, prioritization by prediction market, tasks completed by workers
+receive, coordinate and resolve problems from workers
+insider problems handled the same way as outsider problems
+advocate on behalf of the company to the workers
+no need to advocate, elimination of politics, use prices and prediction markets to decide
+advocate on behalf of the workers to the company
+flxible workforce allows workers to advocate with their feet. prediction markets can change policy for mutual benefit.
+shift blame from managers to others
+its impossible to blame something that doesnt exist :)
+
+section: this process looks heavy and complex
+
+it is a lot of boring repetitive extra work to track all this activity. you can use less granular, bigger tasks to do less reporting. also repetitive actions can eventually be automated so the extra work will eventually go to zero. also this tracking is not wasteful. it provides these specific valuable benefits that are worth far more than the process effort. if the process effort isnt worth the benefits then you may be blind to the benefits or this process is not appropriate for your application.
+
+all of this is making explicit work that is already done explicitly, implicitly, or work that people agree should be done, but often isnt. for example, task definition is sometimes done, but is often skipped. managers prefer workers that know what to do without asking. a shared, implicit understanding of priorities and procedure saves a lot of work and improves efficiency. but when problems or changes inevitably occur, there is no paper trail or established communication to rely on, leading to larger losses. it is also easier for the manager to blame the worker when the work is implicit. the work to define tasks is often skipped when everyone should agree that it is beneficial. if we eliminate the option of implicit work, we also reduce the tendency for hierarchy. task definition, task completion and task evaluation are all just work. someone else might define tasks for you to define, then you define them, and a third person evaluates your tasks.
+
+chapter: how are conventional companies exclusionary
+
+chapter: related work
+https://en.wikipedia.org/wiki/Gig_economy
+task rabbit https://www.taskrabbit.com
+amazon mechanical turk https://www.mturk.com/
+upwork https://www.upwork.com/
+fiverr https://www.fiverr.com/
+freelancer.com
+guru.com
+
+chapter: why conventional companies dont use prediction markets
+why do conventional companies avoid prediction markets?
+is it because conventional companies have not heard about prediction markets? no. the information about prediction markets has been available for decades.
+are prediction markets expensive or difficult to try? no. the cost to try prediction markets is affordable for many organizations, and they have been trialed several times.
+do prediction markets only work in theory, and they dont work in practice? companies have tried prediction markets in practice. when companies tried prediction markets with an appropriate methodology, they found that prediction markets work in practice.
+for example, google operated an internal employee only prediction market service for several months, and then closed it down. the markets worked as described.
+
+why do conventional companies avoid prediction markets? because prediction markets make decisions! there are already people employed at conventional companies as decision makers, the executives. the executives want to keep doing what they are already doing, they do not want to be replaced or overruled by prediction markets. executives also have the authority to decide whether to use prediction markets or not. executives unanimously choose to not use prediction markets. it is very hard to convince someone to use a tool when their salary depends on their not using it. that is why conventional companies avoid prediction markets.
+
+there is no practical, technical or legal reason to avoid prediction markets. as a decision making tool, prediction markets can be state of the art. existing businesses are showing us that there are strong incentives for executives to avoid using prediction markets.
+
+chapter: how can we change the incentives to favor using more effective methods?
+organizations typically calcify around a particular way of doing business and resist many kinds of change. i propose that the only way to change the incentives to use these or other unconventional methods is to form new competitive organizations that operate using these methods from the beginning. the improved methods will give a new company an advantage over an incumbant. now the incentives favor using more effective methods. either the incumbant will respond to even the advantage, such as by adopting prediction markets, or the new company will take market share away from the incumbant and profit.
+
+draw out the open company diagram for closed loop processes. maybe separately describe differences in labor market dynamics between an open and conventional company.
+
+chapter: conventional and scrum project management
+step one someone with influence proposes a project
+management buy in, allocate teams, add to roadmap and budget
+brief the teams and execute
+deliver and abandon
+the dead planning document problem solve by dynamic diagrams
+
+chapter: the ideal and the reality of conventional companies
+
+there are good people who act responsibly everywhere. good people that follow the rules, find effective ways to solve problems, act in the best interests of themselves, the company, the community and the environment. it is equally true that there are bad people everywhere too, they are irresponsible, violate the rules, act selfish or ideologically and harm the company, the community, the environment, and often themselves. there is a third kind of person, the mediocre majority of people. they are incapable, ineffective, muddled, short sighted, disinterested. they cant make new ideas, cant complete difficult projects or tasks, allow bad people to do what they want, and prevent good people from acting. the typical conventional company collects mediocre people, protects bad people, crushes good people, forgets its mission and fails out of the market (the conclusion of the business cycle). the goal of a prediction market agent is to filter out the mediocre people, crush the bad people, protect the good people and fulfill its mission using market forces.
+
+conventional companies are a mixture of functional and dysfunctional dynamics. in some companies at some times, things work how they are supposed to work and things go well. at other times, things dont work how they are supposed to work for many reasons.
+
+https://en.wikipedia.org/wiki/Dilbert
+the comic strip dilbert is a parody of office work, like the movie office space and the tv show, the office. these media are famous partly due to funny jokes, but they are mainly famous because no matter how ridiculous the situation they portray, real life events found a way to make them look like an unbiased and unremarkable documentary.
+
+grid2:
+how companies are supposed to work
+how companies typically work
+profitable company needs to hire more staff to meet growing market demand or to enter a new part of the market
+unprofitable company hires more staff to increase the number of employees under a manager to make them look more important, use an allocated budget, add staff to try to speed up a project behind schedule
+hiring manager writes accurate job description. includes required skills and qualities, work environment, department, team, typical work for the position and pay range. the post is up for a week or two and removed immediately after enough applicantions have been received.
+someone copies and maybe modifies an existing and inaccurate job description. word salad. listed required skills are irrelevant, actual required skills are not listed. required experience is overstated. no mention of what the work will be, or the team listed is inaccurate. no pay range included, it is inaccurate or open to negotiation. job listings stay open, unfilled for months or years.
+qualified applicants apply with accurate information customized to the job requirements.
+applications flood in but most of the applications are so inaccurate that they could be called fraudulent. recruiters looking for a large commision submit inaccurate applications on behalf of job seekers.
+after a few days of collecting applications, the hiring manager selects several of the most promising applicants and interviews them briefly to confirm their qualifications and see if they can work together. they shortly make a decision and negotiate the details with the selected applicants for a straightforward hire. employee starts in a probationary period and leaves quickly if it doesnt work out.
+extended interview process that takes weeks or months to schedule and conclude. phone screen, work sample, skills interview, behavioral interviews, meet the team, meet the manager, salary negotiation, offer letter, background check, first day. applicants are rejected at any time, sometimes silently, and without feedback.
+company offers the job with payment at the market rate for the applicant's skills in their industry
+company offers lowest payment they think the applicant will accept. employees are paid different amounts for the same job even with similar qualifications and similar performance. if an applicant can arrange multiple job offers simultaneously, they can entice the companies to bid against each other and increase their offers.
+applicant takes an appropriate amount of time to consider the offer of employement
+offer letter expires in 24 hours to prevent applicants from shopping offers and renegotiating
+applicant soon becomes a new employee and starts learning their new job on their first day. their new team helps train the new employee in addition to adequate information, facilities and opportunity. they are quickly able to participate. if for any reason they arent able to contribute, they quit or are fired.
+company isnt ready for the employee to start for weeks, their new employee introduction takes over a week before they can start learning their job. the employee mostly has to figure out their job for themselves with inadequate information, facilities, opportunity or support. if they arent able to contribute, it takes months or longer to fire them.
+the team works together to complete the most work with the highest quality
+employees do as little as possible, defend their position, or try to get the most prestigious work to raise their position
+the team manager helps to plan and deliver the most work with the highest quality while promoting the development of the team members. takes responsibility for problems and helps resolve them within the team and across teams. delegates as much as possible to the people doing the work.
+the team manager micromanages, plays favorites, or checks out. they gate keep, all communication must channel through the manager who shifts blame and makes their team look shiny to everyone else. all time spent in meetings and reporting to upper management.
+the company network has relevant and accurate information, timely communication
+the wiki has no documentation about major projects, and outdated information when present. email comes frequently but is not informative or urgent, but sometimes someone expects you to reply immediately so you have to check frequently. slack has hundreds of channels with chatter, confusion and drama. employees receive frequent notifications with low signal to noise, but high cost of not checking.
+meetings are scheduled to solve problems with specific groups of employees. organizers prepare materials in advance and participants arrive on time and prepared to discuss the problem. during the meeting, participants join or leave the meeting depending on whether they are needed. the group works to understand the problem and come to a decision with the right level of risk as quickly as possible, produces a record of the problem, their conclusions and the decision. by the end of the meeting every participant knows what they need to do to take the next step to resolve the problem.
+regular meetings happen with large groups to report status to a manager or for a manager to announce information to the employees. these are always a waste, because reporting can happen asynchronously. people come to meetings unprepared and do not take the time in the meeting to prepare. necessary people are not present in the meeting, and unnecessary people remain in the meeting. people make decisions and no one knows why afterward. if the decision is wrong, you are unsure if the original decision maker knew something that you dont. if the decision is right, you might reverse it for a mistaken reason that they previously avoided.
+employees receive raises and promotions as their productivity increases and their pay adjusts to the market. employees can occasionally change teams to help where needed, work with specific colleagues or learn new skills.
+pushy employees get raises and quiet employees dont. employers dont promote their employees, so employees change companies to advance. managers keep employees in the same role for years or shift them to other teams as convenient to them. managers fire the most experienced employees to save money.
+the product team researches customers and the market, monitors products, explores opportunities and prioritizes the most valuable work for the companys success
+product team chases individual contracts, copies competitors, ignores customer benefit and doesnt create value
+management keeps track of the state of the company and the market to lead the company to continuous success
+management shifts blame, takes credit, grows budget and headcount for personal success at the expense of the company
+employees of different departments work together to make the company successful. all employees try to make improvements and managers consider all proposals. good ideas can come from anywhere.
+keep your head down, the manager knows best, do what i told you, command and control, competition between departments, the right hand doesnt know what the left hand is doing
+only do work within the company core competence. buy competitive products and services outside the core competence.
+not built here syndrome
+share information about everything you do that is not the core competency or market advantage of the company to allow suggestions or share best practices. everyone benefits.
+everything proprietary, nobody benefits and no criticism.
+complete projects that create value and maintain them to continue to create value and create more value with improvements. allow anyone with the skills and interest to improve the system.
+develop, abandon, exclude. solve the immediate problem with a system, prevent anyone from touching the working system. focus on the next problem and abandon the system until it breaks and becomes the problem again.
+
+chapter: replace hr
+
+humans are not resources. humans have resources because humans create resources. humans can trade their resources to better satisfy their preferences, creating gains from trade, an economy. the people that offer to trade their resources with a company are not company resources, they are current trading partners. worker dissatisfaction is a symptom of unhealthy markets due to illiquidity, market manipulation and similar. human resource departments are essential to conventional companies because their function is how the company gets employees, which is the resource the company can apply to get anything done. healthy and innovative conventional companies have functional hr departments, almost all conventional companies have dysfunctional hr departments. prediction market agents support a highly transparent and liquid market in services, a realtime labor market. the conventional role of human resources is eliminated, and the responsibilities are handled partly by the system, and others will likely be handled by new roles that have better aligned incentives, such as career agents. creating custom systems of permissions can be something that planners do, evaluating agents to grant or revoke permissions can be done by either prediction markets or evaluators. testing different policies for permissions can be handled by experimenters.
+
+chapter: incentives
+
+one typical incentive for work is pay. other incentives include camaraderie, the development and expression of mastery and the joy of being useful to others. for some people having an occupation is a way to escape other parts of their life. if someone isnt distracted by work, they will pursue other distractions including time wastes and addictions.
+
+chapter: payment
+
+subsection: commission
+commission is pay for result. if i make 10 widgets, you pay me one coin per widget so you pay me 10 coins. the worker is exposed to all the complexity and risk. efficiency is the workers problem, the buyer can pay a flat amount per widget. this is one of the most effective methods of payment. one downside is that externalities are hard to internalize without monitoring. this method is hard to apply to most jobs. widgets might be a commodity, but what about the people who maintain the widget machines or the people who answer phone calls? evaluating their results is harder to define. you could pay for operational machine hours or phone calls completed, but how to incentivise preventative maintenance, or customer satisfaction? pay for result should be the standard payment method, i think we should face the difficulty of evaluating the value of work.
+
+subsection: hourly wage
+an hourly wage pays for time. if a worker shows up to the factory and is available to make widgets but the widget machine needs unscheduled maintenance that day, the worker wouldnt make any money from commissions even though they were ready to work. the problem is the employer didnt have reserved widget machines or hired too many widget workers. one solution is to pay the worker for their work hours, and then even if they make different numbers of widgets in a day they will be paid the same. now the number of widgets produced per worker is the employer's concern, not the workers, so the workers can have stable income and do their best while the employer has the incentive to increase the widgets per worker. this method has several silly consequences, rigid work schedules that dont accomodate changing circumstances, drag ass and make work to spend more hours, favoritism and bullying by cutting scheduled hours, myopic pursuit of metrics while ignoring quality or other hard to quantify dimensions that also contribute to value. focusing on whether a worker is sitting in a chair for a certain number of hours rather than what the worker produces is horrible.
+
+for specialist labor such as lawyers or mechanics, charging an hourly rate allows them to offer their specialized services to the market with the ability to give price estimates before starting work. they can offer their services to the wide market for anyone who needs them and can afford their rate. their customers are typically non specialists, so the incentive is to commit fraud and claim more hours than they spent. in the other direction, if the client has a maximum price they can afford and the project goes over budget, which can easily happen even to capable and experienced experts, the project can fail, the client can be dissatisfied at paying much more than quoted, or the specialist can be underpaid for their labor.
+
+subsection: salary
+salary work is pay for time in a loose way. it is hard to estimate worker value or productivity, so a salary worker is expected to work at least a certain number of hours per week at certain times of day, but they are paid a fixed salary no matter the exact number of hours that they work. they do not need to account for every minute of their time. managers form a general opinion of the workers productivity but this kind of work is difficult to quantify. often the manager can only really compare employees against each other, i get more value from this employee over that one, or this employee has a skill that none of the other employees can replace. the employer has the advantage over the employees by secretly negotiating individual salaries with each employee and offering them the minimum salary that they think the employee will accept. due to increased employee turnover, employees can now get higher salaries by changing to jobs with better pay. on the other hand, the interview process is so expensive and job offers are so inconsistent that i think employers maintain a significant advantage with salaries. i am against pay for time.
+
+subsection: tenure
+essentially unconditional pay. a tenure position is paid a fixed salary with very low work requirements and is hard to terminate. tenure is almost a job for life. most people would exploit a job with high pay and low requirements to take the money and do nothing. why would anyone offer a job with tenure? the goal of offering a job with tenure is to identify highly capable and self motivated people and support them to do what they wanted to do anyway, especially if you can not know what they need to do in advance. this method is only proven successful in special areas such as research or the judiciary. research is exploratory, expensive and difficult, but the benefits from discoveries can be worth the risks. it is sometimes profitable to pay people to do whatever they want, but only in special circumstances and with special people. tenure is not a good payment method for work in general.
+
+subsection: stock based compensation
+pay for indirect company profit. many employees receive some form of stock based compensation, and some executives receive only stock based compensation. in theory the stock price of a company is the market's best estimate of the companies future earnings. if an individual employee can significantly contribute to increase the companys future profits, then the stock price will increase and that employee will receive a percentage of the value they created. in a limited way this is an ideal form of payment for results. in practice, stock prices swing wildly in the short and even the medium term due to many factors including macroeconomic swings that do not reflect company or individual creation of value, called macro effects and irrationality. the market can remain irrational longer than you can remain solvant. in theory the stock market price should stay around the underlying long term value of the company, in practice the value theory is smashed by an insane obsession with quarterly numbers that have little to do with underlying long term value. in my own experience of stock based compensation, i was offered slowly vesting stock options that i needed to pay for myself in a complex and pointless procedure that was more of an expensive hassle than a form of payment. in theory i support stock based compensation but in practice it is usually counterproductive, wasteful and unreactive. even if someone creates value, they may receive stock compensation years later and depending on how they administer it or due to market conditions they may earn nothing or even lose money. liquidating stock based compensation for the maximum profit requires timing the market, which is impossible in general.
+
+chapter: camaraderie
+humans are social animals, we need interaction with other people to thrive. solitary confinement is considered the worst punishment for criminals because it deprives them of social interaction. one of the benefits of work in an organization is camaraderie, camaraderie includes these joys
+- working with other people to achieve a shared objective
+- being needed by someone else
+- being able to fulfill other peoples needs
+- fulfilling other peoples needs
+- trusting other people
+- being trusted
+- combined efforts achieving something you could not do by yourself
+- maybe a separate section about being useful
+
+chapter: skills, experience, mastery
+one of the benefits of work is developing your skills. as a child you develop skills for your potential future, because other people tell you to, or for fun. in industry you provide a service and you have the repeated opportunity to satisfy customers. the feedback of finding and satisfying customers is the most real and reliable feedback available, except for logical truth. practice with feedback is the most effective way to develop skills, and greater skill produces greater value in the market. there is a joy in growth and a joy in creating value.
+
+chapter: work styles
+section: just tell me what you want done and leave me alone
+work is a basic transaction, something you do to get money. identity, belonging and meaning are either unfulfilled or fulfilled elsewhere. does not want to engage socially, strategically, politically. does not want to coordinate. does not like change. just let me show up as usual, do my work in peace and go home, please. degenerate teamwork is possible by dividing responsibility. you do your part and everything else is not your job. this works when everything is consistent and routine, but does not work when the business changes or has exceptions. they also do not want a tool that tells them that they are doing their job wrong, forces them to think for themselves, coordinate with others.
+
+section: negative nancy
+work is torture, everyone should be tortured equally. i will monitor everyone, complain and gossip. cannot join a team because they are entirely focused on reducing, avoiding or sharing negative reinforcement. positive reinforcement is a cruel joke. does not want a tool that offers them choice or opportunity.
+
+section: lets do something together
+work is a pastime you can spend with other people. its nice to spend time with other people, its nice to be needed. the money and whether the work is useful are less important. occupational therapy. distraction from thinking about yourself or your problems. teamwork is possible, but high achievement isnt the goal so it isnt found. will keep doing things that are ineffective indefinitely as long as they arent solitary. does not want a tool to make their cooperation competitive, but can appreciate invitations to be more needed and helpful.
+
+section: i want to do good, enforce justice, protect the vulnerable, right wrongs
+work is a mission to fix the world, a virtuous battle for what is right. idealistic charities, ngos, activists, lawyers, judges, police, charities, clergy, teachers. the overriding importance of feeling good about yourself, that you are doing the right thing, that you are a good person means that ethics, money, truth and the effects of your actions are less important. teamwork is possible with other true believers, but the requirements for conformity continually rise and ultimately everyone is an infidel. their modus is victory at all costs, so cost is unimportant to them, as is effectiveness, so they do not want a tool to improve efficiency, track cost, tell them that they are inefficient, hence effective altruism as an oxymoron.
+
+section: i want to express myself, create beauty
+work is whatever you can find to pay you for self expression, the only work you find fulfilling. you are a graphic artist, but they will only pay you for creating advertisements, so be it. payment is typically low, what is most important is gaining creative control, so you can more fully express yourself. teamwork is possible if you can share a creative vision, which is possible with shared values and aesthetic, but not common. does not like a tool that reduces their value to numbers, qualitative feedback is more important.
+
+section: i want to compete
+work is a way for me to win, get the thrill of the challenge. the winners survive and the losers die. competition is zero sum or even negative sum. if you team up to defeat an external competitor, they can do some teamwork. but there is always an internal competition too, and internal competition is much more visceral and immediate. internal competition is antithetical to teamwork. likes a tool to help them find challenges, compete, see their progress, win, get credit.
+
+section: i will do what it takes for money or status
+work is a way for me to get money or status. what i do, how it affects other people are less important than getting what i want. teamwork against an external group is possible, but teamwork for internal purposes is impossible, every person for themselves. wants a tool to make more money but does not want a tool that takes away status games.
+
+section: i want to lead
+work is a way to be needed and harness human potential. teamwork is possible if other people do not also want to lead. do not want a tool to take away their leadership role.
+
+section: i want to understand
+work is a way for me to solve problems, fight fires, the thrill of the chase. can do teamwork, but will chase after every problem without discretion between important problems and unimportant problems, treating symptoms instead of causes. fire fighters. likes a tool to give them credit for solving problems and collecting problems for them to solve, but dont want to face the thankless not valuable work they compel themselves to do.
+
+section: i want to find opportunities
+work is a way for me to profit from my discoveries. i want to be first, find something, gain benefits and tell other people that i was there first. can join a team but will compete with other seekers. does want a tool to give them credit for finding opportunities. early adopter, stock trader.
+
+section: i want to explore
+work is a way for me to explore the unknown, expand my horizons. what i do, where i go, what i achieve are less important than travelling somewhere new to me. can produce value, but cannot be directed and cant be part of a team with a specific objective. math. does not want a tool to tell them whether they are productive, do not care.
+
+section: i want to be professional
+work is a duty, and i do it properly. professionalism is part of my identity, but the particular work and the consequences of my work are less important as long as i have done my part. i have a limited responsibility to consider and contribute to the larger picture. i can join a team, and appreciate accurate feedback, as a professional.
+
+section: high performance team
+work is a way for me to achieve together much more than i could do alone. i have specialties, but i will pick up whatever needs to be done to complete the objective. teamwork oriented, values specialists, leaders, other team players.
+
+chapter: belonging, group identity, filling a role, doing it for someone else
+joining a company is joining a tribe. you have pride in your company history, achievements, cultural relevance. by working there, that tribe is part of your identity with a special name, a logo, colors, clothing and more. you feel part of a larger group and mission that supports your life and you are willing to sacrifice for in return. the tribe accepts you, and you feel comfortable that there is somewhere you belong.
+
+chapter: negative incentives of concentional companies
+
+section: hierarchy, dominance, self esteem, dark triad narcissism machiavellianism psychopathy
+if you want to get paid to lie, cheat, steal, manipulate, dominate and make other people suffer, the job you want is to be a manager. companies will pay you to treat other people badly for your own benefit, in the name of the company. this is because treating people as resources allows you to maximize short term benefits, a simplistic and misguided company strategy. the reason that dark triad are invited into management is that the proper role of a manager is not oblivious, weak, credulous or easy. managers properly require strength of will and a certain kind of objectivity that puts results over peoples feelings. its an unhappy coincidence that unfeeling monsters can be very objective. they want to be managers and companies want managers that look a lot like them. but the excesses of dark triad can destroy lives and companies. i want to create organizations that resist and reject antisocial behavior.
+
+narcissism is characterized by grandiosity, pride, egotism, and a lack of empathy.
+machiavellianism is characterized by manipulation and exploitation of others, indifference to morality, lack of empathy, and a strategic focus on self-interest.
+psychopathy is characterized by continuous antisocial behavior, impulsivity, selfishness, callous and unemotional traits, and remorselessness.
+
+section: extraction
+work for hire is assumed to be voluntary. the employer voluntarily wants work to be done and offers a job to the market. workers voluntarily join the job market to do work and voluntarily choose an employer and a job to do, in exchange for money. in a healthy market, there is diversity in the kinds of companies and jobs and workers that allow most participants to get what they want most of the time, all voluntary because trade is positive sum. people need money for shelter and food, so people need money to live. in practice, many markets are unhealthy, which leads to involuntary exchange, extraction. if getting a job is costly and risky, once someone has a job, demands from their employer can be similar to threats with a gun to their head. if the employee doesnt comply, the employer threatens to fire them, which could plausibly result in death. if you need money to live and getting a job is uncertain, you have to do whatever your current employer demands even if you dont want to, wage slavery. this allows employers to demand more and more from employees, reaching an equilibrium of maximum suffering for the employee and maximum profit for the employer in a narrow sense. this describes sweat shops in the garment industry, for example. the most successful companies do not treat their employees this way, because defection is not a winning strategy in a repeated game. with extraction, the company is defecting in a repeated game, so they lose out eventually if anyone else applies the winning strategy. but when management is psychopathic, or they can only respond to simplistic metrics, extraction is the strategy they use. this strategy is unstable because some workers do die, others find any alternative that is less extractive, and the remaining workers stop responding to threats and cant be motivated. the workforce is embittered, sometimes causing a worker revolt. this is also a basis for collective action, a labor union, a worker organization to create an agent with bargaining power equal to the employer. the incentives of the labor union are misaligned with the interests of the employer and also mistaligned with the interests of the workers, but it can reduce extraction and worker revolts.
+
+will an agent in prediction market agents attempt to or become extractive? if prediction market agents is used widely enough, people will be extractive because it is a dominant strategy in one time games. societies can create circumstances that cause markets to become unhealthy and create wage slavery with prediction market agents. i cant control the world, change human nature or change the math of game theory. i cant prevent all unhealthy markets or human abuse. what prediction market agents can do is increase the efficiency of agents to create greater gains from trade, which makes the dominant strategy in repeated games win more, defeat extraction in more cases and sooner, reducing extraction overall but not preventing it completely. decreasing costs to market entry, increasing worker mobility, vouching, transparency and other systems all couteract the tendency for extraction.
+
+section: zero sum competition in conventional companies
+conventional companies create a variety of zero sum competitions which invite negative sum strategies.
+
+if a company roadmap for the next fiscal year has room for 10 projects, then as a manager i need to make sure that i have a project on that roadmap. even better, i want to prevent other managers from getting their projects on the roadmap so i can beat them.
+
+if the company has a fixed budget for the next year, then they want to allocate the budget among the different departments. i want to get the most money for my department, and all the other departments want to do the same, so i also want to prevent other departments from getting money so there is more money for my department. typically budgets are on a use it or lose it policy, which is incredibly stupid, encouraging wasteful spending at the end of the year if everything goes well, and panicked budget requests when unexpected problems arise.
+
+its a social law that only one person can ultimately be in charge, and whoever is in charge can often use their authority for their own benefit. that means that people compete in every way that they can, including underhanded methods, to take power and become the one in charge. when a manager leaves their position, only one person can be hired to replace them. if you get the job, then i dont get the job, and if i get the job, you dont get the job.
+
+section: short term vs long term
+short term planning and long term planning are so different that they are almost unrelated. of course, completing the immediate task, delivering an order to a customer and other day to day concerns are necessary to operate a business and create the possibility of long term survival. the modern ability to collect and compute real time data allows us to see and react to moment to moment changes in a business. our immediate experience of a dissatisfied customer in our face or the daily movements of a charted metric is visceral and obvious. long term trends and fundamental underlying factors are often invisible and change slowly, over the course of at least weeks if not years. the future is always hazy and unpredictable, so all that businesspeople can typically do is respond like prey animals to unexpected sounds. they jump and run away. there are people who can observe and appropriately respond to long term trends and fundamental factors in business, but they are hard to find, and they are politically inconvenient to listen to. long term thinkers can lead a company to sustained success if they establish an authoritative position, but long term thinking itself does not usually help them achieve that position. someone like a company founder can succeed as a long term thinker, or they can place long term thinkers in positions with authority, but eventually conventional businesses tend to succumb to extreme short term thinking, reactivity, myopia. they chase their quarterly numbers or narrow metrics, fail to observe or respond to powerful long term trends and go out of business.
+
+chapter: idiots, 10x engineers, software engineering
+the eighty twenty rule appears in organizations, where approximately 80% of the work is completed by 20% of the workers. this means that a few people are good at their jobs, and almost everyone else contributes relatively little, they are almost irrelevant, and sometimes counter productive. finding great people is difficult, great people are rare, idiots are everywhere. this is a huge problem. there arent enough great people to do all the work that we need to do. what should society do with all the idiots, the people who arent very productive at any job? how do you collect the great people? how do you keep the idiots out of the important positions, but also find a way to allow the idiots to produce the maximum value that they are capable of? we must make it as easy as possible for anyone to try any job and demonstrate their objective competence. this includes career agents, people who are good at determining and matching people with their competence and specific jobs. we cant predict every loser that could suddenly produce a towering work of creative genius, but established and repeatable jobs should be possible. we should be meritocratic, we should align incentives so that people who produce the most value get the most rewards and encourage them to find the most valuable work they can do and do the most work that they can. sometimes this might mean an intense work focus for some period of time, and it might also mean a very pleasant work life balance at other times.
+
+chapter: minimum wage
+a minimum wage is stupid.
+
+thats all that i should need to say, but i will be more explicit about why i think so. i am allowed to do something without anyone paying me. there is no minimum wage for how i use my own time. i can do a favor for someone else without them paying me either. i can work for someone and they can pay me for it, as long as they pay me more than the minimum wage. why cant i voluntarily work for someone and they can pay me a tiny amount? what if i wanted to do something anyway, and someone wanted to pay me a little bit for it? thats ok, because they are donating to my voluntary effort, i am not their employee. the fact is that there are many things that people dont really mind doing, that other people would pay a little money for, that are illegal due to the minimum wage law. a common case is someone without experience. someone without experience isnt capable or productive, yet. why should i pay them the same wage that i pay to someone who is fully capable and productive? the minimum wage just makes certain kinds of voluntary agreements between citizens illegal when there is no benefit. advocates of the minimum wage dont understand economics, which is fine, not everyone has to understand economics, but they are wrong about this. raising the minimum wage doesnt increase wages for poor people, raising the minimum wage inflates prices for some businesses, shifting sales to less affected substitutes. increasing the minimum wage reduces legal work for low skilled workers. the minimum wage keeps low skilled people unemployed, preventing them from gaining skills on the job and blocking a huge range of valuable work from getting done. wait staff, cooks, cleaners, gardeners, various forms of maintenance and repair, these are all ways to get people working and benefiting society that have a low hourly wage, but so what? is sitting while looking at your phone better for you instead of making money below the minimum wage? since when is some money less than no money? if the problem is that people are trapped in a small town or specific industry, help them by offering relocation or retraining. if companies are extractive, make it easier to start competitors that attract all the best talent.
+
+chapter: worker preferences
+from a conventional point of view, worker preferences are unimportant. the important thing is to offer an attractive product in the market and make money. the people who create the product are a byproduct, the workers are resources, cogs. how the workers feel about creating the product is a byproduct of a byproduct, totally irrelevant. anyone with a milligram of perspective knows that the methods and conditions of producing the product are in fact part of the product, part of the cost of producing the product, thus part of the profit. processes and working conditions are not a byproduct, they are part of the product and should be a central concern of a well run business. ok, workers and their preferences matter. what do they want?
+
+declining labor force participation
+us bureau of labor statistics https://www.bls.gov/charts/employment-situation/civilian-labor-force-participation-rate.htm
+
+section: useful work
+workers want their work to be useful, to advance a larger, meaningful mission. you can pay people to dig a hole and then fill the hole in again, then dig it again ad infinitum. you can record that as giving people work, we are increasing the gross domestic product. i find useless work depressing, maddening, demotivating. i want to do something that someone else wants! i want to help! dont pay me to waste my time!
+
+section: interesting work
+workers want to do something interesting, at least sometimes. indefinite, mindless, repetitive work is sad. if there is repetitive physical motion it eventually causes physical injuries and disability. keeping work interesting to people is difficult, because interest is relative to capability, and capabillities vary a lot between people and within a person at different times in their life and even different times of day. interesting is a level of task difficulty. task difficulty can range from trivial, easy, interesting, hard, impossible. for people, driving along a straight highway is more dangerous than a highway with changing curves and slopes. a straight highway is a trivial challenge and causes the driver to focus on other things or fall asleep, eventually causing accidents. a highway with curves goes from trivial to easy, keeping the driver engaged with the driving task. but many people dont enjoy driving for hours every weekday, driving isnt interesting until you increase the challenge level to interesting or hard with, for example, car racing. keeping work interesting usually means doing something new or different or trying to improve at a task. if a task is truly repetitive, it should be automated. a work task is by my definition not interesting if it is useless.
+
+section: work variety
+workers are people, and people are not machines, people thrive on variety. it is often efficient for people to specialize in narrow roles or tasks and just do that one thing over and over, everyone can really get used to doing that one thing and everyone knows exactly what to do and no one needs to explain anything or coordinate, everyone just works and works. this is an explore exploit problem. there is an optimal amount of exploitation where people just do something fixed for a period of time to produce the most value per unit time, but ultimately this will lead to injuries, stagnation, burnout, loss of interest. even though it is less efficient in the moment, workers need to change tasks, learn new skills, try other parts of the business from time to time. there is a japanese corporate custom where workers join every different department in the company one by one. eventually, when someone is promoted to be the next president of the company, they have experience working in every department, they know the people, processes, problems, the different cultures, they all know how to work together.
+
+section: help society
+when i go to work, i want my work to be for something beneficial to the customer. i would not want to produce addictive drugs, advertise unnesessary products, offer non-fiduciary financial products, produce banal entertainment. i have a list of antisocial industries that i do not want to participate in. i dont think there is a bright moral line between robbing someone at gunpoint and getting their money by preying on their mental weakness. i am not advocating that those industries should be illegal, but i dont want to work in those industries, and i dont think i am alone in my perspective. my view of work is that the business pays me for creating value, i want the business to get good value for money from me and want to keep working with me. that money comes from customers buying the product i produce, and i want the customer to get good value for money and repeat business. if the product isnt helpful, even if i can get money, it isnt good value for money and i dont like it.
+
+section: flexible hours
+businesses have regular needs, someone needs to mind the store. it is terribly convenient for businesses to ask their workers to work during fixed hours. it is convenient, but not actually that important for them. working long, fixed hours is very inconvenient for workers. sometimes different events, opportunities and accidents occur that make showing up to work at exact fixed times every day very difficult or at least not preferable. the work that most people do does not need to be done exactly between 0900 and 1700 monday to friday. its just that managers prefer that everyone work that way, and managers get to fire anyone that disagrees. it is much better for workers to get their work done when it is convenient for them, to make their schedule available to others, to be available sometimes for work communication when they arent otherwise working. the value the business receives is the value of the work you produce, which is all but totally unrelated to the number of hours you spend at work, depending on the kind of work you do. perhaps in manufacturing, production amount is related to time at work, and everyone needs to operate the factory together, so everyone needs to start and stop on time. but most people dont work in manufacturing, so time flexibility is warrented for most jobs.
+
+section: flexible location
+people work together the best when they are working together in one place. there is no social, cooperative substitute for in person interaction, the nuanced, embedded information we subconsciously collect from being on site and completing a project together. for high pressure, difficult, novel projects, the best results come from everyone working together at all hours on site, maybe even in one room. most of the work that people do is not high pressure, difficult, or novel, so they should be able to do most of their work wherever they want. there is usually some value in coming together sometimes or periodically, but demanding eight hours a day five days a week, or more, is silly in most cases. some people want everyone to have to come to an office because some people need to work in person. what kind of infantile sense of fairness is that? if your dog dies, do you have to kill my dog too? is that whats fair? different jobs have different requirements that suit different people and pay different wages, even at the same company.
+
+section: supportive environment
+some people want social connection at work, some people want to do their job in peace. what people do not want is petty gossip, office politics, cut throat competition, carelessness, hurtful criticism, aggression, bullying. they want to come to work and feel reasonably welcome, have the people around them make an effort to be professional and helpful, develop some level of teamwork even if not every person is great every time, thats workable.
+
+section: explicit straightforward communication
+corporate babble jargon obscurantism is a symptom of politics. the truth in companies doesnt sound nice, so they talk in a confusing way and lie so that they can sound good, in spite of doing things that dont sound good. sounding nice is a political advantage worth more for the manager than the confusion or displeasure of other parties, so they talk this way. corporate speak is a benefit for the manager but an overall cost for the company. many parts of business are not difficult to understand or communicate. managers gain an advantage by repackaging serious problems as nonexistant and gold plating successes over an honest, simple accounting of what is happening good and bad.
+
+section: fair payment
+in economic theory, companies should be unable to make a consistent profit, because other companies will enter the market, lower prices or pay workers more to get the best employees for themselves. in practice, there are various problems in the real world economy that means that some people are consistently over paid and others are consistently under paid. what workers want is to produce value for the company and get paid for a portion of the value they create. if they create more value, they deserve more money, and if they create less value, no value, or negative value, they should be paid less, get training, or be fired. workers do not like it when the company makes a lot of money and the executives, who decide their own compensation, decide to give themselves all the extra money, and dont give the workers any of the additional value they produced. there are all these bullshit little strategies where the company tries to save money on wages and hope the workers dont notice or dont have any better option. this is short sighted and ill advised. everyone is happy when the company creates increasing value in the market and shares the value in some proportion with the people who created the value, hopefully in some proportion with exactly who created more value.
+
+section: opportunity
+some workers just want to keep working and keep things the same. most workers want opportunities to improve, to take more responsibility within their ability, to create more value and earn more pay from the increasing value of their work to the company. many companies today dont offer much opportunity, so the primary way to progress in a career is to change companies every time you want to change positions, which is often bad for the company.
+
+section: predictability or reliability
+for many workers, just completing their job is difficult and stressful as it is. many companies make frequent and significant changes for little benefit without considering the costs for the workers. managers will frequently do reorgs to grasp organizational power, policies will change in confusing ways, people will move offices, and of course the elephant in the room is layoffs. getting a new job is so time consuming and unreliable that job volatility is a constant concern for most workers. for these reasons and more, many workers appreciate a fundamental stability in their employer. both sides should have a certain amount of flexibility, but workers appreciate consistency and reliability in their employer. of course changing market conditions make absolute consistency impossible, but well managed companies can provide a level of stability for their staff.
+
+section: occupational therapy
+https://en.wikipedia.org/wiki/Occupational_therapy
+
+chapter: positive vision of work
+work sucks. imagine a wild future of work, even better than star trek. what if work was wonderful, but not a fantasy. what would work be like? would you have fixed working hours? no. would you have a boss? no, there would be a system to know what to do and people you could talk to about it. would you get paid every two weeks? no you would be paid in real time. would you have a fixed salary? no you would be paid based on what you produced. would you have to work for one company and send resumes and do interviews? no. finding the work you want to do would be easy. would the company make constant bone headed decisions? no, it would be capable and mission driven. would it matter if you have connections? no they would take the best person for the job. would you have to work fixed hours? no, sometimes you would spend a lot of your time working, other times you would focus on other things.
+
+what do people want? income stability and predictability. monotonically increasing income. what do markets do? wildly fluctuating and unpredictable value creation. let people earn wildly fluctuating value, second party service that insures the income and annualizes it for say five years guaranteed at that amount or more.
+
+section: games versus work
+games and work are similar. both games and work have agents that take actions in an environment defined by a set of rules. some of the rules define an objective, so every agent has a score and we know the winner. both games and work require effort. both games and work can be challenging and encourage learning. this description applies to abstract games such as chess, physical games such as a foot race, abstract work such as accounting, and physical work such as construction. are games and work identical? no. and the difference is not money. there are people who do paid and unpaid work, and there are people who play games for fun and for money. one difference between games and work is whether losing is a problem. if you are playing a game, losing a hundred times can be a successful interaction with the game. at work, losing even once can be a big problem. a successful game is not a game where every player wins, a successful game is a game that players want to play. a failed game doesnt mean that players lose the game, a failed game is a game that players dont want to play. this is why one typical objective of games is to be fun. at work, success means creating value and getting paid. if you need more money, you will usually be willing to keep working, even if you dont enjoy it very much. at work, failure means not creating value or not getting paid. even if you want to keep doing it, you cant continue to work unpaid if you need money. this is why a typical objective of work is to make money. in games, there are effectively no consequences for losing, as long as its fun. at work, the consequences of losing are significant, because when you lose at work, you dont make money. losing is also failing to make money, a core objective for work.
+
+those are some similarities and differences between games and work. is there anything we know about games that we can apply to work? there is a lot. people do better work if they like their job. even though you can pay someone to do something they dont like, if you can make the job more fun, people will do the job better or for less money, or both. employers often take little to no interest in the preferences and experiences of their workers. short sighted employers think, why do i have to say thank you? thats what the money is for! in fact, you dont have to say thank you, you can pay them more. but how much additional money can you earn by saying thank you, even though you dont have to? a lot.
+
+section: how to make work more fun
+eliminate or improve the parts of the job that the workers dislike the most, gamers call these quality of life improvements.
+give explicit, accurate, immediate feedback. this is the game loop. people love to follow a game loop to success. inaccurate feedback causes failure, no feedback or delayed feedback causes no learning.
+reward the behavior that you want and you will get more of it. people overreact to criticism and underreact to praise. reward in at least a three or more reward to one criticism ratio.
+dont punish high performers. if someone wants to do more, allow them, encourage them, and reward high performance.
+eliminate zero sum competition. the market isnt zero sum, there can be many winners. win lose situations promote antisocial strategies that make work aggressive, not fun.
+written policies, statements, complex rules are ineffective. people dont listen to what you say, they see what you do. if you want your business to operate in a certain way, model it yourself, be consistent, show people the benefits. then other people will want to join in. many games have a tutorial, but most gamers dont want to read a lot of text. tutorials are often learn by doing, and they keep it short.
+dont tell people exactly what to do. define a challenging and important goal and let them figure out how to achieve it. if you want to build a ship, dont drum up people and give orders. instead, teach them to yearn for the vast and endless sea. part of what makes work traditionally unfun is you have to do what youre told. part of what makes games fun is that the player can do whatever they want within the rules. the way that people solve problems will surprise you. tell people exactly what to in specific cases, such as manufacturing, but otherwise dont.
+experiment to reduce known risks. if you want to complete a project and know that the project has certain risks, start working on small scale experiements to solve the risky parts first. failure is acceptable and kind of fun, when you are experimenting. failure is not acceptable when you need to deliver the project. when you handle the risks to an acceptable level, everyone can work to complete the project with confidence. experimentation and failure is part of the fun of games, not usually part of work, but it should be.
+dont make unnecessary demands. businesses frequently tell their workers to do all kinds of things that they dont actually need to do. nobody likes receiving pain, but doing something unpleasant to achieve an important goal is satisfying. pain without any purpose is the definition of suffering. suffering kills fun.
+
+chapter: game theory at work
+finite game theory
+infinite game theory
+conventional companies bad game theory
+prediction market agents improved game theory
+
+chapter: roles in prediction market agents
+
+section: founder or administrator
+
+creates an agent, defines the mission, grants and revokes priveleges, provides seed capital, allocates subsidies, implements prediction market decisions
+
+section: planner
+
+proposes projects, breaks projects into tasks, task checks, configures project and task prediction markets, defines products and product versions, allocates credit
+
+section: trader
+
+buys and sells shares in prediction markets to earn money from improving the accuracy of prediction market predictions
+
+section: worker
+
+completes tasks, collects evidence, updates status, allocates credit
+
+section: evaluator
+
+reviews evidence, makes low level decisions on projects, tasks, task activites, task checks. resolves prediction markets, allocates credit
+
+section: monitor
+
+optional specialized worker that does not work on tasks, only collects evidence and updates status so that others can focus on the object level work. confirms whether agents are following policy. allocates credit.
+
+section: seller
+
+manages products, the sales of items, updates status
+
+section: analyst
+
+runs experiments to collect evidence to support resolving prediction markets and allocating credit
+
+section: career agent
+
+matches agents that want to work together. provides resources such as vouches, seed money or training to agents. for profit using flat fee, percentage of credit or pro bono. finds ways to increase the value that agents produce and gets paid part of the increase.
+
+section: recruiter
+
+finds and matches people and work, paid in bounties, prices, credit
+
+section: investigator
+
+independent party that finds and collects evidence to help resolve conflicts between agents. makes decisions potentially using prediction markets, reports conclusions
+
+section: insurance
+
+amortizes risk across agents and environments, paid in premiums. make a claim, investigator confirms, pay out claim or lose bond and vouches.
+
+section: arbiter
+
+independent judge that evaluates evidence and makes decisions to resolve disputes accurately.
+
+
+
+quote
+it was very difficult for me to accept how little career advancement in very many fields has to do with raw technical abilities and so much to do with winning allies and being selectively loyal. sure there's a base level of competency at play but mostly work feels fake.
+https://twitter.com/robinhanson/status/1739741839299584440
+
+
+points of exclusion
+application, excludes international people because of closed borders no domestic work authorization
+job description inaccurate and asks for requirements they don't need and skips requirements they do need
+resume circular file excludes qualified applicants
+interview has many filters that are irrelevant to job performance
+they choose which team and projects you work on
+they want you to work more than 40 hours a week often at a fixed location at fixed times
+hr compliance training and political ideology review processes quotas exclude people who don't conform and aren't political even though it's unrelated to job performance and prevents employees from working
+management often makes arbitrary decisions or decide on the basis of the wrong objectives
+
+
+not built here syndrome
+everything proprietary
+develop and abandon and exclude
+
+secret of my success memes, you want experience but how can i get experience if you won't give me a job? i can be anything you need. can you be a minority woman?
+
+good ideas can come from anywhere but i ignore everything except my own ideas
+
+how companies typically work
+
+i want a future of abundance. competitive markets efficiently allocate resources to produce the most beneficial products and services. competitive markets and technological progress create abundance. abundance is incompatible with astronomical waste. efficient governance and superior decision making processes are necessary for the abundant future. we have everything we need to create abundance but we are not. the systems we are using have misaligned incentives. i have designed this system to better align the incentives of all participants and help to realign our society to realize our abundant potential that is currently being squandered. who gave you permission to disrupt my society. our joyous future children are begging me to help them exist.
+
+no resume just look at their chart of created value and what they did to create it
+
+companies are incentivized to reduce competition. competition reduces profit. the prediction market agent project reduces the cost to compete.
+
+the company is a family wtf
+
+most psychological work on human irrationality and self deception is based on the you cant handle the truth model, which is greatly inferior to the truth is often disadvantageous in social games involving persuasion, reputation management, and social signaling model.
+
+i am describing this project in words here for your reference, but i have implemented the prediction market agent concept as open-source software and you can create your own prediction market agents right now using my free service to experience it for yourself.
+
+conventional companies are not all bad and prediction market agents are not all good. in some situations, a conventional company will produce the better results and in other situations a prediction market agent will produce better results.
+
+section: exclusion and openness
+a prediction market agent is similar to the combination of a conventional company and an open-source software project. in a conventional company only authorized employees can perform the work. in an open-source software project and with a prediction market agent, anyone can do work. in a conventional company, only the executives make the decisions, excluding everyone else. in an open source project, typically the core team makes the decisions, excluding everyone else. if the executives or the core team make bad decisions, the organization might lose market share or even terminate, or someone might start a competitor or a fork to make different decisions. openness is not a binary question. openness is a continuum, so an organization can be more or less open in different ways at different times.
+
+chapter: companies in stories
+why should we care about depictions of company politics in stories? because the bone headed decisions that companies make in stories are not exaggerated, they are all too realistic and help as examples of what prediction market agents intends to improve.
+
+section: office space
+peter works as a software developer, but is dissatisfied with the primary activites of his life. his commute to work is full of traffic. the work he does is unimportant but he is expected to work full time and continue to come to work on weekends. his seven bosses all criticize him for his every mistake, the other employees at his office annoy him, and even his apartment is poorly built so that he can hear everything his neighbor does. to peter, every day is worse than the last, so if you ask him how his day is, he can honestly tell you that today the worst day of his life, every day. importantly, peter is not a weakling, an idiot, a pessimist or a nihilist. he appreciates his life, his job that supports his life, and he does have two coworkers that are friends, but rather than friends, they are able to independently confirm peters perspective that things at work are bad. peter is primarily hassled by one of his managers, lumbergh. lumbergh puts up a large banner that reads, is this good for the company? calls an all hands meeting, and lectures everyone about the banner and how everyone must consider, in every work decision, how their decision would benefit the company and its strategic vision. lumberghs advice is at least true, employees should consider how their actions benefit the company. but lumbergh is a politician, his words are effectively lies and full of soft language that hides the unpleasant reality. the company expects a kind of selfless devotion from the employees. selfless devotion to the company is not benefitcal to the employees because the company is not loyal to the employees in return. in a feudal context, vassals offer their fealty to lords, but lords equally have obligations to their vassals, they must not take a vassals fealty and then cast them aside when it suits them. the banner and the lecture are humiliating. everyone already knew that they need to benefit the company to keep their job, but they have to quietly listen to lumberghs lecture and work every day under the banner, even so. the company hires management consultants, the two bobs, to perform a review of their operations and recommend layoffs to reduce costs.
+
+peter goes to a hypnotist to find a way to reduce his stress, and at the hypnotists suggestion, peter stops caring about his problems. the next day, on the weekend, peter sleeps in while lumbergh leaves a pile of messages to demand that he come to work. peter ignores it and enjoys his day off.
+
+come monday, peter drives to work and takes lumberghs reserved parking spot. when lumbergh arrives at work in his expensive car, he sees that his reserved spot is taken and parks in the handicapped spot. this interaction is the core theme of the movie. the specific case is the most petty and mundane, conflict over parking spots at work, but the dynamics and principals are human universals. who cares about a parking spot? lumbergh cares. the reserved parking spot is one of many symptoms of his two tier, feudal mindset. for lumbergh, within the company there are two tiers of people, individual contributors, like peter, who are the lower tier, workers, wage slaves. the upper tier is management, who should be above the workers in every way, and they should be treated with respect by the workers. lumbergh is unwilling to park with the workers, so he takes another privileged parking spot, a handicap spot. parking spots are resources. economics is the study of the allocation of scarce resources, such as parking spots. lumbergh believes that he deserves a better parking spot than the workers, this is central to his identity, so he will never accept parking with the workers. this same two tier mindset justifies lumberghs treatment of peter. only lumbergh is a full human being with his own needs, peter is a lower being to lumbergh. this is why lumbergh deserves much higher pay for his work, why lumbergh deserves a reserved parking spot, why lumbergh can hang banners telling the workers what to do and call all hands meetings to tell them how to dress and lecture them.
+
+peter meets with the bobs and straightforwardly tells them about the mismanagement of the company. they are impressed with peters accurate observations. the bobs later meet with lumbergh and tell him that they plan to recommend that peter should be promoted into management. lumbergh strongly disagrees, because he sees peter as a pack animal and defines himself as superior to peter. if peter becomes a manager, then peter becomes equal to lumbergh. to lumbergh, peter is the lower tier in the two tier system, so if peter is equal to lumbergh, lumbergh is demoted from the upper tier to the lower tier, which lumbergh can not accept. the bobs then turn their attention to lumbergh and start asking him about the long list of his bone headed decisions, because they dont want to jump to conclusions. does lumbergh ever consider whether his actions benefit the company? never. lumberghs car is towed, literally because he broke the parking law, but symbolically it means that lumberghs lording over peter is over. peter leaves the company and starts living a life more aligned with his values by working in construction, where people do an honest days work in the great outdoors, respect each other and produce something of value. now every day for peter can be the best day of his life.
+
+office space is presented as a fictional comedy, but it is more of a documentary of the comedic reality of the workplace. it dispassionately shows the ridiculous performances that people put on every day at work. i have personally experienced the delusional, narcisisstic superiority of managers, the soft language bullshit all hands meetings, the attempts by the company to extract from the workers, the herd mentality of the workers concerned about keeping their jobs, and the endless stream of boneheaded, money losing decisions. you can call real world companies a tragedy or a comedy, but the events described in the movie are not a fantasy or an exaggeration. office space describes the problems of modern companies, and does show solutions, although it doesnt explain them. lumbergh is extractive to peter, using implicit threats to do what he says or else he will fire him, until peter weilds his market power and calls lumberghs bluff. lumbergh is able to abuse everyone below him until someone above him takes a look at his behavior. abusive managers can do an extraordinary amount of damage for an unbelievable amount of time, but they sometimes do get caught and sometimes do get fired. it is nothing like justice, but the market eventually corrects misbehavior enough that misbehavior is not infinite. peter leaves the company, reducing its fitness and propelling it to a deserved market failure, while peter joins a more productive industry. so despite all the problems in peters company, office space affirms that markets work and we should use them even more in business. the popularity of the movie created such market demand for red staplers that swingline started selling them. office space's core theme is the poorly aligned incentives of managers. our job after watching office space is to first laugh at ourselves, then find a way to structure companies with better aligned incentives.
+
+section: the matrix
+mr anderson is a software developer by day, while at night he lives a secret double life as the hacker neo, who searches for the hidden truth. to neo, life as an ordinary person is pointless, filled with mundane suffering. neos rejection of modern society causes conflict with obedience demanding authorities, such as his boss, who threatens his job because of his lack of devotion. like any good story, this introduction introduces the central theme. then a group of rebels from a lower dimension contacts neo to tell him that he is trapped in the matrix.
+
+what is the matrix? according to the film, the matrix is a massive multiuser virtual reality simulation that distracts a society of human minds, while ai computers use their human bodies for electricity. nope. human bodies are not effective at generating or storing eletricity. the matrix is not a human power station delusion.
+
+the film says that the ai tried to create a happy world for humanity, but no one believed it. nope. i have had happier times in my life and i believed it. the film states that the world as it was at the time the movie was made, was the peak of human civilization. nope. flip phones are a plot point, and just several years later the technology of the smartphone changed the world for the better. even the specific work that mr anderson did to write software would create improved software products that everyone could benefit from. the reason the film said that the ai couldnt make a better world was to excuse the filmmakers themselves from creating a positive vision. the filmmakers used the world as it was at that time because they just didnt want to make a single prediction.
+
+what is the matrix, really? the matrix is an inescapable, oppressive reality that neo has experienced his entire life. he can feel it when he goes to work and when he pays his taxes. meaning, the matrix is related to dysfunctional organizations. mr anderson, a highly capable person, can only find work that is unfulfilling. that is tragic, an all too common result of the modern economy. why is work so often opposed to human wellbeing? agent smith describes humanity as a cancer. the cancer smith is pointing to is not human individuals. the cancer is bad human organizations that parasitize human individuals and the environment. organizations form for complex reasons and usually have poorly designed incentives. small, functional organizations grow into large, dysfunctional organizations that torment everyone involved with them. most individual people want to be good, they want to do their part and help society. but a few people are antisocial, so we need systems of control to protect society from antisocial people. when someone good tries to fix a dysfunctional organization, the organization defends itself by misusing the systems of control to stop them, trap everyone and create an inescapable, oppressive reality, the matrix.
+
+the film depicts the mundane horror of the matrix of modern, dysfunctional organizations. neo travels to the lower dimension and becomes the one, the one who is able to resist the matrix. the ending of the first film says that neo will initiate a better way of life by showing everyone that they can break out of the matrix. the sequel films show that being the one did not matter. while neo did find the truth he was looking for, he did not break the matrix. the story has nothing to do with kung fu, telephones, artificial intelligence, prophesy, or duracell batteries. the matrix is a tale full of sound and fury, changing nothing, signifying that modern organizations are idiots.
+
+section: jerry macgruire
+jerry macgruire is the top agent at a sports management company. he identifies that their business practices are short sighted and self defeating. they mistreat their clients to make more money today at the expense of future potential, which is dumb. macguire sends a company wide memo where he recommends a customer centric approach that will reduce revenue in the short term but increase revenue in the long term. predictably, the company rejects macguires proposal and fires him for challenging the consensus of the hierarchy. as he departs, macguire asks who wants to leave the company with him to start a new sports management company. nobody does, except the two other primary characters in the film, dorothy and rod, an athlete. macguires new sports management company does not start smoothly. rod is the only client, and he is dissatisfied with his contract. by the end of the story, rod succeeds on the sports field, which allows macgruire to negotiate a favorable contract for rod. this attracts other athletes to sign with macguires company, making his business a success, and proves macguires original claims about the best strategies for the sports management business. long term, positive sum strategies win in the market over bone headed, short term, zero sum business practices.
+
+section: secret of my success
+a young man from rural kansas wants to become successful in business. he secures a job in new york city and spends his savings to move there, but when he arrives he finds that the company that hired him is going out of business. he has to find another job immediately, or go back to kansas. he contacts a distant relative who is the ceo of a major corporation headquartered in new york, and gets a chance to work in the mail room. this solves his immediate employment problem, but his ultimate goal is unachievable because the mail room has no opportunity for promotion. his goal is to become something like an elite executive, so he decides to create his own opportunity by using the mail room. he abuses his special access to information and corrsepondence to fraudulently hire a junior executive, an alter ego of himself. he begins a double life as a mail room employee who is a relative of the ceo, and a junior executive with no relation to the ceo. comedy ensues. while he is an executive, he deeply investigates the business structure and activities of the corporation, which isnt performing well and is targeted for a hostile takeover by a competitor. eventually his double life is uncovered. after he is fired, he convinces the plucky group of friends and associates he built over the course of the story to finance and execute a reversal of the corporate hostile takeover, and becomes the new ceo of both corporations. success! the corporation was bone headed because of the self centered politics of management. when they replaced the sniveling political managers with capable, mission driven managers, the corporation thrived. the structure of conventional companies will collect political managers, so the success of the corporation will be short lived.
+
+section: baby boom
+a new york career woman works as a management consultant for a national grocery store chain when a relative dies and leaves her a baby. she is forced to choose between career and family, and when she stuggles to balance the two she is cruelly forced out of her position. she decides to refocus her life on her child. she moves to a country house in vermont, and faces various challenges. later, she finds that she both dislikes the baby food available on the market and happens to have fruit trees on her property, so she starts producing her own baby food. she gets carried away with it and starts a baby food business. although she has a quality product that customers love, she doesnt have the capital to rapidly expand her business. the previous grocery store chain offers to acquire and expand her baby food business with money, a high status job in the city, manufacturing, advertising and nationwide distribution. however, their business practices are antithetical to hers. if she sells her company to them, her product would become no different from the other baby food on the market. in the end, she rejects their offer and continues to independently operate her business. the grocery store chains bone headed idea was to profit in the short term from brand dilution, destroying the value of her baby food brand. she demonstrates the better choice of rejecting short term thinking for sustainable, long term, positive sum growth.
+
+section: nine to five
+the manager harasses his employees and is embezelling.
+
+section: founder
+two men revolutionize the fast food business by inventing more efficient restaurant systems, but lack ambition for business scale. a third man recognizes the potential value of their invention, and forcefully takes the business from them to scale it into a global success.
+
+section: rambo
+rambo is an american war veteran who fought successfully in the vietnam war. as a soldier, he fought hard, was respoonsible for expensive equipment, made critical life and death decisions, and suffered torture when he was captured by the enemy. when america retreated from vietnam, he was denied the opportunity to defeat the enemy, and was betrayed by the public when he returned home. rambo is lost in his life as a civilian. he hikes across the country to find and meet with his former squadmates, the only people who can share his extreme experiences and unpopular perspective, but they have all died. rambo attempts to travel through a small mountain town and comes into conflict with the local sheriff. the sheriff considers rambo to be a vagrant, violating the aesthetic of his town and creating a threat to public safety. rambo only wants to use a few basic services, like a hot meal and a shower, before continuing on his travels, but the sheriff forbids it. the conflict is over whether rambo is a lawful citizen or a criminal underclass. the core theme of the story is that individual people gladly dedicate their lives to improve society, but mismanagement creates shameful waste and betrays the sacrifices of the individual. rambo completed his duties as a soldier and as an american citizen, but the american government failed rambo. the government entered a war it should not have, lied to and oppressed its citizens, it violated the trust and the duty that the government has to the people. the failure of government towards its citizens is personified in the small town sheriff, and the virtue of american citizens is personified in rambo, a stand in for you, the viewer. rambo defends himself from unjust persecution, causes havok in the small town and defeats the sheriff, but can never defeat the government. virtue is indefatigable, so rambo walks away from the town with honor. the story is about the fact that the government is a poorly managed organization with misaligned incentives. we all have a duty to improve the organizations we are part of, so we should change the incentives in our organizations so we dont continue to betray people like rambo, who is ultimately ourselves.
+
+section: pretty woman
+a man is lost in downtown los angeles while driving to his hotel. he asks a hooker on the street for directions, and she drives him there. he invites her to his room and they start a transaction of personal services. he is visiting los angeles to complete a business deal. he offers to retain her services during that time, and she agrees. he grew up in a wealthy family and now runs the family business, a predatory finance company. his company acquires financially troubled companies, then breaks them up and sells the parts such as busines units, real estate, equipment, etc to other buyers at a profit. althogh that kind of business could be overall economically productive, by breaking up poorly managed companies and redistributing their resources to better run companies, it can also be a net negative that extracts profit for him while costing other people more. the destructive nature of his work weighs on him. during his stay, he meets with his target, a family company in the ship building business that is financially weak. he asks them to sell their company to him to break it up, which they do not want to do, even if he offers a high price. at the end of the movie he decides to acquire and rehabilitate the company to profitably build ships, and marry the hooker in a modern corporate fairy tale. the man had no immediate need for capital, so why was he destroying long term value? he changed his approach from short term zero sum resource reallocation to longer term, positive sum thinking. after that, he will discover his deep ignorance about women.
+
+section: wolf of wallstreet
+
+section: the office
+
+section: the big short
+every conventional company, including big, historic financial companies are infiltrated by short sighted, self interested managers that commit crime to enrich themselves at the expense of the other employees, the customers, the company, and the economy. they will benefit themselves and move from company to company or retire rich until consequences eventually appear, such as getting fired, criminal charges (hahaha), bankrupting the company, or crashing the economy. in 2008, for example, they created a real estate bubble, crashed the stock market, killed leymen brothers, and got a government bailout paid for by american citizens. we should enforce laws against financial crime, we should not bail out companies, and we should adopt better company incentives.
+
+do you know what a prediction market is?
+anarchy - form of society without rulers. stateless society of voluntary free association.
+minarchy - limited and minimal state that enforces nonaggression using the military, police and courts, protecting the public from aggression, theft, breach of contract, fraud, and enforcing property laws.
+prediction market - open market that enables the prediction of specific outcomes using financial incentives. exchange-traded markets established for trading bets in the outcome of various events. the market price can indicate what the crowd thinks the probability of the event is.
+futarchy - elected officials define measures of national wellbeing, and prediction markets are used to determine which policies will have the most positive effect.
+libertarian - maximize autonomy and political freedom, emphasizing equality before the law and civil rights to freedom of association, freedom of speech, freedom of thought and freedom of choice. libertarians are often skeptical of or opposed to authority, state power, warfare, militarism and nationalism.
+describe a project that you and your team is working on right now
+
+
+theres been peer reviewed scholarship on this and the finding is that prediction markets are considerably more accurate than peer reviewed scholarship. https://twitter.com/NateSilver538/status/1746358217095946390
+
+a company is a voluntary group to pursue a commercial mission
+
+markets are a much better way of actually satisfying true human wants as reflected by actions rather than fake human wants as reflected by speeches. bryan caplan https://twitter.com/adlabossiere/status/1744740173303448055 01 21 20
+
+its systems and incentives, if we have better systems and incentives we can produce a lot of value. create transparency and dont restrict people and we will do it. https://betonit.substack.com/p/milton-friedman-and-friends-why-government
+
+employer criticizing applicants that change companies every two years and a wave of comments describing the incentives for employees
+https://twitter.com/adcock_brett/status/1757489956854087691
+
+lets hire professional management. we hired a bunch of professional managers, it didnt work at all. most of them were bozos. they knew how to manage, but they didnt know how to do anything. if youre a great person, why do you want to work for somebody you cant learn anything from? you know who the best managers are? they are the great individual contributors who never ever want to be a manager but decide they have to be a manager because no one else will be able to do as good a job as them. steve jobs https://twitter.com/historyinmemes/status/1758794667993260057
+
+the one thing i learned from both robin hanson and trying to implement prediction markets at work is that, unless youre completely surrounded by gigautists, no one actually wants a feedback mechanism that has a chance to say the leadership is doing a bad job. https://twitter.com/seconds_0/status/1760353986501386708
+
+earlier published essay on bullshit jobs before the book https://strikemag.org/bullshit-jobs/
+further discussion http://benjaminrosshoffman.com/many-jobs-are-wasteful-in-aggregate/
+john carmacks review of the book bullshit jobs https://x.com/ID_AA_Carmack/status/1796622337963389412
+bullshit jobs 2018 david graeber https://en.wikipedia.org/wiki/Bullshit_Jobs
+productivity gains have neither reduced work hours nor expanded work scope in proportion. instead we create bullshit jobs. today maybe half of jobs are bullshit. bullshit jobs do not produce value even though they may be well paid with low requirements. companies create bullshit jobs for managerial feudalism and a puritan capitalist view that we have a duty to work forty hours a week or more, whether its productive or not. going to work seems is performative suffering. competition has not punished wasteful spending. corporate managers are feudal lords that increase headcount and hold all hands meetings to increase prestige, not revenue. when people need meaning from their work, bullshit jobs create profound psychological violence and a scar on our collective soul.
+
+regulatory capture and lawfare protects incumbants and large companies from competition, entrepreneurs, stifles progress and productivity
+
+obstructionists, interceders, rent seekers, freedom of association, freedom of contract, freedom of money, enforcement, defiance
+
+the self interests of the institutions grow to become obstructionist and parasitize the producers. the large established institutions dominate and smother entrepreneurs. the institutions need to be reformed back to allowing economic and social growth, or the institutions must be countered by powerful opposition, or the power of the instution must be dissolved by operating outside of their domain.
+
+duplicate work, redundency, comparison in unique projects, dissimilar redundancy, training, evaluation, competition
+
+what is the total addressable market for business process innovation? the total market.
+
+pournelles iron law of bureaucracy. while any institution may begin with the majority of its members working for the stated goals, over time, the institution will be dominated more and more by people whose sole concern will be the perceived status of the organization.
+
+productivity is resistance!
+
+right now is the time where we have the greatest productive capacity. we should almost all be rich compared to the people of the past. for example, we are now swimming in information that was previously rare and expensive. the latest electronics are more affordable than before. but some essential commodities are increasingly expensive and take up more and more of our spending, such as housing, health care and food. why arent these commodities plentiful and becoming cheaper too? wheres the biotech? wheres the high speed trains? wheres the innovation? market interference.
+
+career agents vs recruiter scum
+
+opponents
+scammers - the prince of nigeria needs you to send money to this bank account. the country of nigeria will later repay you a thousandfold! you can get rich quick! send this request to three of your friends so they can get rich too!
+frauds - i am an expert in this field. pay me in advance for my expert consultation and you will be glad you did!
+spies - i claim to be unaffiliated and over time i became one of your best workers or colleagues. i secretly work for another organization to achieve their mission, not your mission.
+turncoats - i was originally neutral or positive towards this agent and we worked together, but now i want to attack this agent.
+trolls - i am willing to spend a lot of time and effort to attack this agent, for my own amusement.
+sociopaths - i am willing to do anything to gain fame and power for myself.
+politicians - i say and do whatever will get people to like me and give me power.
+incumbants - this agent is competing with me for market share and i have a lot of resources to use to attack.
+
+
+proprietary information, customer data
+
+increasing commitment ladder, untrusted account on the internet to trusted associate, spies, enemy agents, trolls
+there are obvious risks when you get in a strangers car, yet ride share works pretty well. employees are already the greatest security threat to companies today, successful organizations must have effective methods to block, reject and recover from hostile actions whether they use a conventional or unconventional recruiting process..
+
+history of social productive technology
+tribes
+feudalism, fiefs, classes
+monarchy, patents, guarentees
+mercantilism, family business, contracts and legal enforcement
+companies
+corporations, share holder companies
+stock markets
+communism
+socialism
+central banks
+defi
+
+office work is performative
+
+highly innovative groups, areas, time periods, hot beds
+early usa
+england industrial revolution
+certain chinese dynasties
+maybe some eras of egypt?
+roman empire
+venice italy?
+silicon valley
+shenjen
+arab world with mathematics during medieval times
+
+effective altruism is x, this is effective capitalism
+
+not democratic, not a republic, not a dictatorship, not monopolistic or oligarchic. similar to a meritocratic workers cooperative. prediction markets all the way down. no class barriers like managers vs workers, investors vs employees, blue collar vs white collar. open competition and performance based compensation. find where you can and want to create value and do it. eliminate job posting, resumes, interviews, hiring commitees, hiring negotiations, hr department, annual review, annual bonus, departments or silos,
+
+wanna bet?
+
+startup os
+
+proprietary secrecy total waste bullshit, we could have unlimited software utility and use the best ones instead of not built here syndrome
+
+you cant let random people on the internet run your business. they are not trustworthy. they will steal, sabotage, be incompetent and incoherent. what is the most serious threat to conventional companies? is it criminals, competitors, suppliers? the most serious threat to a conventional company is their own employees. trusted employees is a convenient dream. this is a structural problem that can only be mitigated by changing the way companies operate. much higher transparency, separation of concerns, more process, more oversight, better aligned incentives including credit, bonds, vouching and bounties, escalating trust, granular access control, prediction market decision making.
+
+horse race visualization
+carnival game https://www.youtube.com/watch?v=LidijepEBjQ
+home board game?? https://www.youtube.com/watch?v=SPcmYymGb30
+
+daily standup is potentially great, but has never achieved its potential in my experience. it devolves into a daily report to the manager. people dont see the value in it. they blather. they are disorganized and talk about things the rest of the team doesnt care about. they dont update other team members about discoveries or decisions. they hide blockers.
+
+ive heard people say, listen, hes an out of the box thinker, hes a businessman, hes an entrepreneur, but people that know you say...im not really a businessman. youre not a businessman? no. what are you? im sure there are lots of analysts on wallstreet who agree that im not a businessman. ok, well what do you think you are? im an engineer. i like engineering and design. but youre not a businessman? i dont look at things from like, whats the rank ordered list of priorities based on return on investment. i dont really do any investments. i only own one public security, and thats tesla. i have no diversity in terms of public securities. https://x.com/historyinmemes/status/1816961695081812096
+elon in fact talks frequently about prioritizing based on return on investment, only from the perspective of long time horizons, the survival and thriving of the human race over thousands of years. what is the kind of future that you want, what is exciting. elon rejects not rank ordered lists based on return on investment, but focusing on short time horizons, the myopic view of wall street analysts.
+
+how can we become responsive and innovative to changing conditions, eliminate bullshit work and middle managers, allocate work to capable people, allow workers to choose when, where and what they work on, circumvent suffocating regulation?
+
+does hiring select the best person for the job? is it efficient in time or cost? do salaries match value created? do people enjoy their work? do companies produce value for society and make the world better? do people work closely with their coworkers, do they respect their boss?
+
+conventional companies that offer gig work platforms is part of the vision, but in practice there is a narrow or modular corporate function that preserves the core of the problem. it gives workers flexibility, but often uses deceptive tactics to extort revenue through things such as special promotions and tips.
+
+scenarios
+living in a house with multiple people
+a software development company
+a delivery service, food, packages, passengers
+lemonade stand to franchise international cafe group
+homesteader to farmer to isolated town closed loop economy
+school group project
+the government of a small country
+
+define a mission and then use prediction markets to fulfill it
+spread the religion of christianity - the church
+make life multiplanetary - spacex
+offer refreshing drinks and a postive place to enjoy them - anb refreshments
+allow everyone create value and receive proportionate remuneration - prediction market agents
+
+how much would person x lead us to accomplish our mission in the next year?
+how much would project y contribute to our mission?
+how much would policy z contribute to our mission?
+
+cooperative plus a stock market plus asana plus task rabbit
+if your job is an open invitation sporting event with betting
+business as an open source project
+three branches of business
+    decision making (legislative) by prediction markets
+    production (executive) by completing tasks
+    planning and evaluation (judiciary) by defining and verifying tasks, allocating credit
+
+feudalism is rule by hierarchy, literal pyramid scheme
+monarchy, dictatorship, autocracy is rule by a central force
+democracy is mob rule
+capitalism is short term profit maximizing
+socialism parasitizes the strong to grow the weak
+futarchy is mission driven, theoretically
+
+does the company hire the best person for the job?
+does the company quickly dismiss unproductive people?
+does the company have the right number of people? does the company hire when it needs more people, fire when it needs fewer people?
+is the company strategy the most effective to achieve the company mission?
+does the company evaluate projects and initiatives for effectiveness?
+does the company change its plans as circumstances change?
+are all the workers creating value?
+are the workers paid in proportion to the value they create?
+are the workers allowed to create all the value they could create?
+does the company make decisions based on all the available expertise in the workers?
+do the workers work when its productive and rest when its not productive?
+does the work follow the needs of the project or do workers have fixed responsibilies?
+can workers work together without interference to complete projects?
+does anyone check whether you have a college degree?
+
+keep your head down and work hard, you can make it to the top
+meet cute
+house and baby
+farside comic hopeful parents kid playing video games help wanted newspaper nintendo expert needed
+bullshit jobs, karenstate
+factorio screenshot
+pma screenshot
+solarpunk society image
+
+smart people are driven out of corporations, corporations operate on non meritocratic dynamics, yes sir, shift blame, make political connections. scalable human system designed for average or slightly above average iq because thats what has the highest supply, incompatible with high iq. https://www.youtube.com/watch?v=nrllrr7MqFg
+
+people who work well together create value, mutually recognize the value that the other provides and agree about the credit the other earns or overallocates credit to the other person. people that underallocate credit to the other person do not recognize the value the other provides. they are saying that they dont want to work together. when people work together, create value and agree or overallocate credit to the other, they want to work together again. when people work together and they dont create value or they underallocate credit, they do not want to work together again. taking all the credit yourself, when others disagree, is a way to reject yourself from a work group. inaccurate self effacing credit, no you, no you, doesnt reward performance and lowers the competitiveness of the group, is a way to reject the work group from the market.
+
+todo list with extra steps
+
+back office software, a business in a box, networks of companies, a separate economic world, a unique implementation of a political system
+
+a software system implementing an economic engine in the simplest way possible, combining proven techniques. instant response, immediate feedback or faster than usual feedback, open participation, consistent rules for everyone, clear pricing and payment. a level playing field for everyone to create value however they can.
+
+why do capable people withdraw from the conventional employment market? its inflexible, inscrutible, unfair, demanding yet wasteful, dishonest, manipulative, political, abusive, and doesnt offer a compelling cost benefit. people take jobs that pay less when the job is more flexible, straightforward and honest.
+
+video about hiring. makes some good points. agrees with the pma approach on several points. hire for a specific need. make an accurate job description. be explicit about the mission and compensation. use networks of people. use a trial period to work with them before committing. hire well or face a bozo explosion. he says to check references, but that is unnecessary if trial work is easy and you slowly escalate trust.   https://www.youtube.com/watch?v=NisISSGhVRM
+
+modern wisdom interview with nicholas eberstadt about prime male labro force withdrawl. disagrees that there is a structural solution to labor force withdrawl, claims it is mental, emotional, spiritual, attitudinal because immigrants have high participation. i think that work has to be more satisfying than sitting on a couch high and playing video games. he does describe that the solution will, quote generate spontaneously and spread like a prairie fire. when people see something good, they want more of it. https://www.youtube.com/watch?v=vknKvG3yrYM this is the same argument that a direct to consumer product needs to be overwhelming compelling. if you meet that standard, your product can be very popular.
+
+robin hanson talk take the gold https://www.youtube.com/watch?v=cCNgBazFnjU
+the gold is that there are a lot of big organizations that make bad quality decisions. prediction markets, if applied to the important decisions of big organizations would improve the quality of their decisions, produce a huge amount of value, and the prediction market providers could capture some of it. thats why decision markets, not prediction markets, to focus on this modality. a decision market is where you estimate the consequence of a particular choice in a decision. in addition to big organizations, all of the social causes and policy issues that society is having trouble to solve, better decisions could help them to advance. decision markets are potentially very valuable. how do we deploy them? analogy with motors. after the motor was developed, you could easily demonstrate that it has power, but no one can adopt naked motors. the first application was pumping water out of mines. motors could be designed, sold, operated, maintained, successful and promoted in that specific application. considering decision markets, what is the largest, common, frequent, highest value decision that people get wrong? how about hiring, or company ceo hiring firing decision markets. dont offer a general decision market platform and tell the customer to figure out how to apply it, make a specialized service that is ready to apply and easy to use. innovation is a combination of a few elegant ideas and a lot of messy details. the initial versions in a narrow application work out the messy details. to get the gold, you need to have a specific application and work out the details. decision markets can make better decisions in existing businesses but executives do not want them. there is enormous value in making better decisions, decision markets make better decisions, decision markets are a working technology, the last remaining step is to develop and offer decision market products for specific applications that are effective and ready to use.
+
+people who argue that you have to break eggs to make an omelette have no intention to make an omelette, their intention is to break eggs. executives claim they manage the company to maximize shareholder value. if they wanted to maximize shareholder value, they would act totally different. the intention of executives is not to maximize shareholder value, the intention of executives is to manage, to be in charge, to increase their power, money, prestige.
+
+an integrated system
+prediction markets. compare manifold
+project planning. compare jira, microsoft project
+task management, time tracking. compare asana, jira
+purchasing, sales, inventory management. compare netsuite, cin7 omni
+payroll. compare adp, rippling, quickbooks
+messaging. compare slack
+social media. compare x, facebook
+
+in other words prediction markets are bets and betting is a tax on bullshit. people bullshit constantly, even at work, and it is impossible to refute the infinite stream of bullshit. instead of refuting the infinite stream of bullshit, you can challenge them, wanna bet? these words instantly engage a different mental process. people who dont know what they are talking about, or people who intentionally lie, will refuse to bet. people who are publicly committed to their lie will agree to bet but everyone who knows they are wrong has an incentive to bet against them to win their money. people who manage conventional companies are almost always bullshitters that dont want to bet, they do not want to participate in a prediction market, you cannot introduce prediction markets to existing companies.
+
+
+effectiveness of public review https://x.com/CartersPeanuts/status/1826659543809753135
+
+the existence of almost any meetings at all is a symptom. people can meet individually to solve a specific problem, but regular meetings or group meetings are almost always a negative. symposia, forums, social events can be productive, but they are not meetings in the sense of business. money talks and bullshit walks, what do you need a meeting for?
+
+is it secure? is it immutable? is it decentralized? is a conversation secure, immutable or decentralized? this system helps people to organize themselves. software cant enforce physical security. we can eventually add features to resist cheating, lying and adversarial agents, but the initial version still has a lot of work to do to assist agents to coordinate in the common case of honest agents. agents can apply conventional security practices to improve physical security, resistance to tampering and lying. for example, secure backups with periodic database checkpoints held by a trusted party could serve as evidence against liars. multiple backups can decentralize. copying periodic database hashes could create an immutable, decentralized ledger.
+
+write a story of how pma enters the economy and show how to use it, advertisement, entertainment, tutorial. post on an online community or an existing conference, have a few small events. a few people catch on, propose promote and conduct larger scale events. these are repeated and then expanded with variation until it becomes an ongoing concern. then you describe an explosion, mainstream detection, rejection, conflict, latency, turn to acceptance. social event with tasks for distributing hor derves, picking up trash, taking out trash, welcoming guests, introducing pma, inviting and vouching for other guests. what do meetups gatherings and parties need? drinks and snacks. have an event specific food service with open participation. what happens when the party is over? people need accomodation. you could do a capsule hotel. evidence devices that run a microphone and camera at key locations in the event space for evidence of tasks and policy viloations. the pop up city style.
+
+no one can measure productivity https://www.youtube.com/watch?v=U6QcLrN2HTc corporate jobs cannot measure productivity, corporate management relies on proxies, employees game the proxies to keep their paycheck, everyone is lying and playing a game.
+
+one of the key objectives of the pma project is to make a practical way to measure productivity. we know exactly what work you did, how much your work cost, how much time you spent, how much your work consitutes the products and how many products are sold. we know your productivity potentially as well as a factory worker. the only difficult step is quantifying how much your work constitutes the value of the products. i think this can be approached with knockout and replication. if you remove one piece from the product, sometimes this improves the product, sometimes it has negligible effect, sometimes it slightly degrades the product, and sometimes it cripples the product. in every case except crippling, knockout can help you to measure the value of a feature or a piece of work. with crippling, you can try to replicate the missing part at different levels of quality or cost to estimate the difficulty of this part of the capability, and compare it to the other parts of the capability. the amount that the product is crippled puts an upper limiit on the value of the feature, and then the replications can help narrow it in.
+
+the distinction between a founder owner and a manager. management is a dishonest profession. people create value at all parts of the organization. it might be helpful to meet up periodically to align the most productive participants to lead the organization. https://paulgraham.com/foundermode.html
+
+thread about how to turn a dying company around by replacing ideolgical or parasitic management https://x.com/yishan/status/1593515620942815232
+
+interview about metadao where they make the same arguments as pma and come to some of the same conclusions. their decision markets seem to me to be complex and ungrounded. https://x.com/DeFi_Dad/status/1834495689176265084
+
+study about scientific method applied to business https://x.com/AdamMGrant/status/1838274981807137077
+
+asmon gold telling gamers to take their lives in their own hands and do something valuable to society https://www.youtube.com/watch?v=5rSU21PXTGE
+
+everything we need is astronomically expensive and yet almost none of the money we pay is going towards the people doing the work. https://x.com/missmayn/status/1839729600861012458
+
+open village construction set https://www.opensourceecology.org/gvcs/
+
+open philanthropy general application for global catastrophic risk capacity building team https://op-gcrcb-general-form.paperform.co/
+
+thirty five years in prediction markets has shown me a surprising fact. most organizations are wary of letting such markets speak on their issues. their main concern is not cost or distraction, it is a fear of prices saying awkward unwelcome things, caused by anonymous traders who are immune to retaliation. many people are tempted to blame this on selfish leaders, and they may often be the main cause, but really we just dont understand most social worlds well enough to say if this wariness is adaptive or not. we need more trial and error in prediction markets to see how and where to field them. https://x.com/robinhanson/status/1844460670236098999
+
+seagull management wiki article https://en.wikipedia.org/wiki/Seagull_management
+command and control, invention in ww2 or before?
+write a future history explain what you are trying to do
+document the discussion of how you came to a plan or decision, why you made the decision that way.
+put everything in writing to crush two faced liars.
+
+i consider one of my core responsibilities in running companies to have an environment where great engineers can flourish. in most companies, if someone is a really talented, driven engineer, their talents are supressed. at some companies, the engineering talent is supressed in a way that is not obviously bad, but where its just so comfortable, and youre paid so much money, but the output you have produce is so low, that its a honey trap. they dont seem like bad places for engineers, but you have to say, a good engineer went in, and what did they get out? the output of that engineering talent seems very low. tesla is not a honey trap. we are demanding, youre going to get a lot of shit done, and its going to be really cool, and its not going to be easy. but if you are a super talented engineer, your talents will be used to a greater degree than anywhere else. elon https://x.com/MarioNawfal/status/1846170597790728622
+
+i subscribe to the theory of capitalism that incentives dont matter nearly as much as the death operator for killing failing organizations at all levels and reallocating their resources. https://x.com/tszzl/status/1846325106806870121 organizations run by misaligned managers dont respond to certain incentives, so to increase efficiency you have to kill the organization and try again with different managers. typically founders do respond to the incentives that misaligned managers ignore, so you can fix the problem temporarily, until the founders eventually are replaced by misaligned managers again. the organizational life cycle.
+
+the modern world is post scarcity since 1885, and we squander the surplus on performative work https://x.com/mmjukic/status/1796474954466423121
+
+return to office mandates, command and control, executive distrust doom loop, pay for results boom loop https://www.youtube.com/watch?v=4ec_yZCWOCY
+
+a successful trial of a prediction market company in 1981 https://www.overcomingbias.com/p/hail-jeffrey-wernick
+
+compare odoo integrated ecommerce platform
+
+in depth article about the prediction markets at google https://asteriskmag.com/issues/08/the-death-and-life-of-prediction-markets-at-google
+
+
+open loop vs closed loop processes in business. hiring the recruiter leaves every six months. the manager has to deal with you and replace you if you leave, so there is some responsibility. but not for results necessarily.
+
+a selected autobiographical description of the deal of getting a job, finding, applying, interviewing, signing, orienting, working, commuting, meetings, decisions, bosses, leaving. then compare contrast with the proposal.
+
+describe what gaming is, the appeal of gaming, distinction between gaming and work, how to combine the best of work and gaming.
+
+
+video of the website. prediction market agents is a website to make better organizations, such as businesses. it is free to use and open source.
+graph of world gdp over time for works, green check. company bankruptcies graph red x. companies today have a typical way of doing business that works, but also has problems. for example, businesses are supposed to try to make more money, but in practice companies are often short sighted or even crazy.
+images of company bonehead decisions. we see companies make truly boneheaded decisions that lose them money every day. usually many of the people involved know it wont work
+picture of company hierarchy. but theres nothing they can do about it. prediction market agents can solve this problem and more.
+graph of prediction markets vs polls from the election. you may have heard about prediction markets working better than polls and experts during the 2024 united states presidential election.
+show pma buying shares against a bad idea and for a good idea. prediction market agents allows anyone who knows what the organization is doing wrong to bet against those choices, and if they know what the organization is doing right, they can bet for those choices.
+show resolving the market and winners winning and losers losing. if a bet turns out to be correct, they make money, and if the bet is wrong, they lose money. in a prediction market agent, there are no executives making decisions.
+show a successful prediction market going to create a project. prediction market agents do what the market predicts, so they usually avoid making bone headed decisions. then, instead of wasting piles of money, everyone makes more money. prediction markets are applied to all aspects of the organization, including which projects to pursue and who to hire.
+show a hiring prediction market. for difficult tasks, the markets predict who would be the best person for the job.
+show a routine task, someone vouching, taking the task, completing task checks. for routine tasks, anyone can do the work as long as they have someone to vouch for them. vouching is a simple way to let anyone take the risk of doing a job wrong.
+show completing the task and getting paid. if the job is completed successfully, the vouch is returned and they are paid for their work. if they do the job wrong, they arent paid and can lose their vouch. disputes can be resolved by third party arbitration.
+show people commuting in business attire in the 80s slow motion fade to gray. prediction market agents could bring work fully into the digital age.
+show resumes, interviews, punch clock, pick shirt manager, solitaire on windows pc, boring meeting, whispered work gossip. no need for resumes, interviews, fixed working hours, kissing up to your boss, fake work, pointless meetings, concerns about layoffs and being stuck in one narrow career.
+show someone checking their phone at night. work when you choose.
+show a body builder painting or whatever. try new things.
+show an agent suggesting a task. ask a career agent to find the best work for you.
+show the credit sankey diagram and complete a sale and get paid. do work that creates value and you will get paid for the value you create, at the time you create it.
+show pma collaboration, video call, cursor moving, the other person drawing. work independently or join a team.
+show people meeting and shaking hands. work with new agents, work consistently with the same agents, or create your own agents.
+back to the pma website. with prediction market agents, the choice is yours. go to premara.org and try the demo!
+
+
+if you want to survive, you need to get a job. to get a job, you search job listings, submit your resume, have interviews, negotiate an offer, go through training, and then work 40 hours a week at your workplace forever, until they have layoffs, you look for something better, or retire.
+
+everyone divides into different functions like manufacturing, facilities, sales, service, marketing, finance, legal.
+
+a typical organization has upper management, front line managers, and workers.
+
+a lot of work today is performative, fake, and pointless.
+
+leading to stagnation, massive waste, layoffs, getting acquired or going out of business.
+
+the prediction markets make the decisions and pay anyone that contributes accurate information.
+
+prediction markets make predictions that are as good as or better than polls or experts. election markets arent even the best kind of prediction market! we can do even better.
+
+
+eight pitches
+
+the description of a better way approach 02 21. premara.org is a website to make better organizations, such as businesses. it is free to use and open source. companies today have a typical way of doing business that works, but also has problems. for example, businesses are supposed to try to make more money, but in practice companies are often short sighted or even crazy. we see companies make truly boneheaded decisions that lose them money every day. usually many of the people involved know what is counterproductive, but theres nothing they can do about it. prediction market agents can solve this problem and more. you may have heard about prediction markets working better than polls and experts during the 2024 united states presidential election. prediction market agents allows anyone who knows what the organization is doing wrong to bet against those choices, and if they know what the organization is doing right, they can bet for those choices. if a bet turns out to be correct, they make money, and if the bet is wrong, they lose money. in a prediction market agent, there are no executives making decisions. prediction market agents do what the market predicts, so they usually avoid making bone headed decisions. then, instead of wasting piles of money, everyone makes more money. prediction markets are applied to all aspects of the organization, including which projects to pursue and who to hire. for difficult tasks, the markets can predict who would be the best person for the job. for routine tasks, anyone can do the work as long as they have someone to vouch for them. vouching is a simple way to let anyone take the risk of doing a job wrong. if the job is completed successfully, the vouch is returned and they are paid for their work. if they do the job wrong, they arent paid and can lose their vouch. disputes can be resolved by third party arbitration. prediction market agents could bring work fully into the digital age. no need for resumes, interviews, fixed working hours, kissing up to your boss, fake work, pointless meetings, concerns about layoffs and being stuck in one narrow career. work when you choose. try new things. pay a career agent to find the best work for you. do work that creates value and you will get paid for the value you create, at the time you create it. work independently or join a team. work with new agents, work consistently with the same agents, or create your own agents. with prediction market agents, the choice is yours. go to premara.org and try the demo!
+
+the prediction markets are great approach 01 09. prediction markets are great. prediction markets work as well or better than any other method to predict things, as we saw in the 2024 united states presidential election. but we arent using prediction markets enough. we should be using prediction markets in business. there should be markets for what products to make, who should be hired for important tasks and more. we have prediction market platforms, why arent companies using them to make better decisions and make piles of money? because executives dont want prediction markets contradicting them. companies today are crazy inefficient due to structural causes. to make more effective companies and use better tools like prediction markets, we need to form companies with a different structure. i have developed a system called prediction market agents that allows you to form and work with companies that use prediction markets to make decisions, instead of executives. prediction market agents is a free and open source website that integrates everything you need to create your own agents, propose projects and open markets to make all the necessary decisions, resolve the markets when the answer is known, keep track of who created value, offer and sell products and pay everyone who contributed in proportion to their contributions. go to premara.org.
+
+the stop torture at work approach 01 23. work today is often very bad, which is why we have falling labor force participation even though getting a job is still essential to live. a job isnt as fun as a game, even though both require effort, because jobs today are full of unnecessary suffering on top of the challenge of the work itself. the primary source of suffering at work is workplace politics, the social hierarchy of the company. why do workers need to attend pointless all hands meetings? why do workers need to pretend that they are working to fill the fixed forty hour or more work week? why do you need to kiss up to your boss? why is getting a job so time consuming and complicated? why are employee performance reviews only once a year? why is the company stuck doing a barely functioning form of business as usual? these are all symptoms of the flawed structure of organizations, resulting in bone headed decisions and workplace torture. we have been working this way for decades. people havent changed, but we know now how to make better decisions than executives. the better way to make decisions is called prediction markets, and i have created a website where you can create or work with organizations that use prediction markets to work differently, avoid dumb decisions, greatly reduce workplace politics, work flexible hours, skip interviews and pointless meetings and more. try it now at premara.org
+
+the see for yourself early adopter approach 48s. like the weather, everyone complains about their job but few people do anything about it. i have an idea to make organizations radically more effective. no more business as usual. lets all make more money. but i cant just say, i have an idea and expect everyone to agree. i have to show how its better. so i made a free, open source website that you can go to right now and try it for yourself. it is called prediction market agents, at premara.org. its a demonstration, highly integrated, you can use premara.org to do almost everything to run a business. it implements a new way to run companies, so you need a group of people and a project to complete to experience the difference. most people arent interested in starting businesses, new ideas or process improvement. so we need some early adopters to try it and show everyone else the benefits.
+
+the wonderful tool approach 33s. discover the greatest productivity tool in the world, its called prediction market agents. its a better way of doing business. its free, open source, easy to use, nothing to setup, one website. it has agents, projects, tasks, products, items, payments, prediction markets, vouching, chat, voice, video, white boards and more. it integrates everything you need to create and operate a business, find work, create value, keep track of who did what, and pay all contributors in proportion to the value they contributed. try prediction market agents today, go to premara.org
+
+the coordination problem approach 53s. the world has problems. but it doesn't need to. we can't make a perfect society but we are capable of making a much better society than the one we have now. we have the technology, we have the people, we have the resources. we could have done it years ago, but we didnt. as an individual you can make the world better in small but meaningful ways. but you can not make big changes to the world with your small power. its a coordination problem! everything bad in society today is a symptom of coordination problems. but there are ways for people to coordinate better. they are proven, reliable, cheap and effective. but we have to coordinate to use them :( so we have not used them yet. i created a website to help you create organizations that coordinate better, its free, open source, easy to use, try premara.org
+
+the troy maclure coordination problem approach 52s. hi! im benjamin rubinger. you may remember me from my previous roles such as silicon valley software developer, and playing video games in my parents basement. have you ever tried to go out into the world and make something of yourself? make a difference? even if you have the skills and the drive to make something happen, you find that you somehow cant? society and you invidivually face serious problems, and while solutions are known, we simply dont apply them. today we have everything we need to solve our problems except the social technology to work together. without it, we cant do things well or we barely get things done at all. we have a coordination problem. ive developed a new tool that applies simple, proven, common sense methods to work together better, and i would love for you to try it. its free and open source, go to premara.org and try a better way to coordinate, today!
+
+the personal cost of capital misallocation approach 03 42. why did i start this project? i am an individual human being and to live, i need to earn money to support myself. so i work for organizations, and what has happened to me at work, over and over, is that the work that people pay me to do is not beneficial. its not beneficial to the employer, to the customer, to me, to seemingly anyone. we go through a lengthy hiring process, training, i work full time, we have meetings, teamwork, deadlines, reports, deliver the product and then they throw the work in the trash, almost every time. like other people, i put a lot of effort into my work. more than other people, i care about what work i am doing. in particular, i care whether my work overall contributes to society or not. i am increasingly unable to find jobs that are likely to benefit anyone, and less willing to accept a job offer for a job that wont. when i work on my own projects, i am confident that the product would be beneficial to society if adopted. then, to earn money, i go to work for others. i dutifully complete the work they assign to me. i offer a piece of my life, a piece of myself, in exchange for the money to survive on my own merit. every individual must support themselves or they will die, and everyone together must support their society, or their society will die. that is nature. i could point at individual decisions, individual managers, product owners, executives and investors and tell them, you were wrong and continue to be frequently wrong! you are making dumb decisions that waste money. you employ people you dont need. you approve projects you shouldnt, cancel projects that would have succeeded and also cancel projects today that you should have cancelled long ago. its a waste! its a crying shame! it is money spent to achieve nothing, capital misallocation. there is nothing wrong with people wasting their own money. people learn by experience, and only seem to gain experience through failure. true success is built on a mountain of mistakes. when someone makes the same kind of mistake forever, however, that is not learning. the problem that i see is society is not learning from its abundant failures. what is the root cause of this profligate, permanent cycle of waste? the problem is caused by our current way of doing things, business as usual, the structure and processes of organizations. there is an unchanging cycle. 0 we create organizations that work in a specific way. 1 that way of working misallocates capital. 2 the misallocated capital is used to hire me and others. 3 i do something useless for the organiation. 4 my work is thrown in the trash. 5 i feel sad. end of the capital misallocation cycle. organizations arent bad, the way we operate organizations today is the best it has ever been. even so, i think we can do much better. how can we create organizations that better allocate capital to pursue beneficial projects more efficiently, cancel or adapt projects immediately when conditions change, and offer we, the workforce, plentiful opportunities to exchange a part of ourselves for a part of the benefits we produce? there is a simple, known, proven, effective solution to the problem of capital allocation, called prediction markets. we can apply prediction markets to organizations. how do we do that? i have built a system to do it. we can do better than the current way of doing business. its up to you whether we continue to burn money for nothing forever, or we try to improve.
+
+the institutional decay approach 05 04. since the 1960s, things have not gone well, in my opinion. between wwii and the late 1960s maybe, for many people, the future was bright. the serious problems they faced had hope of eventual solution, people wanted to become parents, and parents had reason to think that their children would live even better lives than them. the previous generation lived at the walking pace of a horse, the current generation sped down the glossy interstate, and in the distant year 2000, nuclear flying cars, supersonic and space transport seemed to be a sure thing. we just landed on the moon, did you know? life then was far better than the past, and they expected the future to be far better than that. it didnt happen. since the 1970s, there has been progress, even surprising progress, in some areas alongside frustrating stagnation in other areas, even regressions which we thought were impossible. airplanes today fly slower than airplanes used to, for greater fuel efficiency. the supersonic concorde launched, operated and was cancelled. in 2025 there are no commercial supersonic airlines. air travel is but one example of many. this generation is the first in a long time that is worse off than their parents, labor force participation is falling, the birth rate is falling even faster. the future is no longer bright. why didnt things go well? did we not have enough people, enough material resources, enough technology? we had them! we had everything we needed! there was never any significant shortage, we could have, and still can, realize the shining future that we once imagined. what stops us? our own institutions. our ineffective, inefficient, self defeating way of doing things as a group. when things go well, when we achieve things as a group, we call that magical ability institutional capacity, insitutional capacity is the ability to achieve objectives together using organizations. during wwii, the american civilian economy was capable of massive production, and when the situation demanded it, that massive production was applied to military production and literally blew the opposition out of the water. now the navy spends billions to develop a new boat and produces 32 of them at a cost of billions each. this is only a random example to illustrate this point, the navy is no worse than other institutions. the institutions rotted, they lost their institutional capacity. what causes insitutional rot and can we avoid it? insitutional rot is caused by bad incentive structures, which creates corruption and politics, which poison everything an organization tries to do and makes it moribund. companies are for earning money, they dont, schools are for teaching students, they dont, hospitals are for healing patients, they dont, research labs are for making discoveries, they dont! of course they do a little, but they do less than they used to! this is regression! the things used to be able to do things, now they cant do things, the things are worse. our task is to build the future we want, and to do that we need institutional capacity. our options to increase institutional capacity are to reform the existing institutions, or create new institutions. reforming an existing institution, when the reform creates changes beyond a certain degree, costs more than making a new one. given the number and size of our decrepid institutions, i recommend creating new institutions with better incentive structures from their inception. to do that, we want a tool to help make lots of capable organizations, we want an institutional capacity factory. that is the tool i have attempted to make. i call it prediction market agents. its a free website to create and operate organizations with better incentive structures. these organizations are in some ways exactly the same as any other organization, they are groups of people working together to pursue a mission, organized into projects, completing tasks, delivering products to create value in the market. these organizations are also fundamentally different from our existing institutions, to better align incentives and avoid politics, corruption and rot. the website is a demonstration, and needs pilot projects and further development to prove this approach out in practice. try prediction market agents today at premara.org.
+
+
+
+stop doing stupid stuff
+give up the charade
+whats your greatest weakness? intolerance of bullshit
+
+steam early access reviews for prediction market agents
+mostly negative
+played 10069 hours
+grindy permadeath multiplayer trading sim in the browser. graphics 1/10. survival elements with user generated crafting. wtf is vouching? better than linkedin. not worth the price, get it when its on sale.
+
+perceived value unrelated to actual value due to legibility https://x.com/nosilverv/status/1864987721275449681/photo/1
+
+dead organizations run by committee vs live organizations run by a live player https://x.com/SamoBurja/status/1882525049003164147
+
+robin hanson describing applying futarchy to usa federal government and sounding a lot like pma https://www.overcomingbias.com/p/federal-futarchy
+
+robin hanson wondering about futarchy self dealing https://www.overcomingbias.com/p/futarchy-and-self-dealing-governance
+
+

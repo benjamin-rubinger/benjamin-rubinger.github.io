@@ -280,17 +280,18 @@ function navigationEntry($section) {
         return $('<div>');
     }
     const id = $section.attr('id');
+    const key = $section.attr('data-key');
     const value = $section.attr('data-value');
 //    console.log(value);
     const navigationId = `navigation-${id}`;
     const text = capitalizeFirst(value);
     // todo apply the other capitalize functions, or refactor the capitalize functions so it is one call
-    return $('<li>').addClass('navigation-entry').addClass(navigationId).attr('data-entry-id', id).html(text);
+    return $('<li>').addClass('navigation-entry').addClass(key).addClass(navigationId).attr('data-entry-id', id).html(text);
 }
 
 function generateNavigationForSection($section) {
-    // console.log('generate navigation for section');
-    // console.log($section);
+//     console.log('generate navigation for section');
+//     console.log($section[0]);
     let $navigationSection = navigationEntry($section);
     // console.log($navigationSection);
     const $childSections = $section.children("section");
@@ -440,7 +441,7 @@ function fetchJsonData(name) {
 
 async function basicFetchBook(name) {
 //    console.log('fetch book');
-    const path = `book/${name}.book`;
+    const path = `book/${name}`;
 //    console.log(path);
     const response = await fetch(path, { cache: "no-store" });
     return await response.text();
@@ -527,6 +528,8 @@ function renderBook(lines) {
         'grid2': 'div',
         'grid3': 'div',
         'grid4': 'div',
+        'grid5': 'div',
+        'grid6': 'div',
         'image': 'img',
         'italic': 'i',
         'js': '',
@@ -536,13 +539,14 @@ function renderBook(lines) {
         'subsection': 'div',
         'subtitle': 'i',
         'title': 'h1',
-        // todo apostrophe tag to define an apostophe for this book
+        'underline': 'u',
         // todo figure tag and figcaption
     };
 
     const brands = {
         'twitter.com': 'x-twitter',  // https://github.com/FortAwesome/Font-Awesome/issues/19925
         'wikipedia.org': 'wikipedia-w',
+        'x.com': 'x-twitter',
         'youtube.com': 'youtube',
         'youtu.be': 'youtube',
     }
@@ -555,6 +559,7 @@ function renderBook(lines) {
     let capitalizes = [];
     let allCaps = [];
     let apostropheMap = {};
+    let is_link = false;
 
     for (const line of lines) {
         if (!line) {
@@ -563,6 +568,7 @@ function renderBook(lines) {
         const firstColon = line.indexOf(':');
         const key = line.substring(0, firstColon);
         let value = line.substring(firstColon + 1, line.length).trim();
+        is_link = false;
 //        console.log(`key "${key}"  value "${value}"  current section ${$currentSection && $currentSection.attr('id')}`);
         let $line;
         let tag = 'p';
@@ -638,13 +644,14 @@ function renderBook(lines) {
             continue;
         }
 
-
         let urlMatches = [...value.matchAll(httpLinkRegex)];
         if ((urlMatches.length > 0) && (key !== 'image')) {
             for (const urlMatch of urlMatches) {
+//                console.log('url match');
 //                console.log(urlMatch);
                 //                const urlLength = urlMatch[0].length;
                 if (URL.canParse(urlMatch[0])) {
+                    is_link = true;
                     const url = new URL(urlMatch[0]);
                     let domain = stripSecondaryDomain(url.hostname);
                     //                    console.log(`url hostname ${domain}`);
@@ -671,7 +678,7 @@ function renderBook(lines) {
         }
         if ((key === 'author') || (key === 'by') || (key === 'title')) {
             value = titleCase(value, allCaps, apostropheMap);
-        } else if ((key === 'chapter') || (key === 'class') || (key === 'section') || (key === 'subsection') || (key === 'dom') || (key === 'image')) {
+        } else if ((key === 'chapter') || (key === 'class') || (key === 'section') || (key === 'subsection') || (key === 'dom') || (key === 'image') || (is_link)) {
             // dont modify value yet
         } else {
             value = sentenceCase(value, capitalizes, allCaps, apostropheMap);
@@ -682,6 +689,7 @@ function renderBook(lines) {
             let myCleanId = cleanId(value);
             $line.attr('id', myCleanId);
             $line.attr('data-value', value);
+            $line.attr('data-key', key);
             let level = 2;
             if (key === 'section') {
                 level = 3;
@@ -709,7 +717,7 @@ function renderBook(lines) {
 //            console.log(line);
             plainDomFetch(value, `div.${cls}`, plainDomOnComplete);
         }
-        if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4') || (key === 'column0') || (key === 'column1') || (key === 'column2') || (key === 'column3')) {
+        if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4') || (key === 'grid5') || (key === 'grid6') || (key === 'column0') || (key === 'column1') || (key === 'column2') || (key === 'column3') || (key === 'column4') || (key === 'column5')) {
             $line.addClass(key);
         }
         if (key === 'image') {
@@ -734,7 +742,7 @@ function renderBook(lines) {
             $currentSection.append($line);
         }
         
-        if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4')) {
+        if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4') || (key === 'grid5') || (key === 'grid6')) {
             $currentGrid = $line;
         }
         line_number += 1;
@@ -776,7 +784,8 @@ function listBooks(books) {
         const $book = $('<li>').addClass('book');
         const bookUri = encodeURI(book);
 //        console.log(`book uri ${bookUri}`);
-        const $bookLink = $('<a>').attr('href', `#${bookUri}`).text(book);
+        const withoutExtension = book.substring(0, book.indexOf('.'));
+        const $bookLink = $('<a>').attr('href', `#${bookUri}`).text(withoutExtension);
         $book.append($bookLink);
         setData($book, {'name': bookUri});
         $books.append($book);
@@ -812,7 +821,7 @@ function initializeWriting() {
     $body.on('click', '.book', loadBookEvent);
     $body.on('click', '.navigation-entry', scrollToEntry);
 //    registerObservers();
-    fetchBook('index', listBooks);
+    fetchBook('index.book', listBooks);
 }
 // todo
 

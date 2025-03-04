@@ -60,6 +60,10 @@ nav.article .navigation-entry {
     color: inherit;
     cursor: pointer;
 }
+.navigation-entry.section {
+    margin-left: 1em;
+    list-style-type: circle;
+}
 .dark nav.article .navigation-entry {
     color: #777777;
 }
@@ -158,6 +162,20 @@ button.dark, button.play-all {
     grid-column-gap: 1em;
     margin-right: 1em;
 }
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    margin-right: 1em;
+}
+.grid6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    margin-right: 1em;
+}
 .column0 {
     grid-column: 1;
 }
@@ -169,6 +187,12 @@ button.dark, button.play-all {
 }
 .column3 {
     grid-column: 4;
+}
+.column4 {
+    grid-column: 5;
+}
+.column5 {
+    grid-column: 6;
 }
 .book {
     cursor: pointer;
