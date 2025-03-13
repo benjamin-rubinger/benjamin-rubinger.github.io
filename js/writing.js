@@ -275,13 +275,26 @@ function sentenceCase(s, capitalizes, allCaps, apostropheMap) {
 function navigationEntry($section) {
     // console.log('navigation entry');
     // console.log($section);
-    if ($section[0].nodeName !== 'SECTION') {
-        // console.log('navigation entry return early');
-        return $('<div>');
-    }
     const id = $section.attr('id');
     const key = $section.attr('data-key');
     const value = $section.attr('data-value');
+    if ($section[0].nodeName !== 'SECTION') {
+        // console.log('navigation entry return early');
+        if (id === 'book'){
+            let v = 'top';
+            if (value) {
+                v = value;
+            }
+            const text = titleCase(value, [], {});
+            const navigationId = `navigation-${id}`;
+            const $root = $('<li>').addClass('navigation-entry').addClass(navigationId).attr('data-entry-id', id).html(text);
+            const $result = $('<div>');
+            $result.append($root);
+            return $result;
+        }
+        return $('<div>');
+    }
+
 //    console.log(value);
     const navigationId = `navigation-${id}`;
     const text = capitalizeFirst(value);
@@ -307,9 +320,9 @@ function generateNavigationForSection($section) {
 }
 
 function generateNavigation() {
-    const $navigationContainer = $('nav.article .navigation-container');
     const $article = $('div#book');
     const $navigation = generateNavigationForSection($article).unwrap();
+    const $navigationContainer = $('nav.article .navigation-container');
     $navigationContainer.empty().append($navigation).show();
     $('button.navigation-collapse, button.navigation-expand').show();
 }
@@ -508,7 +521,7 @@ if (!URL.canParse) {
 function renderBook(lines) {
 //    console.log(`render book  lines length ${lines.length}`);
     // logBook(lines);
-    const $book = $('div#book');
+    const $book = $('div#book').attr('data-value', null);
     $book.empty();
     const keySet = {
         'all caps': '',
@@ -523,6 +536,8 @@ function renderBook(lines) {
         'column1': 'div',
         'column2': 'div',
         'column3': 'div',
+        'column4': 'div',
+        'column5': 'div',
         'css': '',
         'dom': 'div',
         'grid2': 'div',
@@ -642,6 +657,9 @@ function renderBook(lines) {
 //            console.log('apostrophize');
 //            console.log(apostropheMap);
             continue;
+        }
+        if (key === 'title') {
+            $book.attr('data-value', value);
         }
 
         let urlMatches = [...value.matchAll(httpLinkRegex)];
@@ -798,9 +816,9 @@ function listBooks(books) {
 }
 
 function scrollToEntry(event) {
-    console.log('scroll to entry');
     const $target = $(event.target);
     const id = $target.attr('data-entry-id');
+    console.log(`scroll to entry id ${id}`);
     const $entry = $(`#${id}`);
     $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
 }
