@@ -381,10 +381,11 @@ function smaller() {
 }
 
 function changeBook() {
-    $('nav.article .navigation-container').hide();
-    $('div#book').hide();
-    $('button.navigation-collapse, button.navigation-expand').hide();
-    $('div#books').show();
+    loadBook('index.book');
+//    $('nav.article .navigation-container').hide();
+//    $('div#book').hide();
+//    $('button.navigation-collapse, button.navigation-expand').hide();
+//    $('div#books').show();
 }
 
 function navigationCollapse() {
@@ -548,6 +549,7 @@ function renderBook(lines) {
         'image': 'img',
         'italic': 'i',
         'js': '',
+        'link': 'div',
         'page title': null,
         'quote': 'blockquote',
         'section': 'section',
@@ -629,6 +631,29 @@ function renderBook(lines) {
             // fire the loading
             head.appendChild(script);
             continue;
+        }
+        if (key === 'link') {
+            let text = value;
+            let bookName = '';
+            if (text.startsWith('#')) {
+                text = text.substring(1);
+                bookName = text;
+                if (bookName.indexOf('#') >= 0) {
+                    bookName = bookName.substring(0, bookName.indexOf('#'));
+                }
+            }
+            if (text.indexOf('.') >= 0) {
+                text = text.substring(0, text.indexOf('.'));
+            }
+            if (text.indexOf('#') >= 0) {
+                text = text.substring(0, text.indexOf('#'));
+            }
+            let cls = '';
+            if (bookName) {
+                cls = `class="book" data-name="${bookName}"`;
+            }
+            value = `<a ${cls} href="${value}">${text}</a>`;
+
         }
         if (key === 'page title') {
             document.title = value;
@@ -773,6 +798,23 @@ function renderBook(lines) {
     registerObservers();
     capitalize();
     apostrophes();
+    let hash = decodeURI(window.location.hash.substring(1));
+    if (hash) {
+        if (hash.indexOf('#') >= 0) {
+            const id = hash.substring(hash.indexOf('#'));
+            console.log(id);
+            const $entry = $(`${id}`);
+            if ($entry.length > 0) {
+                $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            } else {
+                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            }
+        } else {
+            $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+        }
+    } else {
+        $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+    }
 }
 
 function loadBook(name) {
@@ -780,8 +822,8 @@ function loadBook(name) {
     if (!name) {
         return;
     }
-    $('div#books').hide();
-    $('div#book').show();
+//    $('div#books').hide();
+//    $('div#book').show();
     fetchBook(name, renderBook);
 }
 
@@ -792,28 +834,28 @@ function loadBookEvent(event) {
     loadBook(name);
 }
 
-function listBooks(books) {
-    const $books = $('ul.books');
-    $books.empty();
-    for (const book of books) {
-        if (!book) {
-            continue;
-        }
-        const $book = $('<li>').addClass('book');
-        const bookUri = encodeURI(book);
-//        console.log(`book uri ${bookUri}`);
-        const withoutExtension = book.substring(0, book.indexOf('.'));
-        const $bookLink = $('<a>').attr('href', `#${bookUri}`).text(withoutExtension);
-        $book.append($bookLink);
-        setData($book, {'name': bookUri});
-        $books.append($book);
-    }
-    let hash = decodeURI(window.location.hash.substring(1));
-//    console.log(`window location hash ${hash}`);
-    if (hash && books.includes(hash)) {
-        loadBook(hash);
-    }
-}
+//function listBooks(books) {
+//    const $books = $('ul.books');
+//    $books.empty();
+//    for (const book of books) {
+//        if (!book) {
+//            continue;
+//        }
+//        const $book = $('<li>').addClass('book');
+//        const bookUri = encodeURI(book);
+////        console.log(`book uri ${bookUri}`);
+//        const withoutExtension = book.substring(0, book.indexOf('.'));
+//        const $bookLink = $('<a>').attr('href', `#${bookUri}`).text(withoutExtension);
+//        $book.append($bookLink);
+//        setData($book, {'name': bookUri});
+//        $books.append($book);
+//    }
+////    let hash = decodeURI(window.location.hash.substring(1));
+//////    console.log(`window location hash ${hash}`);
+////    if (hash && books.includes(hash)) {
+////        loadBook(hash);
+////    }
+//}
 
 function scrollToEntry(event) {
     const $target = $(event.target);
@@ -839,8 +881,14 @@ function initializeWriting() {
     $body.on('click', '.book', loadBookEvent);
     $body.on('click', '.navigation-entry', scrollToEntry);
 //    registerObservers();
-    fetchBook('index.book', listBooks);
+    let hash = decodeURI(window.location.hash.substring(1));
+    //    console.log(`window location hash ${hash}`);
+    if (hash) {
+        loadBook(hash);
+    } else {
+//        fetchBook('index.book', listBooks);
+        loadBook('index.book');
+    }
 }
-// todo
 
 $(() => initializeWriting());

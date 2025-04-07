@@ -120,10 +120,10 @@ function formatOrdinalDate(d) {
     $ordinalDate.text(ordinalDateString);
 }
 
-function formatProposal(d) {
-    const $myProposedCalendar = $('div.my-proposed-calendar');
-    const proposalString = getProposalString(d);
-    $myProposedCalendar.text(proposalString);
+function formatHOD(d) {
+    const $hodCalendar = $('div.hod-calendar');
+    const hodString = getHODString(d);
+    $hodCalendar.text(hodString);
 }
 
 function getDatetime() {
@@ -159,7 +159,7 @@ function formatDatetime(year, month, day, timeString, offsetString) {
     formatJulianCalendar(d);
     formatJulianDays(d);
     formatOrdinalDate(d);
-    formatProposal(d);
+    formatHOD(d);
     convertCalendar();
 }
 
@@ -838,9 +838,9 @@ function convertCalendar() {
     } else if (calendarName === 'julianDay') {
         const jdn = gregorianToJulianDayNumber(d);
         console.log(`jdn ${jdn}`);
-    } else if (calendarName === 'proposal') {
-        const proposal = getProposalString(d);
-        console.log(`proposal ${proposal}`);
+    } else if (calendarName === 'hod') {
+        const hod = getHODString(d);
+        console.log(`hod ${hod}`);
     } else if (calendarName === 'unixTime') {
         const unixTime = getUnixTimeString(d);
         console.log(`unix time ${unixTime}`);
@@ -854,8 +854,8 @@ function setCalendar(calendarName) {
     $convertCalendar.val(calendarName);
 }
 
-function getProposalString(d) {
-//    console.log('get proposal string fixed 5');
+function getHODString(d) {
+//    console.log('get hod string fixed 5');
     let year = getYearNumber(d) * 1 + 10000;
     const gregorianOrdinal = gregorianToOrdinalNumber(d);
     const newYearOffset = 266;
@@ -1209,7 +1209,7 @@ function fillDesignYourOwn() {
     // new year day
     $('.select-new-year-day').val(calendarData['new year day']).change();
     // month names
-    if ((calendarName === 'julianDay') || (calendarName === 'proposal') || (calendarName === 'unixTime')) {
+    if ((calendarName === 'julianDay') || (calendarName === 'hod') || (calendarName === 'unixTime')) {
         $('.select-month-names').val('none').change();
     } else {
         $('.select-month-names').val(calendarNameSpace).change();
@@ -1365,8 +1365,8 @@ function hebrewJson() {
     return '{"based on":"babylonian","by":"","community":"jews","date format":"","hours per day":24,"intercalary days":5,"introduced":"-002450","epoch":"-003762","leap day ratio":0,"leap month ratio":0,"minutes per hour":"","month length":"30","months":"Akhet Thoth,Akhet Phaophi,Akhet Athyr,Akhet Choiak,Peret Tybi,Peret Mechir,Peret Phamenoth,Peret Pharmuthi,Shemu Pachons,Shemu Payni,Shemu Epiphi,Shemu Mesore","name":"egyptian","new day time":"sunset","new year day":254,"notes":"","type":"solar","week length":10}';
 }
 
-function proposalJson() {
-    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"proposal","new day time":"midnight","new year day":265,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
+function hodJson() {
+    return '{"based on":"french republican","by":"benjamin rubinger","community":"","date format":"yyyy ddd.hiissuuu","hours per day":10,"intercalary days":0,"introduced":"2022-10-21","epoch":"-010001-09-22","leap day ratio":0.2422,"leap month ratio":0,"minutes per hour":100,"month length":"","months":"","name":"hod","new day time":"midnight","new year day":265,"notes":"","seconds per minute":100,"type":"solar","week length":""}';
 }
 
 function romanJson() {
@@ -1390,6 +1390,7 @@ function conversionTestData() {
         // ['julianDay', '2000-01-01T12:00:00Z', '2451545.00000000'],
         ['frenchRepublican', '1792-09-22', '{"year":1,"month":1,"day":1}'],
         // ['frenchRepublican', '2023-02-06', '{"year":231,"month":5,"weekOfYear":14,"dayOfWeek":7,"dayOfMonth":17}'],
+        ['hod', '2022-10-21', '{"year":12022,"day":133}'],
     ];
 }
 
@@ -1414,9 +1415,9 @@ function verify() {
         } else if (calendarName === 'julianDay') {
             const jdn = gregorianToJulianDayNumber(inD);
             console.log(`verify jdn ${jdn}`);
-        } else if (calendarName === 'proposal') {
-            const proposal = getProposalString(inD);
-            console.log(`verify proposal ${proposal}`);
+        } else if (calendarName === 'hod') {
+            const hod = getHODString(inD);
+            console.log(`verify hod ${hod}`);
         } else if (calendarName === 'unixTime') {
             const unixTime = getUnixTimeString(inD);
             console.log(`verify unix time ${unixTime}`);
@@ -1440,8 +1441,8 @@ function fetchLocal(calendarName) {
         calendarJson = gregorianJson();
     } else if (calendarName === 'hebrew') {
         calendarJson = hebrewJson();
-    } else if (calendarName === 'proposal') {
-        calendarJson = proposalJson();
+    } else if (calendarName === 'hod') {
+        calendarJson = hodJson();
     } else if (calendarName === 'roman') {
         calendarJson = romanJson();
     } else if (calendarName === 'sumerian') {
@@ -1476,7 +1477,7 @@ function initializeCalendarReform() {
     // setDatetime('1970-01-01', false, '00:00:00.000', '+00:00');
     // setCalendar('unix time');
     // convertCalendar();
-    // setCalendar('proposal');
+    // setCalendar('hod');
     // convertCalendar();
     // setDatetime('1582-10-15', false, '00:00:00.000', '+00:00');
     verify();
@@ -1495,7 +1496,7 @@ function initializeCalendarReform() {
 // change the calendar name input if you start from an existing calendar and change it
 // gregorian to any french republican
 // gregorian to any unixtime
-// gregorian to proposal debug negative fractional day
+// gregorian to hod debug negative fractional day
 // gregorian to any jewish
 // add tests for negative dates
 // scroll to with the table of contents, as you read the table of contents moves with you

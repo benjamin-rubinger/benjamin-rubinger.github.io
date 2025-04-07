@@ -21,7 +21,11 @@ capitalize: al
 capitalize: athens
 capitalize: april
 capitalize: august
+capitalize: babylon
+capitalize: babylonian
 capitalize: biruni
+capitalize: britain
+capitalize: caesar
 capitalize: catholic
 capitalize: celtic
 capitalize: chinese
@@ -32,74 +36,71 @@ capitalize: earth
 capitalize: earths
 capitalize: egypt
 capitalize: egyptian
+capitalize: egyptians
+capitalize: england
+capitalize: february
 capitalize: france
 capitalize: french
+capitalize: friday
+capitalize: frigg
 capitalize: greek
 capitalize: gregorian
 capitalize: gregory
+capitalize: greenwich
 capitalize: hebrew
+capitalize: hod
 capitalize: holocene
+capitalize: iranian
 capitalize: islamic
+capitalize: iso
+capitalize: israel
 capitalize: january
+capitalize: jerusalem
 capitalize: jesus
+capitalize: judaism
 capitalize: julian
+capitalize: julius
 capitalize: july
 capitalize: june
-capitalize: february
+capitalize: juno
+capitalize: jupiter
+capitalize: london
+capitalize: maia
 capitalize: march
+capitalize: mars
+capitalize: martian
+capitalize: martians
+capitalize: mercury
 capitalize: meton
 capitalize: metonic
 capitalize: monday
 capitalize: napolean
+capitalize: norse
 capitalize: november
+capitalize: numa
 capitalize: october
+capitalize: odin
+capitalize: pompilius
 capitalize: ptolemy
 capitalize: roman
 capitalize: rome
-capitalize: september
-capitalize: unix
-capitalize: tiw
-capitalize: tuesday
-capitalize: mars
-capitalize: wednesday
-capitalize: woden
-capitalize: odin
-capitalize: marcury
-capitalize: thor
-capitalize: thames
-capitalize: thursday
-capitalize: jupiter
-capitalize: friday
-capitalize: frigg
-capitalize: venus
 capitalize: saturday
 capitalize: saturn
-capitalize: sunday
-capitalize: norse
-capitalize: roman
-capitalize: iranian
-capitalize: greenwich
-capitalize: london
-capitalize: england
-capitalize: britain
-capitalize: tishrei
-capitalize: israel
-capitalize: babylon
-capitalize: babylonian
 capitalize: selucid
-capitalize: jerusalem
+capitalize: september
+capitalize: sunday
+capitalize: thames
+capitalize: thor
+capitalize: thursday
+capitalize: tishrei
+capitalize: tiw
 capitalize: torah
+capitalize: tuesday
+capitalize: unix
 capitalize: vendémiaire
-capitalize: julius
-capitalize: caesar
-capitalize: maia
-capitalize: juno
-capitalize: numa
-capitalize: pompilius
-capitalize: egyptians
-capitalize: iso
-capitalize: martian
-capitalize: martians
+capitalize: venus
+capitalize: wednesday
+capitalize: woden
 
 all caps: ad
 all caps: bc
@@ -146,22 +147,22 @@ group days into years - gregorian uses 12 months.
 new day time - the time of day when the date changes. gregorian uses midnight, other options are sunrise, midday or sunset.
 divide a day into time - gregorian uses 24 hours per day in two groups of 12, 60 minutes per hour, and 60 seconds per minute.
 
-section: the best human earth calendar
-this is my calendar proposal.
+section: the hod calendar
+this is my proposal for the best calendar for humans on earth, the hod calendar, holocene ordinal decimal.
 epoch - holocene era, 10,000 years before the gregorian epoch, an arbitrary year at the beginning of human civilization. add 10000 to the gregorian year, so 2022 gregorian is 12022 holocene.
 new year day - equinox going south, september 23rd gregorian.
 leap year - same as gregorian
 group days into years - ordinal days, the day of the year goes from 0 to 364, or 365 on a leap year. no months. you can add your own groupings like we already do with weeks or quarters.
 new day time - midnight, same as gregorian.
-divide a day into time - decimal time. time of day is a number between 0 and 1, midnight is 0.0, six am is 0.25, twelve pm is 0.5, etc. with unlimited precision.
+divide a day into time - decimal time. time of day is a decmial number between 0 and 1, midnight is 0.0, six am is 0.25, twelve pm is 0.5, etc. with unlimited precision.
 
 additionally, eliminate daylight savings time and timezones. everyone would use universal coordinated time (utc).
 
-interactive proposed calendar
-class: my-proposed-calendar
+interactive hod calendar
+class: hod-calendar
 class: datetime-container
 
-why is my calendar the best for humans on earth? how did we get the gregorian calendar in the first place? i have written the following book that explains it all, with animations and interactive calendars! its a long journey, so i summarized my conclusions above. thank you for reading.
+why is the hod calendar the best for humans on earth? how did we get the gregorian calendar in the first place? i have written the following book that explains it all, with animations and interactive calendars! its a long journey, so i summarized my conclusions above. thank you for reading.
 
 note: all the animations on this page can ⏸︎ pause and ⏵︎ play by clicking or touching anywhere in the animation.
 
@@ -682,7 +683,7 @@ year
 <div class="datetime-container"></div>
 
 
-chapter: history of calendars leading up to the gregorian calendar and my proposal
+chapter: history of calendars leading up to the gregorian calendar and the hod calendar
     <div class="timeline"></div>
 this timeline is interactive, you can drag, scroll and zoom! includes all the events described in this document from 11700 bc to 2256 ad.
 section: how did people track time before calendars or clocks
@@ -903,12 +904,12 @@ what time will it be 1000 seconds from now in sexagesimal time (the common clock
 
 
 chapter: calendar designs
-now that you know how calendars work and have seen several existing calendars, you are ready to design your own calendar! i will present my proposal first, then you can compare existing calendars and even create your own calendar!
-section: my proposed calendar
-i propose a solar calendar with ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of an earth calendar for humans, to track the position of the sun in the sky, track the seasons, and locate points in time. the epoch is the holocene era, 10000 years before the gregorian epoch, an arbitrary year during the agricultural revolution. the new year day is the equinox going south, the new day time is midnight. no daylight saving time. no timezones, everywhere is utc.
+now that you know how calendars work and have seen several existing calendars, you are ready to design your own calendar! i will present the hod calendar first, then you can compare existing calendars and even create your own calendar!
+section: the hod calendar
+i propose a solar calendar with ordinal dates and decimal time. it is a two number datetime format, with one number for the year and the other number for the day in the current year and the fraction of the day. these two numbers provide the three fundamental purposes of an earth calendar for humans, to locate points in time, track the seasons, and track the position of the sun in the sky. the epoch is the holocene era, 10000 years before the gregorian epoch, an arbitrary year during the agricultural revolution. the new year day is the equinox going south, the new day time is midnight. no daylight saving time. no timezones, everywhere is utc.
 
-interactive proposed calendar
-class: my-proposed-calendar
+interactive hod calendar
+class: hod-calendar
 class: datetime-container
 
 section: design your own calendar
@@ -924,7 +925,7 @@ section: design your own calendar
 <!--                    <option>islamic</option>-->
                 <option>julian</option>
                 <option>julian day</option>
-                <option>proposal</option>
+                <option>hod</option>
                 <option>unix time</option>
             </select>
             <label for="calendar-type">type</label>
@@ -1111,7 +1112,7 @@ class: converted-datetime
 <!--                <option>islamic</option>-->
             <option>julian</option>
             <option>julian day</option>
-            <option>proposal</option>
+            <option>hod</option>
             <option>unix time</option>
             <option>your custom calendar</option>
         </select>
@@ -1128,7 +1129,7 @@ https://en.wikipedia.org/wiki/Planck_units#Planck_time
 eventually science will solve the problem of sleep. our descendants will no longer need to rest for a third of the day every day, and days will lose their hold on their schedules. they can live their lives with other frequencies of activity. if they also improve their minds to better handle large numbers, a calendar similar to unix time might be good. at that point they should stop using the arbitrary unit of seconds and instead use the unit of planck time, the shortest unit of time known to physics.
 
 chapter: conclusion
-we covered a lot about calendars! the parts of a calendar, the details, the history of calendars, design your own, calendars of the future, and why my proposal is the best calendar for humans on earth. i hope it was interesting and useful for you. even after writing this much, this is only an introduction to the hundreds of subjects i mentioned. after this conclusion there is still an appendix of more interesting calendars and supporting arguments for the problems with the gregorian calendar.
+we covered a lot about calendars! the parts of a calendar, the details, the history of calendars, design your own, calendars of the future, and why the hod calendar is the best calendar for humans on earth. i hope it was interesting and useful for you. even after writing this much, this is only an introduction to the hundreds of subjects i mentioned. after this conclusion there is still an appendix of more interesting calendars and supporting arguments for the problems with the gregorian calendar.
 thank you for reading! i would like to hear from you in the
 github discussions https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions
 
@@ -1259,7 +1260,7 @@ section: no year limit
 if a calendar operates for a long time, the year will become longer and longer to write, eventually passing 10 000, 100 000, 1 million and more. almost all dates in an old calendar will have long year numbers. i propose 10 000 year eras so year numbers are always four digits or fewer, except when you refer to previous or future eras. for example, if we write out a date in the far future from now such as the year 41 032, we could instead write it as era 4 1032, and write it as 1032 when the era is already established. whenever you omit information there is the possibility of ambiguity, so there must be additional work to provide consistent context to allow us to write short year numbers even in old calendars.
 
 section: one indexing is wrong, zero indexing is right
-the hours of the day shouldnt be 1 - 12, they should be 0 - 11 (12 hour time), 0 - 23 (24 hour time) or 0 - 9 (decimal time). months shouldnt be 1 - 12, they should be 0 - 11. day numbers of the week, month or year should start from zero. the epoch starts from zero, military time starts from zero, everything should start from zero.
+the hours of the day shouldnt be 1 - 12, they should be 0 - 11 (12 hour time), 0 - 23 (24 hour time) or 0 - 9 (decimal time). months shouldnt be 1 - 12, they should be 0 - 11. day numbers of the week, month or year should start from zero. the epoch starts from zero, military time starts from zero, everything should start from zero. in gregorian, the year, month, day and hour start from 1, which is wrong. then gregorian is inconsistent with itself, the minute, second and subsecond start from zero. this is how you get the strange case of 12:59 proceeding to 01:00, when it should be 12:60 and then 01:01, or 11:59 which should proceed to 00:00.
 
 section: use a single number for datetimes
 julian days use a single number with the unit of a day. unix time uses a single number with the unit of a second or a millisecond. another option is to use a single number with the unit of a year. a metric year could be initially defined to match a tropical earth year. the year could be split into 10 months that have nothing to do with the moon, so maybe we could call them something different. for example, halfway through the current year would be 2022.5.
