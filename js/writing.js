@@ -28,6 +28,9 @@ function capitalizeFirst(s) {
 }
 
 function titleCase(s, allCaps, apostropheMap) {
+    if (!s) {
+        return '';
+    }
     let exceptions = [
         'a',
         'above',
