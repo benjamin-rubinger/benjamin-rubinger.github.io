@@ -3,7 +3,7 @@ image: yoursituationcover.svg Your Situation Cover
 title: Your Situation
 subtitle: A Swift Spiritual Kick to the Head to Align Your Model with Reality
 by: Benjamin Rubinger
-Estimated reading time: 3 hours or more
+Estimated reading time: 3 hours to read, longer to apply
 
 Read Your Situation online https://benjamin-rubinger.github.io/#your%20situation.txt
 Download Your Situation PDF https://benjamin-rubinger.github.io/book/your%20situation.pdf
@@ -113,7 +113,13 @@ section: Computational Limits
 Even if you have no physical or resource limitations to observe your opponent, there remain computational limits. Your satellites could watch their movements in real-time from space. Your analysts could analyze their every move. But if the opponent transmits a coded message, that code may be unbreakable no matter how many analysts and computers you have. If your opponent changes their mind because of a past experience that you could know nothing about, you can't predict it. Astronomers can predict the orbits of two-body systems, such as the Earth and the Moon, very simply. If you try to model three bodies, such as the Sun, Earth and Mars, the problem becomes intractable and impossible to predict beyond a certain amount of time, due to compounding errors in the simulation of systems with more than two bodies. Even with only three things, we reach foggy computational limits. Fundamentally, the ability to observe and simulate the world is limited. The only computer capable of simulating the future of the world is the world itself, at one second per second.
 
 section: Cost of Information, Cost-Benefit
-Cost of information means how much it costs to get, or potentially get, a specific kind of information. It might cost me 30 seconds to check the weather on my phone, and it might cost several days and human lives to scout an enemy position. Cost-benefit analysis is a way to decide what to do by using the simple ratio of how much I pay and how much I get. Information can be insanely valuable, which is why insider stock trading is illegal. Information is usually not what you ultimately want. To get what you want, you must act on your information. In any real life situation, there is a perfect but unknowable balance of exploring for more information and exploiting the information you have. Your job is to balance the costs of more information and taking your objectives using the information you have.
+Cost of information means how much it costs to get, or potentially get, a specific kind of information. It might cost me 30 seconds to check the weather on my phone, and it might cost several days and human lives to scout an enemy position. Cost-benefit analysis is a way to decide what to do by using the simple ratio of how much I pay and how much I get. Information can be insanely valuable, which is why insider stock trading is illegal. Information is usually not what you ultimately want. To get what you want, you must act on your information. In any real life situation, there is a perfect but unknowable balance of exploring for more information and exploiting the information you have, explore exploit. Your job is to balance the costs of more information and taking your objectives using the information you have.
+
+section: Curiosity
+There are failures of knowledge at the extremes, absolute certainty, nihilism, relativism. You stop learning. Without learning, you stop flexibly responding to your environment, you lose agency. Insatiable curiosity is a virtue. Once you have the information you need, you might think you are done. But what if the information is wrong, or there is additional information you didn't know you needed? Keep an open mind, collect all available information, stay curious.
+
+What do you think you know, and how do you think you know it? Eliezer Yudkowsky HPMoR Chapter 7
+I beseech you, in the bowels of Christ, think it possible that you may be mistaken. Oliver Cromwell
 
 section: Burning the Fog
 In this universe, humans are puny, each of us surrounded by our own fog of war. Some of the fog is impenetrable. But some of the fog is penetrable. Your choice is to roll in the mud and complain about how unfair and difficult life is, or to get up and do what you can. To do that, you have to trade off your resources to collect information or to advance your objectives, including the objective to gain more resources. It's a mess, and at any moment an unstoppable wave can emerge from the fog and engulf you completely. Do what you can, with what you have. Shine your light to others. Fight on in darkness.
@@ -122,6 +128,7 @@ https://en.wikipedia.org/wiki/Perfect_information
 https://en.wikipedia.org/wiki/Fog_of_war
 Examples of Costs of Information https://simplicable.com/new/information-costs
 Cost-Benefit Analysis https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis
+https://en.wikipedia.org/wiki/Epistemic_humility
 https://en.wikipedia.org/wiki/Hyperthymesia
 https://en.wikipedia.org/wiki/Three-body_problem
 
@@ -194,19 +201,21 @@ Decision in hand, you have to implement it. Sometimes this is trivial and someti
 section: Imperfection
 If people aren't perfect, and you are a person, then you aren't perfect. Most people already accept this much, you know you aren't perfect. That means that sometimes you make a small oops. Occasional small oops is not your situation. Your situation is oops oops oops oops oops. You never do the right thing. It's not a question of whether you are wrong, it is a question of how wrong, and more importantly how you can become less wrong. Humanity has solved some simple games, such as tic-tac-toe. We know the correct choice for any state of that game. If you make that choice you are correct and if you make any other choice you are wrong. You have severe limits on information and computation that prevent you from finding the correct choices in your life.
 
-When people make deals, they talk about leaving money on the table. A deal is made over a table, and each side makes offers until they agree and trade or they give up. Leaving money on the table means that one side could have asked the other side for more and still made the deal. In your life, you are not almost correct, you are not taking all of the money on the table. You are leaving almost all of the money on the table.
+Review your performance. Hold yourself accountable. Don't forget about the past or stay stuck in it. Don't indulge yourself or beat yourself up, be proportionate. How did you do? What could you do better? What should you do about it now?
 
-The bad news is that you aren't a little wrong, you are very wrong. Your intuitive feeling that you are doing pretty well and you are almost correct is a delusion. The good news is that the frustrating feeling that you can't really improve much is false. You can improve a lot!
+When people make deals, they talk about leaving money on the table. A deal is made over a table, and each side makes offers until they agree and trade or they give up. Leaving money on the table means that one side could have asked the other side for more money and still made the deal. In your life, you are not almost correct, you are not taking all or most of the money on the table. You are leaving almost all of the money on the table.
+
+The bad news is that you aren't a little wrong, you are very wrong. Your intuitive feeling that you are doing pretty well, that you are almost correct, is a delusion. The good news is that the frustrating feeling that you can't really improve is false. You can improve a lot!
 
 section: Being Reasonable
 I faced an infinite number of potential decisions about what to write about decisions to advance my goals, and these are my conclusions. You can only make decisions you are aware of. You can only consider information and options you are aware of. If you balance importance, urgency and cost of information to prioritize your decisions, then make deliberate conclusions, you can be reasonable. This will increase your ability to think, improving your observe, think, act cycle. Both the potential losses and gains from your decisions mean everything to you. The decision is yours.
 
+rationality: from AI to zombies https://www.readthesequences.com
 https://en.wikipedia.org/wiki/Planning_fallacy
 https://en.wikipedia.org/wiki/Minimax#Example
 https://en.wikipedia.org/wiki/Iterative_and_incremental_development
 a b testing https://en.wikipedia.org/wiki/A/B_testing
 https://en.wikipedia.org/wiki/Mathematical_optimization
-https://www.lesswrong.com/
 https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
 logical uncertainty https://www.alignmentforum.org/w/logical-uncertainty
 
@@ -267,6 +276,7 @@ In this life, only excellent people succeed, it's down to luck, I will probably 
 https://en.wikipedia.org/wiki/Role_of_chance_in_scientific_discoveries
 https://en.wikipedia.org/wiki/Survivorship_bias
 Jack Conte describing Excellence and Waves https://www.youtube.com/watch?v=Zf5rKTCMNnU
+Naval explaining human success https://x.com/naval/status/1911181129102790682
 
 chapter: I Know the Score
 section: The Footrace
@@ -539,7 +549,7 @@ section: Virality
 Memes can be viral. Virality is how fast a meme spreads, and is determined by the transmission speed and replication factor. The replication factor is a multiplier. For example, if the replication factor is one, the first person that is infected with the memetic virus will spread it to one other person and stop. The second person will spread it to the next person, and the meme spreads linearly, one by one. A replication factor of two means that each infected person will spread the meme to two other people, this leads to a completely different result. The first person spreads to two, the two spread to four, then four to eight, it doesn't take long before everyone is exposed. The replication factor of a meme can vary within a changing environment. When the replication factor falls below one, the spread decays to zero and the meme dies out.
 
 section: Replication Mechanisms
-Behind the replication factor is the replication mechanism. Some environments have built-in replication mechanisms. Social media services support likes and reposts on any post. Other environments don't provide a replication mechanism, so memes have to self replicate. You can detect viral memes from their replication mechanism. The mechanism can be subtle, but they are often obscenely apparent if you look for them. And by the way, tell all your friends to read this book. If this book has helped you at all, make three copies and give them to people who might need to read it. This book is so powerful, that I bet you can't find anyone to disprove its claims! Send this book along with $10 to ten people. When they learn about this amazing opportunity, they will do the same, and send half of the money back to you. I earned $70,000 in my first month doing this! You can express your gratitude for everything you have learned from me by having as many children as possible, and teach them from this book at an early age.
+Behind the replication factor is the replication mechanism. Some environments have built-in replication mechanisms. Social media services support likes and reposts on any post. Other environments don't provide a replication mechanism, so memes have to self replicate. You can detect viral memes from their replication mechanism. The mechanism can be subtle, but they are often obscenely apparent if you look for them. And by the way, tell all your friends to read this book. If this book has helped you at all, make three copies and give them to people who might need to read it. This book is so powerful, that I bet you can't find anyone to disprove its claims! Send this book along with $10 to ten people. When they learn about this amazing opportunity, they will do the same, and send half of the money back to you. I earned $70,000 in my first month doing this! You can express your gratitude for everything you have learned from me by having as many children as possible, and teach them from this book at an early age. The previous seven sentences were examples of replication mechanisms attacking you.
 
 section: Lying
 Memetic memes brazenly lie, or at least brazenly suggest. Reality is mundane and, from a certain point of view, nothing ever happens. From the beginning of the universe, not one surprising thing has ever happened. A viral meme is the opposite of that, something unbelievable just happened! I have to tell everybody about this amazing thing! The lie is the superstimulous that attracts you to the viral meme. All images converge to barely dressed sexy people staring at you and smiling. Common superstimuli are get rich quick, beautiful women want to be with you, the prince of nigeria needs your help, do this thing to get back at the system, don't be tricked by this new scam, our group is wonderful while their group is terrible. The most important form of the get rich quick claim is the pyramid scheme, also known as multilevel marketing. A pyramid scheme combines a viral meme with a monetary incentive. They propose a fool-proof scheme to make lots of money, which only redistributes money from all the infected to the top of the pyramid.
@@ -591,6 +601,8 @@ section: Emotional Chemistry
 Emotions have a chemical component. When someone is emotionally triggered, they start dumping emotional chemicals into their body. It takes some time to dump and distribute the chemicals and hype themselves up. If you notice and respond to the emotional trigger during the latency period, it is possible to short-circuit the emotional reaction. The human mind tends to ruminate about significant events, replaying what happened and retriggering an echo of the emotional response even if the cause was already resolved. This creates aftershocks. With enough awareness, you can short-circuit your own aftershocks instead of deafening yourself in an emotional feedback loop.
 
 After the chemicals are distributed, the person is hyped up and even if you stop the emotional alarm, the chemicals and hyperactivity remain. That is why it is impossible to proceed with calm reason immediately after an emotional issue is resolved. The chemicals eventually dissipate on their own, the cooling off period. You can either wait, or it is possible to redirect emotional energy. The chemical component of emotion is mostly arousal, excitement, energy, a hard to ignore urge to react. Overall it pushes you to act. People skilled with emotion can understand the emotional system and are able to intentionally direct emotional energy to productive ends. The actor gets upset with the director for not taking their advice. The director says perfect, perfect, use it! Action!
+
+We express our emotions physically, which is why you can tell how someone is feeling by looking at them. Surprisingly, the mind body emotional connection is bidirectional. To a degree, you can use your body to change your emotion. Try each of the following physical actions and pay attention to how they make you feel. If you smile, you become happier. If you slouch, you feel weak, if you stand tall, you feel strong. If you make your heart race and breathe shallow and fast, you are anxious or excited. If you bring your heart rate down and breathe deep and slow, you are calm.
 
 section: Observe Your Emotions Carefully
 Emotions aren't wrong. Your beliefs are wrong, your interpretation is wrong, your reaction is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And pull your head out of your ass!
@@ -689,10 +701,10 @@ section: Relationships are Essential
 No man is an island, humans are social animals, we need to form deep relationships to be healthy. Relationships are not a nice to have, they are a need. What would happen to a baby if you raised it without human contact? That would be an unethical experiment, one which humanity conducted by accident in the Romanian orphanages of the 1980s. The orphanages provided hundreds of babies with shelter and food, but almost no human contact due to lack of funding and staff. The unattended children developed problems as they grew up, rocking back and forth, wasting away despite eating enough, not connecting with other people.
 
 section: New Relationship Energy
-As a young man, I lived many years without a romantic relationship or any prospects. I thought that it might never happen for me, I am not good enough, I am not a lovable person. Naturally, I wanted a relationship desperately. Naturally, everyone agrees desperation is unattractive. Lack of a romantic relationship was the biggest problem in my life at that time. I remember that morning when a girl accepted me, where I was standing, the girl gave me a hug and a kiss, my body flooded with oxytocin. it was the most intense, happiest feeling I have felt in my life. I understood those stupid expressions, like, I was walking on clouds and the birds song was joyful. This is new relationship energy, the exciting time in the first months of a deep relationship where you think about the person all the time and are very excited and happy about it. That excitment has nothing to do with whether the relationship is mutually benefitial or durable, a powerful feelings over facts experience.
+As a young man, I lived many years without a romantic relationship or any prospects. I thought that it might never happen for me, I am not good enough, I am not a lovable person. I wanted a relationship desperately. Naturally, everyone agrees desperation is unattractive. Lack of a romantic relationship was the biggest problem in my life at that time. I remember the morning when a girl first accepted me, where I was standing, the girl gave me a hug and a kiss, my body flooded with dopamine and norepinephrine. It was the most intense, happiest feeling I have felt in my life. I understood those stupid expressions, like, I was walking on clouds and the birds' song was joyful. This is new relationship energy, the exciting time in the first months of a deep relationship where you think about the person all the time and are very excited and happy about it. That excitment has nothing to do with whether the relationship is mutually benefitial or durable, a powerful feelings over facts experience.
 
 section: Voluntary and Honorable
-No matter what you need from human relationships, you can't take it from other people, you will get only what they choose to give. Relationships are purely voluntary exchange. No matter what other people do to you, and certainly I have been mistreated, you must never lie, neglect or try to hurt others feelings. Stand up for yourself, do what you should, be bold as brass, but always be polite and kind. It takes little effort, creates unexpected opportunities, and if you lose your integrity, you will regret it and gain nothing.
+No matter what you need from human relationships, you can't take it from other people, you will get only what they choose to give. Relationships are purely voluntary exchange. No matter what other people do to you, and certainly I have been mistreated, you must never lie, neglect or try to hurt others feelings. Stand up for yourself, do what you should, be bold as brass, but always be polite and kind. Kindness takes little effort, creates unexpected opportunities, and if you lose your integrity, you will regret it and gain nothing.
 
 section: Managing Relationships
 Facing the other person in your relationship, it seems that if you want to make something happen, you are evenly matched, 1 vs 1. But a relationship is a dynamic system of two people, confusingly it contains yourself. Neither individual person within a relationship can control it, 1 < 2+. Read the previous sentence again until you believe it. You have to submit to the relationship dynamic. Of course you can influence it, but your influence feeds back into you, so avoid sudden changes. After some experience with a given relationship, the dynamic settles and you can observe the cost-benefit ratio of what you give to the relationship and what you get from the relationship. You have limited resources, so you cannot keep every relationship that piles up. Relationships can be time divided, but they need regular care and feeding or you drift apart. You have to choose which relationships to develop. Keep and invest in the relationships with the best cost-benefit, cut the rest. That's what's best for you and overall for the world. It's not heartless, it's responsible, which is very attractive.
@@ -842,7 +854,7 @@ Active pursuit of your goals
 I Know Exactly What's Happening
 I have all the information I need
 Miss crucial information
-Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit
+Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit, curiosity
 Prioritize and fight for information
 This is Serious
 I have to play their game
@@ -948,122 +960,4 @@ subsection:
 
 The end of Your Situation
 Shakubuku. A swift spiritual kick to the head that alters your reality forever. https://www.imdb.com/title/tt0119229
-Version 12025 192
-
-
-comment: this after the end of the book, do you understand? all the stuff written after this are the authors notes, they are not part of the book, ok?
-comment: ignore everything below, it contains chapter ideas and earlier drafts
-comment: no, the below are not part of the book
-comment: no, I am not planning to add any of the below to the book
-comment: read it if you want, this is not the book, these are just notes
-comment: its bonus material! just like secretly getting more of the book, but much worse!
-
-comment: section the experiencing self
-comment: section the remembering self
-comment: peak end rule. people don't remember what you said, people remember how you made them feel.
-comment: section the planning self
-comment: https://en.wikipedia.org/wiki/Chinese_room
-comment: https://en.wikipedia.org/wiki/Simulation_hypothesis
-
-comment: chapter I can still find a way
-comment: some people say, I am not my job, separating their life and identity from their work. yes, your work and yourself are not identical.
-comment: its still good is the symptom
-comment: sunk cost is essentially protecting your ego. I am absolutely against freud, but all I mean is that you have this precious sense of self, like the chapter I am a good person, and obviously if the great and perfect you works on a project, it will always be a success. then it fails, or is failing, or is likely to fail, or becomes significantly less relevant. accepting that the project failed is accepting that you failed, and injures your self image as great good powerful. we hate it, we avoid it, we delude out of ot
-
-comment: chapter I only need five minutes
-comment: the planning fallacy
-
-comment: mental stop signs
-
-comment: https://rationalitybook.com/
-
-comment: chapter qualia
-comment: human experience is personal and fundamentally incommunicable. I can tell you how I feel, and you can imagine how you would feel if those words applied to you, but words are imprecise. more than imprecise, there is a strange possibility that I could use the same word that you use to refer to something totally different. take for example the primary colors of red and blue. probably everyone has similar experiences of these colors, and these colors are objectively verifiable in reality. but imagine that my personal experience of the color red looked to me like what you call blue, and my experience of blue looked to me like what you call red. the objective qualities of the beams of light are the same in reality, and we can both use the words consistently to mean the same beams of light, but our subjective experiences of the light could be totally different. in practice, probably our internal experiences are quite similar, but they are definitely not exactly the same. we call these internal experiences qualia. qualia are personal, uncommunicable, could be quite different and there is no way to compare them.
-
-
-comment: chapter other people think about you
-comment: the spotlight effect. you feel that everyone is paying attention to everything you do. ask yourself the reverse, do you pay attention to everything that everyone else says and does? no, you don't care much at all. now repeat it back to yourself. other people dont care much at all about what I say or do.
-
-comment: section political parties promote a philosophy
-comment: section courts are for justice, legal action is an economic activity, not about fairness, equality, justice or truth
-comment: chapter sex is for reproduction and fun
-comment: chapter people in the past were dumb and people now are smarter, there is an increase in iq due to reductions in starvation, disease and poisoning, people in the past were primitive and ignorant, we are modern and know a lot
-
-comment: chapter: this is who I am
-comment: sports fan, political party, what area you grew up in, what school you went to, where you work, what club you are a member of. particular traits you have or used to have.
-comment: life is complex, its hard to know what to do about it. its convenient to adopt conventions. it feels safer to be part of a group. its especially convenient to find an identity once and then just hold onto it for the rest of your life. no more complexity, no more uncertainty, no more lonliness. you have no fixed identify, your life is a dynamic system. there are no groups, just individuals and the things they do. your fixed identity is a delusion.
-
-comment: chapter: groups groups dont exist. only individuals and actions
-comment: chapter: sports, sports are leashed fighting, they are physical arts, arts like painting
-comment: chapter: adults are adult, people are repsonsible, people take life seriously, the experts know what they are doing
-comment: https://x.com/NavalismHQ/status/1898467004874625147 there are no adults
-comment: repetition legitamizes
-comment: mouse traps
-
-comment: the body mind duality, the body mind connection, the bodymind. inhale and hyperventilate, your heart rate speeds up, you are anxious. slowly exhale completely over ten seconds, hold, slowly inhale over ten seconds, hold, repeat. in through the nose, out through the mouth. this is called square breathing. your heart rate slows down. how do you feel? probably calm. now try slouching, alternating with upright posture, back straight, shoulders down and back, chest out, chin down. do these postures make you feel different? your mood doesn't affect your posture, your mood and posture are essentially the same. your mood is your posture, your posture is your mood. change you mood, change your posture. change your posture, change your mood. smile and you are more happy.
-
-comment: chapter: humans are perfect
-comment: math can be perfect, reality is messy
-comment: humans are a messier part of a messy reality
-comment: humans are not perfect, humans are not nearly perfect, humans are not pretty good. we are not optimal, we are not sub optimal, we are super suboptimal
-comment: that means we didn't take all the money on the table, we didn't take nearly all the money on the table, we left almost all of the money on the table
-comment: its there for the taking. efficient market hypothesis
-
-comment: chapter: I am an apex predator
-comment: section: the hunt
-comment: modern humans developed about a hundred thousand years ago, 100kya, we grew and spread across the world in an unstoppable tide. we destroyed all natural threats. you are the descendent of an unbroken line of killers and conquerers, you are an apex predator. hahaha, try saying that after fighting a hungry bear without equipment. youd get eaten for sure. you are an individual human, a human is not an apex predator. we may be suited for persistence hunting, injuring prey and then chasing them down over long distances until they drop. individual humans are weak, humans are social animals, a tribe of humans is an apex predator, not you.
-
-comment: section: collectivism
-comment: groups of humans are the apex predator, so groups of humans are the key players in history. tribes, city states, empires, corporations, nations, ethnicities, cultures. individuals are important in the sense that they make up the collective, human is to nation as cell is to body. no cells, no body, but the body can and does survive the death of a cell. the collective makes all the important achievements, so the collective is the important agent, not the individual. the job of a collectivist individual is to be a good member of the collective, performing their role within the collective, and sacrificing for the collective when needed. this is an arguable view of the world.
-
-comment: section: great man theory
-comment: humans are social animals and we live as a group. however people are hardly uniform or unified, there is significant variation in human capabilities and goals. occasionally a person appears that changes the course of history, long established patterns are disrupted and a new dynamic forms. the reasonable man adapts himself to the world, the unreasonable man persists in adapting the world to himself, all progress depends on the unreasonable man. the right individual person, at the right place, at the right time can catch a wave that changes the course of history. whether that makes that person great or not is up to how you want to define it. circumstances are greater than individuals, but circumstances act through individuals, not collectives. great achievements are commonly attributable to one person in particular, and rarely to a committee.
-
-comment: section: occasionally apex
-comment: if you are an individual human, you are not mightier than circumstances, not mighter than a collective, and not mighter than a bear. you are weak and the world is large and uncaring. you are not mighty, but you can do something. keep your eyes open, your wits about you, and take your shot.
-
-comment: compartmentalization
-comment: the most important work in the world is also known as the lords work, and your path.
-
-comment: hofstadters law. it always takes longer than you expect, even when you take into account hofstadters law. https://en.wikipedia.org/wiki/Hofstadter%27s_law
-comment: parkinsons law. work expands to fill the time available. https://en.wikipedia.org/wiki/Parkinson%27s_law
-
-comment: if you are procrastinating, you have only two options. make the pain of not doing it greater than the pain of doing it. make the pleasure of doing it more than the pleasure of not doing it. skinners law. skinners law may work, but depending on how you do that you may hurt your relationship with yourself. I whipped myself to keep working for a long time, and eventually burned out.
-comment: the way to work 80 hours a week is to have four different projects that work twenty hours compared to forty hours allocated to one project people who have a problem with procrastination think they have a problem to motivate themselves when they dont feel like working. it is the opposite. you need to demotivate yourself at the right times. you need to restrain your motivation when you get excited.
-comment: heard a theory about boredom that I think is related to this cluster around procrastination. please tell me if you know this theory or where it came from, again only if you know. the idea was that boredom isnt this sudden inability to think of potential tasks or activities. if you ever talk to someone who says they are bored, you can easily list lots of potential things they could do. boredom isnt some capability deficit where someone gains activity amnesia. boredom is an emotional state where the predicted pain or cost of doing all the things you can think of outweighs the predicted benefit or enjoyment. it's a kind of depression. sometimes, you can suggest an activity that is so fun that the boredom emotion is overpowered, sometimes you just drag them along to something and doing something is more interesting than laying around and moaning, and they start having fun again. sometimes its just as bad as they thought, and ennui ensues. its almost the same thing as procrastination from this view
-comment: Yes, I recognize the theory you’re describing, and it aligns closely with contemporary research on boredom, particularly its emotional and motivational dimensions. Here’s what I know, keeping it concise and only sharing what’s verifiable from my data: Source/Origin: This idea stems from psychological research on boredom, notably work by researchers like John D. Eastwood, Mark F. Lenzenweger, and others in the early 21st century, building on earlier theories of emotion and motivation. Eastwood’s 2012 paper, “The Unengaged Mind: Defining Boredom in Terms of Attention,” published in Perspectives on Psychological Science, is a key reference. It frames boredom as an aversive emotional state arising from failed attention and unfulfilled engagement, often tied to perceived low reward or high cost of potential activities. Relatedly, Dr. Tim Pychyl and Dr. Fuschia Sirois (mentioned in the X post you linked) connect boredom to procrastination as part of emotion-regulation struggles, reinforcing this view.
-comment: Theory Details: Boredom isn’t a lack of things to do or a cognitive deficit—it’s an emotional state of dissatisfaction where the anticipated pain, effort, or cost of engaging in available activities outweighs the predicted pleasure or benefit. It’s akin to a low-grade depression or apathy, where the brain signals disengagement due to unmet needs for meaning, challenge, or reward. Your description—“predicted pain/cost outweighs benefit/enjoyment”—mirrors this, especially Eastwood’s emphasis on attention failure and Sirois/Pychyl’s emotional coping link. Studies show boredom correlates with depression, anxiety, and procrastination, as the emotional weight makes action feel pointless or overwhelming.
-comment: Connection to Procrastination: youre spot on, its nearly identical. both boredom and procrastination are emotion regulation strategies, per Pychyl/Sirois (X post: “Procrastination is an emotion regulation problem, not a time management problem”). In boredom, the emotional state blocks action because nothing feels worth the effort; in procrastination, you delay tasks to avoid negative emotions (e.g., anxiety, frustration) tied to them. Both hinge on the cost-benefit mismatch you describe—boredom’s ennui mirrors procrastination’s avoidance, and both can be broken by overpowering the emotional barrier (e.g., fun activity, dragging someone along, making not-doing painful per Skinner’s law).
-comment: Where It Came From: No single “eureka” moment, but Eastwood’s 2012 paper synthesized decades of work—Schopenhauer’s philosophical ennui, Csikszentmihalyi’s flow theory (boredom as opposite of flow), and Berlyne’s arousal theory (optimal stimulation). Web results (e.g., Wikipedia on boredom, BBC News on pain vs. boredom) back this, plus your X post’s Pychyl/Sirois insight. It’s not a fringe theory—it’s mainstream psych, especially in procrastination studies.
-comment: irrelevant zeigarnik effect—unfinished tasks nag
-
-comment: section: hyperbolic discounting
-comment: if you consider most resources, such as money, all else equal, more is better. which would you prefer, $10 or $12? most people would prefer $12 over $10. sometimes, people think less money is better. for example, if I offer you the choice between $10 now and $12 tomorrow, many people will choose less money now. people have a time preference, they like things sooner. for things they want, they especially like now. now is their favorite time. for things they dont want, they especially dont like now, they like later. some time preference is logical and correct. for example, if you had a way to use the $10 to make more than $2 in a day, you could earn more money by tomorrow by taking the $10 today. the difference in the value of money at different times is the time value of money. if you do nothing with your money, the amount will never change. if you have ways to put the $10 to work and earn money on the investment, the $10 increases in value over time. your ability to earn with a given amount of money over a given time is your time value of money. your time value of money is also your discount rate. if someone offered you $12 tomorrow, with your discount rate you could also accept to complete the trade today for only $10, those two values are about the same for you because of your discount rate. people dont intuitively walk around calculating their discount rates, they use a fallacy we call hyperbolic discounting. an example of hyperbolic discounting is preferring $10 today over $12 tomorrow, but rejecting $10 in a week and preferring the $12 in a week and a day. its the same amounts of money separated by the same amounts of time, so if you use a consistent discount rate, your answer should be consistent. but people aren't consistent. that inconsistency is the fallacy and it costs them a lot of money. people really like now. most people dont have a strong sense of their time value of money, can't earn 20% a day, and just like getting something now versus later, so they prefer $10 today. if you are only going to get something later anyway, you might as well wait an additional day for the additional $2. researchers have run studies with real rewards using different amounts, times and delays to characterize the typical shape of hyperbolic discounting in animals and humans. maybe you use hyperbolic discounting too, but so what? how does hyperbolic discounting misguide you from your goals?
-comment: opportunity costs of delay, delay feels free
-
-comment: chapter ordering, confirmation bias and I think others depends on like mind, but the like mind chapter is later. goals refers to agency, that one is unavoidable
-comment: read through took 3 hours
-
-comment: imagine a doctor giving you a medical diagnosis of some acute illness. you want the doctor to tell you the facts so you can understand your situation as quickly as possible, give it to me straight. treatment is possible, but it won't be pleasant and recovery is not guaranteed. I am not a doctor, but I wrote this book to do metaphorical surgury on your beliefs. similar to some brain surguries, I can't put you to sleep during the procedure, you have to be awake the entire time and cooperate with me to resolve your problems. the process is straighforward. it looks like this.
-
-comment: me: what do you think about chapter topic?
-comment: you: I think popular delusion
-comment: me: that delusion can not possibly be correct. look here, do you see that?
-comment: you: yes, I see it
-comment: me: that contradicts the delusion. if the delusion were correct, that wouldnt exist. check your own experience. which matches your experience?
-comment: you: oh. the delusion must be wrong. I thought that it was true.
-comment: me: now look over here. do you see this common example and that common example? check your own experience again, isnt this how it really works?
-comment: you: huh. I guess it does work that way.
-comment: me: it does. here are some helpful tips, see if they work for you. now, what do you think about next chapter topic?
-
-comment: minimum requirements for readers. 14-15-years or older, precocious 13 year old maybe. minimum B1-B2 reading, ~10th grade, decent fluency. minimum iq 90-100 average smarts, not brilliant. 13+ developmentally, Early abstract thinking. minimum grit would be moderate grit, high curiosity, finishes books, asks why.
-
-comment: https://www.chroniclebooks.com/collections/chronicle-prism/products/how-to-be-a-grown-up
-comment: antimemetics book https://x.com/nayafia/status/1904912486408856059
-
-comment: you might wonder why I am so interested in changing your beliefs. maybe I have sinister ulterior motives? this book is written purely to advance your own interests, not mine, not directly. my indirect benefits for changing your beliefs are to be helpful, which is a personal goal of mine, and to live in a world with fewer crazy people in it. it hurts me to see everyone squandering their precious lives, and I would be mollified to help reduce the sensesless waste.
-
-comment: cover ideas. try to generate and combine image elements of the cover of your situation. try simplified versions. multiple people overlaid image? grid of individual cartoons of chapters? bright cartoon map of delusions. just a bunch of candles in smokey fog. forest of trees each with one glowing fruit. multi headed ant in an ant colony. . ask grok for a list of images or metaphors. shining peak. forest animal. rock. chemical reaction. heat seeking missile. cake. fractal arcade. horse afraid of dark jungle. homonculus in the skull pulling levers. pile of gold. first place second place third place podium, ball and chains. . heart circle brain skull homunculus ball and chain, pong game, shining peak, tetrahedral pyramid, eye, sailing ship, crown, thermometer in flames, circular clock face, pile of gold coins. . shining peak forest animal rock chemical reaction heat seeking missile cake soft brain underwater bone box monkey hole flag hill car commercial fog mote of dust wind glass house horizon observable universe scout coded message unstoppable wave light darkness chains Game Boy Advance airport minigame airplane ticket juicy mob potential teammate impossible raid boss missile thermometer smoke detector flame ice doormat clouds Romanian orphanages mental garden jungle physical jungle mental jungle sexy girls high status people happy dancing people shiny keys dirty keys pyramid scheme prince of Nigeria handshake children Harvard Law School iceburg marionette strings of fate clockwork model baby carriage pile of gold hole territory factories engines skyscrapers laboratories wave system lever footrace path mechanical engineer mousetrap self-propelled boat Physics League vest pocket huge brain conscious mind genes physical viruses memetic viruses brain eating zombies grassroots uprising halo product innocent little girl
-
-
-
+Version 12025 211

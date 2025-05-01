@@ -9,7 +9,7 @@ geometry: margin=2cm
 
 ---
 
-**Estimated Reading Time:** 3 hours or more
+**Estimated Reading Time:** 3 hours to read, longer to apply
 
 [**Read *Your Situation* Online**](https://benjamin-rubinger.github.io/#your%20situation.txt)
 
@@ -145,6 +145,13 @@ Even if you have no physical or resource limitations to observe your opponent, t
 ## Cost of Information, Cost-Benefit, Explore Exploit
 Cost of information means how much it costs to get, or potentially get, a specific kind of information. It might cost me 30 seconds to check the weather on my phone, and it might cost several days and human lives to scout an enemy position. Cost-benefit analysis is a way to decide what to do by using the simple ratio of how much I pay and how much I get. Information can be insanely valuable, which is why insider stock trading is illegal. Information is usually not what you ultimately want. To get what you want, you must act on your information. In any real life situation, there is a perfect but unknowable balance of exploring for more information and exploiting the information you have. Your job is to balance the costs of more information and taking your objectives using the information you have.
 
+## Curiosity
+There are failures of knowledge at the extremes, absolute certainty, nihilism, relativism. You stop learning. Without learning, you stop flexibly responding to your environment, you lose agency. Insatiable curiosity is a virtue. Once you have the information you need, you might think you are done. But what if the information is wrong, or there is additional information you didn't know you needed? Keep an open mind, collect all available information, stay curious.
+
+What do you think you know, and how do you think you know it? Eliezer Yudkowsky HPMoR Chapter 7
+
+I beseech you, in the bowels of Christ, think it possible that you may be mistaken. Oliver Cromwell
+
 ## Burning the Fog
 In this universe, humans are puny, each of us surrounded by our own fog of war. Some of the fog is impenetrable. But some of the fog is penetrable. Your choice is to roll in the mud and complain about how unfair and difficult life is, or to get up and do what you can. To do that, you have to trade off your resources to collect information or to advance your objectives, including the objective to gain more resources. It's a mess, and at any moment an unstoppable wave can emerge from the fog and engulf you completely. Do what you can, with what you have. Shine your light to others. Fight on in darkness.
 
@@ -155,6 +162,8 @@ In this universe, humans are puny, each of us surrounded by our own fog of war. 
 [Examples of costs of information](https://simplicable.com/new/information-costs)
 
 [Cost-Benefit Analysis](https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis)
+
+[Epistemic Humility](https://en.wikipedia.org/wiki/Epistemic_humility)
 
 [Hyperthymesia](https://en.wikipedia.org/wiki/Hyperthymesia)
 
@@ -230,12 +239,16 @@ Decision in hand, you have to implement it. Sometimes this is trivial and someti
 ## Imperfection
 If people aren't perfect, and you are a person, then you aren't perfect. Most people already accept this much, you know you aren't perfect. That means that sometimes you make a small oops. Occasional small oops is not your situation. Your situation is oops oops oops oops oops. You never do the right thing. It's not a question of whether you are wrong, it is a question of how wrong, and more importantly how you can become less wrong. Humanity has solved some simple games, such as tic-tac-toe. We know the correct choice for any state of that game. If you make that choice you are correct and if you make any other choice you are wrong. You have severe limits on information and computation that prevent you from finding the correct choices in your life.
 
-When people make deals, they talk about leaving money on the table. A deal is made over a table, and each side makes offers until they agree and trade or they give up. Leaving money on the table means that one side could have asked the other side for more and still made the deal. In your life, you are not almost correct, you are not taking all of the money on the table. You are leaving almost all of the money on the table.
+Review your performance. Hold yourself accountable. Don't forget about the past or stay stuck in it. Don't indulge yourself or beat yourself up, be proportionate. How did you do? What could you do better? What should you do about it now?
 
-The bad news is that you aren't a little wrong, you are very wrong. Your intuitive feeling that you are doing pretty well and you are almost correct is a delusion. The good news is that the frustrating feeling that you can't really improve much is false. You can improve a lot!
+When people make deals, they talk about leaving money on the table. A deal is made over a table, and each side makes offers until they agree and trade or they give up. Leaving money on the table means that one side could have asked the other side for more money and still made the deal. In your life, you are not almost correct, you are not taking all or most of the money on the table. You are leaving almost all of the money on the table.
+
+The bad news is that you aren't a little wrong, you are very wrong. Your intuitive feeling that you are doing pretty well, that you are almost correct, is a delusion. The good news is that the frustrating feeling that you can't really improve is false. You can improve a lot!
 
 ## Being Reasonable
 I faced an infinite number of potential decisions about what to write about decisions to advance my goals, and these are my conclusions. You can only make decisions you are aware of. You can only consider information and options you are aware of. If you balance importance, urgency and cost of information to prioritize your decisions, then make deliberate conclusions, you can be reasonable. This will increase your ability to think, improving your observe, think, act cycle. Both the potential losses and gains from your decisions mean everything to you. The decision is yours.
+
+[Rationality: From AI to Zombies](https://www.readthesequences.com)
 
 [Planning Fallacy](https://en.wikipedia.org/wiki/Planning_fallacy)
 
@@ -246,8 +259,6 @@ I faced an infinite number of potential decisions about what to write about deci
 [A B Testing](https://en.wikipedia.org/wiki/A/B_testing)
 
 [Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-
-[Less Wrong](https://www.lesswrong.com/)
 
 [Monte Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)
 
@@ -578,7 +589,7 @@ Highly fit memetic memes are adapted to the mental environment, they are attract
 Memes can be viral. Virality is how fast a meme spreads, and is determined by the transmission speed and replication factor. The replication factor is a multiplier. For example, if the replication factor is one, the first person that is infected with the memetic virus will spread it to one other person and stop. The second person will spread it to the next person, and the meme spreads linearly, one by one. A replication factor of two means that each infected person will spread the meme to two other people, this leads to a completely different result. The first person spreads to two, then four, eight, sixteen, thirty-two, it doesn't take long before everyone is exposed. The replication factor of a meme can vary within a changing environment. When the replication factor falls below one, the spread decays to zero and the meme dies out.
 
 ## Replication Mechanisms
-Behind the replication factor is the replication mechanism. Some environments have built-in replication mechanisms. Social media services support likes and reposts on any post. Other environments don't provide a replication mechanism, so memes have to self replicate. You can detect viral memes from their replication mechanism. The mechanism can be subtle, but they are often obscenely apparent if you look for them. And by the way, tell all your friends to read this book. If this book has helped you at all, make three copies and give them to people who might need to read it. This book is so powerful, that I bet you can't find anyone to disprove its claims! Send this book along with $10 to ten people. When they learn about this amazing opportunity, they will do the same, and send half of the money back to you. I earned $70,000 in my first month doing this! You can express your gratitude for everything you have learned from me by having as many children as possible, and teach them from this book at an early age.
+Behind the replication factor is the replication mechanism. Some environments have built-in replication mechanisms. Social media services support likes and reposts on any post. Other environments don't provide a replication mechanism, so memes have to self replicate. You can detect viral memes from their replication mechanism. The mechanism can be subtle, but they are often obscenely apparent if you look for them. And by the way, tell all your friends to read this book. If this book has helped you at all, make three copies and give them to people who might need to read it. This book is so powerful, that I bet you can't find anyone to disprove its claims! Send this book along with $10 to ten people. When they learn about this amazing opportunity, they will do the same, and send half of the money back to you. I earned $70,000 in my first month doing this! You can express your gratitude for everything you have learned from me by having as many children as possible, and teach them from this book at an early age. The previous seven sentences were examples of replication mechanisms attacking you.
 
 ## Lying
 Memetic memes brazenly lie, or at least brazenly suggest. Reality is mundane and, from a certain point of view, nothing ever happens. From the beginning of the universe, not one surprising thing has ever happened. A viral meme is the opposite of that, something unbelievable just happened! I have to tell everybody about this amazing thing! The lie is the superstimulous that attracts you to the viral meme. All images converge to barely dressed sexy people staring at you and smiling. Common superstimuli are get rich quick, beautiful women want to be with you, the Prince of Nigeria needs your help, do this thing to get back at the system, don't be tricked by this new scam, our group is wonderful while their group is terrible. The most important form of the get rich quick claim is the pyramid scheme, also known as multilevel marketing. A pyramid scheme combines a viral meme with a monetary incentive. They propose a fool-proof scheme to make lots of money, which only redistributes money from all the infected to the top of the pyramid.
@@ -640,6 +651,8 @@ Beliefs aren't voluntary, so you can't decide not to be angry, joyous or frighte
 Emotions have a chemical component. When someone is emotionally triggered, they start dumping emotional chemicals into their body. It takes some time to dump and distribute the chemicals and hype themselves up. If you notice and respond to the emotional trigger during the latency period, it is possible to short-circuit the emotional reaction. The human mind tends to ruminate about significant events, replaying what happened and retriggering an echo of the emotional response even if the cause was already resolved. This creates aftershocks. With enough awareness, you can short-circuit your own aftershocks instead of deafening yourself in an emotional feedback loop.
 
 After the chemicals are distributed, the person is hyped up and even if you stop the emotional alarm, the chemicals and hyperactivity remain. That is why it is impossible to proceed with calm reason immediately after an emotional issue is resolved. The chemicals eventually dissipate on their own, the cooling off period. You can either wait, or it is possible to redirect emotional energy. The chemical component of emotion is mostly arousal, excitement, energy, a hard to ignore urge to react. Overall it pushes you to act. People skilled with emotion can understand the emotional system and are able to intentionally direct emotional energy to productive ends. The actor gets upset with the director for not taking their advice. The director says perfect, perfect, use it! Action!
+
+We express our emotions physically, which is why you can tell how someone is feeling by looking at them. Surprisingly, the mind body emotional connection is bidirectional. To a degree, you can use your body to change your emotion. Try each of the following physical actions and pay attention to how they make you feel. If you smile, you become happier. If you slouch, you feel weak, if you stand tall, you feel strong. If you make your heart race and breathe shallow and fast, you are anxious or excited. If you bring your heart rate down and breathe deep and slow, you are calm.
 
 ## Observe Your Emotions Carefully
 Emotions aren't wrong. Your *beliefs* are wrong, your *interpretation* is wrong, your *reaction* is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And **pull your head out of your ass!**
@@ -753,10 +766,10 @@ You must integrate the sense that you are a good person who does not want to com
 No man is an island, humans are social animals, we need to form deep relationships to be healthy. Relationships are not a nice to have, they are a need. What would happen to a baby if you raised it without human contact? That would be an unethical experiment, one which humanity conducted by accident in the Romanian orphanages of the 1980s. The orphanages provided hundreds of babies with shelter and food, but almost no human contact due to lack of funding and staff. The unattended children developed problems as they grew up, rocking back and forth, wasting away despite eating enough, not connecting with other people.
 
 ## New Relationship Energy
-As a young man, I lived many years without a romantic relationship or any prospects. I thought that it might never happen for me, I am not good enough, I am not a lovable person. Naturally, I wanted a relationship desperately. Naturally, everyone agrees desperation is unattractive. Lack of a romantic relationship was the biggest problem in my life at that time. I remember that morning when a girl accepted me, where I was standing, the girl gave me a hug and a kiss, my body flooded with oxytocin. it was the most intense, happiest feeling I have felt in my life. I understood those stupid expressions, like, I was walking on clouds and the birds song was joyful. This is new relationship energy, the exciting time in the first months of a deep relationship where you think about the person all the time and are very excited and happy about it. That excitment has nothing to do with whether the relationship is mutually benefitial or durable, a powerful feelings over facts experience.
+As a young man, I lived many years without a romantic relationship or any prospects. I thought that it might never happen for me, I am not good enough, I am not a lovable person. I wanted a relationship desperately. Naturally, everyone agrees desperation is unattractive. Lack of a romantic relationship was the biggest problem in my life at that time. I remember the morning when a girl first accepted me, where I was standing, the girl gave me a hug and a kiss, my body flooded with dopamine and norepinephrine. It was the most intense, happiest feeling I have felt in my life. I understood those stupid expressions, like, I was walking on clouds and the birds' song was joyful. This is new relationship energy, the exciting time in the first months of a deep relationship where you think about the person all the time and are very excited and happy about it. That excitment has nothing to do with whether the relationship is mutually benefitial or durable, a powerful feelings over facts experience.
 
 ## Voluntary and Honorable
-No matter what you need from human relationships, you can't take it from other people, you will get only what they choose to give. Relationships are purely voluntary exchange. No matter what other people do to you, and certainly I have been mistreated, you must never lie, neglect or try to hurt others feelings. Stand up for yourself, do what you should, be bold as brass, but always be polite and kind. It takes little effort, creates unexpected opportunities, and if you lose your integrity, you will regret it and gain nothing.
+No matter what you need from human relationships, you can't take it from other people, you will get only what they choose to give. Relationships are purely voluntary exchange. No matter what other people do to you, and certainly I have been mistreated, you must never lie, neglect or try to hurt others feelings. Stand up for yourself, do what you should, be bold as brass, but always be polite and kind. Kindness takes little effort, creates unexpected opportunities, and if you lose your integrity, you will regret it and gain nothing.
 
 ## Managing Relationships
 Facing the other person in your relationship, it seems that if you want to make something happen, you are evenly matched, 1 vs 1. But a relationship is a dynamic system of two people, confusingly it contains yourself. Neither individual person within a relationship can control it, 1 < 2+. Read the previous sentence again until you believe it. You have to submit to the relationship dynamic. Of course you can influence it, but your influence feeds back into you, so avoid sudden changes. After some experience with a given relationship, the dynamic settles and you can observe the cost-benefit ratio of what you give to the relationship and what you get from the relationship. You have limited resources, so you cannot keep every relationship that piles up. Relationships can be time divided, but they need regular care and feeding or you drift apart. You have to choose which relationships to develop. Keep and invest in the relationships with the best cost-benefit, cut the rest. That's what's best for you and overall for the world. It's not heartless, it's responsible, which is very attractive.
@@ -886,7 +899,7 @@ Speedrunning is a metagame where players find ways to complete games as quickly 
 | I Experience the World         | The world is like it appears      | Inaccurate incomplete view of the world, unobservant | Fovea, saccades, blind spot, visual processing, conceptual lens | Account for physical limitations to get a fuller view of the world, become observant |
 | Goals                          | Goals are unimportant             | Aimless confused life            | Terminal, instrumental, non, anti, convergent, divergent, exchange instruments | Find your goals and how to pursue them          |
 | Agents                         | Life happens to you               | Neglect your ability to direct your life | Awareness, mastering habits, internal locus, observe think act cycle | Active pursuit of your goals                    |
-| I Know Exactly What’s Happening| I have all the information I need | Miss crucial information         | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit | Prioritize and fight for information            |
+| I Know Exactly What’s Happening| I have all the information I need | Miss crucial information         | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit, curiosity | Prioritize and fight for information            |
 | This Is Serious                | I have to play their game         | Suffer under others’ rules, never play your own game | Life is a metagame, dead and live players, define your rules, play to win | Live your own life                              |
 | Decisions                      | I make good decisions             | Make bad decisions with catastrophic results, overanalyze trivial decisions | Detecting decisions, collecting information, generating options, stakes, delegation, urgency, deliberation, reversibility, iteration | Efficiently use resources to make better decisions |
 | I Have Free Will               | I have free will                  | Fatalism or overestimate yourself | Unpredictable determinism, praise and blame             | Agency in an unpredictable deterministic world  |
@@ -912,4 +925,4 @@ Speedrunning is a metagame where players find ways to complete games as quickly 
 
 [Shakubuku. A swift spiritual kick to the head that alters your reality forever.](https://www.imdb.com/title/tt0119229)
 
-Version 12025 192
+Version 12025 211
