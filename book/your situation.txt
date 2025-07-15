@@ -1,5 +1,6 @@
 image: yoursituationcover.svg Your Situation Cover
 
+page title: Your Situation - Benjamin Rubinger
 title: Your Situation
 subtitle: A Swift Spiritual Kick to the Head to Align Your Model with Reality
 by: Benjamin Rubinger
@@ -44,6 +45,7 @@ https://en.wikipedia.org/wiki/Fovea_centralis
 https://en.wikipedia.org/wiki/Saccade
 https://en.wikipedia.org/wiki/Blind_spot_(vision)
 https://en.wikipedia.org/wiki/Optical_illusion
+The World as Will and Idea, by Arthur Schopenhauer, Book I Section 1 https://www.gutenberg.org/ebooks/38427
 
 chapter: Goals
 section: Types of Goals
@@ -126,6 +128,7 @@ In this universe, humans are puny, each of us surrounded by our own fog of war. 
 
 https://en.wikipedia.org/wiki/Perfect_information
 https://en.wikipedia.org/wiki/Fog_of_war
+https://en.wikipedia.org/wiki/On_War
 Examples of Costs of Information https://simplicable.com/new/information-costs
 Cost-Benefit Analysis https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis
 https://en.wikipedia.org/wiki/Epistemic_humility
@@ -352,7 +355,7 @@ chapter: I Know Myself Best
 section: How Do I Look?
 You can't see your own face without an accurate reflection. The hardest person to get accurate information about is yourself. You are able to see other people objectively, particularly people you don't have a relationship with, but your view of yourself is helplessly subjective, until you use a tool like a mirror or a camera. Then your harsh judgement of your semi-objective view of yourself is heavy, or even vicious.
 
-Other people are often unwilling or unable to give you accurate information about you, even if you sincerely request it. You need three things to get accurate information about yourself or anything important, the awareness and courage to look, revealed preferences and a large, independent sample.
+Other people are often unwilling or unable to give you accurate information about you, even if you sincerely request it. You need three things to get accurate information about yourself or anything important, the awareness and courage to look, revealed preferences and a large, independent sample. This works for anything, no exceptions.
 
 section: Revealed Preferences
 If you want to know other peoples' opinions about you, why not ask them? Asking verbally is asking the wrong person. The conscious mind isn't the decision maker, it's the press secretary. Their conscious mind doesn't know, and their other agents can't talk. Stated preferences are unreliable. Instead, watch what other people do, their revealed preferences. If you ask someone are we friends? As long as you've talked with them a few times before, they will probably say yes. Does that mean they really are your friend? Usually, no. People easily say yes because it sounds good.
@@ -362,7 +365,7 @@ When you need something from others, their response demonstrates how much they v
 section: Large Independent Sample
 Children are naturally curious about themselves and ask the people around them, including their mother. Famously, every mother thinks her child is good looking. Children have no reason to question their mother's judgment, and most kids at some point think they are good looking because their mom told them so. Your mother is biased, she is unlikely to be objective about you. Even if you use revealed preference instead of asking, one opinion is not conclusive. That person could be wrong. The more opinions you collect, the more reliable the answer, until you collect the opinion of everyone and know a definitive answer.
 
-There is a problem of just collecting larger numbers of opinions. Data collection is expensive, and you may only need a few samples to form a conclusion. But if all your samples are biased in the same way, you may get the wrong answer, like if all of your friends tell you that you are funny looking. That sounds convincing, but they may be playing a prank on you. You want your samples to be independent, you want to avoid your samples all having the same bias. Independence can be increased in a variety of ways, by collecting data at different places, times, or from people who are unrelated. The classic website, Am I Hot or Not? was an internet sensation, because it allowed people to finally assess their physical attractiveness by a more objective process, forming a score from hundreds of unrelated disinterested raters. Large numbers of independent samples, good data, strong conclusion.
+There is a problem of just collecting larger numbers of opinions. Data collection is expensive, and you may only need a few samples to form a conclusion. But if all your samples are biased in the same way, you may get the wrong answer, like if all of your friends tell you that you are funny looking. That sounds convincing, but they may be playing a prank on you. You want your samples to be independent, you want to avoid your samples all having the same bias. Independence can be increased in a variety of ways, by collecting data at different places, times, or from people who are unrelated. The classic website, Am I Hot or Not? was an Internet sensation, because it allowed people to finally assess their physical attractiveness by a more objective process, forming a score from hundreds of unrelated disinterested raters. Large numbers of independent samples, good data, strong conclusion.
 
 section: Awareness and Courage
 Paraphrasing Jung, what you want to find most will be where you want to look least. Your conscious mind wants to sincerely tell everyone what a great person you are, it hates to face any evidence to the contrary. For the sake of your goals, kill your pride, fully face yourself and your situation.
@@ -581,7 +584,7 @@ chapter: My Emotions are Correct
 section: Humans are Emotional
 You have emotions, and your emotions are important to you. If you feel something, it must be for a good reason. Emotions are a valuable part of the human mind and an essential part of the human experience. Nature developed emotions for a useful purpose. An emotional response is never erroneous. It is wrong to deny or to criticize others' emotions.
 
-section: What You May be Bissing
+section: What You May be Missing
 Hahaha, I stand by every word of the above, but I carefully avoided the whole truth of emotions to lure the snowflakes in. Come closer, I want to tell you something.
 
 Your emotions only matter to you, asshole! They have nothing to do with me! Emotions are hard to ignore signals from your subconscious about how your beliefs react to events. They are an honest reaction. Emotions are a sensor such as a thermometer or a smoke detector. A thermometer displays the temperature of the thermometer body. But if you put the thermometer into a flame or freeze it in ice, the thermometer's reading won't have any relationship with the temperature in the rest of the world, will it? And just because your thermometer reads a given temperature, that doesn't mean that I have to do anything in particular about it. If you are cold, you could scream that I must increase the heat in the house. You could do that, or you could put on more clothing, do some exercise, or go to a different house. No matter what you feel now, it will not persist. Emotions are temporary reactions. There is no happily ever after, and you cannot keep crying. Eventually your tears will dry up.
@@ -591,7 +594,7 @@ Your feelings are not wrong relative to your beliefs, but your beliefs can be co
 section: You Make Yourself Feel
 Emotions do not work how they feel like they work. When someone does something and you have a strong emotional reaction, it seems as though the other person caused your emotion. Wrong. Only you create your emotions. I am not saying that you can create or control your emotions consciously or voluntarily, generally emotion is created unconsciously and involuntarily. Your emotions are created by the subconscious reaction of your beliefs to events. If I strike two different people the same way, both will be injured the same way, same same. If I say the same thing to two different people, they may have totally different emotional reactions, different different. This distinguishes that the cause of the physical injury is me, and the cause of the emotion is you.
 
-If I do something to you that you believe is unfair, you will get angry, whether it was actually unfair or not.
+If I do something to you that you believe is unfair, you will get angry, whether it is actually unfair or not.
 If I give you something you deeply desire, you will be joyous, whether or not others think it is valuable.
 If I do something you believe is threatening, you will be frightened, even if others might not care.
 
@@ -605,7 +608,7 @@ After the chemicals are distributed, the person is hyped up and even if you stop
 We express our emotions physically, which is why you can tell how someone is feeling by looking at them. Surprisingly, the mind body emotional connection is bidirectional. To a degree, you can use your body to change your emotion. Try each of the following physical actions and pay attention to how they make you feel. If you smile, you become happier. If you slouch, you feel weak, if you stand tall, you feel strong. If you make your heart race and breathe shallow and fast, you are anxious or excited. If you bring your heart rate down and breathe deep and slow, you are calm.
 
 section: Observe Your Emotions Carefully
-Emotions aren't wrong. Your beliefs are wrong, your interpretation is wrong, your reaction is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And pull your head out of your ass!
+Emotions aren't wrong. Your beliefs are wrong, your interpretation is wrong, your reaction is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. If you are stuck in a feeling, or not sure what you are feeling, try naming what you are feeling. Naming your feelings is how you stop identifying yourself with them. I am feeling x. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And pull your head out of your ass!
 
 https://en.wikipedia.org/wiki/Appraisal_theory
 https://en.wikipedia.org/wiki/Theory_of_constructed_emotion
@@ -707,10 +710,11 @@ section: Voluntary and Honorable
 No matter what you need from human relationships, you can't take it from other people, you will get only what they choose to give. Relationships are purely voluntary exchange. No matter what other people do to you, and certainly I have been mistreated, you must never lie, neglect or try to hurt others feelings. Stand up for yourself, do what you should, be bold as brass, but always be polite and kind. Kindness takes little effort, creates unexpected opportunities, and if you lose your integrity, you will regret it and gain nothing.
 
 section: Managing Relationships
-Facing the other person in your relationship, it seems that if you want to make something happen, you are evenly matched, 1 vs 1. But a relationship is a dynamic system of two people, confusingly it contains yourself. Neither individual person within a relationship can control it, 1 < 2+. Read the previous sentence again until you believe it. You have to submit to the relationship dynamic. Of course you can influence it, but your influence feeds back into you, so avoid sudden changes. After some experience with a given relationship, the dynamic settles and you can observe the cost-benefit ratio of what you give to the relationship and what you get from the relationship. You have limited resources, so you cannot keep every relationship that piles up. Relationships can be time divided, but they need regular care and feeding or you drift apart. You have to choose which relationships to develop. Keep and invest in the relationships with the best cost-benefit, cut the rest. That's what's best for you and overall for the world. It's not heartless, it's responsible, which is very attractive.
+Facing the other person in your relationship, it seems that if you want to make something happen, you are evenly matched, 1 vs 1. But a relationship is a dynamic system of two people, confusingly it contains yourself. Neither individual person within a relationship can control it, 1 < 2+. Read the previous sentence again until you believe it. You have to submit to the relationship dynamic. Of course you can influence it, but your influence feeds back into you, so avoid sudden changes. After some experience with a given relationship, the dynamic settles and you can observe the cost-benefit ratio of what you give to the relationship and what you get from the relationship. You have limited resources, so you cannot keep every relationship that piles up. Relationships can be time divided, but they need regular care and feeding or you drift apart. You have to choose which relationships to develop. Only commit to people who also commit to you and treat you well. Keep and invest in the relationships with the best cost-benefit, cut the rest. That's what's best for you and overall for the world. It's not heartless, it's responsible, which is very attractive.
 
 1980s Romanian Orphans Phenomenon https://en.wikipedia.org/wiki/1980s%E2%80%931990s_Romanian_orphans_phenomenon
 https://en.wikipedia.org/wiki/New_relationship_energy
+The World as Will and Idea, by Arthur Schopenhauer, Volume III Chapter XLIV, The Metaphysics Of The Love Of The Sexes https://www.gutenberg.org/ebooks/40868
 https://en.wikipedia.org/wiki/Limerence
 
 chapter: What is Love?
@@ -854,7 +858,7 @@ Active pursuit of your goals
 I Know Exactly What's Happening
 I have all the information I need
 Miss crucial information
-Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit, curiosity
+Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit
 Prioritize and fight for information
 This is Serious
 I have to play their game
@@ -960,4 +964,4 @@ subsection:
 
 The end of Your Situation
 Shakubuku. A swift spiritual kick to the head that alters your reality forever. https://www.imdb.com/title/tt0119229
-Version 12025 211
+Version 12025 295

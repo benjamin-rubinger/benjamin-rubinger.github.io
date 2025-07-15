@@ -69,6 +69,8 @@ Optical illusions emphasize the limitations and assumptions that cause your visu
 
 [Optical Illusion](https://en.wikipedia.org/wiki/Optical_illusion)
 
+[The World as Will and Idea, by Arthur Schopenhauer, Book I Section 1](https://www.gutenberg.org/ebooks/38427)
+
 # Goals
 ## Types of Goals
 Goals are things you want. They may seem incidental, but your goals are one of your defining characteristics, along with your capabilities. Goals are not simple. There are terminal goals, instrumental goals, non-goals and antigoals. A terminal goal is whatever you ultimately want. An instrumental goal is something that helps you get what you want, for example, money. We don't usually want money itself, we want what we can get with the money. Non-goals are all of the infinite things you could want but don't, including all of the things that could help you get the things you don't want. If you watch a car commercial when you don't want to buy a car, it does not advance your goals, it is a waste of time. Antigoals prevent or obstruct your instrumental or terminal goals. If I want my flag to be on a hill, taking my flag off the hill or leaving the hill are antigoals.
@@ -158,6 +160,8 @@ In this universe, humans are puny, each of us surrounded by our own fog of war. 
 [Perfect Information](https://en.wikipedia.org/wiki/Perfect_information)
 
 [Fog of War](https://en.wikipedia.org/wiki/Fog_of_war)
+
+[On War by Clausewitz](https://en.wikipedia.org/wiki/On_War)
 
 [Examples of costs of information](https://simplicable.com/new/information-costs)
 
@@ -405,7 +409,7 @@ When people say, *I* exist, they are typically deeply mistaken, the single fixed
 ## How Do I Look?
 You can't see your own face without an accurate reflection. The hardest person to get accurate information about is yourself. You are able to see other people objectively, particularly people you don't have a relationship with, but your view of yourself is helplessly subjective, until you use a tool like a mirror or a camera. Then your harsh judgement of your semi-objective view of yourself is heavy, or even vicious.
 
-Other people are often unwilling or unable to give you accurate information about you, even if you sincerely request it. You need three things to get accurate information about yourself or anything important, the awareness and courage to look, revealed preferences and a large, independent sample.
+Other people are often unwilling or unable to give you accurate information about you, even if you sincerely request it. You need three things to get accurate information about yourself or anything important, the awareness and courage to look, revealed preferences and a large, independent sample. This works for anything, no exceptions.
 
 ## Revealed Preferences
 If you want to know other peoples' opinions about you, why not ask them? Asking verbally is asking the wrong person. The conscious mind isn't the decision maker, it's the press secretary. Their conscious mind doesn't know, and their other agents can't talk. Stated preferences are unreliable. Instead, watch what other people do, their revealed preferences. If you ask someone are we friends? As long as you've talked with them a few times before, they will probably say yes. Does that mean they really are your friend? Usually, no. People easily say yes because it sounds good.
@@ -415,7 +419,7 @@ When you need something from others, their response demonstrates how much they v
 ## Large Independent Sample
 Children are naturally curious about themselves and ask the people around them, including their mother. Famously, every mother thinks her child is good looking. Children have no reason to question their mother's judgment, and most kids at some point think they are good looking because their mom told them so. Your mother is biased, she is unlikely to be objective about you. Even if you use revealed preference instead of asking, one opinion is not conclusive. That person could be wrong. The more opinions you collect, the more reliable the answer, until you collect the opinion of everyone and know a definitive answer.
 
-There is a problem of just collecting larger numbers of opinions. Data collection is expensive, and you may only need a few samples to form a conclusion. But if all your samples are biased in the same way, you may get the wrong answer, like if all of your friends tell you that you are funny looking. That sounds convincing, but they may be playing a prank on you. You want your samples to be independent, you want to avoid your samples all having the same bias. Independence can be increased in a variety of ways, by collecting data at different places, times, or from people who are unrelated. The classic website, Am I Hot or Not? was an internet sensation, because it allowed people to finally assess their physical attractiveness by a more objective process, forming a score from hundreds of unrelated disinterested raters. Large numbers of independent samples, good data, strong conclusion.
+There is a problem of just collecting larger numbers of opinions. Data collection is expensive, and you may only need a few samples to form a conclusion. But if all your samples are biased in the same way, you may get the wrong answer, like if all of your friends tell you that you are funny looking. That sounds convincing, but they may be playing a prank on you. You want your samples to be independent, you want to avoid your samples all having the same bias. Independence can be increased in a variety of ways, by collecting data at different places, times, or from people who are unrelated. The classic website, Am I Hot or Not? was an Internet sensation, because it allowed people to finally assess their physical attractiveness by a more objective process, forming a score from hundreds of unrelated disinterested raters. Large numbers of independent samples, good data, strong conclusion.
 
 ## Awareness and Courage
 Paraphrasing Jung, what you want to find most will be where you want to look least. Your conscious mind wants to sincerely tell everyone what a great person you are, it hates to face any evidence to the contrary. For the sake of your goals, kill your pride, fully face yourself and your situation.
@@ -639,7 +643,7 @@ Your feelings are not wrong relative to your beliefs, but your beliefs can be *c
 ## You Make Yourself Feel
 Emotions do not work how they feel like they work. When someone does something and you have a strong emotional reaction, it seems as though the other person caused your emotion. Wrong. Only you create your emotions. I am not saying that you can create or control your emotions consciously or voluntarily, generally emotion is created unconsciously and involuntarily. Your emotions are created by the subconscious reaction of your beliefs to events. If I strike two different people the same way, both will be injured the same way, same same. If I say the same thing to two different people, they may have totally different emotional reactions, different different. This distinguishes that the cause of the physical injury is me, and the cause of the emotion is you.
 
-If I do something to you that you believe is unfair, you will get angry, whether it was actually unfair or not.
+If I do something to you that you believe is unfair, you will get angry, whether it is actually unfair or not.
 
 If I give you something you deeply desire, you will be joyous, whether or not others think it is valuable.
 
@@ -655,7 +659,7 @@ After the chemicals are distributed, the person is hyped up and even if you stop
 We express our emotions physically, which is why you can tell how someone is feeling by looking at them. Surprisingly, the mind body emotional connection is bidirectional. To a degree, you can use your body to change your emotion. Try each of the following physical actions and pay attention to how they make you feel. If you smile, you become happier. If you slouch, you feel weak, if you stand tall, you feel strong. If you make your heart race and breathe shallow and fast, you are anxious or excited. If you bring your heart rate down and breathe deep and slow, you are calm.
 
 ## Observe Your Emotions Carefully
-Emotions aren't wrong. Your *beliefs* are wrong, your *interpretation* is wrong, your *reaction* is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And **pull your head out of your ass!**
+Emotions aren't wrong. Your *beliefs* are wrong, your *interpretation* is wrong, your *reaction* is wrong. Emotions are signals you give to yourself, they can be very useful to help you understand what is happening and what you should do about it to achieve your goals. As signals, feelings can be completely misinterpreted. You must carefully consider them and develop deep intuition about what your feelings may be telling you about your situation. If you are stuck in a feeling, or not sure what you are feeling, try naming what you are feeling. Naming your feelings is how you stop identifying yourself with them. I am feeling x. Challenge your interpretations with independent data. Emotions are valuable, we like them and we want to keep them. Always listen to your emotions. Never react to them. Always question your beliefs. Your emotions are your responsibility. And **pull your head out of your ass!**
 
 [Appraisal Theory](https://en.wikipedia.org/wiki/Appraisal_theory)
 
@@ -778,6 +782,8 @@ Facing the other person in your relationship, it seems that if you want to make 
 
 [New Relationship Energy](https://en.wikipedia.org/wiki/New_relationship_energy)
 
+[The World as Will and Idea, by Arthur Schopenhauer, Volume III Chapter XLIV, The Metaphysics Of The Love Of The Sexes](https://www.gutenberg.org/ebooks/40868)
+
 [Limerence](https://en.wikipedia.org/wiki/Limerence)
 
 # What is Love?
@@ -894,35 +900,35 @@ Speedrunning is a metagame where players find ways to complete games as quickly 
 
 # Summary
 
-| Chapter                        | Delusion                          | Cost                             | Mechanisms                                              | Opportunity                                     |
-|--------------------------------|-----------------------------------|----------------------------------|--------------------------------------------------------|------------------------------------------------|
-| I Experience the World         | The world is like it appears      | Inaccurate incomplete view of the world, unobservant | Fovea, saccades, blind spot, visual processing, conceptual lens | Account for physical limitations to get a fuller view of the world, become observant |
-| Goals                          | Goals are unimportant             | Aimless confused life            | Terminal, instrumental, non, anti, convergent, divergent, exchange instruments | Find your goals and how to pursue them          |
-| Agents                         | Life happens to you               | Neglect your ability to direct your life | Awareness, mastering habits, internal locus, observe think act cycle | Active pursuit of your goals                    |
-| I Know Exactly What’s Happening| I have all the information I need | Miss crucial information         | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit, curiosity | Prioritize and fight for information            |
-| This Is Serious                | I have to play their game         | Suffer under others’ rules, never play your own game | Life is a metagame, dead and live players, define your rules, play to win | Live your own life                              |
-| Decisions                      | I make good decisions             | Make bad decisions with catastrophic results, overanalyze trivial decisions | Detecting decisions, collecting information, generating options, stakes, delegation, urgency, deliberation, reversibility, iteration | Efficiently use resources to make better decisions |
-| I Have Free Will               | I have free will                  | Fatalism or overestimate yourself | Unpredictable determinism, praise and blame             | Agency in an unpredictable deterministic world  |
-| I Am a Success                 | I know what success is and I can achieve it | Empty wins or constant disappointment | Species, human and personal success, waves, excellence  | Reliably pursue your own success                |
-| I Know the Score               | I can measure how I am doing      | Follow the wrong metrics, wrong methods, wrong path | No objective score, paths, continency and independence, over and under determined, dao | Pursue your dao                                 |
-| I’ve Always Been Me            | I am what I seem to be            | Don’t know what you are          | Multiple autonomous agents, press secretary, boundaryless dynamic process | Embrace an accurate view of your own nature     |
-| I Know Myself Best             | I have accurate information about myself | Act on wrong view of yourself | Challenge of self reflection, revealed preferences, large independent samples, awareness and courage | Realistic self-assessment                       |
-| I Use My Time Well             | I am not procrastinating          | Avoid your most important problems | Savoring, breaking down tasks, warming up, ask a friend, blinders, deciding what to do and not | Resume climbing your path when you get stuck    |
-| I Understand Other People      | Like mind fallacy                 | Misunderstand other people consistently | Noticing like mind, surpassing like mind, capability modeling | Predict other people more accurately            |
-| I Knew I Was Right             | Confirmation bias                 | Act on persistent inaccurate beliefs | Reversed confidence, disconfirming evidence, seek the truth | Limit beliefs to evidence                       |
-| My Mind Is Safe                | No one can attack my mind         | Loss of mental control to aggressive memes | Memes, psyops, negative suggestion, halo effect, anecdotes, memetic and antimemetic, virality, memetic defense | Mental sovereignty                              |
-| My Emotions Are Correct        | My emotions are always right, other people cause my emotions | Feelings over facts leads to misguided actions | Subconscious reaction to beliefs, created only by you, requires skill to interpret, independent verification | Use emotions as a powerful tool                 |
-| I Just Want to Be Happy        | I am satisfiable                  | Chase the illusion of happiness  | Lowered expectations, gratitude, humble ambition       | Live gratefully, pursue your values             |
-| Talking Is for Information Transfer | I understand why people talk | Fail to effectively use or understand speech, lose social games | Filtering, social acceptance, implicit requests, dominance hierarchy, signaling, socially defined reality, when to speak | Understand the rules of social games            |
-| I Am a Good Person             | I am a righteous hero             | Unable to consider your moral problems | Accept that you can be bad                      | Become able to make moral choices               |
-| This Is True Love              | I don’t need relationships, I must accept my relationships | Suffer alone, suffer together | New relationship energy, honor, limits to control, cost-benefit relationship management | Beneficial relationships                         |
-| What Is Love?                  | Love is sacred and mysterious     | You don’t know what love is or how to love | The sacred, commitment, love is a skill                 | More love in your life                          |
-| Organizations Pursue Their Mission | Organizations primarily do what they say they do | Misunderstand organizations, fail to get what you want, get crushed | Group mission vs individual goals, alignment of incentives, assertiveness | Survive among organizations                     |
-| I Don’t Need Anyone            | I never need to surrender, compromise or coordinate | Fail to coordinate with other people | Individualism, loyalty, service, following, leading | Achieve your goals through stable cooperation   |
-| Death Is Scary and Bad         | Old age and death are pointless   | Fear and dissociate about old age and death, misplay your life stages | Old age and death mechanics, pipeline of life stages, benefits of limitations, speedrunning | Play your life stage, speedrun your life        |
+| Chapter | Delusion | Cost | Mechanisms | Opportunity |
+|---|---|---|---|---|
+| I Experience the World | The world is like it appears | Inaccurate, incomplete view of the world, unobservant | Fovea, saccades, blind spot, visual processing, conceptual lens | Account for physical limitations to get a fuller view of the world, become observant |
+| Goals | Goals are unimportant | Aimless confused life | Terminal, instrumental, non, anti, convergent, divergent, exchange instruments | Find your goals and how to pursue them |
+| Agents | Life happens to you | Neglect your ability to direct your life | Awareness, mastering habits, internal locus, observe think act cycle | Active pursuit of your goals |
+| I Know Exactly What's Happening | I have all the information I need | Miss crucial information | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit | Prioritize and fight for information |
+| This is Serious | I have to play their game | Suffer under others' rules, never play your own game | Life is a metagame, dead and live players, define your rules, play to win | Live your own life |
+| Decisions | I make good decisions | Make bad decisions with catastrophic results, overanalyze trivial decisions | Detecting decisions, collecting information, generating options, stakes, delegation, urgency, deliberation, reversibility, iteration | Efficiently use resources to make better decisions |
+| I Have Free Will | I have free will | Fatalism or overestimate yourself | Unpredictable determinism, praise and blame | Agency in an unpredictable deterministic world |
+| I am a Success | I know what success is and I can achieve it | Empty wins or constant disappointment | Species, human and personal success, waves, excellence | Reliably pursue your own success |
+| I Know the Score | I can measure how I am doing | Follow the wrong metrics, wrong methods, wrong path | No objective score, paths, continency and independence, over and under determined, dao | Pursue your dao |
+| I've Always Been Me | I am what I seem to be | Don't know what you are | Multiple autonomous agents, press secretary, boundaryless dynamic process | Embrace an accurate view of your own nature |
+| I Know Myself Best | I have accurate information about myself | Act on wrong view of yourself | Challenge of self reflection, revealed preferences, large independent samples, awareness and courage | Realistic self-assessment |
+| I Use My Time Well | I am not procrastinating | Avoid your most important problems | Savoring, breaking down tasks, warming up, ask a friend, blinders, deciding what to do and not | Resume climbing your path when you get stuck |
+| I Understand Other People | Like mind fallacy | Misunderstand other people consistently | Noticing like mind, surpassing like mind, capability modeling | Predict other people more accurately |
+| I Knew I was Right | Confirmation bias | Act on persistent inaccurate beliefs | Reversed confidence, disconfirming evidence, seek the truth | Limit beliefs to evidence |
+| My Mind is Safe | No one can attack my mind | Loss of mental control to aggresive memes | Memes, psyops, negative suggestion, halo effect, anecdotes, memetic and antimemetic, virality, memetic defense | Mental sovereignty |
+| My Emotions are Correct | My emotions are always right, other people cause my emotions | Feelings over facts leads to misguided actions | Subconscious reaction to beliefs, created only by you, requires skill to interpret, independent verification | Use emotions as a powerful tool |
+| I Just Want to be Happy | I am satisfiable | Chase the illusion of happiness | Lowered expectations, gratitude, humble ambition | Live gratefully, pursue your values |
+| Talking is for Information Transfer | I understand why people talk | Fail to effectively use or understand speech, lose social games | Filtering, social acceptance, implicit requests, dominance hierarchy, signaling, socially defined reality, when to speak | Understand the rules of social games |
+| I am a Good Person | I am a righteous hero | Unable to consider your moral problems | Accept that you can be bad | Become able to make moral choices |
+| This is true love | I don't need relationships, I must accept my relationships | Suffer alone, suffer together | New relationship energy, honor, limits to control, cost-benefit relationship management | Beneficial relationships |
+| What is love? | Love is sacred and mysterious | You don't know what love is or how to love | The sacred, commitment, love is a skill | More love in your life |
+| Organizations Pursue their Mission | Organizations primarily do what they say they do | Misunderstand organizations, fail to get what you want, get crushed | Group mission vs individual goals, alignment of incentives, assertiveness | Survive among organizations |
+| I Don't Need Anyone | I never need to surrender, compromise or coordinate | Fail to coordinate with other people | Individualism, loyalty, service, following, leading | Achieve your goals through stable cooperation |
+| Death is Scary and Bad | Old age and death are pointless | Fear and dissociate about old age and death, misplay your life stages | Old age and death mechanics, pipeline of life stages, benefits of limitations, speedrunning | Play your life stage, speedrun your life |
 
 **The end of *Your Situation***
 
 [Shakubuku. A swift spiritual kick to the head that alters your reality forever.](https://www.imdb.com/title/tt0119229)
 
-Version 12025 211
+Version 12025 295

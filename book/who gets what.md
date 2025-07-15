@@ -1,0 +1,1991 @@
+---
+title: "Who Gets What"
+subtitle: "Communication and Your War for Social Reality"
+author: "Benjamin Rubinger"
+geometry: margin=2cm
+---
+
+![](whogetswhatcover.svg)
+
+---
+
+**Estimated Reading Time:** 6 hours
+
+[**Read *Who Gets What* Online**](https://benjamin-rubinger.github.io/#who%20gets%20what.txt)
+
+[**Download *Who Gets What* PDF**](https://benjamin-rubinger.github.io/book/who%20gets%20what.pdf)
+
+[**Discuss *Who Gets What***](https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions/categories/who-gets-what)
+
+---
+
+# Introduction
+Communication is the transfer of thoughts from one mind to another. It is expensive and full of mistakes. Miscommunication is the default, not the exception. So, why do it? People's needs are in conflict, which can be resolved by force, but force is even worse than communication. Communication is the superior alternative to force to resolve conflicts, and allows coordination. Communication is the basis of human success, the pen is mightier than the sword. Communication changes the world, for better and worse, by creating and distributing benefits. We communicate to decide who gets what benefits. You need benefits to survive, so your life depends on your communication. You are in a forever war for benefits in social reality.
+
+## What This Book Covers
+This book describes what communication is, interpretation, competition, cooperation, power dynamics, the fundamental communication strategies, how you relate to groups, politics and a master plan to win your war.
+
+## What Benefits Will You Get from Reading?
+We naturally communicate using our intuition, but we don't really know what we are doing, or why. This book breaks down the common aspects of communication to help you understand overall what we are doing, protect your interests and achieve your goals in life. I can't tell you what to say, but I can show you how saying works. My goal is to effectively inform you about how you and others use communication to pursue goals. I want to help you make your dreams come true.
+
+## Ethics of Communication
+Communication can both help and harm. Knowledge about how to harm can both do harm and protect from harm. It was always this way, whether I describe it or not. In my opinion, our collective ignorance and misuse of communication is a heavy cost and a significant risk to our future potential. I believe that this work will be a net benefit. I want the best for humanity and I am against injustice.
+
+# Mechanics of Communication
+## The Production of Communication
+Communication is intuitive to us, but there is a lot to it. This is a good thing, it means that communication can be a powerful tool to get you what you want. The following is an overall description of an individual process of communication, starting from the outside world, entering the mind and producing communication that radiates back out to the world, one cycle. Most parts of the process aren't relevant at most times, but every part is critical sometimes.
+
+| Phase      | Actor              | Description                                                                 |
+|------------|--------------------|-----------------------------------------------------------------------------|
+| Reality    | Parallel realities, objective reality, social reality | Objective reality is grounded in particles, states, the natural laws the world. Social reality is shared beliefs, social rules, expectations, conventions, cultures. |
+| Perception | Senses             | Collect information from the environment. Lossy, only collects part of the information. |
+|            | Attention          | Focus on certain sensory information. Lossy and interpretive, only pays attention to part of the information and makes decisions about which information is important. |
+|            | Sensory experiences | Combines attended sensory information into sensations, again lossy and interpretive. |
+| Cognition  | Experiences and memories | Combines sensations into experiences and memories, lossy and interpretive. |
+|            | Beliefs            | Combines experience and memories into basic beliefs, this happened to me. Combines basic beliefs into higher level beliefs, causes, effects, other people's beliefs. Lossy and interpretive. Builds models of objective and social reality. |
+|            | Thoughts and emotions | Subjective operations on beliefs, what you think and feel about your experience |
+|            | Choices and decisions | Voluntary and personal conclusions. Some choices modify your internal beliefs and your models of reality, some initiate external action. |
+| Execution  | Intentions         | Translate an internal decision into a plan for action, which is interpretive |
+|            | Actions            | Body executes your intention with action, a performance, which is also interpretive |
+| Reality    | Parallel realities | Objective changes in particles and states, subjective changes in shared beliefs |
+
+
+| Production of Communication Example | "Look, a butterfly!" |
+|---|---|
+| Parallel realities | Particles, states, laws and social reality |
+| Human senses       | Neural activity                            |
+| Attention          | Selected neural activity                   |
+| Sensory experience | Parts of butterfly wing, floating and flapping, smell of flowers, sound of wind |
+| Experience         | A sunny day with a flying butterfly         |
+| Beliefs            | I am outside on a sunny day having a nice walk and see a butterfly |
+| Thoughts           | I am surprised to see a butterfly and want to say so. Exclaiming that I see a butterfly is socially acceptable. |
+| Choices            | I will exclaim that I see a butterfly       |
+| Intentions         | Speak Look, a butterfly!                   |
+| Actions            | Body performs Look, a butterfly!           |
+| Physical reality   | Body motions and vibrations in air, cultural interpretation of speech |
+
+A social interaction is a continuous and iterative execution of the production of communication. Social interactions are natural, rich and complex. We don't tend to analyze them fully, but sometimes we should. We tend to socially interact reactively and intuitively, most of our communication choices are subconscious or ad hoc. Our intuitions sometimes lead us to pointless waste, conflict, lost opportunities and self-destruction. That is why we need to better understand communication, override our intuitions, analyze what we are doing, why, and what we can do better.
+
+## Language
+Communication is rooted in belief. Belief is the atom of social reality. Thoughts are generated in part from beliefs. Language can express thoughts in statements. Understanding statements can reconstitute the thoughts in the receiver, which can change their beliefs. Language is the tool of communication to transmit thoughts across minds.
+
+Language itself is also formed from beliefs. A language is not a personal belief, a language is a changing set of shared beliefs. People need to communicate a thought but lack the words to express it. They form a word to match the thought, the word enters the language by spreading into a new shared belief that this word means that. Now the language can express new thoughts. The language changes with the changes to the shared beliefs. Language itself is an objective in the war for social reality and the competition for benefits.
+
+## The Development of Language from the Origins of Life
+| Language development | Example                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| Action reaction      | Invade my territory, push out of my territory                           |
+| Posture and vibe, body language | When you approach my territory, I make a defensive display             |
+| Sign                 | I draw a line in the sand defining my territory                         |
+| Vocalizations        | I walk around my territory and grunt to declare this is my territory    |
+| Facial expression    | When you approach my territory, I face you and frown                    |
+| Gesture              | Point to me, point to the ground. Point to you, point away.             |
+| Calls                | Awoo, I am approaching your territory. Grunt, this is my territory.     |
+| Pictogram            | Drawing on the sand or painting on the cave wall                        |
+| Language             | What we are doing right now. Waves.                                     |
+
+
+# Language Games
+## Games
+Life is a game, it has rules, you make moves, your moves have consequences according to the rules and result in victories or defeats. Life is really a collection of games, not just one. A game is only a set of rules. The study of how players can interact with the rules and which strategies win or lose is called game theory. You don't have to study game theory, but you do have to know which life strategies work or don't to get you what you want. This book catalogues the major communication strategies and how to play with and against them. In any game there are one or more strategies that are the best at winning. Against a given set of players with fixed strategies, a different strategy may be the best. If the rules of the game change, the game changes and the best strategies change.
+
+## Win, Lose, Sums
+One important aspect of any game is its sum. The sum is how much is gained or lost overall by playing the game. If there is a fixed amount of winners or benefits that remain the same before and after the game, that is zero sum, and players compete to distribute the fixed amount of benefits. Some win, some lose, this is a win lose game. If a group of friends are eating together and there is one piece of food left, they can play rock, paper, scissors to distribute the last piece of food to the winner. Playing the game does not create or destroy the food, zero sum.
+
+If the total amount of benefits decrease by playing the game, like if two armies fight over territory, and both armies lose soldiers and destroy some of the territory in the conflict, one may win and one may lose, it's a win lose game, but it is negative sum. One player gains, but overall society loses because the total benefits are reduced, so society wants to prevent negative-sum games. The extreme form of negative sum is when both players lose, a lose lose game. Both society and individuals want to prevent lose lose games, but people still sometimes play them. One simple form of lose lose is the expression, if I can't have it, you can't have it. Imagine you have a sandwich and someone wants to take your sandwich from you. If they succeed in taking it, then that is zero sum, redistributing the sandwich. But if you don't want them to take your sandwich, and can't otherwise prevent them from taking it, you can throw the sandwich on the ground and stomp on it, destroying the benefit of the sandwich, lose lose.
+
+Finally, there are positive-sum games, where benefits can go up by playing. These can be win lose with the winner gaining more than the loser loses, or even win win. Positive-sum games are the basis of society. Understanding how games can be positive sum requires understanding the production of benefits, but one important source of positive-sum games is gain from trade. Money itself is uniform, there is no way to trade money to create more of it directly, but human needs are diverse. If I have water but I am hungry, and if you have food but you are thirsty, then we can trade our water and food to both become better off. It's not just physical trade, we all need relationships and other intangible things, too. Unlike money, our preferences and needs are diverse, and through different products and services, we can trade to create benefit, win win, cooperate, positive sum.
+
+## Benefits
+People want to survive and thrive, and to do that we need certain things. The things that help us survive and thrive are benefits.
+
+**Communication is only about benefits.**
+
+The natural world produces benefits, but they are rare. We have developed civilization to artificially produce more benefits, and one use of communication is to produce benefits. Once the benefits are produced, there is the challenge of distributing them. The primary use of language is to negotiate the distribution of benefits. Note that this negotiation is negative sum, it does not produce benefits, it wastes benefits and sometimes destroys production.
+
+Benefits are not limited to tangibles such as food or shelter, or immediate intangibles such as money or safety. Benefits include less immediate intangibles such as books that change people's beliefs, supporting a friend in need to improve your friendship, acts of charity to strangers that create goodwill, or actions that increase your reputation with yourself.
+
+What about things like genuine expressions of joy, peace, kindness, generosity or caring, without expectation of payment? These are obviously not part of some ruthless competition for benefits. Good parents don't care for their children with an expectation of reciprocation or profit. Friends aren't accounting for every benefit gained or lost between them. Ruthlessness is a quality you find more in zero-sum or negative-sum games, because in those games, it's either you or me, we can't both win. In a positive-sum game, cooperation can be better than competition. We can succeed together in win win, or trade sacrifices to overall get ahead in positive-sum win lose. Joy and peace are benefits you pay to yourself, while kindness, generosity, caring are useful acts within cooperation, and in fact work to get you more benefits without immediate payment.
+
+There is no single way to communicate. This book covers the fundamental communication strategies that broadly work to get more benefits in certain ways at certain times. People find and adopt these communication strategies because they work better than the other things they try. These strategies work because of human nature and the physical laws. The strategies remain the same because those also remain the same, but the ways that individuals understand and apply these strategies are infinite.
+
+## Limits on the Power of Communication
+Communication is powerful, yet it has two severe limitations. The fruits of communication can be stolen by force, and distribution of benefits is meaningless without production. That means there are two things potentially more important than communication, deterrence in the use of force, and increasing the production of benefits. Mass production can overwhelm even unfair distribution of benefits. For example, rich people can have as many smartphones as they want, but there are still plenty of phones for the rest of us, and ours are about as good as theirs. The modern world has found ways to mass produce many things, but that drives scarcity and competition to the remaining scarce benefits. There remain many situations where force is deterred and mass production is not yet possible, such as real estate, specialized professional services, or friendships. For these benefits, communication is king.
+
+## Dimensions of Communication
+Communication has multiple dimensions.
+
+| Dimension | Description | Example |
+|---|---|---|
+| Facts | Information about objective reality with objective accuracy | This is text on a page |
+| Beliefs | Information about subjective facts such as beliefs. Whether someone has a belief is objective, why they believe is subjective. | I think you are good looking |
+| Intent | Information about what someone is trying to do | I have your best interests at heart |
+| Signaling | Information about social status and affiliations | Did you know that I went to Harvard? (I did not) |
+| Reputation | Information about group evaluation | We all think that what Susie did was terrible. They should kick her out. |
+
+Simple communication is purely information transfer about objective reality. Almost no communication is simple. If you focus on simple communication, you forfeit communication in the other dimensions and will likely lose benefits. Communication is a primary method for playing social games to get benefits. Typical communication emphasizes the non-simple dimensions and has a loose relationship to objective fact. Collecting and communicating about objective facts is one thing that people do, but constructing messaging is a lot of the work that people do.
+
+## Messaging, Esoteric, Exoteric
+Messaging is the process of designing communication for maximum advantage, using every dimension including fact, belief, intent, signaling and reputation. Communication has a speaker and a listener. Individuals within a group, insiders, can communicate about the messaging their group will speak to listeners outside of the group, outsiders. The discussions among insiders are called esoteric statements, and the messaging for outsiders are exoteric statements. The society of mind within a person has esoteric internal discussion to construct exoteric messaging for people outside the person.
+
+An example of internal esoteric communication.
+
+*They are looking at me! What should I say? Should I tell them what they want to hear? No, they will see what I am doing immediately. Should I tell the truth? No, that won't get me what I want...*
+
+When a person is part of a group, the group has esoteric discussion about how to message to outsiders. Esoteric discussion is a social calculation of how to communicate to maximize benefits, followed by exoteric statements that execute the plan. Then outsider groups have esoteric discussions about how to message other groups, the chain of esoteric to exoteric continues without end.
+
+# Knowing Yourself
+To get what you want, you have to know what you want. What do you want? You want benefits! Yes, but which ones, and what are your best ways to get them? I can't know your specific situation, but the constant in every situation you find yourself in, is yourself. People tend to avoid looking at themselves too closely, distract themselves from their own problems, delude themselves about who they are, lie to themselves, feel angst and mystery about who am I, really?
+
+## Travel
+Some people travel to distant locations to find themselves. You won't physically find your missing self in a foreign land or at the top of a mountain. I do recommend travelling and living in a very different culture at least once in your life, it can give you a lot of perspective about your native culture and yourself that would be difficult to notice if you stayed only at your birthplace. Experiencing a foreign culture provides a counterexample to compare your culture and yourself against.
+
+## Facing Yourself
+What you need to know yourself is not a foreign location, you need to face yourself right now. What if I don't like who I really am? There is no what if, no human should like everything about themselves. You are a human, there are things you should want to improve about yourself. If you think you are perfect, you have no motivation to continue to grow. On the one hand, you should always accept yourself fully. Rejecting yourself is a contradiction, what alternative do you have to yourself? Beyond acceptance, you should be satisfied with yourself. Dissatisfaction with yourself is again a contradiction, if you are not enough for yourself, what alternative do you have? Even though you are satisfied with yourself, as long as you live, you can always do more. You should be grateful to be alive, want to continue living, accept yourself for who you are, and make your full effort to do even better starting now.
+
+Ok, but how can I face myself when I am so good at avoiding myself? one method is to think about your body, your behavior, your affiliations, your achievements, your goals as if they were a third party. If you judged someone else that you heard about for the first time today who happened to be the same as you, how would you evaluate them? Yes, harshly, but what would you suggest that they should do differently? Some people will jump to the common prescription, I should exercise more. I do recommend to find ways to include physical activity that you enjoy into your daily life, but your surface appearance isn't very important. Your appearance should not be an important objective, you should have important objectives that then cause you to want a decent appearance to help achieve them.
+
+## Reflection
+How do you answer the questions like, Who am I? What do I want? What are my principles? You look at your past actions as a third party observer and look for patterns. What motivates you? That may have something to do with what you want. When did you stand up for or against something? That may have something to do with your principles. What are you good at? That may be related to your abilities. Who are you, really? You already know what you are like in detail. For example, what are you like when no one is watching? Who you are is nothing more than what you tend to do, your preferences, choices, abilities, goals.
+
+In a sense, this is the secret method behind the highly desired and much discussed quality of self confidence. Self confidence is not some insane belief that you can and will get everything you want in life. No one can know that. Self confidence is knowing what you currently want, your objectives in your social forever war, and doing something to achieve them. You don't know whether you will reach any destination, you are confident that your self is attempting to climb your path.
+
+## Becoming
+Who you are tends to be very far away from who you wish to be, so far that there seems to be no relationship between those two people. Who you think you want to be can be mistaken. Take a good hard look at who you are and check if who you think you want to be is actually someone compatible with your motivations, preferences, abilities. Reject any fixed idea of who you should be, especially any idea that someone else told you or you think someone else wants. External expectations can only be correct coincidentally. What other people do and say does not apply directly to your subjective beliefs. Everything in objective reality, including what other people say, are potentially important evidence you can use to update your beliefs. Only you can live your life.
+
+Your goals for yourself should change as you learn more. Take an honest look at yourself and think about what is the first thing that you could do better, and do it. Then keep doing that, find the next first thing that you could do better. This is called thinking on the margin. This is the process of self improvement, living your life to the fullest. If this sounds unreasonable and exhausting, you are doing it wrong. By definition, you can only do things that you are able to do. The things that you can in fact improve are only things you are already able to do, which are always reasonable and affordable. If you exhaust yourself or drive yourself into failure, this is good information to learn from. Learn from your mistakes, including your mistaken beliefs about yourself, and improve on them too. Find ways to fail faster so you can learn more. Looking at yourself, your behavior, your achievements and your process of improvement, you will come to know yourself very well, and have better and better ideas of who you could become, how to become them, and what you want in life.
+
+## Social Objectives
+No war is won only through pure determination or good tactics, every war has objectives, including yours. What are your current life goals? Surprisingly, people are so intuitive about living their own lives that they are often unaware of their own objectives, which makes it all but impossible to achieve them. To gain the most benefits, you should know what your objectives are in every social interaction. There is no victory without self knowledge. Being privately aware of your social objectives is necessary to reliably get what you want. I know what I want to achieve with this book. What do you want to achieve by reading it? What was your objective in your most recent social interaction? How did it go? What could you have done better? What could you do now to do better next time?
+
+# Interpretation
+The meaning of a simple statement about objective reality is either objectively true or false, the person who said it is irrelevant. A thief can say that stealing is wrong. But most statements are not simple, so the full meaning of a statement is contextual. Who said it, under what circumstances, to what audience? The context can provide critical information about what the belief, intent, signal, or reputation the statement is designed to produce, potentially changing the meaning and significance of the statement completely.
+
+## Yes, an Example
+A statement such as Yes explicitly means agreement, but in context Yes can represent almost anything.
+
+What Yes means
+
+| Meaning                  | Prompt                                          | Response | Explanation                                                                 |
+|--------------------------|------------------------------------------------|----------|-----------------------------------------------------------------------------|
+| Truth                    | Will you answer my questions?                   | Yes      | Full and accurate truth                                                     |
+| Lie                      | Will you tell the truth?                        | Yes      | Inaccurate, I am lying                                                      |
+| Reductive truth          | Are people good?                                | Yes      | Most people are good or can be good, but not all people, and not all the time. It is a complex question, making any simple answer inaccurate. Even the least inaccurate answer, yes, is literally false, because there are bad people. If the question was, Are all people good? the answer is no. |
+| Placation                | Will you attend my party?                       | Yes      | You are not sure about attending their party, but you do not want to disappoint them by declining, so you say Yes to please them. |
+| Pandering                | Is my group the best group in the world?        | Yes      | People like it when you agree with them, and there is no objective standard for the best group in the world, so the truth is not important because it makes them like you more. This is pandering. |
+| Legally binding commitment | Will you pay this fine?                         | Yes      | This Yes is a legally binding promise, if you don't pay the fine after promising to pay, you will get in trouble for failing to keep your promise. |
+| Mere encouragement       | What they did made me really mad, do you know what I mean? | Yes      | Whether or not you fully understand what they mean, you are responding to encourage them to continue their story. |
+
+It is a simple fact that someone says Yes, but its significance can be almost anything. What Yes means is determined by the context and the ability of the listener. Someone can make a true statement today that the listener misinterprets as meaning something false or totally different from what the speaker intended, but the same listener at a later time can reinterpret that statement and arrive at the truth or form another, totally different, wrong interpretation.
+
+## Impossibility
+The impossibility of perfect communication is unsolvable. Exact transmission of thought using language requires exact interpretation, and exact interpretation requires identical shared beliefs, which we can never establish. Of course, communication is possible and we are probably communicating right now, but the important part of interpretation is that we have to both play the same language game together for the communication to work. The easiest example of a language game is the language itself, if you didnt know english, this book would just be a pile of uninterpretable words. The idea of language games is attributed to Wittgenstein.
+
+[Language Game](https://en.wikipedia.org/wiki/Language_game_(philosophy))
+
+Interpretation makes typical communication almost hopeless. If both parties are committed to mutual understanding, consensus is achievable, but this is rare! Among most listeners, they are incapable of understanding simple communication by default.
+
+## Making Things Difficult
+When a speaker makes a simple statement, listeners interpret the statement using their current communication strategies, and their strategies emphasize dimensions such as belief, intent, signaling and reputation, not information about objective reality. In practice, you can't tell someone that the sky is blue. Their answer will have nothing to do with the simple statement. The sky is blue? Do you think that I don't know that? Are you calling me stupid?
+
+The single biggest problem in communication is the illusion that it has taken place. George Bernard Shaw
+
+Interpretation obligates speakers to use sophisticated listener modelling when they make a simple statement, or even when they say nothing at all. It is impossible to say nothing. Silence communicates a choice to not speak, with a variety of possible implications. This means that speakers must use esoteric processes of internal discussion and play social games even when they make simple moves, and when they choose not to move at all.
+
+Telling the truth to people who misunderstand you is generally promoting a falsehood. Anthony Hope
+
+## Arguing
+People communicate for many reasons, a significant category of communication is argument. An argument is an attempt to change someone else's beliefs, to convince them. Why do we care what other people believe? Because if we can change what others believe, we can gain benefits directly, or increase our status and gain benefits indirectly. An argument is a communication attack on others' beliefs in the war for social reality. This is why, when we notice someone arguing toward us, we feel attacked. We don't like being attacked and become defensive, attempting to protect our beliefs, whether our beliefs are accurate or not. Arguers want to defeat our defenses, so they try things like hiding their arguments. Sneak attacks are effective to bypass defenses in physical conflict, and hidden arguments are effective to bypass defenses in communication.
+
+The purpose of argument is to convince. People can only be convinced in two ways, their mental defense can be defeated by arguments they are vulnerable to, or they can convince themselves when you provide them information they find useful. Mentally vulnerable people are easier to defeat and convince, falling prey to bad-faith arguments. The mentally vulnerable include children, people in bad health or in distress, and low IQ. Also, more agreeable people tend to go along with what other people want, by definition. A classic tactic is to attack the listener's confidence in their own sanity or judgment, gaslighting, making someone more mentally vulnerable. Everyone, including you, make mistakes, and you will never be fully correct. But only you can take responsibility for your life, and only you can improve your sanity and judgment. Never allow others to harm your connection or ultimate faith in yourself to correct your mistakes, no matter how wrong you currently are. It is still only you that can fix it, no one else can save you.
+
+Convincing people by defeating their mental defenses is an oppositional or competitive strategy, while convincing them by telling them information they find useful is collaborative. These two purposes are very different, but their statements and behavior can appear similar. Oppositional behavior likes to cloak itself in collaborative clothing. It is usually possible to distinguish them. We call oppositional arguing bad faith, and cooperative arguing good faith. Bad-faith arguments are a mental attack intended to impose your beliefs on an unwilling subject. Good-faith arguments are a willing collaboration to approach or find the truth of a matter together, by attacking ideas and seeing which ones survive. One way to distinguish bad from good is open-mindedness, curiousity. Does the arguer care about and understand your beliefs, do they want to know why you believe what you do, are they willing to admit when they make a mistake? A curious person cares whether they are mistaken or not, an incurious person doesn't want to admit mistakes, they are not curious about how they might be wrong.
+
+Good-faith argument is grounded. Grounding means there is a correspondence between words and facts, ground truths. The words attempt to transmit thoughts, generated from beliefs, that attempt to match objective reality.
+
+[Grounding](https://en.wikipedia.org/wiki/Grounding_(metaphysics))
+
+A good-faith arguer is very interested in evidence that contradicts their statements, and if they lose an argument, they may change their mind or reserve judgment until they can confirm it. Good-faith is willing to sound bad, while bad-faith isn't. A bad-faith arguer avoids or dismisses contradictory evidence. When bad-faith arguers think they are losing an argument, they may escalate from reasoned argument to character attacks, change the topic, or move the goalposts, but they never consider changing their mind. Ask your conversation partner, what would it take to change your mind? Hence, good-faith can be reasonable, and bad-faith is unreasonable. Bad-faith writes the conclusion first, then searches for supporting arguments. My client is innocent because... Good-faith searches for relevant evidence and arguments, puts them together in an exploratory process, and whatever conclusion they arrive at, they write the conclusion last.
+
+Thesis. Antithesis. Synthesis. Johann Gottlieb Fichte
+
+The idea of truth is high status. In practice, many people claim to have or seek the truth, but very few people do. It is often pretty easy to distinguish between people who seek truth and those who don't. Those who don't seek truth will make unrealistic claims that sound good, supporting the expression, if it sounds too good to be true, it probably is. This isn't coincidental, they have to lie. If they limit themselves to the truth, they would be a truth seeker. If they say anything apart from the truth, they will never choose something that sounds worse for their purposes. They will always choose something that sounds better, to gain more benefits. One common way to sound better and defend yourself from criticism is to simplify in your favor.
+
+Reality is complex, one of the inconvenient aspects of the truth is that it is equally as complex as reality. People can't understand full reality even in principle, simplification is unavoidable. Inserting yourself between the complex truth and others' understanding is a powerful strategy to gain status. There are other problems with the complex truth, such as the fact that language cannot convey some parts of reality, and is expensive and full of mistakes beyond that. These and other problems limit good-faith attempts to describe reality, to speak the truth.
+
+But these limitations, and others, can also be arbitraged in bad faith to gain status. Arbitrage in general means that someone can make profit from an arbitrary difference. If you notice that a product is suddenly popular but the existing sellers haven't increased their prices yet, you can buy up their stock and immediately resell it for a profit, you can arbitrage, take advantage and profit from the difference.
+
+Just like products and services, information can also be valuable, convertable into money or status. Truth arbitrage is taking advantage of the difference between the truth and what people understand. This is a competitive strategy, taking advantage of other people, so it appears mostly in negative-sum or zero-sum games or attitudes. Bad-faith truth arbitrage is a losing strategy in positive-sum games, where cooperation wins. In cooperation, people want to help each other understand as best they can in good faith. The way to protect yourself from truth arbitrage is to never blindly rely on anyone else. Everyone is wrong in some ways and some times. You can take good advice, but you must never fully substitute others' judgment for your own. Think for yourself. Trust and verify.
+
+Good faith arguments are one kind of thing, while bad faith arguments are many different things. There are few ways to be right, and many ways to be wrong. Committed good-faith arguers must ultimately agree. They converge on a shared understanding, if not approach the truth. I am not saying that good-faith arguers always have to agree on a conclusion, but they can always reach a mutual understanding. Uncommitted or unreasonable people may not converge, they can agree to disagree. Bad-faith arguers can also reach mutual understanding, but it can be ungrounded and have little correspondence with reality.
+
+People who argue are often engaged in totally incompatible activities, playing different language games, or unaware of their own objectives. Argument is too important of an activity to skip, but most people participate without any conscious idea of why or how. This doesn't only prevent speakers from being convincing, this muddleheadedness also makes listeners unable to be convinced! The listeners' idea of communication, their communication strategy, is ungrounded, so words do not correspond to the objective world, listeners do not attempt to check whether statements are valid or accurate with their own experience, words do whatever they feel like at the time.
+
+90% of readers will skim through this book, say Cool story bro, and carry on with their lives as if they had never read it, as if these words have no relationship to the thoughts and actions they are making now or in the future. They are semantically disconnected. To them, words aren't functional, words are decorative, and furthermore the words I arranged are ugly. I present to you, the ugly truth. Or maybe words are functional only to validate their feelings and beliefs. This view is obviously wrong, we communicate because communication is functional. This book is about understanding what we are already doing and how to play functional language games to win. Whether or not your statements are grounded, your beliefs must be grounded in order for them to work. Almost nobody lives their life in isolation, so good-faith argument is a valuable tool to establish and maintain your grounded beliefs.
+
+We argue for the same reason we communicate at all, to get benefits. Generally, agreeing with someone else gives them your benefits, so people generally won't agree with anyone else. What benefit would they get for agreeing? None? Then, why would they ever agree? It is generally unproductive to argue with bad-fath opponents, so I recommend that you don't. Be cautious to form conclusions about other people's intent, because it is very convenient to dismiss others when you are wrong.
+
+Reasonable and fair-minded people exist. Even among unreasonable people, sometimes reality punches them in the face, literally or figuratively, hard enough that they do change their minds. Unreasonable people are only willing to change their mind when the benefits they lose from being wrong exceed the benefits they think they gain from holding onto their current beliefs.
+
+It is difficult to get a man to understand something when his salary depends upon his not understanding it. Upton Sinclair
+
+## Framing
+Another unsolvable interpretation problem is the context or framing around statements. The same statement means different things in different contexts. Misinterpretation is common, and commonly happens by misunderstanding the context of a statement accidentally. Skillful communicators can manipulate context to promote understanding, defend and attack.
+
+One way to use context is to hide arguments with framing. We can explicitly discuss a subject, but I can choose the context around it to hide part of my argument or give my arguments an undue advantage. In this book I explain communication using a war framing, a metaphor of conversations as battles in social reality. In the metaphor, statements are attacks against mental defenses. This advantages my worldview that communication is primarily a competition for benefits, like a war. Other people who discuss communication choose different framings, they say communication is about an information economy with buying and selling, or discovery with news and publishing, ritual with evolution of repeating behaviors, interpersonal connection with sharing and growing, information transfer with bandwidth, latency and noise.
+
+These framings change the argument and make the same claims more or less relevant, sensible, convincing. An economic framing might care about who benefits, while a connection framing might not care about who benefits. I mention these alternate framings in good faith, I think you will conclude that they are less effective than the one I chose. Bad-faith arguers will sometimes insist on and refuse to discuss their framing, they want to limit discussion to the topic, but the framing greatly affects the topic. People thinking in different framings are playing incompatible language games, they talk past each other. Framing is inescapable, it helps establish the language game to discuss the topic at all.
+
+A more immediate form of framing is a loaded question. A loaded question presupposes assumptions that are not agreed by the listener and then asks a question based on those assumptions. Did you stop beating your wife? is written in the form of a question, not a statement, but it presupposes that you beat your wife. It is phrased as a yes or no question, and any answer you give, including silence, appears disadvantageous. Both yes and no imply that you beat your wife. The typically correct answer, no, meaning No I did not stop beating my wife, because I never beat my wife, actually implies the opposite meaning, No, I did not stop beating my wife, because I did previously beat my wife and I will continue to beat my wife. The unambiguous answer, I never beat my wife, contradicts the loaded assumption, but appears to dodge the question, if listeners don't pay attention. Why can't you answer a simple question? Yes or no, did you stop beating your wife?
+
+The loaded assumption in the question is in fact a statement, not a question, but it is loaded in a container which has the form of a question. The questioner typically feigns innocence about this tactic, why are you getting angry with me? I am just asking questions! A loaded question includes a statement, so you are not just asking questions. Your behavior is designed to appear to be in good faith, but the question is performative, your statement is in bad faith.
+
+Another form of framing is reference classes. Often, when people speak they are thinking about a specific context, scenario or example that they may not say, or they may say, but others may replace it by accident or by malice. If I say people are born free and should live free, I may be thinking about how this statement applies to myself and other law-abiding, responsible citizens. The context or examples that I am thinking of are the reference class, law-abiding citizens. Someone could assume that my reference class is criminals, and form a misinterpretation of my statement because they changed the reference class. They think my statement means that I oppose punishment for criminals. They could call me a lawless villain, Did you hear what that guy said? He said he wants to get rid of all prisons and let criminals roam free and hurt everyone else! The misinterpretter assumes that the reference class of my statement, that people should live free, is criminals, not law-abiding citizens. Changing the reference class changes the interpretation of the statement without changing the statement.
+
+## Intent
+Interpretation follows from perceived intent. If the listener thinks the speaker means well, they will interpret their statements positively. if the listener thinks the speaker means ill, they will interpret their statements negatively. This works well when listeners accurately perceive intent, but often works badly when listeners misunderstand the intent. Sometimes, there is no sequence of words that can correct a listener's mistaken presumption of ill intent.
+
+| Person                             | Statement                                              |
+|------------------------------------|--------------------------------------------------------|
+| Speaker                            | I want all people to live happy and free.              |
+| Listener who wrongly assumes ill intent | They are lying, they want to oppress us all!           |
+
+It goes both ways. Sometimes no sequence of words can dissuade a listener's mistaken presumption of good intent.
+
+| Person                                | Statement                                                  |
+|---------------------------------------|------------------------------------------------------------|
+| Speaker                               | We should kill and maim and torture all who oppose us!     |
+| Listener who wrongly assumes good intent | They are just making an exciting speech, they don't advocate violence. |
+
+The previous examples are not fictional exaggerations. These are paraphrases of statements and responses that people made recently, and people grossly misperceive others' intentions this way every day.
+
+What can you do to prevent yourself from misunderstanding others' intent? Never become completely certain about others' intent. Always maintain a minimum level of doubt in your interpretations to allow evidence to change your mind. Don't thoughtlessly take others' words at face value. Consider their track record, what others say about them and why, and especially compare their words with their actions to improve the accuracy of your perception of their intent. The purpose of a system is what it does. People's intent is shown by their actions. Watch what the hands do, not what the mouth says.
+
+My description of communication may sound warlike, calculating and vicious. Your life experience may contradict this worldview, people may seem to you to be intuitive and kind. Yes, many people don't think much about their behavior, and do mean well. But the world and human nature define the incentives of communication, and you get what you pay for. People are not necessarily aware of the consequences of their actions, or why they do things, but they respond to incentives. People naturally feel that they are good, work hard, mean well. The road to hell is paved with good intentions. If you do not become aware of what you are doing and why, and what other people are doing and why, your life could go poorly for you.
+
+People don't usually intend to harm others, but when they act without awareness and follow the incentives naively, they end up harming others. They do not consciously intend to harm others, but they do harm. They do not intend to calculate a vicious strategy, but the incentives encourage them to behave that way. One person is at the same time intuitive and kind, following calculations and causing vicious effects. Intuition isn't good and calculation isn't bad. The meaning of kindness is not wanting to give everyone a cookie, true kindness is only possible with greater awareness. Intent is not limited to what a person consciously thinks they are trying to do, because people are unaware and deceive themselves. Intent includes what someone subconsciously tries to do, and what the system incentivizes. You may consciously believe you want peace, but you are nevertheless on a battlefield.
+
+Intent does not only affect individual interpretations. Humans need healthy and deep relationships to survive and thrive, and relationships critically depend on perception of good intent. If you want to preserve a relationship, you must act and speak with positive intent toward the other person, and you must preserve your belief of the other person's positive intent. If you have sufficient evidence of their ill intent, you should not want to preserve the relationship. Often, when an interaction in a relationship goes wrong, one or more parties assumed ill intent. Perceived ill intent is a primary suspect to investigate to resolve relationship problems.
+
+## Plausible Deniability
+### Accountability
+Interpretation is a fundamental and serious problem, it creates a serious vulnerability in holding people accountable for their speech. Simple statements are interpretable, undeniable, and can be used to hold people to account, while complex statements have multiple interpretations and create deniability. Imagine a criminal who wants to commit crimes without accountability, and investigators who want to hold the criminal accountable. Simply saying I committed the crime is an undeniable confession. Saying If I committed the crime, I wouldnt get caught has plausible deniability. It is possible to deny that you committed the crime after making that statement.
+
+### Cat's Paw
+A criminal has several methods to talk about a crime without accountability. They could ask someone else to commit the crime and let them risk getting caught, that is called a cat's paw, getting someone else to do something risky for you, whether they know the risks or not.
+
+If investigators find evidence that the criminal asked a cat's paw to do it, the criminal can still be charged with incitement, conspiracy or accessory. However, if the criminal never simply asks someone to commit a crime, it is difficult to charge them. Even omitting something like a specific time can prevent prosecution. Saying please commit the crime tomorrow at noon is illegal. Saying please commit the crime at some point soon is legal.
+
+People can say all kinds of things for all kinds of reasons, and we primarily hold people accountable for their actions, not their thoughts. This legal principle creates a protected area for malfeasence, bad intent, without accountability, but you don't have to use this legal standard in your personal conduct. You can personally detect and hold others accountable for their bad intent.
+
+### Dog Whistle
+Plausible deniability shows up frequently in speech. Another form of plausible deniability is a dog whistle. A physical dog whistle is a special whistle that, when blown, makes a high pitched sound at a frequency above human hearing but within the hearing range of dogs, so that dog owners can notify their dogs without disturbing the people around them.
+
+In human speech, a metaphorical dog whistle is a statement with two intended interpretations, designed to secretly communicate different messages to different groups using one statement. Often, the two interpretations have two specific functions, one innocent interpretation and one illicit interpretation.
+
+If the criminal says commit the crime tomorrow at noon, there is only one plausible and illicit interpretation. If the criminal says to a group of children and criminal associates, with an unusual tone in their voice, Let's have fun tomorrow at noon, does everyone understand? There are two plausible interpretations of the statement. One interpretation is innocent, they will host a birthday party with the children tomorrow at noon, and the criminal can in fact attend the party, further establishing plausible deniability of the illicit interpretation. The second, illicit interpretation of their statement is a hidden request, asking their associates to commit the crime tomorrow at noon, without saying it simply, relying on ambiguity. Using dog whistles, the criminals can communicate reliably and commit crimes, taking advantage of plausible deniability based on the ambiguity of interpretation of their statements to prevent accountability.
+
+### Malicious Interpretation
+Accusing others of using dog whistles is itself another form of plausible deniability. If a law-abiding person makes the same statement as the criminal, Let's have fun tomorrow at noon, an attacker can accuse the law-abiding person of using a dog whistle. There is no reliable defense against others' malicious interpretation of simple statement. A law-abiding person can make purely wholesome statements and attackers can consistently portray them as a monster by abusing the complexity of interpretation or pulling quotations out of context. Outright lying about a person can be illegal, but malicious interpretation of things they did say is legal, and has plausible deniability. The plausible deniability is specifically that the attacker can claim they really believe the malicious interpretation, whether they are lying or not, because beliefs are subjective.
+
+### Omelette Connoisseurs
+The expression goes, if you want to make an omelette, you have to break eggs. This statement is literally true and metaphorically false. The metaphor is typically used to excuse harmful acts, meaning if you want to help people in the end, you have to use harmful means to achieve it. Of course, everything has its price, but people frequently love two things that this expression encourages, sounding good and doing harm. Looking at history, which is more likely? That someone deeply regrets and wishes to minimize violence to their enemies while helping as many people as possible, or that someone relishes hurting their enemies as much as possible and taking all the benefits while minimizing what they give to others. People who talk about omelettes do not care about omelettes, they want to break eggs. The omelette is not their goal, it is their plausible deniability.
+
+For example, the omelette connoisseur says I am not a criminal, I harmed all those people for a good reason! Oh, then where did all the benefits go? I tried to benefit the people but for some reason, it didn't work out. My pure intention was to help, you must believe me. Listen to what I say, not what I do.
+
+### Mud
+Aggression, attacking someone without a pretext, is often disadvantageous. By aggression, I mean both physical or social attacks. Other people and groups dislike and oppose aggressors. When someone wants to attack, they sometimes try to create a pretext to justify their intended unjust action so they don't appear to be the aggressor.
+
+[Casus Belli](https://en.wikipedia.org/wiki/Casus_belli)
+
+There are many ways to avoid appearing to be the aggressor. The attacker will attempt to harm the reputation of their target, sling mud. If their target gains a bad reputation, attacking them isn't as bad. The attacker can plausibly claim that their attack was serving justice to the wicked. Another option is a false flag operation, where the attacker's people pretend to be members of the target group and attack themselves, falsely painting the target as the aggressor. The attacker may try to provoke their target to attack them, creating the opportunity to retaliate, using the plausible deniability of self-defense despite their provocation. The attacker may muddy the water, causing confusion or chaos so that no one knows who attacked first, creating plausible deniability that they were the attacker.
+
+People looking to fight create complexity to increase deniability, while people looking to cooperate create clarity to reduce deniability.
+
+Language itself is a universal target for mud slinging or muddying the water, associating the target with bad things or misusing words to make it difficult to communicate about or understand the target.
+
+### Concerns
+Imagine a reporter is challenging you about your political opinions. They ask, we have sources claiming that your views are dangerous to our society. How do you respond to concerns that your policies would have disastrous consequences, and you should leave the political decisions to the establishment? This lying question uses standard tactics with multiple uses of plausible deniability.
+
+The reporter loads their question by claiming that sources claim your views are dangerous. The reporter does not claim to hold this view, the reporter is just reporting that their sources make this claim. The reporter could be lying, there could be no source that makes that claim, or the source could be an unqualified friend of theirs. Just because someone claims something does not make it true, and interpretation of what people say is fraught to begin with. Typicallly, if you ask a reporter who their source is and the context of the claim, they will refuse to name their source, preventing accountability. So there is a possibility that their source is well-informed and correct, but it is also possible that their source is wrong or that no such source exists. It comes down to the fact that the reporter is asserting without evidence. If the reporter wanted to make an evidentiary claim, they would have likely cited their source instead of being vague about who they are. A claim without evidence can be dismissed without evidence. But dismissing their claim won't satisfy the reporter and likely won't satisfy their audience either.
+
+Even if their source is right or wrong, it turns out to be irrelevant to the question they asked. They asked you to respond to concerns about your policies. Whose concerns? What are they concerned about? They didnt say. And if they wanted to discuss policy, they would have asked you something specific about your policy proposals. They don't want to discuss policies, they want to discredit you. How do I know that? Because this question is carefully crafted, it is not a question, it is messaging, with a specific purpose. Its purpose is to make you look bad while preventing accountability for the reporter. Any answer you give looks bad, just like with well designed loaded questions.
+
+If you agree that people should be concerned about your policies, that sounds bad. Why would you advocate for policies so bad that they scare people?
+
+If you disagree that people should be concerned about your policies, that sounds bad. Any policy has risks, and there could be people with justified concerns. Either you know that your policies will harm people and you don't care, which is callous and mean, or you don't know that your policies will harm people and you are ignorant and probably wrong, or you know that your policies will harm people but you are unwilling to admit it, making you a liar.
+
+This attack disguised as a question can be used against any proposal. Every course of action has upsides and downsides, costs and benefits. Beyond costs are more severe risks, people could be seriously harmed by doing almost anything. Nothing in life is certain. In fact, you are never completely safe, even if you hide under your bed for your entire life. In one case, a man died while sleeping in his bed when a sinkhole opened under his room. There is nowhere to hide, life has risks. People can make an unlimited amount of concern about anything at all. But how do you know your policy will be good and not bad? I am concerned! Your concerns are your problem. If you want to ask about policy, ask about policy, not peoples' concerns.
+
+The insidious nature of the question is that it is an attack, any answer looks bad, and the reporter looks independent and professional. The reporter is not making claims, their sources are, plausible deniability. The reporter is not concerned, other unspecified people are, plausible deniability. The reporter isn't sneak attacking you as a coward, the reporter is heroically informing you about others' concerns to give you an opportunity to reassure the public, plausible deniability. But no actual person is concerned, or no one the reporter cares about, anyway. If there were substantive concerns to attack you with, the reporter could have asked about them specifically, to make you look even worse.
+
+Good answers to this attack are to request for details about the concerns so you can address them fully, showing that you are caring, responsible and capable of resolving concerns. Another option is to ask them which policy they prefer to yours, and then you can show how that policy is worse. Another option is to counter with a demand for a standard that would satisfy their concern. People can be concerned about anything, what standard would satisfy them to allay their concerns? People who are concerned are often unsatisfiable. If they are unwilling to state a standard, then it would be impossible to meet a standard that they themselves don't know, making the reporter look bad. If they state a standard that is too high, then show that no policy, including the current policy, meets that standard, and their sources should be more concerned about the current policy they are currently suffering from than yours. If the standard is reasonable, show that you meet the standard, because you should be better prepared about your business than a reporter. It is always easy to criticize, so hold critics to the same standard as the doers and see them fail to meet that standard.
+
+Theodore Roosevelt said, It is not the critic who counts, not the man who points out how the strong man stumbled, or where the doer of deeds could have done better. The credit belongs to the man who is actually in the arena; whose face is marred by the dust and sweat and blood; who strives valiantly; who errs and comes short again and again, because there is no effort without error or shortcoming; who knows the great enthusiasms, the great devotions and spends himself in a worthy cause; who at the best, knows in the end the triumph of high achievement, and who, at worst, if he fails, at least fails while daring greatly; so that his place shall never be with those cold and timid souls who know neither victory or defeat.
+
+I wonder how much Teddy cared about others' vague concerns?
+
+### Ubiquity of Plausible Deniability
+Outside of criminality and attacks, plausible deniability is used and abused across almost all social situations. For example, expressing sexual interest in another person is risky. When people express simple, direct sexual interest, sometimes others respond aggressively, or they want to accept, but they can't say Yes for social reasons. When people express sexual interest using plausible deniability, that is called flirting and can allow both parties to negotiate with less conflict. The offer can be rejected without saying No, and accepted without saying Yes, answering the question while reducing accountability for both sides. Flirting brings its own problems, such as misinterpreting simple speech as flirting and misinterpreting flirting as confusing simple speech.
+
+# Deception and Counter-Deception
+## Deception
+Deception is promoting false beliefs in others. Why would anyone be deceptive? Show me the incentive, I will show you the behavior. The incentive to deceive is gaining undeserved benefits. Lying is the social-reality version of theft. If I state the whole truth, I am not being deceptive, even if other people reach a false conclusion. If I state a partial truth that implies a false interpretation, I am being deceptive. If I withhold information that I know another person needs to form an accurate interpretation, I am deceiving them, a lie of omission. If I outright lie, if I claim that a falsehood is true, I am being deceptive. Outright lies are more risky in the digital era, so the war for social reality is focusing more on selective truth and malicious interpretation.
+
+Here is an example of such a deception against an imaginary person. I could attack someone's character by saying they have lied to the public hundreds of times in the last week. How can you trust anything they say? The first statement could be technically true, but misleading, while the second statement is a reasonable conclusion, but depends on the first statement being fully accurate. That makes it a malicious interpretation, because the first statement is intentionally misleading. The trick here is that you can imagine that the innocent person I am attacking bought a home weather station, and the thermometer on their weather station is miscalibrated and reporting bad data, and their home weather station is connected to the internet. In a technical sense, the owner of the malfunctioning weather station has lied to the public hundreds of times during the last week, but any reasonable person who is aware of the relevant context would not interpret this true statement to mean that the person is untrustworthy in their personal conduct, which is what the original statement implies. The original statement promotes a false belief in listeners. the attack is deceptive.
+
+## Attacker's Advantage
+The attacker has the advantage when it is easier to attack than defend. In physical war, the attacker often has the advantage because they can succeed by attacking once, anywhere, at any time, while the defender has to protect themselves from every attack everywhere all the time. It is easier to destroy than to create. It is easier to mess up a fully set fine-dining table than it is to set it. The truth is similarly complex and causally organized as a fine-dining table. A few short statements can be wrong in hundreds of ways, requiring hundreds of statements or more to correct, if anyone is willing to listen.
+
+Attention is an unusual thing. You don't pay attention to every piece of data, every letter I write, you pay attention to the surprising data. If I repeat one letter over and over, after you see the first few letters, you quickly start to expect that the next letter will keep repeating, and skip over every expected letter until you hit a surprising one, for example aaaaaaaaaaaaaaaaaaaab. People say all kinds of expected things, which you find unsurprising and don't pay much attention to. But when someone says something totally wrong, you will be surprised and pay attention to it. You will find it interesting and exciting. Then, if someone corrects them, it will sound expected and boring. If someone lies on purpose, the lie will sound surprising, because it is untrue. When someone corrects the lie, you won't find the correction interesting, and won't pay as much attention to it or remember it. the attacker's advantage in deceptive communication is extreme.
+
+Exciting lies spread like wildfire, boring corrections don't. This is why there are wild rumors, but not wild corrections. Urban myths persist, while reasonable investigations are ignored.
+
+## Lying
+Laws and conventions partially protect you from significant lies. Typically, if someone is caught in an objective lie for their own benefit, they will be held accountable. But deception has countless forms. Although objective lies can sometimes offer the greatest benefit, they also have significant risks if the lie is discovered. The reward to risk ratio can tell you whether lying is worth it. Objective lies do not match reality, and reality can eventually prove them wrong, except in special cases such as self-fulfilling prophecy.
+
+Once you lie, as long as the lie continues and you continue to promote it, you have to mentally track multiple realities, the single objective reality and the multiple alternate realities where your lies are true. This is a mounting cost. Effective people and people who are bad at lying quickly learn that lying is a bad strategy for them, and tend not to tell outright lies. That leaves ineffective people who are good at lying. They tend to lie privately, so they can make different lies to different people as needed, and those people are unlikely to compare what they heard with other people. Liars also avoid details and making statements on the record. Cornering a suspected liar is pretty simple. Get their statements on the record, don't meet with them privately, demand reasonable details, verify what they say, compare notes with the other people they talk with. Then, if they lie, hold them accountable by reporting them or exposing the lie in public. Objective lies can be discovered immediately, or persist for centuries. The attacker's advantage applies. In situations where you don't care about your reputation, such as when you are fighting an enemy, lie to them as much as possible.
+
+Warfare is based on deception. Sun Tzu
+
+## Messaging is Deception
+When you deal with non-enemies, objective lying is usually a losing strategy. Getting caught in an objective lie hurts your status. In extended or repeated games, usually honesty is the best policy. In a cooperative scenario, relevant transparency is often a good default. Honesty is not all or nothing. In a competitive scenario, withholding information and carefully selecting and presenting information, messaging, is often beneficial. In my opinion, messaging is dishonest, but it is less dishonest than objective lies. Messaging is generally agreed to be part of playing a competitive social game, while lying isn't.
+
+Designing messaging is both following your most advantageous communication strategy and it is deception. Transparency is the opposite of deception and therefore the opposite of messaging. Transparency doesn't require strategizing, so it saves a lot of time and effort over lying or messaging. How can you detect messaging that is based on partial truths? Pay attention to when people avoid basic facts and bring up unusual facts, or they avoid fact and emphasize subjective claims. Usually, when the facts are convenient to a narrative, the speaker brings up the basic facts over and over, we are the number one seller in this market. Really? I thought your competitor outsold you this month. Oh, yes, well our cumulative sales over the last six months are the highest. Who cares about cumulative sales over the last six months? Also, our customers say that we are the best! Oh, how many customers say that? At least one customer says that. Ok.
+
+## Substitution
+Interestingly, silence is also messaging. If you don't have anything nice to say, don't say anything at all. People notice if you don't say something when they expect you to, so one form of deception is substitution. In a competitive scenario, if you can't say something advantageous and true when requested, don't say something disadvantageous and true, self-defeating. Don't say something advantageous and false, lying. Say something else, dodge the question. Secretly substitute what they asked for with something different without them noticing, or answer their question with a question. If their question is loaded, challenge the loaded assumption. If the question is open ended, answer it truthfully, but avoid disadvantageous points. If you are a bystander, you can detect when responders use substitution, and infer that they cannot give a nice sounding answer to the question.
+
+If you are the questioner, it is your responsibility to notice substitution and repeat the question, allowing grace for honest mistakes and forcing dishonest substitution to fail. People using substitution can be unaware or shameless, you may have to repeat and clarify a simple question several times. Use the broken record technique. A broken record is a metaphor of a malfunctioning device that unconditionally repeats the same sound over and over. Where were you yesterday? I don't know. Where were you yesterday? Why do you want to know? Where were you yesterday? I don't have to tell you. Where were you yesterday? etc. until they answer the question truthfully, lie, refuse to answer, or escalate. Any of those responses advance the conversation and you can stop using the broken record technique. I find oppositional and competitive communication dynamics pointless, they are usually negative sum. Where you can, find and limit your communication to cooperative. But you live in a society, society has competition, and you have to compete to survive.
+
+## Scheming
+Deception is one tool to use while scheming. Scheming isn't just deception, or being extra deceptive. Scheming is a move in a metagame, deception about which game you are playing.
+
+Deception and scheming are unnecessary if there is no deterrence. You can take candy from a baby if you decide to. Scheming is difficult when you play a well-defined game with tightly enforced rules, just play a winning strategy whether it uses deception or not. When rules are not well enforced, or there are multiple games you could be playing, scheming is deceiving the opponent about which game you are playing. When people ask, What are you scheming, they aren't asking which strategy you are using in the known game, they are asking which game you are playing that they don't know about. When a scheme succeeds, the loser says you tricked me! They lost because they didn't even know which game they were playing. Scheming is a common tactic for the multigamer communication strategy, introduced later.
+
+A fictional example of scheming comes from the science fiction series Star Trek, about captain Kirk as a student at Starfleet Academy. He faced a simulated training scenario designed to be a no-win situation. In the scenario, the Starfleet captain has to defend a merchant ship, named the Kobayashi Maru, from enemy attack, but the enemies receive unlimited reinforcements, forcing an eventual defeat. Captain Kirk rejected this framing of real life, so he secretly modified the scenario to have a solution and in a trivial sense, Kirk won the no-win scenario. He played a move in the metagame, he schemed to win. No fair!
+
+[Kobayashi Maru](https://en.wikipedia.org/wiki/Kobayashi_Maru)
+
+# Ego, Judgment, Feedback
+## Ego
+People are defensive if you touch their ego, the things they identify with, and less defensive about statements about the world, all the stuff that they don't identify with. Often my body, my job, my family, my possessions, my close relationships, my community, my memories, my habits, the place I live in and my reputation are me, I identify with these things. So if you can talk to someone and praise or preserve their identity, they will often like that. If you criticize or alter these things, you are injuring their fragile ego and they will usually not like it. If you want someone to change their behavior, you can talk to them about what you want while avoiding their ego. If you say, You left your wet towel in the bathroom, that pokes their ego by criticizing their actions, and they might become defensive or aggressive. Saying instead, I went to use the shower today and brought my towel with me, but there was no room to place it because there was another towel there, do you know whose towel that is? gets to the same topic but skirts around their fragile ego. You are asking for their help about your problem, not accusing them of causing a problem. These are two sides of the same coin, but human psychology does not make logical sense.
+
+## Judgment
+People can be more accepting about talking about stuff in their ego if you speak objectively, but get more hurt or defensive if you make value judgments about stuff in their ego. e.g. I think this part of the book sucks, it's way too long, is hurtfully judgmental, while saying this part of the book could be made shorter and still do its job, means something similar and sounds more neutral, it proposes an objective experiment I could perform, editing different versions of this part of the book to different lengths and seeing if a shorter version could work just as well.
+
+It is impossible to live life without making judgments, you have to judge where the ground is to take your next step without falling over. It's not a question of making judgments, it's a question of accuracy, which judgments to communicate and how you communicate them.
+
+Overall, being aware of people's egos and how you express your judgments is important to securing benefits.
+
+Inaccuracies about ego hurt the ego. A common offender is the use of absolutes. It is usually better to avoid or qualify absolute statements, unless you have evidence to support them. Don't say, You always x. A qualified absolute is more accurate and less hurtful, such as, As far as I have seen, you always x.
+
+## List of absolutes
+Always
+Never
+Forever
+Ever
+Constantly
+Invariably
+Eternally
+Every
+All
+None
+Not any
+Each
+No
+Everybody
+Everyone
+Nobody
+No one
+Everything
+Nothing
+Everywhere
+Universally
+Nowhere
+Definitely
+Certainly
+Absolutely
+Undoubtedly
+Surely
+Inevitably
+Must
+Have to
+Need to
+Shall
+Will
+Just
+Completely
+Totally
+Utterly
+Entirely
+Wholly
+Fully
+Only
+Solely
+Unconditionally
+Irrevocably
+Permanently
+
+## How to Give Feedback
+
+Here we start with an example of a communication problem where someone gives bad quality feedback.
+
+| Person | Statement                       | Intended meaning                   | Interpretation                     |
+|--------|---------------------------------|-------------------------------|------------------------------------|
+| 1      | Do you like my new hairstyle?   | Please tell me I look good    | Do I like your new hairstyle?      |
+| 2      | No                              | I prefer your previous hairstyle to your new hairstyle | I want to be mean to you           |
+| 1      | You are always mean             | You hurt my feelings          | Confusion                          |
+
+This is an example of a rudimentary communication problem. Both parties could do several things better in this exchange. I want to emphasize the problems with the statement You are always mean. This is an attempt to give someone feedback. Firstly, this feedback is unsolicited. If you have an ongoing relationship with someone, unsolicited feedback can be useful, but the less committed the relationship, the less likely unsolicited feedback is to help anyone. Instead of telling everyone else what is wrong with them, focus on yourself and vote with your feet, support, wallet, or attention. Also, the problem in this interaction is partially caused by an assumption of ill intent.
+
+Useful feedback has four components.
+
+- Generality from universal to specific. You always x is global and eternal, across all spacetime, unchangable everywhere through past and present to the future. You x to me is specific. Feedback is more useful with more relevant information, bring receipts.
+- Identity from subjective to objective. You are x is personal, as if I can assign your identity to you. Interference with personal choices is rarely welcome or useful. I think you did x is objective, it addresses an objective question, whether you did x or not, and suggests that I have a reason to believe that you did x. Objective claims can have evidence, while subjective claims can't. It also correctly takes responsibility as a speaker, using an I-statement instead of a you-statement. I-statements aren't always good and you-statements aren't always bad, but starting feedback with I-statements, and possibly staying with them, can help.
+- Constructive suggestion. Insulting someone is not useful feedback. Identifying a problem qualifies as feedback, but isn't very useful in personal relationships if the other person is causing problems for you but not for themselves. I think you did x. So what? It is the responsibility of the person providing feedback to make a constructive suggestion of what they think would have been better. Doing x has these consequences, which cause these problems for me. I think doing y would be better, it doesn't take more effort and avoids those problems. Keep in mind that people tend to do what they want to do. Any request you make to change their behavior will typically violate their current preferences. For your suggestion to be constructive, you need to account for their preferences, not yours.
+- Followup. I think it would be better if you did y. What do you think? Throwing your feedback over their fence and walking away as if your job is done is rarely effective. Problems usually only become problems because people don't already agree. Any feedback that you find necessary to give will either identify a problem that the recipient was not previously aware of, they were aware of it but disagree that it's a problem, they are aware but haven't tried to solve it yet, or they are aware but they are unable to solve it.
+
+| Recipient state              | Notification only                     | Followup                                                        |
+|------------------------------|---------------------------------------|-----------------------------------------------------------------|
+| Unaware of problem           | May solve if they agree it's a problem and can act immediately | Allows questions to clarify the problem, increasing likelihood of action |
+| Aware, disagrees it's a problem | Disagreement persists                 | Allows discussion of why it's a problem, potentially changing their view |
+| Aware, disagrees on urgency  | Low priority persists                 | Allows discussion of urgency, possibly reprioritizing           |
+| Aware, unable to solve       | Inability persists                    | Allows you to offer help to solve the problem                   |
+
+Bad feedback = global eternal identity, subjective, destructive, uncommitted
+
+Good feedback = specific limited behavior, objective, constructive, committed
+
+# Wrong
+You, and others, are often wrong. If you can detect who is wrong, whether it is yourself or others, you can gain significant advantages, while if you can't, you could lose out.
+
+Physical reality is not personally or socially convenient for you. There are few ways to be right, and many, many ways to be wrong. In order to be consistently right, you would need the full information, the capacity to think everything through, and the ability to do everything correctly. You can't do any of that, you lack the information, the thinking power and the ability to execute. It is fine to claim benefits when you are right and they are wrong, but almost always all parties are wrong. The question is what ways are we wrong, how much, how can we be less wrong? How do you find out and deal with what you or others are wrong about?
+
+## Chesterton's Fence
+If you are traveling down a road, and find that the road is unexpectedly blocked by a fence, what should you do? Should you break the fence? Bypass it? Turn around and find another path to your destination?
+
+If you don't know why the fence is there, do not remove it. If you later learn why the fence is there, then you can decide whether to keep or remove it, this was Chesterton's advice. A fence does not totally prevent you from going somewhere, it is not a physical law, a fence is only a deterrent. The fence is telling you that there is a reason you might not want to go there. If you go there anyway, you might pay an unacceptable price. The fence is often for everyone's benefit. But a fence could be placed anywhere, what if a crazy person is just blocking the road with a fence for no reason? Crazy people can't effectively pursue long term goals, that is an essential characteristic of insanity. Fences require money and maintenance, which most crazy people can't manage. Not every fence is there for a good reason, but most are.
+
+When you disagree with someone and you suspect that they are crazy or stupid, you have found a fence in social reality. It might be that the other person is wrong or confused, and you should continue to hold your current beliefs. But it might be that your current beliefs are wrong, and the person that you think is crazy, is right, and they think you are crazy. Until you know why they think what they think, don't dismiss someone as crazy or stupid. After you understand what they think and why, when their position makes perfect sense to you from their perspective, then you can conclude if they are crazy or stupid.
+
+## Crazy
+When someone conflicts with our interests, one form of social attack is to insult them. An insult is a social attack to harm someone's reputation. Confusingly, insults have some effects even when there are just two people talking. The opposite of insults are compliments, compliments are relationship building, giving appreciation, credit, increasing status to pay more benefits to the recipient. An insult is an attempt to lower status, take benefits. An insult is a claim that the target loses or destroys benefits for the group and should be shunned or killed to benefit the group. Don't listen to them, they are crazy. An insult is a form of mental do-not-enter sign. A do not enter sign indicates that you should not enter the marked area, similar to a fence. If I tell you that someone is crazy, I am marking them as not worth talking to. Perhaps they are incapable, or perhaps they are an enemy. Even if an enemy says something true, it is just a trick to advance their evil goals.
+
+Here are some examples of insults, from weaker to stronger.
+silly, stupid, wacky, one of them, delusional, ideological, crazy, bad, corrupt, terrible, disgusting, vile, evil
+
+## Human Coherence
+Reality is coherent, so people have a kind of coherence. People who are overall functional, have their life together, of course they are not right about everything, but they aren't dead wrong about anything. Your life is very easy to mess up, and so are other people's lives. If they were silly crazy wrong about something important, they would probably be silly crazy wrong about a lot of things, and their life would fall apart. If someone is screaming about the end of the world in an babbling stream of consciousness while rolling on the ground, smelling of their own urine, their life is coherent. Their words, actions, place in the world all match, they are probably crazy. Even if a broken clock sometimes displays the correct time, it is not a reliable time keeper and you should not consult it. There are bad clocks. If someone has achieved and maintained a useful position in society, if their life is somewhat orderly, if their speech is comprehensible, they may be wrong about some things, they may think or say some crazy things, but they aren't fundamentally crazy.
+
+## Luxury Beliefs
+When a person is protected from the consequences of their actions, they lose the valuable part of the reality feedback loop, and develop wrong beliefs. These wrong beliefs are a luxury they can afford because they are protected from the consequences of their beliefs and actions, being wrong does not harm them.
+
+## Opinions
+Everyone has opinions, and most opinions are wrong. Almost everyone is terrible at almost every important job in society. People who are good at important jobs are rare. But everyone has opinions about how the important jobs should be done, and their opinions are generally wrong. Most of the people who are given important jobs are also wrong, but sometimes, someone who is good at the job gets the job, and shows us how capable people can be. When someone capable is taking care of things for all of us, we can all stand on the side and complain about them, but our opinions do not matter. The fact that our opinions do not matter is harmful to us, because it allows wrong, meaning ineffective, opinions to persist and spread. When everyone else agrees that the person who is good at their job is doing it wrong, that person looks crazy to everyone who shares wrong opinions about it. And everyone who would be bad at that job and hold bad opinions looks crazy to the person who knows what they are doing. The usual pattern is that the majority has common sense, and the outlier is crazy. In these cases, where someone has demonstrated competence and unqualified people have no feedback, the outlier is usually sensible and the majority is crazy.
+
+Another way to see that the majority is crazy is to look at social beliefs of the past. When times change, opinions change completely because social beliefs are ungrounded. People in later societies, such as you, can look at how backward, savage, confused and crazy the beliefs of past societies were, while thinking that you and your society are sensible and superior, when in many ways you are no better.
+
+The market can remain irrational longer than you can remain solvent. Just because someone is wrong, doesn't mean that they will fail immediately, soon, or ever in their entire lives. The world is not efficient and just, injustice can persist and thrive. You can flip a coin and get ten heads in a row. You shouldnt bet on getting that result if you flip a coin yourself, but if hundreds of people flip coins, someone among them probably will get ten heads in a row. But wrong is wrong in the end, wrong beliefs and strategies will lose to better beliefs and strategies overall, due to grounding, but not always in a way that is convenient to you.
+
+## Appearing Crazy
+There are stupid and crazy people out there, plenty of them, so concluding that someone is crazy is sometimes correct. But there are a lot of alternative situations where someone is not crazy, but appears crazy to you. People who want different things than you can also appear crazy to you. People who are more capable than you can appear crazy to you, by doing something that you don't understand the significance of. Later, that capable person may succeed in a way you couldn't expect. There are also randomized strategies, where the strategist counters attempts to predict their actions. Some of their actions appear to be chaotic, they appear somewhat crazy.
+
+Then there is the tactic of acting crazy, a scheme where the strategist presents themselves as crazy to others, in order to cause their opponents to neglect them or fear their irrational choices, a powerful deterrence. The strategist pretending to be crazy makes sure to sometimes act in a counterproductive way, but always acts sensibly when needed to preserve and advance their core interests. Acting crazy is deceptive, it intentionally presents itself in a way that is hard to distinguish from actual stupid or crazy people, but it is incoherent. Often the supposedly crazy person is consistently successful in their life, and hasn't ruined their core interests.
+
+When people want the same things and are both thinking well enough, they can still disagree by using different reference classes. The answer to a question may be one way for one reference class, and the opposite for another reference class. Each reasoner is correct when thinking about each case, but because they are considering different cases, they think the other is wrong, and talk past each other.
+
+## Finding Who is Wrong
+There are three categories of being wrong. People who are incapable of getting it right, people who are capable but unwilling, and people pretending to be wrong. These are easier to observe in other people, but you should spend more effort to observe these problems in yourself. Usually everyone is wrong, but in different ways and amounts.
+
+| Crazy |  |
+|-----------------------------|------------------------------------------------------------|
+| Type                        | Incapable                                                  |
+| Description                 | Unable to think clearly, broken world model                |
+| Distinguishing characteristics | Ruining their life, not useful, unable to take care of themselves, nonsensical speech, disproven assumptions |
+| Working with                | Bothering fewer people, rejecting certainty and obsession, validating assumptions, focusing on life basics |
+| Working against             | Avoid, trigger their crazy beliefs                         |
+
+
+| Stupid |  |
+|-----------------------------|------------------------------------------------------------|
+| Type                        | Incapable                                                  |
+| Description                 | Unable to think independently, reductive world model       |
+| Distinguishing characteristics | Unreasonable in that they don't reason. Conventional, credulous, follows the crowd, avoids immediate danger, can take care of themselves and do simple tasks. |
+| Working with                | Convince, isolate from contrary influences, only give simple tasks |
+| Working against             | Convince, outmaneuver                                      |
+
+| Useless | |
+|--|--|
+| Type | Incapable |
+| Description | Unable to achieve results despite reasonable intentions |
+| Distinguishing characteristics | Disorganized, unskilled, uncommitted, mixed up, impatient, stubborn, uncollaborative |
+| Working with | Use them for monitoring, not doing. Have them help instead of work alone. |
+| Working against | Outperform |
+
+| Irrelevant | |
+|--|--|
+| Type | Unwilling |
+| Description | Makes things up, chases status, protected by others, willfully ignorant |
+| Distinguishing characteristics | Able to think clearly, but does not usually need to, and does not. Chases status, not useful, life is fine when they are protected, incapable of self-sufficiency. Trapped in a specific narrative, captured by an ideology. |
+| Working with | Talk to them about topics outside of their existing wrong beliefs where they can be reasonable. Enforce exacting and immediate consequences to get them to act right. |
+| Working against | Ignore, or call to reality by exposing them to consequences |
+
+| Shill | |
+|--|--|
+| Type | Unwilling |
+| Description | A potentially reasonable person that has incentives to be wrong about specific topics |
+| Distinguishing characteristics | Holds reasonable views on general topics, but holds exactly establishment, party approved wrong views about topics related to their income, bribe or ingroup |
+| Working with | Avoid corrupted topics, treat the current topic as an exception to the party view |
+| Working against | Follow the money, counter deception |
+
+| Superior | |
+|--|--|
+| Type | Pretending |
+| Description | Someone who is able and willing to defeat you but deceiving you, or doesn't need to explain themselves to you |
+| Distinguishing characteristics | Ignores you, doesn't get provoked, challenges things you think are obvious, has their life together but does things that confuse you. Might feign weakness before attacking and winning. |
+| Working against | Change the game, use larger social forces, take a chance and compete, concede |
+
+| Acting crazy, Randomized | |
+|--|--|
+| Type | Pretending |
+| Description | A rational actor deceiving others to appear irrational as a tactic to gain bargaining power |
+| Distinguishing characteristics | Significant track record of success combined with crazy statements, choices, appearances. Someone put in charge of something valuable or significant but appearing irresponsible, while having a significant deterring effect. |
+| Working against | Confirm that you know what their core interests are, assume they are rational |
+
+| Different, Outgroup | |
+|--|--|
+| Type | Potentially right |
+| Description | A potentially reasonable person that has different goals, capabilities, experiences, social groups |
+| Distinguishing characteristics | Says things counter to your narrative, they like things you dislike, they correctly point out ways that you are wrong, you think their life is a mess but they like their life |
+| Working with | Expand your worldview to include different people, then coordinate where there is no conflict |
+| Working against | Understand their worldview first, then compete as usual |
+
+# Relationships
+
+## Groups
+The important unit of humanity is not the individual, it is the group. Yet, I am not a collectivist. Human animals are not solitary, we are social mammals. Humans are apex predators, but not because bears are not killed by human individuals, bears are killed by human groups. Human individuals are weak in the wilderness, the world's greatest apex predator is human groups.
+
+What makes us so powerful? No human is individually stronger than a bear. Nature has made us individually weak and vulnerable because it is advantageous, it forces us to work together. If humans were less individually vulnerable, we would be more solitary and stop creating groups. We are an apex predator because we plan and coordinate, we cooperate using communication.
+
+If a farmer plants only one kind of seed, this is called a monocrop. This can simplify farm management, but if anything attacks a vulnerability of that plant, such as weather, insects or molds, the farmer can lose everything they planted. If instead, the farmer plants a variety of seeds, a diversified strategy, it is harder to manage, but most farm problems won't wipe out all of the crops at once. It is similar with people, people are all different, some are big and strong but easy to hit, some are small and weaker but hard to catch. Because we have different advantages, we can combine them. Using specialization, different people can do the things they do the best for the group, unlike someone working alone, or a group of people who are too similar.
+
+How does nature make us individually weak? Lots of ways. Human children are more helpless than other animals for a long time. A lot of baby animals get up and walk around immediately after birth. Pregnancy in humans is incredibly vulnerable for the mother, and for mothers of other species, it often isn't. Human birth is often a many hours long, dangerous process, and is generally very painful. Other animals don't appear to be in significant distress when they give birth. Nature could have made birth less painful and dangerous for humans, but it didnt. For example, consider if humans used a marsupial strategy, where babies are born small and immature, then continue to grow outside of the womb. Pregnancy could be shortened, especially the third trimester where the mother can be almost immobilized. Birth would be much faster and easier. Nature can make mammals less vulnerable than humans, but it didnt. Nature made us individually weak and vulnerable, to force us to rely on each other and communicate, because the individual is not the important unit of humanity. Our power lies in group coordination, so nature found ways to make us work together by necessity.
+
+[The Descent of Man by Charles Darwin, Chapter 2 Conclusion](https://www.gutenberg.org/ebooks/2300)
+[Mothers and Others: The Evolutionary Origins of Mutual Understanding by Sarah Blaffer Hrdy](https://www.hup.harvard.edu/books/9780674060326)
+
+## Faction
+Personal relationships reduce down to a single value, How much do I like or dislike you? I call this single relationship number the faction value. You can like or dislike someone for your own reasons, but your behavior reflects a single changing personal judgment of how much that relationship is worth to you, or how much you want to help, avoid or harm them.
+
+Yet, relationships are more complex than a single number. There are other aspects that can be just as important as faction value. Every pair of people has an ideal distance between them. There are some people that you are so compatible with, the closer they are and the more often, the better. Many people aren't good for you to relate with at all. And many good people do not have an ideal distance of zero or infinity with you, they are better to relate with at certain times, places, activities. Some people are better for socializing, some are better for working with, some are better to see one-on-one, some are better with a group.
+
+Faction isn't only between two individuals, you also have your individual evaluation of groups, I like this group, I don't like that group, this group welcomes me, this group shuns me. Things that others do change your faction with them, and things you do change their faction with you. A faction value of zero is neutral, this is how you treat individuals or groups you don't know, strangers. In some cultures, neighbors greet newcomers with gifts, to establish a friendly debt between them. Repaying the debt is an insult to them, it means that you want to treat them as a stranger after they greeted you in friendship.
+
+The common usage of the word faction is about competing groups within a group. A faction that has a high faction value towards you is your faction, and usually factions are mutually exclusive, you have to pick one faction to join, pick a side. If you decline to pick a side, all factions will tend to have negative faction value towards you because you are implicitly declaring yourself as a separate faction. Once you choose a side, if you later switch sides, this often flips your faction value as a betrayer.
+
+Expression of faction value takes different forms, but some examples of the lowest faction value is hatred, disgust, and KOS, Kill On Sight. Examples of the highest faction value are I love you, I would do anything for you, and I would kill and die for you. It is not coincidental that both extreme faction values are murderous. I recommend ensuring that you always maintain perspective in your relationships, all real people and groups have both good and bad aspects. Skill in communication exactly means that you can avert murder.
+
+# Producing Benefits
+## Compulsary Service
+We all start life as babies that cannot take care of ourselves, our caretakers serve us hand, foot, mouth and butt, they handle everything. People take care of children so fully that sometimes, children fail to grow up. We start our lives as recipients, and for those of us that grow up, we become servants. You may think that there are people who don't have to serve anyone else, maybe rich people, entrepreneurs, explorers or leaders? Wrong, every productive person serves, and unproductive people are irrelevant. If you want benefits, you must serve others.
+
+Everybody fights. Everybody works. Starship Troopers by Heinlein
+
+## Centrality of Production
+We all want more benefits. The secret to mass consumption is mass production. If you want to eat more pie, someone has to make more pie. You don't have a human right to get more pie. If you can make or earn your own pie, you can have as much of your own pie as you want. People tend to be blind to production, because as children, we all get something for nothing. As a child, we get because we need, and sometimes we get what we want. This is so pleasant and convenient that we wish the world worked that way, but it doesn't. Benefits are not infinite, they don't come from nowhere, benefits come from somewhere. Benefits come from producers. Production is central to benefits, and communication follows it. Some people think that if you print and distribute more money, everyone will have more money and they won't be poor. Printing money doesn't create benefits, it devalues money. Money isn't what you want, you want the stuff you can buy with the money, and that stuff doesn't change no matter how much money you print.
+
+If printing money could end poverty, printing diplomas could end stupidity. Javier Milei
+
+Looking only at the current benefits that exist, we are faced with a zero-sum problem of how to divide them, and a negative-sum game of negotiation or conflict. Once there are legible benefits, people gather around them to take the benefits for themselves. People who take without paying are free-riders, parasites, thieves, enemies. This reveals a contradiction, a problem in human nature. On the one hand, I support basic human rights including the right to life. On the other hand, I also have rights to my own labor and property. You simultaneously have a right to life but no right to take my pie, even if you are starving. You have to work to eat. Those who can work, but choose not to, choose to starve themselves to death.
+
+I don't want to compete against other people, or defend myself from free-riders, parasites, or take anyone as my enemy. Competition is unavoidable in zero-sum games, it's either you or me, by definition. The war for benefits is a consequence of non-postive-sum social games. This is why I emphasize production, the importance of making your life positive-sum. Production is the only way to win the war.
+
+When you produce value, you don't just create benefits, your identity changes from consumer to producer, from an enemy to an ally. Becoming a producer is your ticket to join the community of positive-sum producers. Your ticket can take you farther and farther away from the natural battlefield towards civilization.
+
+## Being Helpful
+How do you become a producer? Serve others. What does serving others mean? It means creating benefits for them, being helpful. Sometimes, people accurately know what they want and lack only the time, energy, skills, materials or equipment to solve their problem. You can come and help them, simple! But most of what people want help with is not so simple.
+
+People dismiss the difficulty of helping others. It is usually hard. If you ask someone, how can I help? What can I do for you? They will ask you to do things, but often, doing what people ask for isn't really helpful. The customer is always right, but not about what they really want. People mistakenly think they know what they want, but they usually don't know. The customer is always right about the fact that they have a problem, but the customer doesn't know how to solve that problem. If they knew how to solve their problem, they would likely solve it themselves without asking for your help. The person in the situation is confused, while the onlooker can see clearly.
+
+A quotation from Steve Jobs. Some people say, Give the customers what they want. But that's not my approach. Our job is to figure out what they're going to want before they do. I think Henry Ford once said, If I'd asked customers what they wanted, they would have told me, A faster horse! People don't know what they want until you show it to them. That's why I never rely on market research. Our task is to read things that are not yet on the page. Steve Jobs by Walter Isaacson, page 567
+
+## Legibility
+When you help someone by solving a problem they couldn't solve themselves, there is a troublesome consequence. The customer will often not understand, appreciate, or agree with your solution. Remember, if the customer could solve their own problem, they usually wouldn't need your help. So, often the problem they have is one they cannot solve themselves. It makes sense that they cannot understand your solution. Also, if the problem is a consequence of a personal issue the customer is avoiding about themselves, they may dislike your solution and be unhappy about your assistance! Try cleaning up someone's room for them and see if they like it.
+
+Helping someone else has multiple challenges. Finding a problem you can help them with, solving the problem, and helping them to see the value of your solution. Seeing the value of a product or service means that that product or service is legible, they can make sense of the value of it, while a product or service that they do not understand, they do not see any value in, is illegible. If a customer can solve their own problem, purchasing a solution from you is almost always legible to them, at least as valuable as their own solution.
+
+In the common case that the customer cannot solve their own problem, your solution is often illegible to them, so they cannot value it and don't want to pay you for it, because they don't perceive the value. This is why part of the service you need to provide to your customers is to make your work legible to them. Assuming you do valuable work, bad customers cannot appreciate it and your work remains illegible. Do not cast pearls before swine, do not associate with bad customers. Illegible work is worse than doing nothing, because you waste your efforts on someone who can't appreciate them. Sometimes you will even antagonize them. Good customers will find your work legible if you do your part to make your work legible to them. Communicating the benefits of your work to your customers is part of your work.
+
+### Self-Improvement
+You don't start life as a capable person. And even capable people don't always win benefits. Making the value of your service legible to your customers and gaining benefits is the end of a process that requires legibility to yourself. You need to see how your efforts improve in order to develop them, what we call intentional practice. Before other people can appreciate the value of your service, you have to develop a valuable capability in the first place, and that begs the question, how do you know what to change before you produce value? The answer is that you need to find the right metrics that can describe your capability in the range between zero value and the point where your service is valuable to others. People learn and develop by making lots of mistakes and correcting them. The metrics identify your mistakes and then, when you practice again, the changes in the metrics can tell you if you corrected your mistakes or not. You have to make your capability legible to yourself before you can make your value legible to others.
+
+## Roles
+Society and culture define roles that you fill on different occasions. These roles have different hats, literally or figuratively, and you wear different hats during your life. Everyone lives as a baby first, and now you can read, so your role has changed. Roles come with language games, and roles have scripts, with different complexity and flexibility. Within a given role, people expect you to say and do certain things that mean certain things. You have to say certain things at certain times in a certain way, similar to an actor following a script, but often there is more flexibility to it. When there is decision, variation, interaction, you might follow a protocol, a predefined decision tree that says what to do in different situations.
+
+A basic small talk protocol
+
+Hello.
+
+Hello.
+
+How are you?
+
+I am fine, and you?
+
+Doing fine, thank you.
+
+
+When you or someone else fills a role, that person partially transcends their individual status and becomes a function of society. People are supposed to treat certain roles in certain ways, give them their due respect, apart from the respect they have for the individual person filling the role. Roles also constrain who talks with or works with who.
+
+Societies are functional when they have functional roles and scripts. When circumstances change and the roles or scripts don't adapt, or the scripts fail to transmit from one generation to the next, groups or society can falter.
+
+## Separate Economies
+People talk about the economy, but life has multiple economies. These economies do not mix. In the commercial economy, you buy and sell using money, while in friendship groups, you contribute using gifts and voluntary services. If you try to buy a new phone using a cake that you baked yourself, the store won't accept your cake as payment, but your cake may be valued at a friend's party that you want to attend. And you can't pay people cash to be your true friend, but you could buy them a gift using that same money. There are distinct economies for family, relationship, community, commerce and organization.
+
+| Economy | Description | Dynamic | Who is right | What you do | Form of payment |
+|---|---|---|---|---|---|
+| Family | Blood related people that live together, gather regularly | Collective | Current generation parents | Help meet family needs | Sacrifice |
+| Relationship | A friendship or a lover | Emotional | The other person | Act in the other person's best interest | Expression of care |
+| Community | A gift economy, group of friends or other community | Voluntary and reciprocal | The group | Contribute to the group equally | Gifts, generosity, non-monetary |
+| Commerce | Buying and selling professional goods and services | Transactional | The customer | Shop and order, or sell and serve | Money |
+| Organization | Workplaces and productive groups | Hierarchical | The boss | Be professional, do your job | Productivity |
+
+Expression of care in a relationship is unique to every relationship. The particular forms these expressions take can be categorized into the five love languages, kind words, time together, acts of service, physical affection, gifts.
+
+[The Five Love Languages by Gary Chapman](https://www.moodypublishers.com/the-5-love-languages)
+
+It is essential to pay attention to which economy you are participating in, and don't mix them up. Here is an anecdotal example of wrongly mixing economies.
+
+A friend of mine was departing to travel with a large suitcase. Another friend of mine offered to give the traveller a car ride to the train station. When they arrived at the train station, she helped the traveller unload the suitcase from the car. The traveller then gave her a dollar. She was insulted by this gesture.
+
+The traveller likely followed a cultural script, that when someone who is not a family member helps you unload your luggage while travelling, you give them a dollar. What the traveller did not consider was, that script is for the commercial economy, where you give professional service workers tips to incentivize good service. You do not give family members tips for family services, and similarly you should not give friends monetary tips for voluntary acts of service. The correct form of payment are things like sincere words of thanks, travel gifts, and reciprocal acts of service to their benefit in the future.
+
+Giving them a monetary tip means that you don't consider them a friend, you consider them a service worker. Their generous act of service to you is treated as work for hire, which they never signed up for. A one dollar tip is both grossly underpaying them and rejecting their goodwill, it is insulting.
+
+Likewise, organization economy does not mix with family economy. I have worked at companies that claim that they are like a family. A company is not like a family, they are totally different economies. The goal of a company is to extract the maximum value from your labor, and to fire you when necessary. Families are not arranged around maximum value extraction, nor layoffs. If your company is a family, can they guarantee they will never fire anyone? Can employees live at their boss' house and get babysitting for free? Do you work for the company without a paycheck? If not, then your company is not like a family.
+
+## Loss Aversion
+People don't respond rationally to rewards. If you pay someone more, you might not get more. Too much reward or constant rewards do not motivate the greatest effort, rare and hard to predict rewards do. People respond much worse to punishment. Taking away what they have or they think they deserve drives them crazy.
+
+The way to motivate others is to offer them an attractive reward and be very specific about what they need to to do receive it. Ask them to do things that they are capable of doing. You have to know what they value and ensure that they don't think they already have or deserve it. Enforce that if they fulfill your requirements, they will deserve and receive the reward, and if they do not meet your requirements, they will not deserve or receive it. This is so difficult that it is often better to find people who are self-motivated to do what you wanted to do anyway, natural allies, or to find people who already do that job and buy what you want from them, professionals.
+
+There are many ways to gain and live, but you can only die once. People hate losing more than they love gaining. Incentives drive human behavior. In communication, emphasizing what people stand to lose will motivate them more than what they stand to gain. They can easily imagine the pain of losing something they already have and like, or the pain of not gaining something they know and want, but they have trouble imagining the benefit of something new to them.
+
+It is better to ask forgiveness than permission. Why? People don't like change, and people don't appreciate things they haven't experienced. Potential unfamiliar benefits are unimaginable to them, while keeping current benefits feels essential. Don't change anything! If you want to help someone, you have to change something, and they don't want change. This is why it is better to ask forgiveness than permission. The same change that they would protest in advance, once they have experienced the benefits, they will protest its removal.
+
+# Power
+## Bargaining Power
+Bargaining power answers the question of who gets what in a negotiation. It determines how much of the benefits someone can get.
+
+The market price of a common item is the intersection of the supply and demand curves, but this is in aggregate. The market price does not force anyone to trade, to buy or to sell. Trades do not happen at the market price, otherwise prices could never change. The market price is one input to a negotiation, and another input is the relative bargaining power of the buyer and the seller. Bargaining power has two components, circumstantial and personal. If I am a farmer attending a farmers market to sell produce, and I am standing there with a basket full of expiring produce near the end of the market, circumstances reduce my bargaining power. If my farm has a reputation for high quality produce, that personally increases my bargaining power. If other local farms have been affected by a drought but not mine, that increases my circumstantial bargaining power. If I am bad at negotiation, that reduces my personal bargaining power.
+
+The largest source of bargaining power is differentiation, being the only available buyer or seller, offering unique and beneficial terms for the deal, having a more reliable reputation. Bargaining power matches your ability to harm or help the other party, which determines the distribution of benefits when you trade.
+
+There is an interesting philosophical scenario about bargaining power. Imagine you are walking in a desert and have run out of water. If you don't get help, you will surely die of thirst before reaching civilization. A traveller happens to find you and offers to give you water and transport you back to town, an offer you would like to accept. But what is the correct price to pay them? Travelers aren't required to give their water and transportation to every person they see. The traveller could choose to pass you by, save your life for free, or they could also choose to charge you any price. What is your own life worth to you? Probably, you would be willing to pay everything you have. When you stand there, in the desert, dying of thirst, the traveller has maximum bargaining power over you, through no plan or malice.
+
+There may be a market price for water or transport, but no one is forced to transact at the market price, and additionally, there is no market price for your own life. If the traveller charges a high price, people will moan about price gouging. There is no such thing as price gouging, there is only bargaining power.
+
+Imagine you agree to pay the traveller everything you have to save your life, they accept your offer, they give you water and bring you back to town. Now that you have returned to town, the traveller has no bargaining power over you. Unless you signed a contract that they can enforce, it's just your word against theirs if they appeal to others to force you to pay them everything you have. You could be a person of your word and give them everything you have, but there is no one forcing you to do that. The question of what the legal or moral thing to do in this situation is not the current topic. What is interesting, is that we create a simple situation with maximum bargaining power that flips to no bargaining power, and this helps illustrate how bargaining power works.
+
+Overall, bargaining power refers to the power that someone has to affect a transaction, who gets the benefits. Bargaining power at either extreme can extend until it reaches all the benefits, robbery or donation. Powerful buyers receive products and services for free, powerful sellers can increase prices above market rate and receive donations. Equal bargaining power, all else equal, implies that deals will transact around the market price and give roughly equal benefit to the buyer and the seller.
+
+## Profit
+Profit is the benefit to the seller for selling, profit comes from bargaining power, and bargaining power is partially based on buyers' alternatives. If the buyer must have your product and there are no alternatives or substitutes, you can charge everything they can afford, maximum bargaining power and profit. If there are a lot of alternatives to your offering, you are in a competitive market and if you charge more than your competitors, then customers will choose your competitors over you, no bargaining power, prices race to the bottom, meaning selling at zero, or almost zero, profit.
+
+One pole, meaning only one seller or buyer or whatever, is called monopoly, has no alternatives, max bargaining power. Two poles, duopoly, allows easy cooperation between the two poles to gain a lot of profit, even without secret negotiations between the sellers, which is called collusion. Once there are more than two poles, it is often hard for sellers to agree and competition overpowers collusion, but when there is collusion to increase profits for more than two poles that is oligopoly. Whenever there are more than two poles it is called multipolarity. Healthy commodity markets are typically multipolar and low profit. Your goal as a seller of your services is differentiation. In spite of the fact that you are a human, very similar to all other humans, to earn a profit you need to find your niches. What can you do, that other people want, that other sellers can't or won't do? What is your competitive advantage? Straight competition is for suckers.
+
+Competitive markets force sellers to respond to customer preferences, aka good customer service. Monopoly has no incentive to respond to customer preferences, bad customer service. The government gives bad customer service because government is a monopoly. Try to satisfy your customers, offer good service, and never intentionally antagonize your customers. Serve your customers, this creates customer goodwill. Never expect customer loyalty, but nonetheless it exists, this is brand value. But there are always unreasonable people, you can't satisfy everyone. Offer a beneficial product at a reasonable price, define your own standards, be kind but consistent. Claim your fair share of the benefits you produce. Don't let customers walk all over you, and don't walk all over customers. Voluntary trade only happens with mutual benefit.
+
+Differentiate the value of your services to earn profit. How do I do that? Every case is different, but we already agree that you are reading this book. Ok, how does this book differentiate itself? It adopts a direct tone to be more concise, understandable, relatable. It addresses topics that are human universals, it applies to everyone, maximizing the addressable market. It uses common ideas that are well established, but offers a unique combination of proven ideas to offer a substantial benefit for readers. Other books are too light, they don't face the roots of your problems. Or they are too academic, they seem to be intentionally hard to understand or apply. Or they are too narrow, they only address a specific and more manageable part of the problem and limit themselves to one, or a few big ideas. This book is unique by aiming to be both comprehensive and practical, that is my answer to the question of why you should read this book rather than do something else. For many people, I think this string of letters at some point is a good option to make their lives better. I am offering differentiated value, and I hope to personally share in some of the benefits I create for you.
+
+[Monopoly](https://en.wikipedia.org/wiki/Monopoly)
+[Zero to One](https://en.wikipedia.org/wiki/Zero_to_One)
+
+## Status in a Group
+Status is the bargaining power of one member relative to other members of the group, hence high status or low status. Status is intangible, ever-changing and hard to measure, but it appears in physical reality by how other people pay attention, respond to you and treat you. There are five specific sources of status.
+
+- Martial status, produced by capability for physical conflict. Communication is the alternative to physical conflict, but communication requires that physical conflict is costly for the attacker. You don't negotiate with ants. Martial status derives from the bargaining power generated by making physical attacks costly, or threatening physical attacks against weak others.
+- Cultural status, produced by cultural achievement. Cultural superiority affects bargaining power by raising group status and attracting members.
+- Academic status, produced by intellectual achievement, which promotes economic achievement. Raises group status.
+- Economic status, produced by productive capability. Production of benefits increases group benefits.
+- Reputational status, produced by increasing group unity or individual sacrifice for group status. Achievements in increasing group status.
+
+Martial status reflects the bargaining power of threatening the group physically, or abandoning the group and making it vulnerable to others' physical attacks. Groups have to pay the market price for martial protection, or the fighters will take their payment by force, or stop protecting the group. Cultural status surprisingly works the same. Culture isn't worthless, it isn't a meaningless ritual or a quirky lifestyle, it is functional and valuable. Contribution to culture increases group enthusiasm, attracts new members, inspires practical improvements, increases status across groups as a signal of fitness. People who create or spread culture create group benefits that must be paid at the market price or again, they can turn around and culturally attack the group that mistreats them or bring their contributions to groups that appreciate them more. Academic status derives from rare productive knowledge, economic status derives from individual productive capability, and reputational status derives from benefits to the group itself.
+
+All forms of status can be translated into bargaining power in transactions. Martial status can be used for physical threat or threat of loss of protection. Cultural status translates to popularity or popular influence, which can change public sentiment or create a boycott against a seller. Academic status can be used to attract or repel other elites. Economic status can afford to pay more, but amazingly economic status can be used to pay less, because successful people can be tastemakers and receive free stuff in hopes of endorsement. This relates to the counterintuitive yet true expression, It's expensive to be poor, which implies that it is cheap to be rich. Reputational status can be used to threaten the seller through organizational harassment or affecting public sentiment. Any form of status can be used as a cudgel in a negotiation. This is the source of the famous phrase, Do you know who I am?
+
+The people that materially contribute to the group must be fairly compensated for their contributions or else, and the conventional way to track their contributions is a social belief about how much they contributed, their social status. Investing in the group purchases shares in the group's success. When the group distributes benefits, high status gets more benefits than low status, and everyone agrees that's how groups should work, if not about who deserves high and low status.
+
+Status also relates to accountability. Equality before the law is a reasonable principle, anyone who commits the same crime should receive the same punishment. Granting more lenience to people who contribute more to your group is also a reasonable principle. Offering credit to a first-time customer is bad business, but offering credit to your best customer is good business. People who make great achievements are often associated with great misconduct. A society has to choose between destroying the reputations of some of its greatest contributors, discouraging everyone to contribute, or undermining the rule of law. In my opinion, public acceptance of a person who commits a crime is relative. If someone makes a great achievement that echoes through the ages, they can get away with some murder. If someone makes a minor achievement and they do the same thing, they will have to pay a price. If an unremarkable person commits the crime, they will receive the full punishment.
+
+The people with the highest status are called elites. The highest status elites are leaders. Leaders come from high status, so all forms of status can create leaders. History has produced military leaders, cultural icons, knowledge leaders, business leaders, former activists, career politicians, nepo babies. Leaders establish themselves using high status, but then have to maintain high status to defend their position.
+
+## Conflict
+Conflict is when two or more parties claim the same benefit. Conflict can be win lose, and the attacker is attracted to the possibility of winning the status or benefits. Conflict is usually negative sum, which means that if both parties to a conflict knew the costs of the conflict and the outcome in advance, they could negotiate to skip the conflict for mutual benefit. The loser can pay the winner to avoid both sides wasting resources and both sides would be better off. If everyone is capable and reasonable, almost all conflict can be avoided. The world we live in is not composed of only capable and reasonable people, so conflict is common.
+
+War is the continuation of politics by other means. Clausewitz, On War
+
+Conflict is especially encouraged under conditions of high uncertainty or failures of communication. Both uncertainty and bad communication can cause one or both parties to make wrong predictions about who will win the conflict.
+
+This is the conflict table. Each entry describes a scenario for one party, an attacker or a defender, what they predict would happen, what would actually happen if they fought, what action they would decide to take based on their prediction, and what result they would get.
+
+| Party | Prediction | What would happen | Action | Result |
+|--|--|--|--|--|
+| Attacker | Win | Win | Demand | Paid or win |
+| Defender | Lose | Lose | Concede | Pay |
+| Attacker | Win | Lose | Demand | Paid or lose |
+| Defender | Lose | Win | Concede | Pay |
+| Attacker | Lose | Win | Hold | None |
+| Defender | Win | Lose | Fight | Lose |
+| Attacker | Lose | Lose | Hold | None |
+| Defender | Win | Win | Fight | Win |
+
+This explains why conflict happens under uncertainty or misprediction. If the potential attacker and defender agree that a conflict will be lose lose, they won't do it. If they agree that one side will win and the other will lose, they can skip the fight and pay the winner. The situation where they both win is uncommon.
+
+Causes of, and Preventions to Fighting
+
+| Cause | Prevention |
+|--|--|
+| Predict the wrong result | Deterrence, convince them they would lose or it would cost too much |
+| The loser is unable to pay the winner, a cornered animal | Create a path of retreat for the loser |
+| Prefer fighting over negotiation, warmonger | Avoid, delay, increase cost of attack, forfeit. They may shift attention to other targets, or you may reclaim later. |
+| They gain something else by fighting | Spoil or offer the outside gain |
+
+When another agent opposes you, if they see through your consistent habits or strategies, they can counter you totally. One form of protection against the predictions of opponents is to use a partially randomized strategy. In other words, don't be so predictable.
+
+The best strategy is always to be very strong, first in general, and then at the decisive point. Clausewitz, On War
+
+## Victims
+After a conflict has started, the common question people ask is, who started the fight? The attacker is presumed to be wrong, while the defender is presumed to be right. This presumption of guilt may be convenient, but it is not reliable. The presumption of guilt against the attacker creates a social incentive to take advantage of. If you want to attack someone, instead of attacking and earning the presumption of guilt, you can instead provoke them to attack you, so you appear to be the virtuous defender. After so much human conflict, people are wary of both attackers and defenders, applying more of the idea that where there is smoke, there is fire. Perhaps both parties are unreasonable if they are fighting. In fact, sometimes one party is fully at fault, sometimes both, sometimes one more than the other, that is why you should judge every event case by case, instead of assuming or guessing.
+
+There is a different model of conflict apart from attacker-defender. That is the model of abuser harming a victim. Society wants to protect the precious, angelic victim, so the model is completed with the third party, the rescuer, that rescues the victim from the abuser. If the rescuer is considered high status for protecting the weak and fighting for justice, that would counter the abuser-victim narrative, so the rescuer is relegated to lower status than the victim. This allows the victim to be a heroic survivor, triumphing over the trauma caused by the villainous abuser, and the rescuer is merely fulfilling their minimum obligation to rescue the victim. This allows the narrative to elevate the status of the victim.
+
+[Drama Triangle](https://en.wikipedia.org/wiki/Karpman_drama_triangle)
+
+A well-adjusted society protects its weaker members, giving status to the strong protectors. Using the abuser-victim-rescuer model, strong protectors are robbed of high status by being cast as abusers, such as by calling them a bully that uses their strength to harm the weak, and weaklings can cry about it and gain status as victims. Weaklings can attack others using the crybully strategy. First they provoke or lie about their target, claiming their target abused them, and cry about it, claiming the position of the victim. Then the rescuer punishes the false bully. This strategy misuses the rescuer as the bully by proxy. The claimed victim is actually the crybully attacker, gaining status as a victim and winning against their opponent in a conflict. The way to counter crybullies is to investigate accusations and hold false accusations accountable as much as the crimes they falsely accuse others of. There must be no double standard for weak people, the principle of equality before the law is best to prevent perverse strategies such as crybully.
+
+# Status Games
+## Signaling
+Signaling is an unsolicited, implicit status grab using a proxy. If you are rich and you show off your expensive looking watch by checking the time in an exaggerated manner every five minutes, you are using a proxy, an expensive watch, as a proxy for wealth, to grab status as a wealthy person, unsolicited by anyone else. No one asked you how wealthy you are. And you are expressing it implicitly, you are showing a watch, not saying I'm rich, bitches! If someone asks you about your net worth and you answer them, that is not signaling.
+
+The reason that implicit is important is that it provides plausible deniability. If someone asks, Why are you waving your expensive watch in my face? you could say, what do you mean, I just wanted to check the time, don't be so insecure. They aren't being insecure, you are, by waving your watch around to grab economic status.
+
+In nature, male animals often signal their mating quality to females using signals and displays, famously with the male peacock and his shimmering feather displays. The peacock is not explicitly chasing peahens down to mate, the display is an implicit status grab. It suggests but does not outright say, I would be a wonderful peacock to mate with, look how wonderful I look.
+
+Signaling often includes bragging. Bragging is showing off the benefits you have, to rub others' faces into what you have that they don't. Human signaling can be about mating, but is most often about status. I am rich, I am respected, I am important, I am knowledgeable, I am well-known, I am popular with elites, I know people with authority, I am affiliated with exclusive groups. Sometimes they say it explicitly, but they always say it implicitly. After making sure everyone has seen their expensive watch, they may complain about how old and shabby it is, and promise to buy the latest, shiniest watch as soon as it becomes available, a form of humble bragging, bragging with plausible deniability.
+
+Signalers tend to be demanding and impatient. They think they are better than others and deserve more benefits. If they signal and other people don't respond the way that they expect and demand, they will usually repeat the signal compulsively, as if you didnt see it the first time, or as if repeating will make you start caring about it? When they lose patience, they will often escalate into dominance displays or violence.
+
+Signaling Status Behaviors
+
+| Behavior | Description or example |
+|--|--|
+| Name dropping | When I was at Harvard, I enjoyed talking about myself then, too |
+| Conspicuous consumption | Oh, this old thing? It's only a platinum multithousand dollar watch, it doesn't even tell accurate time, ha ha ha |
+| Bragging | I've written three New York Times best selling books and appeared on CNN, surely you've heard of my work? |
+| Humble Bragging | Now that I am famous, I can't go anywhere without people recognizing me, it's so inconvenient |
+
+Signaling Dominance Behaviors
+
+| Behavior | Description or example |
+|--|--|
+| Claiming more than their share | Taking the best seat without asking |
+| Taking social resources | Hogging group attention when others need to take turns |
+| Assuming importance | Handing out contact info or invitations without confirming interest |
+| Denigrating | Oh, you went to a state university? I think it's wonderful that people like you can get some kind of education in this country. |
+| Lying and overpromising | I could do that anytime I wanted, but I don't feel like it now |
+| One-upsmanship | Oh, you have a fancy car? So do I, but my car is fancier than yours. Oh, you have two fancy cars? Did I mention that I have three fancy cars myself, I must have forgotten to mention it earlier. |
+| Breaking rules | Rules for thee but not for me, e.g. skipping lines |
+| Breaking social conventions | Interrupting, dismissing, contradicting without evidence, putting their hands on someone |
+
+## Cheap and Costly Signals
+Cheap signals are easy to copy. If rich people start liking a low-cost restaurant, everyone can copy them and visit the same low-cost restaurant. Cheap signals are unreliable and change quickly. Costly signals are not easy to copy, they require significant sacrifice. Sometimes low-status people gain cheap access to costly signals and can cheaply gain status, but costly signals are usually protected if they are able to endure. Costly signals are wasteful, but mostly exclude truly poor people. However, some people of all classes sometimes become obsessed with status signaling and find ways to make costly signals beyond their means, by cheating, saving up or overspending.
+
+Lying is sometimes a costly signal of group loyalty. Sometimes people say ridiculous things that everyone knows aren't true. Why would someone intentionally repeat a lie? Because some lies become associated with a group narrative. By repeating the lie, they show support for the group narrative, proving loyalty. But aren't obvious lies ineffective and pointless? No, the more obvious the lie, the better the signal. If someone repeats something true, they could be unaware of the group or they could be an honest person, the truth does not distinguish between group loyalists and non-loyalists. A lie does distinguish between group loyalists and non-loyalists. Only a group loyalist would be willing to repeat an obvious lie to support the group. The cost of the signal is their own reputation for honesty, which is easily lost by repeating a single obvious lie. Other group members observe the costly signal and give them high status as a committed, loyal group member for sacrificing their personal status for the group.
+
+## Virtue Signaling
+Virtue signaling is trendy status grabbing. Virtues are personal qualities that your culture values, they can be almost anything, empathy for others, capacity for violence, lack of self-importance.
+
+Activities of Virtue Signaling
+
+| Name | Description |
+|--|--|
+| Performative support | Saying I support the current thing, wear the pin, wave the flag. I just heard about the situation in Africa, and I haven't stopped crying for days. Selective outrage, calls for action when the outgroup does something wrong, silence or excuses when the ingroup does the same thing. |
+| Name dropping | Repeating someone else's name to affiliate with virtuous individuals, groups or acts. I was at that event, it was amazing. |
+| Virtue dropping | Turning every conversation into the current thing and how much you support it. I support veganism and I am a vegan. OMG it's a dead animal! |
+| Holier than thou | Visible acts of virtue, such as charity. Conspicuous virtuous consumption choices. Telling others, I never whip my servants. |
+| More sacrificial than thou | I realized that I didnt fully adopt the ideology, so I burned all my clothes and now wear these rags. |
+| Jargon dropping | Use specialized insider vocabulary, argot, to show your group affiliation. |
+
+Virtue signaling is signaling, but the signal is about a virtue, group or trend that is culturally high status right now.
+
+## Trends
+People constantly chase after high status. High status people avoid low status crowds, so high status people constantly change the places they go, the things they do, the way they talk. The people chasing after them copy and distribute the high status ideas, more people follow those ideas, and they become trends. A trend is a recent and increasingly popular high status thing. When the trend establishes itself and persists, it becomes a fashion, a distinct style or way of life. If a fashion is intense and short lived, it is a fad. More intense than a fad is a craze, where people go crazy about a trend, acting irrationally and losing a lot of money or causing people to get hurt. Beyond a craze is a panic, with social upheaval and disruption. Beyond a panic is a riot, which is beyond our scope here.
+
+| Social change | Started | Example |
+|--|--|--|
+| Trend | 1970s | Clothing made with synthetic fabrics, such as leisure suits |
+| Fashion | Late 1960s | Bell bottom pants |
+| Fad | 2017 | Fidget spinners |
+| Craze | 2017 | Pokemon Go, people formed crowds, some people got hurt |
+| Panic | 2020 | Toilet paper during the initial covid lockdowns, stores were sold out and rationing this basic commodity |
+
+Trends are often seen in cheap signals, where high status people or groups establish an internal trend as a new signal to claim higher status, this spreads within the group, then leaks out and spreads across the culture until the value of the cheap signal is destroyed and it becomes low status, creating a new cycle of opportunity to create a new high status cheap signal. One example of this cycle is words that mean good. If something is good, you could just say it is good, but people want to sound better than others when they praise something, and constantly invent new words to mean good.
+
+| Started | Word |
+|--|--|
+| 1920s | Hot |
+| 1940s | Cool, hip |
+| Mid 1960s | Groovy, boss |
+| Late 1960s | Far out |
+| Early 1980s | Radical, gnarly |
+| Mid 1980s | Bad |
+| Early 1990s | Fly |
+| Mid 1990s | Sick, dope, phat, tight |
+| Early 2000s | Crunk, bling, hot |
+| Mid 2000s | Lit, the shit |
+| Late 2010s | Gucci, slaps, bet |
+| 2020s | Slays, bussin |
+
+## Reputation
+Reputation is common knowledge about the status, stance or character of a person or group. It is similar to faction value, but the evaluator is not an individual, the evaluator is the group. Reputation is the current answer to the question, what does the group think about them? Reputation is objective, in the sense that there is a common belief in a group about a person. Reputation is subjective, in that it is a judgment. But reputation is not just subjective, it is something even more subjective than subjective, it is a socially defined belief, a belief about what other people believe, eg I know that you didn't do it, but they all think you did.
+
+Your personal reputation can rise or fall based on whether the group agrees with your statements about a person. So, if the group already dislikes someone, maybe you want to lie about that person to improve your own reputation by harming their reputation. Your attack encourages others to attack them for the same benefit. This cascade of personal attacks to claim reputation is called a pile on. The copycats don't gain as much status as the first person, so they are encouraged to escalate, in order to claim more status for their attack. This is a race to the bottom dynamic.
+
+Every group faces this dynamic. When someone does something exciting to gain status, others tend copy them to also gain status, but face diminishing returns. Instead of stopping the behavior or accepting lower rewards, the copiers tend to escalate to gain as much status as the first person, or sometimes more. What this means is that the rewards for reputation drive group members to extreme behavior. The dynamic defines two attractor states, groups that actively protect themselves against extremism, or groups that succumb to extremism. Groups tend to rise and fall. They flourish, stay focused on their mission by maintaining principles and cooperating with society, they lose their way and wander off mission, fall to corruption, disperse, or fail to prevent extremism and become an extremist group.
+
+## Order Effects
+The world operates on cause and effect, action and reaction. But the butterfly effect is about consequences for actions beyond the initial effect, we call these order effects, first-order effects, second-order effects, third-order effects, etc. For example, if you throw a stone into a calm lake or make a social action, these are the order effects.
+
+| Order | Throw a rock in a lake | Social action |
+|--|--|--|
+| First order | Sploosh | Immediate social effect |
+| Second order | Expanding rings of ripples in lake | Others' reactions to your behavior |
+| Third order | The ripples reflect against obstacles | Others discuss your action and change your reputation |
+| Fourth order | Floating objects bob in the water, reflected ripples interfere with the original ripples | Others change their behavior because of your action, your changed reputation interferes with your life course |
+
+When you act, you should consider the first, second and third-order effects of your action, which we might call immediate consequence, reactions and reputational effects. Sometimes first-order effects dominate, and being straightforward, direct, is the best choice. Sometimes second-order effects dominate, and the best way to get what you want is by gaining support or playing along. Sometimes third-order effects dominate, and the best way is to use reputation and status.
+
+We don't always have the time or ability to consider everything we do so deeply. Good habits can help to avoid rethinking every action at every moment. You can deeply consider the routine activities of your life periodically, and then follow your good habits day by day. That frees up your mind to handle surprises and higher-order considerations. To succeed, you have to identify the actions and moments when deeper consideration matters the most and focus your thoughts there.
+
+Order effects complicate our ability to interpret others' intentions. We usually assume that when others act, the first-order effect is their intended effect. If you see someone eat a cookie, you assume they ate the cookie because they were hungry. Sometimes people do things for second-order reasons, they ate the cookie to prevent you from getting the cookie, or third-order reasons, they ate the cookie to let everyone know the cookies belong to them. On top of this, sometimes people are mistaken and do the wrong thing, or act for no discernible reason. The intent of any single action out of context is almost impossible to infer. This is why we need to collect patterns of behavior to understand others' intentions. If someone is goal directed, then the pattern of their behavior will emphasize their goals. After you identify their goals, you can infer the intention of any particular action whether it is first, second, third, or higher-order.
+
+## Gossip
+Gossip is informal discussion of reputation changes. Some people are very excited about other people's lives, busybodies. They always want to hear and share the latest news about people they know, but they don't want to face their own lives and make contributions to the group. Sometimes news spreads quickly, everyone hears about it through the grapevine. Other times, people are discussing what they think will happen, someone mishears something, someone misunderstands something, or someone lies, and a rumor is created. A rumor is gossip about a lie. Because it is a lie, it is more interesting than the truth, and spreads faster than other gossip or corrections. This happens so often that rumors are continuously produced, like a factory, called the rumor mill.
+
+People who engage in gossip are often petty and jealous. If a busybody doesn't like you, they may intentionally spread a rumor about you to harm your reputation, a character assassination attempt. A common form of this is starting a rumor about sexual misconduct. There are parallel justice processes in society, the court of law and the court of public opinion. The court of law has explicit rules, agents, processes, while the court of public opinion is informal and judges people in social reality. The standard of evidence in the court of public opinion is the dominant rumors. Gossip and rumor can be used productively, but usually they are weapons to harm people for entertainment, spite or opposition.
+
+# Ontology of Communication Strategies
+In these chapters I will describe the fundamental communication strategies. A communication strategy is a distinct way of talking, a basic idea that people can have about their role in society, why they relate to others, a concept of what they are primarily doing when they communicate. These are not specific techniques or short term goals, they are more of an overall orientation or style. People are often not aware of which strategies they use, but their communication is attracted to one or more of these strategies because they work to gain status. This is an ontology because it attempts to categorize almost all speech acts between one or more categories, the categories cover all of the common communication strategies. The ontology also attempts to consider not just the goals of the strategies, but their typical character and consequences. It is a sort of field guide of human communication.
+
+The communication strategies that one person uses can change over their life, and their behavior can reflect a mixture of strategies in any interaction. The strategies themselves don't change and are fixed by nature.
+
+Communication strategies can be developmental. We might communicate in certain ways when we are a child, different ways as a teenager, and we might settle on one style in adulthood or continue to shift to different communication strategies during different activities or periods of our lives. See Kohlberg and Ken Wilber about related concepts in developmental psychology.
+
+[Kohlberg's Stages of Moral Development](https://en.wikipedia.org/wiki/Lawrence_Kohlberg%27s_stages_of_moral_development)
+[Wilber's Integral Theory](https://en.wikipedia.org/wiki/Integral_theory#Levels_or_stages)
+
+I first introduce the communication strategies, then describe them in detail using tables, show how each strategy appears to the others, their unique incentives, how people typically progress through them, and how to work with and against them.
+
+I describe each communication strategy systematically in tables using many dimensions. Here is an explanatory table, where I describe what every dimension means.
+
+| Dimension | Explanation |
+|---|---|
+| Description | A short description of the overall concept of the communication strategy |
+| Values | What does this person primarily value when they use this strategy? |
+| What words do | The essential idea of what words are for, why we speak, how words work, what effect do words have |
+| Messaging | The central meaning behind everything someone says when they use this communication strategy |
+| Goals | Can this strategy effectively pursue goals? |
+| Consistent | Using this strategy, is the communication consistent or not? Hypocritical? Contradictory? |
+| Truth | What is the relationship of this strategy to objective truth? Yes, it is truthful? No, it isn't? Or it may be indifferent, the speaker doesn't care whether their statements are true or not. |
+| Reputation | Do people who follow this strategy care about their reputation? |
+| Status | How does this strategy gain status within a group? |
+| Unity | How does this strategy affect group unity and solidarity? |
+| Subordinates to | Who or what do people who follow this strategy subordinate themselves to? Who do they follow or obey? |
+| Manipulative | Is this strategy willing to manipulate other people? |
+| Force | What is this strategy's preference about the use of force to get what it wants? |
+| Violence | What is this strategy's opinion about the use of violence? |
+| Rule of law | What is this strategy's opinion about the rule of law? |
+| Let live | Is this strategy willing to let other people live how they want, or does it want to interfere? |
+| Theory of mind | How does this strategy think about the minds of other people? |
+| Forms of government | Which forms of government does this strategy tend to form? |
+| Dominates | Which other communication strategies can this communication strategy often defeat? |
+| Typical emotions | What are the most common or distinctive emotions that people have when they use this communication strategy? |
+| Typical behaviors | What are the most common or distinctive actions that people take when they follow this communication strategy? |
+| Archetypes | What are the most well known jobs, roles or examples that use this communication strategy? |
+| Historical figures | Who are some famous people in history who significantly use this communication strategy? |
+| Examples | Typical statements this strategy can produce |
+| Crash outs | Typical statements this strategy produces when it fails |
+
+### Summary of Forms of Government
+
+| Form of government | Description |
+|---|---|
+| State of nature | Animals in the wild, eating each other and reproducing |
+| Anarchy | No formal government |
+| Minarchy | Minimal government, such as common defense, police and courts. Minimal government decision making |
+| Libertarian | Maximum individual liberty, which can include no government and low government |
+| Tribal | Group of people who live and work together. Decisions are made by elders and a chief, authority is fluid based on status. |
+| Gang | Criminal group of lawless workers, decisions made by a gang leader |
+| Military dictatorship | Formal government run by an army lead by a supreme leader |
+| Junta | Formal government run by an army lead by a group of generals |
+| Seniority | The longest serving members decide |
+| Committee | A decision maker delegates a decision to a group they appoint |
+| Democracy | Every member can vote on a decision. Simple majority or other voting methods decide based on the votes. |
+| Republic | Members choose representatives. Representatives make decisions by voting. |
+| Elitism | Decisions are made by the members with the highest social or cultural status |
+| Ecclesiocracy | Decisions are made by religious leaders |
+| Theocracy | Decisions are made by religion under the active authority of their god |
+| Epistocracy | Decisions are made by the most knowledgable |
+| Meritocracy | Decisions are made by those with the highest achievements |
+| Consensus | Decisions are made when every member agrees |
+| Communes | Egalitarian group, decisions made by consensus or leaders |
+| Utopia | An imaginary, nonexistent form of government that is assumed to work perfectly |
+| Bureaucracy | The group governs itself according to its own leaders, writes its own regulations, and decides its own enforcement. Individual members follow policy, with simultaneously total discretion and no discretion. |
+| Autocracy | Rule by a self-declared supreme leader |
+| City states | Each area with a distinct high population density, a city, governs itself and cooperates or competes with other city states |
+| Constitutional | A consitution is a foundational document or rules for a government, that any other form of government then abides by |
+| Futarchy | Decisions are made using prediction markets. Anyone can buy or sell shares in the markets to predict outcomes of a decision. The market price at the market close makes the decision. When the outcome of the decision is known, the market pays the shareholders with correct predictions. |
+| Cliques | Informal fluid groups making informal decisions by leader, consensus, democracy or other informal processes |
+| Aristocracy | Decisions are made by a hierarchy of heritable family titles, usually with a king to grant and revoke titles |
+| Kleptocracy | Decisions are made arbitrarily by those in power to steal from the other members |
+| Plutocracy | Decisions are made by the most wealthy |
+| Oligarchy | Decisions are made by a small group of powerful individuals |
+| Nationalist | Emphasizes the nation over the individual, using other forms of government to make specific decisions within the government |
+| Communist | Rejects individual property, enforces collective ownership and distribution. Decisions are made by a ruling party using other forms of government. |
+| Fascist | Autocratic nationalist, a supreme leader with total state authority over other members |
+| Monarchy | Decisions made by a supreme leader with a family heritable title of king |
+| Socialism | Any form of government that collects income to redistribute to the members to increase equality or welfare, the social safety net |
+| Federation | A group where the individual members are not individual people, but the members are other governments, such as a city state alliance |
+
+### Introduction to the Communication Strategies
+First I introduce all the communication strategies, then I will describe each in detail.
+
+| Strategy | Description |
+|---|---|
+| Greedy | I demand what I want |
+| Nice | I will be nice, and hope that you will be nice back, to give me what I want |
+| Strong | Use dominance to get what I want |
+| Avoidant | Solve the communication problem by not communicating |
+| Troll | Prevent other people from getting what they want to get what I want |
+| Artist | I express artistic truth to get what I want |
+| Expert | I use rare knowledge to get what I want |
+| Rules | I do what I am supposed to do to get what I want |
+| Simple | I create or trade for what I want |
+| Status | I associate with people who have what I want to get what I want |
+| Partisan | I advocate for my group to get what I want |
+| Ideologue | I advocate for my beliefs to get what I want |
+| Player within a game | I understand and play the game to get what I want |
+| Multigamer | I operate within multiple games to get what I want |
+| Game designer | I change the game to get what I want |
+
+## Greedy
+
+| Greedy | |
+|---|---|
+| Description | Say whatever you think will work to get what you want |
+| Values | My current desires |
+| What words do | Words are tools to get what I want |
+| Messaging | Gimme |
+| Goals | No, impulsive |
+| Consistent | No |
+| Truth | Indifferent |
+| Reputation | No |
+| Status | Deludes itself that it already has status it does not have |
+| Unity | Slight harm, not loyal, but simple to manipulate. Doesn't take risks, goes with the crowd |
+| Subordinates to | None |
+| Manipulative | Yes, crude deception |
+| Force | Yes, if I think I can get away with it |
+| Violence | Preferred |
+| Rule of law | No |
+| Let live | No, I want everything |
+| Theory of mind | Everyone else is greedy too, so I need to take their stuff first and protect my stuff |
+| Forms of government | State of nature |
+| Dominates | Nice, avoidant |
+| Typical emotions | Entitlement, impatience, self pity, rage |
+| Typical behaviors | Demanding, begging, lying, escalating, stealing, crying, insulting, shaming, screaming, moaning, tantrums, hitting, failing the marshmallow test |
+| Archetypes | Brat, criminal |
+| Examples | I want it now! No, this is mine. Yay, I love you. |
+| Crash outs | Nooooooo. I hate you! Wahhhhhhhh wahhhhhh. |
+
+## Nice
+
+| Nice | |
+|---|---|
+| Description | Be nice to others and expect them to be nice to you. Overly literal view of the golden rule, treat others the way you want to be treated, and expect them to treat you well. |
+| Values | Others accept you, harmony |
+| What words do | Words are one way to be nice |
+| Messaging | I will do anything you want so you will accept me |
+| Goals | No, won't assert anything |
+| Consistent | No, say what others want to hear |
+| Truth | Indifferent |
+| Reputation | Yes, wants to be seen as nice, but will sacrifice own reputation if others demand it |
+| Status | Forfeits its status to others, weak bid for reputational status through conformity and sacrifice |
+| Unity | Helps, not loyal but easy to control |
+| Subordinates to | All |
+| Manipulative | Yes, emotional coercion |
+| Force | Yes, when pushed |
+| Violence | Indifferent |
+| Rule of law | Indifferent |
+| Let live | Yes |
+| Theory of mind | Naive, everyone wants to get along |
+| Forms of government | Consensus, democracy, seniority, utopia |
+| Dominates | Greedy |
+| Typical emotions | obligation, anxiety, credulity, frustration, resentment, shame, impotence |
+| Typical behaviors | Acting kind, polite, boot licking, complaining when others don't do what I want, sulking, lashing out |
+| Archetypes | Nice guy, nice girl, toady, assistant, weak parent, anyone when they express polite generosity |
+| Examples | Mother, may I? I don't want to be any trouble. I'm sorry, I'm sorry! I just want everyone to get along. |
+| Crash outs | You're being mean. No fair! It was my turn. After everything I've done for you. I tried to be nice, but. |
+
+## Strong
+
+| Strong | |
+|---|---|
+| Description | Show strength |
+| Values | Power |
+| What words do | Words display dominance and submission |
+| Messaging | Fear and obey me |
+| Goals | No, except strength related |
+| Consistent | No, capricious, except if consistency shows strength to the strong, I keep my word |
+| Truth | No, the truth is that I am not strong |
+| Reputation | Yes, obsessed |
+| Status | Seeks martial status |
+| Unity | Necessary for group unity but can also threaten unity by losing, splitting, or coup |
+| Subordinates to | Stronger people |
+| Manipulative | No, except threats and displays of force |
+| Force | Yes |
+| Violence | Yes |
+| Rule of law | No, except law of the jungle, chain of command, great leader, might makes right |
+| Let live | No if they are weaker, or if I can get away with it |
+| Theory of mind | Animalistic |
+| Forms of government | Tribal, gang, junta, military dictatorship |
+| Dominates | Greedy, nice, avoidant, troll, simple |
+| Typical emotions | Anger, self importance, aggression, discipline, insecurity |
+| Typical behaviors | Display of strength, bullying the weak, following the strong, lashing out at perceived slights |
+| Archetypes | Military, bandit, terrorist, weak parent |
+| Examples | Do what I tell you, or else. This is my area. Yes, sir! Don't make me come over. Watch out. |
+| Crash outs | Nobody talks to me that way. Say that again. I will make you pay. Come here and fight me. |
+
+## Avoidant
+
+| Avoidant | |
+|---|---|
+| Description | Leave me alone |
+| Values | Independence, peace |
+| What words do | Words are overall harmful |
+| Messaging | Go away |
+| Goals | No, except to keep others away |
+| Consistent | No |
+| Truth | Indifferent |
+| Reputation | No |
+| Status | Claims minimal reputational status and forfeits any status above that |
+| Unity | Slight harm through nonconformity |
+| Subordinates to | None |
+| Manipulative | No, except to get you to leave |
+| Force | Only in self defense |
+| Violence | Prefers less |
+| Rule of law | Indifferent |
+| Let live | Yes |
+| Theory of mind | Full theory of mind, to preserve independence |
+| Forms of government | Libertarian, democracy |
+| Dominates | None |
+| Typical emotions | Flow, diligence, intolerance, fierce independence, peace, inflexibility, loneliness |
+| Typical behaviors | Solitary, routine, staring into space, laconic, stubborn, talking to yourself |
+| Archetypes | Downtrodden worker, hermit, crazy cat lady |
+| Examples | That's not my problem. I don't want to get involved. I'll handle it myself. Ok, thank you, goodbye. |
+| Crash outs | What part of No do you not understand? Mind your own business. I don't care. Get out! |
+
+## Troll
+
+| Troll | |
+|---|---|
+| Description | Rebellious troublemaker, causes problems for their own entertainment. The activity of crabs trapped in an open bucket. If the crabs cooperate, they can escape the bucket, but they pull each other down. none succeed despite the lack of anything stopping them. |
+| Values | Chaos |
+| What words do | Words are tricks |
+| Messaging | Don't ignore me |
+| Goals | Short term |
+| Consistent | No |
+| Truth | Antagonistic, the whole truth is boring, selective truth and lies are fun tricks |
+| Reputation | Seeks infamy |
+| Status | Seeks status by harming others' status, implicitly increasing their status because status is relative. Is marginalized from status and spoils others status' until they have status or equal opportunity. |
+| Unity | Harms |
+| Subordinates to | None |
+| Manipulative | Yes |
+| Force | Avoids force due to cowardice, loves brinksmanship |
+| Violence | Yes, more |
+| Rule of law | No |
+| Let live | No, wants to bother everyone |
+| Theory of mind | Sees others as self-righteous cowardly hypocrites, victims of tricks |
+| Forms of government | Anarchy, gangs |
+| Dominates | Greedy, nice, strong, avoidant, simple |
+| Typical emotions | Jealousy, rage, self-loathing, schadenfreude, aggression |
+| Typical behaviors | Trolling, pranks, defiance, apathy, vandalism, running away |
+| Archetypes | Teenager, misanthrope, trickster, troublemaker, comedian |
+| Examples | I'm just being honest. What are you angry about? It was a joke. I didn't do anything wrong. Can't catch me. |
+| Crash outs | You think you're better than me? You're all a bunch of hypocrites. I'll get back at you. |
+
+## Artist
+
+| Artist | |
+|---|---|
+| Description | Express my creativity |
+| Values | Artistic truth |
+| What words do | Channel artistic truth, words are aesthetic, form over function |
+| Messaging | I express the beauty of the world |
+| Goals | Short term, often interrupted |
+| Consistent | No |
+| Truth | Metaphorical truth |
+| Reputation | Yes and no, wants universal praise for expressing their true self, which is impossible |
+| Status | Seeks cultural status |
+| Unity | Helps through production of culture, harms with allegiance to artistic truth against group narrative |
+| Subordinates to | Their muse |
+| Manipulative | Yes |
+| Force | No |
+| Violence | No |
+| Rule of law | No |
+| Let live | Mixed, wants attention from everyone but too self-centered |
+| Theory of mind | Everyone is a better or worse artist |
+| Forms of government | Communes, elitism |
+| Dominates | Greedy, nice, avoidant, troll, rules, status |
+| Typical emotions | Warm appreciation, self-aggrandizement, ecstatic beauty, abject failure, pride, self-loathing, self-indulgent |
+| Typical behaviors | Oversharing, monologuing, seeking validation |
+| Archetypes | Artist, designer, influencer |
+| Examples | Nobody understands me. I'm not like other people. Isn't it beautiful? I have a vision. |
+| Crash outs | You ruined it! What's the point of anything? |
+
+## Expert
+
+| Expert | |
+|---|---|
+| Description | Knowledge leader within their subject area |
+| Values | Authority from rare knowledge |
+| What words do | Words are power, suppress the intellectually weak, identify the intellectually strong, words are the arena for intellectual competition |
+| Messaging | I know more than you |
+| Goals | Yes |
+| Consistent | Yes |
+| Truth | Indifferent, avoids getting caught lying, while exaggerating knowledge and importance |
+| Reputation | Yes, obsessed |
+| Status | Seeks academic status |
+| Unity | Helps with useful knowledge, harms with inconvenient truths that harm narrative |
+| Subordinates to | More knowledgeable |
+| Manipulative | Yes |
+| Force | No |
+| Violence | No |
+| Rule of law | Yes |
+| Let live | Yes, unless they threaten my status |
+| Theory of mind | Spectrum from animals to enlightened |
+| Forms of government | Ecclesiocracy, epistocracy, committee, elitism |
+| Dominates | Greedy, nice, strong, avoidant, troll, artist, rules, simple, lower status, partisan, ideologue |
+| Typical emotions | Confusion, tedium, patience, mastery, righteousness, insecurity, self-importance |
+| Typical behaviors | Lecturing, touting themselves, using impenetrable jargon, name dropping, correcting others, gatekeeping |
+| Archetypes | Academic, hobbyist, industry expert, author, priest |
+| Historical figures | The Pope, doctors, lawyers, leader of the secret police |
+| Examples | Well actually...I have studied this for x years. That is a common misconception. The true answer is not publicly known. |
+| Crash outs | What are your credentials? You are a bunch of savages |
+
+## Rules
+
+| Rules | |
+|---|---|
+| Description | Do what I am supposed to do. Tell others what to do. Code switch for different contexts. |
+| Values | Order |
+| What words do | Define the rules, act within the rules, enforce the rules |
+| Messaging | I am doing what I am supposed to do, but you are violating the rules |
+| Goals | No, but indirectly by following rules that constrain me to achieve a goal |
+| Consistent | Yes, if the rules are consistent. But not coherent, will follow any set of rules, even if they contradict. Unprincipled. |
+| Truth | No, whatever the rules say |
+| Reputation | No, unless there are rules about reputation |
+| Status | Seeks reputational status by enforcing group internal unity |
+| Unity | Helps |
+| Subordinates to | Rules, social pressure |
+| Manipulative | Yes, using rules |
+| Force | Yes, if the rules say so |
+| Violence | Yes, if the rules say so |
+| Rule of law | Yes, but not principles of law |
+| Let live | No. Everyone breaks the rules. |
+| Theory of mind | Good or bad, law abiding or violator |
+| Forms of government | Bureaucracy, autocracy |
+| Dominates | Greedy, nice, strong, avoidant, troll, artist, simple, status, partisan, ideologue |
+| Typical emotions | Annoyance, disgust, tedium, vengeance, dissatisfied and unsatisfiable, judgmental, helpless |
+| Typical behaviors | Following the rules, appeals to the rules, tell others what to do, report people, nit picking, criticism, insults |
+| Archetypes | Bureaucrat, police, judge, nosy neighbor or homeowners associate or landlord, Karen, decent parents |
+| Examples | You can't do that. I'm just following the policy. I have to report you. |
+| Crash outs | That is unacceptable. I'm calling help. I'm just doing my job. |
+
+## Simple
+
+| Simple | |
+|---|---|
+| Description | Do the right thing |
+| Values | Principles, justice, truth |
+| What words do | Words mean things. Say what I mean, do what I say. |
+| Messaging | What is right, is right |
+| Goals | Yes |
+| Consistent | Yes |
+| Truth | Yes |
+| Reputation | No |
+| Status | Skips socially defined status and creates benefits directly, gains economic status |
+| Unity | Harms by nonconformity and rejecting narrative |
+| Subordinates to | Objective reality |
+| Manipulative | No |
+| Force | Yes, if justified |
+| Violence | Prefers less. Yes, if justified |
+| Rule of law | Yes for just laws, no for unjust laws |
+| Let live | Yes. If you don't bother me, I won't bother you |
+| Theory of mind | The spectrum of good and evil. Principles like truth is good, lying is evil. |
+| Forms of government | Minarchy, city states, meritocracy, constitutional, futarchy |
+| Dominates | Greedy, nice, strong, avoidant, troll, artist, expert, rules, status, partisan, ideologue |
+| Typical emotions | Confusion, disappointment, confidence, righteousness, hope, despair |
+| Typical behaviors | Standing for what is right, telling the truth even when it is inconvenient, being celebrated and being rejected, being deceived and betrayed, dying early |
+| Archetypes | Child, hero, great leader, anyone who cares enough to give tough love |
+| Historical figures: | Socrates |
+| Examples | I am not sure. I know we're not supposed to say it, but...that's not right |
+| Crash outs | I can't believe you're going along with this. I'll do it myself. But, you lied to me |
+
+## Status
+
+| Status | |
+|---|---|
+| Description | Do whatever increases my status |
+| Values | Social status |
+| What words do | Words signal status |
+| Messaging | I will repeat whatever gains me status endlessly until I find something better |
+| Goals | No, just chases the current status game |
+| Consistent | No |
+| Truth | No, status is socially defined |
+| Reputation | Yes, obsessed, what will the neighbors think? |
+| Status | Seeks affiliation with any other kind of status, to form a group under their status, so that benefits to the higher status are distributed to them |
+| Unity | Helps by conforming and harms with unfair, self-interested status grabs |
+| Subordinates to | Higher status |
+| Manipulative | Yes |
+| Force | Yes |
+| Violence | Indifferent |
+| Rule of law | Indifferent. Rules for thee but not for me, also, I am not a criminal |
+| Let live | Yes, except if I can use you to gain status |
+| Theory of mind | Everything high status people think is right, everything low status people think is wrong |
+| Forms of government | Cliques, aristocracy, kleptocracy, plutocracy, oligarchy |
+| Dominates | Greedy, nice, strong, avoidant, troll, artist, expert, rules, simple |
+| Typical emotions | Jealousy, self-hatred, adoration, disgust, desire |
+| Typical behaviors | Name dropping, boasting, signaling, denigrating, living beyond their means, keeping up with the Joneses |
+| Archetypes | Social climbers, fans of celebrities, members of exclusive clubs, people with ostentatious status symbols such as fancy cars |
+| Examples | I know the owner. I wouldnt be caught dead going there. Did you hear who is visiting? |
+| Crash outs | Do you know who I am? You're just jealous of me. I'm calling the governer about this. |
+
+## Partisan
+
+| Partisan | |
+|---|---|
+| Description | Do whatever is good for my group and my reputation within the group |
+| Values | Their group |
+| What words do | Words signal group superiority, inferiority, allegience |
+| Messaging | Crafts narratives to advance the interests of the group |
+| Goals | Yes, often short sighted |
+| Consistent | No, consistency is inconvenient for shifting narratives |
+| Truth | No, the truth is incompatible with the best narrative |
+| Reputation | Yes, often short sighted |
+| Status | Seeks reputational status through activism, enforcing group unity internally and competing with other groups externally, sacrifice self for group |
+| Unity | Helps unity by creating and enforcing narrative and conforming, fighting other groups and proselytizing |
+| Subordinates to | The group |
+| Manipulative | Yes |
+| Force | Yes |
+| Violence | Yes |
+| Rule of law | No |
+| Let live | No, outsiders are resources for the group |
+| Theory of mind | Ingroup members are people, outgroup are not people |
+| Forms of government | Tribal, nationalist, communist, fascist |
+| Dominates | Greedy, nice, strong, avoidant, simple, rules, status, ideologue |
+| Typical emotions | Belonging, hatred, fear, aggression, oppression, triumph, defeat |
+| Typical behaviors | Meetings, protests, organizing, service to the group, complaining, incoherent yelling, double standards, ignorance |
+| Archetypes | Revolutionary, protester, member of an organized religion, fan, political party member, tribe member |
+| Examples | It's us or them. We need to stick together. We can't let them win. We are the best. They are evil. |
+| Crash outs | You're a traitor. You're dead to me. How could this happen to us? |
+
+## Ideologue
+
+| Ideologue | |
+|---|---|
+| Description | Believer in an ideology |
+| Values | The ideology |
+| What words do | Words transmit the one true ideology, fight ignorance and false ideologies |
+| Messaging | Preach and defend the ideology |
+| Goals | Yes |
+| Consistent | Yes |
+| Truth | No, no ideology is consistent with reality |
+| Reputation | Yes, among true believers, no among everyone else |
+| Status | Seeks reputational status by conforming and sacrificing for the ideology |
+| Unity | Helps by spreading and defending the ideology, proselytizing |
+| Subordinates to | The ideology and its priests |
+| Manipulative | Yes, if it helps the ideology |
+| Force | Yes |
+| Violence | Yes |
+| Rule of law | No, unless the law agrees with the ideology |
+| Let live | No, all must believe |
+| Theory of mind | Believers are human and nonbelievers are not human |
+| Forms of government | Theocracy, autocracy, communism |
+| Dominates | Greedy, nice, strong, avoidant, troll, artist, rules, simple, status, partisan |
+| Typical emotions | Peace, doubt, superiority, disgust, awe, fear |
+| Typical behaviors | Practicing the ideology, preaching, frothing at the mouth, mistreating nonbelievers |
+| Archetypes | Religious zealot, communist, nationalist, generally ists and isms. |
+| Examples | The book says that...we know the ultimate truth. We must spread the faith. The ends justify the means. |
+| Crash outs | I tried to save you, but you chose the wrong path. The revolution is coming. |
+
+## Player Within a Game
+
+| Player Within a Game | |
+|---|---|
+| Description | Figure out the rules and play the game, integrate the many games into a single game and play to win |
+| Values | Winning the game |
+| What words do | Words are one system within the game |
+| Messaging | Determined by the current winning strategy |
+| Goals | Yes |
+| Consistent | Indifferent, whatever is advantageous |
+| Truth | Indifferent, whatever is advantageous. Cares deeply about knowing the truth internally. |
+| Reputation | Indifferent, whatever is advantageous |
+| Status | Depends |
+| Unity | Depends |
+| Subordinates to | The game |
+| Manipulative | Yes |
+| Force | Indifferent, whatever is advantageous |
+| Violence | Prefers less, but whatever is advantageous |
+| Rule of law | Yes, except if disadvantageous |
+| Let live | Yes, except if you obstruct me |
+| Theory of mind | Game theoretic |
+| Forms of government | Republic |
+| Dominates | All |
+| Typical emotions | Excitement, interest, focus, caution, calculation, patience, determination |
+| Typical behaviors | Competence, acting, misdirection, diligence, striking at the right moment |
+| Archetypes | Professional, successful businessperson, strong parent, promising youth |
+| Examples | Why do you think so? How do you know that? Could you tell me the details? You got me this time. I was just lucky. |
+
+## Multigamer
+
+| Multigamer | |
+|---|---|
+| Description | Plays within multiple shifting games |
+| Values | Good tradeoffs |
+| What words do | Words are a versatile tool to advance multiple objectives |
+| Messaging | Whatever seems most important here and now |
+| Goals | Sometimes, capable of pursuing goals but priorities can frequently shift |
+| Consistent | No |
+| Truth | No, objective truth is counter to many socially defined games |
+| Reputation | Yes, often beneficial across games |
+| Status | Seeks multiple statuses |
+| Unity | Helps |
+| Subordinates to | Chaos, Larger forces |
+| Manipulative | Yes |
+| Force | Indifferent, whatever is advantageous |
+| Violence | Prefers less, but whatever is advantageous |
+| Rule of law | Indifferent, whatever is advantageous |
+| Let live | No, everyone affects everyone else |
+| Theory of mind | Others are resources, pawns, allies, opponents, everything shifts, reacts, mixes, balances, can't apply game theory consistently |
+| Forms of government | Monarchy, socialism, federation |
+| Dominates | All |
+| Typical emotions | Overwhelm, opportunism, resignation, anticipation, frantic work, crisis management |
+| Typical behaviors | Planning and adjusting, putting out fires, delegating, high stakes conversations, enforcing consequences |
+| Archetypes | High level executive, core member of an extended family, high level official, leader |
+
+## Game Designer
+
+| Game Designer | |
+|---|---|
+| Description | Chooses and creates games, intentionally redefines social reality |
+| Values | My own view of the highest good |
+| What words do | Words are a versatile tool across both the game and the metagame |
+| Messaging | Constructed to advance objectives in both games and the metagame |
+| Goals | Yes |
+| Consistent | Indifferent, whatever is advantageous |
+| Truth | Indifferent, whatever is advantageous. Cares deeply about knowing the truth internally. |
+| Reputation | Indifferent, whatever is advantageous |
+| Status | Depends |
+| Unity | Depends |
+| Subordinates to | None, but may pretend to subordinate if advantageous |
+| Manipulative | Yes |
+| Force | Indifferent, whatever is advantageous |
+| Violence | Indifferent, whatever is advantageous, prefers less |
+| Rule of law | indifferent, whatever is advantageous, prefers rule of law |
+| Let live | Yes, except if you obstruct me |
+| Theory of mind | Full application of game theory, both finite and infinite, metagame theory, capability modeling, hidden strategy and deceit |
+| Forms of government | Any |
+| Dominates | All |
+| Typical emotions | Calm, calculative, patient, decisive, flexible, prepared, conscientious |
+| Typical behaviors | Being in the right place at the right time, acting unnoticed, doing what no one thought could be done, winning |
+| Archetypes | The best people you know, great figures of history, charismatic people, unsung heroes |
+
+# Strategic Interaction
+A communication strategy, by the nature of communication, does not operate in isolation. Communication strategies interact with other communication strategies, and these interactions have consistent dynamics. There are areas of mutual understanding, one way understanding, mutual misunderstanding, dominance, competition, mutual avoidance, mutual destruction and mutual success. I describe each strategy from its own perspective, egocentric. For example, if I use the greedy communication strategy, how do others appear to me? Use this guide to see the perspective of other strategies beyond your own strategy.
+
+When people show you who they are, believe them. Maya Angelou
+
+## How Greedy Perceives Others
+Greedy tends to misinterpret others as greedy in a reductionist way, pulling everyone down to their level so they can all roll in the mud. Greedy can negotiate with compatible strategies using a kind of quid pro quo, but incompatible strategies refuse greedy negotiation, which greedy sees as miserly. Some strategies give a mixed message to greedy, where they sometimes negotiate and sometimes deny, which greedy finds confusing. Greedy has special insight about partisan, and understands the partisan group itself as a greedy agent, while partisans don't understand their sacred group with the same clarity.
+
+| How Greedy Perceives Others | |
+|---|---|
+| Greedy | Greedy |
+| Nice | Generous |
+| Strong | Greedy |
+| Avoidant | Miserly |
+| Troll | Greedy |
+| Artist | Confusing |
+| Expert | Greedy |
+| Rules | Miserly |
+| Simple | Miserly |
+| Status | Greedy |
+| Partisan | Greedy group |
+| Ideologue | Confusing |
+| Player within a game | Miserly |
+| Multigamer | Miserly |
+| Game designer | Miserly |
+
+## How Nice Perceives Others
+Nice is simplistic and naive, understanding others as nice or mean. They try to be nice to everyone, but some people are just mean! How unfair and cruel of them.
+
+| How Nice Perceives Others | |
+|---|---|
+| Greedy | Mean |
+| Nice | Nice |
+| Strong | Mean |
+| Avoidant | Mean |
+| Troll | Mean |
+| Artist | Nice |
+| Expert | Nice |
+| Rules | Nice |
+| Simple | Mean |
+| Status | Nice |
+| Partisan | Nice |
+| Ideologue | Mean |
+| Player within a game | Mean |
+| Multigamer | Nice |
+| Game designer | Mean |
+
+## How Strong Perceives Others
+Strong reduces others to strong or weak. Some strategies can appear strong or weak depending on circumstance and attitude. The multigamer shows a shifting mixture of strength and weakness that they find confusing.
+
+| How Strong Perceives Others | |
+|---|---|
+| Greedy | Weak |
+| Nice | Weak |
+| Strong | Strong |
+| Avoidant | Depends |
+| Troll | Weak |
+| Artist | Weak |
+| Expert | Weak |
+| Rules | Depends |
+| Simple | Strong |
+| Status | Weak |
+| Partisan | Depends |
+| Ideologue | Depends |
+| Player within a game | Depends |
+| Multigamer | Confusing |
+| Game designer | Depends |
+
+## How Avoidant Perceives Others
+Avoidant wants to avoid communication, but still needs to interact with other people. They often have a decent understanding of other people and communication strategies, it is mainly a question of who can cooperate to minimize communication. Reasonable people can quickly reach a mutual understanding and cooperate with little more interaction afterward. Useful people can cooperate to some degree, with higher costs. Useless people can't effectively cooperate, and pests harass them until they are removed.
+
+| How Avoidant Perceives Others | |
+|---|---|
+| Greedy | Pest |
+| Nice | Useless |
+| Strong | Useful |
+| Avoidant | Reasonable |
+| Troll | Pest |
+| Artist | Pest |
+| Expert | Useless |
+| Rules | Pest |
+| Simple | Useful |
+| Status | Useless |
+| Partisan | Useless |
+| Ideologue | Pest |
+| Player within a game | Useful |
+| Multigamer | Pest |
+| Game designer | Useful |
+
+## How Troll Perceives Others
+Trolls spoil other peoples objectives, to make them as frustrated as the trolls themselves. People who are easy to spoil are called marks. Spoiling the objectives of greedy is as easy as taking candy from a baby. People who understand troll's motivations aren't marks, they are targets that can react and resist. Trolls understand and overall agree with each other to a significant degree, but compete when their goals conflict. People who understand trolls and have layers of protection and support are difficult targets. Trolls primarily break rules, so rule strategy has a special relationship with trolls as both predator and prey. Strategies that maintain order predate against trolls. More capable strategies that understand trolling but don't necessarily maintain order can come into opposition with trolls and counter them proactively.
+
+| How Troll Perceives Others | |
+|---|---|
+| Greedy | Mark |
+| Nice | Mark |
+| Strong | Mark |
+| Avoidant | Target |
+| Troll | Competitor |
+| Artist | Mark |
+| Expert | Difficult target |
+| Rules | Both predator and prey |
+| Simple | Opponent |
+| Status | Mark |
+| Partisan | Difficult target |
+| Ideologue | Difficult target |
+| Player within a game | Opponent |
+| Multigamer | Predator |
+| Game designer | Opponent |
+
+## How Artist Perceives Others
+Artist perceives others on a spectrum of artistic merit. For example, strong pursues a fundamental truth of strength and has a unique aesthetic, we call them martial artists. Nice doesn't pursue any truth and has no aesthetic, so it is hack.
+
+| How Artist Perceives Others | |
+|---|---|
+| Greedy | Hack |
+| Nice | Hack |
+| Strong | Artist |
+| Avoidant | Artist |
+| Troll | Hack |
+| Artist | Artist |
+| Expert | Hack |
+| Rules | Hack |
+| Simple | Artist |
+| Status | Hack |
+| Partisan | Hack |
+| Ideologue | Artist |
+| Player within a game | Depends |
+| Multigamer | Depends |
+| Game designer | Depends |
+
+## How Expert Perceives Others
+Experts use rare knowledge to elevate themselves, thinking they are better and above other people. They see most people as beneath them, but artist and simple are at least human in their pursuit of truth. Expert is ultimately status seeking, so expert is disgusted by status seeking people with lower status than them, and they are jealous and adore higher status people.
+
+| How Expert Perceives Others | |
+|---|---|
+| Greedy | Lower |
+| Nice | Lower |
+| Strong | Lower |
+| Avoidant | Lower |
+| Troll | Lower |
+| Artist | Human |
+| Expert | Superior |
+| Rules | Lower |
+| Simple | Human |
+| Status | Depends |
+| Partisan | Lower |
+| Ideologue | Lower |
+| Player within a game | Lower |
+| Multigamer | Human |
+| Game designer | Depends |
+
+## How Rules Perceives Others
+Rules tends to judge others based on whether they are doing what they think they should do. Rules reduces others to law abiding or violator. Similar to ideologues, no one is pure except for themselves, everyone else is ultimately a violator. Conformists are typically tolerated, nonconformists are not tolerated. A partisan for a culturally accepted group is acceptable, a partisan for a so-called fringe extremist group is unacceptable. An ideologue for a mainstream ideology is acceptable, an ideologue for an unpopular fringe ideology is unacceptable. Rules is totally unaware of the fact that their values are socially determined and not anchored to any objective or stable truth, and smugly enforce social conformity with the same gleeful cruelty today as yesterday, except that yesterday the rules were totally different from today, and they have no problem with that. Rules demands abject submission to an individual interpretation of culture, and most strategies are not so accommodating. You aren't wearing your I support the current thing pin! One of the terrible things about rules is its arbitrariness. Attracting their ire isn't a question of doing wrong, it just depends on what they notice. Show me the man, I will show you the crime.
+
+| How Rules Perceives Others | |
+|---|---|
+| Greedy | Violator |
+| Nice | Abiding |
+| Strong | Violator |
+| Avoidant | Depends |
+| Troll | Violator |
+| Artist | Depends |
+| Expert | Abiding |
+| Rules | Abiding |
+| Simple | Violator |
+| Status | Abiding |
+| Partisan | Depends |
+| Ideologue | Depends |
+| Player within a game | Depends |
+| Multigamer | Abiding |
+| Game designer | Depends |
+
+## How Simple Perceives Others
+Simple sees the world in right and wrong. Some things we know for relatively certain, these are principles, and people are clearly right and wrong by those principles. Any strategy that cannot hold shared principles is plain wrong. Other areas are less certain, we must reserve judgment or make our best effort to determine better and worse. By these lights, some strategies are wrong, others are potentially right. Obviously, determining right from wrong in a given circumstance requires individual judgment.
+
+| How Simple Perceives Others | |
+|---|---|
+| Greedy | Wrong |
+| Nice | Wrong |
+| Strong | Potentially right |
+| Avoidant | Potentially right |
+| Troll | Wrong |
+| Artist | Potentially right |
+| Expert | Potentially right |
+| Rules | Wrong |
+| Simple | Potentially right |
+| Status | Wrong |
+| Partisan | Wrong |
+| Ideologue | Wrong |
+| Player within a game | Potentially right |
+| Multigamer | Wrong |
+| Game designer | Potentially right |
+
+## How Status Perceives Others
+Status sees the world as a status hierarchy with roughly four groups, useless lower status nonhumans, useful lower status people who can give me status, competitors and higher status people to suck up to.
+
+| How Status Perceives Others | |
+|---|---|
+| Greedy | Useless |
+| Nice | Useful |
+| Strong | Depends on status |
+| Avoidant | Useless |
+| Troll | Useless |
+| Artist | Depends on status |
+| Expert | Higher |
+| Rules | Useful |
+| Simple | Useless and stupid |
+| Status | Competitor |
+| Partisan | Useless if outside the group, useful if inside the group, or competitor |
+| Ideologue | Useless if outside the ideology, useful if inside the ideology, or competitor |
+| Player within a game | Depends |
+| Multigamer | Higher |
+| Game designer | Depends |
+
+## How partisan perceives others
+Partisans view others on two dimensions, whether the other person is a member of their group or not, and how useful the other person is to their group. Different partisans have different levels of strictness, some may tolerate everyone and only slightly prefer their group, while others may hate everyone except the most devoted group members. Usually partisans are not that strict, and welcome group members whether or not they are useful, and welcome useful people whether or not they are a member of their group. Partisans don't care much about what communication strategy members of their group use, as long as they are loyal to the group. Greedy insider is fine if that greed does not hurt the group, hurting outsiders is fine. A greedy outsider is also fine if they help the group. A greedy outsider that harms the group is an enemy. A nice insider is fine, a nice outsider that opposes the group is an enemy, and a nice outsider that neither helps nor harms the group is a fence sitter. Pick a side! You're either with us or against us. Again, any strategy is fine for members of the ingroup and supporters, no strategy is acceptable for outsiders, opponents or betrayers.
+
+Partisans are especially obsessed with the reputation of their group, and their speech is compulsively crafted to develop a public narrative about the ingroup or the outgroup. This obsession extends to how they understand others' speech, they can only interpret others' speech as an intentionally constructed narrative to support or counter a group. When someone makes a simple objective truth statement, to a partisan, there is no such thing as a principled commitment to tell the truth. Simple appears to partisan as an idiot, because their truthful statements don't serve any useful narrative.
+
+## How Ideologue Perceives Others
+Ideologues have a singular focus on the ideology, and see others as either believers or heretics, with special hatred for former believers, or believers that deviate from their narrow path. They do not mind which communication strategy others use as long as they accept the ideology. Ultimately, an ideologue can accept no one except themself, everyone else deviates from their current beliefs in some way and is heretic. Other communication strategies can accommodate ideology to varying degrees. These determine whether the strategy could survive under ideological oppression.
+
+| How strategies survive under ideologue oppression? | |
+|---|---|
+| Greedy | Yes |
+| Nice | Yes |
+| Strong | No |
+| Avoidant | Yes |
+| Troll | No |
+| Artist | Yes |
+| Expert | Yes |
+| Rules | Yes |
+| Simple | No |
+| Status | Yes |
+| Partisan | No, except if the partisan group is the ideological oppressor |
+| Ideologue | No, except if their ideology is the dominant one |
+| Player within a game | Yes |
+| Multigamer | Yes |
+| Game designer | Yes |
+
+## How Player Perceives Others
+Player generally investigates other people to determine their communication strategy before deciding how to play against them. Player perceives others' communication strategies as what they are, unless successfully deceived. Player can usually adapt to any other strategy and work with or counter them to achieve their own goals, given enough resources. Often, the resources of one person cannot overturn a group or a culture, limiting players' options. Sometimes, specific circumstances can allow for creative options to achieve goals that would be otherwise impossible. With enough resources, especially information, players can often win. Players will lose if they are unlucky, they lack resources, their goal is too difficult, or they face a better player. Players collect information, form a specific strategy, execute and respond to changing circumstances and repeat until they win or lose. Other people aren't as reliable as myself, I am not here to make friends, I am here to win. The most reliable player strategies tend to be close-ended, operate mostly in the dark and rely on systems, not people.
+
+## How Multigamer Perceives Others
+Like player, multigamer investigates and understands others to determine how to play against them. The difference between player and multigamer is that player operates under one existing game while multigamer is playing more than one game overall. While player can make mostly fixed determinations about other people, keep, discard, support, betray, the multigamer has shifting priorities and is constantly reevaluating a more chaotic situation. Both player and multigamer can be decisive, but multigamer anticipates much more chaos and pursues open-ended strategies, collecting resources and allies to form a diffuse web of soft influence that can shift and react to changing priorities and emerging situations.
+
+## How Game Designer Perceives Others
+To game designers, other people are not immediately relevant, like a friend of a friend that you may never meet. They can be more objective about people they aren't personally entangled with. They can think about what motivates them, how to put them in a position to be motivated a certain way. Everything can be a resource, game designer operates on the level of cause and effect, first order effects, second order effects, habits, tendencies, models, likelihoods. History doesn't repeat, but it rhymes. Game designer applies first principles to solve an urgent problem or design a scalable strategy to deal with a larger problem from the root. Communication strategies are one factor in the system of incentives. Show me the incentive, I will show you the outcome. Game designers select an outcome, then start designing incentives to cause it.
+
+## The Incentives of Communication Strategies
+The communication strategies are fixed by human nature, but society doesn't explicitly force people to communicate one way or another. People are often unaware of which strategy they are using, so how do people find and follow a strategy without knowing it? Modeling and incentives. People mostly don't learn by explanation, reading books, or figuring things out for themselves. People mostly learn by modeling others, monkey see, monkey do. But when we copy what other people do, if it doesn't work for us, we quickly stop doing it. Incentives are what make the strategies work for people who try them, keeps them following the strategy, and trains them how to follow the strategy even better. Each strategy has distinct incentives that attract different people at different times.
+
+| Communication Strategy | Negative incentive | Positive incentive |
+|---|---|---|
+| Greedy | Don't ask, don't take, don't get what you want | Ask for or take what you want, get what you want |
+| Nice | Punished for asking or taking what you want | Rewarded for asking nicely, being patient and conforming |
+| Strong | Dominated by someone else, loss of something important by weakness | Protect or gain something important using dominance |
+| Avoidant | A significant life failure causes rejection of communication | Avoidance works to reduce problems |
+| Troll | Marginalized or failed in status competition | Destruction of others status improves your relative status |
+| Artist | Failure or weakness in non-cultural status competitions, denigration of non-cultural status | Success in cultural status competition, elevation of cultural status |
+| Expert | Failure or weakness in non-academic status competitions, denigration of non-academic status | Success in academic status competition, elevation of academic status |
+| Rules | Punishment for nonconformity, mediocrity in status competition, lack of alternatives | Reward for conformity and cultural enforcement |
+| Simple | Harm from criminals, hypocrites, idiots, carelessness | Proof of reliable success of principles, independent success of principle |
+| Status | Harm from low status | Elevation of high status, benefits of association with high status |
+| Partisan | Harm from outgroup | Protection from ingroup |
+| Ideologue | Harm from chaotic beliefs and unpredictable reality | Safety of constant certain ideology |
+| Player within a game | Loss in status competition from superior strategy | Winning through superior strategy |
+| Multigamer | Loss in one game while playing another | Surviving in multiple games at once |
+| Game designer | Significant loss due to systemic problems | Proof of agency through modification of incentives |
+
+## Progression and Regression
+Adopting communication strategies can be developmental and contextual. Each strategy has subsequent strategies that people often progress into. Under stress or after a setback, people may also regress. Although any sequence of strategies is possible, certain transitions are unlikely. Children typically go through a greedy phase, while most people never reach player or above.
+
+| Progression and Regression | |
+|---|---|
+| Greedy | Nice, strong, avoidant, troll, artist, rules, simple, status |
+| Nice | Strong, avoidant, troll, artist, rules, simple, status |
+| Strong | Avoidant, troll, artist, expert, rules, status, partisan, ideologue |
+| Avoidant | Artist, expert, simple, ideologue, player |
+| Troll | Artist, expert, rules, simple, status, partisan, ideologue, player |
+| Artist | Expert, rules, status, partisan, ideologue |
+| Expert | Status, ideologue, player |
+| Rules | Status, partisan, ideologue |
+| Simple | Avoidant, troll, expert, partisan, ideologue, player |
+| Status | Strong, rules, partisan, ideologue |
+| Partisan | Avoidant, troll, expert, simple, ideologue, player |
+| Ideologue | Avoidant, expert, simple, player |
+| Player within a game | Multigamer, game designer |
+| Multigamer | Game designer |
+| Game designer | None |
+
+# Working With and Against
+Player, multigamer and game designer can work with all other strategies and achieve competitive or cooperative goals, while other strategies are more limited or even unable to pursue goals reliably at all. Outside of your own communication strategies, how can you work with or against other communication strategies in general?
+
+## Greedy
+Greedy has special challenges to work with because it is capricious and irrational. The famous formula to motivate greedy is a mixture of positive and negative incentives, the carrot and the stick. People are loss averse, so a single incentive can operate as both a carrot and a stick by promising the carrot but threatening to take it away if they misbehave. Offer greedy something cheap that they like, eg candy, and then ask them to do something for you to earn the candy, and if they don't do it right, you won't give them the candy. Demanding and threatening them with the stick makes them resentful and combative, it's less effective. Giving them frequent rewards, the carrot, makes them entitled and unruly, also ineffective. Intermittent reinforcement with clear, consistent, strictly enforced standards and immediate feedback for deviations is required to get them to work, which is usually not worth it.
+
+Working against greedy is among the easiest because they lack awareness and planning. Entrapment works well, create a situation where the temptation to misbehave is too great, and arrange for them to get caught. Or create a threat that scares them and they will neglect any current agreement. Greedy understands enemies, but not planning, so use a cat's paw or create plausible deniability when you work against them.
+
+## Nice
+Nice is easy to work with on trivial tasks and hard to work with on difficult tasks. Nice will do almost anything you ask, so working with them is as easy as asking, or even suggesting, that you want them to do something for you. They are often happy to do it. But if the task requires commitment or confronting another person, nice will tend to agree to do it, and then fail. Successfully working with nice requires anticipating the parts that nice will be unable to do on their own, and helping them over the hard parts, to let them complete the parts of the task they are capable of.
+
+Working against nice is also relatively straightforward. Nice is vulnerable to demands or intimidation. Please don't run against me in this election. Their answer might be, Ok, I won't, thank you for telling me, good luck running unopposed! However, when you work against nice, they tend to lash out when they can't supress their own desires anymore. you can oppose them politely and then let them explode against other people, or entrap them to explode at a time and place of your choosing by pushing them beyond their limits, or use a cat's paw to oppose them. Sometimes nice lashes out by appealing to the group or authority, so prepare by opposing them with plausible deniability or act only within the rules to face no penalty for your actions. There is no rule that says I have to be nice, is there?
+
+## Strong
+Working with strong is possible whether you are stronger, about the same strength, or weaker. If you are stronger, dominate them and order them to do what you want. If you are about the same strength, then challenge them, gain their respect, and offer a fair exchange. If you are weaker, one option is to submit to them and manipulate them to do what you want. I heard that the people I want you to beat up called you weak, are you going to stand for that?
+
+Working against strong is about the same. If you are stronger, defeat them and to the victor goes the spoils. If you are about the same strength, you can attack with allies, sneak attack, weaken them, etc. to defeat them. If you are weaker, you can submit to them and manipulate them to be defeated by others, or join others to defeat them. In a place with rule of law, winning against strong within the rules can work, as long as the rule enforcement is effective.
+
+## Avoidant
+Working with avoidant is exactly what they think they don't want. But no person is an island, we all need things, so working with avoidant comes down to determining what they need and helping or threatening them to get them to do something you want.
+
+Working against avoidant can be either easier or harder than usual. If avoidant cares more about avoiding you than protecting whatever you want, then you can take what you want without contest. If avoidant cares more about protecting whatever you want than avoiding you, then they may put up a fiercer resistance than others. But avoidant prefers to work alone, so collecting allies, a group, a surprise attack, overwhelming force can overcome avoidant when they resist.
+
+## Troll
+Working with troll can be as easy as following along on their mischief. Directing troll to do anything in particular can be like herding cats, possible but difficult, their whole concept is not doing what they are told. They can accept fun suggestions if they think it is their idea.
+
+Working against troll can be easier and harder than usual. If you can identify the troll, they are usually weak to confrontation, and as rule breakers they can be reported to the group or authorities for punishment. Trolls don't want to be held accountable, so they operate covertly and make efforts to be hard to find and escape once detected. Primarily, the challenge in opposing troll is finding them or getting them in trouble.
+
+## Artist
+Working with artist can be simple if you share an artistic vision. If you do not, working with them could be difficult or impossible. One option to work with them, without a shared vision, is to ask them to do what you want in exchange for also giving them an artistic outlet for their authentic self expression.
+
+Working against artist is difficult if you oppose them directly. Artists are usually weak in most regards, but fiercely pursue and defend their artistic vision. So don't directly oppose their artistic vision. Attack their many weaknesses instead, such as reputation, social connections, resources, sanity, etc.
+
+## Expert
+Working with experts is relatively easy if you defer to them in all matters of their expertise. They are difficult, if not impossible to dissuade on matters of their expertise, sometimes only by citing specific claims made by other experts they respect, and substantial and obviously applicable original evidence. Experts may have some flexibility in their preliminary conclusions, but will dig in if you challenge their central theses.
+
+Working against experts can be done by emphasizing that a particular topic is not actually within their area of expertise, countering their claims with more or more prestigious experts, or assassinating their aura of expertise by attacking their perceived competence or character. Another option is to go around instead of through, a bane of experts is irrelevence. Ignore their conclusions because experts don't usually have significant authority to enforce their opinions on others.
+
+## Rules
+Working with rules means conforming with them or being above the rules. You can get rules to do something if you convince them that they are supposed to do it, or if it helps them catch people who are breaking the rules. Rules won't listen to rule breakers, so you have to channel requests through someone they respect, such as their boss, to make them do things if they don't respect you.
+
+Working against rules can be simple if you are covert, break the rules and don't get caught. Rules either does everything by the rules or are otherwise very consistent about what they think they can get away with, their behavior and reactions are easy to anticipate. They lack creativity or authentic enthusiasm, so anyone with talent or determination can outperform them in a straight contest, or you can cheat. When rules attempts to oppress others by hen pecking them and appealing to authority, reject their special authority, counter the holes in their claims, find fault with them, shout them down within the rules. They lack a fighting spirit and can't face serious opposition. After a conflict with rules, anticipate their counterattack when they will bring support, and be ready with exonerating evidence, have evidence of their own crimes, or skip out. They don't have significant authority to track you down and can't afford a drawn out fight.
+
+## Simple
+Working with simple is simple. Learn what their principles are and then adhere and support those principles. If those principles support charity or fair exchange, ask for what you want and give simple what they want, and then both parties get what they want. Talking to smart people is so simple. If you do not support their principles, you can ask for their help anyway, or try to lie, with the risks of being rejected or discovered.
+
+Working against simple can also be simple. If you are also simple, you can outcompete them in a fair contest. If you don't care about justice, you can lie, cheat, or steal against them. Also, simple is unpopular, so gang up on them and take what you want, unjustly. Simple faces the defenders dilemma, while the attacker doesn't have to worry about simple compromising their principles to resist them.
+
+## Status
+Status is usually unwilling to put in effort themselves, but are usually willing to trade their resources for status. If you have higher status, have something with status or know someone with status, you can dangle the possibility of status in front of them and get them to jump like a trained seal. If you don't have any status resources to trade with them, they are pretty hard to work with, although better than greedy. If you can contribute to or threaten their reputation, you can get better service from them, otherwise expect mistreatment.
+
+To work against status, you can get them to abandon a contest against you if you offer them something else with higher prestige. Opposing them can be dangerous, they have no scruples, they see themselves as above others and above the law, and kick people down with a vicious and careless attitude. The positive is that they are not hard workers, and are otherwise easy to defeat. Oppose them covertly if possible, anticipate criminality if they are losing against you, they will probably give up quickly when they lose and hold a grudge.
+
+## Partisan
+Working with partisan means being or becoming a member of their sacred group, or convincing them that you support their group and are on their side. The degree that they think you provide value to their group is the amount that they will work with you or ask for other group members to help you. Asking a partisan to do something for you as an outgroup or opponent falls on deaf ears, find an ingroup member and use them as a proxy.
+
+Working against partisans usually means beating them in a fair competition, and them trying to turn everything into group conflict. Reject their framing, and they will escalate by crying about oppression for sympathy and outsider support or bring other group members to gang up. When they escalate improperly, you can appeal to authority to get them penalized. If the group is dominant, then sometimes they can run rampant and you have to oppose them covertly.
+
+## Ideologue
+Working with ideologues is easiest when they consider you a fellow believer, they can be diligent and generous in service of their ideology. If you are not a fellow believer but do tolerate their ideology, fair exchanges are possible but you may be unwelcome as an outsider. Ideologues won't work with heretics or oppressors, so again you can use anyone they respect as an intermediary or cat's paw to get something from them.
+
+Working against ideologue is similar to working against artist. Threatening their one true belief will make them froth at the mouth and give dogged resistance. Attack their many other weaknesses instead, especially intrinsic flaws of their dogma, or aspects that are dogmatically low status. Ideologue can spread to become a dominant culture, which is hard to oppose overall, so a typical method is if you can't beat them, join them, and oppose them from inside the group, with the risk of being identified as a non-believer. If the ideology is not dominant, then it is usually isolated and unpopular, and mass opposition or appeal to authority can counter them.
+
+## Player Strategies
+Working with a player is likely to succeed if you have a shared objective. The closer your values align, the more likely the player will choose win win, mutually beneficial, gains from trade moves. Cooperating with a player when you are otherwise in competition or opposition means that they will turn on you when advantageous, and they can anticipate your betrayal, too.
+
+Working against a player can be a straight contest between players. Victory or defeat is determined by skill, resources, determination and game theory.
+
+# Belief
+## Beliefs About Beliefs
+There are things I think that I know, my beliefs. There are things that you think you know, your beliefs. My beliefs and your beliefs can be different. Beliefs can get complicated. I can straightforwardly believe something or not, but I can also have a belief in belief. I can think it is good to believe x, even if I don't believe x itself. We also form beliefs about others beliefs. I think that you think x. Commonly, it can go one level deeper, I can think that you think that I think x. The depth usually stops at that level.
+
+Our beliefs about what other people believe define social reality. Social reality can be separated into individual social beliefs, I believe that that individual person believes x, and collective social beliefs, I believe that people collectively believe x. If we have a belief that there is a collective social belief that x is bad, then we won't advocate x publicly. If we think there is a collective social belief that x is good, we might praise x publicly even if we personally don't like it. However, there is a self-fulfilling aspect to this behavior. If enough of us are dishonest about our beliefs, then we establish and support a mistaken belief about others beliefs, a stable false social consensus, a falsifiable collective social belief.
+
+## Reflexivity
+You can't neutrally observe reality from nowhere. There is nowhere to stand outside of reality. You observe from within reality and your observation is not passive, your presence and observation change the reality you observe. You aren't safely watching the movie in the audience, you are the camera in the scene, or one of the actors. Belief is not reflective, belief is reflexive. Your experience changes your beliefs, your beliefs change your actions, your actions change reality, reality changes your experience. Experience, belief, action, effect, experience, belief, action, effect, etc. When you look into the abyss, the abyss looks back into you.
+
+Reality creates belief as we expect, but belief creates reality too. Any famous building was once an empty field. The building was invented in people's imaginations and then built to physically manifest their belief. Afterward, people live within and around the building, the manifestation materially and socially shapes their lives and the subsequent buildings they imagine.
+
+## Preference Falsification
+People say quite a lot, and their actions often don't match their words. This is the distinction between stated preferences and revealed preferences. People often say, I started a new fitness program. Then you might ask them, aren't you supposed to be exercising now? I don't feel like it today. Their stated preferences sound good, and their revealed preferences feel good. Usually people delude themselves and paper over the ugly truth of their revealed preferences, but sometimes someone makes bold claims or objectively falsifiable statements, then runs headfirst into a contradiction with reality. This unignorable collision is preference falsification. When a bunch of people get together and rally for a cause and raise money, if after the big event they see that nobody donated, they notice the gap. Oops, I guess nobody actually cared. If only the organizers of the event know that nobody donated, then that is a private preference falsification. If everyone can see that the event didn't raise money and people notice, that is a public preference falsification. The falsification becomes public knowledge.
+
+## Preference Cascade
+A preference falsification can trigger a preference cascade. Initially everyone might believe that everyone else supports a noble cause. Their belief might be falsified when no one shows up for a scheduled rally. Then, when the cause is mentioned again, they might say out loud that they don't care about that cause. This can start a cascade. Everyone who privately didnt care about the cause but thought that everyone else did care about the cause can suddenly agree that they also don't care about that cause, and this can continue to cascade from group to group. Now the common knowledge of what people believe totally shifts from everyone believes everyone else cares about this cause, to everyone believes that everyone else does not care about this cause.
+
+If you suspect that a social belief is wrong but you lack public falsifications, you can carefully ask other people about it in private, but they might report you for heresy. People who have survived repressive regimes know all about this dilemma. You can also silently confirm people's beliefs by watching what they do when they don't think they will get in trouble for violating the social belief. If you can privately falsify the belief, then it may be possible to falsify it publicly. You can take great risk to publicly declare your heretical belief, arrange a blameless public falsification, or use a cat's paw.
+
+# Overton Window
+The Overton window is the set of beliefs that we socially agree that reasonable people can disagree about. The question of whether chocolate or vanilla ice cream is superior is typically within the Overton window. We usually believe that reasonable people can disagree about their preferred flavor of ice cream. The question of whether we should kill all humans is typically outside of the Overton window. We usually believe that reasonable people cannot disagree about whether to kill all humans, all reasonable people hold the view that humanity should live. Only unreasonable people could hold the view that all humanity should immediately die.
+
+Perceived social reality is not objective reality, so the window can shift substantially without any material change in the world. A view that was previously outside the Overton window can enter the Overton window, and the window can even shift so much that the same topic can be outside the Overton window on one side, enter the window, then exit the window on the other side.
+
+In my lifetime, one topic that seemed to follow this socially surprising transformation was gay rights. Among many communities, and perhaps in American culture overall, there was previously a common belief that being gay is deviant. Then, over a surprisingly short period of time, the Overton window shifted due to various factors. Suddenly we believed that reasonable people could disagree about whether being gay is ok or not. Then, about just as quickly, the question was more or less decided again but in the opposite direction. Being gay is in fact ok. Reasonable people cannot disagree about whether it is ok to be gay. I myself support a wide range of freedom of inquiry and discussion without artificial limits, but that's not what the Overton window is. The Overton window is the set of topics that we believe that others believe are reasonable to disagree about, and we often believe others are uniform and narrow-minded. Everyone thinks that x is awful!
+
+A cohesive society may have one consistent Overton window, while a less cohesive society may have totally different Overton windows depending on the group or situation. Similar to esoteric and exoteric statements, different topics are acceptable to debate within a group versus outside the group, or in one group versus another.
+
+Your Overton window is your limit of who you are willing to communicate with. Anyone outside of your window is unreasonable. You may feel that everyone outside of your window is essentially the enemy, they are often outside your circle of moral concern, let them die or kill them on sight. Even worse, because you are unwilling to talk with them, their position as an enemy can never change, even if they turn out to be right and you are wrong. You would not know because you are unwilling to talk with them, another reason to never allow yourself to be absolutely certain of anything.
+
+Narrow windows are convenient for political control, they limit disagreement to trivialities or a managable set of options, while wider windows allow people to question sacred cows and diverge, harming unity. The world is complex and people are diverse even within a seemingly uniform group, unity is only possible artificially. Beliefs are also developmental, youth should seek change, while mature people should seek to preserve what works. This creates generational conflict. If the windows are too narrow, should the elders and the youth kill each other? Anything outside of your window needs to be established beyond a reasonable doubt. If someone asks you to prove that something is so firmly established that you are not willing to discuss it, you should be ready and able to demonstrate it. If you are unwilling to discuss things that you can't prove, your window is too narrow. For me, there is no topic outside of my window in principle. My only enemies are those that obstruct me in bad faith.
+
+# Politics
+Politics is who gets what, a group negotiation of group benefits. Negotiations are zero-sum games, oppositional, which is why politics itself is negative sum. The best government is minimal, to minimize losses from politics. A quickly negotiated set of simple and clear rules are the best output of a political process.
+
+Simple rules produce complex behavior. Complex rules produce stupid behavior. Andrew Hunt
+
+There are no good opportunities to expand government control. Politics is the activity of the governing body and referees for a sport, they don't generate the value of the sport, they create a level field for the players to create value with. We don't want to find more opportunities for referees in the sport, we want to minimize the referees to allow the players to create the value to the greatest extent, without allowing players to exploit others unfairly. Government maximalists, fascists and communists alike, are wrong.
+
+## Politicians
+A politician is a professional group representative. They speak and act on behalf of a group in a political competition, like a lawyer advocates on behalf of an individual in a legal proceeding. A politician is always in an unstable position, because their high-status role as the representative of the group depends solely on the perceived social reality within the group and the coherence of the group. The intrinsic instability of perceived social reality means that the position of a politician is also intrinsically unstable. A politician pushes around the shifting piles of sand in the windy desert of social reality. If they don't stay on top of churning perceptions, they will be swallowed by the sand. This explains why politicians act the way that they do. Politicians say things that aren't true. They may not be dishonest people, but their job is to speak and act to satisfy a socially defined reality and win an active negotiation.
+
+## Negotiation and Objective Truth
+The claims, offers and counteroffers made in an active negotiation are not necessarily true, they are designed to gain the most benefit. There is a fact of the matter about the market price or physical qualities of any item, but the market price is only an average. Any individual may be willing to pay much less or more for the same item, the market price doesn't compel any individual to trade at that price. The correct price for an item is whatever they are willing to pay, it's socially defined or personally defined, there is no objective fact of the matter that they could be overpaying or underpaying, that the item is worth more or less. A transaction is descriptive, this is what happened, not proscriptive, this is what should happen. If two people voluntarily trade at a price, then it was in some sense a fair trade, all else equal, even if that price is very different from what other people pay or what the same people pay on other occasions. Negotiation is socially defined, and objective truth can contribute, but doesn't determine the result.
+
+There is no objective price apart from what buyers and sellers individually agree, but there is an objective input to a negotiation, bargaining power. The price can vary based on various factors outside of bargaining power, but bargaining power is one objective input to a negotiation that affects whether the deal is made and if so, at what price.
+
+## Political Speech and Objective Truth
+When a politician says we deserve more, or mischaracterizes others intentions, or uses any one of a dizzying array of political tactics, these are moves in a political game to manipulate sentiment, increase leverage, express people's emotions, collect supporters and achieve social objectives that have nothing to do with objective truth claims about the world. These are actions that operate within perceived social reality, confusingly using the same language tools we use to discuss individual relationships and objective facts.
+
+Often political speech addresses multiple audiences, aligning a coalition of groups that disagree about some issues but agree about other issues, attracting new members from outside the group, fulfilling obligations to other groups or to members of the ingroup, changing public perception of opposition groups, maintaining or improving perceptions of the politician themselves within the group. It's no wonder that political speech distorts reality, reality could never consistently support such a strange narrative.
+
+## Talking Points
+Talking points are prepared statements about political issues that politicians repeat. They are professional grade messaging. Talking points consist of carefully selected topics, framings and evidence that maximize political position, prestige and bargaining power. Repetition is a proven technique to increase the legitimacy of a statement, whether or not it is true.
+
+Repetition legitimizes, repetition legitimizes, repetition legitimizes. Adam Neeley
+
+## Self-fulfilling Prophecy
+There is an objective fact of social reality, people believe something or they don't. Statements about objective reality, including people's beliefs, are objectively true or false. But beliefs can change in ways that objective reality can't. Statements about social reality can change people's beliefs, making a statement false before the statement is expressed, and true afterward. These kinds of statements are self-fulfilling prophesies, e.g. you are imagining a pink elephant.
+
+Political leaders are professional political speakers, their statements attempt to change belief. A lot of political statements are attempts at self-fulfilling prophecy. If they say, our group is failing, that is usually bad politics. It may be true in some way, but is often not useful. If they say that our group is succeeding, even when it objectively isn't in some way, this is sometimes a lie and sometimes not! If they say the group is succeeding even when it currently isn't, the group might attract more members, gain support, increase the determination of the members and actually succeed because of their enthusiasm, confidence, determination, and effort, making the statement true. The more they repeat the prophecy, the more that people believe it and make it happen. Of course, there are strict limits to the philosophy of if you believe it, you can achieve it. Some things, even if you believe, you cannot achieve.
+
+A politician attempting to gain the most benefit from self-fulfilling prophecy would make a self-fulfilling prophecy even when the odds of fulfilling it approach fifty fifty, meaning that more often than not, the self-fulfilling prophecy comes true, but also, almost half the time they are quote lying unquote. A self-fulfilling prophecy, or an attempted self-fulfilling prophecy, has an undetermined truth value at the time it is expressed. Only after the event can the truth of the statement resolve to true or false, I was always right, or I apologize for lying about that.
+
+One difference between responsible and irresponsible leaders is whether they apply self-fulfilling prophecy for mutual benefit or for extraction. Irresponsible leaders abuse their position to extract the most value from the group for their own benefit or their cronies. Leaders can persist, whether they are responsible or not, by protecting their position. The most responsible politician should protect their position, if they have reason to believe that their replacement would be worse for their group. It would be nice if the most stable strategy for leaders is to responsibly collect the most benefits for the group, but political dynamics are not straightforward.
+
+# Group Formation and Growth
+## Interests
+Groups form where there are benefits. People are attracted to collect the benefits for themselves, naturally gathering around the benefits. Successful groups gain benefits and attract members, and groups that fail quickly disperse. People want to side with winners and people are strongly loss averse, they hate losing, both in the sense of not gaining, and doubly in the sense of forfeiting something they currently possess. A source of benefits is sometimes called an interest, a group formed around an interest is an interest group.
+
+Just because you do not take an interest in politics doesn't mean politics won't take an interest in you. Pericles
+
+## Partisan and Ideological Groups
+Groups form around a common interest to increase the bargaining power of the group for that interest. There are two group orientations, partisan and ideological. A partisan group defines its members first, and those members tend to be similar and thus tend to have common interests. An ideological group defines its interests first, then accepts members who share them. Real groups have both partisan and ideological aspects.
+
+## Partisan Groups
+Anyone can form a partisan group for any reason, but there are common sources that consistently form groups or are able to scale to larger groups. The most fundamental source of partisan groups is blood relation, binding multiple people together as effectively one set of genetic self-interest. Typically any identifiable culture can become a group, where people who act in a similar way, aka form a culture, tend to want similar things.
+
+One example of a source of culture is location, people who live in the same place experience the same environment and interact with each other a lot, eventually form a consensus about many aspects of life and create a culture. The ingroup are people from the location, and the outgroup are people from elsewhere. Conflicts between members of the location ingroup create their own competition for group interest, we call this local politics.
+
+People who earn a similar amount of money tend to do similar work and face similar problems, creating a group based on socioeconomic status, what we call a class. Class conflict is common in history.
+
+Partisan groups tend to form around things that are hard to change, who your family is, where you were born, when you were born, how much money you make. These are groups more about identity, the identity creates common interest, and the group succeeds based on group loyalty. Members subordinate themselves to the group, it's about the people, not the blood, location or job.
+
+The group grows based on reproduction of the members and attracting eligible new members. Members want to stay in the group when the group gives members more benefits than non-members. Partisan groups can be difficult to grow, people only reproduce so fast, and there are only so many eligible members such as people who live in a given location. Although a culture can spread, it cannot spread quickly, and cultural loyalty is weaker than the sources of culture, shared genes, shared location, shared roles.
+
+While the number of people in a partisan group is hard to change, the interests and objectives of the group can change fluidly around them, the narrative. A culture is also a shared narrative, a common idea of who we are and what we believe, going from identity to ideology. This is why partisans are obsessed with narrative. We are stuck on this boat together, but where should the boat go?
+
+## Ideological Groups
+Contrast partisan groups with ideological groups. Ideological groups can grow quickly by recruiting anyone that accepts the ideology regardless of identity. The ideology unifies the ideological group on certain issues and forms the group around those common interests by definition, rather than forming the group around things that tend to create common interest. Ideological groups are vulnerable to easy come, easy go, where members show up to claim benefits and then abandon the group. To make the group stable, ideological groups will make it easy to join and hard to leave, trapping members, or hard to join so that members prepay the group and can leave without harming the group.
+
+The number of members is easy to change, but the objectives of the group are hard to change. Ideologues don't need narrative to translate from who we are to what we believe, because the ideology already defines what we believe. Ideologues have the opposite problem, we know what we believe but we lack identity, and without identity we lack loyalty. So ideological groups are obsessed with forming an ideological identity, with common locations, places of worship or meetings, common activities, rituals or rallies, and ways to look the same, like people who share a culture or genes do, religious garb or uniforms, flags, symbols.
+
+# Corruption
+Corruption is violations of principles about benefits. Higher achievement garners higher status is a principle. Pay to play, bribing people to recognize achievements is corruption. Selling goods as advertised is a principle, selling fake goods or taking customers' money without delivering promised services is corruption. Meritocracy is a principle, favoritism is corruption. Equal treatment under law is a principle, choosing not to prosecute because the criminal knows the governor is corruption. Honesty and transparency in government conduct is a principle, lying and coverups are corruption.
+
+## Credit and Blame
+In theory, if you create benefits for the group and make them legible, the other members of the group should be aware of your contribution, update their beliefs about your bargaining power and status, and allocate future group benefits according to your updated status. In the same way, if you harm group interests or make a mistake and cost the group benefits, your status and future benefits should decrease. Overall, theory and practice correlate, someone with a golden touch will be recognized and a consistent loser will be shunned. But status is a social reality, subject to so much distortion that the relationship between how much group benefit you produce and your status can seem random, or the opposite of what it should be, or fair and accurate, it depends on how well the group operates.
+
+In fact, beyond legibility, you have to take positive action to claim credit and assign blame. It seems that your work is never finished, not only do you have to find ways to help, do the job, make the benefits legible to others, but then you have to claim your credit, too.
+
+If you don't claim your own credit, someone else may claim it from you. Stealing credit is far easier than earning it. And blame is even more important to allocate accurately. People tend to be ready to shift the blame for a problem onto others when it is their fault. Stealing credit and shifting blame is corruption.
+
+When people work together as a team, some members tend to concentrate the credit for the team's work onto themselves. Sometimes it is true, that one member of a team deserves almost all of the credit, but also there is a massive incentive to not appreciate other people's work or otherwise steal credit for yourself. Similarly, when a problem occurs with a team, there is often diffusion of responsibility. No one wants to take the blame, so it is other people's fault or the whole team's fault, not their fault individually. Again this is sometimes true, but there is a massive incentive to shift blame away from yourself.
+
+People who have authority also bear responsibility, but stealing credit and shifting blame are advantageous. So despite their responsibility to accurately allocate credit and blame, bad leaders steal credit from their team and shift blame onto other teams or find a scapegoat, a person without authority to unjustly pin the blame on, so the person with authority steals positive accountability and avoids negative accountability. The humble and extreme opposite policy for an authority is to pass all credit to the team, and claim all blame from the team. This policy is not accurate, but can help to counter the perverse incentives for authorities to misallocate credit and blame.
+
+When you know or can investigate for yourself who deserves credit or blame, use your own judgment about who deserves what. Abandon leaders or people who do not share your judgments of credit and blame, and affiliate yourself with people who share your judgments of credit and blame. Go where you appreciate others and others accurately appreciate you.
+
+## Regulatory Capture
+The government, meaning formal or informal members and processes in a group to regulate the group, create and enforce rules to make the group work. Government has inherent conflicts of interest. Who watches the watchmen?
+
+A government is a body of people usually notably ungoverned. Shepherd Book, Firefly
+
+Group members want to protect or expand their own benefits using any means possible. For the good of the group, a fair, impartial, long term growth oriented government is best. But governments are not physical devices that logically derive and implement policy, governments are themselves groups of people and policies that govern other groups of people. The reason rules are made is to prevent people from doing things that are individually beneficial but are negative-sum for the group, strategies where the individual wins and the group loses. The government is the mechanism to define and enforce those rules and prevent the group from losing out. But government, composed of people, also wants benefits, the same as everyone else, but government has no one to stop them from breaking their own rules. Regulatory capture is when interest groups pay off the government to create rules unfairly favorable to them in the first place, or to not enforce rules on them, allowing the interest group to gain at the expense of the group. The regulators have been captured by the groups they are supposed to regulate. Regulatory capture is a form of corruption.
+
+## Wireheading
+Wireheading is corruption of rewards, with dire consequences. Wireheading is the logical conclusion of regulatory capture, maximum corruption. If I gained access to the databases that keep track of money, I could give myself a bajillion dollars and shift the economy, trampling on others' efforts and causing inflation. If I were in charge of a sports league, I could declare myself the champion. If I became a drug addict, I could give myself a chemically induced high whenever I wanted without the corresponding achievement of my goals. I control the reward signal, but as a result, the reward is unrelated to the real-world conditions it is supposed to be grounded in. The incentives are broken, the reward becomes meaningless, the production of benefits stops, the group stops functioning, the group dies.
+
+# Coalitions
+## Factions
+Groups are typically not fully unified, each group has its own internal politics, groups within the group competing for interests and negotiating status. These groups within a group are factions. Factions are esoteric politics while groups compete in exoteric politics.
+
+## Coalitions
+A coalition is when a set of factions or groups that could compete against each other agree to cooperate. The collective bargaining power of a coalition is higher than the bargaining power of the individual factions. The condition for a coalition to form is that each member stands to gain more benefits than they lose. The coalition acts as one entity, so it can only coherently advocate one way per interest. If some members want to vote yes on a given issue, and some members want to vote no on that issue, then the coalition can't vote both yes and no, the coalition has to choose either all yes or all no, and all members must vote that way, sometimes against their own interests. But members care about some issues more than others, so coalitions form when the coalition increases the members interests on net.
+
+## Political Parties
+A political party is a coalition. A party does not have a coherent platform, identity, or ideology. It is a dynamic combination of multiple interest groups. The party does not serve the interests of any individual person, it is a net benefit to the factions or groups that join it, and individuals benefit from being members of the constituent groups. The current policy positions of the party are not your policy positions. Your policy positions are unique, or aligned with your best fit groups. The party sometimes, or often holds positions against your interests, but overall is supposed to serve your interests via trading bargaining power between groups.
+
+Political parties operate the same way as politicians and are similarly unstable. Politicians satisfy the preferences of the factions within the group to unite the group, constantly changing what they say to match or lead social reality. Political parties satisfy the preferences of groups within the party to unite the party, constantly changing their platform to match or lead social reality. When one political party harms the interests of a member group, the other party can pander to that group to pull the group from one party to another. Political parties can remain in dynamic balance by reallocating benefits to different groups to remain competitive with each other.
+
+Sometimes a political party screws up and loses competitiveness. Now that party can't offer the constituent groups benefits, the party breaks up, and the constituent groups redistribute themselves to other parties. Even if there is only one party remaining, coalitions by definition have multiple groups, and even a single group tends to have factions. Groups of groups within a political party can form party factions, and faction competition within a party can lead to a schism, where the previously unified party coalition breaks into new parties along party faction lines. Political parties are emergent and self-regulating features of political conflict, just as groups emerge from human dependence and conflict of interests.
+
+# Social Change
+## Leading Social Movements
+Let's say you see great injustice and intolerable problems in the world, in society. According to you, society must change. How can you accomplish that? In a sense, you cannot change the world. You and your power alone are insignificant. How insignificant are you? Imagine a cube of water, 7.39 meters on a side, taller than a two story building, weighing over 400 metric tons. This represents the population of the world, and comparatively you are one drop. Limited to the population of the USA, the cube would be 2.57 meters per side, weighing 17 metric tons. Now imagine yourself, a single drop of water, the size of an ant, trying to move that cube of water. Even if you were a strong ant, you cannot move it alone. Your individual power is insignificant, directly changing the world is throwing an egg at a boulder.
+
+You could foment a bloody revolution to topple the establishment. However, this is a book about communication, communication is the alternative to violence, not the justification for violence. I admit that there exist circumstances where bloody revolution is the best answer, but I disagree with almost everyone who thinks that their bloody revolution is the solution to the problems they see with society. Probably, if you think that bloody revolution is the answer to your problems, I disagree with you. Please do not be a violent extremist or a terrorist. Reject partisanship and ideology. Try to make the world a better place for everyone cooperatively. I have constructive suggestions to help you.
+
+Despite your lack of individual power, nevertheless, the world does change, and individual people do participate in changing the world. There are several effective strategies. One of the most dramatic is becoming a spark that ignites a fire of change, a nucleation site. If there is a significant falsifiable social belief, if everyone already privately agrees that a change should occur but no one is willing to talk about it or take the first step, you can be the person who stands up, shouts from the rooftops about the change that everyone already wants. If you are too early, people won't have realized what they want yet, and will dismiss you. If you are too late, someone else will become the nucleation site before you, as people accidentally or intentionally initiate changes all the time.
+
+If you are at the right place, at the right time, with the right messaging, you can start a preference cascade, gain reputation for being in front of it, and repeat it to multiple audiences, garner support, and lead a movement, I also call this a wave. The potential energy does not come from your individual power, the potential energy was already in society, your individual power is just to create an outlet for that energy, you channel the mass potential energy. The most likely case is that the energy lacks a convenient method to change society and the energy is wasted. Or other people come to take the leadership position away from you, take leadership and extract personal benefits from the movement while ruining it. Or your initially pure and effective intention gets warped and twisted as other groups join and demand concessions until the movement forms into a new coalition that gets eaten by the existing coalitions.
+
+But if you are able galvanize a movement, remain the leader and resist compromising away the principles that establish the movement, you will then become a new visible target for a counter movement from the establishment, the people that benefit from keeping things the way they are now, and who have all the resources of society available to them to resist your incipient social movement. Their whole industry is oriented to crushing the constant parade of social movements that challenge their establishment. In the war for social reality, the current winners are best equipped to defend themselves. Is a pharmaceutical executive unable to treat a common infection? Social movements can win, but the defender has the advantage.
+
+A lot of people consider themselves to be social activists. A successful social activist has high cultural status and is a leader, this is a highly valued position with low barriers to entry, so it attracts a lot of useless people. To some extent, social activism can be useful for worthy causes and beneficial policies. In the digital era, information is not scarce. Anyone that wants to know about anything can learn about it for themselves. To spread an idea, you don't have to stand outdoors, hold a sign, and yell about it. Governments are ultimately accountable to the people, and if the people want something enough, they can get it. Previous social activism strategies, such as raising awareness, signing petitions, holding rallies and protests, are no longer relevant for creating social change. The current methods to change hearts and minds are effective digital communication about the topic, creating ideological groups and communities, modeling your desired behaviors and policies, producing benefits using your policies, and developing technologies to change incentives.
+
+## Market Forces
+### Consumer Side
+You can create social change through your passive personal market force, choosing what not to buy, not to visit, not to work with, not to live in. A more active personal market force is choosing what to buy, to visit, to work with, to live in.
+
+### Producer Side
+More active than exercising consumer power is becoming an active market participant, offering products and services, building facilities and infrastructure, hiring and firing. The power of being a producer comes with equally heavy responsibilities. Running an organization is hard work and has risks, but offers corresponding potential benefits.
+
+Vote with your service, your feet, your wallet, your support, your attention. This is exercising your power in the market, and is the most effective and commonly disregarded form of social advocacy, because it doesn't gain status, it is functional, risky, and requires effort and sacrifice.
+
+## Social Forces
+Why do people often think they need to change the world in a political sense? The greatest political changes are downstream from markets, which are downstream from technological advancements. Don't waste your life advocating social beliefs, which are not what matters and not what you ultimately want, when you could be working within the market, which has the power to shift social belief. If you further have the ability, advance the technology to overturn the markets.
+
+The way to predict the future is to invent it. The way to change the future is to make it.
+
+# Summary of the War for Benefits
+Politics is who gets what. Who gets what is determined by political power. Political power is the bargaining power of a political group. Political power determines group benefits, and groups distribute their benefits to their members. How do groups distribute benefits? Internal politics, but primarily based on status. Status is determined by the bargaining power of a member within a group, and determines their benefits. Contribution and communication determines individual status within a group. Production of benefits enables status gaining communication.
+
+People communicate, to participate in groups, to compete for status, to get benefits, to live a better life.
+
+# A Master Plan
+This is a master plan of how to communicate to survive, win your war for social reality, and thrive.
+
+### Take care of yourself
+You can't serve others if your needs aren't met. Breathe, sleep, hydrate, eat, exercise, clean yourself, dress yourself, maintain your living environment, meet your own basic needs.
+
+### Create space to serve others
+Spend less time and effort to meet your own needs. Increase your speed, efficiency, simplify, rearrange your life to be easier to manage, improve your health, etc. until you can easily take care of yourself. Most of your day is available to serve others.
+
+### Serve others, create legible benefits
+Prepare yourself and find a product or service to offer that helps other people in a way that they appreciate. Serve other people, create legible social benefits.
+
+### Use the value you create to be self-sufficient
+Claim your credit to collect some of the social benefits you produce to support your own life.
+
+### Exceed self-sufficiency to become able to invest
+Again improve how you manage your own life and your service to create a surplus of benefits, beyond self-sufficiency. Your surplus is available to invest in others.
+
+### Invest in other people
+Through your service or social activities, find other people that share your values. These are potentially your people. Invest your benefits in them and communicate with them to establish relationships, create goodwill, support their endeavors. A droplet received in need will be repaid with a spring.
+
+### Assemble your people into a group
+Join or form a group of your people. This is the powerful form of humanity.
+
+### Combine strengths to create more benefits
+Work together with your group to better serve others. When you are up and they are down, you carry them. When you are down and they are up, they carry you. Specialize your work within your group to be what you are best at and is most needed, share the burden with your group to combine strengths and outcompete other groups.
+
+### Take greater responsibility
+The reward for providing good service is the opportunity to provide more service. Greater service means greater bargaining power, greater status, greater benefits. Invest your surplus benefits into protecting and improving your service and your group.
+
+### Win your war for social reality
+Use winning strategies, your people, yourself, your benefits and your bargaining power to gain and protect your status. Use your benefits to make your dreams come true.
+
+---
+
+# References
+[What's Our Problem by Tim Urban](https://inkwellmanagement.com/books/whats-our-problem)
+
+[How the Way We Talk Can Change the Way We Work: Seven Languages for Transformation by Robert Kegan and Lisa Laskow Lahey](https://www.wiley.com/en-us/How+the+Way+We+Talk+Can+Change+the+Way+We+Work%3A+Seven+Languages+for+Transformation-p-9780787958664)
+
+[The Elephant in the Brain by Kevin Simler and Robin Hanson](https://www.elephantinthebrain.com)
+
+[Thinking, Fast and Slow by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+
+[Your Situation by Benjamin Rubinger](https://benjamin-rubinger.github.io/#your%20situation.txt)
+
+---
+
+**The End of Who Gets What**
+
+Version 12025 294

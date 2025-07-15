@@ -93,9 +93,9 @@ function titleCase(s, allCaps, apostropheMap) {
     let pieceIndex = 0;
     for(const piece of pieces) {
         if (piece) {
-            if (allCaps.includes(piece)) {
+            if (allCaps && allCaps.includes(piece)) {
                 results.push(capitalizeAll(piece));
-            } else if ((pieceIndex !== 0) && (pieceIndex !== lastIndex) && exceptions.includes(piece)) {
+            } else if ((pieceIndex !== 0) && (pieceIndex !== lastIndex) && exceptions && exceptions.includes(piece)) {
                 results.push(piece);
             } else {
                 results.push(capitalizeFirst(piece));
@@ -138,7 +138,7 @@ function replaceCapitalizes(sentence, capitalizes, allCaps) {
 }
 
 function capitalizeEyes(sentence) {
-    let eyesRegex = /( )(i)( |<span .*<\/span>m |$)/g;
+    let eyesRegex = /( )(i)( |,|<span .*<\/span>m |$)/g;
     return sentence.replaceAll(eyesRegex, replaceEye);
 }
 
@@ -180,9 +180,9 @@ function contractions(sentence, apostropheMap) {
         'youve': 3,
         'weve': 2,
         'theyve': 4,
-        'ill': 1,
+//        'ill': 1, // ill i will problem
         'youll': 3,
-        'hell': 2, // hell is probably more common than he'll?
+//        'hell': 2, // hell is probably more common than he'll?
 //        'shell': 3,
         'itll': 2,
 //        'well': 2,
@@ -218,7 +218,7 @@ function contractions(sentence, apostropheMap) {
         'thered': 5,
         'someones': 7,
         'somebodys': 8,
-        'ones': 3,
+//        'ones': 3, ambiguous. eg yes, but which ones?
         'nobodys': 6,
         'somethings': 9,
         'nothings': 7,
@@ -227,7 +227,6 @@ function contractions(sentence, apostropheMap) {
         'oclock': 1,
     };
     let result = sentence;
-    result = result.replaceAll('\'', '<span class="apostrophe">&apos;</span>');
     let wordMatches = [...sentence.matchAll(/\w+/g)];
     wordMatches.reverse();
     let apostropheIndex;
@@ -244,6 +243,7 @@ function contractions(sentence, apostropheMap) {
             result = `${result.substring(0, wordMatch.index + apostropheIndex)}<span class="apostrophe">&apos;</span>${result.substring(wordMatch.index + apostropheIndex, result.length)}`;
         }
     }
+    result = result.replaceAll('\'', '<span class="apostrophe">&apos;</span>');
     return result;
 }
 
@@ -281,6 +281,9 @@ function navigationEntry($section) {
     const id = $section.attr('id');
     const key = $section.attr('data-key');
     const value = $section.attr('data-value');
+    if (!value) {
+        return $('');
+    }
     if ($section[0].nodeName !== 'SECTION') {
         // console.log('navigation entry return early');
         if (id === 'book'){
@@ -561,6 +564,7 @@ function renderBook(lines) {
         'title': 'h1',
         'underline': 'u',
         // todo figure tag and figcaption
+        // todo consider horizontal rule, divider
     };
 
     const brands = {
@@ -571,7 +575,7 @@ function renderBook(lines) {
         'youtu.be': 'youtube',
     }
 
-    const httpLinkRegex = /(\b(https?):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;  // from https://stackoverflow.com/questions/37684/how-to-replace-plain-urls-with-links?noredirect=1&lq=1
+    const httpLinkRegex = /(\b(https?):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;\(\))]*[-A-Z0-9+&@#\/%=~_|\(\)])/gim;  // added permission for parends in urls, from https://stackoverflow.com/questions/37684/how-to-replace-plain-urls-with-links?noredirect=1&lq=1
     const $lines = [];
     let $currentSection = null;
     let $currentGrid = null;
@@ -638,7 +642,9 @@ function renderBook(lines) {
         if (key === 'link') {
             let text = value;
             let bookName = '';
+//            let is_local = false;
             if (text.startsWith('#')) {
+//                is_local = true;
                 text = text.substring(1);
                 bookName = text;
                 if (bookName.indexOf('#') >= 0) {
@@ -651,11 +657,14 @@ function renderBook(lines) {
             if (text.indexOf('#') >= 0) {
                 text = text.substring(0, text.indexOf('#'));
             }
+//            if (is_local) {
+            text = titleCase(text);
+//            }
             let cls = '';
             if (bookName) {
-                cls = `class="book" data-name="${bookName}"`;
+                cls = `class="book" data-name="${bookName}" `;
             }
-            value = `<a ${cls} href="${value}">${text}</a>`;
+            value = `<a ${cls}href="${value}">${text}</a>`;
 
         }
         if (key === 'page title') {
@@ -719,6 +728,7 @@ function renderBook(lines) {
                         linkDescriptionHtml = replaceApostropheEntities(linkDescriptionHtml);
                     }
                     value = `${brand}<a href="${urlMatch[0]}">${linkDescriptionHtml}</a>`;
+                    break;
                 }
             }
         }
@@ -832,7 +842,7 @@ function loadBook(name) {
 
 function loadBookEvent(event) {
     const $target = $(event.currentTarget);
-    console.log($target);
+//    console.log($target);
     const name = $target.attr('data-name');
     loadBook(name);
 }

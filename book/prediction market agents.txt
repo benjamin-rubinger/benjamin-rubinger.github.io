@@ -332,6 +332,8 @@ chapter: incentives
 
 one typical incentive for work is pay. other incentives include camaraderie, the development and expression of mastery and the joy of being useful to others. for some people having an occupation is a way to escape other parts of their life. if someone isnt distracted by work, they will pursue other distractions including time wastes and addictions.
 
+it comes down to accountability. a business owner is accountable to the market, if their business produces value, they can succeed in the market and be paid for the value they produce. if their business doesnt produce value, the market holds them accountable and stops paying them. someone paid a salary is not immediately accountable for producing value, they can become a free rider. managers are hard to hold accountable because the value they can create is hard to estimate. beyond that, managers are a distinct and self promoting social group that themselves hold the power to hold others accountable and not hold themselves accountable. the incentives is for managers to protect their own, not to hold each other accountable. individual contributors produce estimable value, entrepreneurs and owners are exposed to the market, middle management is insulated from accountability, and prevents individual contributors from taking accountability. what did you accomplish this week?
+
 chapter: payment
 
 subsection: commission

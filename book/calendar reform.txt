@@ -116,8 +116,9 @@ apostrophize: earth's
 apostrophize: moon's
 apostrophize: indicator's
 
-page title: the best human earth calendar - benjamin rubinger
+page title: The Best Human Earth Calendar - Benjamin Rubinger
 title: the best human earth calendar
+subtitle: holocene ordinal decimal
 by: benjamin rubinger
 estimated reading time: 45 minutes or more
 dom: book/calendar-reform-earth-revolution-side-title.dom
