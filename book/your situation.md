@@ -793,16 +793,21 @@ Robin Hanson's theory is that we take love as a sacred cultural value. Making so
 ## Love in Theory
 We have one word for love while the greeks distinguished several forms.
 
-
-| Greek Word  | Meaning                                      | Example                         |
-|-------------|----------------------------------------------|---------------------------------|
-| Agape       | Unconditional abstract love                  | I wish you well                 |
-| Eros        | Intimate love, appreciation of their beauty  | You are so pretty               |
-| Platonic    | Appreciation of the abstract, without physical attraction | The perfection of a circle      |
-| Philia      | Loyalty to equals                            | Friendship                      |
-| Storge      | Affection for unequals                       | Between parents and children    |
-| Philautia   | Self love                                    | Positive and negative thoughts about yourself |
-| Xenia       | Hospitality                                  | Care for guests                 |
+| Greek Word | Meaning | Example |
+|---|---|---|
+| Agape | Unconditional abstract love | I wish you well
+ |
+| Eros | Intimate love, appreciation of their beauty | You are so pretty
+ |
+| Platonic | Appreciation of the abstract, without physical attraction | The perfection of a circle
+ |
+| Philia | Loyalty to equals | Friendship
+ |
+| Storge | Affection for unequals | Between parents and children
+ |
+| Philautia | Self love | Positive and negative thoughts about yourself
+ |
+| Xenia | Hospitality | Care for guests |
 
 Romantic relationships as we think of them today usually have eros. Anything else? People like to say their romantic partner is also their best friend. When they break up, they sometimes say I wish them well. This suggests a combination of eros, philia, and agape, love is sex friends who care about each other. I like you a lot. Is that what people mean when they say I love you? Sometimes. But emotions are temporary. Often I love you doesn't refer to liking, as in the otherwise contradictory phrase, I love you, but I don't like you right now. That love means commitment.
 
@@ -902,33 +907,56 @@ Speedrunning is a metagame where players find ways to complete games as quickly 
 
 | Chapter | Delusion | Cost | Mechanisms | Opportunity |
 |---|---|---|---|---|
-| I Experience the World | The world is like it appears | Inaccurate, incomplete view of the world, unobservant | Fovea, saccades, blind spot, visual processing, conceptual lens | Account for physical limitations to get a fuller view of the world, become observant |
-| Goals | Goals are unimportant | Aimless confused life | Terminal, instrumental, non, anti, convergent, divergent, exchange instruments | Find your goals and how to pursue them |
-| Agents | Life happens to you | Neglect your ability to direct your life | Awareness, mastering habits, internal locus, observe think act cycle | Active pursuit of your goals |
-| I Know Exactly What's Happening | I have all the information I need | Miss crucial information | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit | Prioritize and fight for information |
-| This is Serious | I have to play their game | Suffer under others' rules, never play your own game | Life is a metagame, dead and live players, define your rules, play to win | Live your own life |
-| Decisions | I make good decisions | Make bad decisions with catastrophic results, overanalyze trivial decisions | Detecting decisions, collecting information, generating options, stakes, delegation, urgency, deliberation, reversibility, iteration | Efficiently use resources to make better decisions |
-| I Have Free Will | I have free will | Fatalism or overestimate yourself | Unpredictable determinism, praise and blame | Agency in an unpredictable deterministic world |
-| I am a Success | I know what success is and I can achieve it | Empty wins or constant disappointment | Species, human and personal success, waves, excellence | Reliably pursue your own success |
-| I Know the Score | I can measure how I am doing | Follow the wrong metrics, wrong methods, wrong path | No objective score, paths, continency and independence, over and under determined, dao | Pursue your dao |
-| I've Always Been Me | I am what I seem to be | Don't know what you are | Multiple autonomous agents, press secretary, boundaryless dynamic process | Embrace an accurate view of your own nature |
-| I Know Myself Best | I have accurate information about myself | Act on wrong view of yourself | Challenge of self reflection, revealed preferences, large independent samples, awareness and courage | Realistic self-assessment |
-| I Use My Time Well | I am not procrastinating | Avoid your most important problems | Savoring, breaking down tasks, warming up, ask a friend, blinders, deciding what to do and not | Resume climbing your path when you get stuck |
-| I Understand Other People | Like mind fallacy | Misunderstand other people consistently | Noticing like mind, surpassing like mind, capability modeling | Predict other people more accurately |
-| I Knew I was Right | Confirmation bias | Act on persistent inaccurate beliefs | Reversed confidence, disconfirming evidence, seek the truth | Limit beliefs to evidence |
-| My Mind is Safe | No one can attack my mind | Loss of mental control to aggresive memes | Memes, psyops, negative suggestion, halo effect, anecdotes, memetic and antimemetic, virality, memetic defense | Mental sovereignty |
-| My Emotions are Correct | My emotions are always right, other people cause my emotions | Feelings over facts leads to misguided actions | Subconscious reaction to beliefs, created only by you, requires skill to interpret, independent verification | Use emotions as a powerful tool |
-| I Just Want to be Happy | I am satisfiable | Chase the illusion of happiness | Lowered expectations, gratitude, humble ambition | Live gratefully, pursue your values |
-| Talking is for Information Transfer | I understand why people talk | Fail to effectively use or understand speech, lose social games | Filtering, social acceptance, implicit requests, dominance hierarchy, signaling, socially defined reality, when to speak | Understand the rules of social games |
-| I am a Good Person | I am a righteous hero | Unable to consider your moral problems | Accept that you can be bad | Become able to make moral choices |
-| This is true love | I don't need relationships, I must accept my relationships | Suffer alone, suffer together | New relationship energy, honor, limits to control, cost-benefit relationship management | Beneficial relationships |
-| What is love? | Love is sacred and mysterious | You don't know what love is or how to love | The sacred, commitment, love is a skill | More love in your life |
-| Organizations Pursue their Mission | Organizations primarily do what they say they do | Misunderstand organizations, fail to get what you want, get crushed | Group mission vs individual goals, alignment of incentives, assertiveness | Survive among organizations |
-| I Don't Need Anyone | I never need to surrender, compromise or coordinate | Fail to coordinate with other people | Individualism, loyalty, service, following, leading | Achieve your goals through stable cooperation |
+| I Experience the World | The world is like it appears | Inaccurate, incomplete view of the world, unobservant | Fovea, saccades, blind spot, visual processing, conceptual lens | Account for physical limitations to get a fuller view of the world, become observant
+ |
+| Goals | Goals are unimportant | Aimless confused life | Terminal, instrumental, non, anti, convergent, divergent, exchange instruments | Find your goals and how to pursue them
+ |
+| Agents | Life happens to you | Neglect your ability to direct your life | Awareness, mastering habits, internal locus, observe think act cycle | Active pursuit of your goals
+ |
+| I Know Exactly What's Happening | I have all the information I need | Miss crucial information | Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit | Prioritize and fight for information
+ |
+| This is Serious | I have to play their game | Suffer under others' rules, never play your own game | Life is a metagame, dead and live players, define your rules, play to win | Live your own life
+ |
+| Decisions | I make good decisions | Make bad decisions with catastrophic results, overanalyze trivial decisions | Detecting decisions, collecting information, generating options, stakes, delegation, urgency, deliberation, reversibility, iteration | Efficiently use resources to make better decisions
+ |
+| I Have Free Will | I have free will | Fatalism or overestimate yourself | Unpredictable determinism, praise and blame | Agency in an unpredictable deterministic world
+ |
+| I am a Success | I know what success is and I can achieve it | Empty wins or constant disappointment | Species, human and personal success, waves, excellence | Reliably pursue your own success
+ |
+| I Know the Score | I can measure how I am doing | Follow the wrong metrics, wrong methods, wrong path | No objective score, paths, continency and independence, over and under determined, dao | Pursue your dao
+ |
+| I've Always Been Me | I am what I seem to be | Don't know what you are | Multiple autonomous agents, press secretary, boundaryless dynamic process | Embrace an accurate view of your own nature
+ |
+| I Know Myself Best | I have accurate information about myself | Act on wrong view of yourself | Challenge of self reflection, revealed preferences, large independent samples, awareness and courage | Realistic self-assessment
+ |
+| I Use My Time Well | I am not procrastinating | Avoid your most important problems | Savoring, breaking down tasks, warming up, ask a friend, blinders, deciding what to do and not | Resume climbing your path when you get stuck
+ |
+| I Understand Other People | Like mind fallacy | Misunderstand other people consistently | Noticing like mind, surpassing like mind, capability modeling | Predict other people more accurately
+ |
+| I Knew I was Right | Confirmation bias | Act on persistent inaccurate beliefs | Reversed confidence, disconfirming evidence, seek the truth | Limit beliefs to evidence
+ |
+| My Mind is Safe | No one can attack my mind | Loss of mental control to aggresive memes | Memes, psyops, negative suggestion, halo effect, anecdotes, memetic and antimemetic, virality, memetic defense | Mental sovereignty
+ |
+| My Emotions are Correct | My emotions are always right, other people cause my emotions | Feelings over facts leads to misguided actions | Subconscious reaction to beliefs, created only by you, requires skill to interpret, independent verification | Use emotions as a powerful tool
+ |
+| I Just Want to be Happy | I am satisfiable | Chase the illusion of happiness | Lowered expectations, gratitude, humble ambition | Live gratefully, pursue your values
+ |
+| Talking is for Information Transfer | I understand why people talk | Fail to effectively use or understand speech, lose social games | Filtering, social acceptance, implicit requests, dominance hierarchy, signaling, socially defined reality, when to speak | Understand the rules of social games
+ |
+| I am a Good Person | I am a righteous hero | Unable to consider your moral problems | Accept that you can be bad | Become able to make moral choices
+ |
+| This is true love | I don't need relationships, I must accept my relationships | Suffer alone, suffer together | New relationship energy, honor, limits to control, cost-benefit relationship management | Beneficial relationships
+ |
+| What is love? | Love is sacred and mysterious | You don't know what love is or how to love | The sacred, commitment, love is a skill | More love in your life
+ |
+| Organizations Pursue their Mission | Organizations primarily do what they say they do | Misunderstand organizations, fail to get what you want, get crushed | Group mission vs individual goals, alignment of incentives, assertiveness | Survive among organizations
+ |
+| I Don't Need Anyone | I never need to surrender, compromise or coordinate | Fail to coordinate with other people | Individualism, loyalty, service, following, leading | Achieve your goals through stable cooperation
+ |
 | Death is Scary and Bad | Old age and death are pointless | Fear and dissociate about old age and death, misplay your life stages | Old age and death mechanics, pipeline of life stages, benefits of limitations, speedrunning | Play your life stage, speedrun your life |
 
 **The end of *Your Situation***
 
 [Shakubuku. A swift spiritual kick to the head that alters your reality forever.](https://www.imdb.com/title/tt0119229)
 
-Version 12025 295
+Version 12025 310

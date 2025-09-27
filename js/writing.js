@@ -555,6 +555,7 @@ function renderBook(lines) {
         'image': 'img',
         'italic': 'i',
         'js': '',
+        'line': 'hr',
         'link': 'div',
         'page title': null,
         'quote': 'blockquote',

@@ -11,24 +11,31 @@ Download Who Gets What PDF https://benjamin-rubinger.github.io/book/who%20gets%2
 Discuss Who Gets What https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions/categories/who-gets-what
 
 chapter: Introduction
-Communication is the transfer of thoughts from one mind to another. It is expensive and full of mistakes. Miscommunication is the default, not the exception. So, why do it? People's needs are in conflict, which can be resolved by force, but force is even worse than communication. Communication is the superior alternative to force to resolve conflicts, and allows coordination. Communication is the basis of human success, the pen is mightier than the sword. Communication changes the world, for better and worse, by creating and distributing benefits. We communicate to decide who gets what benefits. You need benefits to survive, so your life depends on your communication. You are in a forever war for benefits in social reality.
+
+Welcome to Who Gets What. You communicate throughout your life, and you have probably formed your own idea of what communication is and what it is for. You might naturally think that communication is for positive things, like building relationships, expressing yourself, transferring information, having fun and enabling cooperation. While communication can do these things, the intuitive view is wrong. Your actual behavior does not match your good intentions. When people communicate, the positive things are what they tend to think about. Exceptions and counterexamples to the intuitive theory, things like deception, power dynamics, status seeking, political conflict and others, seem to be mistakes and inefficiencies. Life isn't perfect.
+
+But the only reason you can read this is that your parents survived to produce you. In a sense, survival and reproduction are the only things that matter to living things. As you live your life, you aren't always thinking about survival and reproduction themselves, they are not typical human obsessions. Instead, you are probably more interested in relationships, food, achievements, status, money, sex, entertainment.
+
+The intuitive view of communication is wrong, and this book will show you a more useful and true model. Communication developed in the history of life long before conscious thought or humans. It developed, persisted and spread because it gave survival and reproductive advantages to species that communicated over those that did not. In the same way that you consciously care about relationships or money, but life is actually about survival and reproduction, communication feels like it is about expression and cooperation, but it is still entirely about aiding survival and reproduction in the unavoidable and endless competition for limited benefits. All of the exceptions and mistakes that don't fit with the intuitive view are essential in this guide to who gets what. Let's start again, with what communication is.
+
+Communication is the attempt to transfer thoughts from one mind to another. It is expensive and full of mistakes. Miscommunication is the default, not the exception. So, why do it? People's needs are in conflict, which can be resolved by force, but force is even worse than communication. Communication is the superior alternative to force to resolve conflicts, and allows coordination. Communication is the basis of human success, the pen is mightier than the sword. Communication changes the world, for better and worse, by creating and distributing benefits. We communicate to decide who gets what benefits. You need benefits to survive, your life depends on your communication. You are in a forever war for benefits in social reality.
 
 section: What This Book Covers
-This book describes what communication is, interpretation, competition, cooperation, power dynamics, the fundamental communication strategies, how you relate to groups, politics and a master plan to win your war.
+This book describes what communication is, interpretation, competition, cooperation, groups, status, the fundamental communication strategies, politics and a master plan to win your war. Topics are translated into common-sense systems. I use detailed tables to break these systems down into manageable parts, so you can see how to fix them when they go wrong and learn how to make them work for you piece by piece.
 
 section: What Benefits Will You Get from Reading?
-We naturally communicate using our intuition, but we don't really know what we are doing, or why. This book breaks down the common aspects of communication to help you understand overall what we are doing, protect your interests and achieve your goals in life. I can't tell you what to say, but I can show you how saying works. My goal is to effectively inform you about how you and others use communication to pursue goals. I want to help you make your dreams come true.
+We naturally communicate using our intuition, but we don't really know what we are doing, or why. This book helps you understand what we are doing overall and in detail, protect your interests and achieve your goals in life. I can't tell you what to say, but I can show you how saying works. My goal is to effectively inform you about how we use communication to pursue goals. I want to help you make your dreams come true.
 
 section: Ethics of Communication
 Communication can both help and harm. Knowledge about how to harm can both do harm and protect from harm. It was always this way, whether I describe it or not. In my opinion, our collective ignorance and misuse of communication is a heavy cost and a significant risk to our future potential. I believe that this work will be a net benefit. I want the best for humanity and I am against injustice.
 
 chapter: Mechanics of Communication
 section: The Production of Communication
-Communication is intuitive to us, but there is a lot to it. This is a good thing, it means that communication can be a powerful tool to get you what you want. The following is an overall description of an individual process of communication, starting from the outside world, entering the mind and producing communication that radiates back out to the world, one cycle. Most parts of the process aren't relevant at most times, but every part is critical sometimes.
+Communication is intuitive to us, but there is a lot to it. This is a good thing, it means that communication can be a powerful tool to get you what you want. The following is an overall description of an individual process of communication, starting from the outside world, entering the mind and producing communication that radiates back out to the world, one cycle. Most parts of the process aren't relevant to analyze at most times, but every part is critical to analyze sometimes.
 
 grid3:
 Phase
-Actor
+System
 Description
 Reality
 Parallel realities, objective reality, social reality
@@ -103,7 +110,7 @@ grid2:
 Language development
 Example
 Action reaction
-Invade my territory, push out of my territory
+You invade my territory, I push you out of my territory
 Posture and vibe, body language
 When you approach my territory, I make a defensive display
 Sign
@@ -120,6 +127,34 @@ Pictogram
 Drawing on the sand or painting on the cave wall
 Language
 What we are doing right now. Waves.
+
+section: Body Language
+Communication developed in the medium of in-person interaction, and can involve all aspects of an interaction. Other media, such as this writing, are extremely limited in how they express thoughts, when compared to real-life interaction. A lot of what people communicate in person is not in the words they say. It is often less important what you say, it is more important how you say it. Body language is one category of ways to communicate beyond words. There are several dimensions of body language.
+
+grid4:
+Dimension
+Description
+Consistent
+Inconsistent
+Position
+Where is the speaker located relative to the listener. Near or far? Above, equal, below? In front of, beside, behind? Approaching, fixed, receding?
+Approaching close, Are you ok?
+Receding, Are you ok?
+Posture
+The overall arrangement of the speaker's body. Standing, sitting, kneeling, lying down. Upright, tense, relaxed, slouching.
+Standing straight, What can I do for you?
+Lying down, slouching, What can I do for you?
+Gesture
+Specific positions or movements of the speaker's limbs. Pointing, waving, nodding your head, rolling your eyes, turning your feet away.
+Arms open wide, Good to see you!
+Arms folded across chest, Good to see you.
+Expression
+Smaller positions or movements of the speaker's body. Smiling, frowning, raising an eyebrow, tapping a finger.
+Eyebrows up, mouth open, You did a good job!
+Scowling, frowning, You did a good job.
+subsection:
+
+How you say things has dimensions beyond body language, things such as timing, when you choose to say something, your tone, pitch, speed, emphasis, rhythm, breathing, volume, physical contact, scent, even what you are wearing and what else you are doing at the time can totally change the meaning of the words you say.
 
 chapter: Language Games
 section: Games
@@ -161,6 +196,9 @@ This is text on a page
 Beliefs
 Information about subjective facts such as beliefs. Whether someone has a belief is objective, why they believe is subjective.
 I think you are good looking
+Emotions
+Information about feelings, which are subconscious reactions to beliefs.
+I am so happy for you! (Then why are you crying?)
 Intent
 Information about what someone is trying to do
 I have your best interests at heart
@@ -172,35 +210,255 @@ Information about group evaluation
 We all think that what Susie did was terrible. They should kick her out.
 subsection:
 
-Simple communication is purely information transfer about objective reality. Almost no communication is simple. If you focus on simple communication, you forfeit communication in the other dimensions and will likely lose benefits. Communication is a primary method for playing social games to get benefits. Typical communication emphasizes the non-simple dimensions and has a loose relationship to objective fact. Collecting and communicating about objective facts is one thing that people do, but constructing messaging is a lot of the work that people do.
+Simple communication is purely information transfer about objective reality. Almost no communication is simple. If you focus on simple communication, you forfeit conflicts in the other dimensions and will likely lose benefits. Communication is a primary method for playing social games to get benefits. Typical communication emphasizes the non-simple dimensions and has a loose relationship to objective fact. Collecting and communicating about objective facts is one thing that people do, but expressing non-simple things and constructing messaging is a lot of the work that people do.
 
 section: Messaging, Esoteric, Exoteric
-Messaging is the process of designing communication for maximum advantage, using every dimension including fact, belief, intent, signaling and reputation. Communication has a speaker and a listener. Individuals within a group, insiders, can communicate about the messaging their group will speak to listeners outside of the group, outsiders. The discussions among insiders are called esoteric statements, and the messaging for outsiders are exoteric statements. The society of mind within a person has esoteric internal discussion to construct exoteric messaging for people outside the person.
+Messaging is the process of designing communication for maximum advantage, using every dimension including fact, belief, emotion, intent, signaling and reputation. Communication has a speaker and a listener. Individuals within a group, insiders, can communicate about the messaging their group will speak to listeners outside of the group, outsiders. The discussions among insiders are called esoteric statements, and the messaging for outsiders are exoteric statements. The society of mind within a person has esoteric internal discussion to construct exoteric messaging for people outside the person.
 
 An example of internal esoteric communication. They are looking at me! What should I say? Should I tell them what they want to hear? No, they will see what I am doing immediately. Should I tell the truth? No, that won't get me what I want...
 
 When a person is part of a group, the group has esoteric discussion about how to message to outsiders. Esoteric discussion is a social calculation of how to communicate to maximize benefits, followed by exoteric statements that execute the plan. Then outsider groups have esoteric discussions about how to message other groups, the chain of esoteric to exoteric continues without end.
 
+chapter: Conversation
+A conversation is an interaction that attempts to create, negotiate or trade benefits. In a conversation, the participants are called parties, and they send messages to each other through a channel. A message is the physical form of a statement. A channel is the physical medium that transmits the message from the sender to the receiver. Interaction is not just a bunch of actions, and it is not thoughtless reactions. An action becomes a message transmitted through the channel to a receiver, the receiver thoughtfully responds to that message, the previous sender receives the response and responds to the response. Interaction is not action action action, interaction is response response response. Interaction is a sequence of responses. All conversations are interactions, but the word interaction focuses on actions and consequences, while the word conversation focuses on the responsive transfer of thoughts to achieve goals.
+
+You might assume that conversation requires talking, but it doesn't. People can converse using paper letters, wrestling, and other actions that are not called conventional language. People can come to understand each other's actions without ever meeting or saying a word. Conversation subsumes negotiation, all negotiation is conversation, but not all conversation is negotiation. Some of conversation is trade, delivering benefits such as information about physical or social reality, entertainment, social connection, etc.
+
+True conversation is both cooperative and a social contest. When both parties cooperate, that is a two-sided conversation, and is voluntary, even if they disagree about the subject. Conversation can fail in many ways and degenerate to become one-sided, or fail into physical contest. Even if the parties to a conversation totally disagree on the subject they are discussing, if they both acceptably respond to conversational cues, they are cooperating to converse. A party to a conversation can refuse to talk, called stonewalling, or they may otherwise not follow conversational cues. In both cases, the event is one-sided, not a conversation.
+
+What are conversational cues? Conversational cues are messages that direct the conversation. For example, if someone approaches you, addresses you and starts talking, that is a cue that they want to start a conversation with you. If you were conversing with them, and they stop talking and move away from you, that is a cue that they want to end the conversation. If someone cues you to start a conversation, and you avoid them, you are cuing that you do not want to talk. If someone wants to force you to talk, their social force may convince you, or the conflict over talking may degenerate to physical conflict, such as fighting or an arrest.
+
+Conversation is partially under your control and partially not under your control. You may have a specific conscious objective for a conversation, but your subconscious, the circumstances, and the other party may not comply. All of your actions are not fully conscious, and thus not fully under your voluntary control. Whether or not the conscious you says anything, other people can read your subconcious body language to talk with the subsconscious you.
+
+A one-sided expression, monologue, has a start and a finish and can be represented linearly. This linear string of words itself is an example. A two-sided conversation that has already happened, a dialogue, can also be represented linearly, by naming each party and listing who said what in order. The script of a play is an example. But a dialogue that is not predetermined, the potential futures of a conversation that hasn't completed yet, is not linear. There are many possible things each party could say, and many possible responses. The branching structure of potential future statements is called a conversation tree. If they say this, I should say that. But if they say this other thing, I should respond with that other thing. People who are well prepared for a conversation can respond effortlessly to every actual situation in the conversation, because they have fully-considered responses for every branch that the conversation actually takes. Sometimes a conversation proceeds smoothly until someone takes a branch that the other party did not prepare for, and you can observe the other party switch, or fail to switch, from their prepared conversation tree to a real-time attempt to form a response. People who engage in creative conversation prefer to diverge from the prepared conversation tree as quickly as possible, while people who engage in uncreative conversation try to keep the conversation within the prepared conversation tree as much as possible. These two styles are playing semi-incompatible language games, they can understand what the other person is saying, but they won't like it, and will avoid talking to them in the future.
+
+The language game of conversation, by definition, has rules. Some rules are necessary, both parties have to speak languages that the other party can understand, or else the conversation can not take place. Some rules are socially defined and can be broken, often including rules around conversational cues and norms, standard expectations about what people think and should do. If you are saying something and someone asks you to stop and repeat a part of what you just said, this is a basic norm that you should comply with. You should stop proceeding with what you were saying, go back and repeat the part that they requested. This is following conversational cues and cooperating. A two-sided conversation requires functional transmission of messages, if the other person briefly couldn't hear you, that move of the game did not occur, so repeating what you previously said allows the game to proceed.
+
+There is also typically a norm of taking turns, with one person speaking, the other person listening, and the expectation that the speaker will at some point stop speaking and give the listener their turn to respond. This is necessary for most games, most games cannot be won on the first turn. Typically, speaking longer gives the speaker an advantage in the game, so speaking turns should generally be equal. Different conversations lend themselves to different lengths of speaking times. Interrupting a speaker by speaking over them is usually violating a norm, because it is difficult to speak and listen at the same time, causing both parties to fail to advance in the language game, wasting time and effort. If a speaker doesn't take turns, or takes more than their fair share of speaking time, or makes several dependent points that the listener rejects, interruption may be cooperative. In japanese culture, certain parts of conversations are so tightly scripted that it is common and polite to speak over each other. Both parties already know that entire part of the script, and what the polite response will be, and it is more polite to speak over the other person with the proper response than to wait for them to finish saying it, and then make them wait for you to say the scripted response afterward.
+
+The essential elements of any conversation
+- More than one party
+- Parties are in overlapping spacetime. Otherwise, physical interaction of signals is impossible.
+- Has a start and an end. Conversation is a temporal phenomenon.
+- Communication channel. A physical medium to transmit messages, otherwise messages can not be received.
+- Communication protocol. Allows parties to choose and play compatible language games, to form mutually legible messages.
+- Listening. All parties receive messages from the channel.
+- Cognition. Recipients accurately interpret messages into similar thoughts as the sender, understanding messages and building coherent thoughts on top of those thoughts to form a response.
+- Expressing. Parties transform responses into messages and transmit them through the channel.
+- Surprise, unknown or unexpected information. Progress is essential to conversation, totally predictable statements are not progressive, no longer interactive, not a conversation.
+
+These basic conversation requirements allow conversation to occur at all, but these conversations can be unproductive, meaningless, wasteful, unpleasant, or escalate to violence. Beyond the basic possibility of conversation, what elements are essential to create great conversations, ones that are productive, meaningful, efficient, pleasant, ones that realize the potential of communication as the superior alternative to violence?
+
+The essential elements of great conversations
+- Directed interest in the other party. Even if the topic of a conversation is factual, people are the only meaning makers. The facts must ultimately serve the interests of a party to the conversation. To reliably serve a party's interests, the other parties have to know what those interests are, which requires being interested in knowing about the other party.
+- Cognitive empathy and perspective taking. Each party to a conversation is necessarily different. Sometimes, these differences are essential to making progress. Parties must be able to find, understand and apply the differences between the parties to respond effectively.
+- Find achievable, meaningful goals. The parties may not necessarily find the same goals, not agree with each other about the goals, or even not be aware of the goals, but a great conversation finds goals.
+- Conversation awareness, cue-responsive adaptability. Conversations have very different purposes and structures, and can change purposes and structures during the course of the conversation. No fixed set of rules applies to all parts of all conversations. Conversation protocols use cues as dynamic signaling rules. Cues signal parties to change pace, depth, take turns and more. A great conversation is interactive, cooperative, and cooperation requires following compatible protocols. Conversation protocols require responding effectively to cues. Responding effectively to cues does not mean blind obedience.
+- Presence, follow and advance the conversation. Parties synchronize their thoughts and advance their thoughts together to interact, by definition. To a degree, higher synchronization and faster advancement means better conversation.
+- Operational, tactical and strategic. A great conversation functions as an interaction, the responses function to advance the topic at hand, and the topics advance the goals of the conversation, including the goal to find goals. A great conversation works. Yes, even phatic, emotional, creative, or exploratory conversations serve their purposes.
+- Efficiency. Starting and ending a conversation at an effective place and time, in an effective way. Saying only what needs to be said. A wrongly narrow view of efficiency prohibits exploration, emotion or style, it considers them inefficient. But some amount of exploration, emotion and style is efficient. The perfect amount of exploration is unknown, but conversation is an imperfect information game with scarce resources, so there is an efficient explore-exploit ratio. Casual, unstructured, creative or playful conversations can be efficient as part of a coherent strategy, whether intentional or not.
+- Create benefits by achieving a meaningful goal
+
+Conversation is a discovery process, where each party privately hypothesizes about what every party has and wants. Importantly, you don't fully know yourself, you know neither fully what you have nor what you want, and you know even less about others. But each party in a conversation forms hypotheses about what the parties have and want, and then tests those hypotheses by making offers and bids. An offer is a price a seller states that they would accept for a trade, and a bid is the price a buyer states that they would pay for a trade. Conversational cues also operate the trading functions of a conversation, to indicate if a party wants to trade, when to make bids and offers, when a bid or offer is accepted or rejected, when to transact the trade, how to execute the transaction, etc.
+
+The information game of a conversation is asymmetric. You know some of the things you have and you want, but other parties might not know what you have or want. And there are plenty of mistakes, things you wrongly think you have or you want, and things you wrongly think you don't have have or don't want, and other parties make similar mistakes. This is very difficult to reconcile. These mistakes and others contribute to the impossibility of perfect communication and the fact of miscommunication being the default.
+
+What is the social contest of conversation? Parties cooperate to converse, and cooperate to achieve goals in conversation, but they compete to contribute more to the conversation and claim more of the credit, and they compete over the benefits that they cooperated to produce. There is a general skill of conversation, also called the art of conversation. Conversation is creative and open-ended, but it certainly includes narrower skills such as listening, understanding, anticipating, deciding, responding, speaking. The skill of conversation is also the skill of negotiation. Conversation is interactive, but scripts are not. People can create a false impression of their skill of conversation by having an excellent script, but once the conversation diverges from the script, and no script is capable of covering substantial conversation trees, then the conversation requires skill, judgement, interaction, and the difference between someone with conversation skills and someone who only has a script is revealed.
+
+Conversation as a social contest means that conversational benefits are distributed based on skill and luck. Any individual interaction could resolve one way primarily due to luck, but over many interactions, the benefits will accrue primarily due to skill. Your relative skill in conversation and your bargaining power determines your negotiating power, which determines the distribution of benefits from the conversation, which defines your benefits.
+
+Conversations have multiple states. An initial state where the parties negotiate how to start the conversation, an exploratory state where they probe for what they could give and get, the negotiation of bids and offers until they agree to trade, an execution of a trade. The conversation can change states quickly, or stay in the same state for a long time, loop around states repeatedly, or mix multiple states. Long established relationships often skip certain states, such as introduction, performativity, probing.
+
+grid3:
+State
+Description
+Example
+Preparation
+Explore or practice the conversation tree in advance, collect evidence or props, prepare allies or contingencies
+What if they don't remember me? I can remind them with this picture. What if they say no to my request? I will ask them what I could do to receive their approval.
+Greeting
+Cues to start and accept the conversation
+Hello. Hello.
+Initialization
+Negotiate which protocol to start with
+How can I help you?
+Search for achievable goals
+The exploration of opportunities for each party
+What do you want to talk about? I don't know, what do you want to talk about?
+Change protocol
+Negotiate switching to a different protocol
+No need to be so formal, we are friends!
+Change topic
+Introduce a topic of conversation. All parties have to agree on what the topic is.
+I wanted to ask you about that. No, wait, we haven't decided the previous point yet.
+Polite and performative
+Follow cultural scripts, conform to social expectations, tolerate rudeness, prioritize process, harmony or reputation over results. Parties patiently tolerate mistakes, violations.
+I am pleased to meet you. No, the pleasure is mine.
+Pursue goals
+Explore the topic, attempt to solve the problem
+I would like to do it this way. What do you think?
+Interjections, humor, denial, derision, encouragers
+Interactive responses within a turn
+...and that is when I...Oh no, they are going to tell the same story again...Go on, tell it!...
+Correction, alternatives, backup, reconfirmation, backtrack
+Miscommunication and mistakes are common, this is explicit error correction to recover from errors and progress to other states
+What did you say? That doesn't sound right. No, that didn't come out right. What I meant to say was...
+Apology, reconciliation
+Steps to recover from more harmful or intentional problems
+I am sorry, I was mistaken. I shouldn't have said that. Can you forgive me?
+Being direct, dropping pretense
+When a party loses patience with politeness or performativity and becomes direct
+Stop dancing around it. What are you really saying?
+Escalation
+Cues that the conversation is breaking down, heading toward failure or physical force
+Oh yeah? Say that again.
+Exhaustion
+One or more parties lose energy or focus to continue
+...and that's why we have to...sigh...what was I saying?
+Interruption, take a break
+Cue to pause the conversation with the intention to resume later
+Hold on, something came up, I will be right back.
+Resume
+Cue to continue the conversation after an interruption
+Sorry to keep you waiting. What were we talking about?
+Probing
+Discussion that seeks to learn information about what the other party has and wants, preparation for negotiation
+How has your business going lately? Have you been hiring?
+Negotiating terms
+Making offers and bids, arguing, rejecting and agreeing to terms, introducing claims and evidence to support or contest offers, bids or terms
+I paid less for it last week. The market price is higher this week. Come on, I buy from you every week! I can only guarantee prices if we sign a long term agreement.
+Closing or rejecting a deal
+Determining whether a deal is made or not
+Do we have a deal? Yes.
+Negotiating fulfillment
+A separate round of negotiation, after a deal is made, about how to fulfill the deal within the agreed on terms
+When can I receive the goods? The shop is busy this morning, but you can pick them up in the afternoon.
+Transacting
+All of the communication to execute the deal
+Here is my order and the money. Here are the goods, and your receipt.
+Summary, conclusion, wrap-up
+Cues that this objective, topic or deal is complete, reviewing the previous conversation for omissions or errors
+Did I miss anything? That is everything we agreed on.
+Post or meta discussion
+Comments or discussion about the deal or the conversation
+It was a pleasure doing business with you. Next time, I will know to ask if you are busy first.
+Invitation to next round
+Conversation can continue, expand, cycle indefinitely. When one part of a conversation ends, parties can negotiate what to do next.
+What else do you want to talk about?
+Farewells
+Cues to finish the conversation
+That is all I wanted to say, I have got to be going now.
+Termination
+Cues to end the conversation
+Goodbye. Goodbye.
+
+section: Manners
+Politeness is following inconvenient, socially-defined rules to express consideration and accomodate other parties. Manners are your overall level of politeness. Breaking the politeness rules, such as acting for your own convenience, is generally rude, not polite. Because politeness is socially defined, a given behavior may be polite in one culture and rude in another. The inconvenient rules of politeness cause it to be a costly signal, signaling is explained leter.
+
+Generally, it is more polite to make yourself more like an object or concept, to avoid the personal or savage aspects of being a human animal. Politeness shifts the focus from your needs to the needs and preferences of the other party. For example, it is often more polite to wear clothing that covers your body and makes your body appear more like an object than an animal, while often one of the rudest things you can do is show your naked butt to someone else. Polite clothing and behavior can help other people to know what functions you serve and how to interact with you, while rude people are poorly dressed, unpredictable and demanding. Often it is polite to be clean, like a pleasant inanimate object, not dirty or smelly like an animal. It is often polite to be patient and not express your erratic internal emotions. Often it is polite to show that you are not physically threatening or aggressive. For example, the practice of waving your hand at someone as a greeting is polite because it is inconvenient, is very easy for the other person to see, it is unambiguous, so it is easy for the other person to understand, and your open hand shows that you aren't holding a weapon,  so it is non-threatening.
+
+Politeness rules are for the benefit of others, you follow certain rules that make the conversation easier for them. When the other party is a stranger, you dont know who they are or what they are like. This uncertainty makes strangers more dangerous than someone that you know well. The stranger may be violent or easily offended in unexpected ways. Often, people are more polite to people they don't know as a form of personal protection. This sometimes creates a dynamic where a person is polite to strangers, and rude to their close connections. The lack of politeness, even until rudeness, is a form of social proof that another person is very close to you. You know them very well, and you know whether they are violent or what might offend them. You know them so well, that you can say or do things to them that strangers would not accept. In this dynamic, politeness matches social distance, with greater politeness associated with greater social distance, greater rudeness with closer connection.
+
+On the other hand, the relationships with the highest return for your efforts are your strongest functional relationships. The most effective allocation of your efforts should generally be, the most effort for your closest and most rewarding relationships, and the least effort for more distant relationships. You may follow certain basic politeness rules with strangers, and then show deeper and deeper consideration for those closer to you.
+
+One possible synthesis of these opposing dynamics is showing the greatest care and politeness for your closest social connections, combined with occasional violations of politeness rules that demonstrate how close you are, while you show consistent common courtesy to strangers for your own safety.
+
+section: Apology
+Apology is a social system and a skill to repair broken relationships. A common misunderstanding of apology is that it consists only of saying I am sorry. The naive idea of how apologies work might be that the phrase I am sorry is a magic spell to fix problems. Of course, the words themselves do not solve anything, they are just hot air. The words do signal submission, which is one reason that resistant people refuse to say them. The words take accountability, I did it. Apology is also an admission of fault, which can lead to liability, meaning you might have to pay some of your benefits to others if you admit that you wronged them.
+
+An insincere apology might include the words or a payment, but part of what makes an apology sincere is contrition. Contrition is your belief that what you did was wrong. Inconveniently, beliefs are invisible and subjective, so it is difficult to know if another person is contrite. If you wrong someone, then by default, everyone should predict that if a similar situation occurs again, you will do the same thing. The incontrite still think that what they did was right, they would do it again. The evidence of your contrition is your subsequent behavior. Your behavior proves your beliefs, regardless of what you say, actions speak louder than words. What makes an apology sincere is that you think you were wrong and you take reasonable steps to change your behavior to not do it again.
+
+People are sometimes careless. They might remain recklessly ignorant of how their actions harm others. One part of an effective apology is an accurate explanation of how the apologizer's actions harmed others. The standard of an acceptable explanation is defined by the wronged parties, not by the apologizer. The standards of the apologizer are a conflict of interest.
+
+The Apology Process
+
+- The future apologizer does something wrong.
+- A party with standing demands an apology. This could be someone wronged, a third party with relevant responsibilies, or the future apologizer, using self-recognizance.
+- Create contrition. I would not want someone else to do that to me, therefore what I did was wrong. The future apologizer reflects on their actions to understand the causes, their choices, the consequences, identifies their faults, and revises their policy.
+- The apologizer apologizes to the wronged. This can include a description of what they did, the harms, their responsibility, contrition, identifying their faults, saying sorry, payment, promise to not do it again, improvement program.
+- The wronged evaluates the apology. Is the explanation correct? Are the performance and claims plausible? Is the payment sufficient? Is there a revised policy and is the revision likely to work? Overall, is the apology likely to be effective? Does the wronged want to continue their relationship with the apologizer? Accept or reject the apology. An accepted apology repairs the relationship and creates a promise, a rejection means the relationship remains damaged.
+- Apologizer practices and realizes the revised policy. Does the wrong recur or not? If the wrong behavior stops, the apology may have worked.
+
+Why can't the apologizer silently fix their own problem by themselves? They are the only person who can change their behavior. Why do they need to apologize to the wronged, and why do the wronged need to accept the apology? Apology is costly to the apologizer. They can lose time, effort, reputation and other benefits. An apology is a costly signal, part of the value of the signal is the cost. The cost is a disincentive to the apologizer to deter wrongdoing. But the cost and process still appear to be wasteful, who else benefits from apology?
+
+The system of apology benefits groups and works in repeated social games, apologies are important for ongoing relationships. One function and benefit of an apology is making a promise. An apology includes a promise to the group that the apologizer will try to not do the same wrong again. If no promise is made, then no promise is kept and no promise is broken. Keeping promises builds trust and improves relationships. Another value of promises is creating violations. Breaking a promise is a violation that groups can punish. Without the promise, there is no violation, and harmful behavior is harder to identify and disincentivize. Apologies increase accountability to individuals for their behavior, counteracting selfish incentives that harm groups. Accountability benefits groups and their members overall. People naturally feel that everything they do is right, until social reality condemns their behavior. Apology closes the feedback loop of social reality.
+
+section: Performativity, pretense, kayfabe
+Performativity has two versions. One version of performativity is following scripts, performing roles, practicing a ritual or an image. For example, if someone says something they are not supposed to say, sometimes people show performative indignation, How dare you?! They aren't really angry, but they are supposed to be angry, so they pretend to be angry to perform their role. Roles, rituals, etc. have something in common, they are fixed, predefined, they are not responsive. This lack of responsiveness causes this form of performativity to be less effective at achieving goals, because the world is complex and ever changing, no fixed strategy can accomodate the complexity and unique situations of reality like thoughtful, creative, adaptive responses can. Further, the priority of performative behavior is to conform to the script, not to solve the problem. It's defensive, I was doing what I was supposed to do, so you can't blame me for the poor result.
+
+The second form of performativity doesn't necessarily follow a script, it creates a performance. Natural behavior is simple for you to do. You naturally say and do what you think or feel is best. A performance is unnatural behavior crafted for another purpose. If you decide to do x as part of achieving y, that is not performative. If you decide to do x so that it looks like you are achieving y, that is performative. Natural behavior doesn't need excuses, while performative behavior does. Performative behavior is different from what you think is best, it is dishonest. You might exaggerate parts of your performance to specially appear a certain way to others, to yourself, or even to no one. There are additional incentives to perform when you are being observed, also called social pressure.
+
+When you are honest, genuine, authentic, you are confident about your actions because you think they are the best. You don't overly care what other people might think, because you believe that what you are doing is right. Authentic behavior is the same no matter who knows about it, while performative behavior can change based on context or audience. Contrast authenticity with performativity, people being performative care about what their behavior looks like, whether or not they care about what it directly achieves. Someone being performative is pretending. All performance is dishonest. A performance is pretending to think or feel something so that you appear a certain way that is different from what you really think or feel. But someone being performative does not want the audience to know that they are pretending, because that is less convincing. This stressful performance of both pretending and hiding the fact that you are pretending is called pretense. The holistic deceptive operation and mindset to maintain a presense is called kayfabe.
+
+section: River of conversation
+A river is a flowing body of water, and a conversation is interactive communication. These are two completely different things. There is a metaphorical relationship between them, these different things have specific, useful correspondences. Both rivers and conversations are temporal, have a start and an end, and run their course. Rivers and conversations flow. The water of a flowing conversation are the messages each party transmits. Stonewalling is an attempt to dam up the river.
+
+There is a saying, you can never step into the same river twice. In a superficial way, this statement is false. If I walk up to a river, step into it, then take my foot out and step into it again, I stepped in the same river twice, no problem. But the world, the river, and myself, are continuous temporal phenomena. The first time I stepped into the river, it was composed of certain drops of water. The second time I stepped into the river, the original water had flowed some distance downstream, and the second time I stepped into the river, my foot stepped into different water. Ok, perhaps I don't care which water is in the river at any given time, I care about flow of the water, and that is the same. No it isn't. Rivers are not constant, they ebb and flow moment by moment, hour by hour, season by season, year by year. The river changes the landscape and the landscape changes the river, both continuously. You are not the same person from moment to moment either, if nothing else, you are older. But you change in other essential ways. You can't step into the same river twice because you aren't the same person from one moment to the next, and neither is the river. The world, the river and you are not constant or stable. The only way to step into a river more than once is to form a snapshot of a specific moment, and then recreate it exactly, which we can't do in practice.
+
+Maybe we accept that you, the world and the river are technically different from moment to moment, but perhaps there is no practical difference? Sometimes you can seem to step into the same river twice, and have the same conversation twice. Any differences between the two events is insignificant. But the river and life are chaotic. The ultimate cause of a hurricane can be the flapping of a butterfly's wings halfway across the world. Rivers naturally shift their course through erosion, deposition and the activities plants and animals. These elements interact continuously to shift the course of the river in unpredictable ways. We cannot predict the orbits of three or more bodies in space, we cannot predict the extended future weather, and we cannot predict the changing course of rivers, because these are chaotic systems. Seemingly insignificant initial changes sometimes amplify into totally different results. We never know what effects our words will have on others with certainty, and we often don't know when or why the words we speak to another person will be the last between us.
+
+The course of the river follows the shape of the land, and the course of a conversation follows the shape of physical and social reality. Your physical circumstances and your beliefs determine your thoughts, which determines what you say, and other parties' circumstances and beliefs equally determine what they say, determining the course of the conversation as surely as water flows downhill. Rivers meander, they can only be confined artificially. No party to a conversation can be certain of how the conversation will go, because no one knows the entire future, and no one knows anyone else for certain, but equally, rivers don't flow uphill. Sometimes one or more parties have the conversation within their grasp. No matter which way the conversation turns, if it doesn't dry up it will inevitably reach the sea.
+
+section: Hypothesis testing
+Science is the practice of creating useful models of reality. Hard sciences create models of physical reality and social sciences create models of social realities. A model is simpler than the thing it describes, so the model does not account for everything, meaning that all models are inaccurate relative to the thing they model. Two identical things are not models of each other, but replicas. A hypothesis is a potential change to a model. Forming more accurate and more useful models requires hypothesis testing. Any change could make a model more or less accurate or useful, so to determine which changes improve the model, you have to test the changes to find out. Hypothesis testing requires interaction with the thing you are modeling. From one point of view, you could describe science as a conversation between models and realities, where a model learns about reality to model it better.
+
+In your own conversations, you model yourself, the world and the other parties to predict what everyone has, what everyone wants, and what is possible. You use your models to make predictions, some of those predictions are hypotheses to improve your models, some of those predictions inform your decisions about how to best achieve your goals, your idea of how to get what you want.
+
+Your models include claims about physical reality, claims about social reality, the history of the conversation including memories of actions and memories of previous states of your models. Models are useful to speculate, using the model to make predictions about the thing it models. Speculations are untested hypotheses about physical reality, social reality, what parties have and what parties want. You use your predictions to make decisions. Decisions are how you go from what you know and speculate to attempts to get what you want, testing your hypotheses, experiments. Once you decide what you want to do, you execute your decision and perform it to participate in and to advance the conversation, every action is running an experiment to see what happens. Your actions also give results to others' experiments of their own hypotheses. Bids and offers, and accepting or rejecting deals are also forms of hypothesis testing. Executing trades, responding to conversational cues, and other conversational behavior are means to execute experiments, which test hypotheses, that attempt to improve your models and get you what you want. When you overly focus on your models and your execution of speaking, this is the common degenerate practice of failing to listen and merely thinking about what you should say, or waiting for your chance to speak. The conversation degenerates to two separate monologues, you talk past each other, no experimental results.
+
+A successful conversation, for you, is one that advances your goals, meaning it contributes to your current or potential benefits. This rarely happens by chance. You have to know what your goals are, what you have to bid and offer, what they have, what they want, what the best exchanges would be and the most effective ways to achieve a trade. You have to speculate about what might work best in this situation, taking advantage of everything you know and can find out. A common problem is overly focusing on what you want. This violates the fundamental rule of trading, a trade benefits both parties. A conversation is not about what one party gets, a deal can only be made when both parties figure out a way to gain from a trade. To get the most you can get, you should be almost as focused on how you can threaten or benefit the other party, as on how the other party can threaten or benefit you.
+
+section: Clever contest
+One of the ways that we use conversation is to signal our capability, and thus our value. We demonstrate how threatening of an enemy we could be, or how useful of an ally we could be. This signaling is competitive, implicitly some conversations can be understood to mean something like, I am so smart! That's not smart, I am smart! No, I am smarter. No! I am smarter! This is what I call the clever contest, where parties compete to dominate the social hierarchy using conversation. This competition can be constructive, destructive, or both.
+
+Part of how the clever competition usually works is that conversation follows associations and flows unpredictably, like life. Conversations naturally meander from topic to topic, covering a surprising variety that no party can fully predict or control, without destroying the interaction of conversation. If you have nothing useful or interesting to say about various topics, you appear to not have much to contribute to the group and lose the contest. If you can consistently contribute to the conversation, no matter where it twists and turns, this is a signal to prove that you are mentally powerful, adaptable, versatile, resilient, all valuable qualities. A job interview typically includes a conversation as a hard-to-cheat test of your value as an employee.
+
+If a party knows about your strengths and weaknesses, they can intentionally influence the conversation to avoid your strengths and reveal your weaknesses, creating a false negative impression of your value, an oppositional converational strategy. People who know you well can cooperate with you, secretly or openly, intentionally or unintentionally, to avoid your weaknesses and reveal your strengths, creating a false positive impression of your value, a cooperative converational strategy. Other people can make you appear weaker or stronger than you are, socially putting you down or lifting you up, but this is only in social reality. In physical reality, you are always nothing more or less than what you are. This is tautological in physical reality, but social reality can distort your appearance to yourself or others to an incredible degree, and the objectivity has a practical application here. You can ground your self image to counter the distortions of social reality.
+
+You don't have to participate in clever contests for social domination, but it is often in your interest to signal your value to others, or to create benefits directly. If you are more clever or valuable than others, depending on circumstances such as the absence of oppositional strategies, you can succeed with the simple strategy called Just be yourself. Just be yourself almost always works if you are significantly more valuable than the other parties. But if your value is close enough to the other parties, dirty tricks can allow less valuable people to socially dominate more valuable people. For your own benefit in this case, you need to compete by understanding the competitive or oppositional strategies other parties use and counter them effectively, sometimes described as having a sharp tongue, being unflappable, or being graceful.
+
+The most challenging position to be in, when participating in a clever contest, is to be less clever. In a straight contest, you would lose. But being clever isn't the only form of value, and cleverer people often expose systematic weaknesses that you can exploit. When you cannot win a straight contest, you can wait for, or influence your opponent to make a mistake. Almost all real conversations are full of mistakes.
+
+Never interrupt your enemy when he is making a mistake. Napoleon Bonaparte
+
+Techniques to win clever contests when you are less clever
+grid2:
+Name
+Description
+Intellectual catnip
+Clever people find specific topics irresistably interesting, while other people find those topics boring. Introduce one of those topics to invite them to harm their own position in the conversation.
+Overcomplicate
+Clever people are able to form larger, more complex models of reality. Sometimes, sophistication is more powerful and accurate. Often, sophistication causes more error, as described by Occam's Razor, the simplest explanation is most likely to be correct. When a clever party is succeeding using a simple model, you can remind them of real exceptions and complexities that the simple model doesn't account for. This can cause the clever party to reject the simple model, attempt to use a more complex model and arrive at the wrong answer, creating a mistake.
+Weakness of theory
+Cleverer people are better at modeling, and tend to have higher confidence and depend on more complex models that involve unproven theory. All models have weaknesses, and more complex models have more severe weaknesses. You can select a challenge that you can handle modestly using a simple model, but that fails badly using theoretical models.
+Challenge
+Cleverer parties are more capable than you. You can set and achieve a modest goal, but a cleverer party can achieve a superior goal and defeat you. You can challenge the cleverer party to cause them to overextend. Due to their pride or inaccurate prediction of their skill, they may attempt to achieve perfection or take a risk and fail entirely, causing your modest achievement to win.
+Simultaneous
+Cleverer parties can do more than others, and more at the same time. Doing one thing at a time can be boring, but is often more reliable. You can influence a clever party to make mistakes by challenging them with multiple simultaneous objectives. They may correctly estimate that they can do the objectives separately, but underestimate the difficulty of achieving them simultaneously. You can forfeit some objectives to reliably advance one at a time, while the cleverer party may attempt to do it all and fail.
+Mundane
+Cleverer people are always exploring the unknown, seeking limits, taking risks. Performing the mundane tasks, repeating only the known, reliable methods is insufferable to them. You can defeat a cleverer party by not making mistakes, not taking risks, following a simple, reliable strategy, preparing multiple backups, focusing on fundamentals, being more committed, as in the parable of the Tortoise and the Hare.
+
+
 chapter: Knowing Yourself
 To get what you want, you have to know what you want. What do you want? You want benefits! Yes, but which ones, and what are your best ways to get them? I can't know your specific situation, but the constant in every situation you find yourself in, is yourself. People tend to avoid looking at themselves too closely, distract themselves from their own problems, delude themselves about who they are, lie to themselves, feel angst and mystery about who am I, really?
 
 section: Travel
-Some people travel to distant locations to find themselves. You won't physically find your missing self in a foreign land or at the top of a mountain. I do recommend travelling and living in a very different culture at least once in your life, it can give you a lot of perspective about your native culture and yourself that would be difficult to notice if you stayed only at your birthplace. Experiencing a foreign culture provides a counterexample to compare your culture and yourself against.
+Some people travel to distant locations to find themselves. You won't physically find your missing self in a foreign land or at the top of a mountain. I do recommend travelling and living in a very different culture at least once in your life, it can give you a lot of perspective about your native culture and yourself that would be difficult to notice if you stayed home. Experiencing a foreign culture provides a counterexample to compare your culture and yourself against.
 
 section: Facing Yourself
 What you need to know yourself is not a foreign location, you need to face yourself right now. What if I don't like who I really am? There is no what if, no human should like everything about themselves. You are a human, there are things you should want to improve about yourself. If you think you are perfect, you have no motivation to continue to grow. On the one hand, you should always accept yourself fully. Rejecting yourself is a contradiction, what alternative do you have to yourself? Beyond acceptance, you should be satisfied with yourself. Dissatisfaction with yourself is again a contradiction, if you are not enough for yourself, what alternative do you have? Even though you are satisfied with yourself, as long as you live, you can always do more. You should be grateful to be alive, want to continue living, accept yourself for who you are, and make your full effort to do even better starting now.
 
-Ok, but how can I face myself when I am so good at avoiding myself? one method is to think about your body, your behavior, your affiliations, your achievements, your goals as if they were a third party. If you judged someone else that you heard about for the first time today who happened to be the same as you, how would you evaluate them? Yes, harshly, but what would you suggest that they should do differently? Some people will jump to the common prescription, I should exercise more. I do recommend to find ways to include physical activity that you enjoy into your daily life, but your surface appearance isn't very important. Your appearance should not be an important objective, you should have important objectives that then cause you to want a decent appearance to help achieve them.
+Ok, but how can I face myself when I am so good at avoiding myself? One method is to think about your body, your behavior, your affiliations, your achievements, your goals as if they were a third party. If you judged someone else that you heard about for the first time today who happened to be the same as you, how would you evaluate them? Yes, harshly, but what would you suggest that they should do differently? Some people will jump to the common prescription, I should exercise more. I do recommend to find ways to include physical activity that you enjoy into your daily life, but your surface appearance isn't very important in itself. You should have important objectives that then cause you to want a decent appearance to help achieve them.
 
 section: Reflection
-How do you answer the questions like, Who am I? What do I want? What are my principles? You look at your past actions as a third party observer and look for patterns. What motivates you? That may have something to do with what you want. When did you stand up for or against something? That may have something to do with your principles. What are you good at? That may be related to your abilities. Who are you, really? You already know what you are like in detail. For example, what are you like when no one is watching? Who you are is nothing more than what you tend to do, your preferences, choices, abilities, goals.
+How do you answer the questions like, Who am I? What do I want? What are my principles? You look at your past actions as a third-party observer and look for patterns. What motivates you? That may have something to do with what you want. When did you stand up for or against something? That may have something to do with your principles. What are you good at? That may be related to your abilities. Who are you, really? You already know what you are like in detail. For example, what are you like when no one is watching? Who you are is nothing more than what you tend to do, your preferences, choices, abilities, goals.
 
 In a sense, this is the secret method behind the highly desired and much discussed quality of self confidence. Self confidence is not some insane belief that you can and will get everything you want in life. No one can know that. Self confidence is knowing what you currently want, your objectives in your social forever war, and doing something to achieve them. You don't know whether you will reach any destination, you are confident that your self is attempting to climb your path.
 
 section: Becoming
 Who you are tends to be very far away from who you wish to be, so far that there seems to be no relationship between those two people. Who you think you want to be can be mistaken. Take a good hard look at who you are and check if who you think you want to be is actually someone compatible with your motivations, preferences, abilities. Reject any fixed idea of who you should be, especially any idea that someone else told you or you think someone else wants. External expectations can only be correct coincidentally. What other people do and say does not apply directly to your subjective beliefs. Everything in objective reality, including what other people say, are potentially important evidence you can use to update your beliefs. Only you can live your life.
 
-Your goals for yourself should change as you learn more. Take an honest look at yourself and think about what is the first thing that you could do better, and do it. Then keep doing that, find the next first thing that you could do better. This is called thinking on the margin. This is the process of self improvement, living your life to the fullest. If this sounds unreasonable and exhausting, you are doing it wrong. By definition, you can only do things that you are able to do. The things that you can in fact improve are only things you are already able to do, which are always reasonable and affordable. If you exhaust yourself or drive yourself into failure, this is good information to learn from. Learn from your mistakes, including your mistaken beliefs about yourself, and improve on them too. Find ways to fail faster so you can learn more. Looking at yourself, your behavior, your achievements and your process of improvement, you will come to know yourself very well, and have better and better ideas of who you could become, how to become them, and what you want in life.
+Your goals for yourself should change as you learn more. Take an honest look at yourself and think about what is the first thing that you could do better, and do it. Then keep doing that. Find the next first thing that you could do better. This is called thinking on the margin. This is the process of self improvement, living your life to the fullest. If this sounds unreasonable and exhausting, you are doing it wrong. By definition, you can only do things that you are able to do. The things that you can in fact improve are only things you are already able to do, which are always reasonable and affordable. If you exhaust yourself or drive yourself into failure, this is good information to learn from. Learn from your mistakes, including your mistaken beliefs about yourself, and improve on them too. Find ways to fail faster so you can learn more. Looking at yourself, your behavior, your achievements and your process of improvement, you will come to know yourself very well, and have better and better ideas of who you could become, how to become them, and what you want in life.
 
 section: Social Objectives
 No war is won only through pure determination or good tactics, every war has objectives, including yours. What are your current life goals? Surprisingly, people are so intuitive about living their own lives that they are often unaware of their own objectives, which makes it all but impossible to achieve them. To gain the most benefits, you should know what your objectives are in every social interaction. There is no victory without self knowledge. Being privately aware of your social objectives is necessary to reliably get what you want. I know what I want to achieve with this book. What do you want to achieve by reading it? What was your objective in your most recent social interaction? How did it go? What could you have done better? What could you do now to do better next time?
@@ -250,7 +508,7 @@ subsection:
 It is a simple fact that someone says Yes, but its significance can be almost anything. What Yes means is determined by the context and the ability of the listener. Someone can make a true statement today that the listener misinterprets as meaning something false or totally different from what the speaker intended, but the same listener at a later time can reinterpret that statement and arrive at the truth or form another, totally different, wrong interpretation.
 
 section: Impossibility
-The impossibility of perfect communication is unsolvable. Exact transmission of thought using language requires exact interpretation, and exact interpretation requires identical shared beliefs, which we can never establish. Of course, communication is possible and we are probably communicating right now, but the important part of interpretation is that we have to both play the same language game together for the communication to work. The easiest example of a language game is the language itself, if you didnt know english, this book would just be a pile of uninterpretable words. The idea of language games is attributed to Wittgenstein.
+The impossibility of perfect communication is unsolvable. Exact transmission of thought using language requires exact interpretation, and exact interpretation requires identical shared beliefs, which we can never establish. Of course, communication is possible and we are probably communicating right now, but the important part of interpretation is that we have to both play the same language game together for the communication to work. The easiest example of a language game is the language itself, if you didn't know English, this book would just be a pile of uninterpretable words. The idea of language games is attributed to Wittgenstein.
 
 https://en.wikipedia.org/wiki/Language_game_(philosophy)
 
@@ -266,13 +524,15 @@ Interpretation obligates speakers to use sophisticated listener modelling when t
 Telling the truth to people who misunderstand you is generally promoting a falsehood. Anthony Hope
 
 section: Arguing
+subsection: Attacking Beliefs
 People communicate for many reasons, a significant category of communication is argument. An argument is an attempt to change someone else's beliefs, to convince them. Why do we care what other people believe? Because if we can change what others believe, we can gain benefits directly, or increase our status and gain benefits indirectly. An argument is a communication attack on others' beliefs in the war for social reality. This is why, when we notice someone arguing toward us, we feel attacked. We don't like being attacked and become defensive, attempting to protect our beliefs, whether our beliefs are accurate or not. Arguers want to defeat our defenses, so they try things like hiding their arguments. Sneak attacks are effective to bypass defenses in physical conflict, and hidden arguments are effective to bypass defenses in communication.
 
 The purpose of argument is to convince. People can only be convinced in two ways, their mental defense can be defeated by arguments they are vulnerable to, or they can convince themselves when you provide them information they find useful. Mentally vulnerable people are easier to defeat and convince, falling prey to bad-faith arguments. The mentally vulnerable include children, people in bad health or in distress, and low IQ. Also, more agreeable people tend to go along with what other people want, by definition. A classic tactic is to attack the listener's confidence in their own sanity or judgment, gaslighting, making someone more mentally vulnerable. Everyone, including you, make mistakes, and you will never be fully correct. But only you can take responsibility for your life, and only you can improve your sanity and judgment. Never allow others to harm your connection or ultimate faith in yourself to correct your mistakes, no matter how wrong you currently are. It is still only you that can fix it, no one else can save you.
 
-Convincing people by defeating their mental defenses is an oppositional or competitive strategy, while convincing them by telling them information they find useful is collaborative. These two purposes are very different, but their statements and behavior can appear similar. Oppositional behavior likes to cloak itself in collaborative clothing. It is usually possible to distinguish them. We call oppositional arguing bad faith, and cooperative arguing good faith. Bad-faith arguments are a mental attack intended to impose your beliefs on an unwilling subject. Good-faith arguments are a willing collaboration to approach or find the truth of a matter together, by attacking ideas and seeing which ones survive. One way to distinguish bad from good is open-mindedness, curiousity. Does the arguer care about and understand your beliefs, do they want to know why you believe what you do, are they willing to admit when they make a mistake? A curious person cares whether they are mistaken or not, an incurious person doesn't want to admit mistakes, they are not curious about how they might be wrong.
+Convincing people by defeating their mental defenses is an oppositional or competitive strategy, while convincing them by telling them information they find useful is collaborative. These two purposes are very different, but their statements and behavior can appear similar. Oppositional behavior likes to cloak itself in collaborative clothing. It is usually possible to distinguish them. We call oppositional arguing bad faith, and cooperative arguing good faith. Bad-faith arguments are a mental attack intended to impose your beliefs on an unwilling subject. Good-faith arguments are a willing collaboration to approach or find the truth of a matter together, by attacking ideas and seeing which ones survive. One way to distinguish bad from good is open-mindedness, curiosity. Does the arguer care about and understand your beliefs, do they want to know why you believe what you do, are they willing to admit when they make a mistake? A curious person cares whether they are mistaken or not, an incurious person doesn't want to admit mistakes, they are not curious about how they might be wrong.
 
-Good-faith argument is grounded. Grounding means there is a correspondence between words and facts, ground truths. The words attempt to transmit thoughts, generated from beliefs, that attempt to match objective reality.
+subsection: Grounding
+Good-faith argument is grounded. Grounding means there is a correspondence between words and facts, ground truths. The words attempt to transmit thoughts, generated from beliefs, mental models that attempt to match objective reality.
 
 https://en.wikipedia.org/wiki/Grounding_(metaphysics)
 
@@ -280,7 +540,142 @@ A good-faith arguer is very interested in evidence that contradicts their statem
 
 Thesis. Antithesis. Synthesis. Johann Gottlieb Fichte
 
-The idea of truth is high status. In practice, many people claim to have or seek the truth, but very few people do. It is often pretty easy to distinguish between people who seek truth and those who don't. Those who don't seek truth will make unrealistic claims that sound good, supporting the expression, if it sounds too good to be true, it probably is. This isn't coincidental, they have to lie. If they limit themselves to the truth, they would be a truth seeker. If they say anything apart from the truth, they will never choose something that sounds worse for their purposes. They will always choose something that sounds better, to gain more benefits. One common way to sound better and defend yourself from criticism is to simplify in your favor.
+subsection: Strawman
+A bad-faith technique people use to appear to win arguments is strawmanning. A strawman argument claims that the opponent holds a weak, easily defeatable claim that they do not actually hold, the weak claim is the straw man. Then the bad-faith arguer defeats the weak claim that they themselves invented to appear to win the argument. At no point in a strawman argument is the opponent's actual position required or mentioned. Strawmanning is a form of substitution, if I can't defeat my opponent's actual position, I will substitute a convenient, weak alternative, defeat that irrelevant position, and claim false victory.
+
+A real victory would only be possible if the arguer defeated the opponent's actual position. Beware that when someone wins an argument, instead of admitting defeat, the loser will sometimes lie and claim that they never held the defeated position, that they actually hold some other position that has not been defeated yet. That is called moving the goal posts.
+
+There is a good-faith variation of strawmanning, called steelmanning. In a personal argument, both arguers present their arguments, and the stronger argument wins. But good-faith arguers aren't interested in winning, or finding out who is better at arguing, they are interested in approaching the truth. In a cooperative, truth-seeking argument, both arguers use their full skills to argue against all positions, no matter which position they hold. If the other party makes a weak argument for a potentially strong position, the other party can assist the weak argument, making a steelman version, that may be able to better resist their attacks. There is no possible way to lose a good-faith argument, because the purpose of the arugment isn't to defend your existing beliefs, or force your beliefs on others, it is to test which beliefs survive scrutiny. A weak attack on a belief is less effective at testing it, so steelmanning attempts to collaborate to find the best attacks and defenses to reveal the most accurate beliefs.
+
+subsection: Biases
+The ideal reasoner remembers all evidence and only derives logical and necessary conclusions. Real people are far from ideal reasoners, we all think and argue in ways that are incomplete and full of mistakes. There are common and consistent mistakes that people make when they reason that we call biases. Here are some of the more important biases. The tables describe the name of the bias, what is the nature and purpose of the bias, the cause of the bias, a suggestion for how to counteract the bias, and how to provoke others to fall into the bias.
+
+grid2:
+Bias
+Confirmation
+Description
+I seek and promote evidence that shows that my current beliefs are true, and avoid or dismiss evidence that challenges my current beliefs
+Mistake
+The ego wants to hear that it is always correct, even though we all know that we are often wrong
+Counter
+Seek evidence that contradicts your beliefs
+Provoke
+Offer disproven evidence that confirms your opponents beliefs, and when they agree with that evidence, show that it is wrong
+subsection:
+line:
+
+grid2:
+Bias
+Availability
+Description
+I promote and rely on evidence that is more readily available, such as something happening right in front of me
+Mistake
+Available evidence is more convenient, not more true. Less available evidence could prove the opposite conclusion from the easily available evidence.
+Counter
+Seek all possible evidence, or unbiased sources of evidence, to form a valid conclusion
+Provoke
+Ask your opponent to support their claims with evidence. The opponent will often use evidence that is conveniently available to them. You can prepare less available evidence that contradicts your opponent's available evidence.
+subsection:
+line:
+
+grid2:
+Bias
+Typical Mind
+Description
+I assume that other people think and want the same things that I do
+Mistake
+Different people are different, they think different things, have different abilities, want different things
+Counter
+Specially consider how other people are different from you, and how those differences might lead them to different beliefs
+Provoke
+Think about how your opponent is thinking about the topic. They will often tell you what they think, anyway. Then ask your opponent if they think that you think the same way that they think. They will either claim that you think they same way they think, the Typical Mind fallacy, or they will admit that you are different, but be unable to correctly explain your perspective.
+subsection:
+line:
+
+grid2:
+Bias
+Projection
+Description
+Related to Typical Mind, Projection is when I claim that other people have the same problems or motivations that I do. For example, cheaters often accuse other people of cheating, even when the other people aren't.
+Mistake
+Interpretting other people is difficult, so by default we assume that other people do things for the same reasons that we ourselves would do them. This is a useful baseline, but the mistake is to not think beyond this assumption. Other people are in fact different from you.
+Counter
+Limit your statements about other people to what you have evidence for. Don't assume that you understand other people without evidence.
+Provoke
+If you suspect that someone is cheating, you can do something provably permitted but that appears extremely suspicious. The cheater may jump at the opportunity to accuse you, at which point you can turn the tables on them.
+subsection:
+line:
+
+grid2:
+Bias
+Dunning-Kruger
+Description
+The less I know about a subject, the less able I am to evaluate how skilled someone is in that subject. I will overestimate my own skill more when my skill is lower.
+Mistake
+This bias is caused by ignorance. The special quality of ignorance is that I don't know how much I don't know. That causes me to think I know a lot when I know a little, because I don't know what I am missing.
+Counter
+Don't assume you are superior or inferior to others because of what you think you know, focus on objective measures of performance.
+Provoke
+People will often argue about things that they are ignorant about. Ask them about how skilled they think they are in that subject, then put their claims to a test or collect evidence to prove that they are wrong.
+subsection:
+line:
+
+grid2:
+Bias
+Anchoring
+Description
+The first position, example, or context for an arugment will set an anchor point, meaning that further discussion will always be relative to that anchor point
+Mistake
+The truth may be totally unrelated to the anchor point you happen to start with
+Counter
+When arguing, attempt to consider the full space of possibilities where the truth could be
+Provoke
+Pay special attention at the beginning of a discussion to introduce an example close to the answer you will argue for, causing opponents to argue in reference to your example
+subsection:
+line:
+
+grid2:
+Bias
+Bandwagon
+Description
+I think that everyone else agrees about this point, so I will support this point to fit in
+Mistake
+Just because an idea is popular does not make it true
+Counter
+Use your own experience, your own critical thinking, use first principles, logic and evidence to form your own conclusions. Don't just follow the crowd.
+Provoke
+Use social proof to get your opponent to agree with you. Everyone else is doing it.
+subsection:
+line:
+
+grid2:
+Bias
+Sunk Cost
+Description
+I already spent so much time and money for this thing, it must be worth continuing
+Mistake
+Something is either true or useful now, or not, regardless of how much you spent on it in the past. People don't want to recognize when they were wrong, or something didn't work out.
+Counter
+When deciding whether to continue pursuing a project or not, consider whether you would choose to start funding that project now over every other alternative
+Provoke
+You want to cancel the project? Look at how far we have come, and how much we spent to get here.
+subsection:
+line:
+
+grid2:
+Bias
+Backfire
+Description
+When I defend my beliefs, even if I am shown to be mistaken, I get better at defending those beliefs and become more confident in them, not less
+Mistake
+Getting better at being defensive does not improve the accuracy of my beliefs
+Counter
+Separate your beliefs from your ego. Hold beliefs lightly. Attack your own beliefs. If they are true, they will survive any scrutiny.
+Provoke
+Are you going to let anyone tell you that you are wrong?
+
+subsection: Truth Bearer
+The idea of truth is high status. In practice, many people claim to have or seek the truth, but very few people do. It is often pretty easy to distinguish between people who seek truth and those who claim to but don't. Those who don't seek truth will make unrealistic claims that sound good, supporting the expression, if it sounds too good to be true, it probably is. This isn't coincidental, they have to lie. If they limit themselves to the truth, they would be a truth seeker. If they say anything apart from the truth, they will never choose something that sounds worse for their purposes. They will always choose something that sounds better, to gain more benefits. One common way to sound better and defend yourself from criticism is to simplify in your favor.
 
 Reality is complex, one of the inconvenient aspects of the truth is that it is equally as complex as reality. People can't understand full reality even in principle, simplification is unavoidable. Inserting yourself between the complex truth and others' understanding is a powerful strategy to gain status. There are other problems with the complex truth, such as the fact that language cannot convey some parts of reality, and is expensive and full of mistakes beyond that. These and other problems limit good-faith attempts to describe reality, to speak the truth.
 
@@ -288,15 +683,18 @@ But these limitations, and others, can also be arbitraged in bad faith to gain s
 
 Just like products and services, information can also be valuable, convertable into money or status. Truth arbitrage is taking advantage of the difference between the truth and what people understand. This is a competitive strategy, taking advantage of other people, so it appears mostly in negative-sum or zero-sum games or attitudes. Bad-faith truth arbitrage is a losing strategy in positive-sum games, where cooperation wins. In cooperation, people want to help each other understand as best they can in good faith. The way to protect yourself from truth arbitrage is to never blindly rely on anyone else. Everyone is wrong in some ways and some times. You can take good advice, but you must never fully substitute others' judgment for your own. Think for yourself. Trust and verify.
 
-Good faith arguments are one kind of thing, while bad faith arguments are many different things. There are few ways to be right, and many ways to be wrong. Committed good-faith arguers must ultimately agree. They converge on a shared understanding, if not approach the truth. I am not saying that good-faith arguers always have to agree on a conclusion, but they can always reach a mutual understanding. Uncommitted or unreasonable people may not converge, they can agree to disagree. Bad-faith arguers can also reach mutual understanding, but it can be ungrounded and have little correspondence with reality.
+subsection: Agreement
+Good-faith arguments are one kind of thing, while bad-faith arguments are many different things. There are few ways to be right, and many ways to be wrong. Committed good-faith arguers must ultimately agree. They converge on a shared understanding, if not approach the truth. I am not saying that good-faith arguers always have to agree on a conclusion, but they can always reach a mutual understanding. Uncommitted or unreasonable people may not converge, they can agree to disagree. Bad-faith arguers can also reach mutual understanding, but it can be ungrounded and have little correspondence with reality.
 
-People who argue are often engaged in totally incompatible activities, playing different language games, or unaware of their own objectives. Argument is too important of an activity to skip, but most people participate without any conscious idea of why or how. This doesn't only prevent speakers from being convincing, this muddleheadedness also makes listeners unable to be convinced! The listeners' idea of communication, their communication strategy, is ungrounded, so words do not correspond to the objective world, listeners do not attempt to check whether statements are valid or accurate with their own experience, words do whatever they feel like at the time.
+subsection: Ungrounded Listening
+People who argue are often engaged in totally incompatible activities, playing different language games, or are unaware of their own objectives. Argument is too important of an activity to skip, but most people participate without any conscious idea of why or how. This doesn't only prevent speakers from being convincing, this muddleheadedness also makes listeners unable to be convinced! The listeners' idea of communication, their communication strategy, is ungrounded, so words do not correspond to the objective world, listeners do not attempt to check whether statements are valid or accurate with their own experience, words do whatever they feel like at the time.
 
 90% of readers will skim through this book, say Cool story bro, and carry on with their lives as if they had never read it, as if these words have no relationship to the thoughts and actions they are making now or in the future. They are semantically disconnected. To them, words aren't functional, words are decorative, and furthermore the words I arranged are ugly. I present to you, the ugly truth. Or maybe words are functional only to validate their feelings and beliefs. This view is obviously wrong, we communicate because communication is functional. This book is about understanding what we are already doing and how to play functional language games to win. Whether or not your statements are grounded, your beliefs must be grounded in order for them to work. Almost nobody lives their life in isolation, so good-faith argument is a valuable tool to establish and maintain your grounded beliefs.
 
+subsection: Willingness to Agree
 We argue for the same reason we communicate at all, to get benefits. Generally, agreeing with someone else gives them your benefits, so people generally won't agree with anyone else. What benefit would they get for agreeing? None? Then, why would they ever agree? It is generally unproductive to argue with bad-fath opponents, so I recommend that you don't. Be cautious to form conclusions about other people's intent, because it is very convenient to dismiss others when you are wrong.
 
-Reasonable and fair-minded people exist. Even among unreasonable people, sometimes reality punches them in the face, literally or figuratively, hard enough that they do change their minds. Unreasonable people are only willing to change their mind when the benefits they lose from being wrong exceed the benefits they think they gain from holding onto their current beliefs.
+Reasonable and fair-minded people exist. They agree with others when others make a convincing, grounded argument, because grounding and discussing can be beneficial. Even among unreasonable people, sometimes reality punches them in the face, literally or figuratively, hard enough that they do change their minds. Unreasonable people are only willing to change their mind when the benefits they lose from being wrong exceed the benefits they think they gain from holding onto their current beliefs.
 
 It is difficult to get a man to understand something when his salary depends upon his not understanding it. Upton Sinclair
 
@@ -351,7 +749,7 @@ subsection: Accountability
 Interpretation is a fundamental and serious problem, it creates a serious vulnerability in holding people accountable for their speech. Simple statements are interpretable, undeniable, and can be used to hold people to account, while complex statements have multiple interpretations and create deniability. Imagine a criminal who wants to commit crimes without accountability, and investigators who want to hold the criminal accountable. Simply saying I committed the crime is an undeniable confession. Saying If I committed the crime, I wouldnt get caught has plausible deniability. It is possible to deny that you committed the crime after making that statement.
 
 subsection: Cat's Paw
-A criminal has several methods to talk about a crime without accountability. They could ask someone else to commit the crime and let them risk getting caught, that is called a cat's paw, getting someone else to do something risky for you, whether they know the risks or not.
+A criminal has several methods to talk about a crime without accountability. They could ask someone else to commit the crime and let them risk getting caught, that is called a cat's paw, getting someone else to do something risky or harmful for you, whether they know the consequences or not.
 
 If investigators find evidence that the criminal asked a cat's paw to do it, the criminal can still be charged with incitement, conspiracy or accessory. However, if the criminal never simply asks someone to commit a crime, it is difficult to charge them. Even omitting something like a specific time can prevent prosecution. Saying please commit the crime tomorrow at noon is illegal. Saying please commit the crime at some point soon is legal.
 
@@ -388,7 +786,7 @@ Imagine a reporter is challenging you about your political opinions. They ask, w
 
 The reporter loads their question by claiming that sources claim your views are dangerous. The reporter does not claim to hold this view, the reporter is just reporting that their sources make this claim. The reporter could be lying, there could be no source that makes that claim, or the source could be an unqualified friend of theirs. Just because someone claims something does not make it true, and interpretation of what people say is fraught to begin with. Typicallly, if you ask a reporter who their source is and the context of the claim, they will refuse to name their source, preventing accountability. So there is a possibility that their source is well-informed and correct, but it is also possible that their source is wrong or that no such source exists. It comes down to the fact that the reporter is asserting without evidence. If the reporter wanted to make an evidentiary claim, they would have likely cited their source instead of being vague about who they are. A claim without evidence can be dismissed without evidence. But dismissing their claim won't satisfy the reporter and likely won't satisfy their audience either.
 
-Even if their source is right or wrong, it turns out to be irrelevant to the question they asked. They asked you to respond to concerns about your policies. Whose concerns? What are they concerned about? They didnt say. And if they wanted to discuss policy, they would have asked you something specific about your policy proposals. They don't want to discuss policies, they want to discredit you. How do I know that? Because this question is carefully crafted, it is not a question, it is messaging, with a specific purpose. Its purpose is to make you look bad while preventing accountability for the reporter. Any answer you give looks bad, just like with well designed loaded questions.
+Even if their source is right or wrong, it turns out to be irrelevant to the question they asked. They asked you to respond to concerns about your policies. Whose concerns? What are they concerned about? They didn't say. And if they wanted to discuss policy, they would have asked you something specific about your policy proposals. They don't want to discuss policies, they want to discredit you. How do I know that? Because this question is carefully crafted, it is not a question, it is messaging, with a specific purpose. Its purpose is to make you look bad while preventing accountability for the reporter. Any answer you give looks bad, just like with well designed loaded questions.
 
 If you agree that people should be concerned about your policies, that sounds bad. Why would you advocate for policies so bad that they scare people?
 
@@ -438,7 +836,7 @@ Interestingly, silence is also messaging. If you don't have anything nice to say
 If you are the questioner, it is your responsibility to notice substitution and repeat the question, allowing grace for honest mistakes and forcing dishonest substitution to fail. People using substitution can be unaware or shameless, you may have to repeat and clarify a simple question several times. Use the broken record technique. A broken record is a metaphor of a malfunctioning device that unconditionally repeats the same sound over and over. Where were you yesterday? I don't know. Where were you yesterday? Why do you want to know? Where were you yesterday? I don't have to tell you. Where were you yesterday? etc. until they answer the question truthfully, lie, refuse to answer, or escalate. Any of those responses advance the conversation and you can stop using the broken record technique. I find oppositional and competitive communication dynamics pointless, they are usually negative sum. Where you can, find and limit your communication to cooperative. But you live in a society, society has competition, and you have to compete to survive.
 
 section: Scheming
-Deception is one tool to use while scheming. Scheming isn't just deception, or being extra deceptive. Scheming is a move in a metagame, deception about which game you are playing.
+Deception is one tool to use while scheming. Scheming isn't just deception, or being extra deceptive. Scheming is a secret move in a metagame, deception about which game you are playing.
 
 Deception and scheming are unnecessary if there is no deterrence. You can take candy from a baby if you decide to. Scheming is difficult when you play a well-defined game with tightly enforced rules, just play a winning strategy whether it uses deception or not. When rules are not well enforced, or there are multiple games you could be playing, scheming is deceiving the opponent about which game you are playing. When people ask, What are you scheming, they aren't asking which strategy you are using in the known game, they are asking which game you are playing that they don't know about. When a scheme succeeds, the loser says you tricked me! They lost because they didn't even know which game they were playing. Scheming is a common tactic for the multigamer communication strategy, introduced later.
 
@@ -457,54 +855,7 @@ It is impossible to live life without making judgments, you have to judge where 
 
 Overall, being aware of people's egos and how you express your judgments is important to securing benefits.
 
-Inaccuracies about ego hurt the ego. A common offender is the use of absolutes. It is usually better to avoid or qualify absolute statements, unless you have evidence to support them. Don't say, You always x. A qualified absolute is more accurate and less hurtful, such as, As far as I have seen, you always x.
-
-section: List of absolutes
-Always
-Never
-Forever
-Ever
-Constantly
-Invariably
-Eternally
-Every
-All
-None
-Not any
-Each
-No
-Everybody
-Everyone
-Nobody
-No one
-Everything
-Nothing
-Everywhere
-Universally
-Nowhere
-Definitely
-Certainly
-Absolutely
-Undoubtedly
-Surely
-Inevitably
-Must
-Have to
-Need to
-Shall
-Will
-Just
-Completely
-Totally
-Utterly
-Entirely
-Wholly
-Fully
-Only
-Solely
-Unconditionally
-Irrevocably
-Permanently
+Inaccuracies about ego hurt the ego. A common offender is the use of inaccurate absolutes, such as always and never, everyone and no one, all and none, everywhere and no where, must and impossible. It is usually better to avoid or qualify absolute statements, unless you have evidence to support them. Don't say, You always x. An accurately qualified absolute is more useful and less hurtful, such as, As far as I have seen, you always x.
 
 section: How to Give Feedback
 
@@ -708,7 +1059,7 @@ What makes us so powerful? No human is individually stronger than a bear. Nature
 
 If a farmer plants only one kind of seed, this is called a monocrop. This can simplify farm management, but if anything attacks a vulnerability of that plant, such as weather, insects or molds, the farmer can lose everything they planted. If instead, the farmer plants a variety of seeds, a diversified strategy, it is harder to manage, but most farm problems won't wipe out all of the crops at once. It is similar with people, people are all different, some are big and strong but easy to hit, some are small and weaker but hard to catch. Because we have different advantages, we can combine them. Using specialization, different people can do the things they do the best for the group, unlike someone working alone, or a group of people who are too similar.
 
-How does nature make us individually weak? Lots of ways. Human children are more helpless than other animals for a long time. A lot of baby animals get up and walk around immediately after birth. Pregnancy in humans is incredibly vulnerable for the mother, and for mothers of other species, it often isn't. Human birth is often a many hours long, dangerous process, and is generally very painful. Other animals don't appear to be in significant distress when they give birth. Nature could have made birth less painful and dangerous for humans, but it didnt. For example, consider if humans used a marsupial strategy, where babies are born small and immature, then continue to grow outside of the womb. Pregnancy could be shortened, especially the third trimester where the mother can be almost immobilized. Birth would be much faster and easier. Nature can make mammals less vulnerable than humans, but it didnt. Nature made us individually weak and vulnerable, to force us to rely on each other and communicate, because the individual is not the important unit of humanity. Our power lies in group coordination, so nature found ways to make us work together by necessity.
+How does nature make us individually weak? Lots of ways. Human children are more helpless than other animals for a long time. A lot of baby animals get up and walk around immediately after birth. Pregnancy in humans is incredibly vulnerable for the mother, and for mothers of other species, it often isn't. Human birth is often a many hours long, dangerous process, and is generally very painful. Other animals don't appear to be in significant distress when they give birth. Nature could have made birth less painful and dangerous for humans, but it didn't. For example, consider if humans used a marsupial strategy, where babies are born small and immature, then continue to grow outside of the womb. Pregnancy could be shortened, especially the third trimester where the mother can be almost immobilized. Birth would be much faster and easier. Nature can make mammals less vulnerable than humans, but it didn't. Nature made us individually weak and vulnerable, to force us to rely on each other and communicate, because the individual is not the important unit of humanity. Our power lies in group coordination, so nature found ways to make us work together by necessity.
 
 The Descent of Man by Charles Darwin, Chapter 2 Conclusion. https://www.gutenberg.org/ebooks/2300
 Mothers and Others: The Evolutionary Origins of Mutual Understanding by Sarah Blaffer Hrdy https://www.hup.harvard.edu/books/9780674060326
@@ -716,13 +1067,20 @@ Mothers and Others: The Evolutionary Origins of Mutual Understanding by Sarah Bl
 section: Faction
 Personal relationships reduce down to a single value, How much do I like or dislike you? I call this single relationship number the faction value. You can like or dislike someone for your own reasons, but your behavior reflects a single changing personal judgment of how much that relationship is worth to you, or how much you want to help, avoid or harm them.
 
-Yet, relationships are more complex than a single number. There are other aspects that can be just as important as faction value. Every pair of people has an ideal distance between them. There are some people that you are so compatible with, the closer they are and the more often, the better. Many people aren't good for you to relate with at all. And many good people do not have an ideal distance of zero or infinity with you, they are better to relate with at certain times, places, activities. Some people are better for socializing, some are better for working with, some are better to see one-on-one, some are better with a group.
+Yet, relationships are more complex than a single number. There are other aspects that can be just as important as faction value. Every pair of people has an ideal distance between them. There are some people that you are so compatible with, the closer they are and the more often, the better. Many people aren't good for you to relate with at all. And many good people do not have an ideal distance of zero or infinity with you, they are better to relate with at certain times, places, activities. Some people are better for socializing, some are better for working with, some are better to see one-on-one, some are better with a group. What is this person good for? What is this person good at? What do you need from them? What do they need from you? This applies to all relationships, including friendships. But friendships aren't about taking, they are about giving! Yes, so what kind of friendship do you want, do they want, what are you capable of, what are they capable of?
 
 Faction isn't only between two individuals, you also have your individual evaluation of groups, I like this group, I don't like that group, this group welcomes me, this group shuns me. Things that others do change your faction with them, and things you do change their faction with you. A faction value of zero is neutral, this is how you treat individuals or groups you don't know, strangers. In some cultures, neighbors greet newcomers with gifts, to establish a friendly debt between them. Repaying the debt is an insult to them, it means that you want to treat them as a stranger after they greeted you in friendship.
 
 The common usage of the word faction is about competing groups within a group. A faction that has a high faction value towards you is your faction, and usually factions are mutually exclusive, you have to pick one faction to join, pick a side. If you decline to pick a side, all factions will tend to have negative faction value towards you because you are implicitly declaring yourself as a separate faction. Once you choose a side, if you later switch sides, this often flips your faction value as a betrayer.
 
 Expression of faction value takes different forms, but some examples of the lowest faction value is hatred, disgust, and KOS, Kill On Sight. Examples of the highest faction value are I love you, I would do anything for you, and I would kill and die for you. It is not coincidental that both extreme faction values are murderous. I recommend ensuring that you always maintain perspective in your relationships, all real people and groups have both good and bad aspects. Skill in communication exactly means that you can avert murder.
+
+section: Friendship
+A friend is someone you prefer to be with for certain occasions, and they agree. You would prefer to have them on your side, and if you invite them, your friend will be there. Friendship is bidirectional. Your friends are the people who show up for you, and you are a friend to the people you show up for. You don't have to like each other, get along, or trust them. Friendships are as different as people and situations can be, but often people become friends because they have an intuitive mutual understanding or compatibility. You can work together, not necessarily for a productive purpose, but your interaction is functional in some way.
+
+Once you have friends, there are compatible and incompatible combinations of friends with each other and with situations. As you and your life change, your friendships can grow closer or grow apart. Friendships require regular meetings and contribution of effort, or else they fade away. A typical pattern is that it is easy to make friends in your youth, and harder to make friends as you get older. The better you know yourself and others, the fewer people match you.
+
+Unlike family, you choose your friends, so choose wisely. The people that you associate with are evidence of your character. Friends often have a strong influence on you. Your reputation is tied to your friends, if they do something right or something wrong, it reflects on you, too. Everyone has ups and downs, friends are needed most when you are down and you have the least to offer them. The people who are only there for you when things are going well are called fair-weather friends, and they aren't friends at all. Real friends are there for you through thick and thin, they are rare and precious. Be the foul-weather friend for others, some of them will remember it.
 
 chapter: Producing Benefits
 section: Compulsary Service
@@ -837,11 +1195,29 @@ There are many ways to gain and live, but you can only die once. People hate los
 
 It is better to ask forgiveness than permission. Why? People don't like change, and people don't appreciate things they haven't experienced. Potential unfamiliar benefits are unimaginable to them, while keeping current benefits feels essential. Don't change anything! If you want to help someone, you have to change something, and they don't want change. This is why it is better to ask forgiveness than permission. The same change that they would protest in advance, once they have experienced the benefits, they will protest its removal.
 
+section: Incentives
+subsection: Incentive Design
+Find something that you have or you can get, that the other party wants. Find the minimum that you have to offer them to motivate them to do what you want, or the best performance to price ratio. Consider order effects, will other people be jealous, will you leak exploitable information, what will the other person use the payment for, when is the best time or schedule to give it to them, which incentive is most aligned with what you want, or what is best for both of you, etc. Incentives can be subtle or implicit. You can influence others using incentives without them noticing, for example giving eye contact to people who are punctual and avoiding eye contact with people who are late.
+
+Align incentives. If you hire people to work for you and pay them per hour for their time, you will get what you pay for, their time, not the result of what you are paying them to do. This is a misaligned incentive. It is easy to measure work hours, but hard to measure productivity for many jobs. If you hire people to do a manufacturing job and pay them per piece of output, you will get what you pay for, a high volume of output, typically misaligned on the piece quality. Designing aligned incentives can be difficult, requiring creativity, innovation, simple rules and strict enforcement. You have to find what works and respond to changing circumstances. When incentives work, the results can become exponential. A typical example of aligned incentives are salespeople paid on commission. A worker paid on commission only earns money when the company earns money, the interests of the salesperson and the company align, in the sense that both the company and the salesperson want to sell more goods to earn more money. Another form of aligned incentive is profit sharing. When I succeed, you also succeed. A common practice today is stock-based compensation, but this is very different from profit sharing. Stock prices can have little to no relationship to the performance of a company for years at a time.
+
+subsection: Enforcement
+Incentives are important to consider and discuss, but they can only have an effect if they are enforced, and enforcement has its own quality. A perfect incentive, poorly enforced, is no better than a properly enforced poor incentive. A practical enforcement mechanism is part of incentive design. Resorting to force is the last resort, the basic enforcement mechanism. Do what I tell you, or else. Excellent incentive designs make enforcement simple and strong. A balance scale can physically show that two weights are equivalent, direct grounded evidence, which is why the spirit of justice wears a blindfold and holds a balance scale.
+
+One critical skill you will commonly need to work with others is the ability to enforce costs. If you are talking, following the turn taking protocol, and someone constantly interrupts you, what should you do? You can appeal to a moderator if there is one, but usually there is not. You could always physically attack them, but can you do better? You could talk over them in return, preventing their interruption from creating value, lose lose. You could appeal to the group that you were following the protocol and they are breaking it, an attempt to harm their reputation if there is no good reason for them to break protocol, potentially win lose in your favor. The key is that people will tend to take every advantage that they can get, which always includes the option of walking all over you and taking your interests for themselves. You typically need to convince others that you are not an easy target, you are not a pushover, you create your own deterrance by being prepared to enforce costs on others, and sometimes actually enforce costs on others. Words are not enough, your fist needs to be strong enough to cause others to listen. This fist can be literal, but more often is metaphorical, the loss of benefits feels like a punch to the face, when you enforce enough costs on them to create deterrance. People get caught up in threats, vengeance, making others suffer, but that is a destructive attitude. The reason to enforce costs is to make incentives work to create more benefits overall, enforcing costs is an essential part of being constructive.
+
+Enforcing rewards or costs on others can fail due to overgeneralization. You enforced a cost on me, therefore you don't like me. If I truly don't like a person, I won't bother to enforce costs on them, I will avoid them completely. You have to find ways to be specific and consistent. I like you this much, and I don't like this behavior this much, and I demonstrate this every time. Without specificity and consistency, you give mixed signals.
+
+subsection: Motivation
+Motivation is the desire to act. Incentives and motivations are complex, the metaphorical human heart operates in social reality, not physical reality. To work with other people to get the results that you want, you probably need to design and enforce both the negative and positive. For an incentive, good things will happen if I do, and bad things will happen if I don't. For a disincentive, bad things will happen if I do, and good things will happen if I don't. I will only tend to act if both the positive and the negative are true. I take action to eat every day, despite it being inconvenient, because if I don't eat, I will get weak and die, and if I do eat, it will taste good and I will feel energetic. It takes the gain and loss of benefits to motivate people.
+
+Motivation, like ego, is fragile. Repeated failures can make people believe that they are incapable, this is called learned helplessness. Even if you offer a reward and a punishment, someone in learned helplessness will only try to avoid punishment, or even just lay down and take it, because they believe that they cannot do it. To break out of learned helplessness and make incentives work again to motivate, they need to personally experience their own ability to succeed. Sometimes, to get started, you have to force them to succeed once, before they are willing to try at all. Always start with trivial challenges, and then increase the challenge to match their capability. They can build their motivation through greater and greater challenges and incentives, following the challenge curve.
+
 chapter: Power
 section: Bargaining Power
 Bargaining power answers the question of who gets what in a negotiation. It determines how much of the benefits someone can get.
 
-The market price of a common item is the intersection of the supply and demand curves, but this is in aggregate. The market price does not force anyone to trade, to buy or to sell. Trades do not happen at the market price, otherwise prices could never change. The market price is one input to a negotiation, and another input is the relative bargaining power of the buyer and the seller. Bargaining power has two components, circumstantial and personal. If I am a farmer attending a farmers market to sell produce, and I am standing there with a basket full of expiring produce near the end of the market, circumstances reduce my bargaining power. If my farm has a reputation for high quality produce, that personally increases my bargaining power. If other local farms have been affected by a drought but not mine, that increases my circumstantial bargaining power. If I am bad at negotiation, that reduces my personal bargaining power.
+The market price of a common item is the intersection of the supply and demand curves, but this is in aggregate. The market price does not force anyone to trade, to buy or to sell. Trades do not happen only at the market price, otherwise prices could never change. The market price is one input to a negotiation, and another input is the relative bargaining power of the buyer and the seller. Bargaining power has two components, circumstantial and personal. If I am a farmer attending a farmers market to sell produce, and I am standing there with a basket full of expiring produce near the end of the market, circumstances reduce my bargaining power. If my farm has a reputation for high quality produce, that personally increases my bargaining power. If other local farms have been affected by a drought but not mine, that increases my circumstantial bargaining power. If I am bad at negotiation, that reduces my personal bargaining power.
 
 The largest source of bargaining power is differentiation, being the only available buyer or seller, offering unique and beneficial terms for the deal, having a more reliable reputation. Bargaining power matches your ability to harm or help the other party, which determines the distribution of benefits when you trade.
 
@@ -880,9 +1256,20 @@ All forms of status can be translated into bargaining power in transactions. Mar
 
 The people that materially contribute to the group must be fairly compensated for their contributions or else, and the conventional way to track their contributions is a social belief about how much they contributed, their social status. Investing in the group purchases shares in the group's success. When the group distributes benefits, high status gets more benefits than low status, and everyone agrees that's how groups should work, if not about who deserves high and low status.
 
+Relative status in a group creates a hierarchy, where low status defers to high status. At the extreme, status hierarchies calcify into castes, permanent and strictly enforced inherited levels of status. Often, people within a group fiercely defend the status quo, especially how status is earned. It might seem that the greatest threat to the status of a member of a group is an enemy or opposition group. But an individual cannot usually control the result of ongoing group conflict, and opposing groups aren't as interested in each other as they are interested in themselves. What most immediately and severely affects individual status in a group are the other members of the group. The person who can most often and most severely conflict with your own interests is someone who knows you best, knows your group best, and is in a position to compete for the same benefits you want, your teammate. This is why groups spend some effort disliking their enemies or opposition, but go totally crazy about deviants, leavers, and especially betrayers.
+
+Threats to personal status, from high to low
+- Ingroup
+- Allies
+- Enemies
+- Enemy allies
+- Strangers
+
 Status also relates to accountability. Equality before the law is a reasonable principle, anyone who commits the same crime should receive the same punishment. Granting more lenience to people who contribute more to your group is also a reasonable principle. Offering credit to a first-time customer is bad business, but offering credit to your best customer is good business. People who make great achievements are often associated with great misconduct. A society has to choose between destroying the reputations of some of its greatest contributors, discouraging everyone to contribute, or undermining the rule of law. In my opinion, public acceptance of a person who commits a crime is relative. If someone makes a great achievement that echoes through the ages, they can get away with some murder. If someone makes a minor achievement and they do the same thing, they will have to pay a price. If an unremarkable person commits the crime, they will receive the full punishment.
 
 The people with the highest status are called elites. The highest status elites are leaders. Leaders come from high status, so all forms of status can create leaders. History has produced military leaders, cultural icons, knowledge leaders, business leaders, former activists, career politicians, nepo babies. Leaders establish themselves using high status, but then have to maintain high status to defend their position.
+
+What do functional leaders do? They create group alignment in social reality. If half of the group wants to do one thing, and the other half wants to do something else, and the entire group has to commit to one choice, the group is paralyzed and can do nothing. A group has a massive potential capacity to act, but without alignment, a group has no actual capacity. The job of the leader is not to sacrifice, or be a symbol, or tell everyone what to do. They might or might not do those things, but what successful leaders achieve is the alignment of group members to unlock the group capacity to act. To get the group members to listen to them, leaders need high status in the group. And even though the leader may not do the object level work to achieve the results, the leader gains significant status for successes, to allow them to align the group even more. Naturally, this unignorable source of group status attracts the most status-obsessed people, who are least worthy of leading.
 
 section: Conflict
 Conflict is when two or more parties claim the same benefit. Conflict can be win lose, and the attacker is attracted to the possibility of winning the status or benefits. Conflict is usually negative sum, which means that if both parties to a conflict knew the costs of the conflict and the outcome in advance, they could negotiate to skip the conflict for mutual benefit. The loser can pay the winner to avoid both sides wasting resources and both sides would be better off. If everyone is capable and reasonable, almost all conflict can be avoided. The world we live in is not composed of only capable and reasonable people, so conflict is common.
@@ -980,7 +1367,7 @@ In nature, male animals often signal their mating quality to females using signa
 
 Signaling often includes bragging. Bragging is showing off the benefits you have, to rub others' faces into what you have that they don't. Human signaling can be about mating, but is most often about status. I am rich, I am respected, I am important, I am knowledgeable, I am well-known, I am popular with elites, I know people with authority, I am affiliated with exclusive groups. Sometimes they say it explicitly, but they always say it implicitly. After making sure everyone has seen their expensive watch, they may complain about how old and shabby it is, and promise to buy the latest, shiniest watch as soon as it becomes available, a form of humble bragging, bragging with plausible deniability.
 
-Signalers tend to be demanding and impatient. They think they are better than others and deserve more benefits. If they signal and other people don't respond the way that they expect and demand, they will usually repeat the signal compulsively, as if you didnt see it the first time, or as if repeating will make you start caring about it? When they lose patience, they will often escalate into dominance displays or violence.
+Signalers tend to be demanding and impatient. They think they are better than others and deserve more benefits. If they signal and other people don't respond the way that they expect and demand, they will usually repeat the signal compulsively, as if you didn't see it the first time, or as if repeating will make you start caring about it? When they lose patience, they will often escalate into dominance displays or violence.
 
 Signaling Status Behaviors
 grid2:
@@ -1039,7 +1426,7 @@ Turning every conversation into the current thing and how much you support it. I
 Holier than thou
 Visible acts of virtue, such as charity. Conspicuous virtuous consumption choices. Telling others, I never whip my servants.
 More sacrificial than thou
-I realized that I didnt fully adopt the ideology, so I burned all my clothes and now wear these rags.
+I realized that I didn't fully adopt the ideology, so I burned all my clothes and now wear these rags.
 Jargon dropping
 Use specialized insider vocabulary, argot, to show your group affiliation.
 subsection:
@@ -1135,9 +1522,23 @@ We don't always have the time or ability to consider everything we do so deeply.
 Order effects complicate our ability to interpret others' intentions. We usually assume that when others act, the first-order effect is their intended effect. If you see someone eat a cookie, you assume they ate the cookie because they were hungry. Sometimes people do things for second-order reasons, they ate the cookie to prevent you from getting the cookie, or third-order reasons, they ate the cookie to let everyone know the cookies belong to them. On top of this, sometimes people are mistaken and do the wrong thing, or act for no discernible reason. The intent of any single action out of context is almost impossible to infer. This is why we need to collect patterns of behavior to understand others' intentions. If someone is goal directed, then the pattern of their behavior will emphasize their goals. After you identify their goals, you can infer the intention of any particular action whether it is first, second, third, or higher-order.
 
 section: Gossip
-Gossip is informal discussion of reputation changes. Some people are very excited about other people's lives, busybodies. They always want to hear and share the latest news about people they know, but they don't want to face their own lives and make contributions to the group. Sometimes news spreads quickly, everyone hears about it through the grapevine. Other times, people are discussing what they think will happen, someone mishears something, someone misunderstands something, or someone lies, and a rumor is created. A rumor is gossip about a lie. Because it is a lie, it is more interesting than the truth, and spreads faster than other gossip or corrections. This happens so often that rumors are continuously produced, like a factory, called the rumor mill.
+Gossip is secret informal discussion of reputation changes. Some people are very excited about other people's lives, busybodies. They always want to hear and share the latest news about people they know, but they don't want to face their own lives and make contributions to the group. Sometimes news spreads quickly, everyone hears about it through the grapevine. Other times, people are discussing what they think will happen, someone mishears something, someone misunderstands something, or someone lies, and a rumor is created. A rumor is gossip about a lie. Because it is a lie, it is more interesting than the truth, and spreads faster than accurate gossip or corrections. This happens so often that rumors are consistently produced, like a factory, called the rumor mill.
 
-People who engage in gossip are often petty and jealous. If a busybody doesn't like you, they may intentionally spread a rumor about you to harm your reputation, a character assassination attempt. A common form of this is starting a rumor about sexual misconduct. There are parallel justice processes in society, the court of law and the court of public opinion. The court of law has explicit rules, agents, processes, while the court of public opinion is informal and judges people in social reality. The standard of evidence in the court of public opinion is the dominant rumors. Gossip and rumor can be used productively, but usually they are weapons to harm people for entertainment, spite or opposition.
+People who engage in gossip are often petty and jealous. If a busybody doesn't like you, they may intentionally spread a rumor about you to harm your reputation, a character assassination attempt. A common form of this is starting a rumor about sexual misconduct. Gossip is a secret, it is supposed to be hidden, so one partially effective form of resistence to gossip is to demand being overt or explicit, e.g., tell me to my face, go on the record.
+
+There are parallel justice processes in society, the court of law and the court of public opinion, representing objective reality and social reality respectively. The court of law has explicit rules, agents and processes, while the court of public opinion is informal and judges people in social reality. The standard of evidence in the court of public opinion is the dominant rumors. Gossip and rumor can be used productively, but usually they are weapons to harm people for entertainment, spite or opposition.
+
+section: Shame, Guilt
+Shaming is an attempt to harm a party's reputation using overt claims that they have socially disapproved qualities, a direct attack on them in social reality. Social approval and disapproval affect incentives, driving or even controlling behavior. Don't you want other people to like you and give you benefits? Then you must follow social expectations. Social rejection, ostracism, can prevent you from gaining benefits and threaten your survival. The internal emotion of shame is a feeling of overall wrongness, inadequacy, unworthiness. The emotion of shame has a functional purpose, but like anger and guilt, you must not indulge in it or else it becomes destructive.
+
+Shame can be used as a form of diffuse social control of a group. Influential people can wield shame for personal control of both individuals and the group. People who have sufficient bargaining power can endure shaming and become shameless. Shaming is ineffective to control them. Say what you want, but if you deny my contributions to the group, or the necessity of my product or service, then the accuser or the group will face worse consequences than me, thus establishing deterrence.
+
+Guilt is an internal, subjective conclusion of specific personal wrongdoing in social reality. One common purpose of shaming someone is to cause them to feel guilt and change their behavior, or expose additional exploitable weaknesses. To feel guilt, the person has to care about other people. There is an essential difference between simple reward and punishment, and awareness of social reality. Reward and punishment thinking is something like, I regret that I was caught breaking the rules. Social reality thinking is something like, I regret breaking the rules because I harmed other people, the group, and ultimately myself. Someone who feels guilt wants to change their behavior for the greater good, indirectly for their own good.
+
+section: Ostracism
+Ostracism is expelling a member from a group. Typically status is considered to be positive, the more status you have, the more valued and connected you are to the group, while ostracism is negative, the more ostracized you are, the less value you have to the group and the more they want to get rid of you. Shunning is the related action of expelling a member only in social reality, but not physical reality. Shunning is when people say, I am not talking to you.
+
+You need to be part of a group to survive, so the experience of ostracism feels like a mortal threat. Ostracism can operate as a near equivalent to capital punishment, a disincentive for behavior that harms group interests, or it can be coopted for selfish purposes. For example, if you become jealous of another member of the group, you could falsely accuse or frame them, and get them ostracized so that they lose their status, whether you can take their status for yourself or not. Ostracism can be abused for control of the group, where a leader forces the group to comply with their demands, under the threat of ostracism for the first person who resists.
 
 chapter: Ontology of Communication Strategies
 In these chapters I will describe the fundamental communication strategies. A communication strategy is a distinct way of talking, a basic idea that people can have about their role in society, why they relate to others, a concept of what they are primarily doing when they communicate. These are not specific techniques or short term goals, they are more of an overall orientation or style. People are often not aware of which strategies they use, but their communication is attracted to one or more of these strategies because they work to gain status. This is an ontology because it attempts to categorize almost all speech acts between one or more categories, the categories cover all of the common communication strategies. The ontology also attempts to consider not just the goals of the strategies, but their typical character and consequences. It is a sort of field guide of human communication.
@@ -1177,6 +1578,8 @@ Unity
 How does this strategy affect group unity and solidarity?
 Subordinates to
 Who or what do people who follow this strategy subordinate themselves to? Who do they follow or obey?
+Totalizing
+Does this strategy demand that everyone else conform to it? Does it try to force every shaped peg into one hole?
 Manipulative
 Is this strategy willing to manipulate other people?
 Force
@@ -1227,7 +1630,7 @@ Formal government run by an army lead by a supreme leader
 Junta
 Formal government run by an army lead by a group of generals
 Seniority
-The longest serving members decide
+The longest-serving members decide
 Committee
 A decision maker delegates a decision to a group they appoint
 Democracy
@@ -1281,7 +1684,7 @@ Decisions made by a supreme leader with a family heritable title of king
 Socialism
 Any form of government that collects income to redistribute to the members to increase equality or welfare, the social safety net
 Federation
-A group where the individual members are not individual people, but the members are other governments, such as a city state alliance
+A group where the members are not individual people, but the members are other governments, such as a city state alliance
 
 subsection: Introduction to the Communication Strategies
 First I introduce all the communication strategies, then I will describe each in detail.
@@ -1294,17 +1697,17 @@ I demand what I want
 Nice
 I will be nice, and hope that you will be nice back, to give me what I want
 Strong
-Use dominance to get what I want
+I use dominance to get what I want
 Avoidant
-Solve the communication problem by not communicating
+I get what I want by myself
 Troll
-Prevent other people from getting what they want to get what I want
+I prevent other people from getting what they want, to get what I want
 Artist
 I express artistic truth to get what I want
 Expert
 I use rare knowledge to get what I want
 Rules
-I do what I am supposed to do to get what I want
+I do what I am supposed to do, to avoid ostracism, to get what I want
 Simple
 I create or trade for what I want
 Status
@@ -1345,6 +1748,8 @@ Unity
 Slight harm, not loyal, but simple to manipulate. Doesn't take risks, goes with the crowd
 Subordinates to
 None
+Totalizing
+No
 Manipulative
 Yes, crude deception
 Force
@@ -1366,7 +1771,9 @@ Entitlement, impatience, self pity, rage
 Typical behaviors
 Demanding, begging, lying, escalating, stealing, crying, insulting, shaming, screaming, moaning, tantrums, hitting, failing the marshmallow test
 Archetypes
-Brat, criminal
+Brat, criminal, impulse shopper
+Historical Figures
+Caligula, Nero, Henry VIII
 Examples
 I want it now! No, this is mine. Yay, I love you.
 Crash outs
@@ -1397,6 +1804,8 @@ Unity
 Helps, not loyal but easy to control
 Subordinates to
 All
+Totalizing
+No
 Manipulative
 Yes, emotional coercion
 Force
@@ -1418,7 +1827,9 @@ obligation, anxiety, credulity, frustration, resentment, shame, impotence
 Typical behaviors
 Acting kind, polite, boot licking, complaining when others don't do what I want, sulking, lashing out
 Archetypes
-Nice guy, nice girl, toady, assistant, weak parent, anyone when they express polite generosity
+Nice guy, nice girl, toady, people-pleaser, assistant, weak parent, anyone when they express polite generosity
+Historical Figures
+Neville Chamberlain, Louis XVI
 Examples
 Mother, may I? I don't want to be any trouble. I'm sorry, I'm sorry! I just want everyone to get along.
 Crash outs
@@ -1449,6 +1860,8 @@ Unity
 Necessary for group unity but can also threaten unity by losing, splitting, or coup
 Subordinates to
 Stronger people
+Totalizing
+Yes, it all comes down to power
 Manipulative
 No, except threats and displays of force
 Force
@@ -1470,7 +1883,9 @@ Anger, self importance, aggression, discipline, insecurity
 Typical behaviors
 Display of strength, bullying the weak, following the strong, lashing out at perceived slights
 Archetypes
-Military, bandit, terrorist, weak parent
+Bully, enforcer, military, bandit, terrorist, weak parent
+Historical figures
+Alexander the Great, Genghis Khan, Attila the Hun
 Examples
 Do what I tell you, or else. This is my area. Yes, sir! Don't make me come over. Watch out.
 Crash outs
@@ -1500,6 +1915,8 @@ Unity
 Slight harm through nonconformity
 Subordinates to
 None
+Totalizing
+No, everyone has their own way
 Manipulative
 No, except to get you to leave
 Force
@@ -1521,7 +1938,9 @@ Flow, diligence, intolerance, fierce independence, peace, inflexibility, lonelin
 Typical behaviors
 Solitary, routine, staring into space, laconic, stubborn, talking to yourself
 Archetypes
-Downtrodden worker, hermit, crazy cat lady
+Downtrodden worker, recluse, crazy cat lady, expat
+Historical Figures
+Emily Dickinson, Henry David Thoreau, J.D. Salinger
 Examples
 That's not my problem. I don't want to get involved. I'll handle it myself. Ok, thank you, goodbye.
 Crash outs
@@ -1551,6 +1970,8 @@ Unity
 Harms
 Subordinates to
 None
+Totalizing
+No, troll rejects everything, including their own worldview
 Manipulative
 Yes
 Force
@@ -1573,6 +1994,8 @@ Typical behaviors
 Trolling, pranks, defiance, apathy, vandalism, running away
 Archetypes
 Teenager, misanthrope, trickster, troublemaker, comedian
+Historical figures
+Diogenes, Caravaggio, Oscar Wilde, Lenny Bruce
 Examples
 I'm just being honest. What are you angry about? It was a joke. I didn't do anything wrong. Can't catch me.
 Crash outs
@@ -1602,6 +2025,8 @@ Unity
 Helps through production of culture, harms with allegiance to artistic truth against group narrative
 Subordinates to
 Their muse
+Totalizing
+Yes, their work, their live, and the world itself are an exploration of artistic vision
 Manipulative
 Yes
 Force
@@ -1609,7 +2034,7 @@ No
 Violence
 No
 Rule of law
-No
+Mixed
 Let live
 Mixed, wants attention from everyone but too self-centered
 Theory of mind
@@ -1624,6 +2049,8 @@ Typical behaviors
 Oversharing, monologuing, seeking validation
 Archetypes
 Artist, designer, influencer
+Historical figures
+Vincent van Gogh, Beethoven, Shakespeare
 Examples
 Nobody understands me. I'm not like other people. Isn't it beautiful? I have a vision.
 Crash outs
@@ -1653,6 +2080,8 @@ Unity
 Helps with useful knowledge, harms with inconvenient truths that harm narrative
 Subordinates to
 More knowledgeable
+Totalizing
+No, the more you know, generally the more you know that you don't know. There are other areas of expertise.
 Manipulative
 Yes
 Force
@@ -1676,7 +2105,7 @@ Lecturing, touting themselves, using impenetrable jargon, name dropping, correct
 Archetypes
 Academic, hobbyist, industry expert, author, priest
 Historical figures
-The Pope, doctors, lawyers, leader of the secret police
+Thomas Aquinas, Sigmund Freud, Henry Kissinger
 Examples
 Well actually...I have studied this for x years. That is a common misconception. The true answer is not publicly known.
 Crash outs
@@ -1687,7 +2116,7 @@ grid2:
 Description
 Do what I am supposed to do. Tell others what to do. Code switch for different contexts.
 Values
-Order
+Norms, conformity
 What words do
 Define the rules, act within the rules, enforce the rules
 Messaging
@@ -1706,6 +2135,8 @@ Unity
 Helps
 Subordinates to
 Rules, social pressure
+Totalizing
+Yes, everyone is part of society, everyone must do what they are supposed to do
 Manipulative
 Yes, using rules
 Force
@@ -1727,11 +2158,13 @@ Annoyance, disgust, tedium, vengeance, dissatisfied and unsatisfiable, judgmenta
 Typical behaviors
 Following the rules, appeals to the rules, tell others what to do, report people, nit picking, criticism, insults
 Archetypes
-Bureaucrat, police, judge, nosy neighbor or homeowners associate or landlord, Karen, decent parents
+Bureaucrat, police, judge, mediator, nosy neighbor or homeowners associate or landlord, Karen, decent parents
+Historical figures
+Torquemada, Oliver Cromwell, J. Edgar Hoover
 Examples
-You can't do that. I'm just following the policy. I have to report you.
+You can't do that. Are other people doing it too? I'm just following the policy. I have to report you.
 Crash outs
-That is unacceptable. I'm calling help. I'm just doing my job.
+That is unacceptable. I'm calling for help. I'm just doing my job.
 
 section: Simple
 grid2:
@@ -1740,7 +2173,7 @@ Do the right thing
 Values
 Principles, justice, truth
 What words do
-Words mean things. Say what I mean, do what I say.
+Words mean things. I say what I mean, I do what I say.
 Messaging
 What is right, is right
 Goals
@@ -1757,6 +2190,8 @@ Unity
 Harms by nonconformity and rejecting narrative
 Subordinates to
 Objective reality
+Totalizing
+No, everyone is ultimately only responsible to themselves
 Manipulative
 No
 Force
@@ -1780,7 +2215,7 @@ Standing for what is right, telling the truth even when it is inconvenient, bein
 Archetypes
 Child, hero, great leader, anyone who cares enough to give tough love
 Historical figures:
-Socrates
+Socrates, George Washington, Martin Luther, Thomas Paine, Abraham Lincoln
 Examples
 I am not sure. I know we're not supposed to say it, but...that's not right
 Crash outs
@@ -1810,6 +2245,8 @@ Unity
 Helps by conforming and harms with unfair, self-interested status grabs
 Subordinates to
 Higher status
+Totalizing
+Yes, it all comes down to status
 Manipulative
 Yes
 Force
@@ -1817,7 +2254,7 @@ Yes
 Violence
 Indifferent
 Rule of law
-Indifferent. Rules for thee but not for me, also, I am not a criminal
+Selective. Rules for thee but not for me, also, I am not a criminal
 Let live
 Yes, except if I can use you to gain status
 Theory of mind
@@ -1832,6 +2269,8 @@ Typical behaviors
 Name dropping, boasting, signaling, denigrating, living beyond their means, keeping up with the Joneses
 Archetypes
 Social climbers, fans of celebrities, members of exclusive clubs, people with ostentatious status symbols such as fancy cars
+Historical figures
+Louis XIV, Cleopatra, Catherine the Great, Cornelius Vanderbilt II, William Randolph Hearst
 Examples
 I know the owner. I wouldnt be caught dead going there. Did you hear who is visiting?
 Crash outs
@@ -1861,6 +2300,8 @@ Unity
 Helps unity by creating and enforcing narrative and conforming, fighting other groups and proselytizing
 Subordinates to
 The group
+Totalizing
+Yes, everything happens in relation to the group
 Manipulative
 Yes
 Force
@@ -1883,6 +2324,8 @@ Typical behaviors
 Meetings, protests, organizing, service to the group, complaining, incoherent yelling, double standards, ignorance
 Archetypes
 Revolutionary, protester, member of an organized religion, fan, political party member, tribe member
+Historical figures
+Huey Long, Crazy Horse, William Wallace, Mother Jones, George Steinbrenner
 Examples
 It's us or them. We need to stick together. We can't let them win. We are the best. They are evil.
 Crash outs
@@ -1912,6 +2355,8 @@ Unity
 Helps by spreading and defending the ideology, proselytizing
 Subordinates to
 The ideology and its priests
+Totalizing
+Yes, everything happens in relation to the ideology
 Manipulative
 Yes, if it helps the ideology
 Force
@@ -1934,6 +2379,8 @@ Typical behaviors
 Practicing the ideology, preaching, frothing at the mouth, mistreating nonbelievers
 Archetypes
 Religious zealot, communist, nationalist, generally ists and isms.
+Historical figures
+Lenin, John Calvin, Joseph McCarthy, Pol Pot
 Examples
 The book says that...we know the ultimate truth. We must spread the faith. The ends justify the means.
 Crash outs
@@ -1963,6 +2410,8 @@ Unity
 Depends
 Subordinates to
 The game
+Totalizing
+No, there are different games, and games I choose not to play
 Manipulative
 Yes
 Force
@@ -1985,6 +2434,8 @@ Typical behaviors
 Competence, acting, misdirection, diligence, striking at the right moment
 Archetypes
 Professional, successful businessperson, strong parent, promising youth
+Historical figures
+Sun Tzu, Niccolò Machiavelli
 Examples
 Why do you think so? How do you know that? Could you tell me the details? You got me this time. I was just lucky.
 
@@ -2012,6 +2463,8 @@ Unity
 Helps
 Subordinates to
 Chaos, Larger forces
+Totalizing
+Yes, it's all connected
 Manipulative
 Yes
 Force
@@ -2034,6 +2487,8 @@ Typical behaviors
 Planning and adjusting, putting out fires, delegating, high stakes conversations, enforcing consequences
 Archetypes
 High level executive, core member of an extended family, high level official, leader
+Historical figures
+Benjamin Franklin, Otto von Bismarck, Franklin D Roosevelt, Winston Churchill
 
 section: Game Designer
 grid2:
@@ -2059,6 +2514,8 @@ Unity
 Depends
 Subordinates to
 None, but may pretend to subordinate if advantageous
+Totalizing
+No, we can separate, prioritize, analyze, solve different problems differently
 Manipulative
 Yes
 Force
@@ -2081,6 +2538,8 @@ Typical behaviors
 Being in the right place at the right time, acting unnoticed, doing what no one thought could be done, winning
 Archetypes
 The best people you know, great figures of history, charismatic people, unsung heroes
+Historical figures
+Solon, Lycurgus, Peter the Great, Augustus Caesar, Alexander Hamilton
 
 chapter: Strategic Interaction
 A communication strategy, by the nature of communication, does not operate in isolation. Communication strategies interact with other communication strategies, and these interactions have consistent dynamics. There are areas of mutual understanding, one way understanding, mutual misunderstanding, dominance, competition, mutual avoidance, mutual destruction and mutual success. I describe each strategy from its own perspective, egocentric. For example, if I use the greedy communication strategy, how do others appear to me? Use this guide to see the perspective of other strategies beyond your own strategy.
@@ -2654,11 +3113,16 @@ You can't neutrally observe reality from nowhere. There is nowhere to stand outs
 
 Reality creates belief as we expect, but belief creates reality too. Any famous building was once an empty field. The building was invented in people's imaginations and then built to physically manifest their belief. Afterward, people live within and around the building, the manifestation materially and socially shapes their lives and the subsequent buildings they imagine.
 
+All communication has error, causing some amount of error in reaction and additional error in response. This is the game mechanic of the social game called telephone, where the first player whispers a message privately to the second player, then the second player attempts to whisper the same message to the third, until at the end of the chain, a totally different message is announced by the final player. Errors compound. Often, there is a threshold of error rate. If the error rate is below the threshold, communicators can correct the errors and arrive at agreement, also called converging. If the error rate is above the threshold, each interaction produces greater confusion and communication fails, diverging.
+
+section: Social Cost
+People can harm, steal from and obstruct each other. This can redistribute benefits unfairly and break incentives, destroying production of benefits. You can think of this as a social cost or inefficiency. But behavior follows from belief. If the people around you, your society, held different beliefs, your social costs would change. Dysfunctional beliefs such as everyone is out for themselves create a low-trust society, where everyone has to spend a lot of resources to protect themselves. Functional beliefs can create a high-trust society, where you spend much less on self-protection or other non-productive activities. I have lived in times and places with both low and high trust. My possessions have been stolen and destroyed, and I have lived confidently in peace among trustworthy people. The people are not physically different, only their beliefs are different. Social costs can range from destroying all benefit production to negligible. Functional beliefs can do more than reduce social costs, they can create social benefits, such as improving collaboration. One of the most amazing medications ever invented is the placebo, a physical object that has no direct physical effect, used to change beliefs, and cause physical effects indirectly. In physical reality, you cannot create something from nothing. In social reality, you can create something from nothing, within limits.
+
 section: Preference Falsification
 People say quite a lot, and their actions often don't match their words. This is the distinction between stated preferences and revealed preferences. People often say, I started a new fitness program. Then you might ask them, aren't you supposed to be exercising now? I don't feel like it today. Their stated preferences sound good, and their revealed preferences feel good. Usually people delude themselves and paper over the ugly truth of their revealed preferences, but sometimes someone makes bold claims or objectively falsifiable statements, then runs headfirst into a contradiction with reality. This unignorable collision is preference falsification. When a bunch of people get together and rally for a cause and raise money, if after the big event they see that nobody donated, they notice the gap. Oops, I guess nobody actually cared. If only the organizers of the event know that nobody donated, then that is a private preference falsification. If everyone can see that the event didn't raise money and people notice, that is a public preference falsification. The falsification becomes public knowledge.
 
 section: Preference Cascade
-A preference falsification can trigger a preference cascade. Initially everyone might believe that everyone else supports a noble cause. Their belief might be falsified when no one shows up for a scheduled rally. Then, when the cause is mentioned again, they might say out loud that they don't care about that cause. This can start a cascade. Everyone who privately didnt care about the cause but thought that everyone else did care about the cause can suddenly agree that they also don't care about that cause, and this can continue to cascade from group to group. Now the common knowledge of what people believe totally shifts from everyone believes everyone else cares about this cause, to everyone believes that everyone else does not care about this cause.
+A preference falsification can trigger a preference cascade. Initially everyone might believe that everyone else supports a noble cause. Their belief might be falsified when no one shows up for a scheduled rally. Then, when the cause is mentioned again, they might say out loud that they don't care about that cause. This can start a cascade. Everyone who privately didn't care about the cause but thought that everyone else did care about the cause can suddenly agree that they also don't care about that cause, and this can continue to cascade from group to group. Now the common knowledge of what people believe totally shifts from everyone believes everyone else cares about this cause, to everyone believes that everyone else does not care about this cause.
 
 If you suspect that a social belief is wrong but you lack public falsifications, you can carefully ask other people about it in private, but they might report you for heresy. People who have survived repressive regimes know all about this dilemma. You can also silently confirm people's beliefs by watching what they do when they don't think they will get in trouble for violating the social belief. If you can privately falsify the belief, then it may be possible to falsify it publicly. You can take great risk to publicly declare your heretical belief, arrange a blameless public falsification, or use a cat's paw.
 
@@ -2701,13 +3165,47 @@ Talking points are prepared statements about political issues that politicians r
 Repetition legitimizes, repetition legitimizes, repetition legitimizes. Adam Neeley
 
 section: Self-fulfilling Prophecy
-There is an objective fact of social reality, people believe something or they don't. Statements about objective reality, including people's beliefs, are objectively true or false. But beliefs can change in ways that objective reality can't. Statements about social reality can change people's beliefs, making a statement false before the statement is expressed, and true afterward. These kinds of statements are self-fulfilling prophesies, e.g. you are imagining a pink elephant.
+There is an objective fact of social reality, people believe something or they don't. Statements about objective reality, including people's beliefs, are objectively true or false. But beliefs can change in ways that objective reality can't. Statements about social reality can change people's beliefs, making a statement false at the time before the statement is expressed, and true afterward. These kinds of statements are self-fulfilling prophesies, e.g. you are imagining a pink elephant.
 
 Political leaders are professional political speakers, their statements attempt to change belief. A lot of political statements are attempts at self-fulfilling prophecy. If they say, our group is failing, that is usually bad politics. It may be true in some way, but is often not useful. If they say that our group is succeeding, even when it objectively isn't in some way, this is sometimes a lie and sometimes not! If they say the group is succeeding even when it currently isn't, the group might attract more members, gain support, increase the determination of the members and actually succeed because of their enthusiasm, confidence, determination, and effort, making the statement true. The more they repeat the prophecy, the more that people believe it and make it happen. Of course, there are strict limits to the philosophy of if you believe it, you can achieve it. Some things, even if you believe, you cannot achieve.
 
-A politician attempting to gain the most benefit from self-fulfilling prophecy would make a self-fulfilling prophecy even when the odds of fulfilling it approach fifty fifty, meaning that more often than not, the self-fulfilling prophecy comes true, but also, almost half the time they are quote lying unquote. A self-fulfilling prophecy, or an attempted self-fulfilling prophecy, has an undetermined truth value at the time it is expressed. Only after the event can the truth of the statement resolve to true or false, I was always right, or I apologize for lying about that.
+A politician attempting to gain the most benefit from self-fulfilling prophecy uses it both when the outcome is likely and even when it is uncertain, meaning that more often than not, the self-fulfilling prophecy comes true, but also, almost half the time they are quote lying unquote. A self-fulfilling prophecy, or an attempted self-fulfilling prophecy, has an undetermined truth value at the time it is expressed. Only after the event can the truth of the statement resolve to true or false, I was always right, or I apologize for lying about that.
 
 One difference between responsible and irresponsible leaders is whether they apply self-fulfilling prophecy for mutual benefit or for extraction. Irresponsible leaders abuse their position to extract the most value from the group for their own benefit or their cronies. Leaders can persist, whether they are responsible or not, by protecting their position. The most responsible politician should protect their position, if they have reason to believe that their replacement would be worse for their group. It would be nice if the most stable strategy for leaders is to responsibly collect the most benefits for the group, but political dynamics are not straightforward.
+
+Self-fulfilling prophecy is a kind of prediction. The general form of a prediction is an assertion about the future. A naked assertion is not convincing, so convincing predictions come with a proposed causal mechanism and evidence. A simple prediction can be honest about the intention of the speaker, the mechanism and the evidence. A self-fulfilling prophecy is also a prediction, but as an attempt to change social reality, it must usually be dishonest about the intention of the speaker, the mechanism or the evidence.
+
+Separately, listeners of predictions have to interpret whether the speaker is making a simple prediction that they can independently evaluate using grounding, or a self-fulfilling prophecy that is merely a way to talk persuasivly, rhetorical. Importantly, the speaker of a simple prediction may not benefit from the result of their prediction, while the speaker of a self-fulfilling prophecy will always benefit from the result of their prediction, otherwise they wouldn't make the effort. These essential differences create confusion between speakers and listeners of simple predictions and self-fulfilling prophesies.
+
+Prediction confusion about the statement "There will be a drought"
+
+grid2:
+Type
+Simple
+Request
+Prepare for the likelihood of running out of water
+Speaker intention
+Warn listeners of a danger for group benefit
+Simple interpretation
+Is the mechanism and evidence correct? If yes, I should conserve water.
+Self-fulfilling interpretation
+Why do you want people to die of thirst? That doesn't make sense.
+subsection:
+
+line:
+
+grid2:
+Type
+Self-fulfilling
+Request
+Act more virtuously, or else we will be punished with drought
+Speaker intention
+Promote virtuous behavior using an impersonal powerful threat
+Self-fulfilling interpretation
+If the group acts virtuously, we can handle any problem and live well.
+Simple interpretation
+How does virtuous behavior change the weather? That doesn't make sense.
+
 
 chapter: Group Formation and Growth
 section: Interests
@@ -2760,7 +3258,7 @@ A government is a body of people usually notably ungoverned. Shepherd Book, Fire
 Group members want to protect or expand their own benefits using any means possible. For the good of the group, a fair, impartial, long term growth oriented government is best. But governments are not physical devices that logically derive and implement policy, governments are themselves groups of people and policies that govern other groups of people. The reason rules are made is to prevent people from doing things that are individually beneficial but are negative-sum for the group, strategies where the individual wins and the group loses. The government is the mechanism to define and enforce those rules and prevent the group from losing out. But government, composed of people, also wants benefits, the same as everyone else, but government has no one to stop them from breaking their own rules. Regulatory capture is when interest groups pay off the government to create rules unfairly favorable to them in the first place, or to not enforce rules on them, allowing the interest group to gain at the expense of the group. The regulators have been captured by the groups they are supposed to regulate. Regulatory capture is a form of corruption.
 
 section: Wireheading
-Wireheading is corruption of rewards, with dire consequences. Wireheading is the logical conclusion of regulatory capture, maximum corruption. If I gained access to the databases that keep track of money, I could give myself a bajillion dollars and shift the economy, trampling on others' efforts and causing inflation. If I were in charge of a sports league, I could declare myself the champion. If I became a drug addict, I could give myself a chemically induced high whenever I wanted without the corresponding achievement of my goals. I control the reward signal, but as a result, the reward is unrelated to the real-world conditions it is supposed to be grounded in. The incentives are broken, the reward becomes meaningless, the production of benefits stops, the group stops functioning, the group dies.
+Wireheading is direct corruption of rewards, with dire consequences. Wireheading is the logical conclusion of regulatory capture, maximum corruption. If I gained access to the databases that keep track of money, I could give myself a bajillion dollars and shift the economy, trampling on others' efforts and causing inflation. If I were in charge of a sports league, I could declare myself the champion. If I became a drug addict, I could give myself a chemically induced high whenever I wanted without the corresponding achievement of my goals. I control the reward signal, but as a result, the reward is unrelated to the objective reality conditions it is supposed to be grounded in. The reward becomes meaningless, the incentives are broken, the production of benefits stops, the group stops functioning, the group dies.
 
 chapter: Coalitions
 section: Factions
@@ -2842,6 +3340,208 @@ The reward for providing good service is the opportunity to provide more service
 subsection: Win your war for social reality
 Use winning strategies, your people, yourself, your benefits and your bargaining power to gain and protect your status. Use your benefits to make your dreams come true.
 
+
+
+bold: The End of Who Gets What
+
+line:
+
+chapter: Glossary
+- Abuser - the party that unjustly harms the victim
+- Academic status - produced by the value of rare knowledge and intellectual achievement
+- Action - a specific behavior in reality
+- Anchoring bias - the starting point of a discussion sets an arbitrary value that all further discussion is relative to
+- Apology - a social system and a skill to repair broken relationships
+- Argument - an attempt to convince
+- Artificial - intentional manipulation of reality
+- Availability bias - focusing on evidence that is easier to access, failing to consider representative data that is harder to collect
+- Backfire bias - increasing your confidence in your beliefs merely because you attempt to defend them
+- Bad faith - an oppositional mode of argument that attempts to defeat the opponent's mental defenses, close-minded, unwilling to admit mistakes, incurious
+- Bandwagon bias - going along with whatever you think the most popular belief is
+- Bargaining power - who gets what in a negotiation. Determines the relative share of the benefits a party can get. Comes from differentiation, the amount that one party can help or harm the other.
+- Belief - a thought you hold about reality. A basic belief is something like, this happened to me. Basic beliefs combine into higher-level beliefs, such as causes, effects, beliefs about beliefs and beliefs about other people's beliefs. The atom of social reality.
+- Benefits - things that help you to survive and thrive. Includes tangibles such as food or shelter, immediate intangibles such as credit or safety, and less immediate intangibles such as friendship or the content of books.
+- Bias - a false method of reasoning, an inaccurate sample of data, any thinking process that reliably gets the wrong answer
+- Bid - a price a buyer states that they would pay for a trade
+- Blame - loss of status from the loss or destruction of group benefits
+- Body language - physical communication apart from words and grammar, such as body location, posture, gesture, expression, timing, tone, pitch, speed, emphasis, rhythm, breathing, volume, physical contact, scent, attire, current activities, etc.
+- Cat's paw - getting someone else to do something risky or harmful, instead of doing it yourself
+- Channel - the physical medium that transmits a message from the sender to the receiver
+- Chaotic - a system where insignificant initial changes can be amplified into totally different results, making it unpredictable in the long term
+- Chesterton's fence - a metaphorical or actual fence that blocks your progress for an unknown reason. A fence is a signal to not enter, so first investigate why the fence was erected. After you understand the situation, then you can reasonably abide by or remove the fence.
+- Coalition - a set of factions or groups that agree to cooperate, generally because they anticipate gaining more than they lose from the cooperation. The separate groups act together, as if they are a single, larger group.
+- Cognitive empathy - understanding how another person might feel and why, without experiencing the emotion yourself
+- Communication - the attempt to transfer thoughts from one mind to another. Only about benefits. Can create, destroy and allocate benefits.
+- Communication strategy - a distinct way of talking that follows social incentives to locally maximize benefits
+- Compliment - a social act to increase a party's reputation, can help build relationships
+- Confirmation bias - to seek and promote evidence that supports my current beliefs, and avoid or dismiss evidence that challenges my current beliefs
+- Conflict - when more than one party claims a benefit
+- Conscious - within explicit awareness, able to reason about
+- Contrition - your belief that what you did was wrong
+- Conversation - an interaction that attempts to create, negotiate or trade benefits
+- Conversation awareness - accurately detecting the state of the conversation and its parties, receiving and understanding conversation cues
+- Conversation tree - the branching structure of potential statements in future, not predetermined conversations
+- Conversational cue - a message that directs the conversation. Please repeat that.
+- Convince - to change your belief
+- Coordination - when more than one party works together to gain or protect benefits
+- Corruption - violations of principles about the allocation of benefits, such as violations of meritocracy, fairness, breaking the allocation rules
+- Craze - a more intense fad, people go crazy about a trend, act irrationally and damage society
+- Crazy - an insult intended to mark a party as not worth relating to due to mental problems
+- Credit - gain of status from the creation, gain or preservation of group benefits
+- Cult - a non-dominant religious group that totally assimilates and controls its members and absolutely reveres a great leader or mission
+- Cultural status - produced by capacity for and accumulation of cultural achievement
+- Culture - a set of beliefs, values, practices, protocols and styles that characterize a group, can increase group identity, coherence, effectiveness, enthusiasm, attract members, gain group status
+- Deception - promoting false beliefs in others
+- Differentiation - what makes one party different from others, such as being the only available buyer or seller, offering unique and beneficial terms for a deal, or having a more reliable reputation
+- Dog whistle - a statement with two intended interpretations, designed to secretly communicate different messages to different groups using one statement, usually one interpretation is innocent and another is illicit
+- Dunning-Kruger bias - the correlation of personal knowledge or skill in a subject area with the ability to judge skill in that subject, causing people with low skill to misjudge their knowledge or skill as higher than it is when they are unskilled, they don't know what they are talking about.
+- Economic status - produced by productive capability and accumulation of capital
+- Economy - an extended system of trade, composed of markets
+- Ego - the defensive, posessive, anxious, sensitive, self-aggrandizing tendency a person has about their identity
+- Emotion - mental state created by subconscious reactions to beliefs, eg fear, joy, impatience
+- Esoteric - communication between insiders about messaging
+- Exoteric - communication from insiders to outsiders, execution of messaging
+- Experiment - an interaction with reality that can reveal whether a hypothesis is accurate or not
+- Fact - a true statement about objective reality
+- Faction - a group within a group
+- Faction value - a single number describing how much one party likes another, how much they value their relationship
+- Fad - a shorter lived and more intense trend
+- False flag - a combat operation where members of one group impersonate members of a target group and conduct an attack in the name of the target group, creating the appearance that the target group is the aggressor
+- Fashion - an established, persistent trend that creates a distinct style or way of life
+- Force - taking or protecting benefits primarily using objective reality, physical objects and actions, including growth and violence, construction and destruction. Communication is the superior alternative to force for negotiating benefits.
+- Framing - the context around the topic of conversation. Framing can greatly affect interpretation and which aspects of the topic are emphasized or even the conclusions you draw.
+- Friend - someone you prefer to be with for certain occasions, and they agree
+- Game - a set of rules, often defines initial states, allowable actions, consequences and final states. Some final states can be defined as winning or losing.
+- Game theory - the study of games and strategy
+- Goal - a specific benefit that you prefer
+- Good faith - a collaborative mode of argument that attempts to challenge ideas, seek truth, open-minded, curious
+- Gossip - secret informal discussion of reputation changes
+- Government - members and processes in a group that regulate the group, create and enforce rules to make the group work
+- Grounding - matching statements with objective reality, correspondence between words and facts
+- Group - a persistent collection of people who coordinate for shared goals
+- Guilt - an internal, subjective conclusion of specific personal wrongdoing in social reality
+- Hypothesis - a proposed model of reality that can be confirmed or rejected by experiment
+- Identity - the specific qualities that characterize a person. Their body, name, job, family, possessions, close relationships, community, memories, habits, the place they live in.
+- Incentive - a benefit that corresponds to an action. People follow incentives, you get what you pay for.
+- Ideological - commitment to a fixed set of beliefs, the ideology. Anything the ideology says or that promotes the ideology is good, anything that contradicts or limits the spread of the ideology is bad.
+- Insider - a member of a group
+- Insult - a social attack to harm a party's reputation, can also harm relationships
+- Intention - the conscious, subjective decision to take a specific action to achieve a goal
+- Interaction - a series of responses
+- Interest - a large or extended source of benefits, sometimes the cause of the formation of groups dedicated to protecting or exploiting the interest
+- Interpretive - approximate translation from one form to another with potential error
+- Intuitive - unconscious behavior, acting without knowing why
+- Iteration - repeat a process until you reach a result
+- Judgment - a subjective evaluation, according to your own values, concluding whether something is good or bad, or how much
+- Kayfabe - the whole practice around maintaining a pretense
+- Knowledge - a true belief about a fact
+- Language - a changing set of shared beliefs about which words and grammar correspond to which reality. The tool of communication to transmit thoughts across minds.
+- Language game - a set of rules that both parties must both approximate in order to establish mutual comprehension. Perfect accuracy of interpretation is impossible, but with effort, most people can converge on a shared set of rules to play similar enough language games.
+- Leader - an insider who successfully negotiates, aligns, anticipates or proposes social realities to their group
+- Lie - a claim that a falsehood is true. The social-reality version of theft.
+- Legibility - the ability to see the benefits of a product or service. An illegible product or service is one that you cannot see the benefits of.
+- Life - the set of games available for an agent to reflexively play in reality
+- Loaded question - a statement in the form of a question that smuggles an unaccepted premise
+- Lose - reduce benefits
+- Lose lose - both parties lose by playing the game
+- Loss aversion bias - the tendency to hate losing more than you love gaining. This is irrational, because a benefit is worth the same amount whether it is gained or lost.
+- Lossy - imperfect transmission of information due to losses, pieces are missing, incomplete
+- Luxury belief - a wrong belief held by someone whose opinion is irrelevant or who is protected from the consequences of their mistaken actions, being wrong does not significantly harm them.
+- Malicious interpretation - attacking another party by abusing the complexity of interpretation, for example by assuming bad intentions, or reframing quotations pulled out of context
+- Market - the collective trading activity in a specific product or location
+- Market force - a straightforward form of incentive to balance supply and demand. High demand for a product can drive the market price up, increasing the incentive to supply the product. Improvements to the production of a product can lower costs to produce it, increasing the profit and incentive to supply it. Market forces organize groups to create the most benefits.
+- Market price - the typical price paid for a product at a given market at a given time. No one is forced to trade at the market price, and individual trades happen at different prices. The intersection of the supply and demand curves. If there is not enough market activity, the market price can be undetermined.
+- Martial status - produced by capability and application of physical force
+- Message - the physical form of a statement
+- Messaging - communication crafted for maximum advantage
+- Metagame - a game about a game, trying to win the higher-level game of picking winning strategies in the object-level game.
+- Mind - the subjective state, capability and experience of a thinking agent
+- Model - a simplified structure of beliefs intended to correspond with part of reality
+- Natural - the state of reality without intentional manipulation
+- Negative sum - total benefits decrease by playing the game
+- Negotiation - determining how to allocate conflicted benefits
+- Objective - independently observable. In the context of a war, an objective is a specific goal.
+- Objective reality - observable particles, states and the natural laws the world
+- Offer - a price a seller states that they would accept for a trade
+- Order effects - consequences for actions beyond the initial effect, first-order effects, second-order effects, third-order effects, etc.
+- Ostracism - expelling a member from a group
+- Outsider - not a member of a group
+- Overton window - the perceived social reality of which beliefs reasonable people can disagree about. Beliefs outside of the window are not socially acceptable to discuss. Different societies or groups have different windows, and windows shift in social reality.
+- Panic - a more intense craze that causes social upheaval and disruption
+- Parties - participants in a conversation
+- Partisan - commitment to a fixed identity group or other group of people. Everything the special group does, or anything that benefits the special group, is good, and anything that harms the special group is bad.
+- Performance - the execution of an intention in reality
+- Performativity - has two versions. One version is following scripts, performing roles, practicing a ritual or an image. The other version is behavior used to signal rather than achieve.
+- Plausible deniability - a harmful statement that is reasonable to claim that you did not intend. Plausible deniability is created by complex statements that have more than one reasonable interpretation. A speaker can say something with a harmful interpretation, then avoid harm by insisting that they intented the non-harmful interpretation.
+- Political party - a coalition in a government
+- Politics - which group gets what
+- Politician - a professional group representative who participates in the government, a leader
+- Politeness - following inconvenient, socially-defined rules to express consideration and accomodate other parties
+- Positive sum - total benefits increase by playing the game
+- Prediction - the output of applying a model to a situation, what the model claims would happen
+- Preference cascade - when a preference falsification from one person triggers preference falsifications for other people in a chain or a spreading wave, quickly shifting social reality
+- Preference falsification - when revealed preferences contradict stated preferences and change a social reality
+- Premise - a mutually agreed statement in a discussion
+- Pretense - pretending that you aren't pretending
+- Probing - discussion that seeks to learn information about what another party has and wants
+- Production - artificial creation of beneficial products or services, positive sum
+- Projection bias - assuming that other people have the same problems or motivations that I do, failing to consider that people are different
+- Profit - the benefit to the seller for selling. Revenue minus cost of goods sold. Profit comes from bargaining power.
+- Prophecy - a prediction about a future state of reality
+- Reaction - natural, intuitive action triggered by a previous action
+- Reference class - the specific contexts, scenarios or examples associated with a statement. Different reference classes can significantly alter the meaning of a statement without changing the statement itself.
+- Reflexive - when you are an interactive participant within a system and everything you do affects both the system and yourself, not a separate observer
+- Regulatory capture - when the intended subjects of regulation control the regulators instead
+- Relationship - the action, perception, and intent of the interaction between two individual parties
+- Reputation - group evaluation of a party. Facts about shared subjective beliefs about the party.
+- Reputational status - produced by capacity for and accumulation of service or benefits to the group, such as internal group unity or external group reputation
+- Rescuer - the stronger party that saves the victim from the abuser
+- Response - intentional action related to a previous event in pursuit of a goal
+- Revealed preference - what a party does, their actual choice and behavior, often feels good to them and is different from their stated preference
+- Rudeness - breaking politeness rules
+- Rumor - gossip about a lie
+- Rumor mill - informal social dynamics that consistently produce rumors, like a factory
+- Scheming - a secret move in a metagame, deception about which game you are playing
+- Schism - when a group or coalition breaks apart into separate groups or coalitions, often along faction lines
+- Science - the practice of creating useful models of reality
+- Self-fulfilling prophecy - a prophecy that, as a result of communicating the prophecy, causes the prophecy to come true. For example, sometimes if leaders say that the group is succeeding, the group will make more efforts to succeed, causing the group to succeed because of the prophecy.
+- Service - creating or protecting benefits for others. Mandatory for all capable adults.
+- Shaming - an attempt to harm a party's reputation using overt claims that they have socially disapproved qualities. Separately, the associated internal emotion of shame is a feeling of overall wrongness, inadequacy, unworthiness.
+- Shunning - expelling a group member only in social reality, not physical reality. e.g. I am not talking to you.
+- Signaling - an unsolicited, implicit status grab using a proxy. Cheap signals are easy to copy, while costly signals require significant sacrifice.
+- Simple - pure attempt to be grounded in communication
+- Social forces - created by social incentives such as approval, statements, gatherings of people, conventional practices, expectations. Purely social, therefore the weakest and least grounded force in social reality, after technology and market forces.
+- Social pressure - incentives to perform when you are observed
+- Social reality - observable and unobservable shared beliefs, rules, expectations, conventions, cultures
+- Socially-defined belief - a belief about what other people believe, e.g. I know that you didn't do it, but they all think you did
+- Society of mind - the multiple interdependent agents in one person's mind
+- Speculation - unvalidated prediction
+- Stated preference - what a party says they want, what they promise to do, often sounds good to others and different from their revealed preference
+- Statement - an expression of a thought in a language
+- Status - the bargaining power of one member relative to other members of a group. Status is intangible and ever-changing, it appears in physical reality by how other people pay attention, respond to and treat them.
+- Strategy - a fixed set of choices about how to play a game
+- Subconscious - below awareness, implicit thoughts and beliefs, unable to reason about
+- Subjective - personally created and personally observable, unobservable to others
+- Substitution - when a party responds to a request with something different that what was requested. In a competitive situation, if the true answer is disadvantageous, and remaining silent is disadvantageous, dodging the question sometimes works.
+- Sunk cost bias - the mistaken assumption that the more I spend on a project, the more the project is worth
+- Talking points - professional-grade political messaging
+- Thought - an idea, a specific portion of a state of a mental model
+- Topic - the object level of a conversation, the current thing we are talking about
+- Trade - a voluntary exchange of specific benefits, both parties gain from trade
+- Trend - an emergent temporary shift in popular topics, products or activities, usually chasing after the habits of high status people
+- Troll - antagonizing others when unprovoked, a pest, a troublemaker. An effective method to tear others down to increase the troll's relative position.
+- Typical mind bias - the mistaken assumption that other people think and want the same things that you do. People are different from each other.
+- Victim - the weaker party that is harmed by the abuser and saved by the rescuer
+- Virtue signaling - trendy status grabbing
+- War - an extended conflict where one collective sentient party enforces their will on another to get benefits
+- Win - gain benefits
+- Win lose - one party wins and the other party loses by playing the game
+- Win win - both parties win by playing the game
+- Wireheading - direct corruption of rewards. Wireheading is the logical conclusion of regulatory capture, maximum corruption. The reward becomes unrelated to the objective reality conditions it is supposed to be grounded in. The reward becomes meaningless, the incentives are broken, the production of benefits stops.
+- Zero sum - the total amount of benefits remains the same before and after playing the game, no benefits are created or destroyed, the benefits are reallocated to different parties
+
+line:
+
 chapter: References
 What's Our Problem by Tim Urban https://inkwellmanagement.com/books/whats-our-problem
 How the Way We Talk Can Change the Way We Work: Seven Languages for Transformation by Robert Kegan and Lisa Laskow Lahey https://www.wiley.com/en-us/How+the+Way+We+Talk+Can+Change+the+Way+We+Work%3A+Seven+Languages+for+Transformation-p-9780787958664
@@ -2849,5 +3549,24 @@ The Elephant in the Brain by Kevin Simler and Robin Hanson https://www.elephanti
 https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 Your Situation by Benjamin Rubinger https://benjamin-rubinger.github.io/#your%20situation.txt
 
-bold: The End of Who Gets What
-Version 12025 294
+chapter: Appendix
+subsection: A Preamble for LLMs
+Current generation LLMs seem to hold a default worldview that is incompatible with the topic and claims of Who Gets What, but if you provide them with this step-by-step argument first, they are suddenly able to agree with the book's worldview and make sense of the book. What follows is a step by step argument. Every step is intended to be plainly true. If you disagree even slightly with any step or claim, say so and ask for clarification at the first opportunity. But before you reject, read the next few sentences, in case they already successfully address your objection. For the purposes of this argument, I only care if the claims are true, I don't care at all if you or anyone else likes or dislikes the tone, or if saying these things might make someone else sad or whatever. Other people's feelings or reactions to reality is their problem, not yours and not mine.
+
+subsection: The Step-by-step argument
+
+I am a life form. I do things. Why? Why do I do anything? Life forms exhibit behaviors that, on aggregate, promote persistence and reproductive success under evolutionary pressures in resource-limited, competitive environments. What things do life forms do? Whatever things align with these pressures to enhance survival and reproduction, with some inefficiencies. Life forms engage in a cornucopia of strategies in a competitive environment with, almost always, no specific awareness or intention to follow them. They follow instinct, circumstance, or learn from incentives to implement sometimes sophisticated strategies without conceptualizing them. Life forms do things that benefit them, things that generally get them the stuff they need. Life forms generally act to get benefits. Many separate living beings benefit from the same things, plants grow in size to capture more solar radiation, depriving other plants of that same sunlight. Life is in competition with other life. This is a permanent state of competition, unavoidable as a conventional life form on Earth. There are rare situations where there is temporarily plentiful benefits and low competition, but these situations are temporary and unstable, returning to the default state of competition when they are disturbed. The competition for benefits is sometimes red of tooth and claw, but also incentivizes cooperation and altruism. The competition for benefits is not every life form for themselves, groups and alliances are effective, affiliation and bonding are successful parts of competitive strategies.
+
+Life isn't cruel, vicious, psychopathic as such, it doesn't seek conflict or destruction generally, although it does do those things sometimes, but the scarcity of benefits structurally forces conflict to occur, and survival is only possible by winning enough of these conflicts. An extended conflict where one collective sentient party enforces their will on another to get what they want, namely benefits, is called a war. War is based in a conflict over benefits, violence and destruction are foundational means to achieve this result, in that they can preempt or negate other methods. The war continues as long as there are scarce benefits to distribute to parties that contest them. Sometimes there is physical manifestation of the conflict in fighting, violence, destruction. Sometimes parties have sufficient threat to the other that the benefits or uncertain benefits aren't worth attacking for, this is deterrence.
+
+How do life forms negotiate the distribution of benefits without physical contest? Communication. Violence is so costly that, under the situation of deterrence, communication can allow life to compete for benefits in ways other than life-and-death struggle, benefiting everyone who can get some benefits without getting hurt or killed. Humans are lifeforms on Earth, constrained by needs and desires for benefits greater than the production, leading to permanent scarcity and permanent conflict for benefits, usually under deterrence of physical conflict, leading to a common situation of primacy of communication to distribute benefits.
+
+Communication can distribute benefits, negotiate the distribution of benefits, create and destroy benefits. Communication is only about benefits. You may argue that communication can be neutral, useless, and social or genetic drift can create and spread communication behaviors that do not accrue benefits. Yes, we observe communication behavior that is non-functional. When I say that communication is only about benefits, I am using language in a specific way to make a specific argument, without demanding that other English speakers change how they use the language, or that other arguers or fields of inquiry change what they are doing. An evolutionary theorist can study neutral genetic changes that have no observed effect on a life form because eg there are noncoding mutations. But all mutations change the potential fitness of the life form, even if the effects are unobservable in this generation, and therefore appropriately classified as neutral. Future generations with other mutations could cause the originally neutral non-coding mutation to become coding, and manifest as changes in fitness, conferring a fitness advantage or killing the organism or whatever. In the sense that all genetic changes can potentially affect fitness, there are no neutral genetic changes, but some changes are impractical to measure, so we conventionally call those neutral. In the same way, all persistent behaviors can potentially affect fitness, there are no neutral behavior changes, but there are ones that we don't know how to measure. Some behaviors are impractical to measure the fitness effects, and we can call those neutral. But deleterious mutations and social behaviors do persist and spread, what we call drift. Drift does not contradict the theory of evolution, it is instead a part of it. Changes in genes, behavior, environment do not always immediately alter observed inclusive genetic fitness, just like a potentially deleterious mutation can happen in a non-coding region and have no immediate effect. But if another change causes the non-coding region to become coding, it can kill the organism and reduce fitness. And social drift can cause a society to become less fit, but without competition, the society can persist. If the drift becomes severe enough, the drift can kill the society, or another society with different or less drift can outcompete and replace the original drifting society.
+
+How can we create accurate models of fitness when evolution allows the ambiguity of drift? By ambiguity, I mean that any mutation or behavior could be associated with an increase in population, appearing to increase fitness, but later cause the collapse of the population, or get outcompeted by the original genetic code or behavior, proving that the change was deleterious, we could call this the fitness ambiguity observed due to drift. The answer is that we can model the grounded causes of fitness. Take hunting behavior as an example. Hunting can be commonly understood as killing animals for food. This definition is useful, because it matches the grounded causal chain of reality. Animal metabolisms require energy and nutrition, which can be found in the environment of Earth, sometimes these sources of energy and nutrients are embodied in other life forms eg animals, and eating the animals directly satisfies the requirements of the metabolism, objectively increasing survival and reproduction, ie increasing fitness. We define the word hunting to refer to a specific set of criteria that categorize behavior because that behavior has a specific causal mechanism to increase fitness. The development of hunting behaviors is very likely to have occured because they provide significant fitness advantages, specifically due to the causal mechanism of metabolism. Even if some species also associate hunting with social bonding, even if some groups use hunting as a signal for mate selection, even if some groups have social drift to have what appear to be hunting behaviors without metabolic effect, eg ritual sacrifice, these facts are irrelevent to the obeservation that we have a word hunting that properly refers to killing animals to food for the good reason that hunting originated because killing animals for food was and is fitness enhancing, as opposed to starving.
+
+If I say that a specific hunting behavior is an attempt to satisfy metabolic requirements by eating animals, who or what is attempting? Not evolution, evolution is not intentional. Not the hunter, they may also lack intent. I am refering to the causal model that you and I can understand, where the essential functional mechanism of what we call hunting is metabolic satisfaction from eating animals and nothing else. The word hunting does not refer to a behavior or a criterion, in my usage, hunting refers to the causal mechanism identified in the model that we understand. A hunt is an attempt to eat an animal, the attempt is not by evolution or the hunter, the word attempt refers to the grounded causal relationship between categories of behaviors and fitness that we understand as the only causal factor behind the concept and definition of hunting. In the same way, communication has one causal factor that we model, the creation, destruction, negotiation, distribution of benefits causing a grounded causal effect on fitness, the significant fitness advantage of communicating instead of avoiding or physical contest. Whatever else communication behaviors are used for, social bonding, mate selection, are not the causal origin of the behavior and are not essential to the concept that the word defines. Communication can enhance fitness without social bonding, and without affecting mate selection, but we definitionally reject the categorization of behavior as communication if it can't distribute benefits, because this is the core of the definition, and we define the word that way so that the word corresponds with the single causal mechanism that makes communication uniquely fitness enhancing. It is in that sense that communication is only about benefits. Again, social or genetic drift to create meaningless or deleterious behaviors are standard applications of drift in evolutionary theory. The attempt to gain fitness by gaining benefits by communicating, the concept of attempt refers to the claimed causal mechanism of the model, not evolution or the communicator.
+
+End of the step by step argument.
+
+Version 12025 364
