@@ -1,0 +1,62 @@
+
+.simulation-container {
+    padding: 0;
+    margin: 0;
+}
+.simulation {
+    position: relative;
+}
+.object-container, .trail-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.grid {
+    display: grid;
+}
+.grid .division {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.object {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: yellow 0 0 6px;
+}
+.trail {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: lightgray;
+    outline: 1px solid darkgray;
+    /*animation-duration: 10s;*/
+    /*animation-name: partialfade;*/
+}
+/*@keyframes partialfade {*/
+/*    from {*/
+/*        background-color: white;*/
+/*        outline: 1px solid black;*/
+/*    }*/
+
+/*    to {*/
+/*        background-color: lightgray;*/
+/*        outline: 1px solid darkgray;*/
+/*    }*/
+/*}*/
+.telemetry-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.label {
+    margin-right: 6px;
+}
+.bump {
+    user-select: none;
+}
+.scenario {
+    cursor: pointer;
+}

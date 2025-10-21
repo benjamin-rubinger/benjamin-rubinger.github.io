@@ -45,7 +45,7 @@ For they are already enduring it
 
 ### TLDR
 
-Long or short is relative. I wrote everything I think another literate human might need to know to set them on their best path to success. It will take less than a thousandth of a percent of your life to read, and if you get it, that will be 99.999% silence. I invite future generations to effectively compress and enhance it.
+Long or short is relative. I wrote everything here that I think another literate human might need to know to set them on their best path to success. It will take less than a thousandth of a percent of your life to read, and if you get it, that will be 99.999% silence. I invite future generations to effectively compress and enhance it.
 
 ---
 

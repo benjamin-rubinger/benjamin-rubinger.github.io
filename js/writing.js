@@ -558,6 +558,7 @@ function renderBook(lines) {
         'line': 'hr',
         'link': 'div',
         'page title': null,
+        'pre': 'pre',
         'quote': 'blockquote',
         'section': 'section',
         'subsection': 'div',
@@ -580,6 +581,7 @@ function renderBook(lines) {
     const $lines = [];
     let $currentSection = null;
     let $currentGrid = null;
+    let $currentPre = null;
     let line_number = 0;
     let capitalizes = [];
     let allCaps = [];
@@ -792,15 +794,24 @@ function renderBook(lines) {
                 $lines.push($currentGrid);
                 $currentGrid = null;
             }
+            if ($currentPre !== null) {
+                $lines.push($currentPre);
+                $currentPre = null;
+            }
             $lines.push($line);
         } else if ($currentGrid !== null) {
             $currentGrid.append($line);
+        } else if ($currentPre !== null) {
+            $currentPre.append(`${line}\n`);
         } else {
             $currentSection.append($line);
         }
         
         if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4') || (key === 'grid5') || (key === 'grid6')) {
             $currentGrid = $line;
+        }
+        if (key === 'pre') {
+            $currentPre = $line;
         }
         line_number += 1;
     }

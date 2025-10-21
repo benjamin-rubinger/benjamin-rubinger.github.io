@@ -118,7 +118,7 @@ apostrophize: indicator's
 
 page title: The Best Human Earth Calendar - Benjamin Rubinger
 title: the best human earth calendar
-subtitle: holocene ordinal decimal
+subtitle: Holocene Ordinal Decimal
 by: benjamin rubinger
 estimated reading time: 45 minutes or more
 dom: book/calendar-reform-earth-revolution-side-title.dom
@@ -1266,10 +1266,10 @@ the hours of the day shouldnt be 1 - 12, they should be 0 - 11 (12 hour time), 0
 section: use a single number for datetimes
 julian days use a single number with the unit of a day. unix time uses a single number with the unit of a second or a millisecond. another option is to use a single number with the unit of a year. a metric year could be initially defined to match a tropical earth year. the year could be split into 10 months that have nothing to do with the moon, so maybe we could call them something different. for example, halfway through the current year would be 2022.5.
 
-section: thank yous
+chapter: thank yous
 thank you to my spouse, eric berglund and olga sazonova for their helpful feedback to drafts of this page.
 
-section: references
+chapter: references
 https://www.fourmilab.ch/documents/calendar
 https://www.youtube.com/shorts/T0f6u39jlRA
 https://www.scientificamerican.com/article/experts-time-division-days-hours-minutes/

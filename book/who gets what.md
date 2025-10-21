@@ -147,7 +147,7 @@ What about things like genuine expressions of joy, peace, kindness, generosity o
 There is no single way to communicate. This book covers the fundamental communication strategies that broadly work to get more benefits in certain ways at certain times. People find and adopt these communication strategies because they work better than the other things they try. These strategies work because of human nature and the physical laws. The strategies remain the same because those also remain the same, but the ways that individuals understand and apply these strategies are infinite.
 
 ## Limits on the Power of Communication
-Communication is powerful, yet it has two severe limitations. The fruits of communication can be stolen by force, and distribution of benefits is meaningless without production. That means there are two things potentially more important than communication, deterrence in the use of force, and increasing the production of benefits. Mass production can overwhelm even unfair distribution of benefits. For example, rich people can have as many smartphones as they want, but there are still plenty of phones for the rest of us, and ours are about as good as theirs. The modern world has found ways to mass produce many things, but that drives scarcity and competition to the remaining scarce benefits. There remain many situations where force is deterred and mass production is not yet possible, such as real estate, specialized professional services, or friendships. For these benefits, communication is king.
+Communication is powerful, yet it has two severe limitations. The fruits of communication can be stolen by force, and distribution of benefits is meaningless without production. That means there are two things potentially more important than communication, deterrence in the use of force, and increasing the production of benefits. Mass production can overwhelm even unfair distribution of benefits. For example, rich people can have as many smartphones as they want, but there are still plenty of phones for the rest of us, and ours are about as good as theirs. The modern world has found ways to mass produce many things, but that drives scarcity and competition to the remaining scarce benefits. There remain many situations where force is deterred and mass production is not yet possible, things such as real estate, specialized professional services, or friendships. For these benefits, communication is king.
 
 ## Dimensions of Communication
 Communication has multiple dimensions.
@@ -1112,7 +1112,7 @@ Signaling Dominance Behaviors
 ## Cheap and Costly Signals
 Cheap signals are easy to copy. If rich people start liking a low-cost restaurant, everyone can copy them and visit the same low-cost restaurant. Cheap signals are unreliable and change quickly. Costly signals are not easy to copy, they require significant sacrifice. Sometimes low-status people gain cheap access to costly signals and can cheaply gain status, but costly signals are usually protected if they are able to endure. Costly signals are wasteful, but mostly exclude truly poor people. However, some people of all classes sometimes become obsessed with status signaling and find ways to make costly signals beyond their means, by cheating, saving up or overspending.
 
-Lying is sometimes a costly signal of group loyalty. Sometimes people say ridiculous things that everyone knows aren't true. Why would someone intentionally repeat a lie? Because some lies become associated with a group narrative. By repeating the lie, they show support for the group narrative, proving loyalty. But aren't obvious lies ineffective and pointless? No, the more obvious the lie, the better the signal. If someone repeats something true, they could be unaware of the group or they could be an honest person, the truth does not distinguish between group loyalists and non-loyalists. A lie does distinguish between group loyalists and non-loyalists. Only a group loyalist would be willing to repeat an obvious lie to support the group. The cost of the signal is their own reputation for honesty, which is easily lost by repeating a single obvious lie. Other group members observe the costly signal and give them high status as a committed, loyal group member for sacrificing their personal status for the group.
+Lying is sometimes a costly signal of group loyalty. Sometimes people say ridiculous things that everyone knows aren't true. Why would someone intentionally repeat a lie? Because some lies become associated with a group narrative. By repeating the lie, they show support for the group narrative, proving loyalty. But aren't obvious lies ineffective and pointless? No, the more obvious the lie, the better the signal. If someone repeats something true, they could be unaware of the group or they could be an honest person. The purpose of the truth is ambiguous, it does not distinguish between group loyalists and non-loyalists. A good signal is unambiguous. A specific lie can distinguish between group loyalists and non-loyalists. Only a group loyalist would be willing to repeat an obvious lie to support the group. The cost of the signal is their own reputation for honesty, which is easily lost by repeating a single obvious lie. Other group members observe the costly signal and give them high status as a committed, loyal group member for sacrificing their personal status with others for the group. Then anti-loyalists can adopt a countersignal of criticizing the lie, and the war continues.
 
 ## Virtue Signaling
 Virtue signaling is trendy status grabbing. Virtues are personal qualities that your culture values, they can be almost anything, empathy for others, capacity for violence, lack of self-importance.
@@ -1424,7 +1424,7 @@ First I introduce all the communication strategies, then I will describe each in
 | Nice | |
 |---|---|
 | Description | Be nice to others and expect them to be nice to you. Overly literal view of the golden rule, treat others the way you want to be treated, and expect them to treat you well. |
-| Values | Others accept you, harmony |
+| Values | Others accept you, compliance, harmony |
 | What words do | Words are one way to be nice |
 | Messaging | I will do anything you want so you will accept me |
 | Goals | No, won't assert anything |
@@ -1442,7 +1442,7 @@ First I introduce all the communication strategies, then I will describe each in
 | Theory of mind | Naive, everyone wants to get along |
 | Forms of government | Consensus, democracy, seniority, utopia |
 | Dominates | Greedy |
-| Typical emotions | obligation, anxiety, credulity, frustration, resentment, shame, impotence |
+| Typical emotions | Obligation, anxiety, credulity, frustration, resentment, shame, impotence |
 | Typical behaviors | Acting kind, polite, boot licking, complaining when others don't do what I want, sulking, lashing out |
 | Archetypes | Nice guy, nice girl, toady, assistant, weak parent, anyone when they express polite generosity |
 | Examples | Mother, may I? I don't want to be any trouble. I'm sorry, I'm sorry! I just want everyone to get along. |
