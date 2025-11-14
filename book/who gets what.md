@@ -2614,15 +2614,18 @@ Use winning strategies, your people, yourself, your benefits and your bargaining
 ---
 
 # References
-[What's Our Problem by Tim Urban](https://inkwellmanagement.com/books/whats-our-problem)
-
-[How the Way We Talk Can Change the Way We Work: Seven Languages for Transformation by Robert Kegan and Lisa Laskow Lahey](https://www.wiley.com/en-us/How+the+Way+We+Talk+Can+Change+the+Way+We+Work%3A+Seven+Languages+for+Transformation-p-9780787958664)
 
 [The Elephant in the Brain by Kevin Simler and Robin Hanson](https://www.elephantinthebrain.com)
 
+[How the Way We Talk Can Change the Way We Work: Seven Languages for Transformation by Robert Kegan and Lisa Laskow Lahey](https://www.wiley.com/en-us/How+the+Way+We+Talk+Can+Change+the+Way+We+Work%3A+Seven+Languages+for+Transformation-p-9780787958664)
+
+[Pragmatics of Human Communication: A Study of Interactional Patterns, Pathologies and Paradoxes by Paul Watzlawick, Janet Beavin Bavelas, Don D Jackson](https://wwnorton.com/books/9780393710595)
+
 [Thinking, Fast and Slow by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 
-[Your Situation by Benjamin Rubinger](https://benjamin-rubinger.github.io/#your%20situation.txt)
+[What's Our Problem by Tim Urban](https://inkwellmanagement.com/books/whats-our-problem)
+
+[Your Situation by Benjamin Rubinger](https://benjamin-rubinger.github.io/#your%20situation.book)
 
 ---
 

@@ -2,7 +2,7 @@ figure.earth-revolution-side.calendar-reform
   div.animation-container
     div.stars
     div.title.back.animated
-      text humans on earth
+      text humans on Earth
     div.earth-container.stellar-body.animated
       div.atmosphere
       div.pole-side
@@ -13,8 +13,8 @@ figure.earth-revolution-side.calendar-reform
       div.earth-night.right.stellar-body.animated
       div.equator
     div.title.front.animated
-      text humans on earth
+      text humans on Earth
     div.labels
       div.northern-hemisphere-label.pre-title
-        text the best calendar for
+        text The best calendar for
   figcaption

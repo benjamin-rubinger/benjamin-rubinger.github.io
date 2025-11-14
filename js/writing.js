@@ -627,7 +627,26 @@ function renderBook(lines) {
             const head = document.getElementsByTagName('head')[0];
             const script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = value;
+            let source = value;
+            let inline = false;
+            if (source.indexOf(' ') > -1) {
+                const jsConfiguration = source.split(' ');
+                script.src = jsConfiguration[0];
+                let k = null;
+                for (let i = 1; i < jsConfiguration.length; i++) {
+                    if (i % 2 === 0) {
+                        if (k === 'inline') {
+                            inline = true;
+                        } else {
+                            $(script).attr(k, jsConfiguration[i]);
+                        }
+                    } else {
+                        k = jsConfiguration[i];
+                    }
+                }
+            } else {
+                script.src = value;
+            }
 
             // then bind the event to the callback function 
             // there are several events for cross browser compatibility
@@ -638,8 +657,11 @@ function renderBook(lines) {
                 console.log(`script ready ${value}`);
             };
 
-            // fire the loading
-            head.appendChild(script);
+            if (inline) {
+                $lines.push($(script));
+            } else {
+                head.appendChild(script);
+            }
             continue;
         }
         if (key === 'link') {
