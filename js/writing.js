@@ -993,7 +993,7 @@ function initializeWriting() {
         if (hash) {
             loadBook(hash);
         } else {
-            loadBook('index.book');
+//            loadBook('index.book');
         }
     } else {
         registerObservers();
