@@ -387,6 +387,10 @@ function smaller() {
 }
 
 function changeBook() {
+    if (window.location.pathname.length > 1) {
+        window.location = '/';
+        return;
+    }
     loadBook('index.book');
 //    $('nav.article .navigation-container').hide();
 //    $('div#book').hide();
