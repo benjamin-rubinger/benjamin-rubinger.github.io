@@ -525,6 +525,30 @@ if (!URL.canParse) {
     }
 }
 
+function handleHash() {
+    let hash = decodeURI(window.location.hash.substring(1));
+    if (hash) {
+        if (hash.indexOf('#') >= 0) {
+            const id = hash.substring(hash.indexOf('#'));
+            console.log(id);
+            const $entry = $(`${id}`);
+            if ($entry.length > 0) {
+                $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            } else {
+                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            }
+        } else {
+            if (window.location.pathname.length < 2) {
+                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            }
+        }
+    } else {
+        if (window.location.pathname.length < 2) {
+            $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+        }
+    }
+}
+
 function renderBook(lines) {
 //    console.log(`render book  lines length ${lines.length}`);
     // logBook(lines);
@@ -884,23 +908,7 @@ function renderBook(lines) {
     registerObservers();
     capitalize();
     apostrophes();
-    let hash = decodeURI(window.location.hash.substring(1));
-    if (hash) {
-        if (hash.indexOf('#') >= 0) {
-            const id = hash.substring(hash.indexOf('#'));
-            console.log(id);
-            const $entry = $(`${id}`);
-            if ($entry.length > 0) {
-                $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
-            } else {
-                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
-            }
-        } else {
-            $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
-        }
-    } else {
-        $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
-    }
+    handleHash();
 }
 
 function loadBook(name) {
@@ -969,11 +977,14 @@ function initializeWriting() {
 //    registerObservers();
     let hash = decodeURI(window.location.hash.substring(1));
     //    console.log(`window location hash ${hash}`);
-    if (hash) {
-        loadBook(hash);
-    } else {
-//        fetchBook('index.book', listBooks);
-        loadBook('index.book');
+    if (window.location.pathname.length < 2) {
+        if (hash) {
+            loadBook(hash);
+        } else {
+            loadBook('index.book');
+        }
+    } else if (hash) {
+        handleHash();
     }
 }
 
