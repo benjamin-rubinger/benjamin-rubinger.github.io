@@ -542,9 +542,8 @@ function handleHash() {
                 $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
             }
         } else {
-            const id = hash.substring(hash.indexOf('#'));
             console.log(hash);
-            const $entry = $(`${hash}`);
+            const $entry = $(`#${hash}`);
             if ($entry.length > 0) {
                 $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
             } else {
