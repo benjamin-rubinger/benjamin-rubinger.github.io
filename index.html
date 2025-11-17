@@ -1,39 +1,74 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
+<!DOCTYPE html><html lang="en-US"><head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
-    <link href="css/writing.css" rel="stylesheet" />
-    <link href="css/fontawesome.min.css" rel="stylesheet" />
-    <link href="css/brands.min.css" rel="stylesheet" />
+    <link href="css/writing.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="css/brands.min.css" rel="stylesheet">
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/plain-dom.js"></script>
-    <title>Writing - Benjamin Rubinger</title>
+    <title>Benjamin Rubinger</title>
 </head>
 <body class="dark">
 <main>
 <article>
-    <button class="navigation-collapse">&gt;</button>
-    <div id="book" data-key="book"></div>
+    <button class="navigation-collapse" style="display: none">&gt;</button>
+    <div id="book" data-key="book" data-value="books">
+        <h1 style="display: none">Books</h1>
+        <section id="" data-value="" data-key="chapter"><h2></h2>
+            <div><a class="book" data-name="your situation.book" href="#your situation.book">Your Situation</a></div>
+        </section>
+        <div class="grid2">
+            <p>Everyone, including you, can play your game of life much better than you are right now. This book helps you identify the delusions and hidden mechanics that stop you from achieving your goals. These are the verifiable and unpopular facts that you can apply today to save your own life. This book will hurt your feelings.</p>
+            <img src="yoursituationcover.svg" width="Your" height="Situation" alt="Cover">
+        </div>
+        <section id="" data-value="" data-key="chapter"><h2></h2>
+            <div><a class="book" data-name="who gets what.book" href="#who gets what.book">Who Gets What</a></div>
+        </section>
+        <div class="grid2">
+            <p>A book about communication and your war for social reality. Communication determines who gets what benefits, the things you need to survive. Everything people say is designed, consciously or not, to increase their social status in the forever war over social reality. Learn how communication really works, the fundamental strategies, where politics comes from and how to use communication to thrive.</p>
+            <img src="whogetswhatcover.svg" width="Who" height="Gets" alt="What Cover">
+        </div>
+        <div>
+            <a class="book" data-name="prediction market agents.txt" href="#prediction market agents.txt">Prediction Market Agents
+            </a>
+            <p>Create and operate organizations with incentives that better align all participants with the mission. A working system to integrate prediction markets into organizations. A version of futarchy.</p>
+        </div>
+        <div>
+            <a class="book" data-name="best human earth calendar.book" href="#best human earth calendar.book">Best Human Earth Calendar
+            </a>
+            <p>My proposal for the best calendar for humans on earth, the HOD calendar, Holocene Ordinal Decimal. Introduces calendars and calendar reform from the ground up, with animations.</p>
+        </div>
+        <div>
+            <a class="book" data-name="prettiest girl.book" href="#prettiest girl.book">Prettiest Girl
+            </a>
+            <p>Article about the dynamics of the prettiest girl in the world</p>
+        </div>
+        <h3>Works in Progress</h3>
+        <h4>Human Carrying Capacity of the Earth</h4>
+        <p>Explores the limits of current technology to sustainably support the largest possible healthy human population on Earth. challenges popular low estimates of carrying capacity by describing and calculating exactly how every known bottleneck allows us to carry far, far more people than we commonly think. Status is complete and unpublished.</p>
+        <h4>What Will Happen</h4>
+        <p>A book of definitive future predictions, made by combining known facts of human nature, the state of the world, and simple exponential trends into logical conclusions. Predicts the future of population, food, sex, literacy, beds, showers, clothing, education and more. Status is 10% complete.</p>
+        <h4>Introduction to Rockets</h4>
+        <p>A book that explains rockets from the ground up. what a rocket is, how it works, the parts, engine cycles, how they are manufatured, how they launch and operate, things you can do with rockets in space, timeline of rocketry, rocket alternatives. Includes a simple interactive mechanics simulation to demonstrate motion, acceleration and orbits. The textbook form of Everyday Astronaut and Scott Manley's youtube channels. Status is complete and unpublished.</p>
+    </div>
 </article>
-<nav class="article">
+<nav class="article" style="display: none">
     <div class="configuration">
         <button class="change-book">change book</button>
         <button class="dark">dark</button>
         <button class="light">light</button>
-        <button class="capitalize">Capitalize</button>
-        <br />
-        <button class="apostrophes">apostrophe&apos;s</button>
+        <!--<button class="capitalize">Capitalize</button>-->
+        <br>
+        <!--<button class="apostrophes">apostrophe&apos;s</button>-->
         <button class="bigger">bigger</button>
         <button class="smaller">smaller</button>
     </div>
-    <div class="navigation-container"></div>
+    <div class="navigation-container"><div><li class="navigation-entry navigation-book" data-entry-id="book">Books</li><ul></ul></div></div>
 </nav>
 </main>
 <script src="js/writing.js"></script>
-</body>
-</html>
+</body></html>
