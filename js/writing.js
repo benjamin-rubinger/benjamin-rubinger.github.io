@@ -543,8 +543,8 @@ function handleHash() {
             }
         } else {
             const id = hash.substring(hash.indexOf('#'));
-            console.log(id);
-            const $entry = $(`${id}`);
+            console.log(hash);
+            const $entry = $(`${hash}`);
             if ($entry.length > 0) {
                 $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
             } else {
