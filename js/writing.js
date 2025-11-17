@@ -528,17 +528,26 @@ if (!URL.canParse) {
 function handleHash() {
     let hash = decodeURI(window.location.hash.substring(1));
     if (hash) {
-        if (hash.indexOf('#') >= 0) {
+        if (window.location.pathname.length < 2) {
+            if (hash.indexOf('#') >= 0) {
+                const id = hash.substring(hash.indexOf('#'));
+                console.log(id);
+                const $entry = $(`${id}`);
+                if ($entry.length > 0) {
+                    $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+                } else {
+                    $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+                }
+            } else {
+                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
+            }
+        } else {
             const id = hash.substring(hash.indexOf('#'));
             console.log(id);
             const $entry = $(`${id}`);
             if ($entry.length > 0) {
                 $entry[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
             } else {
-                $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
-            }
-        } else {
-            if (window.location.pathname.length < 2) {
                 $('#book')[0].scrollIntoView({'behavior': 'instant', 'block': 'start'});
             }
         }
@@ -983,7 +992,8 @@ function initializeWriting() {
         } else {
             loadBook('index.book');
         }
-    } else if (hash) {
+    } else {
+        registerObservers();
         handleHash();
     }
 }
