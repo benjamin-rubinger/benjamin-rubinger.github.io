@@ -533,6 +533,7 @@ function renderBook(lines) {
     const keySet = {
         'all caps': '',
         'apostrophize': '',
+        'audio': 'audio',
         'author': null,
         'bold': 'b',
         'by': 'p',
@@ -682,6 +683,10 @@ function renderBook(lines) {
             if (text.indexOf('#') >= 0) {
                 text = text.substring(0, text.indexOf('#'));
             }
+            if (text.indexOf('/') === 0) {
+                text = text.substring(1);
+            }
+            text = text.replaceAll('-', ' ');
 //            if (is_local) {
             text = titleCase(text);
 //            }
@@ -724,8 +729,54 @@ function renderBook(lines) {
             $book.attr('data-value', value);
         }
 
+        // todo convert dash lists to ul, maybe nested ul
+        $line = $(`<${tag}>`);
+
+        if (key === 'audio') {
+            console.log('found audio tag');
+            console.log(value);
+            $line.html('');
+            $line.attr('controls', 'controls');
+            $line.attr('preload', 'metadata');
+            const $audioSource = $('<source>');
+            const firstSpaceIndex = value.indexOf(' ');
+            if (firstSpaceIndex < 0) {
+                $audioSource.attr('src', value);
+            } else {
+                const valueParts = value.split(' ');
+                $audioSource.attr('src', valueParts[0]);
+                $audioSource.attr('type', valueParts[1]);
+                if (valueParts.length > 2) {
+                    const trackSource = valueParts[2];
+                    const $track = $('<track>');
+                    if (trackSource.endsWith('.vtt')) {
+                        $track.attr('kind', 'captions').attr('srclang', 'en').attr('label', 'Transcript');
+                    }
+                    $track.attr('src', trackSource);
+                    $line.append($track);
+                }
+            }
+            $line.append($audioSource);
+            console.log($line.html());
+        }
+        if (key === 'image') {
+            $line.html('');
+            const firstSpaceIndex = value.indexOf(' ');
+            if (firstSpaceIndex < 0) {
+                $line.attr('src', value);
+            } else {
+                const imageParts = value.split(' ');
+                $line.attr('src', imageParts[0]);
+                $line.attr('width', imageParts[1]);
+                $line.attr('height', imageParts[2]);
+                if (imageParts.length > 3) {
+                    $line.attr('alt', imageParts.slice(3).join(' '));
+                }
+            }
+        }
+
         let urlMatches = [...value.matchAll(httpLinkRegex)];
-        if ((urlMatches.length > 0) && (key !== 'image')) {
+        if ((urlMatches.length > 0) && (key !== 'image') && (key !== 'audio')) {
             for (const urlMatch of urlMatches) {
 //                console.log('url match');
 //                console.log(urlMatch);
@@ -764,8 +815,6 @@ function renderBook(lines) {
         } else {
             value = sentenceCase(value, capitalizes, allCaps, apostropheMap);
         }
-        // todo convert dash lists to ul, maybe nested ul
-        $line = $(`<${tag}>`);
         if ((key === 'chapter') || (key === 'section') || (key === 'subsection')) {
             let myCleanId = cleanId(value);
             $line.attr('id', myCleanId);
@@ -782,7 +831,7 @@ function renderBook(lines) {
             $currentSection = $line;
         } else if (key === 'class') {
             $line.addClass(value);
-        } else {
+        } else if ((key !== 'audio') && (key !== 'image')) {
             $line.html(value);
         }
         if (key === 'subtitle') {
@@ -800,16 +849,6 @@ function renderBook(lines) {
         }
         if ((key === 'grid2') || (key === 'grid3') || (key === 'grid4') || (key === 'grid5') || (key === 'grid6') || (key === 'column0') || (key === 'column1') || (key === 'column2') || (key === 'column3') || (key === 'column4') || (key === 'column5')) {
             $line.addClass(key);
-        }
-        if (key === 'image') {
-            $line.html('');
-            const firstSpaceIndex = value.indexOf(' ');
-            if (firstSpaceIndex < 0) {
-                $line.attr('src', value);
-            } else {
-                $line.attr('src', value.substring(0, firstSpaceIndex));
-                $line.attr('alt', value.substring(firstSpaceIndex + 1));
-            }
         }
         if ((key === 'chapter') || (key === 'section') || (key === 'subsection') || ($currentSection === null)) {
             if ($currentGrid !== null) {
