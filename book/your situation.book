@@ -1,4 +1,4 @@
-image: yoursituationcover.svg Your Situation Cover
+image: yoursituationcover.svg auto auto Your Situation Cover
 
 page title: Your Situation - Benjamin Rubinger
 title: Your Situation
@@ -6,19 +6,20 @@ subtitle: A Swift Spiritual Kick to the Head to Align Your Model with Reality
 by: Benjamin Rubinger
 Estimated reading time: 3 hours to read, longer to apply
 
-js: js/your_situation.js
-js: https://player.podigee-cdn.net/podcast-player/javascripts/podigee-podcast-player.js data-configuration podigeeConfiguration class podigee-podcast-player inline true
-
-Read Your Situation online https://benjamin-rubinger.github.io/#your%20situation.txt
-Download Your Situation PDF https://benjamin-rubinger.github.io/book/your%20situation.pdf
+Read Your Situation online https://benjamin-rubinger.github.io/your-situation.html
+Download Your Situation PDF https://benjamin-rubinger.github.io/book/your-situation.pdf
+Download Your Situation EPUB https://benjamin-rubinger.github.io/book/your-situation.epub
 Discuss Your Situation https://github.com/benjamin-rubinger/benjamin-rubinger.github.io/discussions/categories/your-situation
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_01_introduction.png 200px 200px Lives 1 Score 0000
+
 chapter: Introduction
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_01_introduction.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_01_introduction.vtt
 Your senses and your mind are very likely reliable, but your intuitive and ordinary interpretation of your life is very likely to be a delusion. Not only does the world appear different to you from how it is, the society around you is delusional. Your situation and how the world works are extremely different from what people generally assume.
 
 In this book, I attempt to destroy the key delusions and reveal the hidden mechanics of your situation. I will suggest techniques to help you effectively pursue your actual goals. Each topic is contained in one chapter, go in order or sample, but it is all connected. The title of each chapter is a delusion or a mechanic. These observations are unoriginal, verifiable and unpopular. I am not demanding anything of you, take what you can handle. This is my attempt to give you a swift spiritual kick to the head, one shot to align your model with your situation.
+
 bold: This book will hurt your feelings.
-subsection:
 
 italic: Litany of Eugene Gendlin
 What is true is already so
@@ -32,8 +33,12 @@ For they are already enduring it
 section: TLDR
 Long or short is relative. I wrote everything here that I think another literate human might need to know to set them on their best path to success. It will take less than a thousandth of a percent of your life to read, and if you get it, that will be 99.999% silence. I invite future generations to effectively compress and enhance it.
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_02_i_experience_the_world.png 200px 200px Eye
+
 chapter: I Experience the World
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_02_i_experience_the_world.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_02_i_experience_the_world.vtt
 section: I See It All
+
 You wake, you open your eyes, you see the wide world, you touch grass. You experience the world. Nope.
 
 You are in a soft brain floating in an underwater bone box in a monkey. Your senses are intermediaries. You have never seen or touched anything. You only know what your senses tell you. You have never experienced the world. Your eyes collect a tiny amount of light and in a complex, lossy process, transform that light into signals that you spend a lot of unconscious effort to make sense of. Most of what you think you see is imagined, your image of the world is mostly made up, confabulated. That is not a metaphor. There is only a tiny area of your field of view that your eyes see clearly, and your eyes skip around very quickly to create the impression that you can see everything clearly at the same time. Try fixing your eyes in place and attempt to keep reading. The rest of your vision is not very detailed, it is mainly good at detecting grayscale and movement. Your wide view of the whole world all at once is a comfortable illusion. You even predict what you are going to see, so you can stop paying attention. When your vision system detects something it didn't expect, an anomaly, it grabs your attention. Then your attention tacitly moves your eyes to focus on it, so you think you see everything.
@@ -50,7 +55,10 @@ https://en.wikipedia.org/wiki/Blind_spot_(vision)
 https://en.wikipedia.org/wiki/Optical_illusion
 The World as Will and Idea, by Arthur Schopenhauer, Book I Section 1 https://www.gutenberg.org/ebooks/38427
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_03_goals.png 200px 200px Cake
+
 chapter: Goals
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_03_goals.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_03_goals.vtt
 section: Types of Goals
 Goals are things you want. They may seem incidental, but your goals are one of your defining characteristics, along with your capabilities. Goals are not simple. There are terminal goals, instrumental goals, non-goals and antigoals. A terminal goal is whatever you ultimately want. An instrumental goal is something that helps you get what you want, for example, money. We don't usually want money itself, we want what we can get with the money. Non-goals are all of the infinite things you could want but don't, including all of the things that could help you get the things you don't want. If you watch a car commercial when you don't want to buy a car, it does not advance your goals, it is a waste of time. Antigoals prevent or obstruct your instrumental or terminal goals. If I want my flag to be on a hill, taking my flag off the hill or leaving the hill are antigoals.
 
@@ -73,9 +81,12 @@ People fail at fundamentals, they often don't know what they want or how to get 
 https://en.wikipedia.org/wiki/Instrumental_convergence
 https://en.wikipedia.org/wiki/Zero_to_One
 https://en.wikipedia.org/wiki/Effective_altruism#Cause_prioritization
-https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#Orthogonality_thesis
+Orthogonality Thesis https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#Orthogonality_thesis
+
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_04_agents.png 200px 200px Heat-seaking missile
 
 chapter: Agents
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_04_agents.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_04_agents.vtt
 section: Pursuing Goals
 You are an agent. Agents have goals and capabilities. Agency is the ability to pursue a goal by responding to the environment. Agency isn't all or nothing, agency is continuous and changing. More agency means faster or more flexible responses. Less agency means slower or less flexible responses. A rock does not have agency. A rock has no ability to pursue a goal. A rock at rest will stay at rest, a rock in motion will stay in motion unless stopped by something else. A heat-seeking missile is an agentic device, it pursues a goal, its goal is to orient to a heat source and explode. The heat-seeking missile has the ability to pursue its goal by detecting heat sources and moving its fins to respond to its targets movements.
 
@@ -101,7 +112,10 @@ https://en.wikipedia.org/wiki/Conformity
 https://en.wikipedia.org/wiki/OODA_loop
 https://en.wikipedia.org/wiki/Locus_of_control
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_05_i_know_exactly_whats_happening.png 200px 200px Clouds
+
 chapter: I Know Exactly What's Happening
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_05_i_know_exactly_whats_happening.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_05_i_know_exactly_whats_happening.vtt
 section: Imperfect Information Game
 Tic-tac-toe is a game with perfect information. Both players can always see the entire state of the board as they take turns marking cells. Your life is an imperfect information game. Very imperfect, extremely imperfect, and that is a big problem for you. Probably even worse than you think. If you want to achieve your goals in life, it really helps, or it would probably be necessary, for you to know all the facts. Otherwise, something unexpected will happen, and life doesn't just give you everything you want unexpectedly. That is what we call fantasy. I want to know the facts, but I can't even see past the walls of my room. If I moved to a glass house and looked through my walls, I can't see past the horizon, the Earth gets in the way. Even if I could see through the Earth, I can't pay attention to it all. Even if I could pay attention to it all, I couldn't predict what happens later. Life is ultimately unpredictable in principle. Imperfect information is not no information, you have some information, and that's what you get. We call the imperfection the fog.
 
@@ -131,14 +145,17 @@ In this universe, humans are puny, each of us surrounded by our own fog of war. 
 
 https://en.wikipedia.org/wiki/Perfect_information
 https://en.wikipedia.org/wiki/Fog_of_war
-https://en.wikipedia.org/wiki/On_War
+On War by Clausewitz https://en.wikipedia.org/wiki/On_War
 Examples of Costs of Information https://simplicable.com/new/information-costs
 Cost-Benefit Analysis https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis
 https://en.wikipedia.org/wiki/Epistemic_humility
 https://en.wikipedia.org/wiki/Hyperthymesia
 https://en.wikipedia.org/wiki/Three-body_problem
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_06_this_is_serious.png 200px 200px Handcuffs
+
 chapter: This is Serious
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_06_this_is_serious.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_06_this_is_serious.vtt
 section: What You Have to Do
 You are born, gain awareness, and you have to play the game that appears in front of you. You live by the expectations, exhortations, demands, costs and benefits defined by the environment and people around you. It seems that you have to. They tell you that you have to. You don't know any different, and you see all the other people around you playing by the rules of that game that they tell you to play. Life is not a game! Life is serious! You must follow our traditions! Fit into society. Do what we tell you.
 
@@ -164,7 +181,10 @@ You can't pick your spawn point, and it may appear that the first game you see i
 https://en.wikipedia.org/wiki/Metagame
 Dead and Live Players https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_07_decisions.png 200px 200px Buck
+
 chapter: Decisions
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_07_decisions.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_07_decisions.vtt
 section: The Potential
 Everyone feels that they make good decisions, until they compare their results against a true expert and see someone achieve so much more than them. I was first humbled by strategy game players who trounced my scores. I played the same scenario as them, but their performance was over 100x better. Everyone's decision making can improve. What are you going to do about yours?
 
@@ -216,16 +236,20 @@ The bad news is that you aren't a little wrong, you are very wrong. Your intuiti
 section: Being Reasonable
 I faced an infinite number of potential decisions about what to write about decisions to advance my goals, and these are my conclusions. You can only make decisions you are aware of. You can only consider information and options you are aware of. If you balance importance, urgency and cost of information to prioritize your decisions, then make deliberate conclusions, you can be reasonable. This will increase your ability to think, improving your observe, think, act cycle. Both the potential losses and gains from your decisions mean everything to you. The decision is yours.
 
-rationality: from AI to zombies https://www.readthesequences.com
+Rationality: From AI to Zombies https://www.readthesequences.com
 https://en.wikipedia.org/wiki/Planning_fallacy
 https://en.wikipedia.org/wiki/Minimax#Example
 https://en.wikipedia.org/wiki/Iterative_and_incremental_development
-a b testing https://en.wikipedia.org/wiki/A/B_testing
+A B Testing https://en.wikipedia.org/wiki/A/B_testing
 https://en.wikipedia.org/wiki/Mathematical_optimization
 https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
-logical uncertainty https://www.alignmentforum.org/w/logical-uncertainty
+Logical Uncertainty https://www.alignmentforum.org/w/logical-uncertainty
+
+
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_08_i_have_free_will.png 200px 200px Marionette
 
 chapter: I Have Free Will
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_08_i_have_free_will.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_08_i_have_free_will.vtt
 section: Determinism
 Determinism and predestination are terms that describe a clockwork model of the universe where the entire course of history is predetermined by the initial state. Everything that will happen is fixed from the beginning and the future is knowable in advance. Free will is the opposite of determinism, it is the idea that I can choose to do otherwise, there is no fate but what I make. If there is no free will, every action is predetermined, no one deserves praise or blame for their actions, they are marionettes moved by the strings of fate. If you don't like it, blame fate, not the marionette. If people have free will, they decide what they do and they deserve praise and blame for their choices. These terms are confused and there is no conundrum.
 
@@ -244,8 +268,10 @@ https://en.wikipedia.org/wiki/Determinism
 https://en.wikipedia.org/wiki/Compatibilism
 https://en.wikipedia.org/wiki/Moral_agency
 
-chapter: I Am a Success
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_09_i_am_a_success.png 200px 200px Wave
 
+chapter: I Am a Success
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_09_i_am_a_success.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_09_i_am_a_success.vtt
 section: A Human Contradiction
 What do we want? Success. What do we not want? Effort. What does success require? Effort. This is a human contradiction. Why are we like this? Our species developed in an environment where calories were hard to get. Effort is our perception of spending calories. People who carelessly spent effort wasted calories and died of starvation, while people who saved every unnecessary effort survived and multiplied. We became a species that hates effort but works when needed.
 
@@ -284,7 +310,10 @@ https://en.wikipedia.org/wiki/Survivorship_bias
 Jack Conte describing Excellence and Waves https://www.youtube.com/watch?v=Zf5rKTCMNnU
 Naval explaining human success https://x.com/naval/status/1911181129102790682
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_10_i_know_the_score.png 200px 200px Winners Podium
+
 chapter: I Know the Score
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_10_i_know_the_score.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_10_i_know_the_score.vtt
 section: The Footrace
 Your peers are the people who are born around the same time as you. It seems like life is a competitive footrace against your peers. Early human development has convergent milestones, walking, talking, reading and writing, parents and children are happy to reach the milestones and compare their speed against others. Early on, everyone is going the same direction and everyone knows their score.
 
@@ -313,7 +342,10 @@ According to conventional metrics for artists, Van Gogh was poor and unrecognize
 
 Van Gogh letter 480. If I make better work later, I still won't work otherwise than now. I mean it will be the same apple only riper - I myself won't turn from what I've thought from the start. And this is why I say for my part, if I'm no good now, I won't be any good later either - but if later, then now too. For wheat is wheat, even if it looks like grass at first to townsfolk - and the other way round too.
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_11_ive_always_been_me.png 200px 200px Ship of Theseus
+
 chapter: I've Always Been Me
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_11_ive_always_been_me.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_11_ive_always_been_me.vtt
 section: Obviously I Am Me
 I know who I am. I have been the same person my entire life. I make the decisions. I exist! All false.
 
@@ -350,11 +382,14 @@ The gas giant Jupiter has a permanent storm that is larger than the earth. The e
 When people say, I exist, they are typically deeply mistaken, the single fixed homonculus behind your eyes pulling the levers, that I does not exist. Your body replaces itself completely, your thoughts and personality change, your conscious mind is not alone in there, and it's not in charge. There is no bright boundary between your mind, body, and the world. Yet when I address you, the pronoun is meaningful and we both know who I am talking about, because you are an identifiable dynamic system that drifts, grows and shrinks. It's just that you are also countless independent agents, very weakly self aware, and embeded within the environment.
 
 https://en.wikipedia.org/wiki/Split-brain
-brain scans reveal decisions https://www.unsw.edu.au/newsroom/news/2019/03/our-brains-reveal-our-choices-before-were-even-aware-of-them--st
-the elephant in the brain https://www.elephantinthebrain.com
+Brain Scans Reveal Decisions https://www.unsw.edu.au/newsroom/news/2019/03/our-brains-reveal-our-choices-before-were-even-aware-of-them--st
+The Elephant in the Brain https://www.elephantinthebrain.com
 https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_12_i_know_myself_best.png 200px 200px Hall of Mirrors
+
 chapter: I Know Myself Best
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_12_i_know_myself_best.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_12_i_know_myself_best.vtt
 section: How Do I Look?
 You can't see your own face without an accurate reflection. The hardest person to get accurate information about is yourself. You are able to see other people objectively, particularly people you don't have a relationship with, but your view of yourself is helplessly subjective, until you use a tool like a mirror or a camera. Then your harsh judgement of your semi-objective view of yourself is heavy, or even vicious.
 
@@ -377,7 +412,10 @@ Nietzsche in Thus Spoke Zarathustra. One's own self is well hidden from one's ow
 
 https://en.wikipedia.org/wiki/Sampling_(statistics)
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_13_i_use_my_time_well.png 200px 200px Apple
+
 chapter: I Use My Time Well
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_13_i_use_my_time_well.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_13_i_use_my_time_well.vtt
 section: I'm Busy
 You're a busy person. You have a lot of work you would like to do, but you only have so much time and energy. Life is full of mundane tasks, and you need to rest, relax and socialize, too! Life isn't only about work or survival. While you know that your use of your time isn't perfect, you are doing the best you can.
 
@@ -480,13 +518,16 @@ There are a lot of hours in the day. Effective people get a lot done, but they d
 Dwarkesh Patel. What's lacking in life is not time. If you are working on the right thing, you can advance leaps and bounds in just eight hours. But if you are just slogging through, you can spend a lifetime staying in the same place. https://x.com/dwarkesh_sp/status/1897351603977642382
 
 https://en.wikipedia.org/wiki/Procrastination
-solving the procrastination puzzle https://www.penguinrandomhouse.com/books/315695/solving-the-procrastination-puzzle-by-timothy-a-pychyl/
+Solving the Procrastination Puzzle https://www.penguinrandomhouse.com/books/315695/solving-the-procrastination-puzzle-by-timothy-a-pychyl/
 https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 https://en.wikipedia.org/wiki/Pomodoro_Technique
 https://en.wikipedia.org/wiki/Hyperbolic_discounting
-http://www.picoeconomics.org/Nut2/Nutshell2.html
+Intertemporal Bargaining http://www.picoeconomics.org/Nut2/Nutshell2.html
+
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_14_i_understand_other_people.png 200px 200px Skull
 
 chapter: I Understand Other People
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_14_i_understand_other_people.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_14_i_understand_other_people.vtt
 section: Like Mind Fallacy
 You have one body with one brain. Humans are social, we live and work together, many different bodies and brains. This is a problem. For me to work with you, I have to know what you will do. To know what you will do, I have to know what you are thinking. But I can't know what you are thinking, I only partially know my own mind. We intuitively use a false assumption to relate with each other, we assume that everyone is me. That assumption allows me to use my one brain to imagine what everyone else is thinking. Everyone else thinks what I think, meaning they think what I would think if I was in their position.
 
@@ -507,7 +548,10 @@ https://en.wikipedia.org/wiki/Theory_of_mind
 https://en.wikipedia.org/wiki/False_consensus_effect
 https://en.wikipedia.org/wiki/Mind_projection_fallacy
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_15_i_knew_i_was_right.png 200px 200px Smashed Window
+
 chapter: I Knew I Was Right
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_15_i_knew_i_was_right.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_15_i_knew_i_was_right.vtt
 section: Confidence and Capability
 The job of your conscious mind is to sound good to others, not to be correct. Being confident sounds good, so your conscious mind is very confident by default. People who know the least about a subject are typically the most confident about it. The more you learn about something, the less confident your conscious mind becomes. You might notice that this is backwards, agents with lower capability should be less confident, and agents with higher capability should be more confident. This is the combination of the job of your conscious mind and the like mind fallacy. If you know nothing about a subject, your accuser will also know nothing about it, like mind fallacy. The job of the conscious mind is to sound good, so if your accuser knows nothing about a subject, you can tell them anything and they might believe it. The more you know about a subject, the more your accuser will know, continuing with like mind. Now it is very hard to explain your behavior and your conscious mind loses confidence. The more you know, the more you know that you don't know. To protect your confidence, you don't want to know.
 
@@ -525,7 +569,10 @@ Drag your conscious mind, kicking and screaming, into extraordinary competence. 
 
 https://en.wikipedia.org/wiki/Confirmation_bias
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_16_my_mind_is_safe.png 200px 200px Virus
+
 chapter: My Mind Is Safe
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_16_my_mind_is_safe.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_16_my_mind_is_safe.vtt
 section: The Safety of Your Mental Garden
 The physical world outside is a jungle, filled with things that want to physically harm you. There is a special feeling of safety within your own mind. Your private inner mental world is your secure garden. There is an equivalent mental jungle out there and you must either defend your mental garden or your mind will be invaded. Your inner world is not safe.
 
@@ -537,7 +584,7 @@ A psychological operation, psyop is when an individual or a group makes a memeti
 
 Propaganda is a psyop by a government to exert political control over foreign countries or their own citizens. Propaganda can be positive or negative, and separately overt and covert. It can build into meme complexes, including religions and cultures, and can be beneficial or ruinous for the individual.
 
-A secure connection with yourself makes psyops more difficult, if not impossible. Breaking your connection with yourself is a convergent goal of psyopppers. https://x.com/nosilverv/status/1892547972665163826
+nosilverv. A secure connection with yourself makes psyops more difficult, if not impossible. Breaking your connection with yourself is a convergent goal of psyopppers. https://x.com/nosilverv/status/1892547972665163826
 
 section: Negative Suggestion
 Negative suggestions are a simple attack technique. Just take something that someone likes and say that it is bad. Unavoidably, they will like it less. It's also called trash talking, muck raking and yucking someones yum. Positive beliefs are fragile because people are risk averse. There are many ways to survive, but you can only die once. If I deeply enjoy a piece of art, I consciously avoid harsh criticism of it, to protect my fragile positive sentiment. My potential ignorance of justified criticisms is worth it in these rare cases.
@@ -558,7 +605,7 @@ section: Replication Mechanisms
 Behind the replication factor is the replication mechanism. Some environments have built-in replication mechanisms. Social media services support likes and reposts on any post. Other environments don't provide a replication mechanism, so memes have to self replicate. You can detect viral memes from their replication mechanism. The mechanism can be subtle, but they are often obscenely apparent if you look for them. And by the way, tell all your friends to read this book. If this book has helped you at all, make three copies and give them to people who might need to read it. This book is so powerful, that I bet you can't find anyone to disprove its claims! Send this book along with $10 to ten people. When they learn about this amazing opportunity, they will do the same, and send half of the money back to you. I earned $70,000 in my first month doing this! You can express your gratitude for everything you have learned from me by having as many children as possible, and teach them from this book at an early age. The previous seven sentences were examples of replication mechanisms attacking you.
 
 section: Lying
-Memetic memes brazenly lie, or at least brazenly suggest. Reality is mundane and, from a certain point of view, nothing ever happens. From the beginning of the universe, not one surprising thing has ever happened. A viral meme is the opposite of that, something unbelievable just happened! I have to tell everybody about this amazing thing! The lie is the superstimulous that attracts you to the viral meme. All images converge to barely dressed sexy people staring at you and smiling. Common superstimuli are get rich quick, beautiful women want to be with you, the prince of nigeria needs your help, do this thing to get back at the system, don't be tricked by this new scam, our group is wonderful while their group is terrible. The most important form of the get rich quick claim is the pyramid scheme, also known as multilevel marketing. A pyramid scheme combines a viral meme with a monetary incentive. They propose a fool-proof scheme to make lots of money, which only redistributes money from all the infected to the top of the pyramid.
+Memetic memes brazenly lie, or at least brazenly suggest. Reality is mundane and, from a certain point of view, nothing ever happens. From the beginning of the universe, not one surprising thing has ever happened. A viral meme is the opposite of that, something unbelievable just happened! I have to tell everybody about this amazing thing! The lie is the superstimulous that attracts you to the viral meme. All images converge to barely dressed sexy people staring at you and smiling. Common superstimuli are get rich quick, beautiful women want to be with you, the Prince of Nigeria needs your help, do this thing to get back at the system, don't be tricked by this new scam, our group is wonderful while their group is terrible. The most important form of the get rich quick claim is the pyramid scheme, also known as multilevel marketing. A pyramid scheme combines a viral meme with a monetary incentive. They propose a fool-proof scheme to make lots of money, which only redistributes money from all the infected to the top of the pyramid.
 
 section: Attention Economy
 Humans were originally more survival focused. Although memes were always powerful, the focus has shifted from the physical jungle to the mental jungle and memetic competition. The economy was once primarily physical goods, then it shifted to services, to information, and now to attention. In the attention economy, memetic fitness gets attention, and attention gets money.
@@ -580,14 +627,17 @@ https://en.wikipedia.org/wiki/Psychological_warfare
 https://en.wikipedia.org/wiki/Halo_effect
 https://en.wikipedia.org/wiki/Astroturfing
 https://en.wikipedia.org/wiki/Information_hazard
-nothing ever happens https://knowyourmeme.com/memes/nothing-ever-happens
+Nothing Ever Happens https://knowyourmeme.com/memes/nothing-ever-happens
 https://en.wikipedia.org/wiki/Pyramid_scheme
 
-chapter: My Emotions are Correct
-section: Humans are Emotional
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_17_my_emotions_are_correct.png 200px 200px Thermometer in a block of ice
+
+chapter: My Emotions Are Correct
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_17_my_emotions_are_correct.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_17_my_emotions_are_correct.vtt
+section: Humans Are Emotional
 You have emotions, and your emotions are important to you. If you feel something, it must be for a good reason. Emotions are a valuable part of the human mind and an essential part of the human experience. Nature developed emotions for a useful purpose. An emotional response is never erroneous. It is wrong to deny or to criticize others' emotions.
 
-section: What You May be Missing
+section: What You May Be Missing
 Hahaha, I stand by every word of the above, but I carefully avoided the whole truth of emotions to lure the snowflakes in. Come closer, I want to tell you something.
 
 bold: Your emotions only matter to you, you ass! They have nothing to do with me!
@@ -602,7 +652,7 @@ If I do something to you that you believe is unfair, you will get angry, whether
 If I give you something you deeply desire, you will be joyous, whether or not others think it is valuable.
 If I do something you believe is threatening, you will be frightened, even if others might not care.
 
-Beliefs aren't voluntary, so you can't decide not to be angry, joyous or frightened, or to feel a different emotion instead. When you feel frightened, you might turn and hit the person next to you, stop scaring me. But the person who frightened you is not them, it is yourself. If you are angry at me because you believe that I mistreated you, if I provide a explanation that convinces you that I treated you properly, you will no longer believe that I mistreated you and you will stop being angry, or stop being angry about that part.
+Beliefs aren't voluntary, so you can't decide not to be angry, joyous or frightened, or to feel a different emotion instead. When you feel frightened, you might turn and hit the person next to you, stop scaring me. But the person who frightened you is not them, it is yourself. If you are angry at me because you believe that I mistreated you, if I provide an explanation that convinces you that I treated you properly, you will no longer believe that I mistreated you and you will stop being angry, or stop being angry about that part.
 
 section: Emotional Chemistry
 Emotions have a chemical component. When someone is emotionally triggered, they start dumping emotional chemicals into their body. It takes some time to dump and distribute the chemicals and hype themselves up. If you notice and respond to the emotional trigger during the latency period, it is possible to short-circuit the emotional reaction. The human mind tends to ruminate about significant events, replaying what happened and retriggering an echo of the emotional response even if the cause was already resolved. This creates aftershocks. With enough awareness, you can short-circuit your own aftershocks instead of deafening yourself in an emotional feedback loop.
@@ -623,7 +673,10 @@ Handbook of Emotion Regulation, Chapter 1 Introduction https://www.guilford.com/
 Women Who Think Too Much, Chapter 2 Costs of Overthinking https://us.macmillan.com/books/9780805075250/womenwhothinktoomuch/
 Social, Chapter 6 Emotions and the Social Brain https://www.penguinrandomhouse.com/books/212681/social-by-matthew-d-lieberman/
 
-chapter: I Just Want to be Happy
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_18_i_just_want_to_be_happy.png 200px 200px Chest full of gold
+
+chapter: I Just Want to Be Happy
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_18_i_just_want_to_be_happy.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_18_i_just_want_to_be_happy.vtt
 section: Being Happy
 People say things like I just want to be happy, and I will be happy when x. This is a cultural delusion. Happiness is an emotion, emotions are reactions, reactions are temporary, it is impossible to be happy in an extended way. You will never live every moment of your life in shock and delight, oh, it's another moment, how unexpected and joyful! Here comes another amazing moment, I could never have guessed?! This is mania, it is a medical condition. You will never be permanently emotionally happy.
 
@@ -634,7 +687,7 @@ Comparison is the thief of joy. adage
 
 Montesquieu. If we only wished to be happy, this could be easily accomplished. But we wish to be happier than other people, and this is always difficult, for we believe others to be happier than they are.
 
-It's nobody else's responsibility to make you happy. Your happiness is your own responsibility. Happiness does not depend on circumstances. ... It's about perspective, it's about being grateful. https://www.youtube.com/watch?v=Uy6m1j4pcak
+Far from Eden. It's nobody else's responsibility to make you happy. Your happiness is your own responsibility. Happiness does not depend on circumstances. ... It's about perspective, it's about being grateful. https://www.youtube.com/watch?v=Uy6m1j4pcak
 
 section: Satisfaction
 The key to satisfaction is lowered expectations. Lower your expectations right to the ground, so low you would be happy, meaning satisfied, even if you were a doormat. Lowered expectations does not mean lowered aspirations. You don't have to aspire to be a doormat. Aspire to whatever you want. Aspire to be like unto a God. Don't expect anything. You do not deserve anything. No Thing. Nothing.
@@ -647,7 +700,10 @@ https://en.wikipedia.org/wiki/Positive_psychology
 https://en.wikipedia.org/wiki/Equanimity
 https://en.wikipedia.org/wiki/Eudaimonia
 
-chapter: Talking is for Information Transfer
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_19_talking_is_for_information_transfer.png 200px 200px Finger pointing at you
+
+chapter: Talking Is for Information Transfer
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_19_talking_is_for_information_transfer.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_19_talking_is_for_information_transfer.vtt
 section: Why Say Anything?
 Why do people talk? What is talking for? I am the only one that can live my life, you are the only one that can live your life. What do we need to say to each other? What do I need you to tell me about my life? Very little. For example, I might want you to tell me relevant information that I don't already know.
 
@@ -687,7 +743,10 @@ https://en.wikipedia.org/wiki/Social_reality
 https://en.wikipedia.org/wiki/Virtue_signalling
 https://en.wikipedia.org/wiki/Pragmatics
 
-chapter: I am a Good Person
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_20_i_am_a_good_person.png 200px 200px Dagger
+
+chapter: I Am a Good Person
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_20_i_am_a_good_person.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_20_i_am_a_good_person.vtt
 section: You Feel Like the Hero
 I feel like the hero of my own story, just like everyone else does. I face adversity and I do my best in this difficult situation. I mean well. If the world is unfair and wrongs me, am I supposed to not notice or forget? Or should I stand up for myself, take what's rightfully mine and do what it takes to protect me and my community? If I am placed in a situation with no alternative, if I have to choose between me and you, losing my life or taking your life, I have to choose my life, right?
 
@@ -696,15 +755,18 @@ An atrocity is an extremely evil act, a great injustice, such as cruelly killing
 
 People have much in common. There is important variation, but also a lot of similarity. Atrocities happen, and atrocities are caused by people. Atrocities are caused by people like you.
 
-section: Sometimes You are a Bad Person
+section: Sometimes You Are a Bad Person
 You must integrate the sense that you are a good person who does not want to commit or allow for atrocities to happen, with the fact that atrocities do occur and many of the people involved are like you. We all mean well. Things don't work out the way we want. Does that make you a bad person? Sometimes, yes. Sometimes you are a bad person. When you are able to consider the possibility that you are bad, or more accurately that you are doing something bad, you can fully consider your moral actions instead of denying reality. But I'm a good person!
 
 The Wave https://www.imdb.com/title/tt0083316
 District 9 https://www.imdb.com/title/tt1136608
 Pumpkin https://www.imdb.com/title/tt0265591
 
-chapter: This is True Love
-section: Relationships are Essential
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_21_this_is_true_love.png 200px 200px Bird perching on your hand
+
+chapter: This Is True Love
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_21_this_is_true_love.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_21_this_is_true_love.vtt
+section: Relationships Are Essential
 No man is an island, humans are social animals, we need to form deep relationships to be healthy. Relationships are not a nice to have, they are a need. What would happen to a baby if you raised it without human contact? That would be an unethical experiment, one which humanity conducted by accident in the Romanian orphanages of the 1980s. The orphanages provided hundreds of babies with shelter and food, but almost no human contact due to lack of funding and staff. The unattended children developed problems as they grew up, rocking back and forth, wasting away despite eating enough, not connecting with other people.
 
 section: New Relationship Energy
@@ -721,8 +783,11 @@ https://en.wikipedia.org/wiki/New_relationship_energy
 The World as Will and Idea, by Arthur Schopenhauer, Volume III Chapter XLIV, The Metaphysics Of The Love Of The Sexes https://www.gutenberg.org/ebooks/40868
 https://en.wikipedia.org/wiki/Limerence
 
-chapter: What is Love?
-section: Love is Sacred
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_22_what_is_love.png 200px 200px Pair of rings
+
+chapter: What Is Love?
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_22_what_is_love.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_22_what_is_love.vtt
+section: Love Is Sacred
 Robin Hanson's theory is that we take love as a sacred cultural value. Making something sacred means that we all agree about it and don't touch it. But people have different opinions, we can't agree on almost anything except some universal generalities, gravity is down, sky is blue. Sanctifying something means that the group collectively agrees to treat it as an untouchable vague simple abstract, even if it is in fact a complex reality that affects us. The vagueness and importance of the sacred make people curious, they ask, what is love? The useless answer follows, love is a mysterious thing. This is a social Do Not Enter sign, don't touch the sacred. Anyone who tries to talk about the complex realities of a sacred subject, pointing to myself, is profaning the sacred, a traitor to group unity. While I cannot unravel all of human nature, we know plenty to understand the fundamentals of love.
 
 section: Love in Theory
@@ -766,7 +831,10 @@ Love is also a collection of skills. What makes someone a small person or a larg
 https://en.wikipedia.org/wiki/Love
 https://en.wikipedia.org/wiki/Interpersonal_relationship
 
-chapter: Organizations Pursue their Mission
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_23_organizations_pursue_their_mission.png 200px 200px Pill
+
+chapter: Organizations Pursue Their Mission
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_23_organizations_pursue_their_mission.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_23_organizations_pursue_their_mission.vtt
 section: The Benevolent Mission
 School is for learning, research is for discovery, hospitals are for health, companies are for profit, government is for better organizing society, courts are for justice,  jobs are for money, news is for information, religion is for spiritual growth, food is for nutrition, exercise is for muscle, marriage is for love. These are some commonly claimed missions of various organizations and practices. All of these things achieve their claimed mission at least a little bit. Of course you learn something at school, but is it even possible to learn nothing from an experience? The question is not whether someone can proclaim that they have a grand benevolent mission, which sounds very good, you should notice. The question is whether they can deliver grand benevolent results.
 
@@ -777,16 +845,16 @@ Pournelle's Iron Law of Bureaucracy. In any bureaucracy, the people devoted to t
 
 Stafford Beer. The purpose of any organization or system is not what it claims it is. The purpose of the system is what it does.
 
-section: School is for Learning
+section: School Is for Learning
 We always knew the basics of how people effectively learn. If learning was the goal, then school would consist of private or small group tutoring by competent experts who adapt the material to the students' talent and interest. They would teach topics that have immediate application to the students' life and improve retention using spaced repetition. Interaction with an instructor wouldn't take that long per pupil. Students can only focus intensely for a few brief periods in a day and would spend most of their time in unstructured play and some structured practice. Modern tools are capable of supporting even more effective learning methodologies. The common practice of school has almost nothing to do with learning. It is day-care for children so parents can work, it is indoctrination of cultural programming and a jobs program for unproductive adults.
 
-section: Research is for Discovery
+section: Research Is for Discovery
 People sincerely demand that other people must believe the science, which is an oxymoron for anyone who understands anything about science. Science is not a collection of facts or formulas, a literary tradition or a group of people. Science is the practice of empiricism, that is, the attitude of I don't believe what you tell me, I want to see for myself. People talk about the scientific method as if it were some rigid process or formula. You take people and money, mix them together according to the scientific method, and out comes science, eureka! OK, it's more complicated than that, the first step is to figure out which people get how much money. Uh oh. We failed on the first step.
 
-section: Hospitals are for Health
+section: Hospitals Are for Health
 Hospitals, medical professionals, pharmaceutical companies, I sincerely thank everyone in this sector for saving and healing the injured and sick, improving lives around the world. Just because a group does some of what they say their mission is, does not mean they are really pursuing their mission. Their mission isn't even to make you healthy, it's to heal the sick. Those are not the same. They obsess over what is an illness and how to fix it, and completely ignore anything that could make you better than not sick. If the medical system was interested in increasing your health, they would take a health maximizing mission, unify medical records, have transparent pricing, incentivize based on long term patient health, distribute massive volumes of medical information for anyone to study, perform bold voluntary medical research, incentivize cures over managing symptoms, allow a free market for medical education and certification, and more. Institutional Review Boards have more blood on their hands than any butcher in history.
 
-section: Companies are for Profit
+section: Companies Are for Profit
 Any company listed on the public stock market has a legally enforcable fiduciary duty to the shareholders, which means that the company must overall maximize profit. Shareholders could sue the directors of the company if they are negligent or corrupt, but companies waste tons of money and blow easy market opportunities all the time. The employees are not incentivized to increase the company's profit, so they seek their own benefits over the success of the company. Companies frequently die for preventable reasons.
 
 section: Living with Organizations
@@ -799,7 +867,10 @@ https://en.wikipedia.org/wiki/Regression_toward_the_mean
 https://en.wikipedia.org/wiki/The_Diamond_Age
 What's Our Problem https://inkwellmanagement.com/books/whats-our-problem
 
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_24_i_dont_need_anyone.png 200px 200px Genuflection
+
 chapter: I Don't Need Anyone
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_24_i_dont_need_anyone.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_24_i_dont_need_anyone.vtt
 section: Entitled Individualism
 Some cultures emphasize the group, some cultures emphasize the individual. Individualist cultures with rights, freedoms, protections and self determination, they empower the individual to make the most of their precious life within the society. The individual is not an island or a self sufficient sovereign, they still live within a culture and a society. The individual must cooperate with their society and fulfill the obligations that come with their rights. The problems come when individuals go beyond individualism to entitled individualism. I get what I want, my way, you can't do that, you didn't ask me, I don't have to, that has nothing to do with me. If you share a society, other people have something to do with you.
 
@@ -816,7 +887,10 @@ You are not the hero of the story of the world, you are a person. There are more
 
 https://en.wikipedia.org/wiki/Loyalty#Modern_concepts
 
-chapter: Death is Scary and Bad
+image: https://d1t2f25ea9u773.cloudfront.net/your_situation_25_death_is_scary_and_bad.png 200px 200px Burning candle
+
+chapter: Death Is Scary and Bad
+audio: https://d1t2f25ea9u773.cloudfront.net/your_situation_25_death_is_scary_and_bad.m4a audio/mp4 https://d1t2f25ea9u773.cloudfront.net/your_situation_25_death_is_scary_and_bad.vtt
 section: No Purpose
 Death is the cruel joke of life. Why create me only to destroy me? Why make me love people only to lose them, or make them lose me? Life is so mean! I previously thought that old age and death was a miserable consequence of the evolutionary focus on reproduction. After you reproduce, evolutionarily you don't matter, so whatever. Evolution optimizes sex, pregnancy, babies, children and young adults who become parents and start the cycle anew. Then evolution stops optimizing and your body coasts until it crashes in death. I was naive, I did not see the evolutionary purpose of old age and death. Evolution doesn't ignore anything, everything matters, inclusive fitness. There are species benefits to grandparents being unable to reproduce and caring for their grandchildren. There are benefits to frailty in old age, and benefits for death. Human life has several stages, those stages have certain lengths, each stage serves a function, and the lengths are optimized. Your death serves a purpose for the species, you don't exist from evolution's perspective.
 
@@ -864,7 +938,7 @@ I have all the information I need
 Miss crucial information
 Fog of war, physical, resource, computational limits, cost of information, cost-benefit, explore exploit
 Prioritize and fight for information
-This is Serious
+This Is Serious
 I have to play their game
 Suffer under others' rules, never play your own game
 Life is a metagame, dead and live players, define your rules, play to win
@@ -879,7 +953,7 @@ I have free will
 Fatalism or overestimate yourself
 Unpredictable determinism, praise and blame
 Agency in an unpredictable deterministic world
-I am a Success
+I Am a Success
 I know what success is and I can achieve it
 Empty wins or constant disappointment
 Species, human and personal success, waves, excellence
@@ -909,7 +983,7 @@ Like mind fallacy
 Misunderstand other people consistently
 Noticing like mind, surpassing like mind, capability modeling
 Predict other people more accurately
-I Knew I was Right
+I Knew I Was Right
 Confirmation bias
 Act on persistent inaccurate beliefs
 Reversed confidence, disconfirming evidence, seek the truth
@@ -919,37 +993,37 @@ No one can attack my mind
 Loss of mental control to aggresive memes
 Memes, psyops, negative suggestion, halo effect, anecdotes, memetic and antimemetic, virality, memetic defense
 Mental sovereignty
-My Emotions are Correct
+My Emotions Are Correct
 My emotions are always right, other people cause my emotions
 Feelings over facts leads to misguided actions
 Subconscious reaction to beliefs, created only by you, requires skill to interpret, independent verification
 Use emotions as a powerful tool
-I Just Want to be Happy
+I Just Want to Be Happy
 I am satisfiable
 Chase the illusion of happiness
 Lowered expectations, gratitude, humble ambition
 Live gratefully, pursue your values
-Talking is for Information Transfer
+Talking Is for Information Transfer
 I understand why people talk
 Fail to effectively use or understand speech, lose social games
 Filtering, social acceptance, implicit requests, dominance hierarchy, signaling, socially defined reality, when to speak
 Understand the rules of social games
-I am a Good Person
+I Am a Good Person
 I am a righteous hero
 Unable to consider your moral problems
 Accept that you can be bad
 Become able to make moral choices
-This is true love
+This Is True Love
 I don't need relationships, I must accept my relationships
 Suffer alone, suffer together
 New relationship energy, honor, limits to control, cost-benefit relationship management
 Beneficial relationships
-What is love?
+What Is Love?
 Love is sacred and mysterious
 You don't know what love is or how to love
 The sacred, commitment, love is a skill
 More love in your life
-Organizations Pursue their Mission
+Organizations Pursue Their Mission
 Organizations primarily do what they say they do
 Misunderstand organizations, fail to get what you want, get crushed
 Group mission vs individual goals, alignment of incentives, assertiveness
@@ -959,7 +1033,7 @@ I never need to surrender, compromise or coordinate
 Fail to coordinate with other people
 Individualism, loyalty, service, following, leading
 Achieve your goals through stable cooperation
-Death is Scary and Bad
+Death Is Scary and Bad
 Old age and death are pointless
 Fear and dissociate about old age and death, misplay your life stages
 Old age and death mechanics, pipeline of life stages, benefits of limitations, speedrunning
@@ -968,4 +1042,4 @@ subsection:
 
 The end of Your Situation
 Shakubuku. A swift spiritual kick to the head that alters your reality forever. https://www.imdb.com/title/tt0119229
-Version 12026 50
+Version 12026 55
