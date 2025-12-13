@@ -62,6 +62,7 @@ function titleCase(s, allCaps, apostropheMap) {
         'following',
         'for',
         'from',
+        'in',
         'inside',
         'instead',
         'into',
@@ -388,7 +389,7 @@ function smaller() {
 
 function changeBook() {
     if (window.location.pathname.length > 1) {
-        window.location = '/';
+//        window.location = '/';
         return;
     }
     loadBook('index.book');
@@ -851,6 +852,7 @@ function renderBook(lines) {
         } else {
             value = sentenceCase(value, capitalizes, allCaps, apostropheMap);
         }
+
         if ((key === 'chapter') || (key === 'section') || (key === 'subsection')) {
             let myCleanId = cleanId(value);
             $line.attr('id', myCleanId);
@@ -867,13 +869,16 @@ function renderBook(lines) {
             $currentSection = $line;
         } else if (key === 'class') {
             $line.addClass(value);
-        } else if ((key !== 'audio') && (key !== 'image')) {
+        } else if ((key !== 'audio') && (key !== 'image') && (key !== 'grid2') && (key !== 'grid3') && (key !== 'grid4') && (key !== 'grid5') && (key !== 'grid6')) {
             $line.html(value);
         }
         if (key === 'subtitle') {
             let $lineOuter = $('<h2>');
             $lineOuter.append($line)
             $line = $lineOuter;
+        }
+        if ((key === 'bold') || (key === 'italic')) {
+            $line = $('<p>').append($line);
         }
         if (key === 'dom') {
             $line.html('');
