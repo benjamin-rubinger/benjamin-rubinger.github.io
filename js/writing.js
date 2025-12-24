@@ -388,6 +388,7 @@ function smaller() {
 }
 
 function changeBook() {
+    console.log(`change book ${window.location} ${window.location.pathname.length > 1}`);
     if (window.location.pathname.length > 1) {
 //        window.location = '/';
         return;
@@ -608,6 +609,7 @@ function renderBook(lines) {
     };
 
     const brands = {
+        'grokipedia.com': 'x-twitter',
         'twitter.com': 'x-twitter',  // https://github.com/FortAwesome/Font-Awesome/issues/19925
         'wikipedia.org': 'wikipedia-w',
         'x.com': 'x-twitter',
@@ -829,7 +831,7 @@ function renderBook(lines) {
                     }
                     let linkDescriptionHtml = value.substring(0, urlMatch.index);
                     if (!linkDescriptionHtml) {
-                        if (domain === 'wikipedia.org') {
+                        if ((domain === 'grokipedia.com') || (domain === 'wikipedia.org')) {
                             linkDescriptionHtml = lastPathName(url).toLowerCase();
                         } else {
                             linkDescriptionHtml = domain.replaceAll(/\.\w+/g, '');
@@ -998,7 +1000,9 @@ function initializeWriting() {
         if (hash) {
             loadBook(hash);
         } else {
-//            loadBook('index.book');
+            if ($('#book').children().length === 0) {
+                loadBook('index.book');
+            }
         }
     } else {
         registerObservers();
