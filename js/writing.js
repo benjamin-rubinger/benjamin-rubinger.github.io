@@ -600,6 +600,7 @@ function renderBook(lines) {
         'pre': 'pre',
         'quote': 'blockquote',
         'section': 'section',
+        'space': 'br',
         'subsection': 'div',
         'subtitle': 'i',
         'title': 'h1',
