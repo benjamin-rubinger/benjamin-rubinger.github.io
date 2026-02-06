@@ -7,13 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://benjamin-rubinger.github.io/your-situation.html</loc>
+    <loc>https://benjamin-rubinger.github.io/best-human-earth-calendar.html</loc>
     <lastmod>2025-11-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://benjamin-rubinger.github.io/best-human-earth-calendar.html</loc>
+    <loc>https://benjamin-rubinger.github.io/human-carrying-capacity-of-the-earth.html</loc>
+    <lastmod>2025-11-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://benjamin-rubinger.github.io/who-gets-what.html</loc>
+    <lastmod>2025-11-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://benjamin-rubinger.github.io/your-situation.html</loc>
     <lastmod>2025-11-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
