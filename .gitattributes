@@ -1,0 +1,3 @@
+*.html diff=html
+*.html linguist-generated=true
+
